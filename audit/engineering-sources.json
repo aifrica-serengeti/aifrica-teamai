@@ -1,0 +1,152 @@
+{
+  "importedAt": "2026-10-20",
+  "upstreamReverified": false,
+  "sourceRepository": "project.serengeti-cmp",
+  "files": [
+    {
+      "source": "docs/frontend/sources.json",
+      "target": "docs/frontend/technology/sources.json",
+      "sha256": "1fb655609a05b6fe972dd4b93e6415f5ed55882d6457e7a08ccfd11ddde7ffb4"
+    },
+    {
+      "source": "docs/frontend/css.md",
+      "target": "docs/frontend/technology/css.md",
+      "sha256": "9266b653c781a574f7260252bef98be2cda2742852b7d9322d2a1fecf739e85b"
+    },
+    {
+      "source": "docs/frontend/nextjs.md",
+      "target": "docs/frontend/technology/nextjs.md",
+      "sha256": "61c906d1568746cadae27efb92a7f957bcf3a41d9327b24a5d1d38169c93f950"
+    },
+    {
+      "source": "docs/frontend/update-policy.md",
+      "target": "docs/frontend/technology/update-policy.md",
+      "sha256": "9f0925f65f37412b0a8ad5401c3642b5f39d8dd650d38357d42bbdd826bd25b1"
+    },
+    {
+      "source": "docs/frontend/javascript.md",
+      "target": "docs/frontend/technology/javascript.md",
+      "sha256": "464165b3d6e9d2a22ca1ed69ef7ae1efbd56267bb3b04379879ad1122f34b4ce"
+    },
+    {
+      "source": "docs/frontend/README.md",
+      "target": "docs/frontend/technology/README.md",
+      "sha256": "f33877948da678727e88ee35215057809a508d8c9b7decb502931e575e51a0e8"
+    },
+    {
+      "source": "docs/frontend/react.md",
+      "target": "docs/frontend/technology/react.md",
+      "sha256": "0bea2da39cb4f36c0213bde6a06d355f66b073f827d87e8c14e4a50ccf5ebfdd"
+    },
+    {
+      "source": "docs/frontend/typescript.md",
+      "target": "docs/frontend/technology/typescript.md",
+      "sha256": "72536fdf4abe3c1b667f32cb0c3e46613fc30a66ca2420534a29d591343606a4"
+    },
+    {
+      "source": "docs/frontend/html.md",
+      "target": "docs/frontend/technology/html.md",
+      "sha256": "05cead3ca7d0dd529c42e6700d04d94824e8bb57d7d348e6bddf452f8692822d"
+    },
+    {
+      "source": "docs/frontend/nextjs/security-auth-data.md",
+      "target": "docs/frontend/technology/nextjs/security-auth-data.md",
+      "sha256": "bc885dc37900e39ccf6fc3896cddddcde40c690f101f27e2fa350f200e933075"
+    },
+    {
+      "source": "docs/frontend/nextjs/mutations-forms-actions.md",
+      "target": "docs/frontend/technology/nextjs/mutations-forms-actions.md",
+      "sha256": "e714a4f576f7b649475077b42dda19e8f8963a29a7c70335975d7799b2ad04ea"
+    },
+    {
+      "source": "docs/frontend/nextjs/configuration-migration.md",
+      "target": "docs/frontend/technology/nextjs/configuration-migration.md",
+      "sha256": "09536eff978914f3b8e46254a963016776e2056b7c18abe769b32e9ec2f04e40"
+    },
+    {
+      "source": "docs/frontend/nextjs/README.md",
+      "target": "docs/frontend/technology/nextjs/README.md",
+      "sha256": "ec5a181cc3a5aad3a42bc829b41f71269b13249a28fdab83af3ed18e376a28b6"
+    },
+    {
+      "source": "docs/frontend/nextjs/rendering-boundaries.md",
+      "target": "docs/frontend/technology/nextjs/rendering-boundaries.md",
+      "sha256": "fecfddc925c44e0c70d58e1999b880a10d5cb63d96cefc3cfa2ea79a383441f3"
+    },
+    {
+      "source": "docs/frontend/nextjs/routing-file-conventions.md",
+      "target": "docs/frontend/technology/nextjs/routing-file-conventions.md",
+      "sha256": "41172c81a1f9e5e64a14a42ea27910b0652167a17974c4fdd40a57ba27cc68f0"
+    },
+    {
+      "source": "docs/frontend/nextjs/route-handlers-request-apis.md",
+      "target": "docs/frontend/technology/nextjs/route-handlers-request-apis.md",
+      "sha256": "e4e3c9cd095924573b8138b13ec455e36478faa3b4ca7f3dac54b2f36d02209f"
+    },
+    {
+      "source": "docs/frontend/nextjs/data-cache-revalidation.md",
+      "target": "docs/frontend/technology/nextjs/data-cache-revalidation.md",
+      "sha256": "d86a82667a26f50ef87c22228cd24291cb3a167725bb74f963735d2384c45057"
+    },
+    {
+      "source": "docs/frontend/nextjs/testing-observability-production.md",
+      "target": "docs/frontend/technology/nextjs/testing-observability-production.md",
+      "sha256": "aa8b1bc51480f47fb4db204e4c77472d5f42d278b3406cf2ce7da86254a9445f"
+    },
+    {
+      "source": "docs/frontend/nextjs/metadata-assets-seo.md",
+      "target": "docs/frontend/technology/nextjs/metadata-assets-seo.md",
+      "sha256": "bc8cd9adb5ac64549aa24e3cb0d535a3c07255564469515753291eaf3a8d800c"
+    },
+    {
+      "source": "docs/frontend/nextjs/navigation-url-state.md",
+      "target": "docs/frontend/technology/nextjs/navigation-url-state.md",
+      "sha256": "eabda205e8b7945dbf8df335c7f90e222e6302da8940a47f0fe28315c86c78b1"
+    },
+    {
+      "source": "docs/frontend/react/performance-compiler.md",
+      "target": "docs/frontend/technology/react/performance-compiler.md",
+      "sha256": "803070d1172e78dca13500cdb53f1a7a543b9be1381871f658ff99ea725bcf3c"
+    },
+    {
+      "source": "docs/frontend/react/state-and-events.md",
+      "target": "docs/frontend/technology/react/state-and-events.md",
+      "sha256": "7c13baa09c97dbf2ca6e0a5d7b4455d8c9e2a3038facdb118a3ee3e5894f2ab2"
+    },
+    {
+      "source": "docs/frontend/react/testing-lint-rules.md",
+      "target": "docs/frontend/technology/react/testing-lint-rules.md",
+      "sha256": "2a6ce9ac2442c78b97118f92a6e313702a9fdb6fbdadec8c6085890b1a7425a2"
+    },
+    {
+      "source": "docs/frontend/react/dom-forms-resources.md",
+      "target": "docs/frontend/technology/react/dom-forms-resources.md",
+      "sha256": "4106f8e45594229ba5a75840473619a419c1af9c5ede2fd6e9aa2191182ff969"
+    },
+    {
+      "source": "docs/frontend/react/async-actions-suspense.md",
+      "target": "docs/frontend/technology/react/async-actions-suspense.md",
+      "sha256": "4d459a4ace044d8adfd3a86f5a330ff123f1e4346826a7e4f9db3afab8165e61"
+    },
+    {
+      "source": "docs/frontend/react/effects-refs-external-store.md",
+      "target": "docs/frontend/technology/react/effects-refs-external-store.md",
+      "sha256": "b2457c82641344456c04fb46770abcfabc0aacd96818aa96c33e065cd1b419be"
+    },
+    {
+      "source": "docs/frontend/react/README.md",
+      "target": "docs/frontend/technology/react/README.md",
+      "sha256": "56e01ae7ab6b700ad615c153319949c3a7d47974c898ddbac74fc2ebce34b783"
+    },
+    {
+      "source": "docs/frontend/react/context-identity-reuse.md",
+      "target": "docs/frontend/technology/react/context-identity-reuse.md",
+      "sha256": "76ab8ee75bade51ef2e83c9fa8dbf53b8500b6b3d91b17756f52fdc72e318882"
+    },
+    {
+      "source": "docs/frontend/react/rendering-server-hydration.md",
+      "target": "docs/frontend/technology/react/rendering-server-hydration.md",
+      "sha256": "a087bc79133557b4e3ca476a55ac347ea2b692f930a9b855c479ec824b244351"
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "sourceCommit": "3f1da2942839cabf5a5ef56fd1f30d68fde7f4d4",
+  "implemented": 32,
+  "publicExportsVerified": 32,
+  "publicEntry": "src/core/components/index.ts",
+  "findings": [
+    {
+      "id": "ActionBar",
+      "source": "src/core/components/common/action-bar/ActionBar.tsx",
+      "expectedExports": [
+        "ActionBar"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "AsyncContentState",
+      "source": "src/core/components/common/refresh-content-overlay/RefreshContentOverlay.tsx",
+      "expectedExports": [
+        "DetailLoadingState",
+        "RefreshContentOverlay"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": false,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "ContentState",
+      "source": "src/core/components/common/content-state/ContentState.tsx",
+      "expectedExports": [
+        "ContentState"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Button",
+      "source": "src/core/components/common/button/Button.tsx",
+      "expectedExports": [
+        "Button"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Calendar",
+      "source": "src/core/components/layout/calendar/Calendar.tsx",
+      "expectedExports": [
+        "Calendar"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Card",
+      "source": "src/core/components/layout/card/Card.tsx",
+      "expectedExports": [
+        "Card"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "CardAccordion",
+      "source": "src/core/components/layout/card-accordion/CardAccordion.tsx",
+      "expectedExports": [
+        "CardAccordion"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "DatePicker",
+      "source": "src/core/components/shadcn/date-picker/DatePicker.tsx",
+      "expectedExports": [
+        "DatePicker"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "DetailSection",
+      "source": "src/core/components/layout/detail-section/DetailSection.tsx",
+      "expectedExports": [
+        "DetailSection"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Dialog",
+      "source": "src/core/components/layout/dialog/Dialog.tsx",
+      "expectedExports": [
+        "DialogContent"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "EditConfirmationDialog",
+      "source": "src/core/components/common/edit-confirmation-dialog/EditConfirmationDialog.tsx",
+      "expectedExports": [
+        "EditConfirmationDialog"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Icon",
+      "source": "src/core/components/common/icon/Icon.tsx",
+      "expectedExports": [
+        "Icon"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "PrivateIcon",
+      "source": "src/core/components/common/private-icon/PrivateIcon.tsx",
+      "expectedExports": [
+        "PrivateIcon"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Input",
+      "source": "src/core/components/shadcn/input/Input.tsx",
+      "expectedExports": [
+        "InputField"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "ListContentState",
+      "source": "src/core/components/common/list-content-state/ListContentState.tsx",
+      "expectedExports": [
+        "ListContentState"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Notification",
+      "source": "src/core/components/common/notification/Notification.tsx",
+      "expectedExports": [
+        "Notification",
+        "NotificationContainer",
+        "NotificationProvider",
+        "NotificationToast",
+        "NotificationToastGroup"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": false,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "NumberInput",
+      "source": "src/core/components/shadcn/number-input/NumberInput.tsx",
+      "expectedExports": [
+        "NumberInput"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "OpenPanel",
+      "source": "src/core/components/layout/open-panel/OpenPanel.tsx",
+      "expectedExports": [
+        "OpenPanel"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "PageHeader",
+      "source": "src/core/components/layout/page-header/PageHeader.tsx",
+      "expectedExports": [
+        "PageHeader"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Pagination",
+      "source": "src/core/components/layout/pagination/Pagination.tsx",
+      "expectedExports": [
+        "Pagination"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Radio",
+      "source": "src/core/components/shadcn/radio/Radio.tsx",
+      "expectedExports": [
+        "Radio"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "SNBV2",
+      "source": "src/core/components/layout/snb-v2/SNBV2.tsx",
+      "expectedExports": [
+        "SNBV2"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Scrollbar",
+      "source": "src/core/components/layout/scrollbar/ScrollArea.tsx",
+      "expectedExports": [
+        "ScrollArea"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "SegmentedControl",
+      "source": "src/core/components/shadcn/segmented-control/SegmentedControl.tsx",
+      "expectedExports": [
+        "SegmentedControl"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Select",
+      "source": "src/core/components/shadcn/select/Select.tsx",
+      "expectedExports": [
+        "Select"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Slider",
+      "source": "src/core/components/shadcn/slider/Slider.tsx",
+      "expectedExports": [
+        "Slider"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Skeleton",
+      "source": "src/core/components/shadcn/skeleton/Skeleton.tsx",
+      "expectedExports": [
+        "Skeleton"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Spinner",
+      "source": "src/core/components/common/spinner/Spinner.tsx",
+      "expectedExports": [
+        "Spinner"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "SplitButton",
+      "source": "src/core/components/common/split-button/SplitButton.tsx",
+      "expectedExports": [
+        "SplitButton"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Stepper",
+      "source": "src/core/components/layout/stepper/Stepper.tsx",
+      "expectedExports": [
+        "Stepper"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Tab",
+      "source": "src/core/components/layout/tab/Tab.tsx",
+      "expectedExports": [
+        "Tab"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    },
+    {
+      "id": "Table",
+      "source": "src/core/components/layout/table/Table.tsx",
+      "expectedExports": [
+        "Table"
+      ],
+      "sourceFilePresent": true,
+      "allExportsInSourceFile": true,
+      "allExportsInPublicEntry": true
+    }
+  ],
+  "limits": "Read-only TypeScript export discovery; no emit, full build, Props/runtime or UI validation. Comma-separated registry exports may be provided by several modules through the public entry. Historical source observation is not inherited into a consuming product."
+}

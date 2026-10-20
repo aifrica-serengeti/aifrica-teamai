@@ -1,0 +1,307 @@
+{
+  "root": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em",
+  "cliVersion": "codex-cli 0.139.0",
+  "expectedNames": [
+    "aifrica-design-system",
+    "aifrica-frontend-architecture-refactor",
+    "aifrica-frontend-docs",
+    "aifrica-frontend-github-workflow",
+    "aifrica-frontend-workflow",
+    "aifrica-page-patterns",
+    "aifrica-ui-architecture-design"
+  ],
+  "response": {
+    "id": 2,
+    "result": {
+      "data": [
+        {
+          "cwd": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/teamai-default",
+          "skills": [
+            {
+              "name": "aifrica-design-system",
+              "description": "Aifrica frontend의 component·semantic token·typography·spacing·border·접근성 계약을 적용하거나 확장한다. 회사 공용 기준과 솔루션·local adoption을 합성하고 실제 컴포넌트 재사용 및 registry 정합성을 검증할 때 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/teamai-default/.codex/skills/aifrica-design-system/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-frontend-architecture-refactor",
+              "description": "Aifrica frontend의 TypeScript 타입·모듈·directory·import·의존 경계를 동작 보존으로 감사하고 정리한다. DTO·domain·draft·page state·Props 배치, 모듈 이동, 중복·private deep import·cycle 제거에 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/teamai-default/.codex/skills/aifrica-frontend-architecture-refactor/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-frontend-docs",
+              "description": "사용자가 명시적으로 요청한 Aifrica frontend 기술 지식 snapshot 최신화·공식 재검증·보안·deprecation·migration 점검을 수행한다. 일반 UI 구현이나 날짜 경과만으로 실행하지 않는다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/teamai-default/.codex/skills/aifrica-frontend-docs/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-frontend-github-workflow",
+              "description": "Aifrica frontend의 Git·GitHub 요청 단계에 따라 Issue·branch/worktree·commit·push·PR·review·merge·정리를 수행한다. GitHub lifecycle이 요청된 경우에 사용하며 일반 UI 구현만으로 원격 작업을 시작하지 않는다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/teamai-default/.codex/skills/aifrica-frontend-github-workflow/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-frontend-workflow",
+              "description": "Aifrica frontend 공통 지식·디자인 시스템·상태 소유권을 적용해 UI를 구현하거나 리뷰한다. 컴포넌트 및 List/Create/Detail 페이지 변경에 사용한다. GitHub 단계 실행만 요청되면 github-workflow를 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/teamai-default/.codex/skills/aifrica-frontend-workflow/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-page-patterns",
+              "description": "Aifrica frontend List·Create·Detail 페이지를 공용 상태·조립·접근성 계약에 맞게 설계·구현·리뷰한다. 솔루션별 컬럼·필드·탭·route·theme을 확장으로 합성할 때 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/teamai-default/.codex/skills/aifrica-page-patterns/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-ui-architecture-design",
+              "description": "Aifrica frontend 새 기능·모듈·상태·API adapter·public UI 경계를 설계한다. 사용자 흐름과 수명에서 소유권·의존 방향·검증 계획을 도출할 때 사용한다. 기존 코드의 동작 보존 이동만 필요하면 architecture-refactor를 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/teamai-default/.codex/skills/aifrica-ui-architecture-design/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "imagegen",
+              "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+              "interface": {
+                "displayName": "Image Gen",
+                "shortDescription": "Generate or edit images for websites, games, and more",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/imagegen/assets/imagegen-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/imagegen/assets/imagegen.png",
+                "brandColor": null,
+                "defaultPrompt": "Use $imagegen to make or edit an image for this project."
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/imagegen/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            },
+            {
+              "name": "openai-docs",
+              "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
+              "interface": {
+                "displayName": "OpenAI Docs",
+                "shortDescription": "Reference OpenAI docs, Codex self-knowledge, and model migration guidance",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/openai-docs/assets/openai-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/openai-docs/assets/openai.png",
+                "brandColor": null,
+                "defaultPrompt": "Use OpenAI Docs for official docs lookup, questions about Codex itself or Codex surfaces, model selection, model migration, and prompt-upgrade work."
+              },
+              "dependencies": {
+                "tools": [
+                  {
+                    "type": "mcp",
+                    "value": "openaiDeveloperDocs",
+                    "description": "OpenAI Developer Docs MCP server",
+                    "transport": "streamable_http",
+                    "url": "https://developers.openai.com/mcp"
+                  }
+                ]
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/openai-docs/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            },
+            {
+              "name": "plugin-creator",
+              "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by default. Use when Codex needs to create a new personal plugin, add optional plugin structure, generate or update marketplace entries for plugin ordering and availability metadata, or update an existing local plugin during development with the CLI-driven cachebuster and reinstall flow.",
+              "interface": {
+                "displayName": "Plugin Creator",
+                "shortDescription": "Scaffold plugins and marketplace entries",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/plugin-creator/assets/plugin-creator-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/plugin-creator/assets/plugin-creator.png",
+                "brandColor": null,
+                "defaultPrompt": "Use $plugin-creator to scaffold a valid plugin in the personal marketplace, then validate it before handing it back."
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/plugin-creator/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            },
+            {
+              "name": "skill-creator",
+              "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
+              "shortDescription": "Create or update a skill",
+              "interface": {
+                "displayName": "Skill Creator",
+                "shortDescription": "Create or update a skill",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+                "brandColor": null,
+                "defaultPrompt": null
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-creator/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            },
+            {
+              "name": "skill-installer",
+              "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+              "shortDescription": "Install curated skills from openai/skills or other repos",
+              "interface": {
+                "displayName": "Skill Installer",
+                "shortDescription": "Install curated skills from openai/skills or other repos",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+                "brandColor": null,
+                "defaultPrompt": null
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-installer/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            }
+          ],
+          "errors": []
+        },
+        {
+          "cwd": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/official-path",
+          "skills": [
+            {
+              "name": "aifrica-design-system",
+              "description": "Aifrica frontend의 component·semantic token·typography·spacing·border·접근성 계약을 적용하거나 확장한다. 회사 공용 기준과 솔루션·local adoption을 합성하고 실제 컴포넌트 재사용 및 registry 정합성을 검증할 때 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/official-path/.agents/skills/aifrica-design-system/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-frontend-architecture-refactor",
+              "description": "Aifrica frontend의 TypeScript 타입·모듈·directory·import·의존 경계를 동작 보존으로 감사하고 정리한다. DTO·domain·draft·page state·Props 배치, 모듈 이동, 중복·private deep import·cycle 제거에 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/official-path/.agents/skills/aifrica-frontend-architecture-refactor/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-frontend-docs",
+              "description": "사용자가 명시적으로 요청한 Aifrica frontend 기술 지식 snapshot 최신화·공식 재검증·보안·deprecation·migration 점검을 수행한다. 일반 UI 구현이나 날짜 경과만으로 실행하지 않는다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/official-path/.agents/skills/aifrica-frontend-docs/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-frontend-github-workflow",
+              "description": "Aifrica frontend의 Git·GitHub 요청 단계에 따라 Issue·branch/worktree·commit·push·PR·review·merge·정리를 수행한다. GitHub lifecycle이 요청된 경우에 사용하며 일반 UI 구현만으로 원격 작업을 시작하지 않는다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/official-path/.agents/skills/aifrica-frontend-github-workflow/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-frontend-workflow",
+              "description": "Aifrica frontend 공통 지식·디자인 시스템·상태 소유권을 적용해 UI를 구현하거나 리뷰한다. 컴포넌트 및 List/Create/Detail 페이지 변경에 사용한다. GitHub 단계 실행만 요청되면 github-workflow를 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/official-path/.agents/skills/aifrica-frontend-workflow/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-page-patterns",
+              "description": "Aifrica frontend List·Create·Detail 페이지를 공용 상태·조립·접근성 계약에 맞게 설계·구현·리뷰한다. 솔루션별 컬럼·필드·탭·route·theme을 확장으로 합성할 때 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/official-path/.agents/skills/aifrica-page-patterns/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "aifrica-ui-architecture-design",
+              "description": "Aifrica frontend 새 기능·모듈·상태·API adapter·public UI 경계를 설계한다. 사용자 흐름과 수명에서 소유권·의존 방향·검증 계획을 도출할 때 사용한다. 기존 코드의 동작 보존 이동만 필요하면 architecture-refactor를 사용한다.",
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/official-path/.agents/skills/aifrica-ui-architecture-design/SKILL.md",
+              "scope": "repo",
+              "enabled": true
+            },
+            {
+              "name": "imagegen",
+              "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+              "interface": {
+                "displayName": "Image Gen",
+                "shortDescription": "Generate or edit images for websites, games, and more",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/imagegen/assets/imagegen-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/imagegen/assets/imagegen.png",
+                "brandColor": null,
+                "defaultPrompt": "Use $imagegen to make or edit an image for this project."
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/imagegen/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            },
+            {
+              "name": "openai-docs",
+              "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
+              "interface": {
+                "displayName": "OpenAI Docs",
+                "shortDescription": "Reference OpenAI docs, Codex self-knowledge, and model migration guidance",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/openai-docs/assets/openai-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/openai-docs/assets/openai.png",
+                "brandColor": null,
+                "defaultPrompt": "Use OpenAI Docs for official docs lookup, questions about Codex itself or Codex surfaces, model selection, model migration, and prompt-upgrade work."
+              },
+              "dependencies": {
+                "tools": [
+                  {
+                    "type": "mcp",
+                    "value": "openaiDeveloperDocs",
+                    "description": "OpenAI Developer Docs MCP server",
+                    "transport": "streamable_http",
+                    "url": "https://developers.openai.com/mcp"
+                  }
+                ]
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/openai-docs/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            },
+            {
+              "name": "plugin-creator",
+              "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by default. Use when Codex needs to create a new personal plugin, add optional plugin structure, generate or update marketplace entries for plugin ordering and availability metadata, or update an existing local plugin during development with the CLI-driven cachebuster and reinstall flow.",
+              "interface": {
+                "displayName": "Plugin Creator",
+                "shortDescription": "Scaffold plugins and marketplace entries",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/plugin-creator/assets/plugin-creator-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/plugin-creator/assets/plugin-creator.png",
+                "brandColor": null,
+                "defaultPrompt": "Use $plugin-creator to scaffold a valid plugin in the personal marketplace, then validate it before handing it back."
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/plugin-creator/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            },
+            {
+              "name": "skill-creator",
+              "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
+              "shortDescription": "Create or update a skill",
+              "interface": {
+                "displayName": "Skill Creator",
+                "shortDescription": "Create or update a skill",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+                "brandColor": null,
+                "defaultPrompt": null
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-creator/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            },
+            {
+              "name": "skill-installer",
+              "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+              "shortDescription": "Install curated skills from openai/skills or other repos",
+              "interface": {
+                "displayName": "Skill Installer",
+                "shortDescription": "Install curated skills from openai/skills or other repos",
+                "iconSmall": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+                "iconLarge": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+                "brandColor": null,
+                "defaultPrompt": null
+              },
+              "path": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-codex-skill-discovery-pbzab6em/home/.codex/skills/.system/skill-installer/SKILL.md",
+              "scope": "system",
+              "enabled": true
+            }
+          ],
+          "errors": []
+        }
+      ]
+    }
+  },
+  "modelCalled": false
+}

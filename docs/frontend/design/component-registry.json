@@ -1,0 +1,1138 @@
+{
+  "schemaVersion": 1,
+  "brand": "Aifrica frontend reference contracts",
+  "description": "공통 상세 디자인 참조 계약. 모든 implementation은 미매핑이며 솔루션의 검증된 public mapping이 별도로 필요하다.",
+  "implementationStatuses": [
+    "unmapped"
+  ],
+  "sourceBaseline": {
+    "repository": "project.serengeti-cmp",
+    "commit": "29f7019c33b7c8b9e66d6c3253bad7428b722049",
+    "status": "extracted-reference-not-company-approved"
+  },
+  "components": [
+    {
+      "id": "ActionBar",
+      "name": "Action Bar",
+      "aliases": [
+        "Action bar",
+        "액션 바"
+      ],
+      "category": "actions",
+      "layer": "common",
+      "docs": "components/ActionBar/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "AsyncContentState",
+      "name": "Async Content State",
+      "aliases": [
+        "비동기 콘텐츠 상태",
+        "로딩 상태",
+        "DetailLoadingState",
+        "RefreshContentOverlay"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/AsyncContentState/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Spinner"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "ContentState",
+      "name": "Content State",
+      "aliases": [
+        "페이지 상태",
+        "상세 조회 오류",
+        "접근 제한",
+        "페이지 재시도"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/ContentState/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon",
+        "Button"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Avatar",
+      "name": "Avatar",
+      "aliases": [
+        "아바타",
+        "프로필 이미지"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/Avatar/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Badge",
+      "name": "Badge",
+      "aliases": [
+        "배지",
+        "알림 배지"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/Badge/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Breadcrumb",
+      "name": "Breadcrumb",
+      "aliases": [
+        "브레드크럼",
+        "경로 표시"
+      ],
+      "category": "navigation",
+      "layer": "common",
+      "docs": "components/Breadcrumb/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "IconButton",
+        "Menu",
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Button",
+      "name": "Button",
+      "aliases": [
+        "버튼",
+        "액션 버튼"
+      ],
+      "category": "actions",
+      "layer": "primitive",
+      "docs": "components/Button/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Calendar",
+      "name": "Calendar",
+      "aliases": [
+        "캘린더",
+        "달력",
+        "월 선택 캘린더",
+        "공휴일 달력"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/Calendar/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Button",
+        "IconButton",
+        "TextButton"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Card",
+      "name": "Card",
+      "aliases": [
+        "카드",
+        "콘텐츠 카드",
+        "카드 보조 설명"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/Card/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Chip",
+        "IconButton",
+        "Button",
+        "Link",
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "CardAccordion",
+      "name": "Card Accordion",
+      "aliases": [
+        "CardAccordion",
+        "카드 아코디언"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/CardAccordion/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon",
+        "Button",
+        "IconButton"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Checkbox",
+      "name": "Checkbox",
+      "aliases": [
+        "체크박스",
+        "Checkbox Group"
+      ],
+      "category": "form",
+      "layer": "primitive",
+      "docs": "components/Checkbox/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Chip",
+      "name": "Chip",
+      "aliases": [
+        "칩",
+        "태그"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/Chip/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon",
+        "IconButton"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "DatePicker",
+      "name": "Date Picker",
+      "aliases": [
+        "DatePicker",
+        "날짜 선택",
+        "월 선택 입력",
+        "휴일 날짜 선택",
+        "Dialog 날짜 선택",
+        "캘린더 팝업 모션",
+        "날짜 선택 팝업 그림자"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/DatePicker/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Input",
+        "IconButton",
+        "Calendar",
+        "Scrollbar"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "DetailField",
+      "name": "Detail Field",
+      "aliases": [
+        "DetailField",
+        "상세 필드"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/DetailField/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Input"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "DetailSection",
+      "name": "Detail Section",
+      "aliases": [
+        "DetailSection",
+        "상세 정보 카드",
+        "정보 섹션"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/DetailSection/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Dialog",
+      "name": "Dialog",
+      "aliases": [
+        "다이얼로그",
+        "모달",
+        "확인 다이얼로그",
+        "confirmation dialog",
+        "토스트 외부 클릭 예외"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/Dialog/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "IconButton",
+        "Button",
+        "SegmentedControl",
+        "Input",
+        "Scrollbar"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Divider",
+      "name": "Divider",
+      "aliases": [
+        "디바이더",
+        "구분선",
+        "Separator"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/Divider/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Dropdown",
+      "name": "Dropdown",
+      "aliases": [
+        "드롭다운",
+        "단일 선택"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/Dropdown/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Menu",
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "EditConfirmationDialog",
+      "name": "Edit Confirmation Dialog",
+      "aliases": [
+        "수정 확인 다이얼로그",
+        "저장 확인 모달"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/EditConfirmationDialog/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Dialog",
+        "Button"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Icon",
+      "name": "Icon",
+      "aliases": [
+        "아이콘",
+        "System icon"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/Icon/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "PrivateIcon",
+      "name": "Private Icon",
+      "aliases": [
+        "Private icon",
+        "Brand icon",
+        "Cloud provider icon",
+        "Technology icon",
+        "클라우드 아이콘",
+        "기술 아이콘"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/PrivateIcon/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "IconButton",
+      "name": "Icon Button",
+      "aliases": [
+        "IconButton",
+        "아이콘 버튼"
+      ],
+      "category": "actions",
+      "layer": "primitive",
+      "docs": "components/IconButton/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Input",
+      "name": "Input",
+      "aliases": [
+        "인풋",
+        "텍스트 입력",
+        "InputField",
+        "입력칸 보조 액션",
+        "브라우저 검증 오류"
+      ],
+      "category": "form",
+      "layer": "primitive",
+      "docs": "components/Input/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "IconButton",
+        "Icon",
+        "Tooltip"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "InputListField",
+      "name": "Input List Field",
+      "aliases": [
+        "InputListField",
+        "반복 입력 필드"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/InputListField/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Input",
+        "Button",
+        "IconButton"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Link",
+      "name": "Link",
+      "aliases": [
+        "링크",
+        "텍스트 링크"
+      ],
+      "category": "actions",
+      "layer": "primitive",
+      "docs": "components/Link/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Menu",
+      "name": "Menu",
+      "aliases": [
+        "메뉴",
+        "Dropdown Menu"
+      ],
+      "category": "navigation",
+      "layer": "common",
+      "docs": "components/Menu/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon",
+        "Avatar",
+        "Checkbox",
+        "Switch",
+        "Chip",
+        "Badge",
+        "Divider"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "ListContentState",
+      "name": "List Content State",
+      "aliases": [
+        "목록 빈 상태",
+        "카드 목록 빈 결과",
+        "필터 결과 없음",
+        "목록 최초 오류",
+        "목록 재시도",
+        "Small 테이블 빈 상태"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/ListContentState/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "ContentState"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Notification",
+      "name": "Notification",
+      "aliases": [
+        "알림",
+        "토스트",
+        "inline notification",
+        "notification container",
+        "NotificationProvider",
+        "NotificationToast",
+        "NotificationToastGroup",
+        "API 오류 토스트",
+        "모달 오류 알림",
+        "제목 줄바꿈 알림"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/Notification/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Status",
+        "Link",
+        "IconButton",
+        "Button",
+        "Scrollbar"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "NumberInput",
+      "name": "Number Input",
+      "aliases": [
+        "NumberInput",
+        "숫자 입력",
+        "단위 숫자 입력",
+        "지수 표기 차단 숫자 입력"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/NumberInput/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "IconButton",
+        "Icon",
+        "Tooltip"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "OpenPanel",
+      "name": "Open Panel",
+      "aliases": [
+        "OpenPanel",
+        "슬라이드 패널",
+        "Sheet"
+      ],
+      "category": "content-feedback",
+      "layer": "layout",
+      "docs": "components/OpenPanel/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Button",
+        "IconButton",
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "PageHeader",
+      "name": "Page Header",
+      "aliases": [
+        "PageHeader",
+        "페이지 헤더",
+        "상세 헤더 액션"
+      ],
+      "category": "navigation",
+      "layer": "layout",
+      "docs": "components/PageHeader/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "IconButton",
+        "Tooltip",
+        "Chip",
+        "Tab",
+        "Button",
+        "SplitButton",
+        "TextButton",
+        "Avatar",
+        "Skeleton"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Pagination",
+      "name": "Pagination",
+      "aliases": [
+        "페이지네이션",
+        "페이징",
+        "고정 개수 페이지네이션",
+        "고정 페이지 크기 탐색"
+      ],
+      "category": "navigation",
+      "layer": "common",
+      "docs": "components/Pagination/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "IconButton",
+        "Input",
+        "Dropdown"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Radio",
+      "name": "Radio",
+      "aliases": [
+        "라디오",
+        "Radio Group"
+      ],
+      "category": "form",
+      "layer": "primitive",
+      "docs": "components/Radio/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Scrollbar",
+      "name": "Scrollbar & ScrollArea",
+      "aliases": [
+        "Scrollbar",
+        "ScrollArea",
+        "스크롤바"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/Scrollbar/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Search",
+      "name": "Search",
+      "aliases": [
+        "검색",
+        "검색 입력"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/Search/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Input"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "SegmentedControl",
+      "name": "Segmented Control",
+      "aliases": [
+        "SegmentedControl",
+        "세그먼티드 컨트롤"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/SegmentedControl/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon",
+        "Tooltip"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Select",
+      "name": "Select",
+      "aliases": [
+        "셀렉트",
+        "콤보박스",
+        "멀티 셀렉트",
+        "다중 선택",
+        "Multi Select",
+        "로딩 셀렉트"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/Select/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Checkbox",
+        "Chip",
+        "Spinner",
+        "Status",
+        "Scrollbar",
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Slider",
+      "name": "Slider",
+      "aliases": [
+        "슬라이더",
+        "범위 입력",
+        "문구 없는 슬라이더 오류 상태",
+        "사용자 지정 눈금",
+        "라벨 옆 보조 문구"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/Slider/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Input",
+        "Tooltip"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Skeleton",
+      "name": "Skeleton",
+      "aliases": [
+        "스켈레톤",
+        "로딩 플레이스홀더",
+        "Skeleton UI"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/Skeleton/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Spinner",
+      "name": "Spinner",
+      "aliases": [
+        "스피너",
+        "로딩 표시"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/Spinner/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "SplitButton",
+      "name": "Split Button",
+      "aliases": [
+        "SplitButton",
+        "분할 버튼"
+      ],
+      "category": "actions",
+      "layer": "common",
+      "docs": "components/SplitButton/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Menu",
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Status",
+      "name": "Status",
+      "aliases": [
+        "상태 표시",
+        "상태 아이콘"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/Status/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Spinner"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Stepper",
+      "name": "Stepper",
+      "aliases": [
+        "스테퍼",
+        "단계 표시",
+        "위저드 단계"
+      ],
+      "category": "navigation",
+      "layer": "common",
+      "docs": "components/Stepper/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Switch",
+      "name": "Switch",
+      "aliases": [
+        "스위치",
+        "토글"
+      ],
+      "category": "form",
+      "layer": "primitive",
+      "docs": "components/Switch/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Tab",
+      "name": "Tab",
+      "aliases": [
+        "탭",
+        "Tabs"
+      ],
+      "category": "navigation",
+      "layer": "common",
+      "docs": "components/Tab/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon",
+        "Chip"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Table",
+      "name": "Table",
+      "aliases": [
+        "테이블",
+        "데이터 테이블",
+        "커스텀 선택 열",
+        "체크박스 균형 여백",
+        "라디오 균형 여백",
+        "행 포커스 링",
+        "행별 상세 이동",
+        "테이블 작업 버튼",
+        "행 작업 더보기 메뉴",
+        "TableRowActions"
+      ],
+      "category": "content-feedback",
+      "layer": "common",
+      "docs": "components/Table/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "ListContentState",
+        "Button",
+        "Checkbox",
+        "Radio",
+        "Menu",
+        "Icon",
+        "IconButton",
+        "Tooltip",
+        "Spinner",
+        "Scrollbar"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "TextButton",
+      "name": "Text Button",
+      "aliases": [
+        "TextButton",
+        "텍스트 버튼"
+      ],
+      "category": "actions",
+      "layer": "primitive",
+      "docs": "components/TextButton/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Textarea",
+      "name": "Textarea",
+      "aliases": [
+        "텍스트 영역",
+        "여러 줄 입력"
+      ],
+      "category": "form",
+      "layer": "primitive",
+      "docs": "components/Textarea/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Timepicker",
+      "name": "Timepicker",
+      "aliases": [
+        "Time Picker",
+        "시간 선택"
+      ],
+      "category": "form",
+      "layer": "common",
+      "docs": "components/Timepicker/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Input",
+        "Icon",
+        "Button",
+        "TextButton",
+        "Scrollbar"
+      ],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Tooltip",
+      "name": "Tooltip",
+      "aliases": [
+        "툴팁",
+        "도움말"
+      ],
+      "category": "content-feedback",
+      "layer": "primitive",
+      "docs": "components/Tooltip/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "reference-contract"
+    },
+    {
+      "id": "Tree",
+      "name": "Tree",
+      "aliases": [
+        "트리",
+        "계층형 목록"
+      ],
+      "category": "navigation",
+      "layer": "common",
+      "docs": "components/Tree/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon",
+        "IconButton",
+        "Checkbox",
+        "Menu"
+      ],
+      "contractStatus": "reference-contract"
+    }
+  ],
+  "docsPathBase": "registry-directory"
+}

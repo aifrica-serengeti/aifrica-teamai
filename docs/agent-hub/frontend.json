@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "draft",
+  "paths": {
+    "architecture": null,
+    "componentRegistry": null,
+    "designTokens": null
+  },
+  "tokens": {
+    "brand": {},
+    "color": {},
+    "typography": {},
+    "border": {},
+    "spacing": {},
+    "radius": {},
+    "elevation": {},
+    "motion": {}
+  },
+  "components": {},
+  "pagePatterns": {
+    "list": {},
+    "create": {},
+    "detail": {}
+  },
+  "documentOverrides": [],
+  "exceptions": [],
+  "inheritCommon": true
+}

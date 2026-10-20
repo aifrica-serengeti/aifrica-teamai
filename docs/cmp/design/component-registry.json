@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "solution": "cmp",
+  "description": "CMP 추가 shell 계약. 공통 registry와 함께 읽으며 구현은 제품에서 별도 확인한다.",
+  "components": [
+    {
+      "id": "SNBV1",
+      "name": "SNB v1",
+      "aliases": [
+        "SNBV1",
+        "Side Navigation v1"
+      ],
+      "category": "navigation",
+      "layer": "layout",
+      "docs": "components/SNBV1/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Icon",
+        "IconButton",
+        "Menu",
+        "Divider",
+        "Scrollbar",
+        "Tooltip"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "SNBV2",
+      "name": "SNB v2",
+      "aliases": [
+        "SNBV2",
+        "Side Navigation v2",
+        "Utility trigger slot",
+        "사이드바 계정 메뉴"
+      ],
+      "category": "navigation",
+      "layer": "layout",
+      "docs": "components/SNBV2/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "IconButton",
+        "Icon",
+        "Scrollbar",
+        "Tooltip",
+        "Menu"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "GlobalHeaderV1",
+      "name": "Global Header v1",
+      "aliases": [
+        "GlobalHeaderV1",
+        "글로벌 헤더 v1"
+      ],
+      "category": "navigation",
+      "layer": "layout",
+      "docs": "components/GlobalHeaderV1/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Breadcrumb",
+        "Search",
+        "IconButton",
+        "Badge",
+        "Menu",
+        "Avatar",
+        "Icon",
+        "Chip"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "GlobalHeaderV2",
+      "name": "Global Header v2",
+      "aliases": [
+        "GlobalHeaderV2",
+        "글로벌 헤더 v2"
+      ],
+      "category": "navigation",
+      "layer": "layout",
+      "docs": "components/GlobalHeaderV2/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "IconButton",
+        "Divider",
+        "Breadcrumb"
+      ],
+      "contractStatus": "solution-contract"
+    }
+  ],
+  "extendsCommon": true
+}

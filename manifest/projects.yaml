@@ -1,0 +1,17 @@
+version: 1
+projects:
+  - id: cmp
+    name: CMP
+    resources:
+      knowledge: [cmp]
+      docs: [cmp]
+  - id: paas
+    name: PaaS
+    resources:
+      knowledge: [paas]
+      docs: [paas]
+  - id: agent-hub
+    name: Agent Hub
+    resources:
+      knowledge: [agent-hub]
+      docs: [agent-hub]

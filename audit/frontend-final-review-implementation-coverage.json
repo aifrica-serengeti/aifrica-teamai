@@ -1,0 +1,111 @@
+{
+  "sourceCommit": "43648689aa3efef214118a69dde5eafdac30a338",
+  "documents": [
+    {
+      "component": "SNBV1",
+      "source": "docs/design/components/SNBV1/implementation/README.md",
+      "sourceSha256": "10c52307e9c294c1f8344c9f2424b209207ade4df4648dd9e827364660016331",
+      "target": "docs/cmp/design/components/SNBV1/implementation/README.md",
+      "targetPresent": true,
+      "targetSha256": "9419a3191be972f933471d9a49e886a9a619bdccd71ace31892bd3b562ba2954"
+    },
+    {
+      "component": "SNBV1",
+      "source": "docs/design/components/SNBV1/implementation/css.md",
+      "sourceSha256": "502de778d33d2603ad0e39d5e90d91bda2c14750e5278f6e6e59297972d527fa",
+      "target": "docs/cmp/design/components/SNBV1/implementation/css.md",
+      "targetPresent": true,
+      "targetSha256": "8d3ee62dad0caf0fd66cadfe6429a2d49d2099cc0a95f024c84c146bc0c5ec7c"
+    },
+    {
+      "component": "SNBV1",
+      "source": "docs/design/components/SNBV1/implementation/reference.md",
+      "sourceSha256": "d5d89c2c436b1ec9fa2bf7fb7b5212963449d18089b7d5964a23be883b9018e8",
+      "target": "docs/cmp/design/components/SNBV1/implementation/reference.md",
+      "targetPresent": true,
+      "targetSha256": "a81daf80ce9785ce7b4341cfdc5bff545bb5ffbf72cbca6e33876bf42d575f8a"
+    },
+    {
+      "component": "SNBV1",
+      "source": "docs/design/components/SNBV1/implementation/typescript.md",
+      "sourceSha256": "703c5b1ab920e3f9a6dde2d143c8a243b4c3b4637fb2b870d012cdc5f97661b3",
+      "target": "docs/cmp/design/components/SNBV1/implementation/typescript.md",
+      "targetPresent": true,
+      "targetSha256": "a10b7492603b6f5e7de03817df200753bd3bab72564780fc61d2c07892be98c2"
+    },
+    {
+      "component": "SNBV2",
+      "source": "docs/design/components/SNBV2/implementation/README.md",
+      "sourceSha256": "f0f9e9f543b09966698b26808ade515ec11625bda0c91a5612eecdf31ac6ec41",
+      "target": "docs/cmp/design/components/SNBV2/implementation/README.md",
+      "targetPresent": true,
+      "targetSha256": "37a294c1f3fb6af36b5c7b6f0d2c37ae93c3049520717ce909b80183b43ae1b9"
+    },
+    {
+      "component": "SNBV2",
+      "source": "docs/design/components/SNBV2/implementation/css.md",
+      "sourceSha256": "fdcaa5ec457c3580eb51c64c8505c2121268b6d260e8558f87b60f270bd34b0d",
+      "target": "docs/cmp/design/components/SNBV2/implementation/css.md",
+      "targetPresent": true,
+      "targetSha256": "ac03b1dcb4466e01ca72e1aa17879dca0f1a52762e0017e89d88b12740aa960d"
+    },
+    {
+      "component": "SNBV2",
+      "source": "docs/design/components/SNBV2/implementation/typescript.md",
+      "sourceSha256": "bc4a647836e2443284b45448233bfe1522e4a083d27c779aac96e4f49cf31cf6",
+      "target": "docs/cmp/design/components/SNBV2/implementation/typescript.md",
+      "targetPresent": true,
+      "targetSha256": "cb9126a0b1efe9e7b5f986aa6904407c3f564097675360a32f30daadc6d91490"
+    },
+    {
+      "component": "GlobalHeaderV1",
+      "source": "docs/design/components/GlobalHeaderV1/implementation/README.md",
+      "sourceSha256": "f5d2db7a65522bbf09931f67a88461bee7a1d4df8eea267bc864e74f6b3e5c9e",
+      "target": "docs/cmp/design/components/GlobalHeaderV1/implementation/README.md",
+      "targetPresent": true,
+      "targetSha256": "b10479af5d9659471d86056a26bee90e5969a566b877fa2173812ecc2075b118"
+    },
+    {
+      "component": "GlobalHeaderV1",
+      "source": "docs/design/components/GlobalHeaderV1/implementation/css.md",
+      "sourceSha256": "dfe6c096e0c6f5c0f1e8344fa1b0b2590c53fb73c26dde5309cca19c252ab4fb",
+      "target": "docs/cmp/design/components/GlobalHeaderV1/implementation/css.md",
+      "targetPresent": true,
+      "targetSha256": "6e1bd3ade699d0da7da0f6d72210d694a49e0c5b6f4b9862f1ddbd0f5cb06bf0"
+    },
+    {
+      "component": "GlobalHeaderV1",
+      "source": "docs/design/components/GlobalHeaderV1/implementation/typescript.md",
+      "sourceSha256": "387738335036e050a8e3bfe9ad5798976c4dc95eaa37b0497e57ad43caa2f73f",
+      "target": "docs/cmp/design/components/GlobalHeaderV1/implementation/typescript.md",
+      "targetPresent": true,
+      "targetSha256": "718223f542db3bb0909f9dd30bcf1f425765be6fc0d363c731902b8fd2f9e9af"
+    },
+    {
+      "component": "GlobalHeaderV2",
+      "source": "docs/design/components/GlobalHeaderV2/implementation/README.md",
+      "sourceSha256": "2bf9d79bfa694b24b96bb549f7e21d6252d06ce9d094000bf7127d9d82d0fa1e",
+      "target": "docs/cmp/design/components/GlobalHeaderV2/implementation/README.md",
+      "targetPresent": true,
+      "targetSha256": "9e244df977dd3419ab79039a7fae600dda254716c2ad76ecfb75189847bbc284"
+    },
+    {
+      "component": "GlobalHeaderV2",
+      "source": "docs/design/components/GlobalHeaderV2/implementation/css.md",
+      "sourceSha256": "3e3c571766e8567318250a50ad28f4cfe33db35cf8f63a20368a3260c77a1f07",
+      "target": "docs/cmp/design/components/GlobalHeaderV2/implementation/css.md",
+      "targetPresent": true,
+      "targetSha256": "56350996acdb90db901247194aeec612f0b916a9c32fb9e3a6f24b4f8603c213"
+    },
+    {
+      "component": "GlobalHeaderV2",
+      "source": "docs/design/components/GlobalHeaderV2/implementation/typescript.md",
+      "sourceSha256": "33c23d23242eb306966bedc692e91e3eb149ffc6e6dfd31cfca746214bf4996e",
+      "target": "docs/cmp/design/components/GlobalHeaderV2/implementation/typescript.md",
+      "targetPresent": true,
+      "targetSha256": "7e52338c232a7bd4c0d0fb04343a801b7383463ca3896fc3bdca1e877ab58b8e"
+    }
+  ],
+  "sourceReadOnly": true,
+  "note": "Final portable source/validation references with product-owned brand/account/token adapters; source and target hashes captured after edits."
+}

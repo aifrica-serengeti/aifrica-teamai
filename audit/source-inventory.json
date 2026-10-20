@@ -1,0 +1,3053 @@
+{
+  "head": "29f7019c33b7c8b9e66d6c3253bad7428b722049",
+  "files": [
+    {
+      "path": "docs/instance-architecture-refactor.md",
+      "sha256": "f087da2183b55db7df1da8e8a660d9dcca0db3f42f86f5ecb037d6f9d7761235",
+      "bytes": 11664
+    },
+    {
+      "path": "docs/instance-detail-parity.md",
+      "sha256": "5a2eb85f59cc0290a79cc4085156377a3da959472929dab651b5c3dee348e67b",
+      "bytes": 102414
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "6e1649d84f94fdd72698c1993050c2f10642388c8a07346224aec461bdf7e263",
+      "bytes": 25461
+    },
+    {
+      "path": "docs/runtime-configuration.md",
+      "sha256": "bb28cec669fe4b40861270a9d581479bf93268eed7fbe1714d2cbd213cd85657",
+      "bytes": 15907
+    },
+    {
+      "path": "docs/menu-approval-mapping.md",
+      "sha256": "98f0f797c808a06c424a2d8438d6e9bb18644ccf806b4eb0c5b069dbc0efccfe",
+      "bytes": 84974
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "d9d95121d130be23742b1b05f4a312cbd7bef935b1c0110ad5ed70cd88e15d2a",
+      "bytes": 3107
+    },
+    {
+      "path": "docs/quota-increase-request.md",
+      "sha256": "37c0993e5e0028170302bab8851e070f7c4e3772c340011dd556545c5cb9a0b3",
+      "bytes": 47836
+    },
+    {
+      "path": "docs/agent-embed.md",
+      "sha256": "9a0534c61671d612fd13253ffb7eb97440e8b23c5ca1e121140614725ebe0455",
+      "bytes": 13151
+    },
+    {
+      "path": "docs/agent-skills.md",
+      "sha256": "2b5ca4614a2e6173980e0c2e0c4211f11febee0f5fb35e9d96f8daef31cb5d14",
+      "bytes": 4889
+    },
+    {
+      "path": "docs/design/component-registry.json",
+      "sha256": "164a8652479a3d3a870a965aa5ca71685b600eb770bd5639ec0910b0e4de217d",
+      "bytes": 26770
+    },
+    {
+      "path": "docs/design/page-policies.md",
+      "sha256": "50ae1d227d3a312ef1d1df77ca7fb4943c116de922e931ce9d74da540fab1f8c",
+      "bytes": 11759
+    },
+    {
+      "path": "docs/design/overview.md",
+      "sha256": "8057ba9e8d78ee0fc2de0f51452adb789e507859e70e215d8057729dad4e0cc8",
+      "bytes": 2794
+    },
+    {
+      "path": "docs/design/content-i18n.md",
+      "sha256": "b55e0f14b773c1901ce1137aac72c0ace951d820e75b0b0ba876ef87a8ba7e42",
+      "bytes": 4897
+    },
+    {
+      "path": "docs/design/authoring.md",
+      "sha256": "c8da8edd159c1b5fd48d0389550a7b986cc8ed09f02bea2b66c403429d14b488",
+      "bytes": 12034
+    },
+    {
+      "path": "docs/design/foundations.md",
+      "sha256": "42a23fc2b1769819d894fb4da7a2a6e263a3c0ed8cc80ae139e6747b1aff1bfb",
+      "bytes": 608
+    },
+    {
+      "path": "docs/design/docs-only-build.md",
+      "sha256": "014690341edf4887a98bcbd01348b19b29ce5202a0ade6c5c60969485a8fd53a",
+      "bytes": 10666
+    },
+    {
+      "path": "docs/design/api-error-notifications.md",
+      "sha256": "fa6be92e05f26275fe7225a0f15302bbcd6105ece166c53cbf07a4d88ab23b26",
+      "bytes": 37637
+    },
+    {
+      "path": "docs/design/quality.md",
+      "sha256": "26daa8579e73dd1838e0d04325fe65faab4b046ee89137cd4956c956ea8b00e9",
+      "bytes": 4335
+    },
+    {
+      "path": "docs/design/README.md",
+      "sha256": "e1aec0b37cc5d76ac8a7155ab00d0a8b2a17f823aff9a9fdad1d5b547192dd55",
+      "bytes": 4373
+    },
+    {
+      "path": "docs/design/reproduction.md",
+      "sha256": "a9ef28c1e4dde367f827653a2f2ba09cdc5732ae06f6018193f175900e002130",
+      "bytes": 23172
+    },
+    {
+      "path": "docs/design/evolution.md",
+      "sha256": "a1f4f33abf875e242ab1d418ea522907d89d30baae0fd193dc4f8f9550f544c2",
+      "bytes": 3367
+    },
+    {
+      "path": "docs/design/component-workflow.md",
+      "sha256": "3b766677e9ce67f21173b0680f265cb9dbdc0686c6d93925ae6ab962c0022dfb",
+      "bytes": 5873
+    },
+    {
+      "path": "docs/design/patterns/ListPage.md",
+      "sha256": "283f1213839a37c616d8d2b1afbaf011f0da9f5415e0e1533a4ae3abc8212273",
+      "bytes": 47978
+    },
+    {
+      "path": "docs/design/patterns/README.md",
+      "sha256": "a39b7a084a0fe76cb3cb9bcfdb352424666fa90530f021b9249d4de65d7b508f",
+      "bytes": 4462
+    },
+    {
+      "path": "docs/design/patterns/CreatePage.md",
+      "sha256": "c0a22cdb4ac6b9d95bddda7ed347661edcfae8d89078d339db0ec358fe970060",
+      "bytes": 39618
+    },
+    {
+      "path": "docs/design/patterns/DetailPage.md",
+      "sha256": "3011138e3ff181fdc325596aa646692a6a53fa7b30bc7e5243dc38e9bbae6533",
+      "bytes": 66875
+    },
+    {
+      "path": "docs/design/foundations/Color.md",
+      "sha256": "e44f2c83896978614034ed29fd829dea76d628ecd9149ff2b2f7d91e4654f8ef",
+      "bytes": 24592
+    },
+    {
+      "path": "docs/design/foundations/Typography.md",
+      "sha256": "decad4fd90d44c194cddfc4e9682be1c6c65304ad447a0c33effe36cd7616f6a",
+      "bytes": 8213
+    },
+    {
+      "path": "docs/design/foundations/Elevation.md",
+      "sha256": "71baf2f93e7ea1864e631413484814f1aeca602bb0e29ce5a8d52ca9b46f10a2",
+      "bytes": 6183
+    },
+    {
+      "path": "docs/design/foundations/Layout.md",
+      "sha256": "a74d5bad3d249a9038f927ebf94f77757b8bcc307f4aef36ab93d34ac408d9cd",
+      "bytes": 5982
+    },
+    {
+      "path": "docs/design/components/index.md",
+      "sha256": "a74268b01a782af66882d1bddc3f4aeb932934654791948606da71c0ca99524f",
+      "bytes": 23896
+    },
+    {
+      "path": "docs/design/components/Tree/definition.md",
+      "sha256": "52428f8a6f24ffead39989c4b72d8fdbb0b57d706411e1ee1bed118d0614e268",
+      "bytes": 14334
+    },
+    {
+      "path": "docs/design/components/Tree/styles.md",
+      "sha256": "5766bdfcd2dd274eb70debe3e830b5a4ae469b95dac8f102ca5db3d45cd7e278",
+      "bytes": 6036
+    },
+    {
+      "path": "docs/design/components/Tree/accessibility.md",
+      "sha256": "a36330137ee4d93adf9b7c714a09eae724300b8ab05ee4b2e72e7af5ab6de7c3",
+      "bytes": 1123
+    },
+    {
+      "path": "docs/design/components/Tree/README.md",
+      "sha256": "b9b64b62e16ac73e079f8140708bb0f97945e18fae5c4dbac9f2a016de9314a6",
+      "bytes": 2343
+    },
+    {
+      "path": "docs/design/components/Tree/verification.md",
+      "sha256": "24530bfc31427d3855d1ebeadcf0c5e23d188f432caa9603c6585f7d93995c15",
+      "bytes": 3527
+    },
+    {
+      "path": "docs/design/components/Tree/behavior.md",
+      "sha256": "6788a3ec1d976737912b864cfc9460b8b9e4b2dc0d541da3ee6fdcfd54cb006d",
+      "bytes": 5041
+    },
+    {
+      "path": "docs/design/components/Tree/implementation/css.md",
+      "sha256": "654e7a6c608b07a1aae883a9cd3474a39d885139901e10ac9c390106434a321a",
+      "bytes": 14404
+    },
+    {
+      "path": "docs/design/components/Tree/implementation/README.md",
+      "sha256": "4ce77466f377b390118d993a85e36849fb4afbd53807b5354ca67991d6289cf8",
+      "bytes": 9605
+    },
+    {
+      "path": "docs/design/components/Tree/implementation/typescript.md",
+      "sha256": "0a749333e4ef66ef2e1520271a81c087319a7b4b32f8bd30ef02c7e159100575",
+      "bytes": 36137
+    },
+    {
+      "path": "docs/design/components/SNBV2/definition.md",
+      "sha256": "7f833eb1b312d9b559f0712514816fc3c24ee00cdd6b80e5a3f27852321989a0",
+      "bytes": 16522
+    },
+    {
+      "path": "docs/design/components/SNBV2/styles.md",
+      "sha256": "21d40c67f0cc29ffdfe35badb7afb05becc423d5bfce25961d923c6486c28b25",
+      "bytes": 4668
+    },
+    {
+      "path": "docs/design/components/SNBV2/accessibility.md",
+      "sha256": "44bf7c23b2eb35f33639ab7d6ffa9e733424e2371cdc23f3b1d0b0728cb72d35",
+      "bytes": 1725
+    },
+    {
+      "path": "docs/design/components/SNBV2/README.md",
+      "sha256": "2e239eec5edafdbdfc5169250cffd7e0e027172ba3351fd284d3a4c0f28a8a87",
+      "bytes": 3252
+    },
+    {
+      "path": "docs/design/components/SNBV2/verification.md",
+      "sha256": "7410506901934d0a154cced780ac9d8dadc06a8fff998d6c4722ccd374696660",
+      "bytes": 8795
+    },
+    {
+      "path": "docs/design/components/SNBV2/behavior.md",
+      "sha256": "028fcb42e90890d0383ed1874be3064f3d057636a2914f7db459fdf9f2565059",
+      "bytes": 10128
+    },
+    {
+      "path": "docs/design/components/SNBV2/implementation/css.md",
+      "sha256": "fdcaa5ec457c3580eb51c64c8505c2121268b6d260e8558f87b60f270bd34b0d",
+      "bytes": 18912
+    },
+    {
+      "path": "docs/design/components/SNBV2/implementation/README.md",
+      "sha256": "f0f9e9f543b09966698b26808ade515ec11625bda0c91a5612eecdf31ac6ec41",
+      "bytes": 2118
+    },
+    {
+      "path": "docs/design/components/SNBV2/implementation/typescript.md",
+      "sha256": "bc4a647836e2443284b45448233bfe1522e4a083d27c779aac96e4f49cf31cf6",
+      "bytes": 20893
+    },
+    {
+      "path": "docs/design/components/Dropdown/definition.md",
+      "sha256": "7805f1a5bfd506f760739b584c3dcf66c95f67a7bbad0699a62f1cbe3ab65490",
+      "bytes": 6911
+    },
+    {
+      "path": "docs/design/components/Dropdown/styles.md",
+      "sha256": "0802de4829c2d475e8220704752ade27d55518a311f3ee4b23377fb3ef992521",
+      "bytes": 10065
+    },
+    {
+      "path": "docs/design/components/Dropdown/accessibility.md",
+      "sha256": "10f3364a210d28984e9b05d9cfe13659353fa085a8055059822ac0d2326acf5a",
+      "bytes": 1371
+    },
+    {
+      "path": "docs/design/components/Dropdown/README.md",
+      "sha256": "a429d25e257708dc02616dc52f3e36052d0b0729f0bb963d235519e9665cb16f",
+      "bytes": 1666
+    },
+    {
+      "path": "docs/design/components/Dropdown/verification.md",
+      "sha256": "d625799b129ac7ead6824e2ebc7402ee429ef7d933af771cce526926f29e4c7d",
+      "bytes": 3233
+    },
+    {
+      "path": "docs/design/components/Dropdown/behavior.md",
+      "sha256": "d30a1f3a49891bbf9ef7d471cf2dae689067df60b23bb6fd3a49890b24315816",
+      "bytes": 3881
+    },
+    {
+      "path": "docs/design/components/Dropdown/implementation/examples.md",
+      "sha256": "f6beaa423a7ade55fcb61400234b79468fec048b71b07b8f01adff449427981a",
+      "bytes": 554
+    },
+    {
+      "path": "docs/design/components/Dropdown/implementation/reference.md",
+      "sha256": "7794cb10b9647eb2c4c50af3d294a51b339daa17e9746faa9714c88cd5bf9024",
+      "bytes": 253
+    },
+    {
+      "path": "docs/design/components/Dropdown/implementation/css.md",
+      "sha256": "a744337149bf67e742f60d7fbb00325852db5e267caeb13b108419b2909fed74",
+      "bytes": 5744
+    },
+    {
+      "path": "docs/design/components/Dropdown/implementation/README.md",
+      "sha256": "cc00052a4b3dfd48a6dcc70f7613828812dc61451657c42fba062afc5a46e129",
+      "bytes": 281
+    },
+    {
+      "path": "docs/design/components/Dropdown/implementation/typescript.md",
+      "sha256": "c069b3681a26123aca2f0e1361ab041fd0510e71cc5856c33ce65dd69ffe4816",
+      "bytes": 5776
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV1/definition.md",
+      "sha256": "67c9b6d5eb42c4d7d6cc7f6ed0c641712b114f9ecb3ad5b433928c67a5cc562a",
+      "bytes": 5383
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV1/styles.md",
+      "sha256": "eb277101315bec7dedae5af09a4cad1884c773a3dac525bf9ffd175e0f4e15aa",
+      "bytes": 5969
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV1/accessibility.md",
+      "sha256": "dfabc72c6f9fa6d4e252cfc69b902beb29fa3cee9a5a4d7f23aae700b1e4aa86",
+      "bytes": 978
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV1/README.md",
+      "sha256": "04e2ba4cb8861f750c21c62929e3fd77fa0b1e90a43fec1a7a432c8dbc5be45e",
+      "bytes": 2010
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV1/verification.md",
+      "sha256": "53e84874fee50e370a8b9da4f92ab1705a429589c758ba570b338b8916a5a560",
+      "bytes": 2653
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV1/behavior.md",
+      "sha256": "e9e1dc3de38b96f73a6f369a40aec23086a6b9cb3d42bfe0ab89bcd7b8f6cfaa",
+      "bytes": 1873
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV1/implementation/css.md",
+      "sha256": "dfe6c096e0c6f5c0f1e8344fa1b0b2590c53fb73c26dde5309cca19c252ab4fb",
+      "bytes": 3907
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV1/implementation/README.md",
+      "sha256": "f5d2db7a65522bbf09931f67a88461bee7a1d4df8eea267bc864e74f6b3e5c9e",
+      "bytes": 430
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV1/implementation/typescript.md",
+      "sha256": "387738335036e050a8e3bfe9ad5798976c4dc95eaa37b0497e57ad43caa2f73f",
+      "bytes": 5421
+    },
+    {
+      "path": "docs/design/components/Pagination/definition.md",
+      "sha256": "71949fbd89db7fb64e3bb059f50d9cf47ec18ea40f31537656b83540415534b5",
+      "bytes": 7693
+    },
+    {
+      "path": "docs/design/components/Pagination/styles.md",
+      "sha256": "360c2dfd5dbacce9c1e45b1d8bb9ae75a4c50b50ce79ce870f5432652b5b5439",
+      "bytes": 5494
+    },
+    {
+      "path": "docs/design/components/Pagination/accessibility.md",
+      "sha256": "795c391ed39005684bb84ee29741cce179880759cefa1f30888638d7b0e963eb",
+      "bytes": 1854
+    },
+    {
+      "path": "docs/design/components/Pagination/README.md",
+      "sha256": "592ad213ec79648736e234a3bd8658f9367d37caea020c2587a2fbec2b3a07b0",
+      "bytes": 2767
+    },
+    {
+      "path": "docs/design/components/Pagination/verification.md",
+      "sha256": "362bb7687a68b32c2d7ce108819483ba8b39dc32f42b7fb71514b785deaf6a08",
+      "bytes": 4355
+    },
+    {
+      "path": "docs/design/components/Pagination/behavior.md",
+      "sha256": "d0f3bc7c0c543aafa2bef45283b9c36acac5750bcdb12acea876912d1cbba4b5",
+      "bytes": 4326
+    },
+    {
+      "path": "docs/design/components/Pagination/implementation/examples.md",
+      "sha256": "6d377d5691a9096e881d11db2415e0924c631a6235b3d0c1c60be3185af70886",
+      "bytes": 1570
+    },
+    {
+      "path": "docs/design/components/Pagination/implementation/css.md",
+      "sha256": "f82a3dc08246c3021e2654f8a88a0e59a901482249c331781ef4ab1ea556d85b",
+      "bytes": 2685
+    },
+    {
+      "path": "docs/design/components/Pagination/implementation/README.md",
+      "sha256": "ce0e69fe4f02b4e93695bce696f051243203f762ba9d64e5ce5353b1ef8031e9",
+      "bytes": 824
+    },
+    {
+      "path": "docs/design/components/Pagination/implementation/typescript.md",
+      "sha256": "0fc8bfc1293fb45f485e8934c0ff662b232c904045331fca281af3d4b75323ad",
+      "bytes": 8009
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/definition.md",
+      "sha256": "33035870fa4bf00575945e5790fc0aa9d0c0cdcf46708e1f78384c851a130f11",
+      "bytes": 1221
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/styles.md",
+      "sha256": "2a311a39df55742edf522816bc118e6fb14268e6685a302ead34d403948f2e5b",
+      "bytes": 1021
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/accessibility.md",
+      "sha256": "1ca8b9402c7ca98ede558ce0e302a6b6d64431d5cae16afc41154ecdc006b7cc",
+      "bytes": 673
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/README.md",
+      "sha256": "9c932206e4f458e6bff46e49dbd87c9f18998bd10154e94869e006290367e48f",
+      "bytes": 980
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/verification.md",
+      "sha256": "8e71e303cab73f989f7cc5ee54b5244429a7928d6163d11b0cdf0ad4e7fbb2cb",
+      "bytes": 1220
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/behavior.md",
+      "sha256": "53b6e9abc00984b8e92fe777b112b36ae0534150f6c5f9e9bbfd0a728c2188dc",
+      "bytes": 561
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/implementation/examples.md",
+      "sha256": "a6051c204259a1d39455c0bd766a51128fa03095a237213b8be1938d6625d901",
+      "bytes": 514
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/implementation/css.md",
+      "sha256": "4784308a2cdfa996e1ed899a604002bcfc775f7fa174e9bbcc6f4925131908d3",
+      "bytes": 425
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/implementation/README.md",
+      "sha256": "26cf8ed5d020df0b14c535a40114a36cdf65db3589027d426654c9fa39964bef",
+      "bytes": 332
+    },
+    {
+      "path": "docs/design/components/PrivateIcon/implementation/typescript.md",
+      "sha256": "485c26af4ce12d807ba8c3abc4f0206e5697d2ddc7758faf20cdd5dc9ac7b631",
+      "bytes": 570
+    },
+    {
+      "path": "docs/design/components/TextButton/definition.md",
+      "sha256": "ecfc07f3bdabd3e583ca362b218e7a4fea07ef1de099ff5f07f66de36e77ab67",
+      "bytes": 6006
+    },
+    {
+      "path": "docs/design/components/TextButton/styles.md",
+      "sha256": "1339d47af4e4dc070d49e2431dc80366ef533353b2603ad4dc7b07e4e657c2dc",
+      "bytes": 4987
+    },
+    {
+      "path": "docs/design/components/TextButton/accessibility.md",
+      "sha256": "2ce7c3a71bb381de05178fef15cf88f342a5de9289b64142530510ffa5896c41",
+      "bytes": 1151
+    },
+    {
+      "path": "docs/design/components/TextButton/README.md",
+      "sha256": "9dee605b757449756ac1b271c19fea5612a1c1c0f7871bfa38934a703cc7d026",
+      "bytes": 2441
+    },
+    {
+      "path": "docs/design/components/TextButton/verification.md",
+      "sha256": "a00405c49a729af90722bbb0e5d5bd904f267d55d3d5224217d4d1e53b2d4d06",
+      "bytes": 3664
+    },
+    {
+      "path": "docs/design/components/TextButton/behavior.md",
+      "sha256": "555205758e2b4a5134f6107538bd49fcf067f6afd0a2e3e7068c768b993f63a3",
+      "bytes": 2313
+    },
+    {
+      "path": "docs/design/components/TextButton/implementation/examples.md",
+      "sha256": "10ab5555bcc779b623f86f648fae6484389cd51fa8efabcad274b423ef9b0b47",
+      "bytes": 1301
+    },
+    {
+      "path": "docs/design/components/TextButton/implementation/css.md",
+      "sha256": "292203221e40b0bc11a58becdbd5c6d6f18b3e9707c87c86139ef8f827484b42",
+      "bytes": 2180
+    },
+    {
+      "path": "docs/design/components/TextButton/implementation/README.md",
+      "sha256": "43c13bb713ee973affafd1e931e525c64d11743b6bcbb791954f9dd8e41fcaaf",
+      "bytes": 543
+    },
+    {
+      "path": "docs/design/components/TextButton/implementation/typescript.md",
+      "sha256": "a56f7d5f1e2618509bb0c89b395d9b3ff004a979dfb830b376e3b737dddd5a74",
+      "bytes": 2617
+    },
+    {
+      "path": "docs/design/components/Timepicker/definition.md",
+      "sha256": "32c441cd00ef711b26f010dd51bc0497df7e29b6c08f57c0314843ab6d8987cd",
+      "bytes": 13432
+    },
+    {
+      "path": "docs/design/components/Timepicker/styles.md",
+      "sha256": "b026911a4a0eefa62dd59bece32f68ffebe4b293a6a7370896d99248d5207510",
+      "bytes": 4517
+    },
+    {
+      "path": "docs/design/components/Timepicker/accessibility.md",
+      "sha256": "46ff61195e5ba152704630c754bc9a4e981005286f2bb97b48d280bdf3c12ba2",
+      "bytes": 2099
+    },
+    {
+      "path": "docs/design/components/Timepicker/README.md",
+      "sha256": "3f74a3e5dc413819cd75801b6a91d6eda3d8135715e8ebfd05a80e26bc913019",
+      "bytes": 2657
+    },
+    {
+      "path": "docs/design/components/Timepicker/verification.md",
+      "sha256": "f36d93c454fca27fe225b88fed7982b78df4673931bbec7f39a856bba4e36525",
+      "bytes": 2668
+    },
+    {
+      "path": "docs/design/components/Timepicker/behavior.md",
+      "sha256": "221c8018c963a2b6e283652f5ee5cca11b6bfca11539152ec069ab0893491fcc",
+      "bytes": 8368
+    },
+    {
+      "path": "docs/design/components/Tooltip/definition.md",
+      "sha256": "230d2f96fb93d783f9cc000e4d3b9a5dbd818dd776282cbe64ffd242dc269425",
+      "bytes": 4919
+    },
+    {
+      "path": "docs/design/components/Tooltip/styles.md",
+      "sha256": "874ec58739bc41c11bbf2603e4b99c7ed0dc2f1087f18137dd86b90bc255ffaa",
+      "bytes": 2905
+    },
+    {
+      "path": "docs/design/components/Tooltip/accessibility.md",
+      "sha256": "0dc938d8ddd7407ed85158e2a3ea39dc852621c3648a05fb6486af351a60d675",
+      "bytes": 1357
+    },
+    {
+      "path": "docs/design/components/Tooltip/README.md",
+      "sha256": "8edc71283552f9a7e9deeb4eb2e7d69544b1e0714101ee8b276da877e78aaaf8",
+      "bytes": 1722
+    },
+    {
+      "path": "docs/design/components/Tooltip/verification.md",
+      "sha256": "2d7527db22f7c277b440ab8af6b5fdf421bb9e1504cb26f19e90b46c3b1ffd92",
+      "bytes": 3439
+    },
+    {
+      "path": "docs/design/components/Tooltip/behavior.md",
+      "sha256": "d458aaeac5aeef925edef28a318a68138356363309c053ca73194e5a8a173440",
+      "bytes": 2521
+    },
+    {
+      "path": "docs/design/components/Tooltip/implementation/examples.md",
+      "sha256": "ebafd0a2917b0527de3e8c0d22c93bcdce3bdc3926a8e4479267857377951d5c",
+      "bytes": 940
+    },
+    {
+      "path": "docs/design/components/Tooltip/implementation/reference.md",
+      "sha256": "0f7e4eb37bb39a5f4a1f9a269fb6424fdecd6662f3946b9b4743e3f95e5e3b3b",
+      "bytes": 253
+    },
+    {
+      "path": "docs/design/components/Tooltip/implementation/css.md",
+      "sha256": "4b60434fb7c6d8ebfe4f329bc0458574a9808a41e8ea424d1cf4448424f99a32",
+      "bytes": 5262
+    },
+    {
+      "path": "docs/design/components/Tooltip/implementation/README.md",
+      "sha256": "02c44a0a5365d75fa64c4993f722ebfcb04cf5fe29614bd3934fbc25e40b097f",
+      "bytes": 279
+    },
+    {
+      "path": "docs/design/components/Tooltip/implementation/typescript.md",
+      "sha256": "81d085c9033ea655aca0c9f846b5940457d7cb14a12a10554f93aeae098b1a19",
+      "bytes": 5674
+    },
+    {
+      "path": "docs/design/components/CardAccordion/definition.md",
+      "sha256": "a865773af2b2d0634718f66f71d0c7e070380d0a721e74352b2e5c94ab0de4ca",
+      "bytes": 12640
+    },
+    {
+      "path": "docs/design/components/CardAccordion/styles.md",
+      "sha256": "36968134ed843a4beb56d610f5d0be7a026d81086689b84891a39faadbc19483",
+      "bytes": 9362
+    },
+    {
+      "path": "docs/design/components/CardAccordion/accessibility.md",
+      "sha256": "e4739d341c00cd595b9a8bc75d5c51502a4054c78d1f6d3070f3d2ca4f4c2a71",
+      "bytes": 1334
+    },
+    {
+      "path": "docs/design/components/CardAccordion/README.md",
+      "sha256": "2d28934aa58e220e29c740d87ce33c1179230bf7496a4b8ee551a13591632b6b",
+      "bytes": 1886
+    },
+    {
+      "path": "docs/design/components/CardAccordion/verification.md",
+      "sha256": "5b32fe30ed1ada9e6bfb61814fc525269b79957ce6d80e153962304a6c7e5b28",
+      "bytes": 5328
+    },
+    {
+      "path": "docs/design/components/CardAccordion/behavior.md",
+      "sha256": "73e93fa2bd806325396eed9aab8748fa572ea117c50b42a39d9298b51150f5d7",
+      "bytes": 4632
+    },
+    {
+      "path": "docs/design/components/CardAccordion/implementation/examples.md",
+      "sha256": "3754ec6a67dab4a8c59cc451fdaef4724210503e7994b17c9ed90adb417fa379",
+      "bytes": 1173
+    },
+    {
+      "path": "docs/design/components/CardAccordion/implementation/reference.md",
+      "sha256": "3531693bf503d5cb399c0d7a0a4bf1da43a514780233c86353535a91691cf950",
+      "bytes": 401
+    },
+    {
+      "path": "docs/design/components/CardAccordion/implementation/css.md",
+      "sha256": "3fdc6503c67b3e6ec417d27a5bb21548594c36412a3d1d1a161cc16e19800cec",
+      "bytes": 8129
+    },
+    {
+      "path": "docs/design/components/CardAccordion/implementation/README.md",
+      "sha256": "ccd909fe409f15aef6f8cd081b34e00a82ee4f3a2a42a3efbfff64d6553d11b3",
+      "bytes": 782
+    },
+    {
+      "path": "docs/design/components/CardAccordion/implementation/typescript.md",
+      "sha256": "893ad27d60dbc5c283ea4e1bdd5eefbe5457c9e30dbaa120301a2730734eb875",
+      "bytes": 8856
+    },
+    {
+      "path": "docs/design/components/Calendar/definition.md",
+      "sha256": "2736d2ca13e16139071f6b9e1bd1176acc4c0052f05f2b5eda313cf3a22a2fed",
+      "bytes": 9968
+    },
+    {
+      "path": "docs/design/components/Calendar/styles.md",
+      "sha256": "5ce95365690dfc0b8f58236762bd4fea6147bb81fdf05f64dbbaa8b22eeb2d91",
+      "bytes": 13401
+    },
+    {
+      "path": "docs/design/components/Calendar/accessibility.md",
+      "sha256": "f939af0b3a502034a8077f5c51875ae0fbefbb506d985665f4e6768074d068d9",
+      "bytes": 2371
+    },
+    {
+      "path": "docs/design/components/Calendar/README.md",
+      "sha256": "b7e0e3b70a06de5e1250865f7c1ca4ff8f1e5c188bc157865c5afb78573549ab",
+      "bytes": 2188
+    },
+    {
+      "path": "docs/design/components/Calendar/verification.md",
+      "sha256": "91569bc71f1c4a02b70fc13029425781b5e147c37bbd2071d5a28b74154f8ff4",
+      "bytes": 5780
+    },
+    {
+      "path": "docs/design/components/Calendar/behavior.md",
+      "sha256": "8806acd42c1ec8f1b1fbef0832b1ecf9e45cc7bd2a189ab41e28b9115321a43f",
+      "bytes": 5976
+    },
+    {
+      "path": "docs/design/components/Calendar/implementation/css.md",
+      "sha256": "d04f0b50a73b4614139955308594b246865fa43567a7f11a4571fb1f452abe44",
+      "bytes": 7738
+    },
+    {
+      "path": "docs/design/components/Calendar/implementation/README.md",
+      "sha256": "a44e5f73a9b84740ab4caf5471c2a5a53536c91885380f4aea888f2db32fcc01",
+      "bytes": 207
+    },
+    {
+      "path": "docs/design/components/Calendar/implementation/typescript.md",
+      "sha256": "08c0dc2642ec1f4661aec7f89b3e6f4598cd1455a8698c177389645b0c0aaf1b",
+      "bytes": 4975
+    },
+    {
+      "path": "docs/design/components/Radio/definition.md",
+      "sha256": "ffed0614971949bdc3e4cdca4a68a0b91cf7fcd7166f564914f2939cc2ed1a95",
+      "bytes": 4450
+    },
+    {
+      "path": "docs/design/components/Radio/styles.md",
+      "sha256": "852a894ff0b95cb7853aeab69e5a8aed96877564b3e4c463ea04a6368951f489",
+      "bytes": 7304
+    },
+    {
+      "path": "docs/design/components/Radio/accessibility.md",
+      "sha256": "2bf3c79c665cc751361790d3bd937164c8457b33f908250c87dc9cff3a6e5aba",
+      "bytes": 1571
+    },
+    {
+      "path": "docs/design/components/Radio/README.md",
+      "sha256": "3a962cf957bd217ef178e27780764fe2300c41c9c87a6d63ea205564540bdd7e",
+      "bytes": 1974
+    },
+    {
+      "path": "docs/design/components/Radio/verification.md",
+      "sha256": "4c3c7a2345b19e7dc8dc093b70705444d571fd833ca4b50c595d1786f8a95658",
+      "bytes": 2645
+    },
+    {
+      "path": "docs/design/components/Radio/behavior.md",
+      "sha256": "442e5108152feb220f9741866e64bf22e0d4723079496b2a274526e0b0dedbc3",
+      "bytes": 3497
+    },
+    {
+      "path": "docs/design/components/Radio/implementation/examples.md",
+      "sha256": "c2943715a0c15f1ea4b897ea044601a90d6122a1c5ff08d2f1b63cc23e2652bd",
+      "bytes": 1028
+    },
+    {
+      "path": "docs/design/components/Radio/implementation/css.md",
+      "sha256": "797cdc9612b90bfa1dc191ca2a5c6eb0fd048a06e878cb81b0c0a7ad84b5c437",
+      "bytes": 5083
+    },
+    {
+      "path": "docs/design/components/Radio/implementation/README.md",
+      "sha256": "6ee7b2116adf58438306a7488db3f6dc8452e48b4dae9d9629253b009b0a1756",
+      "bytes": 611
+    },
+    {
+      "path": "docs/design/components/Radio/implementation/typescript.md",
+      "sha256": "19055a28abed4ee98d4215d4b80e9ac629b753bf9fea982bee69527336009159",
+      "bytes": 5292
+    },
+    {
+      "path": "docs/design/components/Card/definition.md",
+      "sha256": "9c4e247ac597ad4b8152cd6340fff5c5c0d586da061362fae207c12ecadf525e",
+      "bytes": 14207
+    },
+    {
+      "path": "docs/design/components/Card/styles.md",
+      "sha256": "c00187f0b5e124af318b370861eba83475d5dc98ebd9669d4694d910503d5342",
+      "bytes": 10483
+    },
+    {
+      "path": "docs/design/components/Card/accessibility.md",
+      "sha256": "d14faa5998014da07ecb54b26615ac4b26787658054aa171c5574c062605e5be",
+      "bytes": 1758
+    },
+    {
+      "path": "docs/design/components/Card/README.md",
+      "sha256": "e9e93c2a344d39b52f1f0049a7ba5d0ad5b925d91532c3765093203c084bb349",
+      "bytes": 2339
+    },
+    {
+      "path": "docs/design/components/Card/verification.md",
+      "sha256": "3da4449207b06650d0a9c917a43595d642161f0a28aca3bcca8cdd090546a9f4",
+      "bytes": 4234
+    },
+    {
+      "path": "docs/design/components/Card/behavior.md",
+      "sha256": "5bae84af58d4e39bd50de204e8feb07064f0551b2cc0f51fdc5a1a6a892c46fc",
+      "bytes": 3557
+    },
+    {
+      "path": "docs/design/components/Card/implementation/examples.md",
+      "sha256": "3420bf0d280b85530510361fc63ffedf313bb7b375f3e3c928cb5e3deff0485e",
+      "bytes": 3183
+    },
+    {
+      "path": "docs/design/components/Card/implementation/reference.md",
+      "sha256": "76e351cb6a99b189e39c1c87de24652ef7326b64be8332ab1c7b34f057f400fc",
+      "bytes": 250
+    },
+    {
+      "path": "docs/design/components/Card/implementation/css.md",
+      "sha256": "9a137656131b5b56955ba336ed25e4398853c41e28f3473f99fcdb8b69632552",
+      "bytes": 9420
+    },
+    {
+      "path": "docs/design/components/Card/implementation/README.md",
+      "sha256": "1d7ff0119d01b8d8b0c9c4a0c6199c5f22b32addf28980915d78f4603b1d86ea",
+      "bytes": 273
+    },
+    {
+      "path": "docs/design/components/Card/implementation/typescript.md",
+      "sha256": "f3bdfa1fcaf51b477768904cf483e5c5cb616b852bcc11e98c10ba3080ba2223",
+      "bytes": 12404
+    },
+    {
+      "path": "docs/design/components/Input/definition.md",
+      "sha256": "924dbc49527fd7bbe4b1c773bc49ff3f634861994e53bff3e0444b87f436a724",
+      "bytes": 9401
+    },
+    {
+      "path": "docs/design/components/Input/styles.md",
+      "sha256": "1b2c145b58c23819e626218cb2acd5a2402b5bd7e26becc7325727455dedebcd",
+      "bytes": 7943
+    },
+    {
+      "path": "docs/design/components/Input/accessibility.md",
+      "sha256": "7e6eedade0c5d34ae44f66dba1cc4c802557144294cc08554f25515a31f6534d",
+      "bytes": 3988
+    },
+    {
+      "path": "docs/design/components/Input/README.md",
+      "sha256": "9daf422d39f259911012c65c7a0659007ff3df9ca3e779a8a0073c175afcf4c4",
+      "bytes": 2841
+    },
+    {
+      "path": "docs/design/components/Input/verification.md",
+      "sha256": "247ec91c4490579a3963aba3b8aecae1e05d8cb1479a180a7af7513092cbb681",
+      "bytes": 5506
+    },
+    {
+      "path": "docs/design/components/Input/behavior.md",
+      "sha256": "b29044a53b6c38896b422e75194d0ca797abb1affb9e48dcd3dfb933e67fa116",
+      "bytes": 6307
+    },
+    {
+      "path": "docs/design/components/Input/implementation/css.md",
+      "sha256": "19678aac2809a8f922ffcecc864904410b6ae2ff0789cc5d70077d4685e6a228",
+      "bytes": 3174
+    },
+    {
+      "path": "docs/design/components/Input/implementation/README.md",
+      "sha256": "1b92e19247652a8b01c5dde7ce15555d244480ede6abf86b8ef6e1d2bf25b908",
+      "bytes": 395
+    },
+    {
+      "path": "docs/design/components/Input/implementation/typescript.md",
+      "sha256": "7bc7f7b4830bed253305dadb4178940f7761e7ee78a911af9fcfa3490181c24c",
+      "bytes": 5778
+    },
+    {
+      "path": "docs/design/components/DetailSection/definition.md",
+      "sha256": "b8e12965d8f0635a53f3e77950335df3fecc84350dab1ee22a2d65a75aaeb9a8",
+      "bytes": 2030
+    },
+    {
+      "path": "docs/design/components/DetailSection/styles.md",
+      "sha256": "a382ca4a5f2f83686661e486e82c660b8bf3e9944881306dc5c1f5e26efa4cc6",
+      "bytes": 957
+    },
+    {
+      "path": "docs/design/components/DetailSection/accessibility.md",
+      "sha256": "93079e75a6f474500fa7c07ebf7f06192398aac5b947b78fe66fd05e03a1bd51",
+      "bytes": 942
+    },
+    {
+      "path": "docs/design/components/DetailSection/README.md",
+      "sha256": "26d7b5bc152b6586d790c1d58cd4a35bb93d7ec6ed4416e60b4f6aca6d70eb71",
+      "bytes": 735
+    },
+    {
+      "path": "docs/design/components/DetailSection/verification.md",
+      "sha256": "50acce908edc621a1a9f6417ea69195bb3bcbfa58dfef2201c74662d33820c7d",
+      "bytes": 1229
+    },
+    {
+      "path": "docs/design/components/DetailSection/behavior.md",
+      "sha256": "f33420b2fce8dec01bab1707824c5f7a57f7ce84800ee28a10741898d6687a30",
+      "bytes": 1131
+    },
+    {
+      "path": "docs/design/components/Notification/definition.md",
+      "sha256": "889b201ad0133546793282a60f916298b43dcf25f9ea6d187d3a098fc3981e36",
+      "bytes": 15325
+    },
+    {
+      "path": "docs/design/components/Notification/styles.md",
+      "sha256": "d5d453bd1e4c5a701ac2008d70a20ca813d5ea0707fa69f35c7f7c8f69fc7be2",
+      "bytes": 8043
+    },
+    {
+      "path": "docs/design/components/Notification/accessibility.md",
+      "sha256": "7c0642e81237e1089ead08d803a4b993b53fa87400747cb64837373918c77f39",
+      "bytes": 2579
+    },
+    {
+      "path": "docs/design/components/Notification/README.md",
+      "sha256": "fdcdcc12b42eff5bf81817548740a5201fc1450775d6cc905cc0b87d9c9e5b44",
+      "bytes": 3885
+    },
+    {
+      "path": "docs/design/components/Notification/verification.md",
+      "sha256": "f78654975db4c8a273cfd764675f2cf0e72ea791bf1fa0f4e4cff4d3b6d459ff",
+      "bytes": 13961
+    },
+    {
+      "path": "docs/design/components/Notification/behavior.md",
+      "sha256": "80360ae0033bc8d8e944b4692ed3392e4c5632ea21783714864f544520400262",
+      "bytes": 6580
+    },
+    {
+      "path": "docs/design/components/Notification/implementation/examples.md",
+      "sha256": "4743558c40e2a365941b70fed5180b17662e6bc0d30f7efd6288937addd0cc29",
+      "bytes": 5934
+    },
+    {
+      "path": "docs/design/components/Notification/implementation/css.md",
+      "sha256": "7cf57ff33f4ac825e0c720afec9e107f6e9609330bee09ae310efe004f105da2",
+      "bytes": 13700
+    },
+    {
+      "path": "docs/design/components/Notification/implementation/README.md",
+      "sha256": "260231352c671497e96104b8e962eebcd6e401f965e9cb4753fc16b1d8bb9127",
+      "bytes": 492
+    },
+    {
+      "path": "docs/design/components/Notification/implementation/typescript.md",
+      "sha256": "c352d2876960fe09fa3ff0a00839c9b1559cfb05913f76766f6d973f88073366",
+      "bytes": 20054
+    },
+    {
+      "path": "docs/design/components/Skeleton/definition.md",
+      "sha256": "418cdea488803a1af7d210ff84f667b768ada6cb3ca6baafc2981aab98a1779c",
+      "bytes": 1539
+    },
+    {
+      "path": "docs/design/components/Skeleton/styles.md",
+      "sha256": "6a8e18ddbdf33a0d5184c874836d2d764080ada8024be29b632ed08cdcc06323",
+      "bytes": 1334
+    },
+    {
+      "path": "docs/design/components/Skeleton/accessibility.md",
+      "sha256": "50afd6e248fffff265eaf9db8f1c055f9990593affa89d842827c17c9825c980",
+      "bytes": 951
+    },
+    {
+      "path": "docs/design/components/Skeleton/README.md",
+      "sha256": "8531b52ce54178c0e1e2f44bfe567a925fa6e75bab2c86ebf2df6fcf81a15bf9",
+      "bytes": 1126
+    },
+    {
+      "path": "docs/design/components/Skeleton/verification.md",
+      "sha256": "909ceff72928e0f1aefd614014d819d5b9c9770399c011bb4cdda1e49534d89c",
+      "bytes": 1443
+    },
+    {
+      "path": "docs/design/components/Skeleton/behavior.md",
+      "sha256": "8fde6cbeb4dd6de3a4bc9303ac9a7d747f2a0503a9834ae77df98627dfbde0cd",
+      "bytes": 1158
+    },
+    {
+      "path": "docs/design/components/DatePicker/definition.md",
+      "sha256": "88f8084cf7dbff8fc20067adde6276c8ca0d49d814dfb9fca921a2f756ea882a",
+      "bytes": 10363
+    },
+    {
+      "path": "docs/design/components/DatePicker/styles.md",
+      "sha256": "f51ebaf7be24f74f57902bfae44ecc4491f1626949aff5a7d5b697d2a959dccc",
+      "bytes": 6582
+    },
+    {
+      "path": "docs/design/components/DatePicker/accessibility.md",
+      "sha256": "03bc1b8c88d8c6ba53cb94a3aabda5fb80d5d202d00789c2f95d0f7d03967b91",
+      "bytes": 2495
+    },
+    {
+      "path": "docs/design/components/DatePicker/README.md",
+      "sha256": "0b628cc378c8e0c62c13eafd1ead506f68dd88de64bdd6698c01d777231cb4fa",
+      "bytes": 2703
+    },
+    {
+      "path": "docs/design/components/DatePicker/verification.md",
+      "sha256": "29681c907735b19696274582cd65aad9f5f3caab57bb50738684c913cf82166f",
+      "bytes": 5128
+    },
+    {
+      "path": "docs/design/components/DatePicker/behavior.md",
+      "sha256": "c2da3b6039a31d031fd376c2922b1de5412fa534080faf59ae56b449eadd61c8",
+      "bytes": 6269
+    },
+    {
+      "path": "docs/design/components/DatePicker/implementation/css.md",
+      "sha256": "303cd4ea0f89100f18971d3043347143b2647d319e1cddea8f613b4e70a2c4ee",
+      "bytes": 4144
+    },
+    {
+      "path": "docs/design/components/DatePicker/implementation/README.md",
+      "sha256": "6a288decc52b42c6e8fe1e2c1b39d07e29ec284a803e72936f8ddd17511d5c1d",
+      "bytes": 5679
+    },
+    {
+      "path": "docs/design/components/Chip/definition.md",
+      "sha256": "c1e99108f086846bd7a4d6391e42adb648213c920b65d1c2525834fc6f910d0e",
+      "bytes": 7515
+    },
+    {
+      "path": "docs/design/components/Chip/styles.md",
+      "sha256": "802aa57b79681177a88c8cf892ca8a00412612fc10f3db2c8ac59091e323de0c",
+      "bytes": 16375
+    },
+    {
+      "path": "docs/design/components/Chip/accessibility.md",
+      "sha256": "c48b7d3a0774eccc0b0936f8f1bf8e2021ce293b46e8ec43875b940bef556a6d",
+      "bytes": 1236
+    },
+    {
+      "path": "docs/design/components/Chip/README.md",
+      "sha256": "53fd8b2cc60cce224c152b3b2c242a69588e271428d760c25d9eb6bcf0ce6692",
+      "bytes": 3383
+    },
+    {
+      "path": "docs/design/components/Chip/verification.md",
+      "sha256": "b8c9a5eed2e3c73091f27c46a677770c898c5f11fd16b9c07ba541cbfd8ca07a",
+      "bytes": 4167
+    },
+    {
+      "path": "docs/design/components/Chip/behavior.md",
+      "sha256": "c0d202bff8ea7c92a9b6523f4447e4389ba3f02a7aedcec7fe2e2157a80bb9e2",
+      "bytes": 1899
+    },
+    {
+      "path": "docs/design/components/Chip/implementation/examples.md",
+      "sha256": "098db2280f5f24ef35a0a3d8b511f3395de5e90c936cb51acf0283a693328937",
+      "bytes": 850
+    },
+    {
+      "path": "docs/design/components/Chip/implementation/css.md",
+      "sha256": "e0d455e74f8a2f8678d7dd9d64392cc5a64e7efac876fc566bd3ac41e0fd4479",
+      "bytes": 4666
+    },
+    {
+      "path": "docs/design/components/Chip/implementation/README.md",
+      "sha256": "f75dfb5d336bab47ef72580c46ac5e01f7ecea061978fa359684a0c835c4d41d",
+      "bytes": 465
+    },
+    {
+      "path": "docs/design/components/Chip/implementation/typescript.md",
+      "sha256": "0adba5fc86dc1587127a42f2c09e57e2f02024535c36b8b85c861339f176b610",
+      "bytes": 3375
+    },
+    {
+      "path": "docs/design/components/Checkbox/definition.md",
+      "sha256": "d33906b4394eb44fb3b198fb79675c00ce02032fe5a2196f2ae66ce5d9fcf7f9",
+      "bytes": 5086
+    },
+    {
+      "path": "docs/design/components/Checkbox/styles.md",
+      "sha256": "8a89242091129cfb9190cc7ec442a51c92f24e0a33976e89c7d7c8405f8333f4",
+      "bytes": 9036
+    },
+    {
+      "path": "docs/design/components/Checkbox/accessibility.md",
+      "sha256": "c662d48d340e22dbbd1177ba3d1ef8b57dd7a8c4e940a77ae3b309973e1fddc6",
+      "bytes": 1434
+    },
+    {
+      "path": "docs/design/components/Checkbox/README.md",
+      "sha256": "fa017b6cb9c6dd7c3df19970bf9edbf741732391243b055672feea20ffc0136e",
+      "bytes": 2264
+    },
+    {
+      "path": "docs/design/components/Checkbox/verification.md",
+      "sha256": "876f1d94bf2e0819b8c8cb529e397d997fdf604d95d48685059033a4e88276f9",
+      "bytes": 3056
+    },
+    {
+      "path": "docs/design/components/Checkbox/behavior.md",
+      "sha256": "392bdc9f0663f5e4067b7b64e630e9f79d2945696881fae5a48b3a0930cb5438",
+      "bytes": 3588
+    },
+    {
+      "path": "docs/design/components/Checkbox/implementation/examples.md",
+      "sha256": "9d93e6c85df0f97e581960f36a9e510f170e8981ad75524f18e0be893d1780fb",
+      "bytes": 1102
+    },
+    {
+      "path": "docs/design/components/Checkbox/implementation/css.md",
+      "sha256": "0b2df9d947a8b1408cd223fa72aa30c827c982bc2885b7aef190cac1215c6ffe",
+      "bytes": 6058
+    },
+    {
+      "path": "docs/design/components/Checkbox/implementation/README.md",
+      "sha256": "77abe5ffb4c87d03890e4a1fbb48a5b7c054e1aa2f2940e2abae53c84950285d",
+      "bytes": 487
+    },
+    {
+      "path": "docs/design/components/Checkbox/implementation/typescript.md",
+      "sha256": "223d38951afd5b8df58d776486d0ee045fed532d9de0a16aa945e498aaf7461f",
+      "bytes": 7448
+    },
+    {
+      "path": "docs/design/components/Slider/definition.md",
+      "sha256": "a1be33d19dfb0c6669819ed7811f867bebee25f4ab182878d11e2cfc7df31d49",
+      "bytes": 9302
+    },
+    {
+      "path": "docs/design/components/Slider/styles.md",
+      "sha256": "bdf1dfd70b59436aa68e5a403cd9d1cbc7b785c1868c140f02133f900524d4c7",
+      "bytes": 9018
+    },
+    {
+      "path": "docs/design/components/Slider/accessibility.md",
+      "sha256": "4a2caf61308ccbb39bc977afeede9751ed98b4f05127014213a0152d57a8deae",
+      "bytes": 2763
+    },
+    {
+      "path": "docs/design/components/Slider/README.md",
+      "sha256": "256dd05d6a2dc8f106ae5beb6db51122871ababd2214d719d914eecb85c630cf",
+      "bytes": 2771
+    },
+    {
+      "path": "docs/design/components/Slider/verification.md",
+      "sha256": "efbd9c2a91ae854642bc79fe2ae22e1eb54883f059c12621afaa885400390ca4",
+      "bytes": 5310
+    },
+    {
+      "path": "docs/design/components/Slider/behavior.md",
+      "sha256": "0d934af2c820f7bd903953a4317c155daf93f1a061d2be423daa1a29637e31f3",
+      "bytes": 3930
+    },
+    {
+      "path": "docs/design/components/Slider/implementation/css.md",
+      "sha256": "8526603e9a0bc71cadd6e1054811c50e3c420bf67ce75de3623eef57ed8bc9ec",
+      "bytes": 6003
+    },
+    {
+      "path": "docs/design/components/Slider/implementation/README.md",
+      "sha256": "e31dcbb603f8a08cf58720d527c0d15bc4a4d5f2f5b0f6ce954845bc430307cf",
+      "bytes": 600
+    },
+    {
+      "path": "docs/design/components/Slider/implementation/typescript.md",
+      "sha256": "4aed001f2716b97c6314b06d680addc31d3c31320140eae97d4f73305194e674",
+      "bytes": 13688
+    },
+    {
+      "path": "docs/design/components/PageHeader/definition.md",
+      "sha256": "3d3d80c84e65ed760b0931d3fe54c0e08c12075b3f4a16b37c27ea6f466a6e2d",
+      "bytes": 15307
+    },
+    {
+      "path": "docs/design/components/PageHeader/styles.md",
+      "sha256": "116168e1c66ecf6a228e92fb6b798e1d795e8f6d1a8afd44e5f42cb79e3273b3",
+      "bytes": 7718
+    },
+    {
+      "path": "docs/design/components/PageHeader/accessibility.md",
+      "sha256": "a20b6b8ab4965beb25dd8a912f6940d43c4d79c266c0caefd65fad2b758f3c81",
+      "bytes": 1441
+    },
+    {
+      "path": "docs/design/components/PageHeader/README.md",
+      "sha256": "10d0798b80938b7df361b710b463ede91daa9470bdf0f891699de35999f90258",
+      "bytes": 2289
+    },
+    {
+      "path": "docs/design/components/PageHeader/verification.md",
+      "sha256": "d536ed6c3d30a9fe38cac403ddcd010bec795f5f90f205a7d2fd51d582fd8c79",
+      "bytes": 4947
+    },
+    {
+      "path": "docs/design/components/PageHeader/behavior.md",
+      "sha256": "497b83a94804fc78e986b392d778a049320c9aed4b8c5ddff53b557f44b7300c",
+      "bytes": 3877
+    },
+    {
+      "path": "docs/design/components/PageHeader/implementation/css.md",
+      "sha256": "793d743d0d2da684846bd1ad6ecdff25ae6c0b755d2ce83be9ee6a54e505f7dd",
+      "bytes": 3542
+    },
+    {
+      "path": "docs/design/components/PageHeader/implementation/README.md",
+      "sha256": "d91be23dd3096425967bb411ba4b2d9bdf68926f23b498ac8d39771bc052367f",
+      "bytes": 212
+    },
+    {
+      "path": "docs/design/components/PageHeader/implementation/typescript.md",
+      "sha256": "bcc994b2bd243377cf5c52e27be9917da31d8b6e15f7b9b17764a8ef046ecd86",
+      "bytes": 6122
+    },
+    {
+      "path": "docs/design/components/Stepper/definition.md",
+      "sha256": "d3d5743ebfb471bdc6db0646852e8cf9a7c7534bc0fac3089872da612b3743e1",
+      "bytes": 10759
+    },
+    {
+      "path": "docs/design/components/Stepper/styles.md",
+      "sha256": "b6dd650598abfb9dc5da796453f832d76ecaa93db1fc4ea0149547e9c6ef87bd",
+      "bytes": 15306
+    },
+    {
+      "path": "docs/design/components/Stepper/accessibility.md",
+      "sha256": "afbe176f33d310c5d8c72c1186f79606547deaed1b228f7a1b197fb5edfe7554",
+      "bytes": 1107
+    },
+    {
+      "path": "docs/design/components/Stepper/README.md",
+      "sha256": "15e62ffb9f564878a4ba74259a83ce8af1fdbc6fb6f0c6e243d47890786feb7b",
+      "bytes": 1262
+    },
+    {
+      "path": "docs/design/components/Stepper/verification.md",
+      "sha256": "ed742cfca918720437aec597cdb663bfc176316eccd42ac03880737e24f2c3dd",
+      "bytes": 6110
+    },
+    {
+      "path": "docs/design/components/Stepper/behavior.md",
+      "sha256": "84d35e2d253a9f7c4a1836d4d8ad67a0427ff678dd27e718b090d04ee9b49e6f",
+      "bytes": 3694
+    },
+    {
+      "path": "docs/design/components/Stepper/implementation/examples.md",
+      "sha256": "083c84f585f9ed04e8d5c07f32674f2fa4e0931eea5a0037c225405f3ecd29aa",
+      "bytes": 741
+    },
+    {
+      "path": "docs/design/components/Stepper/implementation/css.md",
+      "sha256": "62c9b714fcaf9ac79522115a74e3d16503d8e12babc73c9a6491f42cc6405fef",
+      "bytes": 7282
+    },
+    {
+      "path": "docs/design/components/Stepper/implementation/README.md",
+      "sha256": "a129ab3fc2b51537b77f75b82a79a84d582604991d00c012fbeb104d89d4715a",
+      "bytes": 526
+    },
+    {
+      "path": "docs/design/components/Stepper/implementation/typescript.md",
+      "sha256": "8f0f9b526aa3b8bf9c1d8c6a663c0da981a1a196d3af7bb878ffe4f530375176",
+      "bytes": 11566
+    },
+    {
+      "path": "docs/design/components/InputListField/definition.md",
+      "sha256": "8d3d46a8f594fd6a07ad4d5ba83bd670788ac77aed78f22b7c5bfde659ac2e65",
+      "bytes": 2430
+    },
+    {
+      "path": "docs/design/components/InputListField/styles.md",
+      "sha256": "2ffe55bc591524b7cd28bc8890a03a72f49d894d23941fcbe2541cf47f26f544",
+      "bytes": 1512
+    },
+    {
+      "path": "docs/design/components/InputListField/accessibility.md",
+      "sha256": "5c8fc046501ed296d317e95513d2ac7e35edeb293b77d265a219e5686bbeb519",
+      "bytes": 848
+    },
+    {
+      "path": "docs/design/components/InputListField/README.md",
+      "sha256": "bc6bba520b9585e709e634af503a87e6c822265d20a1f705b8904a42e0aae1aa",
+      "bytes": 627
+    },
+    {
+      "path": "docs/design/components/InputListField/verification.md",
+      "sha256": "e14a6f3218ae7e81c047181242881b3be545b153daba379c6e4683a1e14102e6",
+      "bytes": 1157
+    },
+    {
+      "path": "docs/design/components/InputListField/behavior.md",
+      "sha256": "51a6eb99cfb55addf91d615242c86a271b7d5c26d94fa7c2e913d95d8c5b8604",
+      "bytes": 1115
+    },
+    {
+      "path": "docs/design/components/InputListField/implementation/README.md",
+      "sha256": "18fb56bc77518d2eaab3445ad737a0b266e36b826fbac1a2a14ac3c19b2980b4",
+      "bytes": 268
+    },
+    {
+      "path": "docs/design/components/InputListField/implementation/typescript.md",
+      "sha256": "142b1961d31d12539d10258389c050f7f307b2f06e6b3fb6ed6f617b2bfa18aa",
+      "bytes": 2005
+    },
+    {
+      "path": "docs/design/components/Spinner/definition.md",
+      "sha256": "237d251b8f6e78a1864e259317386eb736453696c95dadb138b7d82ae1555590",
+      "bytes": 3886
+    },
+    {
+      "path": "docs/design/components/Spinner/styles.md",
+      "sha256": "f8166ea27bf152f23ac09d327ea04bf111f475000c412eeb1b08d388270d2ba7",
+      "bytes": 3986
+    },
+    {
+      "path": "docs/design/components/Spinner/accessibility.md",
+      "sha256": "869f480d5e6dc178d2c153fa3fd9cb3c33dc1396f3c1dff42a52e93057c116ce",
+      "bytes": 1370
+    },
+    {
+      "path": "docs/design/components/Spinner/README.md",
+      "sha256": "1eb3dd4596b84e236a55fed3d224613ee7da7cb2e84113eea67cd1f172f29959",
+      "bytes": 2402
+    },
+    {
+      "path": "docs/design/components/Spinner/verification.md",
+      "sha256": "d269bff9d5548e95910a215d438f5fd9a5af51ac8359119abc1301d29b16751a",
+      "bytes": 3261
+    },
+    {
+      "path": "docs/design/components/Spinner/behavior.md",
+      "sha256": "82319f6cd3f21e59f4b2f89dacc0aac42d2d4be23018ccd1dca7089e3ec86e4c",
+      "bytes": 2276
+    },
+    {
+      "path": "docs/design/components/Spinner/implementation/examples.md",
+      "sha256": "67de7433662d6ebc66aeede3d00b1965c21e3124b375fb99c94e125993d4c4b3",
+      "bytes": 651
+    },
+    {
+      "path": "docs/design/components/Spinner/implementation/css.md",
+      "sha256": "2827cff1082b024889eca3db6af6c7a93f240b7a4bd8eb58b72bae87cb0b1e49",
+      "bytes": 1823
+    },
+    {
+      "path": "docs/design/components/Spinner/implementation/README.md",
+      "sha256": "135cb9390c9d74e422a5c22cdfcdd174fbb618e464ee236427ecea6a7588c1d7",
+      "bytes": 405
+    },
+    {
+      "path": "docs/design/components/Spinner/implementation/typescript.md",
+      "sha256": "991ec048b671764b2e1a6391dd1f586eb815c3d50e37574b23676398895885b5",
+      "bytes": 2794
+    },
+    {
+      "path": "docs/design/components/Status/definition.md",
+      "sha256": "e7440a2794e6884876caecc1a9c6001284be246282fe66cb1c1ac5f84272e8bb",
+      "bytes": 5088
+    },
+    {
+      "path": "docs/design/components/Status/styles.md",
+      "sha256": "9b72c2aed4c7740fa8b39b77d40ba20e965ef5521685a706998c3c8dbaba1218",
+      "bytes": 5933
+    },
+    {
+      "path": "docs/design/components/Status/accessibility.md",
+      "sha256": "98aeb465011ff98c8acda5cb79ed227efc0c8da58994abf62604a0e5be1d31e9",
+      "bytes": 1836
+    },
+    {
+      "path": "docs/design/components/Status/README.md",
+      "sha256": "9e72e89ec9fc796f33653f326b742d33fb8c8493a9edf7ed869705b6e4648a52",
+      "bytes": 3389
+    },
+    {
+      "path": "docs/design/components/Status/verification.md",
+      "sha256": "6d93be5668eb5f321c334cee3d57c9a4b52c30faf19b8b20db47bf21741d5f7a",
+      "bytes": 4702
+    },
+    {
+      "path": "docs/design/components/Status/behavior.md",
+      "sha256": "5bbe900083eadd6bdd4273d36c05832800a4cd5961c87554263aaec036ae0b16",
+      "bytes": 8260
+    },
+    {
+      "path": "docs/design/components/Status/implementation/examples.md",
+      "sha256": "53e937601d31fb3482df4f1064f290454819ee527559012041af98c55e6051aa",
+      "bytes": 580
+    },
+    {
+      "path": "docs/design/components/Status/implementation/css.md",
+      "sha256": "b332b3436361459c2f0cfe2a989b96f02b77ea451f4e05e41243f024ff69851f",
+      "bytes": 1685
+    },
+    {
+      "path": "docs/design/components/Status/implementation/README.md",
+      "sha256": "4bb57a652762d85769cebb72f424e61aa77bd8d4a17c354ef647c75c0fa3df41",
+      "bytes": 532
+    },
+    {
+      "path": "docs/design/components/Status/implementation/typescript.md",
+      "sha256": "33e0bb43089be78cb4a0778d6a520b9cb0f20956efd52a4f639cd0521748d826",
+      "bytes": 7895
+    },
+    {
+      "path": "docs/design/components/Tab/definition.md",
+      "sha256": "51ac54647aae41ef845c46d2366b5757f80b69adfc144fb5eabfdb18c67f31b7",
+      "bytes": 8030
+    },
+    {
+      "path": "docs/design/components/Tab/styles.md",
+      "sha256": "e785f99575e1914f4754da3bbae24edfe9f9a1fe6df331c3b9a6e5e2c38ce4cf",
+      "bytes": 9302
+    },
+    {
+      "path": "docs/design/components/Tab/accessibility.md",
+      "sha256": "92a5dd8311df53beb9e646bf9336c10d1e361e1a7cef27b154dc64e49c53e77f",
+      "bytes": 1756
+    },
+    {
+      "path": "docs/design/components/Tab/README.md",
+      "sha256": "32322935139ae6c49c63503d0d2778bbbf69aa9466b4294d7921280b976cb33c",
+      "bytes": 1778
+    },
+    {
+      "path": "docs/design/components/Tab/verification.md",
+      "sha256": "1bc2930600c2e43f0b988fba473dc04a5a93d8803dee728c36fbc3dc44a66ae4",
+      "bytes": 4158
+    },
+    {
+      "path": "docs/design/components/Tab/behavior.md",
+      "sha256": "bb998be58b98e25f7de7c58f2e33b0c6a1db41a44cccfe843e8f9a3ede0a7bfd",
+      "bytes": 2941
+    },
+    {
+      "path": "docs/design/components/Tab/implementation/examples.md",
+      "sha256": "a70f600bfb8cb917c5f632af389e268bf452246406c7d736e1b6195dde1d75fb",
+      "bytes": 821
+    },
+    {
+      "path": "docs/design/components/Tab/implementation/reference.md",
+      "sha256": "e6f4a8ddf9299b7d2ef9524e612b72a292eb0bd130c965415356ba0c89db5b8b",
+      "bytes": 673
+    },
+    {
+      "path": "docs/design/components/Tab/implementation/css.md",
+      "sha256": "d9f3d81c35a9fe4341401ea45f92a741b8e061b599d65e06f06d58253587e6fe",
+      "bytes": 6276
+    },
+    {
+      "path": "docs/design/components/Tab/implementation/README.md",
+      "sha256": "36cbd9116f442d2ed4b70e54caad50bbb52ab761a006adaeedfdea1daedd6be2",
+      "bytes": 495
+    },
+    {
+      "path": "docs/design/components/Tab/implementation/typescript.md",
+      "sha256": "d7bb2cd5e6a6a3d0f3ea136e789c4010498164ac636584be026adbc923bc591b",
+      "bytes": 5063
+    },
+    {
+      "path": "docs/design/components/ContentState/definition.md",
+      "sha256": "dc07fb0e3d59041de0e7fa5d00343d3e22660dc618b15c08399fefd13f7149fd",
+      "bytes": 1325
+    },
+    {
+      "path": "docs/design/components/ContentState/styles.md",
+      "sha256": "db9b2931d7f6a11f25eb4ce5d579656cdac29a7c39f49f8bd045cbe84b3364bd",
+      "bytes": 801
+    },
+    {
+      "path": "docs/design/components/ContentState/accessibility.md",
+      "sha256": "024878623a0043c99f9a21321967c10ae82ad6eb0e587aef9143e13a63f33365",
+      "bytes": 755
+    },
+    {
+      "path": "docs/design/components/ContentState/README.md",
+      "sha256": "c858ae581efeb8b504016067f90dd1625c8113ba5cc01b8a9031f68285b2d1ab",
+      "bytes": 1007
+    },
+    {
+      "path": "docs/design/components/ContentState/verification.md",
+      "sha256": "4ac859457553de794d229f08a33618b78eb37905db48d022def1e20b0437b524",
+      "bytes": 749
+    },
+    {
+      "path": "docs/design/components/ContentState/behavior.md",
+      "sha256": "3311a1374848d9f8358e5643cb97961f30e377fa81e602b22623749907fe9c81",
+      "bytes": 962
+    },
+    {
+      "path": "docs/design/components/SNBV1/definition.md",
+      "sha256": "c1a871b9fd2966c88eb2dc0f2dfe2a5575a2f23e3624915a24bae1524d9ce7dd",
+      "bytes": 12067
+    },
+    {
+      "path": "docs/design/components/SNBV1/styles.md",
+      "sha256": "1caee93693d0ee2d5f0c99a33bea647749235c6f406268249f188827d50a1454",
+      "bytes": 12264
+    },
+    {
+      "path": "docs/design/components/SNBV1/accessibility.md",
+      "sha256": "422c3a2f5e1af1ff099ec341bf5a152c80ada9b530ef5f0a8a396047f182b495",
+      "bytes": 850
+    },
+    {
+      "path": "docs/design/components/SNBV1/README.md",
+      "sha256": "ccd048c6245088e2fd60e0e40bc8caafcfa1fd9b1099d2e7eb1c78eb2d01bb85",
+      "bytes": 2571
+    },
+    {
+      "path": "docs/design/components/SNBV1/verification.md",
+      "sha256": "b22d970453b06a1085efd0c179ea9bec3208c29ba046c422668a8dbc139a1299",
+      "bytes": 12693
+    },
+    {
+      "path": "docs/design/components/SNBV1/behavior.md",
+      "sha256": "b30d8594f331aaca6302bf3a6a0725b9b1c43a06acea182bf41f707f39c6310f",
+      "bytes": 5028
+    },
+    {
+      "path": "docs/design/components/SNBV1/implementation/reference.md",
+      "sha256": "d5d89c2c436b1ec9fa2bf7fb7b5212963449d18089b7d5964a23be883b9018e8",
+      "bytes": 9702
+    },
+    {
+      "path": "docs/design/components/SNBV1/implementation/css.md",
+      "sha256": "502de778d33d2603ad0e39d5e90d91bda2c14750e5278f6e6e59297972d527fa",
+      "bytes": 17772
+    },
+    {
+      "path": "docs/design/components/SNBV1/implementation/README.md",
+      "sha256": "10c52307e9c294c1f8344c9f2424b209207ade4df4648dd9e827364660016331",
+      "bytes": 438
+    },
+    {
+      "path": "docs/design/components/SNBV1/implementation/typescript.md",
+      "sha256": "703c5b1ab920e3f9a6dde2d143c8a243b4c3b4637fb2b870d012cdc5f97661b3",
+      "bytes": 8740
+    },
+    {
+      "path": "docs/design/components/Search/definition.md",
+      "sha256": "c185c293178dc321e980e9d9da561d42786ea10c01b0b020bd8d4b55084817b2",
+      "bytes": 6513
+    },
+    {
+      "path": "docs/design/components/Search/styles.md",
+      "sha256": "8faea47431b39f2be3e65b533956640b13069c415b8a8ebb56b72a8b2185c571",
+      "bytes": 6178
+    },
+    {
+      "path": "docs/design/components/Search/accessibility.md",
+      "sha256": "11e1e6c7a7743f7a127a7f13d1b2e108141dcf2957d295543c2b02f075edfa43",
+      "bytes": 1433
+    },
+    {
+      "path": "docs/design/components/Search/README.md",
+      "sha256": "46334be0f052fb7c2f0b5305c47d15c36564db0af00d1d38098a8596d99f738d",
+      "bytes": 1539
+    },
+    {
+      "path": "docs/design/components/Search/verification.md",
+      "sha256": "9cce76e2d890867a76b2ec67bbbe2e0d4a94f7caf5e6c3bd04a7e9e148a982db",
+      "bytes": 3168
+    },
+    {
+      "path": "docs/design/components/Search/behavior.md",
+      "sha256": "6a2728b54b682009930d031af191d0274e2095e361f92f7ffdec128d6a8dde25",
+      "bytes": 2671
+    },
+    {
+      "path": "docs/design/components/Search/implementation/css.md",
+      "sha256": "caea6a84f26b795fdab04d3f339de16e7d6811582f6f9f1359f55dd137519c7c",
+      "bytes": 2650
+    },
+    {
+      "path": "docs/design/components/Search/implementation/README.md",
+      "sha256": "315ee9f7339923cc2c01caa17333aebb41c38a2873d4c6b258d05dd06490b03d",
+      "bytes": 603
+    },
+    {
+      "path": "docs/design/components/Search/implementation/typescript.md",
+      "sha256": "aa2880bcb26194791d8c8dcad4f3ce37467222568513ecb0dfe641f7b0712873",
+      "bytes": 4211
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV2/definition.md",
+      "sha256": "9037a4f3b81d1bcdb84a26f03cb028356622662c53375be78e68c94025323f19",
+      "bytes": 5018
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV2/styles.md",
+      "sha256": "8d395ffb2b81de563c36f4fdd3fb8cb7dd6ac5e4e4e413512f2101332297ab0b",
+      "bytes": 2729
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV2/accessibility.md",
+      "sha256": "2bd875fbeae5ace386243350a316f9925659180c34475b826738593808047c7e",
+      "bytes": 772
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV2/README.md",
+      "sha256": "9571fbcb8081f7e58c0d19318676bc8d80025dee51bb41df90a9a020d4a47472",
+      "bytes": 2434
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV2/verification.md",
+      "sha256": "b5b944622e2faf3db8c037bb86e76be95962f91c5abbd82beab56edc95486d6e",
+      "bytes": 2632
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV2/behavior.md",
+      "sha256": "0b13ba5842e3872880520502417b85b0e0c76ac12db08a71120d8c443e623a13",
+      "bytes": 2025
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV2/implementation/css.md",
+      "sha256": "3e3c571766e8567318250a50ad28f4cfe33db35cf8f63a20368a3260c77a1f07",
+      "bytes": 1926
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV2/implementation/README.md",
+      "sha256": "2bf9d79bfa694b24b96bb549f7e21d6252d06ce9d094000bf7127d9d82d0fa1e",
+      "bytes": 377
+    },
+    {
+      "path": "docs/design/components/GlobalHeaderV2/implementation/typescript.md",
+      "sha256": "33c23d23242eb306966bedc692e91e3eb149ffc6e6dfd31cfca746214bf4996e",
+      "bytes": 2773
+    },
+    {
+      "path": "docs/design/components/Dialog/definition.md",
+      "sha256": "6578a990edba193b946aca7c4d62e0587773cefffcc7c33a438cbd631a70d39f",
+      "bytes": 13608
+    },
+    {
+      "path": "docs/design/components/Dialog/styles.md",
+      "sha256": "f7f4c863ed8d01422d02eefaaf5ac86912232103e4dcf844d7bd6080ccf14a6a",
+      "bytes": 9037
+    },
+    {
+      "path": "docs/design/components/Dialog/accessibility.md",
+      "sha256": "851f090d64522835bff845e62bc30704dad2b0fdcd69129f969dbe6f476a523e",
+      "bytes": 2768
+    },
+    {
+      "path": "docs/design/components/Dialog/README.md",
+      "sha256": "47eb7bdb719abccb5317c7971f55afe900007f91f11ddf5e83b9422bc836747f",
+      "bytes": 3343
+    },
+    {
+      "path": "docs/design/components/Dialog/verification.md",
+      "sha256": "e598f9ddc43235ea39e3cc906b24556d54c9f695d73a24756c95384fe00e0032",
+      "bytes": 6885
+    },
+    {
+      "path": "docs/design/components/Dialog/behavior.md",
+      "sha256": "bc5c85be6511e6c5a3502ea1426de641e38b3dbac3f109f692194102eaeb8165",
+      "bytes": 8544
+    },
+    {
+      "path": "docs/design/components/Dialog/implementation/examples.md",
+      "sha256": "e681253927af589e0f6998dd2dd9b020e6df4d02e7826f54702415fdaf06f186",
+      "bytes": 2367
+    },
+    {
+      "path": "docs/design/components/Dialog/implementation/css.md",
+      "sha256": "29a0d3e7f283751a5c5a1e23fc0695557f9de35e8da8c1033b1549a752dee354",
+      "bytes": 8099
+    },
+    {
+      "path": "docs/design/components/Dialog/implementation/README.md",
+      "sha256": "4d39d0d6a7d491473a6e909ed087fc1592ab441b2db2b2a43b0fd02d5aa1863c",
+      "bytes": 525
+    },
+    {
+      "path": "docs/design/components/Dialog/implementation/typescript.md",
+      "sha256": "cfab0b2e3bbc5c21b66b01e9b20fc218fbbff3ec5330f9ad6353ac17a798fd86",
+      "bytes": 7699
+    },
+    {
+      "path": "docs/design/components/Textarea/definition.md",
+      "sha256": "bdc756718853737267ab32d42e68a3c9ad58c0e5d55bb81906cc4262ed222e33",
+      "bytes": 6416
+    },
+    {
+      "path": "docs/design/components/Textarea/styles.md",
+      "sha256": "a4e27158af6cf88f227f9093ec06937b7696a4100d43cb8fbf073ea5a820adf4",
+      "bytes": 7106
+    },
+    {
+      "path": "docs/design/components/Textarea/accessibility.md",
+      "sha256": "1b165232475bd97412aeccf704d6f5291a1ee8911fc2f3ef562cdcc7fe036a37",
+      "bytes": 1389
+    },
+    {
+      "path": "docs/design/components/Textarea/README.md",
+      "sha256": "5bbcd67ab1eee510cb58261f963274570f7606ee7e557c2f1a4c67499306fcc9",
+      "bytes": 1604
+    },
+    {
+      "path": "docs/design/components/Textarea/verification.md",
+      "sha256": "a4aed64fcaea6fc6de06aab05a55570a69162a2aa185d2963bd43f94da2029e7",
+      "bytes": 3039
+    },
+    {
+      "path": "docs/design/components/Textarea/behavior.md",
+      "sha256": "90086be946c6c9a920bc5ef0a7425673614fd5f196c960d95e021514affbd5e5",
+      "bytes": 3470
+    },
+    {
+      "path": "docs/design/components/Textarea/implementation/css.md",
+      "sha256": "866d1dc39205eac9775cbcdc41a728da207ab9d3c2e7dff97703357aa80129a1",
+      "bytes": 5517
+    },
+    {
+      "path": "docs/design/components/Textarea/implementation/README.md",
+      "sha256": "b6084150acb678dca63e740e5013cc79e92bd51a4484e97b7430e36c73c694b3",
+      "bytes": 314
+    },
+    {
+      "path": "docs/design/components/Textarea/implementation/typescript.md",
+      "sha256": "3a2c7328d48520ded5a84b82ceab0f2a98ce56b17be74d1ac58ef58c81a7d8a1",
+      "bytes": 3731
+    },
+    {
+      "path": "docs/design/components/EditConfirmationDialog/definition.md",
+      "sha256": "eb1d35bee75d6b23481b065112b2c37781cba3084b18506ceedee1748b7e5341",
+      "bytes": 3857
+    },
+    {
+      "path": "docs/design/components/EditConfirmationDialog/styles.md",
+      "sha256": "372b6150e26b192dfbf2f1910e30ce91facbdea035575066b5541f77cf8ea36b",
+      "bytes": 2643
+    },
+    {
+      "path": "docs/design/components/EditConfirmationDialog/accessibility.md",
+      "sha256": "c198f50a7a7353d0e16abb02987ab29c5feb9bd168f2656eb5c239ddf01e78f5",
+      "bytes": 1244
+    },
+    {
+      "path": "docs/design/components/EditConfirmationDialog/README.md",
+      "sha256": "22931e590dc9d344ce5ba3a022fb3e5457ad04913208994dd5fc146cabee937b",
+      "bytes": 1368
+    },
+    {
+      "path": "docs/design/components/EditConfirmationDialog/verification.md",
+      "sha256": "3084191a81301e774a100cd88eece2a5edca7f78dcdede00bee976be1b8ccf8b",
+      "bytes": 1841
+    },
+    {
+      "path": "docs/design/components/EditConfirmationDialog/behavior.md",
+      "sha256": "6fbb9d92790edaebb7595ad3daba15c4687e857fbc19dbf20bf08648678c0cc1",
+      "bytes": 2777
+    },
+    {
+      "path": "docs/design/components/EditConfirmationDialog/implementation/README.md",
+      "sha256": "3834649ee2050f7d66f451b47363b7c4695bb638b6fec5790a2df77ba44c527b",
+      "bytes": 247
+    },
+    {
+      "path": "docs/design/components/EditConfirmationDialog/implementation/typescript.md",
+      "sha256": "f6a233495d081a683f395ade8e8b42169f4aac695c5cd466705ea88f2b2a8999",
+      "bytes": 1981
+    },
+    {
+      "path": "docs/design/components/Button/definition.md",
+      "sha256": "96c69a7f04d1b59afa4ff3d9b88187d7fb14e96da5425d230bee848cdf29312b",
+      "bytes": 4708
+    },
+    {
+      "path": "docs/design/components/Button/styles.md",
+      "sha256": "806e45eef837966b503e23b43b213f482eef9fcf1ebdb8bd1903405520841c27",
+      "bytes": 10774
+    },
+    {
+      "path": "docs/design/components/Button/accessibility.md",
+      "sha256": "f12359ddf6ab60de1ffa54d178b0ab2cc670b5594c729bcd6a9d756259539ffa",
+      "bytes": 1004
+    },
+    {
+      "path": "docs/design/components/Button/README.md",
+      "sha256": "19e6afb1428b1c6fcf05eb92749ee4853f9361982865d77c679623c4733ee3f6",
+      "bytes": 3426
+    },
+    {
+      "path": "docs/design/components/Button/verification.md",
+      "sha256": "995ffafe8588190d23a108125dfff8f3eb0eb968d4c201b1e63ba20762e47524",
+      "bytes": 3936
+    },
+    {
+      "path": "docs/design/components/Button/behavior.md",
+      "sha256": "b3427ab2681d9ad590c60fca03eae8e443baa6354b608c2a74bfd9d467850d96",
+      "bytes": 2057
+    },
+    {
+      "path": "docs/design/components/Button/implementation/examples.md",
+      "sha256": "0a7402c2c63074683deceec48744b245e10e5ba16ca2a87642489b0e53ef1466",
+      "bytes": 1471
+    },
+    {
+      "path": "docs/design/components/Button/implementation/css.md",
+      "sha256": "14b160c63554f4c4c3dcfe3300f4c774fe061bd2d1c97f583bfb1c2ac9aed72d",
+      "bytes": 4469
+    },
+    {
+      "path": "docs/design/components/Button/implementation/README.md",
+      "sha256": "a0f849dc92dda20734186ac481ebc6853a996e1c38eb97d11f124a6e94570eb1",
+      "bytes": 533
+    },
+    {
+      "path": "docs/design/components/Button/implementation/typescript.md",
+      "sha256": "7562fd2fad0ad434c9beb19c3e16b1363c448dce197af91af6d9c0bdc1448ca6",
+      "bytes": 3054
+    },
+    {
+      "path": "docs/design/components/Link/definition.md",
+      "sha256": "37e5ca48011a16dea675c9d136a69a2274bcafbe28a8098bdc38cf793613394c",
+      "bytes": 3771
+    },
+    {
+      "path": "docs/design/components/Link/styles.md",
+      "sha256": "ad9e5f273e9608a07e6e90800f3ed82aeefafe73f090e1cf5c795cebb93f5b9e",
+      "bytes": 4415
+    },
+    {
+      "path": "docs/design/components/Link/accessibility.md",
+      "sha256": "f3609b3e4e894e9812181d8bb14cedb2fada8f09f46c938b4f5145fd18771752",
+      "bytes": 1112
+    },
+    {
+      "path": "docs/design/components/Link/README.md",
+      "sha256": "e9fcc39a88b5b12a4217df543c67e739d6fa6de509ffa9b40d8bab05c1e863c1",
+      "bytes": 2936
+    },
+    {
+      "path": "docs/design/components/Link/verification.md",
+      "sha256": "0e1df4ba8352fe247faf0033c0c216476c5118d8480a410630b8d644a2c4b8dc",
+      "bytes": 3402
+    },
+    {
+      "path": "docs/design/components/Link/behavior.md",
+      "sha256": "2e480bcf3b198c0c9946eb8d33a2c78170206df78e0cbbd5650db3202cf12008",
+      "bytes": 2039
+    },
+    {
+      "path": "docs/design/components/Link/implementation/examples.md",
+      "sha256": "149878e9e7096eb29b49aa54eee717cc887acd2843f6fc0316447d90c3c3991b",
+      "bytes": 2177
+    },
+    {
+      "path": "docs/design/components/Link/implementation/css.md",
+      "sha256": "08a274bc36d335a2358dc99ddeb07e3f4259a120ea6e7e5f98b55fcaedc7ce43",
+      "bytes": 2568
+    },
+    {
+      "path": "docs/design/components/Link/implementation/README.md",
+      "sha256": "279078af2ad80567bec29f75357ec24b535302df93f91a3064044396783c549a",
+      "bytes": 507
+    },
+    {
+      "path": "docs/design/components/Link/implementation/typescript.md",
+      "sha256": "fd35c1aba8e23573807460a92a9f4a423a6254e754917a83df13ff6db21e6675",
+      "bytes": 1279
+    },
+    {
+      "path": "docs/design/components/Table/definition.md",
+      "sha256": "5147d09b4a31c816e109f50f17c017e4671f8295bb6093935321ebe30f46ccd8",
+      "bytes": 17690
+    },
+    {
+      "path": "docs/design/components/Table/styles.md",
+      "sha256": "905410ac8727ff98f7f3542c0a9bae4a41f6b2910daf5b89a08db1cc6639be36",
+      "bytes": 7830
+    },
+    {
+      "path": "docs/design/components/Table/accessibility.md",
+      "sha256": "6bc143fccf0462969851e0a27e2c0864e7ae9e0e791c94cc01eb8f4faf7fe878",
+      "bytes": 5454
+    },
+    {
+      "path": "docs/design/components/Table/README.md",
+      "sha256": "33dc96fac6247775212d1a598302abdfcb75e4503f92663d404a4c5815486934",
+      "bytes": 5090
+    },
+    {
+      "path": "docs/design/components/Table/verification.md",
+      "sha256": "37523976d0118781057427fdaa1d1a5fc4563b63e87a83b132bc1f78a151f0f4",
+      "bytes": 8671
+    },
+    {
+      "path": "docs/design/components/Table/behavior.md",
+      "sha256": "f1e9d82d4c4d0f8017cff1e185106ddcc02be30f96c499571cad3103a19120fe",
+      "bytes": 10105
+    },
+    {
+      "path": "docs/design/components/Table/implementation/README.md",
+      "sha256": "13438a7b067ca6952830b44dddfef657b7091b5a03af944dd58f23765691c20e",
+      "bytes": 1218
+    },
+    {
+      "path": "docs/design/components/Table/implementation/typescript.md",
+      "sha256": "7d33ffd7d85996d244cd297dc5a39683ce513e8b8278ce1761e73227ec0d2b1e",
+      "bytes": 11610
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/definition.md",
+      "sha256": "7c2471089fff5f8445f2021113696dbd8c430189da34be0742bf515129d89e31",
+      "bytes": 6313
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/styles.md",
+      "sha256": "ef99eca7ee5f1fdbd8434917b7e1f38eb67c322f77002a7a82ccd525139057ff",
+      "bytes": 9537
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/accessibility.md",
+      "sha256": "e047a5d7302486b2e58a37e67e1f497c7e812dddca1363d6939399f9120aa410",
+      "bytes": 1257
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/README.md",
+      "sha256": "ac6e9f4ea7620e325c5a0607db8827d31e0e0470e08d007152e788b9b513eed7",
+      "bytes": 1649
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/verification.md",
+      "sha256": "87899987c704c1b6ff9cb4315bc2cfbb7d74548d5bbb0ff3fb26e8c85fc0a394",
+      "bytes": 3346
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/behavior.md",
+      "sha256": "8df8513aa9e1cb1ab36e877de5bceac7e93d8512ec1d6ca754a0b8d7ee6df44f",
+      "bytes": 2328
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/implementation/examples.md",
+      "sha256": "4630285f5aaf46f82ab299dd1cc8ec2dab3db43726014f75cc74aaa5508aa39e",
+      "bytes": 1046
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/implementation/css.md",
+      "sha256": "af0b50c24c994775ef866c5d278ee55de1fb6f606391049903c50a6377371ab7",
+      "bytes": 6037
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/implementation/README.md",
+      "sha256": "13fc0a0f4ea5440b4893c624ad028dad2d1395688d62890c0a81d392d08e42e7",
+      "bytes": 496
+    },
+    {
+      "path": "docs/design/components/SegmentedControl/implementation/typescript.md",
+      "sha256": "82348061e3be0a8eb94f2090190c257eb76d7410c6310e7233ac0d63420bed1e",
+      "bytes": 6362
+    },
+    {
+      "path": "docs/design/components/Divider/definition.md",
+      "sha256": "ba9644ae16f88975ef6aab55675a3c3901f818ad872fecef653a68e51c186088",
+      "bytes": 2135
+    },
+    {
+      "path": "docs/design/components/Divider/styles.md",
+      "sha256": "a97c80901f65ed90f1bd47bc10e087c94aa5947ec7d5c9bde98c27297c507c85",
+      "bytes": 2079
+    },
+    {
+      "path": "docs/design/components/Divider/accessibility.md",
+      "sha256": "8afe2a8994c1d9cbd290abad026ef870a644cf06820444e3c8882622b116d574",
+      "bytes": 1052
+    },
+    {
+      "path": "docs/design/components/Divider/README.md",
+      "sha256": "ca046b1f2ce61174d3a264d6269851c22ce4743c4552958c9596ace0992c7e41",
+      "bytes": 1718
+    },
+    {
+      "path": "docs/design/components/Divider/verification.md",
+      "sha256": "007c159e0dbfd6e4c8dd65fa259ddc2f72a99f2fe87378bd7a96b745771b36a1",
+      "bytes": 1941
+    },
+    {
+      "path": "docs/design/components/Divider/behavior.md",
+      "sha256": "c71573f6b8cb46c3b1569a2d88e1fbcae3114811e9a9d01effc2e2ef233ef0e3",
+      "bytes": 772
+    },
+    {
+      "path": "docs/design/components/Divider/implementation/examples.md",
+      "sha256": "def0365106862bffff986fef18710d10cae6873f959fc967f1d95eb42711cdf2",
+      "bytes": 506
+    },
+    {
+      "path": "docs/design/components/Divider/implementation/css.md",
+      "sha256": "2d865c97b82f3251e2a4d1356c587b4412ed0a705d0166c5dfec60f4be285c9f",
+      "bytes": 1497
+    },
+    {
+      "path": "docs/design/components/Divider/implementation/README.md",
+      "sha256": "730c684d1d6e42306a8a9a6b0ecb649bb965e5b519c67e4240feebe3885c50e4",
+      "bytes": 448
+    },
+    {
+      "path": "docs/design/components/Divider/implementation/typescript.md",
+      "sha256": "e99e7e973c2da5e7fbe0902bda18cfea0c3f9935cddc76ff62dbc98c3b81a2c6",
+      "bytes": 2241
+    },
+    {
+      "path": "docs/design/components/Menu/definition.md",
+      "sha256": "0abe380be84fb98ee353a821f8e13da693522ba03c5658269a9c7e28678041e1",
+      "bytes": 19940
+    },
+    {
+      "path": "docs/design/components/Menu/styles.md",
+      "sha256": "360c864a7fb56f9ed42cbb5acbbaef47030d916531acdb1b54f914d9541d799b",
+      "bytes": 9071
+    },
+    {
+      "path": "docs/design/components/Menu/accessibility.md",
+      "sha256": "2bba42d7d0384ac42d05d86b83302f81fe1a37affb0dfa1bd80fce6b402fe094",
+      "bytes": 1006
+    },
+    {
+      "path": "docs/design/components/Menu/README.md",
+      "sha256": "f282cb059cdf05a63089ea50e41e97dad5da932e2c53387e4894f265604b4b35",
+      "bytes": 1621
+    },
+    {
+      "path": "docs/design/components/Menu/verification.md",
+      "sha256": "75ee7fc4114819c1a3db450b263bb0ed2a7426d455733460fe1887d9ac392d9e",
+      "bytes": 5662
+    },
+    {
+      "path": "docs/design/components/Menu/behavior.md",
+      "sha256": "70daf324d72f9358f27bdcd6e228a38500e4982d8eb03e52f549525051959728",
+      "bytes": 2728
+    },
+    {
+      "path": "docs/design/components/Menu/implementation/examples.md",
+      "sha256": "72fca15f4c76e688dfcea9a2d8911c4aaff1f8f5b3a93308eef9800f152a1383",
+      "bytes": 4643
+    },
+    {
+      "path": "docs/design/components/Menu/implementation/css.md",
+      "sha256": "25571099b75ce2811ecbfe5cc25aa124cfe978d018f179c31461a6e337d53f85",
+      "bytes": 8189
+    },
+    {
+      "path": "docs/design/components/Menu/implementation/README.md",
+      "sha256": "615a3984cfa7b864865192465bdf3122c2826fe654a8c194f257c2ac53c61247",
+      "bytes": 415
+    },
+    {
+      "path": "docs/design/components/Menu/implementation/typescript.md",
+      "sha256": "c9d1af9769fef8a4aacccf54c4d830f86388430aac4e64e87459dc551d8ff15e",
+      "bytes": 6520
+    },
+    {
+      "path": "docs/design/components/Avatar/definition.md",
+      "sha256": "42ab76cf361d0e2a8fa1a49fe86bd22e2a7077db56a2b5381a0de59d621fe602",
+      "bytes": 3111
+    },
+    {
+      "path": "docs/design/components/Avatar/styles.md",
+      "sha256": "9a9ad97ca11eeb7a2526b58010b13cab370d746cc400fc1d560ca831ba11ada3",
+      "bytes": 9234
+    },
+    {
+      "path": "docs/design/components/Avatar/accessibility.md",
+      "sha256": "9107ec0e8a3a0cb7f40be470442378a291b4f783a83802b729b49473eb0821d4",
+      "bytes": 1261
+    },
+    {
+      "path": "docs/design/components/Avatar/README.md",
+      "sha256": "04d788c5b8d8c15ef45b005a81f1f1d17580c8c3d2724363333ed77cbf7b44e4",
+      "bytes": 2965
+    },
+    {
+      "path": "docs/design/components/Avatar/verification.md",
+      "sha256": "a7b46e5341bbf42d266f1ea52678992980d10ff3765518d921ab29fca9ac52bc",
+      "bytes": 3017
+    },
+    {
+      "path": "docs/design/components/Avatar/behavior.md",
+      "sha256": "c5b6a38dbefd77ce65d2a65d95ee6742a15c484b42be602bd4343bb814306271",
+      "bytes": 2155
+    },
+    {
+      "path": "docs/design/components/Avatar/implementation/examples.md",
+      "sha256": "e3a8a55f238451c06943b8cc24dfccbcc786ceedf06dccbdbc44d1140eaa310a",
+      "bytes": 794
+    },
+    {
+      "path": "docs/design/components/Avatar/implementation/css.md",
+      "sha256": "2a87c222015becdfd82ff4cd374937d9f4e17c97a8bd5c4a16e75a24c8ebf6ba",
+      "bytes": 4962
+    },
+    {
+      "path": "docs/design/components/Avatar/implementation/README.md",
+      "sha256": "9cde22a16fd48bbe557d649d7a3455df984939262081abbfebd0410d9b50143a",
+      "bytes": 448
+    },
+    {
+      "path": "docs/design/components/Avatar/implementation/typescript.md",
+      "sha256": "28cbb3b4986b5754cf2216f3a2916efd059977249e5e671e358a0fa910c8003e",
+      "bytes": 2911
+    },
+    {
+      "path": "docs/design/components/SplitButton/definition.md",
+      "sha256": "34d2619e11113c75886bcdd402823e74362b2bc6450dfac675e023ba76b2ce28",
+      "bytes": 7386
+    },
+    {
+      "path": "docs/design/components/SplitButton/styles.md",
+      "sha256": "b57846b432d30be0964935cde2a08457b2c50cb4aa1af52d2c887ddaf3dd5247",
+      "bytes": 7403
+    },
+    {
+      "path": "docs/design/components/SplitButton/accessibility.md",
+      "sha256": "c6949bc42770527934bbfdf3b76333b34ecd8ab4d44751c5ba0882ebf640d8fc",
+      "bytes": 1975
+    },
+    {
+      "path": "docs/design/components/SplitButton/README.md",
+      "sha256": "a6946445bd290878885058e6c7cced7c27bcc2452741c3d821f4fa95c74ca62c",
+      "bytes": 2084
+    },
+    {
+      "path": "docs/design/components/SplitButton/verification.md",
+      "sha256": "3f34ccf9c1661450dfff00f96f348245551701c93be4547df92839918fa193a1",
+      "bytes": 5147
+    },
+    {
+      "path": "docs/design/components/SplitButton/behavior.md",
+      "sha256": "a13ba55327b7d9e528715a1b97bffdfd38ef117c95128e795552ed9a8244bb31",
+      "bytes": 4208
+    },
+    {
+      "path": "docs/design/components/SplitButton/implementation/examples.md",
+      "sha256": "93df654cac58105bf2bab8e5680becf7461e1fc731bb0219be8360014ad812b6",
+      "bytes": 1526
+    },
+    {
+      "path": "docs/design/components/SplitButton/implementation/css.md",
+      "sha256": "2f73ed3b520c35dd7e408e6e01d339a40a2f42e9a0021a618500b61879578143",
+      "bytes": 4502
+    },
+    {
+      "path": "docs/design/components/SplitButton/implementation/README.md",
+      "sha256": "6e3401c382af25f23a63180f65ea2551129b12dc90728b6972069195836249f7",
+      "bytes": 504
+    },
+    {
+      "path": "docs/design/components/SplitButton/implementation/typescript.md",
+      "sha256": "9485f8c247347d22ace8f0deeaf67eae627d78aac3b72e373180fab731b278da",
+      "bytes": 4698
+    },
+    {
+      "path": "docs/design/components/Switch/definition.md",
+      "sha256": "85cfc8c7a4c7e5ebcb224ee4dea1eca1dea6b03e3c37d719e77cf3273194cffb",
+      "bytes": 3950
+    },
+    {
+      "path": "docs/design/components/Switch/styles.md",
+      "sha256": "1909f0371ae013ae1a242fd89f43d6111910c1a17db6f7d97c609aa2fcfba724",
+      "bytes": 6785
+    },
+    {
+      "path": "docs/design/components/Switch/accessibility.md",
+      "sha256": "0d862d66e7000d4e7f501160b9b73b4bf7a48275925c33208a10dfb5df4ac1a5",
+      "bytes": 869
+    },
+    {
+      "path": "docs/design/components/Switch/README.md",
+      "sha256": "e353ce7dde96df956750507ca76287dfc4588eb1802bc40fd2f5b5137e387ce8",
+      "bytes": 1406
+    },
+    {
+      "path": "docs/design/components/Switch/verification.md",
+      "sha256": "effd8be72c48d2e1828213bc820fab18be6fb3f7aa4f990601d622aa7a5e6026",
+      "bytes": 3318
+    },
+    {
+      "path": "docs/design/components/Switch/behavior.md",
+      "sha256": "7fc355c91e6ae1f4a483c5713a6fe7f149b117019b4deef239afee980aa81d4f",
+      "bytes": 1770
+    },
+    {
+      "path": "docs/design/components/Switch/implementation/examples.md",
+      "sha256": "6e2b3cdedd0e8d56d20fc4704473b50a90a80d02f1f5ea7eadd451c841c35154",
+      "bytes": 496
+    },
+    {
+      "path": "docs/design/components/Switch/implementation/reference.md",
+      "sha256": "e2dcae2f6df30994185f4f63446f58939fa04d6b24bf88d47e7f0956cc8ffdee",
+      "bytes": 173
+    },
+    {
+      "path": "docs/design/components/Switch/implementation/css.md",
+      "sha256": "10f62e0358ca13c90d05995df1bad488c2ec329775967bbb13e66e923234e70d",
+      "bytes": 5349
+    },
+    {
+      "path": "docs/design/components/Switch/implementation/README.md",
+      "sha256": "409b70a519ce9de69daee7c6da063911b50ff5c0bb2e43b5c3f5c2fae7e34b00",
+      "bytes": 277
+    },
+    {
+      "path": "docs/design/components/Switch/implementation/typescript.md",
+      "sha256": "e7bb7c45eee369a198bd17bbf9f935c1042ef9d3bdb191f0812ecd6386363886",
+      "bytes": 3250
+    },
+    {
+      "path": "docs/design/components/DetailField/definition.md",
+      "sha256": "36f2b7a0e0cb3c6f70ecc9907a555ba2e780c919b38ca1cd4e2bac02a14909b0",
+      "bytes": 5084
+    },
+    {
+      "path": "docs/design/components/DetailField/styles.md",
+      "sha256": "db16a5c66faf09ae5fb905aea334be49def73a672281315c202913090f755bb7",
+      "bytes": 1496
+    },
+    {
+      "path": "docs/design/components/DetailField/accessibility.md",
+      "sha256": "c7970258001fc3713cead9e8f9f8f0d1ee49714caed21111e57db9e6cef66365",
+      "bytes": 630
+    },
+    {
+      "path": "docs/design/components/DetailField/README.md",
+      "sha256": "aef38442f43a9ea4d1f2d26a739fbfd79a8c254efe2ef2a297f31a5a6fb5ec69",
+      "bytes": 765
+    },
+    {
+      "path": "docs/design/components/DetailField/verification.md",
+      "sha256": "055169ba874d590b339dbc91e502d7c3bcac6b6be1411bac3f23a80989e1b98f",
+      "bytes": 1204
+    },
+    {
+      "path": "docs/design/components/DetailField/behavior.md",
+      "sha256": "30f8ffdb50d7941e82bd8a80cf8df30408a3cf6f3d160a8745fdaa2a7d910497",
+      "bytes": 1068
+    },
+    {
+      "path": "docs/design/components/DetailField/implementation/examples.md",
+      "sha256": "b1535aaa21a7523617af212f32071f1be5b2d504a885a01f2e597b2b03b73ad4",
+      "bytes": 946
+    },
+    {
+      "path": "docs/design/components/DetailField/implementation/README.md",
+      "sha256": "484f86c960b79b25473fed3befc36a672211241038c04baf5737f26c27f639ff",
+      "bytes": 222
+    },
+    {
+      "path": "docs/design/components/ActionBar/definition.md",
+      "sha256": "d9c9d044832486473f4b38da037facc0644236421bfc13f353063fb93c1c03cf",
+      "bytes": 3317
+    },
+    {
+      "path": "docs/design/components/ActionBar/styles.md",
+      "sha256": "f1e3754ab290e00131e3e2be1eddfa34511a015a5e3781a2890e50bce7d3c6e8",
+      "bytes": 6205
+    },
+    {
+      "path": "docs/design/components/ActionBar/accessibility.md",
+      "sha256": "34592fe035c44c3bd87dd50ca1c25a1ef90c9df59bbbb751096c5132900acb6f",
+      "bytes": 675
+    },
+    {
+      "path": "docs/design/components/ActionBar/README.md",
+      "sha256": "c174a94b5502bed84bcfaf3e3db7648286ae1cac2d87067b7bf960efd8b19af0",
+      "bytes": 2054
+    },
+    {
+      "path": "docs/design/components/ActionBar/verification.md",
+      "sha256": "3d687281cd1839e659ce3d21de8c7180ac9181cd1c626d519ad39d4c54255fe1",
+      "bytes": 2548
+    },
+    {
+      "path": "docs/design/components/ActionBar/behavior.md",
+      "sha256": "db1e041132731a98b077ed6cfaa5cb086f8d56b09e5f8bfbab8d6aa497663fbc",
+      "bytes": 1101
+    },
+    {
+      "path": "docs/design/components/ActionBar/implementation/examples.md",
+      "sha256": "10e39d6d5f50fbd10077146ed6b7f57946f3091f5dc089c56195d285a823d7d1",
+      "bytes": 1440
+    },
+    {
+      "path": "docs/design/components/ActionBar/implementation/css.md",
+      "sha256": "c0a4a6b03d1607557b4fae795f781aa67e5c15e9440a735eab161256e504be68",
+      "bytes": 5250
+    },
+    {
+      "path": "docs/design/components/ActionBar/implementation/README.md",
+      "sha256": "177fac348b898567c1410865d2bc202f4cf2c3fbb7bddd6a5db0e1f4466e860b",
+      "bytes": 441
+    },
+    {
+      "path": "docs/design/components/ActionBar/implementation/typescript.md",
+      "sha256": "f3ccdf345872e0fcd9abd197daccb6912e075280f55829ff883b4bde46439dfb",
+      "bytes": 3409
+    },
+    {
+      "path": "docs/design/components/IconButton/definition.md",
+      "sha256": "ec122ef56573cacd0ddafad86598ae449d0de8da9d1367c3e72dceeadb9985a8",
+      "bytes": 6890
+    },
+    {
+      "path": "docs/design/components/IconButton/styles.md",
+      "sha256": "0267daefd682142352983341d481099db7b95d87a4e961ab24b369f72c38143f",
+      "bytes": 6027
+    },
+    {
+      "path": "docs/design/components/IconButton/accessibility.md",
+      "sha256": "4bf8f147b41a0191ca07f24093b8177019770e0e35975f8e58ae0a955fccd53b",
+      "bytes": 1470
+    },
+    {
+      "path": "docs/design/components/IconButton/README.md",
+      "sha256": "0e4dcebaef7dcf29b8f056d443f7e205f7b9ed38bbd9531ca4a7f9b585b1ceb8",
+      "bytes": 2674
+    },
+    {
+      "path": "docs/design/components/IconButton/verification.md",
+      "sha256": "0a5f67f93c7ab1790ba221b54fb7e8b2d376483e55cce1647318941a5c764dd5",
+      "bytes": 3728
+    },
+    {
+      "path": "docs/design/components/IconButton/behavior.md",
+      "sha256": "83c9fa8f88939207545619d1986948cb615606daf665a24fa7219e757883cdc8",
+      "bytes": 2074
+    },
+    {
+      "path": "docs/design/components/IconButton/implementation/examples.md",
+      "sha256": "be6203caca3fb182efb0e1a13b0b9ea7a3da38ac1ccc47c6cae6430422af95fd",
+      "bytes": 1309
+    },
+    {
+      "path": "docs/design/components/IconButton/implementation/css.md",
+      "sha256": "ede3a2d60634f8a779b5ebc144160dadad39296aeb469cbe6b3411973a98bea4",
+      "bytes": 2247
+    },
+    {
+      "path": "docs/design/components/IconButton/implementation/README.md",
+      "sha256": "8f9ed08ef653d041bcd9863fe74b9060a13b75104285540075d95c8da44a50e0",
+      "bytes": 451
+    },
+    {
+      "path": "docs/design/components/IconButton/implementation/typescript.md",
+      "sha256": "b2530cdf9c2b352b4e1486eab3aba43e9f420369ac9057c3de3fda214f85bb58",
+      "bytes": 1954
+    },
+    {
+      "path": "docs/design/components/NumberInput/definition.md",
+      "sha256": "be5923c30e66d95b19516764658c2acc8745a0607690286bd3d1649c29b9efc9",
+      "bytes": 7118
+    },
+    {
+      "path": "docs/design/components/NumberInput/styles.md",
+      "sha256": "5d96f19955c8ee19c96df120bd8819b30d4e947e550dd3accc965ff2ae746576",
+      "bytes": 9976
+    },
+    {
+      "path": "docs/design/components/NumberInput/accessibility.md",
+      "sha256": "65ddcf323d37a1667b7d733baab43ce2a43f885d4d69f0b9c1bd90dd0b4d57fe",
+      "bytes": 2797
+    },
+    {
+      "path": "docs/design/components/NumberInput/README.md",
+      "sha256": "da4809ca28027d9f97c3f7aeb3c3670a1bff8625165ab74edde590e4a57ea907",
+      "bytes": 2635
+    },
+    {
+      "path": "docs/design/components/NumberInput/verification.md",
+      "sha256": "2e52603adf0fe5bbceaf3b4f8afa4600032d7048f3a71bd2e10245c2d9aae454",
+      "bytes": 5374
+    },
+    {
+      "path": "docs/design/components/NumberInput/behavior.md",
+      "sha256": "59185ac4b3eda258a787ff00a65de0b93893caeb4b6d61e36438c8d9272419df",
+      "bytes": 5636
+    },
+    {
+      "path": "docs/design/components/NumberInput/implementation/css.md",
+      "sha256": "417d42688d026a668a4f12d6dd3176d38f85fb4bcb58679941eb8ba4a312d5a2",
+      "bytes": 4782
+    },
+    {
+      "path": "docs/design/components/NumberInput/implementation/README.md",
+      "sha256": "53421a4bd4f2d0d8d88aa30e774ce996860313ab6d09b554d643c00e1d51bbb8",
+      "bytes": 664
+    },
+    {
+      "path": "docs/design/components/NumberInput/implementation/typescript.md",
+      "sha256": "fa5f791ac5f74c9091c459debdf241aa40af2658aac0f8febfa437a6f1258329",
+      "bytes": 9441
+    },
+    {
+      "path": "docs/design/components/Select/definition.md",
+      "sha256": "0c506962436b453abaae82918df4d0712029f8f32a8f933baf499f03f669b32d",
+      "bytes": 21254
+    },
+    {
+      "path": "docs/design/components/Select/styles.md",
+      "sha256": "5f513ab0d2c9efaaa38164b838a5e9bc8d387b5c348054f3b20a259767be572d",
+      "bytes": 11128
+    },
+    {
+      "path": "docs/design/components/Select/accessibility.md",
+      "sha256": "10aeaef1ff389db0817dedbee9ed0fcbb33d959926c9ff7411dcded359c09dc5",
+      "bytes": 5250
+    },
+    {
+      "path": "docs/design/components/Select/README.md",
+      "sha256": "166505c8adbc130cacb3b06c11d5fa194c29b34039866d44fd20adbac22b6bd1",
+      "bytes": 3991
+    },
+    {
+      "path": "docs/design/components/Select/verification.md",
+      "sha256": "fad7c8f10a13b69daf51d98cbdd90c54ee4684f161c07dcfb70d1dfa49f26299",
+      "bytes": 9956
+    },
+    {
+      "path": "docs/design/components/Select/behavior.md",
+      "sha256": "cac1e5c1237650b03128a690c38dd5e4b523a63a8c6c31b9395d0111ac919b79",
+      "bytes": 9526
+    },
+    {
+      "path": "docs/design/components/Select/implementation/examples.md",
+      "sha256": "939efe9ea38cd2e51c22c25247daeaa6af151211c131debb5e96e4b7edd5ae20",
+      "bytes": 1773
+    },
+    {
+      "path": "docs/design/components/Select/implementation/css.md",
+      "sha256": "4117c7ada855245adac3bff7160adcb7e9d0925069c03c1915bd075ff2c65371",
+      "bytes": 12681
+    },
+    {
+      "path": "docs/design/components/Select/implementation/README.md",
+      "sha256": "d9756f1379e991101c93a9c6478b6a6fe4b865d1d4f52c0cf5afa6add93b3742",
+      "bytes": 1817
+    },
+    {
+      "path": "docs/design/components/Select/implementation/typescript.md",
+      "sha256": "5896714730a99bcb051fcb1e4d775dbec08b7e66d0896ef63853adf0377b128e",
+      "bytes": 25881
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/definition.md",
+      "sha256": "ad43614d210e3c22d16f33e5633eb630fa473218be164fd8e693aafdb395c0d0",
+      "bytes": 4320
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/styles.md",
+      "sha256": "3ee4a5a0565c0bfb7c6983be6459b51b6547fbf82e6ba12e7efad1b3238dca82",
+      "bytes": 4642
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/accessibility.md",
+      "sha256": "236bae5e0ca690cdcb4470901775134ddeede1b809b591b7ce3dda890283f721",
+      "bytes": 1670
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/README.md",
+      "sha256": "52ee3d8ea4a6b4d237438c87b2dc1ec908addb1bc98fadbd853865995c20fb5f",
+      "bytes": 2120
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/verification.md",
+      "sha256": "5aa44ac908b5a8407a837a4689ccf0e49467e5791fee67dc9839d61034f0fa9b",
+      "bytes": 3653
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/behavior.md",
+      "sha256": "0bd5e9a3c42d63fe05ccaec3c8873da8e6dfa6ab36d655080e6f1283ffbbc8b6",
+      "bytes": 4864
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/implementation/examples.md",
+      "sha256": "f5b248425dbc19bb1352cd730cb8e7900bd6e151b25a6eb63ed4c3538d734023",
+      "bytes": 1790
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/implementation/css.md",
+      "sha256": "9e2d065ebb50ad25437e5f5562bb9d7fad457bd01669dacf56094d800dd5da2a",
+      "bytes": 3194
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/implementation/README.md",
+      "sha256": "672f4a941f7803e9a0c76227dc8d96e7cdb80606ccf4bff7ed7436cd5009d0da",
+      "bytes": 480
+    },
+    {
+      "path": "docs/design/components/Breadcrumb/implementation/typescript.md",
+      "sha256": "23ba8a10fdf5d8fa1ac28518303e9c113ecac18f3f2738312113e792115f7b59",
+      "bytes": 8169
+    },
+    {
+      "path": "docs/design/components/Icon/definition.md",
+      "sha256": "a1bc92416c1763b9ab90ff11c0e6442004810d1b5119953f9235e5bdb8241a04",
+      "bytes": 20110
+    },
+    {
+      "path": "docs/design/components/Icon/styles.md",
+      "sha256": "0345ad0443731deb9fa145e86a3c95e787b1d88fa3b7f9b29f938f4745a985e7",
+      "bytes": 6232
+    },
+    {
+      "path": "docs/design/components/Icon/accessibility.md",
+      "sha256": "1fbf36549090e18f00a159de8b236c08a0c278468b2ec86880df15bbdd22d8e6",
+      "bytes": 1746
+    },
+    {
+      "path": "docs/design/components/Icon/README.md",
+      "sha256": "aaa567da0274215fd0c39e3524764685a37e988cc047be73207f27fd08895bda",
+      "bytes": 2931
+    },
+    {
+      "path": "docs/design/components/Icon/verification.md",
+      "sha256": "c5a8f6b937c77a9dfb7e24fa405ce4021faf0986f12b7cda8e3e67a121137a16",
+      "bytes": 2961
+    },
+    {
+      "path": "docs/design/components/Icon/behavior.md",
+      "sha256": "55fc10fa633c17f904564e27f867563a64bbc0e5ef94e13fc3725ba8800ed1d4",
+      "bytes": 904
+    },
+    {
+      "path": "docs/design/components/Icon/implementation/examples.md",
+      "sha256": "6aa1b0deb1e667bd490d5cb80de3b7f97eb5bad56dd59fc91691e8b20a974da2",
+      "bytes": 561
+    },
+    {
+      "path": "docs/design/components/Icon/implementation/css.md",
+      "sha256": "a67a606829154a1b796ca2a37f5a0538b732d213bca5faf2ab49db8679018c5c",
+      "bytes": 433
+    },
+    {
+      "path": "docs/design/components/Icon/implementation/README.md",
+      "sha256": "315c0dd031f17edc4170d18837b3b4e96e66ed5265e82e7d7fd62a825adbda90",
+      "bytes": 352
+    },
+    {
+      "path": "docs/design/components/Icon/implementation/typescript.md",
+      "sha256": "b58ac473647ad7e174d3ef5457ff3c82d6b64682fbfc495fe5221b22f8dbb461",
+      "bytes": 7185
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/definition.md",
+      "sha256": "c573e8f2f42173e503d00c0a719a276fc8a9303073c8bf27073b198ef81e42dd",
+      "bytes": 2631
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/styles.md",
+      "sha256": "fc4f454260c97db8c0acb05b2ff9c79f1531834f36da07493c304065d5e57bef",
+      "bytes": 3241
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/accessibility.md",
+      "sha256": "8e589ea8c3cb1fedcbcbecdafedce6bf3cf0f32e05df8b0ca9d974085e25055c",
+      "bytes": 861
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/README.md",
+      "sha256": "c255b8c3c49b755fa98db29c69de0566b6c322cc5341d771379ff84840edde0a",
+      "bytes": 1281
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/verification.md",
+      "sha256": "8358f50f51eadc9e0beeed1269f0a3662867d016a4cbfa493a181850688da03b",
+      "bytes": 1884
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/behavior.md",
+      "sha256": "4b96853f096787c6f1d1df2f8feb1471487625ceb9c69e2882c9b2ac106877cc",
+      "bytes": 2905
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/implementation/examples.md",
+      "sha256": "da1ed45a51711b74100325b619d35d658327be6d4dfc63cd32a30cc81c0ed1a4",
+      "bytes": 884
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/implementation/reference.md",
+      "sha256": "7ea37ef2cb2dcfb78ac3161cb03ce025218e9fb0c1ce32529f2d774efd65aab3",
+      "bytes": 1345
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/implementation/css.md",
+      "sha256": "10e0ba693985a24f878a642b572fd6249788f55d0fe0f47b64b06b3e95ed77b7",
+      "bytes": 614
+    },
+    {
+      "path": "docs/design/components/AsyncContentState/implementation/README.md",
+      "sha256": "7246025558a820d8fb36fbfdb66e131728a9b5320641374b341c2802d7e76dfc",
+      "bytes": 360
+    },
+    {
+      "path": "docs/design/components/OpenPanel/definition.md",
+      "sha256": "0bbeaeb83049a60288528214e1457467461ff007835bf22e1f38e1898cc62869",
+      "bytes": 6796
+    },
+    {
+      "path": "docs/design/components/OpenPanel/styles.md",
+      "sha256": "16965302435c02bfba27846f62397766ff1f9c127c442edeff88617833f05507",
+      "bytes": 5308
+    },
+    {
+      "path": "docs/design/components/OpenPanel/accessibility.md",
+      "sha256": "0029cae440928c4bab39e635c40f4a25a3d42c58f746ab8b0cb4165654355afc",
+      "bytes": 1156
+    },
+    {
+      "path": "docs/design/components/OpenPanel/README.md",
+      "sha256": "9a8fea03a3b5321c4b1f4f9576f12d72fc2b1ce0cbbb72dce63bef0e7b97ddcb",
+      "bytes": 1868
+    },
+    {
+      "path": "docs/design/components/OpenPanel/verification.md",
+      "sha256": "91ba64839ae86a9d9aa01667dac72abd95698d4ad7a4d1c6c6a2e8e99e6f94fc",
+      "bytes": 3457
+    },
+    {
+      "path": "docs/design/components/OpenPanel/behavior.md",
+      "sha256": "b8ebe9a6c0b39b6137c6223c7acb55573bd8e44e0436bbe8bf340764ac6f9efd",
+      "bytes": 2338
+    },
+    {
+      "path": "docs/design/components/OpenPanel/implementation/examples.md",
+      "sha256": "58e66daa2efde165cc3d185a02855897092011086a06d15f0425ff51a432f40a",
+      "bytes": 1064
+    },
+    {
+      "path": "docs/design/components/OpenPanel/implementation/css.md",
+      "sha256": "1d17ef583894d5657bf4421ac6cec1388122aecd95f68089132f303b89fde359",
+      "bytes": 6828
+    },
+    {
+      "path": "docs/design/components/OpenPanel/implementation/README.md",
+      "sha256": "df250646080e0091783540c389b894c15da9a8514e12d95e0b8548ed8121b702",
+      "bytes": 493
+    },
+    {
+      "path": "docs/design/components/OpenPanel/implementation/typescript.md",
+      "sha256": "bf7ee59910bdd9712dd71f5a0f38c7242a24044c93f3d9e546a4d0e6dd075a8a",
+      "bytes": 7642
+    },
+    {
+      "path": "docs/design/components/Scrollbar/definition.md",
+      "sha256": "3038946fafc83a3cb991b2728bb60ec44f659436997c98dffdc47b8c5d3fdf6d",
+      "bytes": 4774
+    },
+    {
+      "path": "docs/design/components/Scrollbar/styles.md",
+      "sha256": "446f74efd4a6d97634d3b2fdb7d4bdcb1d30d4fd78c0035af0ca07bfd2f3b612",
+      "bytes": 4842
+    },
+    {
+      "path": "docs/design/components/Scrollbar/accessibility.md",
+      "sha256": "97a9e47f85e7a42b6adbdde3c96e8c13782471ab89389fa0c70e8212e56904ec",
+      "bytes": 1267
+    },
+    {
+      "path": "docs/design/components/Scrollbar/README.md",
+      "sha256": "c9422899560f0bc24544c418697f9b19268501ad0d592da4c69882c83fd6fa7f",
+      "bytes": 2897
+    },
+    {
+      "path": "docs/design/components/Scrollbar/verification.md",
+      "sha256": "d0db2846d629c4fbfe4271c27904e656cdbdb75ed56b9264605ceb4a81033881",
+      "bytes": 4655
+    },
+    {
+      "path": "docs/design/components/Scrollbar/behavior.md",
+      "sha256": "2354c8985784cd6c5aff045dfeb30ed6959882795f175b071485baace01a1414",
+      "bytes": 5756
+    },
+    {
+      "path": "docs/design/components/Scrollbar/implementation/examples.md",
+      "sha256": "4e2d3967c8098e77242c30c8669f33089b87a1662295d7063dcd4ad8eb944b97",
+      "bytes": 1011
+    },
+    {
+      "path": "docs/design/components/Scrollbar/implementation/reference.md",
+      "sha256": "40a02cf1cc711f23fc970e1d00feb536bb43c78b185737946e319842d66da413",
+      "bytes": 356
+    },
+    {
+      "path": "docs/design/components/Scrollbar/implementation/css.md",
+      "sha256": "d32881ee77c86bda38e83ac9409418f305c620d31fbc8e54bc7a54155cd00e8a",
+      "bytes": 3388
+    },
+    {
+      "path": "docs/design/components/Scrollbar/implementation/README.md",
+      "sha256": "bbac34d589522350daa09eaf41f84a7a50e4b7dde6be7709c8862371a2c5f6bc",
+      "bytes": 309
+    },
+    {
+      "path": "docs/design/components/Scrollbar/implementation/typescript.md",
+      "sha256": "dac786b64117cfd65fd0ade013e36af66569dec53b4faee45f24bb4618b883a1",
+      "bytes": 9933
+    },
+    {
+      "path": "docs/design/components/ListContentState/definition.md",
+      "sha256": "7965caa938eaa68bc56cb1c6c1055b19d0cf4b2f0668160a1049e9be1723c0e2",
+      "bytes": 2513
+    },
+    {
+      "path": "docs/design/components/ListContentState/styles.md",
+      "sha256": "8821efd64aa7ab8be0353204693474dd11e56baa960ae25720807435c2ad038a",
+      "bytes": 1179
+    },
+    {
+      "path": "docs/design/components/ListContentState/accessibility.md",
+      "sha256": "de297a3f494cb11e6a6ecef707fd5c810292aa62b2da252d8f78231da750848e",
+      "bytes": 824
+    },
+    {
+      "path": "docs/design/components/ListContentState/README.md",
+      "sha256": "d28c8c2ec504ba75ee415a69cc2169368167582de245dcf6175f1174ae3ba085",
+      "bytes": 1758
+    },
+    {
+      "path": "docs/design/components/ListContentState/verification.md",
+      "sha256": "1641cd8eef88f6de85dfb071bab04ca8e65e8e588f6a61083a6269a55a27c872",
+      "bytes": 977
+    },
+    {
+      "path": "docs/design/components/ListContentState/behavior.md",
+      "sha256": "dee7cb00201bc67071247c25f74d92a2d13aa41b5c759142753bb82da64943ba",
+      "bytes": 1216
+    },
+    {
+      "path": "docs/design/components/Badge/definition.md",
+      "sha256": "9bc4f1134b1d32123aa0a7600ec9a0d684be8b1a7fb1fb85b4e4e13ceb1748c4",
+      "bytes": 3263
+    },
+    {
+      "path": "docs/design/components/Badge/styles.md",
+      "sha256": "d75877a7e046dbd3936fbc25d9f29edfa21e31709148e21d42ef16ef72167b9e",
+      "bytes": 3317
+    },
+    {
+      "path": "docs/design/components/Badge/accessibility.md",
+      "sha256": "8eecd83da623e66776df54e9d7ce729084447aebbcb8678bf77c0ec84ab93e72",
+      "bytes": 1382
+    },
+    {
+      "path": "docs/design/components/Badge/README.md",
+      "sha256": "4eb193356dbf10bdea143ae30225061a88425b44cd2e184f0d5f8d52a949c9cb",
+      "bytes": 2299
+    },
+    {
+      "path": "docs/design/components/Badge/verification.md",
+      "sha256": "ed36795bb0f0e1ee63280e8d83cd8a3bab73300ae8f39633615a5531400c567a",
+      "bytes": 3018
+    },
+    {
+      "path": "docs/design/components/Badge/behavior.md",
+      "sha256": "6f8a4441dc7dd0ca6bdcbad3f164881db3d22bb6cea1299a70ddd3679ffe8f52",
+      "bytes": 2248
+    },
+    {
+      "path": "docs/design/components/Badge/implementation/examples.md",
+      "sha256": "6f08e99565eaa40b88ee2f020145842073894c916c92cb8e4c3f1e0a8dbfd505",
+      "bytes": 961
+    },
+    {
+      "path": "docs/design/components/Badge/implementation/css.md",
+      "sha256": "0ab008fdd23bc196fa5f9ac66c8ea9bd0db3080cba47fbfc61f569abc3b81971",
+      "bytes": 1282
+    },
+    {
+      "path": "docs/design/components/Badge/implementation/README.md",
+      "sha256": "56c69d61827ff02ce989e2af339fe93f1ef5987bba3cbddc539f9b897ecc442c",
+      "bytes": 401
+    },
+    {
+      "path": "docs/design/components/Badge/implementation/typescript.md",
+      "sha256": "b8563cf23d0919d1c11b88280765fd58a7dc589c069511e3a0b984302cdcdd13",
+      "bytes": 1837
+    },
+    {
+      "path": "docs/design/mockups/dashboard-api-concept-v2.prompt.md",
+      "sha256": "24725a992ae5ff6c0682f1781196c13f64a8f587c654cf825daa396f03ea1fbd",
+      "bytes": 7499
+    },
+    {
+      "path": "docs/design/mockups/dashboard-api-concept-v3.prompt.md",
+      "sha256": "3413afa007a97866350e05e361465af58d0d6718dec915617b53057d93a6471f",
+      "bytes": 6607
+    },
+    {
+      "path": "docs/design/mockups/dashboard-api-concept.png",
+      "sha256": "ca908b6f8507bcdb2e78d4cd8f6809869e5a10d6f1b639e0cdd81d42f4926d68",
+      "bytes": 1039330
+    },
+    {
+      "path": "docs/design/mockups/dashboard-api-concept-v3.png",
+      "sha256": "ae7c43d1b1bcdfe4e5d188cbac643355a8bfcfd8174b1b941abf5f532bdcad90",
+      "bytes": 1169879
+    },
+    {
+      "path": "docs/design/mockups/dashboard-api-concept-v2.png",
+      "sha256": "0a8632e02e155bae7eb0dd0fd27f905e472eb0da3baff65d8041d87867defed5",
+      "bytes": 1217493
+    },
+    {
+      "path": "docs/tools/list-page-header-create-action-verifier.test.mjs",
+      "sha256": "952493c70ba44f1c3d6ba8dfa25c6741e654edd7e3b6ca0e1a7c4b8f82bf767e",
+      "bytes": 4922
+    },
+    {
+      "path": "docs/tools/page-header-title-chip-verifier.mjs",
+      "sha256": "fdc27ce73c3fc02e48bb67d2bc57e477ddb63bcb55dbeb2919ccd7e0e528c141",
+      "bytes": 2615
+    },
+    {
+      "path": "docs/tools/README.md",
+      "sha256": "e00580439ff04b5fa9100efa80d9cddc9529ab864578ec00dd69a88ee9af2338",
+      "bytes": 3410
+    },
+    {
+      "path": "docs/tools/public-component-jsx-verifier.mjs",
+      "sha256": "80b9cf7b1664779c62bc4b5e3a8e2ec33056b2a24ddfe563cd671a80074bc456",
+      "bytes": 4821
+    },
+    {
+      "path": "docs/tools/list-page-header-create-action-verifier.mjs",
+      "sha256": "3432af0e88ec7f56e137db326af421caab1e42acb0e59bb5ee33e534a6afa5f0",
+      "bytes": 2548
+    },
+    {
+      "path": "docs/tools/sync-agent-skills.mjs",
+      "sha256": "a94f5b624106b1e7245043f62f940cbc2603386e88a1211e9738903ab27a86a1",
+      "bytes": 1911
+    },
+    {
+      "path": "docs/tools/verify-guidelines.mjs",
+      "sha256": "3e07e8582323e9fa2f12dc48fc22d12ce5ca86263a2cbab5dae889e2cdf1e30e",
+      "bytes": 20865
+    },
+    {
+      "path": "docs/tools/page-header-title-chip-verifier.test.mjs",
+      "sha256": "810dd5b956c7cbe4729f8de60e05ed43591eecad41ae4a872d1e3c775f7ba5c4",
+      "bytes": 7988
+    },
+    {
+      "path": "docs/frontend/sources.json",
+      "sha256": "1fb655609a05b6fe972dd4b93e6415f5ed55882d6457e7a08ccfd11ddde7ffb4",
+      "bytes": 13216
+    },
+    {
+      "path": "docs/frontend/css.md",
+      "sha256": "9266b653c781a574f7260252bef98be2cda2742852b7d9322d2a1fecf739e85b",
+      "bytes": 16317
+    },
+    {
+      "path": "docs/frontend/import-style.md",
+      "sha256": "27e31efeb33b3ef79cad29e3af06208e55c836239a34fd965cdef259ef1b1dc3",
+      "bytes": 8220
+    },
+    {
+      "path": "docs/frontend/nextjs.md",
+      "sha256": "61c906d1568746cadae27efb92a7f957bcf3a41d9327b24a5d1d38169c93f950",
+      "bytes": 20770
+    },
+    {
+      "path": "docs/frontend/update-policy.md",
+      "sha256": "9f0925f65f37412b0a8ad5401c3642b5f39d8dd650d38357d42bbdd826bd25b1",
+      "bytes": 5045
+    },
+    {
+      "path": "docs/frontend/javascript.md",
+      "sha256": "464165b3d6e9d2a22ca1ed69ef7ae1efbd56267bb3b04379879ad1122f34b4ce",
+      "bytes": 17448
+    },
+    {
+      "path": "docs/frontend/README.md",
+      "sha256": "f33877948da678727e88ee35215057809a508d8c9b7decb502931e575e51a0e8",
+      "bytes": 7032
+    },
+    {
+      "path": "docs/frontend/react.md",
+      "sha256": "0bea2da39cb4f36c0213bde6a06d355f66b073f827d87e8c14e4a50ccf5ebfdd",
+      "bytes": 20687
+    },
+    {
+      "path": "docs/frontend/ai-prompt.md",
+      "sha256": "b69a8668298bbfd970f327a0a9e8bf38c911592a0f5695e34db110407aff67c0",
+      "bytes": 21475
+    },
+    {
+      "path": "docs/frontend/typescript.md",
+      "sha256": "72536fdf4abe3c1b667f32cb0c3e46613fc30a66ca2420534a29d591343606a4",
+      "bytes": 18132
+    },
+    {
+      "path": "docs/frontend/html.md",
+      "sha256": "05cead3ca7d0dd529c42e6700d04d94824e8bb57d7d348e6bddf452f8692822d",
+      "bytes": 14413
+    },
+    {
+      "path": "docs/frontend/nextjs/security-auth-data.md",
+      "sha256": "bc885dc37900e39ccf6fc3896cddddcde40c690f101f27e2fa350f200e933075",
+      "bytes": 7539
+    },
+    {
+      "path": "docs/frontend/nextjs/mutations-forms-actions.md",
+      "sha256": "e714a4f576f7b649475077b42dda19e8f8963a29a7c70335975d7799b2ad04ea",
+      "bytes": 7295
+    },
+    {
+      "path": "docs/frontend/nextjs/configuration-migration.md",
+      "sha256": "09536eff978914f3b8e46254a963016776e2056b7c18abe769b32e9ec2f04e40",
+      "bytes": 7169
+    },
+    {
+      "path": "docs/frontend/nextjs/README.md",
+      "sha256": "ec5a181cc3a5aad3a42bc829b41f71269b13249a28fdab83af3ed18e376a28b6",
+      "bytes": 5045
+    },
+    {
+      "path": "docs/frontend/nextjs/rendering-boundaries.md",
+      "sha256": "fecfddc925c44e0c70d58e1999b880a10d5cb63d96cefc3cfa2ea79a383441f3",
+      "bytes": 7044
+    },
+    {
+      "path": "docs/frontend/nextjs/routing-file-conventions.md",
+      "sha256": "41172c81a1f9e5e64a14a42ea27910b0652167a17974c4fdd40a57ba27cc68f0",
+      "bytes": 7387
+    },
+    {
+      "path": "docs/frontend/nextjs/route-handlers-request-apis.md",
+      "sha256": "e4e3c9cd095924573b8138b13ec455e36478faa3b4ca7f3dac54b2f36d02209f",
+      "bytes": 6755
+    },
+    {
+      "path": "docs/frontend/nextjs/data-cache-revalidation.md",
+      "sha256": "d86a82667a26f50ef87c22228cd24291cb3a167725bb74f963735d2384c45057",
+      "bytes": 9137
+    },
+    {
+      "path": "docs/frontend/nextjs/testing-observability-production.md",
+      "sha256": "aa8b1bc51480f47fb4db204e4c77472d5f42d278b3406cf2ce7da86254a9445f",
+      "bytes": 6895
+    },
+    {
+      "path": "docs/frontend/nextjs/metadata-assets-seo.md",
+      "sha256": "bc8cd9adb5ac64549aa24e3cb0d535a3c07255564469515753291eaf3a8d800c",
+      "bytes": 6084
+    },
+    {
+      "path": "docs/frontend/nextjs/navigation-url-state.md",
+      "sha256": "eabda205e8b7945dbf8df335c7f90e222e6302da8940a47f0fe28315c86c78b1",
+      "bytes": 6907
+    },
+    {
+      "path": "docs/frontend/react/performance-compiler.md",
+      "sha256": "803070d1172e78dca13500cdb53f1a7a543b9be1381871f658ff99ea725bcf3c",
+      "bytes": 6778
+    },
+    {
+      "path": "docs/frontend/react/state-and-events.md",
+      "sha256": "7c13baa09c97dbf2ca6e0a5d7b4455d8c9e2a3038facdb118a3ee3e5894f2ab2",
+      "bytes": 7454
+    },
+    {
+      "path": "docs/frontend/react/testing-lint-rules.md",
+      "sha256": "2a6ce9ac2442c78b97118f92a6e313702a9fdb6fbdadec8c6085890b1a7425a2",
+      "bytes": 5992
+    },
+    {
+      "path": "docs/frontend/react/dom-forms-resources.md",
+      "sha256": "4106f8e45594229ba5a75840473619a419c1af9c5ede2fd6e9aa2191182ff969",
+      "bytes": 8862
+    },
+    {
+      "path": "docs/frontend/react/async-actions-suspense.md",
+      "sha256": "4d459a4ace044d8adfd3a86f5a330ff123f1e4346826a7e4f9db3afab8165e61",
+      "bytes": 10554
+    },
+    {
+      "path": "docs/frontend/react/effects-refs-external-store.md",
+      "sha256": "b2457c82641344456c04fb46770abcfabc0aacd96818aa96c33e065cd1b419be",
+      "bytes": 8492
+    },
+    {
+      "path": "docs/frontend/react/README.md",
+      "sha256": "56e01ae7ab6b700ad615c153319949c3a7d47974c898ddbac74fc2ebce34b783",
+      "bytes": 4925
+    },
+    {
+      "path": "docs/frontend/react/context-identity-reuse.md",
+      "sha256": "76ab8ee75bade51ef2e83c9fa8dbf53b8500b6b3d91b17756f52fdc72e318882",
+      "bytes": 7361
+    },
+    {
+      "path": "docs/frontend/react/rendering-server-hydration.md",
+      "sha256": "a087bc79133557b4e3ca476a55ac347ea2b692f930a9b855c479ec824b244351",
+      "bytes": 8026
+    },
+    {
+      "path": "docs/workflow/templates.md",
+      "sha256": "63b28ce766335d89e44ec19f973fd1b599e52da5605f677c38b8a7735fdf6873",
+      "bytes": 3521
+    },
+    {
+      "path": "docs/workflow/issue.md",
+      "sha256": "a3d5e639fb49e861e859efe2e271770155cb0c809729937404867a34a9d090ce",
+      "bytes": 4285
+    },
+    {
+      "path": "docs/workflow/README.md",
+      "sha256": "2626f272e040db55a0d295d52a58e218dbecf9b8d0b913ffe1e8ec0b82805836",
+      "bytes": 4953
+    },
+    {
+      "path": "docs/workflow/configuration.md",
+      "sha256": "121fb728699a92eb3f6402c32980821a275427a6d42ce13b63debddf469b48ff",
+      "bytes": 4354
+    },
+    {
+      "path": "docs/workflow/merge.md",
+      "sha256": "f1faf57984c807c6c248ae79f1afa5dcaac405e36aba4e2b9ce2057f98bf62a8",
+      "bytes": 3647
+    },
+    {
+      "path": "docs/workflow/pull-request.md",
+      "sha256": "d2d38f12a1ea73ade653c07930c5d809de55bac2ac7fcab2092526ccefd255af",
+      "bytes": 3122
+    },
+    {
+      "path": "docs/workflow/review.md",
+      "sha256": "f8f3e74767398549480d9b368bcc4df153fce0679ef42eb6ddf28dcfe90d4eb6",
+      "bytes": 4731
+    },
+    {
+      "path": "docs/workflow/development.md",
+      "sha256": "2f2d402327e78d2c05db372ce7b86136ba73522182c9d9edf8598080136591cd",
+      "bytes": 4152
+    },
+    {
+      "path": ".agents/skills/aifrica-ui-workflow/SKILL.md",
+      "sha256": "1a1a5417c321d5b954cd96fb9a4b6852be5a347e1b2ef02f8c9e142bf1131482",
+      "bytes": 8578
+    },
+    {
+      "path": ".agents/skills/aifrica-ui-github-workflow/SKILL.md",
+      "sha256": "370b63b23a639bfffbfe9694b049b77f769f646dfe21ba3ba985746beb875fb6",
+      "bytes": 13723
+    },
+    {
+      "path": ".agents/skills/aifrica-ui-architecture-refactor/SKILL.md",
+      "sha256": "7bc73cb0b4207f1fffe00518e46fa6ebb4640a2e95568b3a830a5ecec877b102",
+      "bytes": 15114
+    },
+    {
+      "path": ".claude/skills/aifrica-ui-workflow/SKILL.md",
+      "sha256": "1a1a5417c321d5b954cd96fb9a4b6852be5a347e1b2ef02f8c9e142bf1131482",
+      "bytes": 8578
+    },
+    {
+      "path": ".claude/skills/aifrica-ui-github-workflow/SKILL.md",
+      "sha256": "370b63b23a639bfffbfe9694b049b77f769f646dfe21ba3ba985746beb875fb6",
+      "bytes": 13723
+    },
+    {
+      "path": ".claude/skills/aifrica-ui-architecture-refactor/SKILL.md",
+      "sha256": "7bc73cb0b4207f1fffe00518e46fa6ebb4640a2e95568b3a830a5ecec877b102",
+      "bytes": 15114
+    },
+    {
+      "path": "src/styles/serengeti-cmp-theme.css.ts",
+      "sha256": "4ff310670e55c928fed06e3c13fe8a39b8e94504a5843c5ac558ab830ca3fc4b",
+      "bytes": 2166
+    },
+    {
+      "path": "src/styles/theme.css.ts",
+      "sha256": "8a9be02a07f2306bb3efc6cc9fba1bc9973566a4e0788062bad062f756a5dd02",
+      "bytes": 23178
+    },
+    {
+      "path": "src/styles/global.css.ts",
+      "sha256": "3b6ab969012cf04de641a4fdc8b00dce564e98967cb98c7e11c1a68b8bd32b25",
+      "bytes": 721
+    },
+    {
+      "path": "src/styles/list-page.css.ts",
+      "sha256": "1e51a53293e5ad1027a1bbac879626c2d35b41fd3de39cbbab7857059d94665f",
+      "bytes": 451
+    }
+  ],
+  "repository": "project.serengeti-cmp",
+  "capturedAt": "2026-10-20",
+  "sourceWorkingTreeWasClean": true
+}

@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 2,
+  "owner": "Aifrica Frontend",
+  "checkedAt": "2026-08-12",
+  "snapshotMode": "local-first",
+  "updateMode": "manual-on-request",
+  "policy": {
+    "officialSourcesOnly": true,
+    "storeFullUpstreamDocuments": false,
+    "autoUpgradeDependencies": false,
+    "browseDuringNormalWork": false,
+    "knowledgeEntryRequirements": [
+      "exact-api-or-syntax",
+      "minimum-version-or-baseline",
+      "when-to-use-and-when-not-to-use",
+      "executable-example",
+      "caveats-and-lifecycle",
+      "project-version-or-runtime-gate"
+    ],
+    "adoptionRule": "공식 최신 정보와 현재 package.json을 비교하고 호환성·migration·검증을 통과한 뒤 채택한다."
+  },
+  "technologies": [
+    {
+      "id": "react",
+      "name": "React",
+      "guide": "docs/frontend/technology/react.md",
+      "knowledgeIndex": "docs/frontend/technology/react/README.md",
+      "documentationBaseline": "React 19.2",
+      "latestObserved": "19.2.8",
+      "versionKind": "npm-latest",
+      "package": "react",
+      "officialSources": [
+        "https://react.dev/reference/react",
+        "https://react.dev/reference/react/hooks",
+        "https://react.dev/reference/react/components",
+        "https://react.dev/reference/react/apis",
+        "https://react.dev/reference/react-dom",
+        "https://react.dev/reference/react-dom/server",
+        "https://react.dev/reference/react-dom/static",
+        "https://react.dev/versions",
+        "https://react.dev/blog",
+        "https://react.dev/reference/react/useActionState",
+        "https://react.dev/reference/react/useEffectEvent",
+        "https://react.dev/reference/react/Activity"
+      ],
+      "lastChecked": "2026-08-12",
+      "knowledgePacks": [
+        {
+          "id": "state-and-events",
+          "guide": "docs/frontend/technology/react/state-and-events.md",
+          "topics": ["useState", "useReducer", "derived state", "state identity", "controlled components", "events"]
+        },
+        {
+          "id": "effects-refs-external-store",
+          "guide": "docs/frontend/technology/react/effects-refs-external-store.md",
+          "topics": ["useEffect", "useLayoutEffect", "useInsertionEffect", "useEffectEvent", "useRef", "useImperativeHandle", "useSyncExternalStore", "useDebugValue"]
+        },
+        {
+          "id": "async-actions-suspense",
+          "guide": "docs/frontend/technology/react/async-actions-suspense.md",
+          "topics": ["Suspense", "use", "lazy", "useTransition", "startTransition", "useDeferredValue", "useActionState", "useOptimistic", "Activity"]
+        },
+        {
+          "id": "context-identity-reuse",
+          "guide": "docs/frontend/technology/react/context-identity-reuse.md",
+          "topics": ["createContext", "useContext", "provider shorthand", "custom Hooks", "Fragment", "useId", "StrictMode"]
+        },
+        {
+          "id": "dom-forms-resources",
+          "guide": "docs/frontend/technology/react/dom-forms-resources.md",
+          "topics": ["controlled form", "Form Actions", "useFormStatus", "createPortal", "flushSync", "metadata", "resource preloading", "removed React DOM APIs"]
+        },
+        {
+          "id": "rendering-server-hydration",
+          "guide": "docs/frontend/technology/react/rendering-server-hydration.md",
+          "topics": ["createRoot", "hydrateRoot", "renderToPipeableStream", "renderToReadableStream", "prerender", "resume", "RSC cache", "cacheSignal", "hydration"]
+        },
+        {
+          "id": "performance-compiler",
+          "guide": "docs/frontend/technology/react/performance-compiler.md",
+          "topics": ["useMemo", "useCallback", "memo", "Profiler", "code splitting", "React Compiler", "use memo", "use no memo"]
+        },
+        {
+          "id": "testing-lint-rules",
+          "guide": "docs/frontend/technology/react/testing-lint-rules.md",
+          "topics": ["Rules of React", "Rules of Hooks", "eslint-plugin-react-hooks", "act", "component tests", "hydration tests"]
+        }
+      ],
+      "knowledgeTopics": [
+        "all stable React 19.2 Hooks",
+        "useState and useReducer",
+        "use and Suspense",
+        "useActionState and Form Actions",
+        "useOptimistic",
+        "useFormStatus",
+        "useEffect and effect variants",
+        "useEffectEvent",
+        "useRef and ref as prop",
+        "useImperativeHandle",
+        "useSyncExternalStore",
+        "useTransition and startTransition",
+        "useDeferredValue",
+        "Activity",
+        "Context provider shorthand",
+        "state identity and controlled components",
+        "React DOM forms and portals",
+        "resource preloading and metadata",
+        "createRoot and hydrateRoot",
+        "streaming SSR and static prerender",
+        "RSC cache and cacheSignal",
+        "memoization and Profiler",
+        "React Compiler and directives",
+        "eslint-plugin-react-hooks",
+        "act and testing"
+      ]
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "guide": "docs/frontend/technology/nextjs.md",
+      "knowledgeIndex": "docs/frontend/technology/nextjs/README.md",
+      "documentationBaseline": "Next.js 16.3 / App Router",
+      "latestObserved": "16.3.0",
+      "versionKind": "npm-latest",
+      "package": "next",
+      "officialSources": [
+        "https://nextjs.org/docs/app/getting-started",
+        "https://nextjs.org/docs/app/api-reference",
+        "https://nextjs.org/docs/app/guides",
+        "https://nextjs.org/docs/app/guides/ai-agents",
+        "https://nextjs.org/docs/app/getting-started/installation",
+        "https://nextjs.org/blog",
+        "https://nextjs.org/docs/app/guides/upgrading/version-16",
+        "https://nextjs.org/docs/app/api-reference/functions/cacheLife",
+        "https://nextjs.org/docs/app/api-reference/functions/cacheTag"
+      ],
+      "lastChecked": "2026-08-12",
+      "knowledgePacks": [
+        {
+          "id": "routing-file-conventions",
+          "guide": "docs/frontend/technology/nextjs/routing-file-conventions.md",
+          "topics": ["layout", "template", "page", "loading", "error", "not-found", "dynamic segments", "route groups", "parallel routes", "intercepting routes"]
+        },
+        {
+          "id": "rendering-boundaries",
+          "guide": "docs/frontend/technology/nextjs/rendering-boundaries.md",
+          "topics": ["Server Components", "Client Components", "use client", "serialization", "streaming", "connection", "hydration", "runtime"]
+        },
+        {
+          "id": "data-cache-revalidation",
+          "guide": "docs/frontend/technology/nextjs/data-cache-revalidation.md",
+          "topics": ["Cache Components", "use cache", "use cache private", "use cache remote", "cacheLife", "cacheTag", "updateTag", "revalidateTag", "revalidatePath", "refresh"]
+        },
+        {
+          "id": "mutations-forms-actions",
+          "guide": "docs/frontend/technology/nextjs/mutations-forms-actions.md",
+          "topics": ["use server", "Server Functions", "FormData", "useActionState", "useFormStatus", "optimistic mutation", "redirect", "after", "idempotency"]
+        },
+        {
+          "id": "route-handlers-request-apis",
+          "guide": "docs/frontend/technology/nextjs/route-handlers-request-apis.md",
+          "topics": ["route handlers", "RouteContext", "NextRequest", "NextResponse", "cookies", "headers", "draftMode", "userAgent", "webhooks", "streaming response"]
+        },
+        {
+          "id": "navigation-url-state",
+          "guide": "docs/frontend/technology/nextjs/navigation-url-state.md",
+          "topics": ["Link", "prefetch", "useRouter", "usePathname", "useSearchParams", "Form", "useParams", "selected segments", "useLinkStatus"]
+        },
+        {
+          "id": "metadata-assets-seo",
+          "guide": "docs/frontend/technology/nextjs/metadata-assets-seo.md",
+          "topics": ["metadata", "generateMetadata", "metadata files", "ImageResponse", "Image", "Font", "Script", "robots", "sitemap"]
+        },
+        {
+          "id": "security-auth-data",
+          "guide": "docs/frontend/technology/nextjs/security-auth-data.md",
+          "topics": ["authentication", "session", "authorization", "DAL", "DTO", "Server Action security", "CSP", "cache isolation", "Proxy"]
+        },
+        {
+          "id": "testing-observability-production",
+          "guide": "docs/frontend/technology/nextjs/testing-observability-production.md",
+          "topics": ["unit and E2E tests", "instrumentation", "instrumentation-client", "useReportWebVitals", "production checklist", "bundle analysis", "deployment"]
+        },
+        {
+          "id": "configuration-migration",
+          "guide": "docs/frontend/technology/nextjs/configuration-migration.md",
+          "topics": ["next.config", "Turbopack", "lint", "async request APIs", "proxy migration", "Cache Components migration", "image migration", "codemods", "bundled docs"]
+        }
+      ],
+      "knowledgeTopics": [
+        "App Router file conventions",
+        "dynamic parallel and intercepting routes",
+        "Server and Client Components",
+        "use client and use server",
+        "async params and searchParams",
+        "async cookies headers and draftMode",
+        "streaming and Suspense",
+        "Cache Components",
+        "use cache private and remote",
+        "cacheLife and cacheTag",
+        "updateTag revalidateTag revalidatePath and refresh",
+        "Server Functions and Form Actions",
+        "Route Handlers and request APIs",
+        "Link and navigation Hooks",
+        "metadata image font and script",
+        "authentication authorization DAL and DTO",
+        "CSP secrets and cache isolation",
+        "Proxy and runtime",
+        "instrumentation and Web Vitals",
+        "testing production and deployment",
+        "Turbopack configuration and migration",
+        "version-matched bundled documentation"
+      ]
+    },
+    {
+      "id": "html",
+      "name": "HTML",
+      "guide": "docs/frontend/technology/html.md",
+      "documentationBaseline": "WHATWG HTML Living Standard",
+      "latestObserved": "Living Standard",
+      "versionKind": "living-standard",
+      "package": null,
+      "officialSources": [
+        "https://html.spec.whatwg.org/",
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/popover",
+        "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog"
+      ],
+      "lastChecked": "2026-08-12",
+      "knowledgeTopics": [
+        "Popover API",
+        "dialog",
+        "Invoker Commands",
+        "inert",
+        "hidden until-found",
+        "exclusive details"
+      ]
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "guide": "docs/frontend/technology/css.md",
+      "documentationBaseline": "CSS Snapshot 2026",
+      "latestObserved": "2026 Snapshot",
+      "versionKind": "standards-snapshot",
+      "package": null,
+      "officialSources": [
+        "https://drafts.csswg.org/css-2026/",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40scope"
+      ],
+      "lastChecked": "2026-08-12",
+      "knowledgeTopics": [
+        "container queries",
+        "CSS nesting",
+        "has selector",
+        "scope",
+        "cascade layers",
+        "subgrid",
+        "light-dark and color-mix",
+        "starting-style",
+        "anchor positioning",
+        "view transitions"
+      ]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "guide": "docs/frontend/technology/javascript.md",
+      "documentationBaseline": "ECMAScript 2026 stable snapshot + ECMAScript 2027 current draft preview",
+      "latestObserved": "ECMAScript 2026",
+      "versionKind": "language-standard",
+      "package": null,
+      "officialSources": [
+        "https://tc39.es/ecma262/2026/",
+        "https://tc39.es/ecma262/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      ],
+      "lastChecked": "2026-08-12",
+      "knowledgeTopics": [
+        "Math.sumPrecise",
+        "Iterator.concat",
+        "Array.fromAsync",
+        "Error.isError",
+        "Map getOrInsert",
+        "Uint8Array Base64 and Hex",
+        "JSON parse source context",
+        "JSON.rawJSON",
+        "ECMAScript 2025 baseline"
+      ]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "guide": "docs/frontend/technology/typescript.md",
+      "documentationBaseline": "TypeScript 7.0",
+      "latestObserved": "7.0.2",
+      "versionKind": "npm-latest",
+      "package": "typescript",
+      "officialSources": [
+        "https://www.typescriptlang.org/docs/handbook/intro.html",
+        "https://devblogs.microsoft.com/typescript/",
+        "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-6-0.html",
+        "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/"
+      ],
+      "lastChecked": "2026-08-12",
+      "knowledgeTopics": [
+        "TypeScript 7 native compiler and LSP",
+        "TypeScript 6 and 7 defaults",
+        "TypeScript 6 compatibility package",
+        "NoInfer",
+        "inferred type predicates",
+        "isolatedDeclarations",
+        "noCheck",
+        "rewriteRelativeImportExtensions",
+        "import defer",
+        "erasableSyntaxOnly"
+      ]
+    }
+  ]
+}

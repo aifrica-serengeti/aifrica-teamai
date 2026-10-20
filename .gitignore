@@ -1,0 +1,5 @@
+node_modules/
+.teamai/
+.aifrica/frontend.resolved.json
+.DS_Store
+*.log

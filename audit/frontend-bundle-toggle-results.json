@@ -1,0 +1,131 @@
+{
+  "snapshotCommit": "079f735412f13d08043093939f6da1fdb5c2b35e",
+  "cases": [
+    {
+      "solution": "cmp",
+      "stage": "initial-off",
+      "inheritCommon": false,
+      "sharedSkillsByTool": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "frontendDocsPresent": false,
+      "sharedHookPresent": false,
+      "localProductSkillsPreserved": true,
+      "docs": 41,
+      "modifiedSharedSkillKept": null
+    },
+    {
+      "solution": "cmp",
+      "stage": "enabled",
+      "inheritCommon": true,
+      "sharedSkillsByTool": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "frontendDocsPresent": true,
+      "sharedHookPresent": true,
+      "localProductSkillsPreserved": true,
+      "docs": 587,
+      "modifiedSharedSkillKept": null
+    },
+    {
+      "solution": "cmp",
+      "stage": "disabled",
+      "inheritCommon": false,
+      "sharedSkillsByTool": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "frontendDocsPresent": false,
+      "sharedHookPresent": false,
+      "localProductSkillsPreserved": true,
+      "docs": 41,
+      "modifiedSharedSkillKept": null
+    },
+    {
+      "solution": "cmp",
+      "stage": "re-enabled",
+      "inheritCommon": true,
+      "sharedSkillsByTool": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "frontendDocsPresent": true,
+      "sharedHookPresent": true,
+      "localProductSkillsPreserved": true,
+      "docs": 587,
+      "modifiedSharedSkillKept": null
+    },
+    {
+      "solution": "cmp",
+      "stage": "disabled-with-local-edit",
+      "inheritCommon": false,
+      "sharedSkillsByTool": {
+        ".codex": 1,
+        ".claude": 0
+      },
+      "frontendDocsPresent": false,
+      "sharedHookPresent": false,
+      "localProductSkillsPreserved": true,
+      "docs": 41,
+      "modifiedSharedSkillKept": "aifrica-design-system"
+    },
+    {
+      "solution": "paas",
+      "stage": "initial-off",
+      "inheritCommon": false,
+      "sharedSkillsByTool": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "frontendDocsPresent": false,
+      "sharedHookPresent": false,
+      "localProductSkillsPreserved": true,
+      "docs": 13,
+      "modifiedSharedSkillKept": null
+    },
+    {
+      "solution": "paas",
+      "stage": "enabled",
+      "inheritCommon": true,
+      "sharedSkillsByTool": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "frontendDocsPresent": true,
+      "sharedHookPresent": true,
+      "localProductSkillsPreserved": true,
+      "docs": 559,
+      "modifiedSharedSkillKept": null
+    },
+    {
+      "solution": "paas",
+      "stage": "disabled",
+      "inheritCommon": false,
+      "sharedSkillsByTool": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "frontendDocsPresent": false,
+      "sharedHookPresent": false,
+      "localProductSkillsPreserved": true,
+      "docs": 13,
+      "modifiedSharedSkillKept": null
+    },
+    {
+      "solution": "paas",
+      "stage": "re-enabled",
+      "inheritCommon": true,
+      "sharedSkillsByTool": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "frontendDocsPresent": true,
+      "sharedHookPresent": true,
+      "localProductSkillsPreserved": true,
+      "docs": 559,
+      "modifiedSharedSkillKept": null
+    }
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "sourceCommit": "3f1da2942839cabf5a5ef56fd1f30d68fde7f4d4",
+  "commonComponents": 51,
+  "cmpComponents": 4,
+  "sourceComponentIDsCovered": 55,
+  "componentContracts": [
+    {
+      "id": "ActionBar",
+      "sourceDocs": "docs/design/components/ActionBar/README.md",
+      "deliveredDocs": "frontend/design/components/ActionBar/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "AsyncContentState",
+      "sourceDocs": "docs/design/components/AsyncContentState/README.md",
+      "deliveredDocs": "frontend/design/components/AsyncContentState/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Spinner"
+      ],
+      "sourceDependencies": [
+        "Spinner"
+      ]
+    },
+    {
+      "id": "ContentState",
+      "sourceDocs": "docs/design/components/ContentState/README.md",
+      "deliveredDocs": "frontend/design/components/ContentState/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon",
+        "Button"
+      ],
+      "sourceDependencies": [
+        "Icon",
+        "Button"
+      ]
+    },
+    {
+      "id": "Avatar",
+      "sourceDocs": "docs/design/components/Avatar/README.md",
+      "deliveredDocs": "frontend/design/components/Avatar/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Badge",
+      "sourceDocs": "docs/design/components/Badge/README.md",
+      "deliveredDocs": "frontend/design/components/Badge/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Breadcrumb",
+      "sourceDocs": "docs/design/components/Breadcrumb/README.md",
+      "deliveredDocs": "frontend/design/components/Breadcrumb/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "IconButton",
+        "Menu",
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "IconButton",
+        "Menu",
+        "Icon"
+      ]
+    },
+    {
+      "id": "Button",
+      "sourceDocs": "docs/design/components/Button/README.md",
+      "deliveredDocs": "frontend/design/components/Button/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "Icon"
+      ]
+    },
+    {
+      "id": "Calendar",
+      "sourceDocs": "docs/design/components/Calendar/README.md",
+      "deliveredDocs": "frontend/design/components/Calendar/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Button",
+        "IconButton",
+        "TextButton"
+      ],
+      "sourceDependencies": [
+        "Button",
+        "IconButton",
+        "TextButton"
+      ]
+    },
+    {
+      "id": "Card",
+      "sourceDocs": "docs/design/components/Card/README.md",
+      "deliveredDocs": "frontend/design/components/Card/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Chip",
+        "IconButton",
+        "Button",
+        "Link",
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "Chip",
+        "IconButton",
+        "Button",
+        "Link",
+        "Icon"
+      ]
+    },
+    {
+      "id": "CardAccordion",
+      "sourceDocs": "docs/design/components/CardAccordion/README.md",
+      "deliveredDocs": "frontend/design/components/CardAccordion/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon",
+        "Button",
+        "IconButton"
+      ],
+      "sourceDependencies": [
+        "Icon",
+        "Button",
+        "IconButton"
+      ]
+    },
+    {
+      "id": "Checkbox",
+      "sourceDocs": "docs/design/components/Checkbox/README.md",
+      "deliveredDocs": "frontend/design/components/Checkbox/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Chip",
+      "sourceDocs": "docs/design/components/Chip/README.md",
+      "deliveredDocs": "frontend/design/components/Chip/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon",
+        "IconButton"
+      ],
+      "sourceDependencies": [
+        "Icon",
+        "IconButton"
+      ]
+    },
+    {
+      "id": "DatePicker",
+      "sourceDocs": "docs/design/components/DatePicker/README.md",
+      "deliveredDocs": "frontend/design/components/DatePicker/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Input",
+        "IconButton",
+        "Calendar",
+        "Scrollbar"
+      ],
+      "sourceDependencies": [
+        "Input",
+        "IconButton",
+        "Calendar",
+        "Scrollbar"
+      ]
+    },
+    {
+      "id": "DetailField",
+      "sourceDocs": "docs/design/components/DetailField/README.md",
+      "deliveredDocs": "frontend/design/components/DetailField/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Input"
+      ],
+      "sourceDependencies": [
+        "Input"
+      ]
+    },
+    {
+      "id": "DetailSection",
+      "sourceDocs": "docs/design/components/DetailSection/README.md",
+      "deliveredDocs": "frontend/design/components/DetailSection/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Dialog",
+      "sourceDocs": "docs/design/components/Dialog/README.md",
+      "deliveredDocs": "frontend/design/components/Dialog/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "IconButton",
+        "Button",
+        "SegmentedControl",
+        "Input",
+        "Scrollbar"
+      ],
+      "sourceDependencies": [
+        "IconButton",
+        "Button",
+        "SegmentedControl",
+        "Input",
+        "Scrollbar"
+      ]
+    },
+    {
+      "id": "Divider",
+      "sourceDocs": "docs/design/components/Divider/README.md",
+      "deliveredDocs": "frontend/design/components/Divider/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Dropdown",
+      "sourceDocs": "docs/design/components/Dropdown/README.md",
+      "deliveredDocs": "frontend/design/components/Dropdown/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Menu",
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "Menu",
+        "Icon"
+      ]
+    },
+    {
+      "id": "EditConfirmationDialog",
+      "sourceDocs": "docs/design/components/EditConfirmationDialog/README.md",
+      "deliveredDocs": "frontend/design/components/EditConfirmationDialog/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Dialog",
+        "Button"
+      ],
+      "sourceDependencies": [
+        "Dialog",
+        "Button"
+      ]
+    },
+    {
+      "id": "GlobalHeaderV1",
+      "sourceDocs": "docs/design/components/GlobalHeaderV1/README.md",
+      "deliveredDocs": "cmp/design/components/GlobalHeaderV1/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Breadcrumb",
+        "Search",
+        "IconButton",
+        "Badge",
+        "Menu",
+        "Avatar",
+        "Icon",
+        "Chip"
+      ],
+      "sourceDependencies": [
+        "Breadcrumb",
+        "Search",
+        "IconButton",
+        "Badge",
+        "Menu"
+      ]
+    },
+    {
+      "id": "GlobalHeaderV2",
+      "sourceDocs": "docs/design/components/GlobalHeaderV2/README.md",
+      "deliveredDocs": "cmp/design/components/GlobalHeaderV2/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "IconButton",
+        "Divider",
+        "Breadcrumb"
+      ],
+      "sourceDependencies": [
+        "IconButton",
+        "Divider",
+        "Breadcrumb"
+      ]
+    },
+    {
+      "id": "Icon",
+      "sourceDocs": "docs/design/components/Icon/README.md",
+      "deliveredDocs": "frontend/design/components/Icon/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "PrivateIcon",
+      "sourceDocs": "docs/design/components/PrivateIcon/README.md",
+      "deliveredDocs": "frontend/design/components/PrivateIcon/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "IconButton",
+      "sourceDocs": "docs/design/components/IconButton/README.md",
+      "deliveredDocs": "frontend/design/components/IconButton/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "Icon"
+      ]
+    },
+    {
+      "id": "Input",
+      "sourceDocs": "docs/design/components/Input/README.md",
+      "deliveredDocs": "frontend/design/components/Input/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "IconButton",
+        "Icon",
+        "Tooltip"
+      ],
+      "sourceDependencies": [
+        "IconButton",
+        "Icon",
+        "Tooltip"
+      ]
+    },
+    {
+      "id": "InputListField",
+      "sourceDocs": "docs/design/components/InputListField/README.md",
+      "deliveredDocs": "frontend/design/components/InputListField/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Input",
+        "Button",
+        "IconButton"
+      ],
+      "sourceDependencies": [
+        "Input",
+        "Button",
+        "IconButton"
+      ]
+    },
+    {
+      "id": "Link",
+      "sourceDocs": "docs/design/components/Link/README.md",
+      "deliveredDocs": "frontend/design/components/Link/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "Icon"
+      ]
+    },
+    {
+      "id": "Menu",
+      "sourceDocs": "docs/design/components/Menu/README.md",
+      "deliveredDocs": "frontend/design/components/Menu/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon",
+        "Avatar",
+        "Checkbox",
+        "Switch",
+        "Chip",
+        "Badge",
+        "Divider"
+      ],
+      "sourceDependencies": [
+        "Icon",
+        "Avatar",
+        "Checkbox",
+        "Switch",
+        "Chip",
+        "Badge",
+        "Divider"
+      ]
+    },
+    {
+      "id": "ListContentState",
+      "sourceDocs": "docs/design/components/ListContentState/README.md",
+      "deliveredDocs": "frontend/design/components/ListContentState/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "ContentState"
+      ],
+      "sourceDependencies": [
+        "ContentState"
+      ]
+    },
+    {
+      "id": "Notification",
+      "sourceDocs": "docs/design/components/Notification/README.md",
+      "deliveredDocs": "frontend/design/components/Notification/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Status",
+        "Link",
+        "IconButton",
+        "Button",
+        "Scrollbar"
+      ],
+      "sourceDependencies": [
+        "Status",
+        "Link",
+        "IconButton",
+        "Button",
+        "Scrollbar"
+      ]
+    },
+    {
+      "id": "NumberInput",
+      "sourceDocs": "docs/design/components/NumberInput/README.md",
+      "deliveredDocs": "frontend/design/components/NumberInput/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "IconButton",
+        "Icon",
+        "Tooltip"
+      ],
+      "sourceDependencies": [
+        "IconButton",
+        "Icon",
+        "Tooltip"
+      ]
+    },
+    {
+      "id": "OpenPanel",
+      "sourceDocs": "docs/design/components/OpenPanel/README.md",
+      "deliveredDocs": "frontend/design/components/OpenPanel/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Button",
+        "IconButton",
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "Button",
+        "IconButton",
+        "Icon"
+      ]
+    },
+    {
+      "id": "PageHeader",
+      "sourceDocs": "docs/design/components/PageHeader/README.md",
+      "deliveredDocs": "frontend/design/components/PageHeader/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "IconButton",
+        "Tooltip",
+        "Chip",
+        "Tab",
+        "Button",
+        "SplitButton",
+        "TextButton",
+        "Avatar",
+        "Skeleton"
+      ],
+      "sourceDependencies": [
+        "IconButton",
+        "Tooltip",
+        "Chip",
+        "Tab",
+        "Button",
+        "SplitButton",
+        "TextButton",
+        "Avatar",
+        "Skeleton"
+      ]
+    },
+    {
+      "id": "Pagination",
+      "sourceDocs": "docs/design/components/Pagination/README.md",
+      "deliveredDocs": "frontend/design/components/Pagination/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "IconButton",
+        "Input",
+        "Dropdown"
+      ],
+      "sourceDependencies": [
+        "IconButton",
+        "Input",
+        "Dropdown"
+      ]
+    },
+    {
+      "id": "Radio",
+      "sourceDocs": "docs/design/components/Radio/README.md",
+      "deliveredDocs": "frontend/design/components/Radio/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "SNBV1",
+      "sourceDocs": "docs/design/components/SNBV1/README.md",
+      "deliveredDocs": "cmp/design/components/SNBV1/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon",
+        "IconButton",
+        "Menu",
+        "Divider",
+        "Scrollbar",
+        "Tooltip"
+      ],
+      "sourceDependencies": [
+        "Icon",
+        "IconButton",
+        "Menu",
+        "Divider",
+        "Scrollbar",
+        "Tooltip"
+      ]
+    },
+    {
+      "id": "SNBV2",
+      "sourceDocs": "docs/design/components/SNBV2/README.md",
+      "deliveredDocs": "cmp/design/components/SNBV2/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "IconButton",
+        "Icon",
+        "Scrollbar",
+        "Tooltip",
+        "Menu"
+      ],
+      "sourceDependencies": [
+        "IconButton",
+        "Icon",
+        "Scrollbar",
+        "Tooltip",
+        "Menu"
+      ]
+    },
+    {
+      "id": "Scrollbar",
+      "sourceDocs": "docs/design/components/Scrollbar/README.md",
+      "deliveredDocs": "frontend/design/components/Scrollbar/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Search",
+      "sourceDocs": "docs/design/components/Search/README.md",
+      "deliveredDocs": "frontend/design/components/Search/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Input"
+      ],
+      "sourceDependencies": [
+        "Input"
+      ]
+    },
+    {
+      "id": "SegmentedControl",
+      "sourceDocs": "docs/design/components/SegmentedControl/README.md",
+      "deliveredDocs": "frontend/design/components/SegmentedControl/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon",
+        "Tooltip"
+      ],
+      "sourceDependencies": [
+        "Icon",
+        "Tooltip"
+      ]
+    },
+    {
+      "id": "Select",
+      "sourceDocs": "docs/design/components/Select/README.md",
+      "deliveredDocs": "frontend/design/components/Select/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Checkbox",
+        "Chip",
+        "Spinner",
+        "Status",
+        "Scrollbar",
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "Checkbox",
+        "Chip",
+        "Spinner",
+        "Status",
+        "Scrollbar",
+        "Icon"
+      ]
+    },
+    {
+      "id": "Slider",
+      "sourceDocs": "docs/design/components/Slider/README.md",
+      "deliveredDocs": "frontend/design/components/Slider/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Input",
+        "Tooltip"
+      ],
+      "sourceDependencies": [
+        "Input",
+        "Tooltip"
+      ]
+    },
+    {
+      "id": "Skeleton",
+      "sourceDocs": "docs/design/components/Skeleton/README.md",
+      "deliveredDocs": "frontend/design/components/Skeleton/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Spinner",
+      "sourceDocs": "docs/design/components/Spinner/README.md",
+      "deliveredDocs": "frontend/design/components/Spinner/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "SplitButton",
+      "sourceDocs": "docs/design/components/SplitButton/README.md",
+      "deliveredDocs": "frontend/design/components/SplitButton/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Menu",
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "Menu",
+        "Icon"
+      ]
+    },
+    {
+      "id": "Status",
+      "sourceDocs": "docs/design/components/Status/README.md",
+      "deliveredDocs": "frontend/design/components/Status/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Spinner"
+      ],
+      "sourceDependencies": [
+        "Spinner"
+      ]
+    },
+    {
+      "id": "Stepper",
+      "sourceDocs": "docs/design/components/Stepper/README.md",
+      "deliveredDocs": "frontend/design/components/Stepper/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Switch",
+      "sourceDocs": "docs/design/components/Switch/README.md",
+      "deliveredDocs": "frontend/design/components/Switch/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Tab",
+      "sourceDocs": "docs/design/components/Tab/README.md",
+      "deliveredDocs": "frontend/design/components/Tab/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon",
+        "Chip"
+      ],
+      "sourceDependencies": [
+        "Icon",
+        "Chip"
+      ]
+    },
+    {
+      "id": "Table",
+      "sourceDocs": "docs/design/components/Table/README.md",
+      "deliveredDocs": "frontend/design/components/Table/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "ListContentState",
+        "Button",
+        "Checkbox",
+        "Radio",
+        "Menu",
+        "Icon",
+        "IconButton",
+        "Tooltip",
+        "Spinner",
+        "Scrollbar"
+      ],
+      "sourceDependencies": [
+        "ListContentState",
+        "Button",
+        "Checkbox",
+        "Radio",
+        "Menu",
+        "Icon",
+        "IconButton",
+        "Tooltip",
+        "Spinner",
+        "Scrollbar"
+      ]
+    },
+    {
+      "id": "TextButton",
+      "sourceDocs": "docs/design/components/TextButton/README.md",
+      "deliveredDocs": "frontend/design/components/TextButton/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon"
+      ],
+      "sourceDependencies": [
+        "Icon"
+      ]
+    },
+    {
+      "id": "Textarea",
+      "sourceDocs": "docs/design/components/Textarea/README.md",
+      "deliveredDocs": "frontend/design/components/Textarea/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Timepicker",
+      "sourceDocs": "docs/design/components/Timepicker/README.md",
+      "deliveredDocs": "frontend/design/components/Timepicker/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Input",
+        "Icon",
+        "Button",
+        "TextButton",
+        "Scrollbar"
+      ],
+      "sourceDependencies": [
+        "Input",
+        "Icon",
+        "Button",
+        "TextButton",
+        "Scrollbar"
+      ]
+    },
+    {
+      "id": "Tooltip",
+      "sourceDocs": "docs/design/components/Tooltip/README.md",
+      "deliveredDocs": "frontend/design/components/Tooltip/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [],
+      "sourceDependencies": []
+    },
+    {
+      "id": "Tree",
+      "sourceDocs": "docs/design/components/Tree/README.md",
+      "deliveredDocs": "frontend/design/components/Tree/README.md",
+      "requiredDocuments": 6,
+      "dependencies": [
+        "Icon",
+        "IconButton",
+        "Checkbox",
+        "Menu"
+      ],
+      "sourceDependencies": [
+        "Icon",
+        "IconButton",
+        "Checkbox",
+        "Menu"
+      ]
+    }
+  ],
+  "frontendKnowledgeFiles": [
+    {
+      "source": "docs/frontend/README.md",
+      "delivered": "docs/frontend/technology/README.md",
+      "sameBytes": false
+    },
+    {
+      "source": "docs/frontend/ai-prompt.md",
+      "delivered": "docs/frontend/ai-prompt.md",
+      "sameBytes": false
+    },
+    {
+      "source": "docs/frontend/css.md",
+      "delivered": "docs/frontend/technology/css.md",
+      "sameBytes": false
+    },
+    {
+      "source": "docs/frontend/html.md",
+      "delivered": "docs/frontend/technology/html.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/import-style.md",
+      "delivered": "docs/frontend/import-style.md",
+      "sameBytes": false
+    },
+    {
+      "source": "docs/frontend/javascript.md",
+      "delivered": "docs/frontend/technology/javascript.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/README.md",
+      "delivered": "docs/frontend/technology/nextjs/README.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/configuration-migration.md",
+      "delivered": "docs/frontend/technology/nextjs/configuration-migration.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/data-cache-revalidation.md",
+      "delivered": "docs/frontend/technology/nextjs/data-cache-revalidation.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/metadata-assets-seo.md",
+      "delivered": "docs/frontend/technology/nextjs/metadata-assets-seo.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/mutations-forms-actions.md",
+      "delivered": "docs/frontend/technology/nextjs/mutations-forms-actions.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/navigation-url-state.md",
+      "delivered": "docs/frontend/technology/nextjs/navigation-url-state.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/rendering-boundaries.md",
+      "delivered": "docs/frontend/technology/nextjs/rendering-boundaries.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/route-handlers-request-apis.md",
+      "delivered": "docs/frontend/technology/nextjs/route-handlers-request-apis.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/routing-file-conventions.md",
+      "delivered": "docs/frontend/technology/nextjs/routing-file-conventions.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/security-auth-data.md",
+      "delivered": "docs/frontend/technology/nextjs/security-auth-data.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs/testing-observability-production.md",
+      "delivered": "docs/frontend/technology/nextjs/testing-observability-production.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/nextjs.md",
+      "delivered": "docs/frontend/technology/nextjs.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react/README.md",
+      "delivered": "docs/frontend/technology/react/README.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react/async-actions-suspense.md",
+      "delivered": "docs/frontend/technology/react/async-actions-suspense.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react/context-identity-reuse.md",
+      "delivered": "docs/frontend/technology/react/context-identity-reuse.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react/dom-forms-resources.md",
+      "delivered": "docs/frontend/technology/react/dom-forms-resources.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react/effects-refs-external-store.md",
+      "delivered": "docs/frontend/technology/react/effects-refs-external-store.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react/performance-compiler.md",
+      "delivered": "docs/frontend/technology/react/performance-compiler.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react/rendering-server-hydration.md",
+      "delivered": "docs/frontend/technology/react/rendering-server-hydration.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react/state-and-events.md",
+      "delivered": "docs/frontend/technology/react/state-and-events.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react/testing-lint-rules.md",
+      "delivered": "docs/frontend/technology/react/testing-lint-rules.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/react.md",
+      "delivered": "docs/frontend/technology/react.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/sources.json",
+      "delivered": "docs/frontend/technology/sources.json",
+      "sameBytes": false
+    },
+    {
+      "source": "docs/frontend/typescript.md",
+      "delivered": "docs/frontend/technology/typescript.md",
+      "sameBytes": true
+    },
+    {
+      "source": "docs/frontend/update-policy.md",
+      "delivered": "docs/frontend/technology/update-policy.md",
+      "sameBytes": false
+    }
+  ],
+  "notes": [
+    "Coverage checks identity, mandatory document presence and declared dependency closure; semantic review is recorded separately.",
+    "Source implementation statuses and customer palette/assets are intentionally not inherited.",
+    "GlobalHeaderV1 additionally declares Avatar/Icon/Chip actually used by its public contract."
+  ]
+}

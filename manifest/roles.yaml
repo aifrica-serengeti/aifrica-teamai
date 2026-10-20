@@ -1,0 +1,20 @@
+version: 1
+roles:
+  - id: frontend
+    description: Frontend discipline; solution instructions first, shared bundle is opt-in
+    resources:
+      knowledge: [common, frontend]
+      skills: []
+      docs: [common]
+  - id: frontend-common
+    description: Optional shared frontend skills, React reference knowledge and design contracts
+    resources:
+      knowledge: [common, frontend-common]
+      skills: [frontend]
+      docs: [common, frontend]
+  - id: backend
+    description: Backend namespace reserved for separately agreed backend contracts
+    resources:
+      knowledge: [common, backend]
+      skills: []
+      docs: [common, backend]

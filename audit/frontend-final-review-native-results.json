@@ -1,0 +1,617 @@
+{
+  "legacyMirrorChecks": [
+    {
+      "stage": "before-init",
+      "exit": 0,
+      "stdout": "Agent skill mirror 검증 통과: 3개"
+    },
+    {
+      "stage": "standalone-initial",
+      "exit": 0,
+      "stdout": "Agent skill mirror 검증 통과: 3개"
+    },
+    {
+      "stage": "edited-independent",
+      "exit": 0,
+      "stdout": "Agent skill mirror 검증 통과: 3개"
+    }
+  ],
+  "legacyMirrorCheckerSha256": "a94f5b624106b1e7245043f62f940cbc2603386e88a1211e9738903ab27a86a1",
+  "assetSnapshotCommit": "eb64b848be2b52cb7d545ecba8e6a6079f357d09",
+  "targetHead": null,
+  "sourceSharedSkillNames": [
+    "aifrica-design-system",
+    "aifrica-frontend-architecture-refactor",
+    "aifrica-frontend-docs",
+    "aifrica-frontend-github-workflow",
+    "aifrica-frontend-workflow",
+    "aifrica-page-patterns",
+    "aifrica-ui-architecture-design"
+  ],
+  "referenceSkillTrees": {
+    ".agents/aifrica-ui-workflow": "f78773da6f9e4fe14113f326a73ddc775f49f8732c0688baa07d911c3b7c9451",
+    ".agents/aifrica-ui-github-workflow": "db3b04508f282592b35192fc5951f9e8a0c0ee33d784b92bdd46d60b2331182d",
+    ".agents/aifrica-ui-architecture-refactor": "fc9ae9edf6e3a39f416bfbd46b8bf554c5215f291fbd0dea1defcc34b4a8e54c",
+    ".claude/aifrica-ui-workflow": "f78773da6f9e4fe14113f326a73ddc775f49f8732c0688baa07d911c3b7c9451",
+    ".claude/aifrica-ui-github-workflow": "db3b04508f282592b35192fc5951f9e8a0c0ee33d784b92bdd46d60b2331182d",
+    ".claude/aifrica-ui-architecture-refactor": "fc9ae9edf6e3a39f416bfbd46b8bf554c5215f291fbd0dea1defcc34b4a8e54c"
+  },
+  "targetExistingSkillNameCollisions": [],
+  "snapshotFileDigest": "8f1901f616ea263bddc03ecf48c32970ed929ed504ddc95b8f6169b267b23640",
+  "referenceHead": "43648689aa3efef214118a69dde5eafdac30a338",
+  "cliVersion": "0.27.0",
+  "run": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-final-native-review-tnh9nmiu",
+  "cases": [
+    {
+      "label": "standalone-initial",
+      "roles": [
+        "frontend-common"
+      ],
+      "nativePrimaryRole": "frontend-common",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": true,
+      "solution": "cmp",
+      "docs": 600,
+      "docNamespaces": [
+        "cmp",
+        "common",
+        "frontend"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": true,
+      "frontendBaseRulePresent": false,
+      "sharedBundleSelected": true,
+      "sharedSkillCopiesByHost": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "cmp",
+        "common",
+        "frontend-common"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": true,
+      "legacyMirrorCheckExecuted": true,
+      "verifiedDocsTreeSha256": "0dcecef2e7d756a89b86faf47ca19969ceaa5f60482d30d4a51a88d1c9c7da9c"
+    },
+    {
+      "label": "cmp-frontend-common",
+      "roles": [
+        "frontend-common"
+      ],
+      "nativePrimaryRole": "frontend-common",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": null,
+      "solution": "cmp",
+      "docs": 600,
+      "docNamespaces": [
+        "cmp",
+        "common",
+        "frontend"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": true,
+      "frontendBaseRulePresent": false,
+      "sharedBundleSelected": true,
+      "sharedSkillCopiesByHost": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "cmp",
+        "common",
+        "frontend-common"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "0dcecef2e7d756a89b86faf47ca19969ceaa5f60482d30d4a51a88d1c9c7da9c"
+    },
+    {
+      "label": "cmp-frontend",
+      "roles": [
+        "frontend"
+      ],
+      "nativePrimaryRole": "frontend",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": null,
+      "solution": "cmp",
+      "docs": 54,
+      "docNamespaces": [
+        "cmp",
+        "common"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": false,
+      "frontendBaseRulePresent": true,
+      "sharedBundleSelected": false,
+      "sharedSkillCopiesByHost": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "cmp",
+        "common",
+        "frontend"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "4af9662f480eabda84e7fb3a0cbbe74577e016a8b813e2ffd38886c054f97438"
+    },
+    {
+      "label": "cmp-backend",
+      "roles": [
+        "backend"
+      ],
+      "nativePrimaryRole": "backend",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": null,
+      "solution": "cmp",
+      "docs": 55,
+      "docNamespaces": [
+        "backend",
+        "cmp",
+        "common"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": false,
+      "frontendBaseRulePresent": false,
+      "sharedBundleSelected": false,
+      "sharedSkillCopiesByHost": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "backend",
+        "cmp",
+        "common"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "3dee5b07d9ea5c8beab91763bbf16eb890255b97e9b040e27b3d91958e6e5225"
+    },
+    {
+      "label": "cmp-frontend+frontend-common",
+      "roles": [
+        "frontend",
+        "frontend-common"
+      ],
+      "nativePrimaryRole": "frontend",
+      "nativeAdditionalRoles": [
+        "frontend-common"
+      ],
+      "legacyMirrorCheckPassed": null,
+      "solution": "cmp",
+      "docs": 600,
+      "docNamespaces": [
+        "cmp",
+        "common",
+        "frontend"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": true,
+      "frontendBaseRulePresent": true,
+      "sharedBundleSelected": true,
+      "sharedSkillCopiesByHost": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "cmp",
+        "common",
+        "frontend",
+        "frontend-common"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "0dcecef2e7d756a89b86faf47ca19969ceaa5f60482d30d4a51a88d1c9c7da9c"
+    },
+    {
+      "label": "paas-frontend-common",
+      "roles": [
+        "frontend-common"
+      ],
+      "nativePrimaryRole": "frontend-common",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": null,
+      "solution": "paas",
+      "docs": 559,
+      "docNamespaces": [
+        "common",
+        "frontend",
+        "paas"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": true,
+      "frontendBaseRulePresent": false,
+      "sharedBundleSelected": true,
+      "sharedSkillCopiesByHost": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "common",
+        "frontend-common",
+        "paas"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "78b07ae8f73ec2e814043a64169d7a8ddef629ccac4bceffbf9753a17d45fa81"
+    },
+    {
+      "label": "paas-frontend",
+      "roles": [
+        "frontend"
+      ],
+      "nativePrimaryRole": "frontend",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": null,
+      "solution": "paas",
+      "docs": 13,
+      "docNamespaces": [
+        "common",
+        "paas"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": false,
+      "frontendBaseRulePresent": true,
+      "sharedBundleSelected": false,
+      "sharedSkillCopiesByHost": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "common",
+        "frontend",
+        "paas"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "85facb795bee1f774687b8fe3f162928fb450ab0ec37f4fb95a429ddf0002532"
+    },
+    {
+      "label": "paas-backend",
+      "roles": [
+        "backend"
+      ],
+      "nativePrimaryRole": "backend",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": null,
+      "solution": "paas",
+      "docs": 14,
+      "docNamespaces": [
+        "backend",
+        "common",
+        "paas"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": false,
+      "frontendBaseRulePresent": false,
+      "sharedBundleSelected": false,
+      "sharedSkillCopiesByHost": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "backend",
+        "common",
+        "paas"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "a17df8515a7bf2c59a3d1372acb2ff276860487572909bfdfc5a4d1715dcfd48"
+    },
+    {
+      "label": "paas-frontend+frontend-common",
+      "roles": [
+        "frontend",
+        "frontend-common"
+      ],
+      "nativePrimaryRole": "frontend",
+      "nativeAdditionalRoles": [
+        "frontend-common"
+      ],
+      "legacyMirrorCheckPassed": null,
+      "solution": "paas",
+      "docs": 559,
+      "docNamespaces": [
+        "common",
+        "frontend",
+        "paas"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": true,
+      "frontendBaseRulePresent": true,
+      "sharedBundleSelected": true,
+      "sharedSkillCopiesByHost": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "common",
+        "frontend",
+        "frontend-common",
+        "paas"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "78b07ae8f73ec2e814043a64169d7a8ddef629ccac4bceffbf9753a17d45fa81"
+    },
+    {
+      "label": "agent-hub-frontend-common",
+      "roles": [
+        "frontend-common"
+      ],
+      "nativePrimaryRole": "frontend-common",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": null,
+      "solution": "agent-hub",
+      "docs": 559,
+      "docNamespaces": [
+        "agent-hub",
+        "common",
+        "frontend"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": true,
+      "frontendBaseRulePresent": false,
+      "sharedBundleSelected": true,
+      "sharedSkillCopiesByHost": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "agent-hub",
+        "common",
+        "frontend-common"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "6379dab6f0eb7980f881fa259d28ee4d9701567f457848bf2741e5af7789ccf6"
+    },
+    {
+      "label": "agent-hub-frontend",
+      "roles": [
+        "frontend"
+      ],
+      "nativePrimaryRole": "frontend",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": null,
+      "solution": "agent-hub",
+      "docs": 13,
+      "docNamespaces": [
+        "agent-hub",
+        "common"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": false,
+      "frontendBaseRulePresent": true,
+      "sharedBundleSelected": false,
+      "sharedSkillCopiesByHost": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "agent-hub",
+        "common",
+        "frontend"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "646bbc75fa457bd7d8c1e3e8be6df8074e842290937f93d2ad7de4b1930c94c5"
+    },
+    {
+      "label": "agent-hub-backend",
+      "roles": [
+        "backend"
+      ],
+      "nativePrimaryRole": "backend",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": null,
+      "solution": "agent-hub",
+      "docs": 14,
+      "docNamespaces": [
+        "agent-hub",
+        "backend",
+        "common"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": false,
+      "frontendBaseRulePresent": false,
+      "sharedBundleSelected": false,
+      "sharedSkillCopiesByHost": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "agent-hub",
+        "backend",
+        "common"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "ea7e4df1e2ab6b74771af48c17f7bba31cd4fad1a14b2e53c25c38c0783afdb5"
+    },
+    {
+      "label": "agent-hub-frontend+frontend-common",
+      "roles": [
+        "frontend",
+        "frontend-common"
+      ],
+      "nativePrimaryRole": "frontend",
+      "nativeAdditionalRoles": [
+        "frontend-common"
+      ],
+      "legacyMirrorCheckPassed": null,
+      "solution": "agent-hub",
+      "docs": 559,
+      "docNamespaces": [
+        "agent-hub",
+        "common",
+        "frontend"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": true,
+      "frontendBaseRulePresent": true,
+      "sharedBundleSelected": true,
+      "sharedSkillCopiesByHost": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "retainedEditedSharedSkill": null,
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "agent-hub",
+        "common",
+        "frontend",
+        "frontend-common"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": false,
+      "legacyMirrorCheckExecuted": false,
+      "verifiedDocsTreeSha256": "6379dab6f0eb7980f881fa259d28ee4d9701567f457848bf2741e5af7789ccf6"
+    },
+    {
+      "label": "edited-independent",
+      "roles": [
+        "frontend"
+      ],
+      "nativePrimaryRole": "frontend",
+      "nativeAdditionalRoles": [],
+      "legacyMirrorCheckPassed": true,
+      "solution": "agent-hub",
+      "docs": 13,
+      "docNamespaces": [
+        "agent-hub",
+        "common"
+      ],
+      "fullDocsTreeHashes": true,
+      "sharedFrontendRulePresent": false,
+      "frontendBaseRulePresent": true,
+      "sharedBundleSelected": false,
+      "sharedSkillCopiesByHost": {
+        ".codex": 1,
+        ".claude": 0
+      },
+      "retainedEditedSharedSkill": "aifrica-design-system",
+      "fullSkillTreeHashes": true,
+      "productSkillPreserved": true,
+      "existingReferenceSkillTreesPreserved": 6,
+      "codexSelectedRules": [
+        "agent-hub",
+        "common",
+        "frontend"
+      ],
+      "claudeSelectedRuleCopies": true,
+      "claudeUnselectedRulesRemoved": true,
+      "installedCodexHookCommandExecuted": true,
+      "legacyMirrorCheckExecuted": true,
+      "verifiedDocsTreeSha256": "646bbc75fa457bd7d8c1e3e8be6df8074e842290937f93d2ad7de4b1930c94c5"
+    }
+  ],
+  "editedManagedSkillRetained": "aifrica-design-system",
+  "sameNameInitialCollision": {
+    ".codex": {
+      "preservedOriginal": false,
+      "matchesIncoming": true
+    },
+    ".claude": {
+      "preservedOriginal": false,
+      "matchesIncoming": true
+    },
+    "name": "aifrica-design-system"
+  },
+  "distributionSourceUnchangedDuringRun": true,
+  "readOnlyReferenceWorktreeClean": true,
+  "nativeDeliveryCasesPassed": 14,
+  "nativeRoleProjectCombinationsPassed": 12,
+  "qualityChecks": [
+    {
+      "command": "npm run verify",
+      "exit": 0
+    },
+    {
+      "command": "npm test",
+      "exit": 0
+    }
+  ],
+  "transport": "Native teamai-cli 0.27.0, provider git, .invalid URL redirected to isolated local bare remote",
+  "hostValidationLimit": "Native sync, config, rules and generated Codex hook command tested; no model session, production GitHub auth or product runtime/visual parity asserted",
+  "knownLimitations": [
+    "Initial unmanaged same-name target SKILL.md is overwritten on both Codex and Claude; original product skill names do not collide with the shared bundle."
+  ]
+}

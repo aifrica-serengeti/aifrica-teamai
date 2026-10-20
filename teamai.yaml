@@ -1,0 +1,10 @@
+team: aifrica
+description: Aifrica common AI practices and frontend solution extensions
+repo: https://github.com/aifrica-serengeti/aifrica-teamai.git
+provider: github
+usageReport: false
+sharing:
+  docs:
+    localDir: ./.teamai/docs
+  recall:
+    enabled: false

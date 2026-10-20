@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "solution": "cmp",
+  "status": "draft",
+  "paths": {
+    "architecture": null,
+    "componentRegistry": null,
+    "designTokens": null
+  },
+  "tokens": {
+    "brand": {},
+    "color": {},
+    "typography": {},
+    "border": {},
+    "spacing": {},
+    "radius": {},
+    "elevation": {},
+    "motion": {}
+  },
+  "components": {},
+  "pagePatterns": {
+    "list": {
+      "maxWidth": "1072px",
+      "defaultViewMode": "table",
+      "tablePageSize": 20,
+      "tablePageSizeOptions": [
+        10,
+        20,
+        50,
+        100
+      ],
+      "cardPageSize": 24,
+      "cardPageSizeOptions": [
+        12,
+        24,
+        48
+      ],
+      "searchDebounceMs": 300,
+      "notes": "CMP 원본 페이지의 참조 baseline. 실제 제품/서버 지원과 대조하고 변경 시 로컬 채택에 기록한다."
+    },
+    "create": {
+      "maxWidth": "1072px"
+    },
+    "detail": {
+      "maxWidth": "1072px"
+    }
+  },
+  "documentOverrides": [],
+  "exceptions": [],
+  "inheritCommon": true
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "profileId": "jdc",
+  "solution": "cmp",
+  "status": "observed-unadopted",
+  "isDefault": false,
+  "scope": "원본 project.serengeti-cmp의 관찰 시점 설정. 회사 공통 또는 CMP 전체 기본값이 아님.",
+  "source": {
+    "repository": "project.serengeti-cmp",
+    "commit": "77255b90832ca1c6114dd32c02631c44e345522c",
+    "workingTree": "clean",
+    "observedDate": "2026-10-20",
+    "files": [
+      {
+        "path": "src/styles/theme.css.ts",
+        "sha256": "8a9be02a07f2306bb3efc6cc9fba1bc9973566a4e0788062bad062f756a5dd02"
+      },
+      {
+        "path": "src/styles/global.css.ts",
+        "sha256": "3b6ab969012cf04de641a4fdc8b00dce564e98967cb98c7e11c1a68b8bd32b25"
+      },
+      {
+        "path": "src/styles/serengeti-cmp-theme.css.ts",
+        "sha256": "4ff310670e55c928fed06e3c13fe8a39b8e94504a5843c5ac558ab830ca3fc4b"
+      },
+      {
+        "path": "src/styles/list-page.css.ts",
+        "sha256": "1e51a53293e5ad1027a1bbac879626c2d35b41fd3de39cbbab7857059d94665f"
+      },
+      {
+        "path": "docs/design/component-registry.json",
+        "sha256": "164a8652479a3d3a870a965aa5ca71685b600eb770bd5639ec0910b0e4de217d"
+      },
+      {
+        "path": "docs/design/patterns/ListPage.md",
+        "sha256": "283f1213839a37c616d8d2b1afbaf011f0da9f5415e0e1533a4ae3abc8212273"
+      },
+      {
+        "path": "docs/design/patterns/CreatePage.md",
+        "sha256": "c0a22cdb4ac6b9d95bddda7ed347661edcfae8d89078d339db0ec358fe970060"
+      },
+      {
+        "path": "docs/design/patterns/DetailPage.md",
+        "sha256": "3011138e3ff181fdc325596aa646692a6a53fa7b30bc7e5243dc38e9bbae6533"
+      }
+    ]
+  },
+  "theme": {
+    "commonPrimaryObservation": {
+      "light": "#0066ff",
+      "dark": "#3384ff",
+      "scope": "원본 공통 theme의 text/element/border/icon primary; 제품 SNB accent와 구별"
+    },
+    "productSnb": {
+      "owner": "src/styles/serengeti-cmp-theme.css.ts",
+      "light": {
+        "surface": "indigo-50",
+        "accent": "indigo-500",
+        "hover": "purple-50"
+      },
+      "dark": {
+        "surface": "purple-800",
+        "divider": "purple-900",
+        "hover": "purple-900",
+        "pressed": "purple-700",
+        "selected": "purple-900",
+        "selectedHover": "purple-700",
+        "accent": "purple-400"
+      },
+      "scope": "제품 sidebar만; 전체 primary 아님"
+    }
+  },
+  "pageGeometry": {
+    "contentMaxPx": 1072,
+    "outerBandMaxPx": 1120,
+    "desktopInsetPx": 24,
+    "narrowInsetPx": 16,
+    "narrowMaxPx": 899,
+    "compactDetailMaxPx": 699,
+    "cardMinPx": 320,
+    "cardColumnsAtContentMax": 3,
+    "scope": "원본 List/Create/Detail 문서와 list layout의 관찰 baseline; 다른 profile은 자체 결정"
+  },
+  "listDefaults": {
+    "defaultViewMode": "table",
+    "tablePageSize": 20,
+    "tablePageSizeOptions": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "cardPageSize": 24,
+    "cardPageSizeOptions": [
+      12,
+      24,
+      48
+    ],
+    "searchDebounceMs": 300,
+    "filterVisibleOptions": 5,
+    "scope": "원본 ListPage 문서 baseline. 실제 각 route의 설정을 대신 보증하지 않음"
+  },
+  "shell": {
+    "components": [
+      "SNBV1",
+      "SNBV2",
+      "GlobalHeaderV1",
+      "GlobalHeaderV2"
+    ],
+    "v2ExpandedPx": 240,
+    "v2CollapsedPx": 60,
+    "globalHeaderV2HeightPx": 48,
+    "appTopOffsetPx": 8,
+    "appTopLeftRadiusPx": 14,
+    "scope": "원본 shell 참조의 세대별 조합; 공통 배포에서 구현·자산 미제공"
+  },
+  "adoption": {
+    "enabled": false,
+    "requirements": [
+      "솔루션 담당자의 profile 명시 선택",
+      "실제 source/public export 매핑",
+      "브랜드·폰트·아이콘 자산 제공",
+      "접근성·상태·반응형 검증"
+    ],
+    "note": "관찰 자료 보존만으로 공통 규칙이나 CMP 기본값으로 승격하지 않음"
+  },
+  "authoringEvidence": {
+    "path": "audit/jdc/design",
+    "includedInTeamAiDistribution": false,
+    "requiredForConsumerProfile": false
+  }
+}

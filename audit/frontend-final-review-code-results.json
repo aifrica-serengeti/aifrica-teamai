@@ -1,0 +1,31 @@
+{
+  "snbv2DocumentTypecheck": {
+    "workspace": "/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-snbv2-document-check-rys2ML",
+    "extractedFiles": [
+      "SNBV2.tsx",
+      "data/snb-v2-icon.data.ts",
+      "dependencies.ts",
+      "useHoverMenu.ts",
+      "SNBV2.css.ts",
+      "snb-v2-tokens.ts",
+      "ScrollArea.tsx",
+      "ScrollArea.css.ts",
+      "dropdown-menu.tsx",
+      "dropdown-menu.css.ts"
+    ],
+    "primitiveTypes": "Real document ScrollArea and Menu implementations with installed React/vanilla-extract types and individual Radix DropdownMenu via a temporary aggregate re-export; Icon/IconButton/Tooltip boundaries are stubbed. Rendering and product integration are not verified.",
+    "diagnostics": []
+  },
+  "snbv2Behavior": {
+    "checks": [
+      "No synthetic account or brand required",
+      "Branch disclosure does not navigate; leaf does",
+      "Custom utility trigger opens panel without route selection",
+      "Pass-through utility trigger keeps default route selection",
+      "Documented ScrollArea metrics produce all four boundaries",
+      "250ms handoff closes later and re-entry cancels close"
+    ],
+    "passed": 6,
+    "limits": "Real React/DOM events on extracted document code with primitive and CSS boundaries stubbed; no product rendering or visual parity claim."
+  }
+}
