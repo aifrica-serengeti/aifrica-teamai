@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Picker standalone contracts, two static compositions, actual source reuse and local assets",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "items": [
+    {
+      "nodeId": "3016:104797",
+      "sourceNodeId": "2627:61960",
+      "kind": "chat",
+      "status": "match"
+    },
+    {
+      "nodeId": "3016:104802",
+      "sourceNodeId": "2627:61936",
+      "kind": "agent",
+      "status": "match"
+    },
+    {
+      "nodeId": "3016:104803",
+      "sourceNodeId": "2627:61936",
+      "kind": "agent",
+      "status": "match"
+    },
+    {
+      "nodeId": "3016:104804",
+      "sourceNodeId": "2627:61936",
+      "kind": "agent",
+      "status": "match"
+    },
+    {
+      "nodeId": "3016:104805",
+      "sourceNodeId": "2627:61936",
+      "kind": "agent",
+      "status": "match"
+    },
+    {
+      "nodeId": "3016:104806",
+      "sourceNodeId": "2627:61936",
+      "kind": "agent",
+      "status": "match"
+    }
+  ],
+  "customRows": [
+    {
+      "nodeId": "3016:104807",
+      "type": "FRAME",
+      "radius": 8,
+      "chipSourceNodeId": "3016:102466",
+      "status": "match"
+    },
+    {
+      "nodeId": "3016:104813",
+      "type": "FRAME",
+      "radius": 8,
+      "chipSourceNodeId": "3016:102466",
+      "status": "match"
+    },
+    {
+      "nodeId": "3016:104819",
+      "type": "FRAME",
+      "radius": 8,
+      "chipSourceNodeId": "3016:102466",
+      "status": "match"
+    },
+    {
+      "nodeId": "3016:104825",
+      "type": "FRAME",
+      "radius": 8,
+      "chipSourceNodeId": "3016:102465",
+      "status": "match"
+    }
+  ],
+  "search": {
+    "nodeId": "3079:114040",
+    "sourceNodeId": "3142:116457",
+    "variant": {
+      "size": "32",
+      "state": "focused",
+      "filtered": "false"
+    },
+    "filterVisibleOverride": true,
+    "status": "match"
+  },
+  "navigationRows": [
+    {
+      "nodeId": "2978:58126",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:64577",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58127",
+      "type": "FRAME",
+      "sourceNodeId": null,
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58137",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:62440",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58138",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:62440",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58139",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:64577",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58140",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:62440",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58145",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:64577",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58146",
+      "type": "FRAME",
+      "sourceNodeId": null,
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58156",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:62440",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58157",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:62440",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58158",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:64577",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58159",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:62440",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58162",
+      "type": "INSTANCE",
+      "sourceNodeId": "2611:64577",
+      "height": 32,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58163",
+      "type": "FRAME",
+      "sourceNodeId": null,
+      "height": 32,
+      "status": "match"
+    }
+  ],
+  "footers": [
+    {
+      "nodeId": "3016:104832",
+      "sourceNodeId": "2627:62004",
+      "height": 39,
+      "position": {
+        "x": 0,
+        "y": 416
+      },
+      "discoveryBranchPresent": true,
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58170",
+      "sourceNodeId": "2627:62004",
+      "height": 39,
+      "position": {
+        "x": 0,
+        "y": 497
+      },
+      "discoveryBranchPresent": false,
+      "status": "match"
+    }
+  ],
+  "shells": [
+    {
+      "nodeId": "3016:104794",
+      "width": 776,
+      "height": 455,
+      "footerReservationRequired": 39,
+      "observedOverflowDirection": "NONE",
+      "status": "match"
+    },
+    {
+      "nodeId": "2978:58104",
+      "width": 532,
+      "height": 536,
+      "footerReservationRequired": 39,
+      "observedOverflowDirection": "NONE",
+      "status": "match"
+    }
+  ],
+  "buttons": [
+    {
+      "nodeId": "I2978:58126;3057:45900",
+      "sourceNodeId": "2909:49139",
+      "glyphSourceNodeId": "2751:16967",
+      "status": "match"
+    },
+    {
+      "nodeId": "I2978:58145;3057:45900",
+      "sourceNodeId": "2909:49139",
+      "glyphSourceNodeId": "2751:16967",
+      "status": "match"
+    },
+    {
+      "nodeId": "I2978:58158;3057:45900",
+      "sourceNodeId": "2909:49139",
+      "glyphSourceNodeId": "2751:16967",
+      "status": "match"
+    },
+    {
+      "nodeId": "I2978:58162;3057:45900",
+      "sourceNodeId": "2909:49139",
+      "glyphSourceNodeId": "2751:16967",
+      "status": "match"
+    }
+  ],
+  "assets": [
+    {
+      "role": "existing-chat",
+      "path": "assets/icons/chat/16.svg",
+      "method": "reuse-existing-exact-source",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "existing-filter",
+      "path": "assets/icons/filter/16.svg",
+      "method": "reuse-existing-exact-source",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "existing-folder",
+      "path": "assets/icons/folder/16.svg",
+      "method": "reuse-existing-exact-source",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "existing-more",
+      "path": "assets/icons/more/16.svg",
+      "method": "reuse-existing-exact-source",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "existing-search",
+      "path": "assets/icons/search/16.svg",
+      "method": "reuse-existing-exact-source",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "dynamic-model-logo-sample",
+      "path": "assets/picker/model-logo-qwen-sample.png",
+      "method": "figma-supplied-original-asset",
+      "width": 200,
+      "height": 200,
+      "status": "match"
+    },
+    {
+      "role": "model-selector-chevron",
+      "path": "assets/picker/model-chevron-down-16.svg",
+      "method": "figma-supplied-original-asset",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "footer-discovery-chevron",
+      "path": "assets/picker/footer-chevron-right-16.svg",
+      "method": "figma-supplied-original-asset",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "below-viewport-other-folder",
+      "path": "assets/picker/other-folder-16.svg",
+      "method": "figma-supplied-original-asset",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "opacity-zero-alternative-more",
+      "path": "assets/picker/hidden-more-16.svg",
+      "method": "figma-supplied-original-asset",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "search-filter-exact-subtler-paint",
+      "path": "assets/picker/filter-subtler-16.svg",
+      "method": "figma-supplied-original-asset",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    },
+    {
+      "role": "menu-more-exact-subtler-paint",
+      "path": "assets/picker/more-subtler-16.svg",
+      "method": "figma-supplied-original-asset",
+      "width": 16,
+      "height": 16,
+      "status": "match"
+    }
+  ],
+  "limits": [
+    "Four item variants plus one footer and two FRAME recipes; no complete Picker state/API set is supplied",
+    "Width and bound label overrides are allowed; workflow/runtime radius8 frames and navigation32 rows are not PickerItem instances",
+    "Search filtered=false explicitly enables the filter Boolean; opacity-zero gradients are retained evidence rather than visible controls",
+    "Footer links differ by actual subtree presence; fixed clipped samples do not establish working scrolling or keyboard behavior",
+    "Modal/listbox semantics, model/filter/more actions, selection callbacks, focus, disabled/loading/error/dark/mobile remain product verification work"
+  ],
+  "issues": []
+}

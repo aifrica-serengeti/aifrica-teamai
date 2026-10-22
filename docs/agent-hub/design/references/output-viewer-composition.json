@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "One empty OutputViewer sample with native SLOT, asymmetric edges/corners and actual ghost24 glyph swaps",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "shell": {
+    "nodeId": "3015:24221",
+    "width": 540,
+    "height": 977,
+    "headerHeight": 34,
+    "contentHeight": 943,
+    "contentType": "SLOT",
+    "rendererVerified": false,
+    "status": "match"
+  },
+  "controls": [
+    {
+      "nodeId": "3015:24222",
+      "sourceNodeId": "2427:25108",
+      "glyphSourceNodeId": "3015:24201",
+      "visibilityProperty": "show expand#3015:3",
+      "status": "match"
+    },
+    {
+      "nodeId": "3015:24226",
+      "sourceNodeId": "2427:25108",
+      "glyphSourceNodeId": "2311:46284",
+      "visibilityProperty": "show close#3015:4",
+      "status": "match"
+    }
+  ],
+  "assets": [
+    {
+      "role": "type-divider-dot-3",
+      "path": "assets/output-viewer/type-divider-dot-3.svg",
+      "status": "match"
+    },
+    {
+      "role": "maximize-16",
+      "path": "assets/output-viewer/maximize-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "close-16",
+      "path": "assets/output-viewer/close-16.svg",
+      "status": "match"
+    }
+  ],
+  "limits": [
+    "All three visibility Booleans are true in the supplied sample; false combinations and narrow/long-content reflow are not measured",
+    "The content is an empty native SLOT, not evidence of a Markdown/PDF/image/HTML renderer or data-loading implementation",
+    "Expand/close glyph source identities do not establish fullscreen, modal, route or dismissal behavior",
+    "Header/content own separate borders and corners; root carries Mid shadow without fill or rendered border",
+    "Focus/keyboard/disabled/loading/error/dark/mobile and consuming source/export behavior require product verification"
+  ],
+  "issues": []
+}

@@ -1,0 +1,3734 @@
+{
+  "schemaVersion": 1,
+  "kind": "figma-guideline-review-inventory",
+  "reviewedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3016:104410",
+    "name": "01. B type-프롬프트 홈",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "page": "Latest design"
+  },
+  "scope": {
+    "mode": "review-only",
+    "observedApiTreeNodes": 388,
+    "observedInstances": 99,
+    "uniqueComponentSources": 43,
+    "observedContractFamilies": 17,
+    "observedAgentHubContractFamilies": 16,
+    "commonContractFamilies": [
+      "Divider"
+    ],
+    "skipInvisibleInstanceChildren": true,
+    "hiddenInstanceSubtreesExhaustive": false,
+    "knownMenuRowsInspectedSeparately": true,
+    "note": "Counts cover the exposed API tree. Invisible instance children may be omitted; flag-visible layers can also be clipped or masked. Known hidden Menu rows were separately inspected. These are design-source counts, not DOM/runtime/viewport-visible counts."
+  },
+  "implementationVerification": {
+    "consumingSourceVerified": false,
+    "runtimeVerified": false,
+    "visualParityVerified": false,
+    "componentMappingsRemainUnmapped": true
+  },
+  "coverage": [
+    {
+      "contractId": "AgentHubNavRail",
+      "observedInstanceCount": 1,
+      "guide": "../docs/agent-hub/design/components/AgentHubNavRail/README.md"
+    },
+    {
+      "contractId": "AgentHubNavItem",
+      "observedInstanceCount": 4,
+      "guide": "../docs/agent-hub/design/components/AgentHubNavItem/README.md"
+    },
+    {
+      "contractId": "AgentHubNavIcon",
+      "observedInstanceCount": 4,
+      "guide": "../docs/agent-hub/design/components/AgentHubNavIcon/README.md"
+    },
+    {
+      "contractId": "AgentHubIconButton",
+      "observedInstanceCount": 7,
+      "guide": "../docs/agent-hub/design/components/AgentHubIconButton/README.md"
+    },
+    {
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 30,
+      "guide": "../docs/agent-hub/design/components/AgentHubIcon/README.md"
+    },
+    {
+      "contractId": "AgentHubGlobalHeader",
+      "observedInstanceCount": 1,
+      "guide": "../docs/agent-hub/design/components/AgentHubGlobalHeader/README.md"
+    },
+    {
+      "contractId": "AgentHubSNBPanel",
+      "observedInstanceCount": 1,
+      "guide": "../docs/agent-hub/design/components/AgentHubSNBPanel/README.md"
+    },
+    {
+      "contractId": "AgentHubButton",
+      "observedInstanceCount": 2,
+      "guide": "../docs/agent-hub/design/components/AgentHubButton/README.md"
+    },
+    {
+      "contractId": "Divider",
+      "observedInstanceCount": 1,
+      "guide": "../docs/frontend/design/components/Divider/README.md"
+    },
+    {
+      "contractId": "AgentHubSNBSectionHeader",
+      "observedInstanceCount": 3,
+      "guide": "../docs/agent-hub/design/components/AgentHubSNBSectionHeader/README.md"
+    },
+    {
+      "contractId": "AgentHubSNBItem",
+      "observedInstanceCount": 25,
+      "guide": "../docs/agent-hub/design/components/AgentHubSNBItem/README.md"
+    },
+    {
+      "contractId": "AgentHubBrandMark",
+      "observedInstanceCount": 1,
+      "guide": "../docs/agent-hub/design/components/AgentHubBrandMark/README.md"
+    },
+    {
+      "contractId": "AgentHubItemCard",
+      "observedInstanceCount": 3,
+      "guide": "../docs/agent-hub/design/components/AgentHubItemCard/README.md"
+    },
+    {
+      "contractId": "AgentHubChatComposer",
+      "observedInstanceCount": 1,
+      "guide": "../docs/agent-hub/design/components/AgentHubChatComposer/README.md"
+    },
+    {
+      "contractId": "AgentHubAttachIconButton",
+      "observedInstanceCount": 2,
+      "guide": "../docs/agent-hub/design/components/AgentHubAttachIconButton/README.md"
+    },
+    {
+      "contractId": "AgentHubMenu",
+      "observedInstanceCount": 2,
+      "guide": "../docs/agent-hub/design/components/AgentHubMenu/README.md"
+    },
+    {
+      "contractId": "AgentHubMenuItem",
+      "observedInstanceCount": 11,
+      "guide": "../docs/agent-hub/design/components/AgentHubMenuItem/README.md"
+    }
+  ],
+  "sources": [
+    {
+      "id": "2611:62055",
+      "name": "nav-rail",
+      "width": 68,
+      "height": 1037,
+      "parent": {
+        "id": "3074:101398",
+        "name": "Frame 1215955004",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubNavRail",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:62031",
+      "name": "state=selected",
+      "width": 52,
+      "height": 52,
+      "parent": {
+        "id": "2611:62032",
+        "name": "nav-item",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubNavItem",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:62006",
+      "name": "icon=home",
+      "width": 28,
+      "height": 28,
+      "parent": {
+        "id": "2611:62007",
+        "name": "icon",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubNavIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:62030",
+      "name": "state=enabled",
+      "width": 52,
+      "height": 52,
+      "parent": {
+        "id": "2611:62032",
+        "name": "nav-item",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubNavItem",
+      "observedInstanceCount": 3
+    },
+    {
+      "id": "2611:71783",
+      "name": "icon=search",
+      "width": 28,
+      "height": 28,
+      "parent": {
+        "id": "2611:62007",
+        "name": "icon",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubNavIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:62005",
+      "name": "icon=book",
+      "width": 28,
+      "height": 28,
+      "parent": {
+        "id": "2611:62007",
+        "name": "icon",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubNavIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:62004",
+      "name": "icon=clock",
+      "width": 28,
+      "height": 28,
+      "parent": {
+        "id": "2611:62007",
+        "name": "icon",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubNavIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2427:25106",
+      "name": "type=ghost, state=default, size=32",
+      "width": 32,
+      "height": 32,
+      "parent": {
+        "id": "2427:25105",
+        "name": "icon-button",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubIconButton",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3065:48565",
+      "name": "icon/settings/24",
+      "width": 24,
+      "height": 24,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:62099",
+      "name": "Global Header",
+      "width": 774,
+      "height": 43,
+      "parent": {
+        "id": "3074:101330",
+        "name": "Component",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubGlobalHeader",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:63754",
+      "name": "snb",
+      "width": 288,
+      "height": 1033,
+      "parent": {
+        "id": "3074:101398",
+        "name": "Frame 1215955004",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubSNBPanel",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3025:24940",
+      "name": "type=primary, size=40, state=enabled",
+      "width": 116,
+      "height": 40,
+      "parent": {
+        "id": "3025:25029",
+        "name": "button",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubButton",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3018:24932",
+      "name": "icon/plus/20",
+      "width": 20,
+      "height": 20,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2022:2",
+      "name": "Property 1=Horizontal",
+      "width": 344,
+      "height": 17,
+      "parent": {
+        "id": "2019:117",
+        "name": "Divider",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "Divider",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:62411",
+      "name": "state=enabled",
+      "width": 256,
+      "height": 20,
+      "parent": {
+        "id": "2611:62413",
+        "name": "section-header",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubSNBSectionHeader",
+      "observedInstanceCount": 2
+    },
+    {
+      "id": "2611:62440",
+      "name": "depth=1depth, state=enabled",
+      "width": 256,
+      "height": 32,
+      "parent": {
+        "id": "2611:62441",
+        "name": "menu-item",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubSNBItem",
+      "observedInstanceCount": 21
+    },
+    {
+      "id": "3018:24833",
+      "name": "icon/forder/16",
+      "width": 16,
+      "height": 16,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 7
+    },
+    {
+      "id": "2320:15942",
+      "name": "icon/chat/16",
+      "width": 16,
+      "height": 16,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 6
+    },
+    {
+      "id": "2611:64577",
+      "name": "depth=1depth, state=hovered",
+      "width": 256,
+      "height": 32,
+      "parent": {
+        "id": "2611:62441",
+        "name": "menu-item",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubSNBItem",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:62439",
+      "name": "depth=2depth, state=enabled",
+      "width": 256,
+      "height": 32,
+      "parent": {
+        "id": "2611:62441",
+        "name": "menu-item",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubSNBItem",
+      "observedInstanceCount": 3
+    },
+    {
+      "id": "2611:62412",
+      "name": "state=hovered",
+      "width": 256,
+      "height": 20,
+      "parent": {
+        "id": "2611:62413",
+        "name": "section-header",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubSNBSectionHeader",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2372:37015",
+      "name": "icon/chevron-down/16",
+      "width": 16,
+      "height": 16,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2909:49139",
+      "name": "type=ghost, state=default, size=20",
+      "width": 20,
+      "height": 20,
+      "parent": {
+        "id": "2427:25105",
+        "name": "icon-button",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubIconButton",
+      "observedInstanceCount": 5
+    },
+    {
+      "id": "3016:104217",
+      "name": "icon/direct/16",
+      "width": 16,
+      "height": 16,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2909:49137",
+      "name": "type=ghost, state=pressed, size=20",
+      "width": 20,
+      "height": 20,
+      "parent": {
+        "id": "2427:25105",
+        "name": "icon-button",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubIconButton",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3016:104216",
+      "name": "icon/filter/16",
+      "width": 16,
+      "height": 16,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2365:15015",
+      "name": "icon/plus/16",
+      "width": 16,
+      "height": 16,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2611:74302",
+      "name": "image 14533",
+      "width": 180,
+      "height": 180,
+      "parent": {
+        "id": "3074:101330",
+        "name": "Component",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubBrandMark",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3116:14",
+      "name": "type=ghost, size=28, state=enabled",
+      "width": 181,
+      "height": 28,
+      "parent": {
+        "id": "3025:25029",
+        "name": "button",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubButton",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3018:24739",
+      "name": "icon/chevron-right/24",
+      "width": 24,
+      "height": 24,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3074:91985",
+      "name": "state=accent",
+      "width": 324,
+      "height": 146,
+      "parent": {
+        "id": "3095:143",
+        "name": "item-card",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubItemCard",
+      "observedInstanceCount": 3
+    },
+    {
+      "id": "3018:24913",
+      "name": "icon/more/24",
+      "width": 24,
+      "height": 24,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 3
+    },
+    {
+      "id": "2611:69434",
+      "name": "state=enabled",
+      "width": 768,
+      "height": 58,
+      "parent": {
+        "id": "2611:69436",
+        "name": "chat-composer",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubChatComposer",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3104:20",
+      "name": "state=default",
+      "width": 32,
+      "height": 32,
+      "parent": {
+        "id": "3104:27",
+        "name": "icon-button/attach",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubAttachIconButton",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2308:44299",
+      "name": "icon/plus/24",
+      "width": 24,
+      "height": 24,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3104:21",
+      "name": "state=hovered",
+      "width": 32,
+      "height": 32,
+      "parent": {
+        "id": "3104:27",
+        "name": "icon-button/attach",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubAttachIconButton",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2199:23680",
+      "name": "icon/arrow-up/24",
+      "width": 24,
+      "height": 24,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2037:4537",
+      "name": "icon/forder/20",
+      "width": 20,
+      "height": 20,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "3135:16036",
+      "name": "menu",
+      "width": 160,
+      "height": 318,
+      "parent": {
+        "id": "3074:101330",
+        "name": "Component",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubMenu",
+      "observedInstanceCount": 2
+    },
+    {
+      "id": "3135:15951",
+      "name": "type=default, state=enabled",
+      "width": 160,
+      "height": 28,
+      "parent": {
+        "id": "3135:16031",
+        "name": "menu/item",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubMenuItem",
+      "observedInstanceCount": 10
+    },
+    {
+      "id": "3074:98929",
+      "name": "icon/check/16",
+      "width": 16,
+      "height": 16,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 2
+    },
+    {
+      "id": "3135:15961",
+      "name": "type=default, state=hovered",
+      "width": 160,
+      "height": 28,
+      "parent": {
+        "id": "3135:16031",
+        "name": "menu/item",
+        "type": "COMPONENT_SET"
+      },
+      "contractId": "AgentHubMenuItem",
+      "observedInstanceCount": 1
+    },
+    {
+      "id": "2842:38917",
+      "name": "icon/chevron-right/16",
+      "width": 16,
+      "height": 16,
+      "parent": {
+        "id": "3074:101401",
+        "name": "icon-archive",
+        "type": "FRAME"
+      },
+      "contractId": "AgentHubIcon",
+      "observedInstanceCount": 2
+    }
+  ],
+  "instances": [
+    {
+      "id": "3016:104414",
+      "name": "Navigation Rail",
+      "parentId": "3016:104410",
+      "sourceId": "2611:62055",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 68,
+      "height": 1037,
+      "variant": null,
+      "depth": 1,
+      "contractId": "AgentHubNavRail",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;2611:62033",
+      "name": "nav-item",
+      "parentId": "I3016:104414;2611:61941",
+      "sourceId": "2611:62031",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 52,
+      "height": 52,
+      "variant": {
+        "state": "selected"
+      },
+      "depth": 3,
+      "contractId": "AgentHubNavItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;2611:62033;2611:62024",
+      "name": "icon",
+      "parentId": "I3016:104414;2611:62033",
+      "sourceId": "2611:62006",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 28,
+      "height": 28,
+      "variant": {
+        "icon": "home"
+      },
+      "depth": 4,
+      "contractId": "AgentHubNavIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;2611:62045",
+      "name": "nav-item",
+      "parentId": "I3016:104414;2611:61941",
+      "sourceId": "2611:62030",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 52,
+      "height": 52,
+      "variant": {
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubNavItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;2611:62045;2611:62008",
+      "name": "icon",
+      "parentId": "I3016:104414;2611:62045",
+      "sourceId": "2611:71783",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 28,
+      "height": 28,
+      "variant": {
+        "icon": "search"
+      },
+      "depth": 4,
+      "contractId": "AgentHubNavIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;2611:71759",
+      "name": "nav-item",
+      "parentId": "I3016:104414;2611:61941",
+      "sourceId": "2611:62030",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 52,
+      "height": 52,
+      "variant": {
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubNavItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;2611:71759;2611:62008",
+      "name": "icon",
+      "parentId": "I3016:104414;2611:71759",
+      "sourceId": "2611:62005",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 28,
+      "height": 28,
+      "variant": {
+        "icon": "book"
+      },
+      "depth": 4,
+      "contractId": "AgentHubNavIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;2611:62038",
+      "name": "nav-item",
+      "parentId": "I3016:104414;2611:61941",
+      "sourceId": "2611:62030",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 52,
+      "height": 52,
+      "variant": {
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubNavItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;2611:62038;2611:62008",
+      "name": "icon",
+      "parentId": "I3016:104414;2611:62038",
+      "sourceId": "2611:62004",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 28,
+      "height": 28,
+      "variant": {
+        "icon": "clock"
+      },
+      "depth": 4,
+      "contractId": "AgentHubNavIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;3065:47988",
+      "name": "icon-button",
+      "parentId": "I3016:104414;2611:61958",
+      "sourceId": "2427:25106",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 32,
+      "height": 32,
+      "variant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "32"
+      },
+      "depth": 3,
+      "contractId": "AgentHubIconButton",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104414;3065:47988;2427:25107",
+      "name": "icon",
+      "parentId": "I3016:104414;3065:47988",
+      "sourceId": "3065:48565",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 20,
+      "height": 20,
+      "variant": null,
+      "depth": 4,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "3016:104415",
+      "name": "Global Header",
+      "parentId": "3016:104410",
+      "sourceId": "2611:62099",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 1920,
+      "height": 43,
+      "variant": null,
+      "depth": 1,
+      "contractId": "AgentHubGlobalHeader",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "3016:104417",
+      "name": "snb",
+      "parentId": "3016:104416",
+      "sourceId": "2611:63754",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 288,
+      "height": 1033,
+      "variant": null,
+      "depth": 2,
+      "contractId": "AgentHubSNBPanel",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;3074:54645",
+      "name": "button",
+      "parentId": "I3016:104417;2611:62123",
+      "sourceId": "3025:24940",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 239,
+      "height": 40,
+      "variant": {
+        "type": "primary",
+        "size": "40",
+        "state": "enabled"
+      },
+      "depth": 6,
+      "contractId": "AgentHubButton",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3016:104417;3074:54645;3025:24934",
+      "name": "leading-icon",
+      "parentId": "I3016:104417;3074:54645",
+      "sourceId": "3018:24932",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 20,
+      "height": 20,
+      "variant": null,
+      "depth": 7,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62133",
+      "name": "Divider",
+      "parentId": "I3016:104417;2611:62132",
+      "sourceId": "2022:2",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 239,
+      "height": 17,
+      "variant": {
+        "Property 1": "Horizontal"
+      },
+      "depth": 5,
+      "contractId": "Divider",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3016:104417;2666:10209",
+      "name": "section-header",
+      "parentId": "I3016:104417;2611:62898",
+      "sourceId": "2611:62411",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 20,
+      "variant": {
+        "state": "enabled"
+      },
+      "depth": 5,
+      "contractId": "AgentHubSNBSectionHeader",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62902",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62901",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62902;3108:32",
+      "name": "icon/forder/16",
+      "parentId": "I3016:104417;2611:62902;2611:62429",
+      "sourceId": "3018:24833",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62903",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62901",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62903;3108:32",
+      "name": "icon/forder/16",
+      "parentId": "I3016:104417;2611:62903;2611:62429",
+      "sourceId": "3018:24833",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62904",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62901",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62904;3108:32",
+      "name": "icon/chat/16",
+      "parentId": "I3016:104417;2611:62904;2611:62429",
+      "sourceId": "2320:15942",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62907",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62901",
+      "sourceId": "2611:64577",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "hovered"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62907;3108:34",
+      "name": "icon/chat/16",
+      "parentId": "I3016:104417;2611:62907;2611:64578",
+      "sourceId": "2320:15942",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62908",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62901",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62908;3108:32",
+      "name": "icon/chat/16",
+      "parentId": "I3016:104417;2611:62908;2611:62429",
+      "sourceId": "2320:15942",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2666:10312",
+      "name": "section-header",
+      "parentId": "I3016:104417;2611:62777",
+      "sourceId": "2611:62411",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 20,
+      "variant": {
+        "state": "enabled"
+      },
+      "depth": 5,
+      "contractId": "AgentHubSNBSectionHeader",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62781",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62780",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62781;3108:32",
+      "name": "icon/forder/16",
+      "parentId": "I3016:104417;2611:62781;2611:62429",
+      "sourceId": "3018:24833",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62782",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62780",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62782;3108:32",
+      "name": "icon/forder/16",
+      "parentId": "I3016:104417;2611:62782;2611:62429",
+      "sourceId": "3018:24833",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62783",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62780",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62783;3108:32",
+      "name": "icon/forder/16",
+      "parentId": "I3016:104417;2611:62783;2611:62429",
+      "sourceId": "3018:24833",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62784",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62780",
+      "sourceId": "2611:62439",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "2depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62785",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62780",
+      "sourceId": "2611:62439",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "2depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63761",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62780",
+      "sourceId": "2611:62439",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "2depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62786",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62780",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62786;3108:32",
+      "name": "icon/forder/16",
+      "parentId": "I3016:104417;2611:62786;2611:62429",
+      "sourceId": "3018:24833",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62787",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:62780",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:62787;3108:32",
+      "name": "icon/forder/16",
+      "parentId": "I3016:104417;2611:62787;2611:62429",
+      "sourceId": "3018:24833",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63686",
+      "name": "section-header",
+      "parentId": "I3016:104417;2611:63685",
+      "sourceId": "2611:62412",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 255,
+      "height": 20,
+      "variant": {
+        "state": "hovered"
+      },
+      "depth": 5,
+      "contractId": "AgentHubSNBSectionHeader",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3016:104417;2611:63686;2611:62351",
+      "name": "icon/chevron-down/16",
+      "parentId": "I3016:104417;2611:63686;2611:62350",
+      "sourceId": "2372:37015",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 8,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63686;3016:104075",
+      "name": "icon-button",
+      "parentId": "I3016:104417;2611:63686;2611:62393",
+      "sourceId": "2909:49139",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 20,
+      "height": 20,
+      "variant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "20"
+      },
+      "depth": 7,
+      "contractId": "AgentHubIconButton",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63686;3016:104075;2909:49141",
+      "name": "icon",
+      "parentId": "I3016:104417;2611:63686;3016:104075",
+      "sourceId": "3016:104217",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 8,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63686;3016:104116",
+      "name": "icon-button",
+      "parentId": "I3016:104417;2611:63686;2611:62393",
+      "sourceId": "2909:49137",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 20,
+      "height": 20,
+      "variant": {
+        "type": "ghost",
+        "state": "pressed",
+        "size": "20"
+      },
+      "depth": 7,
+      "contractId": "AgentHubIconButton",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63686;3016:104116;2909:49165",
+      "name": "icon",
+      "parentId": "I3016:104417;2611:63686;3016:104116",
+      "sourceId": "3016:104216",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 8,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63686;3016:104157",
+      "name": "icon-button",
+      "parentId": "I3016:104417;2611:63686;2611:62393",
+      "sourceId": "2909:49139",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 20,
+      "height": 20,
+      "variant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "20"
+      },
+      "depth": 7,
+      "contractId": "AgentHubIconButton",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63686;3016:104157;2909:49141",
+      "name": "icon",
+      "parentId": "I3016:104417;2611:63686;3016:104157",
+      "sourceId": "2365:15015",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 8,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63689",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63690",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63691",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63743",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63744",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63692",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63693",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63717",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63718",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63719",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63720",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104417;2611:63721",
+      "name": "menu-item",
+      "parentId": "I3016:104417;2611:63688",
+      "sourceId": "2611:62440",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 256,
+      "height": 32,
+      "variant": {
+        "depth": "1depth",
+        "state": "enabled"
+      },
+      "depth": 7,
+      "contractId": "AgentHubSNBItem",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "3016:104433",
+      "name": "image 14533",
+      "parentId": "3016:104431",
+      "sourceId": "2611:74302",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 92.00000762939453,
+      "height": 92.00000762939453,
+      "variant": null,
+      "depth": 5,
+      "contractId": "AgentHubBrandMark",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "3074:120552",
+      "name": "button",
+      "parentId": "3016:104452",
+      "sourceId": "3116:14",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 102,
+      "height": 28,
+      "variant": {
+        "type": "ghost",
+        "size": "28",
+        "state": "enabled"
+      },
+      "depth": 5,
+      "contractId": "AgentHubButton",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3074:120552;3116:21",
+      "name": "trailing-icon",
+      "parentId": "3074:120552",
+      "sourceId": "3018:24739",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 6,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "3074:119878",
+      "name": "item-card",
+      "parentId": "3016:104458",
+      "sourceId": "3074:91985",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 248,
+      "height": 146,
+      "variant": {
+        "state": "accent"
+      },
+      "depth": 5,
+      "contractId": "AgentHubItemCard",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3074:119878;3074:91992",
+      "name": "more",
+      "parentId": "I3074:119878;3074:91988",
+      "sourceId": "2909:49139",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 20,
+      "height": 20,
+      "variant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "20"
+      },
+      "depth": 9,
+      "contractId": "AgentHubIconButton",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3074:119878;3074:91992;2909:49141",
+      "name": "icon",
+      "parentId": "I3074:119878;3074:91992",
+      "sourceId": "3018:24913",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 10,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3074:119878;3074:92008",
+      "name": "icon/chat/16",
+      "parentId": "I3074:119878;3074:92007",
+      "sourceId": "2320:15942",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "3074:120273",
+      "name": "item-card",
+      "parentId": "3016:104458",
+      "sourceId": "3074:91985",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 248,
+      "height": 146,
+      "variant": {
+        "state": "accent"
+      },
+      "depth": 5,
+      "contractId": "AgentHubItemCard",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3074:120273;3074:91992",
+      "name": "more",
+      "parentId": "I3074:120273;3074:91988",
+      "sourceId": "2909:49139",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 20,
+      "height": 20,
+      "variant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "20"
+      },
+      "depth": 9,
+      "contractId": "AgentHubIconButton",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3074:120273;3074:91992;2909:49141",
+      "name": "icon",
+      "parentId": "I3074:120273;3074:91992",
+      "sourceId": "3018:24913",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 10,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3074:120273;3074:92008",
+      "name": "icon/chat/16",
+      "parentId": "I3074:120273;3074:92007",
+      "sourceId": "2320:15942",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "3074:120312",
+      "name": "item-card",
+      "parentId": "3016:104458",
+      "sourceId": "3074:91985",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 248,
+      "height": 146,
+      "variant": {
+        "state": "accent"
+      },
+      "depth": 5,
+      "contractId": "AgentHubItemCard",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3074:120312;3074:91992",
+      "name": "more",
+      "parentId": "I3074:120312;3074:91988",
+      "sourceId": "2909:49139",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 20,
+      "height": 20,
+      "variant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "20"
+      },
+      "depth": 9,
+      "contractId": "AgentHubIconButton",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3074:120312;3074:91992;2909:49141",
+      "name": "icon",
+      "parentId": "I3074:120312;3074:91992",
+      "sourceId": "3018:24913",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 10,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3074:120312;3074:92008",
+      "name": "icon/chat/16",
+      "parentId": "I3074:120312;3074:92007",
+      "sourceId": "2320:15942",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 9,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "3016:104495",
+      "name": "chat-composer",
+      "parentId": "3016:104418",
+      "sourceId": "2611:69434",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 768,
+      "height": 58,
+      "variant": {
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubChatComposer",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104495;3074:92877",
+      "name": "icon-button/attach",
+      "parentId": "I3016:104495;2674:15545",
+      "sourceId": "3104:20",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 32,
+      "height": 32,
+      "variant": {
+        "state": "default"
+      },
+      "depth": 6,
+      "contractId": "AgentHubAttachIconButton",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104495;3074:92877;3074:92856",
+      "name": "icon",
+      "parentId": "I3016:104495;3074:92877",
+      "sourceId": "2308:44299",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 24,
+      "height": 24,
+      "variant": null,
+      "depth": 7,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104495;3074:93165",
+      "name": "icon-button/attach",
+      "parentId": "I3016:104495;2611:69424",
+      "sourceId": "3104:21",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 32,
+      "height": 32,
+      "variant": {
+        "state": "hovered"
+      },
+      "depth": 5,
+      "contractId": "AgentHubAttachIconButton",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104495;3074:93165;3074:92860",
+      "name": "icon",
+      "parentId": "I3016:104495;3074:93165",
+      "sourceId": "2199:23680",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 24,
+      "height": 24,
+      "variant": null,
+      "depth": 6,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3016:104495;2674:15587",
+      "name": "icon/folder/16",
+      "parentId": "I3016:104495;2674:15586",
+      "sourceId": "2037:4537",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 5,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "3192:27453",
+      "name": "menu",
+      "parentId": "3192:27452",
+      "sourceId": "3135:16036",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 184,
+      "height": 243,
+      "variant": null,
+      "depth": 2,
+      "contractId": "AgentHubMenu",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27453;3136:16074",
+      "name": "row-1",
+      "parentId": "3192:27453",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 182,
+      "height": 56,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27453;3136:16074;3135:15957",
+      "name": "check",
+      "parentId": "I3192:27453;3136:16074;3146:115447",
+      "sourceId": "3074:98929",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 5,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3192:27453;3136:16080",
+      "name": "row-2",
+      "parentId": "3192:27453",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 182,
+      "height": 28,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27453;3136:16086",
+      "name": "row-3",
+      "parentId": "3192:27453",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 182,
+      "height": 28,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27453;3136:16094",
+      "name": "row-5",
+      "parentId": "3192:27453",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 182,
+      "height": 28,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27453;3136:16106",
+      "name": "row-7",
+      "parentId": "3192:27453",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 182,
+      "height": 37,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27453;3136:16112",
+      "name": "row-8",
+      "parentId": "3192:27453",
+      "sourceId": "3135:15961",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 182,
+      "height": 28,
+      "variant": {
+        "type": "default",
+        "state": "hovered"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27453;3136:16112;3135:15969",
+      "name": "chevron",
+      "parentId": "I3192:27453;3136:16112;3146:115452",
+      "sourceId": "2842:38917",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 5,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "I3192:27453;3136:16118",
+      "name": "row-9",
+      "parentId": "3192:27453",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 182,
+      "height": 28,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27453;3136:16118;3135:15959",
+      "name": "chevron",
+      "parentId": "I3192:27453;3136:16118;3146:115447",
+      "sourceId": "2842:38917",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 5,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    },
+    {
+      "id": "3192:27454",
+      "name": "menu",
+      "parentId": "3192:27452",
+      "sourceId": "3135:16036",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 155,
+      "height": 122,
+      "variant": null,
+      "depth": 2,
+      "contractId": "AgentHubMenu",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27454;3136:16074",
+      "name": "row-1",
+      "parentId": "3192:27454",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 153,
+      "height": 28,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27454;3136:16080",
+      "name": "row-2",
+      "parentId": "3192:27454",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 153,
+      "height": 28,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27454;3136:16086",
+      "name": "row-3",
+      "parentId": "3192:27454",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 153,
+      "height": 28,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27454;3136:16094",
+      "name": "row-5",
+      "parentId": "3192:27454",
+      "sourceId": "3135:15951",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 153,
+      "height": 28,
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "depth": 3,
+      "contractId": "AgentHubMenuItem",
+      "nativeSizeOverride": true
+    },
+    {
+      "id": "I3192:27454;3136:16094;3135:15957",
+      "name": "check",
+      "parentId": "I3192:27454;3136:16094;3146:115447",
+      "sourceId": "3074:98929",
+      "visible": true,
+      "effectiveVisible": true,
+      "width": 16,
+      "height": 16,
+      "variant": null,
+      "depth": 5,
+      "contractId": "AgentHubIcon",
+      "nativeSizeOverride": false
+    }
+  ],
+  "manualPageAssemblies": [
+    {
+      "nodeId": "3016:104416",
+      "role": "home-layout-v2",
+      "kind": "FRAME",
+      "status": "missing-page-composition-contract",
+      "width": 1848,
+      "height": 1033,
+      "x": 68,
+      "y": 43,
+      "radius": 16,
+      "shadow": {
+        "type": "DROP_SHADOW",
+        "offset": {
+          "x": 0,
+          "y": -2
+        },
+        "radius": 24,
+        "spread": -4,
+        "hex": "#DEE4EF",
+        "opacity": 1
+      }
+    },
+    {
+      "nodeId": "3016:104419",
+      "role": "hero-background",
+      "kind": "FRAME",
+      "status": "missing-page-composition-and-background-asset-mapping",
+      "imageHash": "b8fb59046019a4222e020fead716012afa50d5c2",
+      "imageSlots": [
+        "3016:104420",
+        "3016:104421",
+        "3016:104422"
+      ],
+      "existingLocalImageHashFound": false
+    },
+    {
+      "nodeId": "3016:104430",
+      "role": "prompt-home-hero",
+      "kind": "FRAME",
+      "status": "missing-page-composition-contract",
+      "width": 648,
+      "height": 284,
+      "xInMain": 452,
+      "yInMain": 138,
+      "titleTypography": {
+        "family": "Pretendard",
+        "style": "SemiBold",
+        "size": 40,
+        "weight": 600,
+        "lineHeight": "AUTO",
+        "letterSpacingPercent": -2
+      },
+      "masks": [
+        {
+          "id": "3016:104437",
+          "name": "text/today",
+          "type": "TEXT",
+          "isMask": true,
+          "maskType": "ALPHA"
+        },
+        {
+          "id": "3016:104441",
+          "name": "rolling-fade",
+          "type": "RECTANGLE",
+          "isMask": true,
+          "maskType": "ALPHA"
+        },
+        {
+          "id": "3016:104448",
+          "name": "text/today",
+          "type": "TEXT",
+          "isMask": true,
+          "maskType": "ALPHA"
+        }
+      ],
+      "motionVerified": false
+    },
+    {
+      "nodeId": "3016:104431",
+      "role": "brand-mark-with-glow",
+      "kind": "FRAME",
+      "status": "allowed-brand-scaling-plus-page-decoration",
+      "boxSize": 90,
+      "markSize": 92.00000762939453,
+      "markPosition": {
+        "x": -1.5,
+        "y": -1
+      },
+      "glowEllipse": {
+        "size": 82,
+        "opacity": 0.8199999928474426,
+        "layerBlurRadius": 35.400001525878906
+      }
+    },
+    {
+      "nodeId": "3016:104451",
+      "role": "favorites-section",
+      "kind": "FRAME",
+      "status": "missing-page-composition-contract",
+      "xInMain": 392,
+      "yInMain": 574,
+      "width": 776,
+      "height": 186,
+      "gap": 12,
+      "cardRow": {
+        "columns": 3,
+        "width": 776,
+        "gap": 16,
+        "cardWidth": 248,
+        "cardHeight": 146
+      }
+    },
+    {
+      "nodeId": "3016:104454",
+      "role": "favorite-star-glyph",
+      "kind": "FRAME",
+      "status": "missing-exact-asset-mapping",
+      "size": 16,
+      "vectorNodeId": "3016:104455",
+      "stroke": 1,
+      "color": "#1C1C1C"
+    },
+    {
+      "nodeId": "3016:104429",
+      "role": "disclaimer",
+      "kind": "TEXT",
+      "status": "page-content-not-shared-component",
+      "xInMain": 550,
+      "yInMain": 1001,
+      "width": 465,
+      "height": 20,
+      "text": "AI가 생성한 답변에는 오류가 있을 수 있습니다. 중요한 정보는 한 번 더 확인해 주세요.",
+      "fontSize": 14,
+      "lineHeight": 20,
+      "weight": 400,
+      "color": "#757575"
+    }
+  ],
+  "compositing": {
+    "blend": [
+      {
+        "id": "3016:104420",
+        "name": "bg-image-1",
+        "blendMode": "COLOR_BURN"
+      },
+      {
+        "id": "3016:104421",
+        "name": "bg-image-2",
+        "blendMode": "COLOR_BURN"
+      },
+      {
+        "id": "3016:104422",
+        "name": "bg-image-3",
+        "blendMode": "COLOR_BURN"
+      },
+      {
+        "id": "3016:104450",
+        "name": "hero-subcopy",
+        "blendMode": "MULTIPLY"
+      }
+    ],
+    "opacity": [
+      {
+        "id": "3016:104419",
+        "name": "hero-bg",
+        "opacity": 0.5
+      },
+      {
+        "id": "3016:104420",
+        "name": "bg-image-1",
+        "opacity": 0.6700000166893005
+      },
+      {
+        "id": "3016:104421",
+        "name": "bg-image-2",
+        "opacity": 0.6700000166893005
+      },
+      {
+        "id": "3016:104422",
+        "name": "bg-image-3",
+        "opacity": 0.6700000166893005
+      },
+      {
+        "id": "3016:104432",
+        "name": "Ellipse 2528",
+        "opacity": 0.8199999928474426
+      }
+    ],
+    "textAlignVertical": [
+      {
+        "id": "I3016:104414;2611:61964",
+        "textAlignVertical": "CENTER"
+      },
+      {
+        "id": "I3016:104415;2611:62083",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104415;2611:62093",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;3074:54645;3025:24932",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2666:10209;2611:62396",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62902;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62903;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62904;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62907;2611:64580",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62908;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2666:10312;2611:62396",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62781;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62782;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62783;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62784;2611:62434",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62785;2611:62434",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63761;2611:62434",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62786;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62787;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:62789",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63686;2611:62349",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63689;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63690;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63691;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63743;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63744;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63692;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63693;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63717;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63718;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63719;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63720;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104417;2611:63721;2611:62431",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "3016:104429",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "3016:104435",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "3016:104437",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "3016:104443",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "3016:104444",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "3016:104446",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "3016:104448",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "3016:104450",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "3016:104456",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120552;3116:16",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:119878;3074:91990",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:119878;3074:91994",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:119878;3074:91995",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:119878;3074:91996",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:119878;3074:91999",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120273;3074:91990",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120273;3074:91994",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120273;3074:91995",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120273;3074:91996",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120273;3074:91999",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120312;3074:91990",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120312;3074:91994",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120312;3074:91995",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120312;3074:91996",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3074:120312;3074:91999",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3016:104495;2611:69427",
+        "textAlignVertical": "CENTER"
+      },
+      {
+        "id": "I3016:104495;2674:15588",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16074;3146:115449",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16074;3135:15955",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16080;3135:15955",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16086;3135:15955",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16094;3135:15955",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16106;3135:15955",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16112;3135:15965",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16112;3135:15966",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16118;3135:15955",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27453;3136:16118;3135:15956",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27454;3136:16074;3135:15955",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27454;3136:16080;3135:15955",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27454;3136:16086;3135:15955",
+        "textAlignVertical": "TOP"
+      },
+      {
+        "id": "I3192:27454;3136:16094;3135:15955",
+        "textAlignVertical": "TOP"
+      }
+    ],
+    "masks": [
+      {
+        "id": "3016:104437",
+        "isMask": true,
+        "maskType": "ALPHA"
+      },
+      {
+        "id": "3016:104441",
+        "isMask": true,
+        "maskType": "ALPHA"
+      },
+      {
+        "id": "3016:104448",
+        "isMask": true,
+        "maskType": "ALPHA"
+      }
+    ]
+  },
+  "exposedPrototypeReactions": {
+    "reactionOwners": 388,
+    "nonemptyReactions": 0
+  },
+  "pageOnlySizingNotes": [
+    "Global Header width1920 replaces its774px source fixture;43px height remains.",
+    "BrandMark92 preserves the same2048px PNG and square ratio;180px is a reference size rather than a hard minimum.",
+    "ItemCard248x146 is parent-supplied FILL within776px/three columns/gap16;324px is the source fixture.",
+    "Composer768x58 with project selector original border-box x9/y62 gives90px geometry footprint; generated CSS left8/top61 uses the1px border padding-box.",
+    "Direct-source native size differences are recorded as overrides, not automatically classified as contract errors."
+  ],
+  "comparisons": {
+    "cardsSummary": {
+      "cardsReviewed": 3,
+      "cardNodesCompared": 87,
+      "unexplainedVisualStyleDifferences": 0,
+      "nestedSourceMismatches": 0,
+      "brand180To92ExceptionNeeded": false,
+      "card324To248ExceptionNeeded": false,
+      "findings": 3,
+      "newDownloads": 0,
+      "runtimeVerified": false
+    },
+    "cards": [
+      {
+        "nodeId": "3074:119878",
+        "sourceNodeId": "3074:91985",
+        "actualSize": [
+          248,
+          146
+        ],
+        "properties": {
+          "pin#3095:7": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "tools#3095:6": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "description#3095:5": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "dot#3095:4": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "state": {
+            "value": "accent",
+            "type": "VARIANT",
+            "boundVariables": {}
+          }
+        },
+        "textOverrides": {
+          "title": "회의록 자동 요약 도우미",
+          "kind": "에이전트",
+          "visibility": "전체 공개",
+          "description": "회의를 요약하고 할 일을 정리합니다."
+        },
+        "descriptionGeometry": {
+          "width": 214,
+          "height": 20,
+          "maxHeight": 40,
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "ENDING",
+          "maxLines": null,
+          "layoutSizingHorizontal": "FILL",
+          "layoutSizingVertical": "HUG"
+        },
+        "pinSubtreePresent": false
+      },
+      {
+        "nodeId": "3074:120273",
+        "sourceNodeId": "3074:91985",
+        "actualSize": [
+          248,
+          146
+        ],
+        "properties": {
+          "pin#3095:7": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "tools#3095:6": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "description#3095:5": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "dot#3095:4": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "state": {
+            "value": "accent",
+            "type": "VARIANT",
+            "boundVariables": {}
+          }
+        },
+        "textOverrides": {
+          "title": "계약서 검토 체크리스트",
+          "kind": "에이전트",
+          "visibility": "그룹 공개",
+          "description": "계약서의 위험 조항을 검토합니다."
+        },
+        "descriptionGeometry": {
+          "width": 214,
+          "height": 20,
+          "maxHeight": 40,
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "ENDING",
+          "maxLines": null,
+          "layoutSizingHorizontal": "FILL",
+          "layoutSizingVertical": "HUG"
+        },
+        "pinSubtreePresent": false
+      },
+      {
+        "nodeId": "3074:120312",
+        "sourceNodeId": "3074:91985",
+        "actualSize": [
+          248,
+          146
+        ],
+        "properties": {
+          "pin#3095:7": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "tools#3095:6": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "description#3095:5": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "dot#3095:4": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "state": {
+            "value": "accent",
+            "type": "VARIANT",
+            "boundVariables": {}
+          }
+        },
+        "textOverrides": {
+          "title": "버그 리포트 정리 도우미",
+          "kind": "워크플로우",
+          "visibility": "비공개",
+          "description": "오류 제보를 재현 절차로 정리합니다."
+        },
+        "descriptionGeometry": {
+          "width": 214,
+          "height": 20,
+          "maxHeight": 40,
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "ENDING",
+          "maxLines": null,
+          "layoutSizingHorizontal": "FILL",
+          "layoutSizingVertical": "HUG"
+        },
+        "pinSubtreePresent": false
+      }
+    ],
+    "brand": {
+      "instanceNodeId": "3016:104433",
+      "componentSourceNodeId": "2611:74302",
+      "sourceRectangleNodeId": "2611:74300",
+      "displaySize": [
+        92.00000762939453,
+        92.00000762939453
+      ],
+      "baselineDisplaySize": [
+        180,
+        180
+      ],
+      "sourceIntrinsicSize": [
+        2048,
+        2048
+      ],
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "9ad483e40603da8c651c65af6fb5bace9c698cdd"
+      },
+      "existingAssetPath": "assets/brand/agent-hub-mark.png",
+      "imageHashMatchesExistingPng": true,
+      "scalingAllowedByExistingStyles": true,
+      "exceptionNeeded": false,
+      "note": "The separate surrounding hero glow is not baked into the BrandMark PNG. Preserve source ratio/transparency/no filters;92px placement belongs to the dashboard composition recipe."
+    },
+    "heroImageUses": [
+      {
+        "nodeId": "3016:104420",
+        "name": "bg-image-1",
+        "sourceImageHash": "b8fb59046019a4222e020fead716012afa50d5c2",
+        "sourceIntrinsicSize": {
+          "width": 1254,
+          "height": 1254
+        },
+        "displaySize": [
+          633,
+          633
+        ],
+        "layerOpacity": 0.6700000166893005,
+        "parentOpacity": 0.5,
+        "paint": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0.25999999046325684,
+            "contrast": 0,
+            "saturation": -1,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "b8fb59046019a4222e020fead716012afa50d5c2"
+        },
+        "existingPngMatch": null
+      },
+      {
+        "nodeId": "3016:104421",
+        "name": "bg-image-2",
+        "sourceImageHash": "b8fb59046019a4222e020fead716012afa50d5c2",
+        "sourceIntrinsicSize": {
+          "width": 1254,
+          "height": 1254
+        },
+        "displaySize": [
+          633,
+          633
+        ],
+        "layerOpacity": 0.6700000166893005,
+        "parentOpacity": 0.5,
+        "paint": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0.2199999988079071,
+            "contrast": 0,
+            "saturation": -1,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "b8fb59046019a4222e020fead716012afa50d5c2"
+        },
+        "existingPngMatch": null
+      },
+      {
+        "nodeId": "3016:104422",
+        "name": "bg-image-3",
+        "sourceImageHash": "b8fb59046019a4222e020fead716012afa50d5c2",
+        "sourceIntrinsicSize": {
+          "width": 1254,
+          "height": 1254
+        },
+        "displaySize": [
+          561,
+          633
+        ],
+        "layerOpacity": 0.6700000166893005,
+        "parentOpacity": 0.5,
+        "paint": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "CROP",
+          "scalingFactor": 0.5,
+          "filters": {
+            "exposure": 0.20999999344348907,
+            "contrast": 0,
+            "saturation": -1,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              0.8862559199333191,
+              0,
+              0.11374408006668091
+            ],
+            [
+              0,
+              1,
+              5.551115123125783e-15
+            ]
+          ],
+          "imageHash": "b8fb59046019a4222e020fead716012afa50d5c2"
+        },
+        "existingPngMatch": null
+      }
+    ],
+    "favoriteTitleGlyph": {
+      "id": "3016:104455",
+      "name": "Vector",
+      "type": "VECTOR",
+      "x": 1.332133412361145,
+      "y": 1.3334040641784668,
+      "width": 13.334535598754883,
+      "height": 12.714713096618652,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          1.332133412361145
+        ],
+        [
+          0,
+          1,
+          1.3334040641784668
+        ]
+      ],
+      "rotation": 0,
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10980399698019028,
+            "g": 0.10980399698019028,
+            "b": 0.10980399698019028
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:3081:184"
+            }
+          }
+        }
+      ],
+      "strokeWeight": 1,
+      "strokeCap": "ROUND",
+      "strokeJoin": "ROUND",
+      "strokeAlign": "CENTER"
+    },
+    "favoritesHeader": null,
+    "composer": {
+      "classification": "원본 재사용",
+      "sourceNodeId": "2611:69434",
+      "state": "enabled",
+      "width": 768,
+      "height": 58,
+      "comparedNodes": 16,
+      "comparedStyleAndPositionFields": 537,
+      "unexplainedMismatches": 0,
+      "sourceAndInstanceProject": {
+        "x": 9,
+        "y": 62,
+        "width": 102,
+        "height": 28,
+        "visibleBottom": 90,
+        "rootBorder": 1,
+        "strokesIncludedInLayout": true,
+        "cssContainingBlockTranslation": {
+          "left": 8,
+          "top": 61
+        },
+        "sourceDrift": false,
+        "instanceOverride": false
+      },
+      "send": {
+        "sourceNodeId": "3104:21",
+        "sourceState": "hovered",
+        "size": 32,
+        "glyphSourceNodeId": "2199:23680",
+        "glyphSize": 24,
+        "strokeWidth": 1.5,
+        "glyphColor": "#1C1C1C",
+        "background": {
+          "hex": "#000000",
+          "opacity": 0.05
+        },
+        "isDisabledEvidence": false
+      },
+      "guideUpdateRequired": false
+    },
+    "menuComparison": {
+      "panelComparedFieldsExcludingWidthHeight": 82,
+      "panelUnexplainedMismatches": 0,
+      "visibleItemsCompared": 11,
+      "itemComparedNonSizeStyleFields": 5170,
+      "allowedStyleOverrides": [
+        {
+          "nodes": [
+            "I3192:27453;3136:16112;3135:15966",
+            "I3192:27453;3136:16118;3135:15956"
+          ],
+          "fields": {
+            "layoutSizingVertical": {
+              "reference": "FIXED",
+              "dashboard": "HUG"
+            },
+            "textAutoResize": {
+              "reference": "NONE",
+              "dashboard": "WIDTH_AND_HEIGHT"
+            }
+          },
+          "reason": "Visible value text adapts to actual content; existing implementation guide explicitly permits HUG."
+        }
+      ],
+      "invariantStyleMatches": 5166,
+      "itemUnexplainedMismatches": 0,
+      "headerEnabledHeight": 56,
+      "dividerEnabledHeight": 37,
+      "allHeaderAndDividerEnabled65Verified": false,
+      "sourceRowsDeleted": false,
+      "hiddenLegacyDivider": {
+        "nodeId": "I3192:27453;3136:16100",
+        "sourceNodeId": "3135:16034",
+        "visible": false
+      },
+      "submenu": {
+        "parentFrameSize": {
+          "width": 341,
+          "height": 304
+        },
+        "mainWidth": 184,
+        "position": {
+          "x": 186,
+          "y": 182
+        },
+        "horizontalGap": 2,
+        "triggerRowNodeId": "I3192:27453;3136:16112",
+        "triggerRowY": 182,
+        "geometryOnly": true,
+        "runtimeOpeningAndCollisionVerified": false
+      }
+    },
+    "menus": [
+      {
+        "nodeId": "3192:27453",
+        "sourceNodeId": "3135:16036",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "width": 184,
+        "height": 243,
+        "originalRowCount": 11,
+        "retainedRowCount": 11,
+        "visibleRowCount": 7,
+        "hiddenRows": [
+          {
+            "nodeId": "I3192:27453;3136:16100",
+            "name": "row-6",
+            "sourceNodeId": "3135:16034"
+          },
+          {
+            "nodeId": "I3192:27453;3136:16124",
+            "name": "row-10",
+            "sourceNodeId": "3135:15951"
+          },
+          {
+            "nodeId": "I3192:27453;3136:16130",
+            "name": "row-11",
+            "sourceNodeId": "3135:15951"
+          },
+          {
+            "nodeId": "I3192:27453;3136:16136",
+            "name": "row-12",
+            "sourceNodeId": "3135:15951"
+          }
+        ],
+        "visibleRows": [
+          {
+            "nodeId": "I3192:27453;3136:16074",
+            "name": "row-1",
+            "position": {
+              "x": 1,
+              "y": 5
+            },
+            "height": 56,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "전체",
+              "divider#3146:18": false,
+              "section label#3146:9": "유형",
+              "check#3135:18": true,
+              "section header#3146:0": true,
+              "chevron#3135:27": false,
+              "value#3135:9": false,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          },
+          {
+            "nodeId": "I3192:27453;3136:16080",
+            "name": "row-2",
+            "position": {
+              "x": 1,
+              "y": 61
+            },
+            "height": 28,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "어시스턴트",
+              "divider#3146:18": false,
+              "section label#3146:9": "section-title",
+              "check#3135:18": false,
+              "section header#3146:0": false,
+              "chevron#3135:27": false,
+              "value#3135:9": false,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          },
+          {
+            "nodeId": "I3192:27453;3136:16086",
+            "name": "row-3",
+            "position": {
+              "x": 1,
+              "y": 89
+            },
+            "height": 28,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "런타임",
+              "divider#3146:18": false,
+              "section label#3146:9": "section-title",
+              "check#3135:18": false,
+              "section header#3146:0": false,
+              "chevron#3135:27": false,
+              "value#3135:9": false,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          },
+          {
+            "nodeId": "I3192:27453;3136:16094",
+            "name": "row-5",
+            "position": {
+              "x": 1,
+              "y": 117
+            },
+            "height": 28,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "워크플로우",
+              "divider#3146:18": false,
+              "section label#3146:9": "section-title",
+              "check#3135:18": false,
+              "section header#3146:0": false,
+              "chevron#3135:27": false,
+              "value#3135:9": false,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          },
+          {
+            "nodeId": "I3192:27453;3136:16106",
+            "name": "row-7",
+            "position": {
+              "x": 1,
+              "y": 145
+            },
+            "height": 37,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "일반 채팅",
+              "divider#3146:18": true,
+              "section label#3146:9": "section-title",
+              "check#3135:18": false,
+              "section header#3146:0": false,
+              "chevron#3135:27": false,
+              "value#3135:9": false,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          },
+          {
+            "nodeId": "I3192:27453;3136:16112",
+            "name": "row-8",
+            "position": {
+              "x": 1,
+              "y": 182
+            },
+            "height": 28,
+            "sourceNodeId": "3135:15961",
+            "properties": {
+              "label#3146:27": "최근 활동",
+              "section label#3146:9": "section-title",
+              "section header#3146:0": false,
+              "divider#3146:18": false,
+              "icon#3135:0": false,
+              "chevron#3135:27": true,
+              "check#3135:18": false,
+              "value#3135:9": true,
+              "type": "default",
+              "state": "hovered"
+            }
+          },
+          {
+            "nodeId": "I3192:27453;3136:16118",
+            "name": "row-9",
+            "position": {
+              "x": 1,
+              "y": 210
+            },
+            "height": 28,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "정렬 기준",
+              "divider#3146:18": false,
+              "section label#3146:9": "section-title",
+              "check#3135:18": false,
+              "section header#3146:0": false,
+              "chevron#3135:27": true,
+              "value#3135:9": true,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          }
+        ],
+        "scrollbarVisible": false,
+        "panelStyleClassification": "원본 재사용; 폭·내용·옵션 변경 허용",
+        "actualRuntimeVerified": false
+      },
+      {
+        "nodeId": "3192:27454",
+        "sourceNodeId": "3135:16036",
+        "position": {
+          "x": 186,
+          "y": 182
+        },
+        "width": 155,
+        "height": 122,
+        "originalRowCount": 11,
+        "retainedRowCount": 11,
+        "visibleRowCount": 4,
+        "hiddenRows": [
+          {
+            "nodeId": "I3192:27454;3136:16100",
+            "name": "row-6",
+            "sourceNodeId": "3135:15951"
+          },
+          {
+            "nodeId": "I3192:27454;3136:16106",
+            "name": "row-7",
+            "sourceNodeId": "3135:15951"
+          },
+          {
+            "nodeId": "I3192:27454;3136:16112",
+            "name": "row-8",
+            "sourceNodeId": "3135:15951"
+          },
+          {
+            "nodeId": "I3192:27454;3136:16118",
+            "name": "row-9",
+            "sourceNodeId": "3135:15951"
+          },
+          {
+            "nodeId": "I3192:27454;3136:16124",
+            "name": "row-10",
+            "sourceNodeId": "3135:15951"
+          },
+          {
+            "nodeId": "I3192:27454;3136:16130",
+            "name": "row-11",
+            "sourceNodeId": "3135:15951"
+          },
+          {
+            "nodeId": "I3192:27454;3136:16136",
+            "name": "row-12",
+            "sourceNodeId": "3135:15951"
+          }
+        ],
+        "visibleRows": [
+          {
+            "nodeId": "I3192:27454;3136:16074",
+            "name": "row-1",
+            "position": {
+              "x": 1,
+              "y": 5
+            },
+            "height": 28,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "1일",
+              "divider#3146:18": false,
+              "section label#3146:9": "section-title",
+              "check#3135:18": false,
+              "section header#3146:0": false,
+              "chevron#3135:27": false,
+              "value#3135:9": false,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          },
+          {
+            "nodeId": "I3192:27454;3136:16080",
+            "name": "row-2",
+            "position": {
+              "x": 1,
+              "y": 33
+            },
+            "height": 28,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "3일",
+              "divider#3146:18": false,
+              "section label#3146:9": "section-title",
+              "check#3135:18": false,
+              "section header#3146:0": false,
+              "chevron#3135:27": false,
+              "value#3135:9": false,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          },
+          {
+            "nodeId": "I3192:27454;3136:16086",
+            "name": "row-3",
+            "position": {
+              "x": 1,
+              "y": 61
+            },
+            "height": 28,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "7일",
+              "divider#3146:18": false,
+              "section label#3146:9": "section-title",
+              "check#3135:18": false,
+              "section header#3146:0": false,
+              "chevron#3135:27": false,
+              "value#3135:9": false,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          },
+          {
+            "nodeId": "I3192:27454;3136:16094",
+            "name": "row-5",
+            "position": {
+              "x": 1,
+              "y": 89
+            },
+            "height": 28,
+            "sourceNodeId": "3135:15951",
+            "properties": {
+              "label#3146:27": "전체",
+              "divider#3146:18": false,
+              "section label#3146:9": "section-title",
+              "check#3135:18": true,
+              "section header#3146:0": false,
+              "chevron#3135:27": false,
+              "value#3135:9": false,
+              "icon#3135:0": false,
+              "type": "default",
+              "state": "enabled"
+            }
+          }
+        ],
+        "scrollbarVisible": false,
+        "panelStyleClassification": "원본 재사용; 폭·내용·옵션 변경 허용",
+        "actualRuntimeVerified": false
+      }
+    ],
+    "shell": {
+      "counts": {
+        "baselineNodes": 233,
+        "screenNodes": 194,
+        "comparedFields": 10604,
+        "matchingFields": 10556,
+        "differentFields": 48,
+        "missingFromApi": 39,
+        "unmapped": 0
+      },
+      "classification": "SNB differences confirmed as screen-instance overrides against current source; not historical snapshot drift.",
+      "differenceClassification": {
+        "resolvedModeMetadataKeyDifferences": 28,
+        "screenPlacementFields": 4,
+        "snbOverrideFields": 16,
+        "distinctSnbOverrideTopics": 3,
+        "uiErrorCountClaimed": false
+      },
+      "missingNodeClassification": {
+        "baselineEffectiveHiddenAndApiUnavailable": 35,
+        "lastTwoRowsLeadingBooleanFalseAndUnavailableDescendants": 4,
+        "screenVisibleFalseInferredFromAbsence": false
+      },
+      "stateSlotRemapping": {
+        "baselineSlotId": "2909:49141",
+        "screenSlotId": "2909:49165",
+        "sameActualGlyphSource": "3016:104216",
+        "purpose": "Compare the same filter glyph across ghost20 default/pressed internal slots."
+      },
+      "findings": [
+        {
+          "category": "screen-instance-override",
+          "topic": "chat-section-horizontal-sizing",
+          "currentSource": "FIXED; header256",
+          "screen": "FILL; header255; actionGroupX195"
+        },
+        {
+          "category": "screen-instance-override",
+          "topic": "filter-button-state",
+          "currentSource": "2909:49139/default",
+          "screen": "2909:49137/pressed; black opacity0.1; existing supported variant"
+        },
+        {
+          "category": "screen-instance-override",
+          "topic": "last-two-chat-rows-leading-visibility",
+          "currentSource": true,
+          "screen": false,
+          "confirmedBy": "componentProperties.Show leading-icon#2611:0.value"
+        },
+        {
+          "category": "existing-reference-runtime-caveat",
+          "topic": "snb-clipping-and-fade",
+          "listBottom": 1077,
+          "panelHeight": 1033,
+          "contentOverflow": 44,
+          "includingBottomPaddingDeficit": 68,
+          "runtimeScrollVerified": false
+        }
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "COMPONENT-DESCRIPTION-MAXHEIGHT",
+      "category": "component-documentation-clarification",
+      "severity": "medium",
+      "component": "AgentHubItemCard",
+      "evidence": [
+        "card.figma.json accent description3074:91999 layout.maxHeight=40",
+        "all3 dashboard description instances width214/height20/maxHeight40/HEIGHT/HUG/ENDING/maxLines=null",
+        "ItemCard/styles.md describes HUG/maxLines null but omits maxHeight40; implementation.md CSS also has no max-height policy"
+      ],
+      "impact": "Existing sample remains visually consistent. A consuming implementation may otherwise treat HUG as unlimited growth for long descriptions, overlooking the measured40px cap.",
+      "recommendation": "Record the measured40px maximum separately from maxLines=null, then explicitly decide product overflow/full-content access behavior. Do not invent3-line clamp or fixed146px card height."
+    },
+    {
+      "id": "PAGE-HERO-BACKGROUND-ASSET",
+      "category": "page-composition-and-asset-mapping-gap",
+      "severity": "medium",
+      "evidence": [
+        "3hero image layers share imageHash b8fb59046019a4222e020fead716012afa50d5c2",
+        "intrinsic size1254×1254",
+        "no existing agent-hub design JSON imageHash or local PNG SHA1 match found",
+        "3provided PNG constants exist but were not downloaded/re-hashed in this review"
+      ],
+      "impact": "Existing reusable component guides cannot reproduce this page-specific hero image composition alone.",
+      "recommendation": "Keep as dashboard recipe/assets scope. Reconcile original pixels versus supplied context-specific exports before applying the measured exposure/desaturation/crop again."
+    },
+    {
+      "id": "PAGE-FAVORITES-TITLE-GLYPH",
+      "category": "page-composition-and-asset-mapping-gap",
+      "severity": "low",
+      "evidence": [
+        "title glyph3016:104454 is FRAME16 with VECTOR3016:104455, no component source",
+        "source vector13.3345355988×12.7147130966 at1.3321334124/1.3334040642, stroke1/#1C/round caps/joins",
+        "main icon manifest has no star/favorite named asset; no exact existing whole16 asset equivalence has been proven"
+      ],
+      "impact": "Page header decoration is not supplied by ItemCard pin or SNB source contracts.",
+      "recommendation": "Use exact supplied whole16 title glyph in later page implementation, or prove an existing asset match. Do not substitute ItemCard pin or infer a generic icon identity."
+    },
+    {
+      "id": "PAGE-COMPOSITION",
+      "category": "page-composition-contract-gap",
+      "severity": "medium",
+      "detail": "Existing component contracts do not specify the HomeLayout shell, Hero headline/masks/background, page offsets or favorites grid composition."
+    },
+    {
+      "id": "SNB-INSTANCE-OVERRIDES",
+      "category": "allowed-page-instance-overrides",
+      "severity": "info",
+      "detail": "Direct current source confirms dashboard-only FILL header255, pressed filter source swap and last two chat leading=false; record them in page composition without replacing global defaults."
+    }
+  ],
+  "clarifiedNonFindings": [
+    "BrandMark baseline180 allows ratio-preserving smaller usage;92 does not require a new brand asset/variant.",
+    "ItemCard baseline324×146 is documented fixture; parent-supplied248 and derived214 interior are permitted.",
+    "All87card nodes match the accent source styles except expected widths/layout sizing plus text/visibility/derived positions; no paint/border/radius/padding/font/effect difference is present.",
+    "accent is not selected/focus. Transparent1px INSIDE border is still layout-included and must remain.",
+    "dot=false; tools/description=true; pin=true does not create a pin subtree in accent. More20 and chatFRAME24 remain separate commands.",
+    "Logo IMAGE hashes and filters match existing original PNGs; do not apply disabled grayscale in accent.",
+    "Finding descriptions concern missing documentation or page composition; runtime behavior/accessibility was not tested.",
+    "Composer source/instance project x9/y62 and generated CSS left8/top61 are equivalent border-box/padding-box coordinates; visible geometry footprint90 remains correct.",
+    "Menu source11 rows are retained in each instance with7/4 visible; other rows are hidden, not deleted.",
+    "Existing MenuItem supports supplied optional header/divider/check/value/chevron and HUG text combinations."
+  ],
+  "repositoryValidation": {
+    "verify": "pass",
+    "localLinks": 3760,
+    "tests": {
+      "passed": 53,
+      "failed": 0
+    },
+    "diffCheck": "pass",
+    "consumerRuntimeVerified": false
+  }
+}

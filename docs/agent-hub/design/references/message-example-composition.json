@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Message Example state palettes, visible glyph sources and property bindings",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "buttonInstanceReuse": false,
+  "semanticReference": "Button",
+  "variants": [
+    {
+      "state": "enabled",
+      "nodeId": "2320:28611",
+      "background": "#EBF3FF",
+      "glyphNodeId": "3160:19768",
+      "glyphSourceNodeId": "2199:23690",
+      "visibilityProperty": "icon#2367:11",
+      "status": "match"
+    },
+    {
+      "state": "hovered",
+      "nodeId": "2320:28610",
+      "background": "#CCE0FF",
+      "glyphNodeId": "3160:19771",
+      "glyphSourceNodeId": "2199:23690",
+      "visibilityProperty": "icon#2367:11",
+      "status": "match"
+    },
+    {
+      "state": "pressed",
+      "nodeId": "2320:28609",
+      "background": "#99C2FF",
+      "glyphNodeId": "3160:19774",
+      "glyphSourceNodeId": "2199:23690",
+      "visibilityProperty": "icon#2367:11",
+      "status": "match"
+    }
+  ],
+  "limits": [
+    "Three Light icon-visible samples only; icon=false has a source Boolean but no separately measured render",
+    "No Button/Card/UserMessage source instance exists; Button semantics do not establish source reuse",
+    "Pressed is transient, not selected/sent/success; draft fill, immediate execution and route behavior are not verified",
+    "Focus/disabled/loading/dark, long/wrapped/mobile and browser keyboard runtime remain unverified"
+  ],
+  "issues": []
+}

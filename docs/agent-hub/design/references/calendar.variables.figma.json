@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3149:117371",
+      "3149:19150"
+    ]
+  },
+  "variables": [
+    {
+      "id": "VariableID:3081:34",
+      "name": "color/surface/default-mid",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:15"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:106",
+      "name": "color/border/default",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:20"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3273:28",
+      "name": "radius/surface-sm",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:18"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:26",
+      "name": "color/action/default-mid",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:15"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3273:23",
+      "name": "radius/control-sm",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:15"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:47",
+      "name": "color/text/default",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:32"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:184",
+      "name": "color/icon/default",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:32"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3022:24941",
+      "name": "icon/stroke-16",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3021:24942",
+      "valuesByMode": {
+        "3021:0": 1,
+        "3021:1": 1,
+        "3021:2": 1.25,
+        "3022:0": 1.5
+      }
+    },
+    {
+      "id": "VariableID:3273:24",
+      "name": "radius/control-md",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:16"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3022:24943",
+      "name": "icon/stroke-24",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3021:24942",
+      "valuesByMode": {
+        "3021:0": 1.5,
+        "3021:1": 1,
+        "3021:2": 1.25,
+        "3022:0": 1.5
+      }
+    },
+    {
+      "id": "VariableID:3081:107",
+      "name": "color/border/default-subtle",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:19"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3273:31",
+      "name": "radius/full",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:21"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:58",
+      "name": "color/text/primary",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:47"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:157",
+      "name": "color/element/primary",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:47"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:56",
+      "name": "color/text/on-primary",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:15"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:86",
+      "name": "color/button/tertiary-fill",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:15"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:85",
+      "name": "color/button/tertiary-border",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:20"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:92",
+      "name": "color/button/on-tertiary",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:32"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:71",
+      "name": "color/button/primary-fill",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:47"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3081:75",
+      "name": "color/button/on-primary",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:15"
+        }
+      }
+    },
+    {
+      "id": "VariableID:3077:15",
+      "name": "Monochrome/white",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:3077:20",
+      "name": "gray/300",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.8666669726371765,
+          "g": 0.8666669726371765,
+          "b": 0.8666669726371765,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:3273:18",
+      "name": "radius/12",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": 12
+      }
+    },
+    {
+      "id": "VariableID:3273:15",
+      "name": "radius/4",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": 4
+      }
+    },
+    {
+      "id": "VariableID:3077:32",
+      "name": "gray/900",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.10980399698019028,
+          "g": 0.10980399698019028,
+          "b": 0.10980399698019028,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:3273:16",
+      "name": "radius/6",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": 6
+      }
+    },
+    {
+      "id": "VariableID:3077:19",
+      "name": "gray/200",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.9333329796791077,
+          "g": 0.9333329796791077,
+          "b": 0.9333329796791077,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:3273:21",
+      "name": "radius/full",
+      "resolvedType": "FLOAT",
+      "collectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": 9999
+      }
+    },
+    {
+      "id": "VariableID:3077:47",
+      "name": "blue/400",
+      "resolvedType": "COLOR",
+      "collectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.23137255012989044,
+          "g": 0.5098039507865906,
+          "b": 0.9647058844566345,
+          "a": 1
+        }
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:3081:14",
+      "name": "#2 Semantic",
+      "modes": [
+        {
+          "name": "Light mode",
+          "modeId": "3081:0"
+        }
+      ],
+      "defaultModeId": "3081:0"
+    },
+    {
+      "id": "VariableCollectionId:3021:24942",
+      "name": "icon",
+      "modes": [
+        {
+          "name": "native",
+          "modeId": "3021:0"
+        },
+        {
+          "name": "16",
+          "modeId": "3021:1"
+        },
+        {
+          "name": "20",
+          "modeId": "3021:2"
+        },
+        {
+          "name": "24",
+          "modeId": "3022:0"
+        }
+      ],
+      "defaultModeId": "3021:0"
+    },
+    {
+      "id": "VariableCollectionId:3077:14",
+      "name": "#1 Primitive",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "3077:0"
+        }
+      ],
+      "defaultModeId": "3077:0"
+    }
+  ]
+}

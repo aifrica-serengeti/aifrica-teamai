@@ -1,0 +1,2288 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubFilterChipGroup",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3099:25232",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3099-25232",
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "method": "Figma MCP get_design_context + read-only Plugin API geometry, slot bindings, instance sources and recursive variable aliases"
+  },
+  "implementation": {
+    "status": "unmapped",
+    "source": null,
+    "export": null
+  },
+  "description": "Filter chip group — filter-chip 묶음.\n• layout=hug: 칩 개수만큼 늘어나는 한 줄(기본)\n• layout=wrap: 고정 폭에서 줄바꿈 — 필터 패널·모달\n• layout=scroll: 고정 폭 한 줄 가로 스크롤 + 우측 fade — 모바일·좁은 툴바\n• gap 8 (줄 간격 8)\n• 각 칩은 nested instance로 노출 → 그룹 인스턴스에서 selected/state/아이콘/카운트 바로 변경\n• 선택 방식: 단일 선택(기간·정렬 — &amp;quot;전체&amp;quot; 포함, 하나만 selected) / 다중 선택(카테고리 — &amp;quot;전체&amp;quot; 없이 여러 개 selected)\n• 개수: 기본 6개. 적으면 칩 레이어 숨김, 많으면 컴포넌트에 칩 추가",
+  "propertyDefinitions": {
+    "fade#3099:0": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "layout": {
+      "type": "VARIANT",
+      "defaultValue": "hug",
+      "variantOptions": [
+        "hug",
+        "wrap",
+        "scroll"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "nodeId": "3099:25138",
+      "name": "layout=hug",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s000",
+      "children": [
+        {
+          "nodeId": "3099:25139",
+          "name": "chip 1",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25164",
+              "name": "size=md, selected=true, state=enabled",
+              "type": "COMPONENT",
+              "width": 49,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "true",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "true",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25139;3092:25170",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s002",
+              "position": {
+                "x": 12,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25144",
+          "name": "chip 2",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 57,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25144;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25149",
+          "name": "chip 3",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 116,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25149;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25154",
+          "name": "chip 4",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 175,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25154;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25159",
+          "name": "chip 5",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 234,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25159;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25164",
+          "name": "chip 6",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 293,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25164;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        }
+      ],
+      "variant": {
+        "layout": "hug"
+      }
+    },
+    {
+      "nodeId": "3099:25169",
+      "name": "layout=wrap",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s005",
+      "children": [
+        {
+          "nodeId": "3099:25170",
+          "name": "chip 1",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25164",
+              "name": "size=md, selected=true, state=enabled",
+              "type": "COMPONENT",
+              "width": 49,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "true",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "true",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25170;3092:25170",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s002",
+              "position": {
+                "x": 12,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25175",
+          "name": "chip 2",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 57,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25175;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25180",
+          "name": "chip 3",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 116,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25180;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25185",
+          "name": "chip 4",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 175,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25185;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25190",
+          "name": "chip 5",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 0,
+            "y": 40
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25190;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25195",
+          "name": "chip 6",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 59,
+            "y": 40
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25195;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        }
+      ],
+      "variant": {
+        "layout": "wrap"
+      }
+    },
+    {
+      "nodeId": "3099:25200",
+      "name": "layout=scroll",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s006",
+      "children": [
+        {
+          "nodeId": "3099:25201",
+          "name": "chip 1",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25164",
+              "name": "size=md, selected=true, state=enabled",
+              "type": "COMPONENT",
+              "width": 49,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "true",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "true",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25201;3092:25170",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s002",
+              "position": {
+                "x": 12,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25206",
+          "name": "chip 2",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 57,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25206;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25211",
+          "name": "chip 3",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 116,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25211;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25216",
+          "name": "chip 4",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 175,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25216;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25221",
+          "name": "chip 5",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 234,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25221;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25226",
+          "name": "chip 6",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 293,
+            "y": 0
+          },
+          "instance": {
+            "source": {
+              "id": "3092:25109",
+              "name": "size=md, selected=false, state=enabled",
+              "type": "COMPONENT",
+              "width": 51,
+              "height": 32
+            },
+            "variant": {
+              "size": "md",
+              "selected": "false",
+              "state": "enabled"
+            },
+            "componentProperties": {
+              "count label#3092:124": {
+                "type": "TEXT",
+                "value": "3"
+              },
+              "leading icon swap#3092:62": {
+                "type": "INSTANCE_SWAP",
+                "value": "3016:104216",
+                "preferredValues": []
+              },
+              "leading icon#3092:31": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon#3092:155": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "count#3092:93": {
+                "type": "BOOLEAN",
+                "value": false
+              },
+              "trailing icon swap#3092:186": {
+                "type": "INSTANCE_SWAP",
+                "value": "2372:37015",
+                "preferredValues": []
+              },
+              "label#3092:0": {
+                "type": "TEXT",
+                "value": "전체"
+              },
+              "size": {
+                "value": "md",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "selected": {
+                "value": "false",
+                "type": "VARIANT",
+                "boundVariables": {}
+              },
+              "state": {
+                "value": "enabled",
+                "type": "VARIANT",
+                "boundVariables": {}
+              }
+            }
+          },
+          "children": [
+            {
+              "nodeId": "I3099:25226;3092:25115",
+              "name": "label",
+              "type": "TEXT",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 13,
+                "y": 6
+              },
+              "text": "전체",
+              "componentPropertyReferences": {
+                "characters": "label#3092:0"
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "3099:25231",
+          "name": "fade",
+          "type": "RECTANGLE",
+          "visible": true,
+          "styleRef": "s007",
+          "position": {
+            "x": 232,
+            "y": 0
+          },
+          "componentPropertyReferences": {
+            "visible": "fade#3099:0"
+          }
+        }
+      ],
+      "variant": {
+        "layout": "scroll"
+      }
+    }
+  ],
+  "styles": {
+    "s000": {
+      "layout": {
+        "width": 344,
+        "height": 32,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "layoutMode": "HORIZONTAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": true,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 8
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {}
+    },
+    "s001": {
+      "layout": {
+        "width": 49,
+        "height": 32,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": true,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 12,
+          "right": 12,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 4
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#EBF3FF",
+            "token": {
+              "id": "VariableID:3081:25",
+              "name": "color/action/default-selected"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:25",
+                "name": "color/action/default-selected"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999
+      },
+      "bindings": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:25",
+            "name": "color/action/default-selected"
+          }
+        ]
+      }
+    },
+    "s002": {
+      "layout": {
+        "width": 25,
+        "height": 20,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#1C1C1C",
+            "token": {
+              "id": "VariableID:3081:47",
+              "name": "color/text/default"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:47",
+                "name": "color/text/default"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "OUTSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": []
+      },
+      "bindings": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:47",
+            "name": "color/text/default"
+          }
+        ]
+      },
+      "text": {
+        "fontName": {
+          "family": "Pretendard",
+          "style": "SemiBold"
+        },
+        "fontSize": 14,
+        "fontWeight": 600,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textTruncation": "ENDING",
+        "maxLines": 1,
+        "textAutoResize": "HEIGHT",
+        "textDecoration": "NONE"
+      }
+    },
+    "s003": {
+      "layout": {
+        "width": 51,
+        "height": 32,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": true,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 12,
+          "right": 12,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 4
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#FFFFFF",
+            "token": {
+              "id": "VariableID:3081:86",
+              "name": "color/button/tertiary-fill"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:86",
+                "name": "color/button/tertiary-fill"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "hex": "#DDDDDD",
+              "token": {
+                "id": "VariableID:3081:85",
+                "name": "color/button/tertiary-border"
+              },
+              "bindings": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:85",
+                  "name": "color/button/tertiary-border"
+                }
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999
+      },
+      "bindings": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:86",
+            "name": "color/button/tertiary-fill"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:85",
+            "name": "color/button/tertiary-border"
+          }
+        ]
+      }
+    },
+    "s004": {
+      "layout": {
+        "width": 25,
+        "height": 20,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#757575",
+            "token": {
+              "id": "VariableID:3081:49",
+              "name": "color/text/default-subtler"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:49",
+                "name": "color/text/default-subtler"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "OUTSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": []
+      },
+      "bindings": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:49",
+            "name": "color/text/default-subtler"
+          }
+        ]
+      },
+      "text": {
+        "fontName": {
+          "family": "Pretendard",
+          "style": "SemiBold"
+        },
+        "fontSize": 14,
+        "fontWeight": 600,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textTruncation": "ENDING",
+        "maxLines": 1,
+        "textAutoResize": "HEIGHT",
+        "textDecoration": "NONE"
+      }
+    },
+    "s005": {
+      "layout": {
+        "width": 280,
+        "height": 72,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "layoutMode": "HORIZONTAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "layoutWrap": "WRAP",
+        "counterAxisSpacing": 8,
+        "strokesIncludedInLayout": true,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 8
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {}
+    },
+    "s006": {
+      "layout": {
+        "width": 280,
+        "height": 32,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "layoutMode": "HORIZONTAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": true,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": true,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 8
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {}
+    },
+    "s007": {
+      "layout": {
+        "width": 48,
+        "height": 32,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "ABSOLUTE",
+        "constraints": {
+          "horizontal": "MAX",
+          "vertical": "STRETCH"
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "gradientTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "gradientStops": [
+              {
+                "position": 0,
+                "boundVariables": {},
+                "color": {
+                  "hex": "#FFFFFF",
+                  "opacity": 0
+                }
+              },
+              {
+                "position": 1,
+                "boundVariables": {},
+                "color": {
+                  "hex": "#FFFFFF",
+                  "opacity": 1
+                }
+              }
+            ]
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {}
+    }
+  },
+  "observations": [
+    {
+      "kind": "actual-reuse",
+      "note": "Each layout contains six md/enabled filter-chip instances: first selected, five unselected, all label-only. Counts, labels, selection and widths are samples."
+    },
+    {
+      "kind": "scroll",
+      "note": "scroll variant is clipped at280px; actual overflowDirection is NONE. Native horizontal scroll and focus visibility are production obligations, not verified Figma prototype behavior."
+    },
+    {
+      "kind": "fade",
+      "note": "One absolute right48px rectangle with white alpha0-to1 gradient; fade Boolean defaults true and binds this node only. It is decoration, not an image asset or interaction surface."
+    }
+  ]
+}

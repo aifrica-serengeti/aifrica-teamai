@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentIds": [
+    "AgentHubFlyout",
+    "AgentHubFlyoutHeader",
+    "AgentHubFlyoutFooter",
+    "AgentHubFlyoutItem"
+  ],
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3010:23522",
+      "3005:23089",
+      "3005:23094",
+      "3005:23146"
+    ],
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "hiddenInstanceChildrenIncluded": true,
+    "method": "Figma MCP get_design_context screenshots and read-only Plugin API full tree, source identities, geometry, actual overrides, per-edge strokes, node modes and aliases"
+  },
+  "assets": [
+    {
+      "role": "library-geometry-file-text",
+      "sourceNodeId": "2762:73887",
+      "instanceNodeIds": [
+        "I2975:76711;3005:23097",
+        "I2975:76712;3005:23097",
+        "I2975:76713;3005:23097",
+        "I2975:76714;3005:23097",
+        "I2975:76715;3005:23097",
+        "I2975:76716;3005:23097",
+        "I2975:76717;3005:23097",
+        "I2975:76718;3005:23097",
+        "I2975:76719;3005:23097",
+        "I2975:76720;3005:23097",
+        "I2975:76721;3005:23097",
+        "I3010:23495;3005:23097",
+        "I3010:23500;3005:23097",
+        "I3010:23505;3005:23097",
+        "I3010:23510;3005:23097",
+        "I3010:23515;3005:23097",
+        "3005:23097",
+        "2975:76691",
+        "2975:76699",
+        "3005:23105",
+        "3005:23115",
+        "3005:23122",
+        "3005:23129",
+        "3005:23136"
+      ],
+      "path": "assets/icons/file-text/20.svg",
+      "format": "svg",
+      "width": 20,
+      "height": 20,
+      "bytes": 1312,
+      "sha256": "52b9269290886d32d14fd5781f520cfdb5a3456c371e31ea763f079b5638649d",
+      "method": "existing-exact-source-geometry",
+      "note": "Source geometry reference only. file-text source20 is displayed16 with original stroke1.25 and subtler paint; use supplied16 export, not a forced-size20 img."
+    },
+    {
+      "role": "library-geometry-chevron-right",
+      "sourceNodeId": "2842:38917",
+      "instanceNodeIds": [
+        "3005:23113",
+        "3005:23120"
+      ],
+      "path": "assets/icons/chevron-right/16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "bytes": 194,
+      "sha256": "7ba472cc2106a99196ddadbc8e4fb925576ecd0feac7ab7b906206773206f4cd",
+      "method": "existing-exact-source-geometry",
+      "note": "Source geometry reference only. file-text source20 is displayed16 with original stroke1.25 and subtler paint; use supplied16 export, not a forced-size20 img."
+    },
+    {
+      "role": "library-geometry-chevron-down",
+      "sourceNodeId": "2372:37015",
+      "instanceNodeIds": [
+        "3005:23127",
+        "3005:23134"
+      ],
+      "path": "assets/icons/chevron-down/16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "bytes": 194,
+      "sha256": "433b5d89a07a649c665318cf51bdb3044799ee6663bbc5686a54ab1cbb88809b",
+      "method": "existing-exact-source-geometry",
+      "note": "Source geometry reference only. file-text source20 is displayed16 with original stroke1.25 and subtler paint; use supplied16 export, not a forced-size20 img."
+    },
+    {
+      "role": "file-icon-resized-exact",
+      "sourceNodeId": "3005:23097",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2762:73887",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/flyout/file-text-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "strokeWidth": 1.25,
+      "color": "#757575",
+      "bytes": 1490,
+      "sha256": "0ce156063b58f6f8f0ebb94082b0e265a8531e4dba6bd09110211eebcd5091c7",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied actual16px glyph, source identity and displayed size preserved separately. No folder icon substitution or path redrawing."
+    },
+    {
+      "role": "folder-collapsed",
+      "sourceNodeId": "3005:23113",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2842:38917",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/flyout/chevron-right-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "strokeWidth": 1,
+      "color": "#1C1C1C",
+      "bytes": 312,
+      "sha256": "b6214d02044bbf63ffa7b5fa6b32ee3393c5a58a08deb8defd8b05e93569a5ef",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied actual16px glyph, source identity and displayed size preserved separately. No folder icon substitution or path redrawing."
+    },
+    {
+      "role": "folder-expanded",
+      "sourceNodeId": "3005:23127",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2372:37015",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/flyout/chevron-down-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "strokeWidth": 1,
+      "color": "#1C1C1C",
+      "bytes": 311,
+      "sha256": "f942bc343ce32a24e9ab0ac4fe13bfcb81f3df0116d7773157170ed0af3c6284",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied actual16px glyph, source identity and displayed size preserved separately. No folder icon substitution or path redrawing."
+    }
+  ],
+  "notes": [
+    "Three library source references plus three supplied16x16 local SVGs. Document glyph is not a44px FileIcon tile. No temporary runtime URL or screenshot is an implementation asset."
+  ]
+}

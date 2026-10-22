@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Single ProgressAlert interruption sample and existing Button/Icon references",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "buttons": [
+    {
+      "nodeId": "3214:59163",
+      "sourceNodeId": "3109:144",
+      "variant": {
+        "type": "tertiary",
+        "size": "28",
+        "state": "enabled"
+      },
+      "renderedSlots": [
+        "label"
+      ],
+      "insideBorderConsumesLayout": false,
+      "status": "match"
+    },
+    {
+      "nodeId": "3214:59239",
+      "sourceNodeId": "3109:144",
+      "variant": {
+        "type": "tertiary",
+        "size": "28",
+        "state": "enabled"
+      },
+      "renderedSlots": [
+        "label"
+      ],
+      "insideBorderConsumesLayout": false,
+      "status": "match"
+    }
+  ],
+  "icon": {
+    "nodeId": "2898:23789",
+    "sourceNodeId": "2898:23788",
+    "status": "match"
+  },
+  "container": {
+    "strokesIncludedInLayout": true,
+    "measuredHeight": 46,
+    "buttonHeight": 28,
+    "verticalPadding": 8,
+    "borderWidth": 1
+  },
+  "limits": [
+    "One interrupted-response sample; no progress percentage, spinner, cancel, dismiss or auto-hide is provided",
+    "Button variants are enabled references; root has no state enum",
+    "Slot Booleans disable leading/trailing/keycaps; unused generated helper assets are not rendered",
+    "Retry/edit handlers, request deduplication, focus/live announcements, responsive and dark runtime remain unverified"
+  ],
+  "issues": []
+}

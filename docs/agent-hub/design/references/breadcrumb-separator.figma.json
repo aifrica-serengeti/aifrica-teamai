@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubBreadcrumbSeparator",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "2427:25423",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2427-25423",
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "method": "Figma MCP screenshots + get_design_context + read-only Plugin API geometry, instance identity, visibility and recursive variable aliases"
+  },
+  "implementation": {
+    "status": "unmapped",
+    "source": null,
+    "export": null
+  },
+  "propertyDefinitions": {
+    ".type": {
+      "type": "VARIANT",
+      "defaultValue": "slash",
+      "variantOptions": [
+        "slash",
+        "dash",
+        "arrow"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "nodeId": "2427:25424",
+      "name": ".type=slash",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s000",
+      "variant": {
+        ".type": "slash"
+      },
+      "children": [
+        {
+          "nodeId": "2427:25425",
+          "name": "Text",
+          "type": "TEXT",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 8,
+            "y": 0
+          },
+          "text": "/"
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25426",
+      "name": ".type=dash",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s002",
+      "variant": {
+        ".type": "dash"
+      },
+      "children": [
+        {
+          "nodeId": "2427:25427",
+          "name": "Text",
+          "type": "TEXT",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 8,
+            "y": 0
+          },
+          "text": "–"
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25428",
+      "name": ".type=arrow",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s004",
+      "variant": {
+        ".type": "arrow"
+      },
+      "children": [
+        {
+          "nodeId": "2427:25429",
+          "name": "Vector",
+          "type": "VECTOR",
+          "visible": true,
+          "styleRef": "s005",
+          "position": {
+            "x": 7.999999523162842,
+            "y": 7.5
+          }
+        }
+      ]
+    }
+  ],
+  "sourceComponents": [],
+  "styles": {
+    "s000": {
+      "layout": {
+        "width": 22,
+        "height": 24,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "layoutMode": "VERTICAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": false,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 10
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {}
+    },
+    "s001": {
+      "layout": {
+        "width": 6,
+        "height": 24,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "SCALE",
+          "vertical": "SCALE"
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#757575",
+            "token": {
+              "id": "VariableID:3081:49",
+              "name": "color/text/default-subtler"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:49",
+                "name": "color/text/default-subtler"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "OUTSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": []
+      },
+      "bindings": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:49",
+            "name": "color/text/default-subtler"
+          }
+        ]
+      },
+      "text": {
+        "fontName": {
+          "family": "Pretendard",
+          "style": "Regular"
+        },
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textDecoration": "NONE"
+      }
+    },
+    "s002": {
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "layoutMode": "VERTICAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": false,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 10
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {}
+    },
+    "s003": {
+      "layout": {
+        "width": 8,
+        "height": 24,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "SCALE",
+          "vertical": "SCALE"
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#757575",
+            "token": {
+              "id": "VariableID:3081:49",
+              "name": "color/text/default-subtler"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:49",
+                "name": "color/text/default-subtler"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "OUTSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": []
+      },
+      "bindings": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:49",
+            "name": "color/text/default-subtler"
+          }
+        ]
+      },
+      "text": {
+        "fontName": {
+          "family": "Pretendard",
+          "style": "Regular"
+        },
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textDecoration": "NONE"
+      }
+    },
+    "s004": {
+      "layout": {
+        "width": 21.557498931884766,
+        "height": 24,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": false,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 10
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {}
+    },
+    "s005": {
+      "layout": {
+        "width": 5.557499885559082,
+        "height": 9,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "SCALE",
+          "vertical": "SCALE"
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#757575",
+            "token": {
+              "id": "VariableID:3081:49",
+              "name": "color/text/default-subtler"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:49",
+                "name": "color/text/default-subtler"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:49",
+            "name": "color/text/default-subtler"
+          }
+        ]
+      }
+    }
+  },
+  "observations": [
+    {
+      "kind": "separator-types",
+      "note": "Three variants: slash U+002F, en dash U+2013 (not ASCII hyphen), and a filled arrow vector5.5575x9 at x8/y7.5 inside21.5575x24. All use #757575, local color/text/default-subtler."
+    },
+    {
+      "kind": "asset",
+      "note": "Downloaded arrow SVG represents the entire21.5575x24 separator including px8 spacing. Use its native dimensions with no additional px8 wrapper padding. It is not a general16px system chevron and must not be substituted."
+    },
+    {
+      "kind": "semantics",
+      "note": "Separator is decorative, aria-hidden and not focusable. It does not own navigation, current state, menu or keyboard behavior. No hover/disabled/dark rendering is measured."
+    }
+  ]
+}

@@ -20,9 +20,9 @@
 
 ## 기존 제품 유지보수의 작업 전 필수 탐색
 
-1. [컴포넌트 레지스트리](./component-registry.json)에서 이름과 `aliases`를 검색한다.
-   선택 솔루션의 `design/component-registry.json`이 있으면 함께 검색한다. dependency closure는 두 registry의
-   합집합에서 찾고 각 문서는 자신을 선언한 registry 기준으로 해석한다.
+1. 공용 opt-in과 선택 솔루션·로컬 채택 설정을 확인한다. 선택 솔루션의 registry id/name/alias와 local mapping을 먼저 검색한다.
+   호환 후보가 없거나 하위 의존성이 필요하면 [공통 registry](./component-registry.json)의 id/alias와 의미를 검색한다.
+   dependency closure는 두 registry의 합집합에서 찾고 각 문서는 자신을 선언한 registry 기준으로 해석한다.
 2. [컴포넌트 카탈로그](./components/index.md)에서 역할과 조합 규칙을 확인한다.
 3. 대상 솔루션에서 레지스트리의 `implementation.source`와 `implementation.export`를 확인하고,
    값이 없거나 오래되었다면 `rg`로 컴포넌트명, alias, 유사한 ARIA role과 UI 문구를 검색한다.
@@ -32,6 +32,22 @@
 
 문서에 있다는 이유만으로 코드가 솔루션에서 구현을 확인했다고 단정하지 않는다. 반대로 코드 검색만으로
 의미가 같다고 판단하지 않는다. 문서 계약과 실제 export가 모두 확인되어야 재사용 가능하다.
+
+후보 비교는 정적 크기·색상으로 끝내지 않는다. motion의 대상 속성·timing·cleanup, focus를 표시하는 owner,
+native scroll viewport와 위치 owner, disabled 실차단, keyboard·reduced-motion 처리를 확인한다.
+전역 CSS가 focus나 reduced motion을 처리할 것이라고 가정하지 않고 실제 적용 범위를 검증한다.
+
+## 실행 구현이 없을 때의 공용 fallback
+
+공용 계약이 있다는 사실과 소비 프로젝트에 실행 컴포넌트가 있다는 사실은 다르다. 호환 구현은 없고 계약만 있다면
+그 계약으로 Input·Select·Textarea·ScrollArea 같은 재사용 컴포넌트를 먼저 구현·검증한 뒤 상위 UI를 조합한다.
+이것은 기존 계약의 첫 구현이며 같은 의미의 새 디자인 계약이나 상위마다 별도 임시 컨트롤을 만드는 작업이 아니다.
+문서 전용 재현에서는 외부 제품 source를 찾는 대신 제공된6문서·구현 참조·dependency closure로 이 절차를 수행한다.
+
+솔루션의 크기·색상·slot 차이는 명시적 variant/adapter로 연결한다. 예를 들어 Composer는 Textarea의 native 입력·IME·값 소유권을
+재사용하면서 전용 한 줄 geometry를 적용하므로 공용84px·border를 중복 강제하지 않는다.
+페이지는 데이터·업무 callback을 공급하고, focus/scroll/키보드 엔진은 재사용 컴포넌트 한 곳이 소유한다.
+공용을 끈 경우 이 fallback을 요구하지 않고 선택 솔루션과 소비 제품의 자체 계약을 따른다.
 
 ## 네 가지 결정
 

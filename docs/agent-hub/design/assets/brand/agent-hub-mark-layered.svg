@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <title>Agent Hub mark — reconstructed three-layer vector</title>
+  <desc>User-requested reconstruction from the flattened original PNG. Ellipse geometry, hidden areas and gradients are inferred; this is not a Figma vector export.</desc>
+  <defs>
+    <linearGradient id="ah-layered-end-fade" x1="24" y1="99" x2="176" y2="99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white" stop-opacity="0.51"/>
+      <stop offset="0.167" stop-color="white" stop-opacity="0.971"/>
+      <stop offset="0.333" stop-color="white" stop-opacity="1"/>
+      <stop offset="0.5" stop-color="white" stop-opacity="1"/>
+      <stop offset="0.667" stop-color="white" stop-opacity="1"/>
+      <stop offset="0.833" stop-color="white" stop-opacity="0.971"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.51"/>
+    </linearGradient>
+    <mask id="ah-layered-soft-ends" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+      <rect width="200" height="200" fill="url(#ah-layered-end-fade)"/>
+    </mask>
+    <radialGradient id="ah-layered-soft-light" cx="57.252" cy="123.553" r="58.744" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white" stop-opacity="0.013"/>
+      <stop offset="0.25" stop-color="white" stop-opacity="0.141"/>
+      <stop offset="0.5" stop-color="white" stop-opacity="0.609"/>
+      <stop offset="0.75" stop-color="white" stop-opacity="0.857"/>
+      <stop offset="1" stop-color="white" stop-opacity="1"/>
+    </radialGradient>
+    <mask id="ah-layered-light" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+      <rect width="200" height="200" fill="url(#ah-layered-soft-light)"/>
+    </mask>
+    <linearGradient id="ah-layered-purple" x1="100" y1="59" x2="100" y2="139" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#886DE2" stop-opacity="0.187"/>
+      <stop offset="0.25" stop-color="#8961E7" stop-opacity="0.199"/>
+      <stop offset="0.5" stop-color="#8B55ED" stop-opacity="0.238"/>
+      <stop offset="0.75" stop-color="#8C49F2" stop-opacity="0.605"/>
+      <stop offset="1" stop-color="#8D3DF7" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="ah-layered-green" x1="100" y1="139" x2="100" y2="59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6DD9C9" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#54DCBC" stop-opacity="0.293"/>
+      <stop offset="0.5" stop-color="#3AE0AE" stop-opacity="0.583"/>
+      <stop offset="0.75" stop-color="#21E3A1" stop-opacity="0.852"/>
+      <stop offset="1" stop-color="#07E693" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="ah-layered-blue" x1="100" y1="57" x2="100" y2="137" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19A6F8" stop-opacity="1"/>
+      <stop offset="0.25" stop-color="#27B0F3" stop-opacity="0.581"/>
+      <stop offset="0.5" stop-color="#35BAED" stop-opacity="0.275"/>
+      <stop offset="0.75" stop-color="#43C4E8" stop-opacity="0.191"/>
+      <stop offset="1" stop-color="#50CEE2" stop-opacity="0.094"/>
+    </linearGradient>
+  </defs>
+  <g mask="url(#ah-layered-light)">
+    <g data-brand-layer="purple">
+      <ellipse cx="100" cy="99" rx="76" ry="40" transform="rotate(-60 100 99)" fill="url(#ah-layered-purple)" mask="url(#ah-layered-soft-ends)"/>
+    </g>
+    <g data-brand-layer="green">
+      <ellipse cx="100" cy="99" rx="76" ry="40" transform="rotate(60 100 99)" fill="url(#ah-layered-green)"/>
+    </g>
+    <g data-brand-layer="blue">
+      <ellipse cx="100" cy="97" rx="76" ry="40" fill="url(#ah-layered-blue)"/>
+    </g>
+  </g>
+</svg>

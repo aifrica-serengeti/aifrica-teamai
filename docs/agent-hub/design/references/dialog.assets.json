@@ -1,0 +1,6127 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubDialog",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3192:27853",
+      "3163:22376"
+    ],
+    "method": "Figma supplied SVG/PNG downloads and screenshots, read-only full effective-visibility traversal, actual instance source/native size, vector bounds/transforms/paint comparison, original image hashes/intrinsic dimensions, exact whole16 pin and delay20 SVG_STRING read-only exports. No canvas mutation."
+  },
+  "assets": [
+    {
+      "role": "close-x-24",
+      "sourceNodeId": "2199:23685",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2199:23685",
+      "sourceWidth": 24,
+      "sourceHeight": 24,
+      "path": "assets/icons/x/24.svg",
+      "format": "svg",
+      "width": 24.0,
+      "height": 24.0,
+      "viewBox": "0 0 24 24",
+      "displayWidth": 24,
+      "displayHeight": 24,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "bytes": 315,
+      "sha256": "f9f671b2896a638c00e0f04c37993d8c1adf9f38516612e8590f7965078c3af1",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3192:27854;3192:33995;2611:59908",
+        "I3163:22377;3192:33995;2611:59908"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 1,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 6,
+              "y": 6,
+              "width": 12,
+              "height": 12,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ]
+              ],
+              "strokeWeight": 1.5,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 6,
+              "y": 6,
+              "width": 12,
+              "height": 12,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ]
+              ],
+              "strokeWeight": 1.5,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 435,
+        "sha256": "75b2067f330dff255f1a25a23ec5aa4d6b0b0da0d7efdf6ed2c85bf53f1bba03",
+        "width": 24.0,
+        "height": 24.0,
+        "viewBox": "0 0 24 24",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "composer-agent-16",
+      "sourceNodeId": "3018:24695",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "3018:24695",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/icons/agent/16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [],
+      "bytes": 3902,
+      "sha256": "874b78cbba90a29ec77b0605d74408e2b1b2c9ea93bf7eddff810cab4f4fcd43",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3192:27878;3116:15"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 0.6666666865348816,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 1.34375,
+              "y": 1.94921875,
+              "width": 13.319999694824219,
+              "height": 11.403060913085938,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.34375
+                ],
+                [
+                  0,
+                  1,
+                  1.94921875
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeAlign": "INSIDE",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ],
+              "strokes": []
+            },
+            {
+              "type": "VECTOR",
+              "x": 5.447265625,
+              "y": 6.23046875,
+              "width": 1.71999990940094,
+              "height": 3.186666488647461,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  5.447265625
+                ],
+                [
+                  0,
+                  1,
+                  6.23046875
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeAlign": "INSIDE",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ],
+              "strokes": []
+            },
+            {
+              "type": "VECTOR",
+              "x": 8.837890625,
+              "y": 6.23046875,
+              "width": 1.726666808128357,
+              "height": 3.186666488647461,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  8.837890625
+                ],
+                [
+                  0,
+                  1,
+                  6.23046875
+                ]
+              ],
+              "strokeWeight": 0.5333333611488342,
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeAlign": "INSIDE",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ],
+              "strokes": []
+            },
+            {
+              "type": "VECTOR",
+              "x": 9.697265625,
+              "y": 9.62890625,
+              "width": 4.373333930969238,
+              "height": 4.4244794845581055,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  9.697265625
+                ],
+                [
+                  0,
+                  1,
+                  9.62890625
+                ]
+              ],
+              "strokeWeight": 0.5333333611488342,
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeAlign": "INSIDE",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ],
+              "strokes": []
+            },
+            {
+              "type": "VECTOR",
+              "x": 12.712890625,
+              "y": 8.84375,
+              "width": 2.150001049041748,
+              "height": 2.1499996185302734,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  12.712890625
+                ],
+                [
+                  0,
+                  1,
+                  8.84375
+                ]
+              ],
+              "strokeWeight": 0.5333333611488342,
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeAlign": "INSIDE",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ],
+              "strokes": []
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 4067,
+        "sha256": "ea0eda61faebffd2c7c95a7bb3bf4e3f2d7e6b05a51cc48c233f0e88d64af151",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "chevron-down-16",
+      "sourceNodeId": "2372:37015",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2372:37015",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/icons/chevron-down/16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 194,
+      "sha256": "433b5d89a07a649c665318cf51bdb3044799ee6663bbc5686a54ab1cbb88809b",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3192:27878;3116:21",
+        "I3192:27879;3116:21",
+        "I3192:27880;3116:21",
+        "I3192:27902;3130:25701"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 1,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 4,
+              "y": 6,
+              "width": 8,
+              "height": 4,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 304,
+        "sha256": "dfb32e21b057016f60ecc001e5404ee32b418727b328c35463d1467357d30331",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "composer-folder-16",
+      "sourceNodeId": "3018:24833",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "3018:24833",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1272,
+      "sha256": "0a130653023fa33578eb326f8a43b3b9527e2cbf15ca9c7bd03be29d21650b8a",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "references/snb.assets.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3192:27879;3116:15"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 0.800000011920929,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 1.3312499523162842,
+              "y": 2,
+              "width": 13.335672378540039,
+              "height": 11.333427429199219,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.3312499523162842
+                ],
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 1270,
+        "sha256": "7683938eacc0f7104042dc6c63f07e85a4afdbc2ee13494de065f26e8aa85c08",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "composer-chat-16",
+      "sourceNodeId": "2320:15942",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2320:15942",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/chat-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1130,
+      "sha256": "6f7a04c9b8792266ab4918f52da0138f9d235563aef8d4c74cd381c92b6810a7",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "references/snb.assets.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3192:27880;3116:15"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 0.800000011920929,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 1.33203125,
+              "y": 1.33203125,
+              "width": 13.33335018157959,
+              "height": 13.333434104919434,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.33203125
+                ],
+                [
+                  0,
+                  1,
+                  1.33203125
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 1130,
+        "sha256": "7072e78666fb14aec39b9545654b08a51e31bfdc2b0c23a28632e5bcfb44f1b3",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "model-chevron-down-subtler-16",
+      "sourceNodeId": "3192:27885",
+      "sourceKind": "FRAME",
+      "actualSourceNodeId": null,
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/picker/model-chevron-down-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 295,
+      "sha256": "7d2d7e9505160697afe2306e38bbb12080b50ba9493904d274d8e919ed08cef3",
+      "method": "reuse-existing-geometry-and-paint",
+      "reuseFrom": "references/picker.assets.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "3192:27885"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "FRAME",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 1,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 4,
+              "y": 6,
+              "width": 8,
+              "height": 4,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#757575"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": null,
+        "sourceComponentGeometryIgnoringPaintMatches": null,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "existingSourceNodeId": "2627:61958",
+      "note": "Actual model chevron is a FRAME, not a main-component instance. Whole16 supplied SVG primitive geometry, stroke and subtler paint match the existing Picker asset; source identity is not claimed.",
+      "providedExport": {
+        "bytes": 295,
+        "sha256": "7d2d7e9505160697afe2306e38bbb12080b50ba9493904d274d8e919ed08cef3",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": true
+      }
+    },
+    {
+      "role": "frequency-rotate-cw-clock-16",
+      "sourceNodeId": "3192:23364",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "3192:23364",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/icons/rotate-cw-clock/16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 809,
+      "sha256": "f36f77cc1058fd2f67df6c01e8e44feb089fd33fa63b2eabd65f282c7168fb26",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "3192:27900"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 0.5333333611488342,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 8,
+              "y": 4.66796875,
+              "width": 2.6666667461395264,
+              "height": 4.666666507720947,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  8
+                ],
+                [
+                  0,
+                  1,
+                  4.66796875
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 10.666015625,
+              "y": 2,
+              "width": 3.3333332538604736,
+              "height": 3.3333332538604736,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  10.666015625
+                ],
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 2,
+              "y": 2,
+              "width": 12.00000286102295,
+              "height": 12.000003814697266,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": null,
+        "sourceComponentGeometryIgnoringPaintMatches": null,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 946,
+        "sha256": "6498ea94d35083438d5f0f9e5185ec8c8c1d987a4005562da54c33929ec23483",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      },
+      "note": "Existing main-manifest source3192:23364/native16/stroke1/#1C matches the supplied whole SVG geometry. Original serialization differs, so no duplicate file is added."
+    },
+    {
+      "role": "advanced-up-16",
+      "sourceNodeId": "2021:4624",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2021:4624",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/dialog/advanced-up-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 303,
+      "sha256": "ed08e562a31e7805feffac467f3bae2d24f1eab7eb9a122a2773ef188235d42d",
+      "method": "figma-supplied-original-asset",
+      "reuseFrom": null,
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "3192:27912"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 1,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 4,
+              "y": 10,
+              "width": 4,
+              "height": 8,
+              "visible": true,
+              "rotation": 90.00000000000001,
+              "relativeTransform": [
+                [
+                  -1.6081226229577292e-16,
+                  1,
+                  4
+                ],
+                [
+                  -1,
+                  -1.6081226229577292e-16,
+                  10
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": null,
+        "sourceComponentGeometryIgnoringPaintMatches": null,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 303,
+        "sha256": "ed08e562a31e7805feffac467f3bae2d24f1eab7eb9a122a2773ef188235d42d",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": true
+      }
+    },
+    {
+      "role": "rail-pin-16",
+      "sourceNodeId": "2308:44294",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2308:44294",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/icons/pin/16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1719,
+      "sha256": "58dd6bbd424a54db73ac251e0e3b9228ae7834c659904707e7e90ed9bb30e861",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3163:22379;2372:33773"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 0.800000011920929,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "GROUP",
+              "x": 9.40625,
+              "y": -0.015625,
+              "width": 9.333333015441895,
+              "height": 13.33226490020752,
+              "visible": true,
+              "rotation": -45,
+              "relativeTransform": [
+                [
+                  0.7071067690849304,
+                  -0.7071067690849304,
+                  9.40625
+                ],
+                [
+                  0.7071067690849304,
+                  0.7071067690849304,
+                  -0.015625
+                ]
+              ],
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "children": [
+                {
+                  "type": "VECTOR",
+                  "x": 5.640625048549424,
+                  "y": 10.359374887223254,
+                  "width": 0,
+                  "height": 3.3333332538604736,
+                  "visible": true,
+                  "rotation": -45,
+                  "relativeTransform": [
+                    [
+                      0.7071067690849304,
+                      -0.7071067690849304,
+                      5.640625048549424
+                    ],
+                    [
+                      0.7071067690849304,
+                      0.7071067690849304,
+                      10.359374887223254
+                    ]
+                  ],
+                  "strokeWeight": 1,
+                  "strokeCap": "ROUND",
+                  "strokeJoin": "ROUND",
+                  "strokeAlign": "CENTER",
+                  "isMask": false,
+                  "maskType": "ALPHA",
+                  "opacity": 1,
+                  "fills": [],
+                  "strokes": [
+                    {
+                      "type": "SOLID",
+                      "visible": true,
+                      "opacity": 1,
+                      "hex": "#1C1C1C"
+                    }
+                  ]
+                },
+                {
+                  "type": "VECTOR",
+                  "x": 9.40625,
+                  "y": -0.015625,
+                  "width": 9.333333015441895,
+                  "height": 10,
+                  "visible": true,
+                  "rotation": -45,
+                  "relativeTransform": [
+                    [
+                      0.7071067690849304,
+                      -0.7071067690849304,
+                      9.40625
+                    ],
+                    [
+                      0.7071067690849304,
+                      0.7071067690849304,
+                      -0.015625
+                    ]
+                  ],
+                  "strokeWeight": 1,
+                  "strokeCap": "ROUND",
+                  "strokeJoin": "ROUND",
+                  "strokeAlign": "CENTER",
+                  "isMask": false,
+                  "maskType": "ALPHA",
+                  "opacity": 1,
+                  "fills": [],
+                  "strokes": [
+                    {
+                      "type": "SOLID",
+                      "visible": true,
+                      "opacity": 1,
+                      "hex": "#1C1C1C"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "sourceWholeSvgExportByteIdenticalToLocal": true,
+        "instanceWholeSvgExportShapeAttributesMatchIgnoringIds": true,
+        "instanceWholeSvgExportSha256": "66939ac96311012e0398f88b36081b50d115b6940124cb6a3a2553f692051200"
+      },
+      "providedFragment": {
+        "width": 10.3333,
+        "height": 14.3323,
+        "sha256": "b26f10d072fe6b03a0b94f0cad3aaf78781cbd6c596f753da9a162222a86e9a1",
+        "bytes": 1631,
+        "runtimeAsset": false,
+        "note": "Fragment10.3333×14.3323 includes stroke bounds and omits whole16 placement/rotation/clip. Never stretch it to16."
+      },
+      "note": "Existing native16 whole pin already preserves rotation and clip. Do not apply the generated group rotation again or use the narrow supplied fragment as a whole icon."
+    },
+    {
+      "role": "rail-delay-16",
+      "sourceNodeId": "2312:46700",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2312:46700",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/icons/delay/16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1186,
+      "sha256": "6f2f3ced18e58e88e065c4cc23780a7b195c01fa55b6c2eaa05f7a5be21eaf55",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3163:22379;2372:33810"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 0.6666666865348816,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 8,
+              "y": 1.33203125,
+              "width": 6.667886257171631,
+              "height": 11.166666030883789,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  8
+                ],
+                [
+                  0,
+                  1,
+                  1.33203125
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 8,
+              "y": 4,
+              "width": 2.6666665077209473,
+              "height": 5.3333330154418945,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  8
+                ],
+                [
+                  0,
+                  1,
+                  4
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 1.33203125,
+              "y": 5.91796875,
+              "width": 0.3333333134651184,
+              "height": 2,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.33203125
+                ],
+                [
+                  0,
+                  1,
+                  5.91796875
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 1.88671875,
+              "y": 10.66796875,
+              "width": 1.6200002431869507,
+              "height": 2.2666664123535156,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.88671875
+                ],
+                [
+                  0,
+                  1,
+                  10.66796875
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 3.0859375,
+              "y": 2.91796875,
+              "width": 0.5939998626708984,
+              "height": 0.5713335275650024,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  3.0859375
+                ],
+                [
+                  0,
+                  1,
+                  2.91796875
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 5.76171875,
+              "y": 14.02734375,
+              "width": 5.087332725524902,
+              "height": 0.6399412751197815,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  5.76171875
+                ],
+                [
+                  0,
+                  1,
+                  14.02734375
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 1347,
+        "sha256": "c392a6fa3540c937405afad76bf90f2e516888dedfd107ff8a8cf930be985f60",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "rail-globe-16",
+      "sourceNodeId": "2320:15715",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2320:15715",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/icons/globe/16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 904,
+      "sha256": "3702c224d3e39b0d81ca320db0abad37ff69106ef5444d46ed61a820b6954e86",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3163:22379;2372:33874"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 1,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 1.33203125,
+              "y": 1.33203125,
+              "width": 13.333333969116211,
+              "height": 13.333333969116211,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.33203125
+                ],
+                [
+                  0,
+                  1,
+                  1.33203125
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 5.33203125,
+              "y": 1.33203125,
+              "width": 5.333333492279053,
+              "height": 13.333333969116211,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  5.33203125
+                ],
+                [
+                  0,
+                  1,
+                  1.33203125
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 1.33203125,
+              "y": 8,
+              "width": 13.333333969116211,
+              "height": 0,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.33203125
+                ],
+                [
+                  0,
+                  1,
+                  8
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": false,
+        "providedCurveEquivalence": {
+          "name": "globe",
+          "existingPath": "assets/icons/globe/16.svg",
+          "providedAssetId": "ae262ddf-5269-478d-a27c-39d449f7f0ba.svg",
+          "pathCount": 3,
+          "providedPathCount": 3,
+          "noTransforms": true,
+          "pathComparisons": [
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": true,
+              "direction": "reversed",
+              "cyclicOffset": 3,
+              "segmentCount": 4,
+              "numericTolerance": 0,
+              "styleMatch": true
+            },
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": true,
+              "direction": "reversed",
+              "cyclicOffset": 3,
+              "segmentCount": 4,
+              "numericTolerance": 0,
+              "styleMatch": true
+            },
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": false,
+              "direction": "same",
+              "cyclicOffset": 0,
+              "segmentCount": 1,
+              "numericTolerance": 0,
+              "styleMatch": true
+            }
+          ]
+        }
+      },
+      "providedExport": {
+        "bytes": 1023,
+        "sha256": "6c69ac02ef748fc8f3b9877424c514613974499943518b27339d1c520da9f539",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "rail-group-16",
+      "sourceNodeId": "2320:15714",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2320:15714",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/icons/group/16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1123,
+      "sha256": "9f4da812491122eaa857f0c221cd87206995cdd8b5767e55945bf9cdc3fa7506",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3163:22379;2372:33911"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 1,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 1.33203125,
+              "y": 10,
+              "width": 9.333333969116211,
+              "height": 4,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.33203125
+                ],
+                [
+                  0,
+                  1,
+                  10
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 10.66796875,
+              "y": 2.0859375,
+              "width": 1.9974658489227295,
+              "height": 5.162666320800781,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  10.66796875
+                ],
+                [
+                  0,
+                  1,
+                  2.0859375
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 12.66796875,
+              "y": 10.0859375,
+              "width": 2,
+              "height": 3.9133334159851074,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  12.66796875
+                ],
+                [
+                  0,
+                  1,
+                  10.0859375
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 3.33203125,
+              "y": 2,
+              "width": 5.333333492279053,
+              "height": 5.333333492279053,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  3.33203125
+                ],
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": false,
+        "providedCurveEquivalence": {
+          "name": "group",
+          "existingPath": "assets/icons/group/16.svg",
+          "providedAssetId": "8107a5d1-7ab3-4212-aa1c-5b84afd67ad5.svg",
+          "pathCount": 4,
+          "providedPathCount": 4,
+          "noTransforms": true,
+          "pathComparisons": [
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": false,
+              "direction": "same",
+              "cyclicOffset": 0,
+              "segmentCount": 7,
+              "numericTolerance": 0,
+              "styleMatch": true
+            },
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": false,
+              "direction": "same",
+              "cyclicOffset": 0,
+              "segmentCount": 4,
+              "numericTolerance": 0,
+              "styleMatch": true
+            },
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": false,
+              "direction": "same",
+              "cyclicOffset": 0,
+              "segmentCount": 3,
+              "numericTolerance": 0,
+              "styleMatch": true
+            },
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": true,
+              "direction": "reversed",
+              "cyclicOffset": 3,
+              "segmentCount": 4,
+              "numericTolerance": 0,
+              "styleMatch": true
+            }
+          ]
+        }
+      },
+      "providedExport": {
+        "bytes": 1276,
+        "sha256": "b74a745be26ba6e1968ba1d2f2f09a2c561c0e9fe52df47383bc3e063318a6e9",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "rail-user-16",
+      "sourceNodeId": "2320:15713",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2320:15713",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/icons/user/16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 646,
+      "sha256": "9d1a822fa18fc69f209e49215b7725d8123185466dfad0f26d098ed1c63a99e8",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3163:22379;2372:33957"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 1,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 3.33203125,
+              "y": 10,
+              "width": 9.333333969116211,
+              "height": 4,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  3.33203125
+                ],
+                [
+                  0,
+                  1,
+                  10
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 5.33203125,
+              "y": 2,
+              "width": 5.333333492279053,
+              "height": 5.333333492279053,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  5.33203125
+                ],
+                [
+                  0,
+                  1,
+                  2
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": false,
+        "providedCurveEquivalence": {
+          "name": "user",
+          "existingPath": "assets/icons/user/16.svg",
+          "providedAssetId": "f0759394-5a2d-4422-8b71-18324e8ca5c9.svg",
+          "pathCount": 2,
+          "providedPathCount": 2,
+          "noTransforms": true,
+          "pathComparisons": [
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": false,
+              "direction": "same",
+              "cyclicOffset": 0,
+              "segmentCount": 7,
+              "numericTolerance": 0,
+              "styleMatch": true
+            },
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": true,
+              "direction": "reversed",
+              "cyclicOffset": 3,
+              "segmentCount": 4,
+              "numericTolerance": 0,
+              "styleMatch": true
+            }
+          ]
+        }
+      },
+      "providedExport": {
+        "bytes": 770,
+        "sha256": "298edc29c4bca82a6c960db769d5decb3376be76c11f69743893c6c22202dfc4",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "finder-search-20",
+      "sourceNodeId": "2106:10483",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2106:10483",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/icons/search/20.svg",
+      "format": "svg",
+      "width": 20.0,
+      "height": 20.0,
+      "viewBox": "0 0 20 20",
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 514,
+      "sha256": "269edafa39d51b83c905101d78dcb9ce0f343c48b47a19b1b712439b24df880b",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3163:22381;2309:45263"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 20,
+          "height": 20,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 1,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 13.8828125,
+              "y": 13.8828125,
+              "width": 3.616666793823242,
+              "height": 3.616666793823242,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  13.8828125
+                ],
+                [
+                  0,
+                  1,
+                  13.8828125
+                ]
+              ],
+              "strokeWeight": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 2.500000238418579,
+              "y": 2.500000238418579,
+              "width": 13.333333015441895,
+              "height": 13.333333015441895,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  2.500000238418579
+                ],
+                [
+                  0,
+                  1,
+                  2.500000238418579
+                ]
+              ],
+              "strokeWeight": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": false,
+        "providedCurveEquivalence": {
+          "name": "search",
+          "existingPath": "assets/icons/search/20.svg",
+          "providedAssetId": "6930e5dc-8463-4a04-a1da-eb2bbbc27982.svg",
+          "pathCount": 2,
+          "providedPathCount": 2,
+          "noTransforms": true,
+          "pathComparisons": [
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": false,
+              "direction": "same",
+              "cyclicOffset": 0,
+              "segmentCount": 1,
+              "numericTolerance": 0,
+              "styleMatch": true
+            },
+            {
+              "equivalent": true,
+              "method": "absolute-line-cubic-segment-equivalence",
+              "closed": true,
+              "direction": "reversed",
+              "cyclicOffset": 3,
+              "segmentCount": 4,
+              "numericTolerance": 0,
+              "styleMatch": true
+            }
+          ]
+        }
+      },
+      "providedExport": {
+        "bytes": 639,
+        "sha256": "c3395ee70681da0a4effe648a596b15efcd3212fce2fc48963e34e91dcddda4c",
+        "width": 20.0,
+        "height": 20.0,
+        "viewBox": "0 0 20 20",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "recent-section-delay-20",
+      "sourceNodeId": "3018:24783",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "3018:24783",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/icons/delay/20.svg",
+      "format": "svg",
+      "width": 20.0,
+      "height": 20.0,
+      "viewBox": "0 0 20 20",
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 1161,
+      "sha256": "a85f4f9aa5007adcab14ef1569d47d8007bee84bdd270b6dbb3a865fc57f392e",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3163:22385;3155:20480"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 20,
+          "height": 20,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 0.8333333730697632,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 10,
+              "y": 1.66796875,
+              "width": 8.334857940673828,
+              "height": 13.958332061767578,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  10
+                ],
+                [
+                  0,
+                  1,
+                  1.66796875
+                ]
+              ],
+              "strokeWeight": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 10,
+              "y": 5,
+              "width": 3.3333330154418945,
+              "height": 6.666666030883789,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  10
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ]
+              ],
+              "strokeWeight": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 1.6650390625,
+              "y": 7.39453125,
+              "width": 0.4166666269302368,
+              "height": 2.5,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.6650390625
+                ],
+                [
+                  0,
+                  1,
+                  7.39453125
+                ]
+              ],
+              "strokeWeight": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 2.3583984375,
+              "y": 13.33203125,
+              "width": 2.0250003337860107,
+              "height": 2.8333330154418945,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  2.3583984375
+                ],
+                [
+                  0,
+                  1,
+                  13.33203125
+                ]
+              ],
+              "strokeWeight": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 3.857421875,
+              "y": 3.6484375,
+              "width": 0.742499828338623,
+              "height": 0.7141668796539307,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  3.857421875
+                ],
+                [
+                  0,
+                  1,
+                  3.6484375
+                ]
+              ],
+              "strokeWeight": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 7.2021484375,
+              "y": 17.53125,
+              "width": 6.359166145324707,
+              "height": 0.7999265789985657,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  7.2021484375
+                ],
+                [
+                  0,
+                  1,
+                  17.53125
+                ]
+              ],
+              "strokeWeight": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": true,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "instanceWholeSvgExportByteIdenticalToLocal": true
+      },
+      "note": "Actual visible recent-section20 glyph exists in raw tree. Generated whole-dialog code emitted an empty icon div; the read-only actual-instance whole SVG export exactly matches this existing asset."
+    },
+    {
+      "role": "item-more-native16",
+      "sourceNodeId": "3018:24913",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "3018:24913",
+      "sourceWidth": 24,
+      "sourceHeight": 24,
+      "path": "assets/cards/item-more-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1082,
+      "sha256": "22330d1b17da198cb213be4f64008925c948d8c02e5006606806577c57240fc5",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "references/card.assets.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3163:22387;3074:91439;2909:49141",
+        "I3163:22388;3074:91439;2909:49141",
+        "I3163:22389;3074:91439;2909:49141",
+        "I3163:22391;3074:91439;2909:49141",
+        "I3163:22392;3074:91439;2909:49141",
+        "I3163:22393;3074:91439;2909:49141",
+        "I3163:22395;3074:91439;2909:49141",
+        "I3163:22396;3074:91439;2909:49141",
+        "I3163:22397;3074:91439;2909:49141",
+        "I3163:22399;3074:91439;2909:49141",
+        "I3163:22400;3074:91439;2909:49141",
+        "I3163:22401;3074:91439;2909:49141",
+        "I3163:22403;3074:91439;2909:49141",
+        "I3163:22404;3074:91439;2909:49141",
+        "I3163:22405;3074:91439;2909:49141"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 1.2000000476837158,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 7.331380367279053,
+              "y": 7.333333492279053,
+              "width": 1.3333333730697632,
+              "height": 1.3333333730697632,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  7.331380367279053
+                ],
+                [
+                  0,
+                  1,
+                  7.333333492279053
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 12,
+              "y": 7.333333492279053,
+              "width": 1.3333333730697632,
+              "height": 1.3333333730697632,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  12
+                ],
+                [
+                  0,
+                  1,
+                  7.333333492279053
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            },
+            {
+              "type": "VECTOR",
+              "x": 2.6686198711395264,
+              "y": 7.333333492279053,
+              "width": 1.3333333730697632,
+              "height": 1.3333333730697632,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  2.6686198711395264
+                ],
+                [
+                  0,
+                  1,
+                  7.333333492279053
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": null,
+        "sourceComponentGeometryIgnoringPaintMatches": null,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 1082,
+        "sha256": "22330d1b17da198cb213be4f64008925c948d8c02e5006606806577c57240fc5",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": true
+      },
+      "note": "Actual source is native24 but the measured glyph is16; this existing complete16 export is used unchanged, not a native24 root override."
+    },
+    {
+      "role": "item-chat-subtler-16",
+      "sourceNodeId": "2320:15942",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2320:15942",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/item-chat-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1128,
+      "sha256": "f65dc7cefff3de90280ce455f7193891fac52a189bd1c02dddc334938e72955b",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "references/card.assets.json",
+      "referenceOnly": false,
+      "instanceNodeIds": [
+        "I3163:22387;3074:91454",
+        "I3163:22388;3074:91454",
+        "I3163:22389;3074:91454",
+        "I3163:22391;3074:91454",
+        "I3163:22392;3074:91454",
+        "I3163:22393;3074:91454",
+        "I3163:22395;3074:91454",
+        "I3163:22396;3074:91454",
+        "I3163:22397;3074:91454",
+        "I3163:22399;3074:91454",
+        "I3163:22400;3074:91454",
+        "I3163:22401;3074:91454",
+        "I3163:22403;3074:91454",
+        "I3163:22404;3074:91454",
+        "I3163:22405;3074:91454"
+      ],
+      "geometryProof": {
+        "actualGeometry": {
+          "type": "INSTANCE",
+          "width": 16,
+          "height": 16,
+          "visible": true,
+          "rotation": 0,
+          "strokeWeight": 0.800000011920929,
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeAlign": "INSIDE",
+          "clipsContent": true,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "hex": "#FFFFFF"
+            }
+          ],
+          "strokes": [],
+          "children": [
+            {
+              "type": "VECTOR",
+              "x": 1.33203125,
+              "y": 1.33203125,
+              "width": 13.33335018157959,
+              "height": 13.333434104919434,
+              "visible": true,
+              "rotation": 0,
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1.33203125
+                ],
+                [
+                  0,
+                  1,
+                  1.33203125
+                ]
+              ],
+              "strokeWeight": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND",
+              "strokeAlign": "CENTER",
+              "isMask": false,
+              "maskType": "ALPHA",
+              "opacity": 1,
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "hex": "#757575"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceComponentVisualGeometryMatches": false,
+        "sourceComponentGeometryIgnoringPaintMatches": true,
+        "note": "Only visible paints participate. Invisible white fills and stored stroke fields without a stroke paint do not create visible marks.",
+        "providedShapeAttributesMatchIgnoringIds": true
+      },
+      "providedExport": {
+        "bytes": 1130,
+        "sha256": "ab7362e0136d0a5d007fb75c75d5e15e2d674c194bedd2e072334ba1b0a477ac",
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "byteIdenticalToLocalFile": false
+      }
+    },
+    {
+      "role": "model-qwen-dynamic-sample",
+      "sourceNodeId": "3192:27883",
+      "sourceKind": "RECTANGLE",
+      "actualSourceNodeId": null,
+      "imageHash": "0b5fbd3f1bca7be7331d9daab6d31284a768bfc4",
+      "path": "assets/picker/model-logo-qwen-sample.png",
+      "format": "png",
+      "width": 200,
+      "height": 200,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "bytes": 15750,
+      "sha256": "7d40989816c4decb4f780cace0642391d3f50e4afdabc024f649d1bc3ed148bd",
+      "sha1": "0b5fbd3f1bca7be7331d9daab6d31284a768bfc4",
+      "method": "reuse-existing-image-hash",
+      "reuseFrom": "references/picker.assets.json",
+      "referenceOnly": false,
+      "dynamicSample": true,
+      "instanceNodeIds": [
+        "3192:27883"
+      ],
+      "note": "This is the supplied sample of a product-owned dynamic image slot. Preserve original pixels and per-callsite FILL/filter/ratio; do not hardcode a tool/model catalog."
+    },
+    {
+      "role": "tool-mail-dynamic-sample",
+      "sourceNodeId": "I3163:22387;3074:91449",
+      "sourceKind": "RECTANGLE",
+      "actualSourceNodeId": null,
+      "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9",
+      "path": "assets/cards/tool-logo-mail-sample.png",
+      "format": "png",
+      "width": 800,
+      "height": 636,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "bytes": 150903,
+      "sha256": "1ce83bf179c6ade5daaa5a3f548b75d5aed3b685e0e9180d2dfdb4c1d5383237",
+      "sha1": "449621c003b3a3bb7e8f972a03ace0484928f8f9",
+      "method": "reuse-existing-image-hash",
+      "reuseFrom": "references/card.assets.json",
+      "referenceOnly": false,
+      "dynamicSample": true,
+      "instanceNodeIds": [
+        "I3163:22387;3074:91449",
+        "I3163:22388;3074:91449",
+        "I3163:22389;3074:91449",
+        "I3163:22391;3074:91449",
+        "I3163:22392;3074:91449",
+        "I3163:22393;3074:91449",
+        "I3163:22395;3074:91449",
+        "I3163:22396;3074:91449",
+        "I3163:22397;3074:91449",
+        "I3163:22399;3074:91449",
+        "I3163:22400;3074:91449",
+        "I3163:22401;3074:91449",
+        "I3163:22403;3074:91449",
+        "I3163:22404;3074:91449",
+        "I3163:22405;3074:91449"
+      ],
+      "note": "This is the supplied sample of a product-owned dynamic image slot. Preserve original pixels and per-callsite FILL/filter/ratio; do not hardcode a tool/model catalog."
+    },
+    {
+      "role": "tool-productivity-dynamic-sample",
+      "sourceNodeId": "I3163:22387;3074:91451",
+      "sourceKind": "RECTANGLE",
+      "actualSourceNodeId": null,
+      "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2",
+      "path": "assets/cards/tool-logo-productivity-sample.png",
+      "format": "png",
+      "width": 960,
+      "height": 960,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "bytes": 40078,
+      "sha256": "c0c6c050026b36481c10ea384772bcccd429c95c64642406ea26124eec35541c",
+      "sha1": "a6e6efe5773829825b4cce3abd9922cdfe849eb2",
+      "method": "reuse-existing-image-hash",
+      "reuseFrom": "references/card.assets.json",
+      "referenceOnly": false,
+      "dynamicSample": true,
+      "instanceNodeIds": [
+        "I3163:22387;3074:91451",
+        "I3163:22388;3074:91451",
+        "I3163:22389;3074:91451",
+        "I3163:22391;3074:91451",
+        "I3163:22392;3074:91451",
+        "I3163:22393;3074:91451",
+        "I3163:22395;3074:91451",
+        "I3163:22396;3074:91451",
+        "I3163:22397;3074:91451",
+        "I3163:22399;3074:91451",
+        "I3163:22400;3074:91451",
+        "I3163:22401;3074:91451",
+        "I3163:22403;3074:91451",
+        "I3163:22404;3074:91451",
+        "I3163:22405;3074:91451"
+      ],
+      "note": "This is the supplied sample of a product-owned dynamic image slot. Preserve original pixels and per-callsite FILL/filter/ratio; do not hardcode a tool/model catalog."
+    },
+    {
+      "role": "finder-content-fade-reference",
+      "sourceNodeId": "3163:22406",
+      "sourceKind": "RECTANGLE",
+      "actualSourceNodeId": null,
+      "path": "assets/dialog/content-fade-reference.png",
+      "format": "png",
+      "width": 1024,
+      "height": 44,
+      "displayWidth": 1137,
+      "displayHeight": 48,
+      "bytes": 8546,
+      "sha256": "9fdb205fe5b25720edd07a39a4834cb06c46be3428f25fa1a25e9a92e08908d0",
+      "method": "figma-supplied-gradient-raster-export",
+      "referenceOnly": true,
+      "runtimeAsset": false,
+      "originalImagePaint": false,
+      "note": "Source has GRADIENT_LINEAR paint and no ImagePaint/imageHash. This1024×44 export is a rasterized reference of the1137×48 paint layer, not original uploaded pixels. Source geometry/stops/gradientTransform belong to the composition contract; do not treat this file as an intrinsic bitmap or silently stretch its native bounds."
+    }
+  ],
+  "glyphSlots": [
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27854;3192:33995;2611:59908",
+      "sourceNodeId": "2199:23685",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/x/24.svg",
+      "displayWidth": 24,
+      "displayHeight": 24,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27878;3116:15",
+      "sourceNodeId": "3018:24695",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/agent/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 8,
+        "y": 6
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27878;3116:21",
+      "sourceNodeId": "2372:37015",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/chevron-down/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 74,
+        "y": 6
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27879;3116:15",
+      "sourceNodeId": "3018:24833",
+      "nodeKind": "INSTANCE",
+      "path": "assets/snb/folder-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 8,
+        "y": 6
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27879;3116:21",
+      "sourceNodeId": "2372:37015",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/chevron-down/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 74,
+        "y": 6
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27880;3116:15",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/snb/chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 8,
+        "y": 6
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27880;3116:21",
+      "sourceNodeId": "2372:37015",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/chevron-down/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 53,
+        "y": 6
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "3192:27885",
+      "sourceNodeId": null,
+      "nodeKind": "FRAME",
+      "path": "assets/picker/model-chevron-down-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 96,
+        "y": 6
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "3192:27900",
+      "sourceNodeId": "3192:23364",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/rotate-cw-clock/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 0,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27902;3130:25701",
+      "sourceNodeId": "2372:37015",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/chevron-down/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 45,
+        "y": 4
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "3192:27912",
+      "sourceNodeId": "2021:4624",
+      "nodeKind": "INSTANCE",
+      "path": "assets/dialog/advanced-up-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 27,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22377;3192:33995;2611:59908",
+      "sourceNodeId": "2199:23685",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/x/24.svg",
+      "displayWidth": 24,
+      "displayHeight": 24,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22379;2372:33773",
+      "sourceNodeId": "2308:44294",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/pin/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 0,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22379;2372:33810",
+      "sourceNodeId": "2312:46700",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/delay/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 0,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22379;2372:33874",
+      "sourceNodeId": "2320:15715",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/globe/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 0,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22379;2372:33911",
+      "sourceNodeId": "2320:15714",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/group/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 0,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22379;2372:33957",
+      "sourceNodeId": "2320:15713",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/user/16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 0,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22381;2309:45263",
+      "sourceNodeId": "2106:10483",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/search/20.svg",
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "slotPosition": {
+        "x": 0,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22385;3155:20480",
+      "sourceNodeId": "3018:24783",
+      "nodeKind": "INSTANCE",
+      "path": "assets/icons/delay/20.svg",
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "slotPosition": {
+        "x": 0,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22387;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22387;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22388;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22388;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22389;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22389;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22391;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22391;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22392;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22392;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22393;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22393;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22395;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22395;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22396;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22396;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22397;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22397;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22399;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22399;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22400;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22400;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22401;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22401;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22403;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22403;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22404;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22404;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22405;3074:91439;2909:49141",
+      "sourceNodeId": "3018:24913",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-more-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 2,
+        "y": 2
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22405;3074:91454",
+      "sourceNodeId": "2320:15942",
+      "nodeKind": "INSTANCE",
+      "path": "assets/cards/item-chat-16.svg",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#757575"
+      ],
+      "effectiveVisible": true,
+      "geometryStatus": "match"
+    }
+  ],
+  "imageSlots": [
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "3192:27883",
+      "effectiveVisible": true,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "slotPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "0b5fbd3f1bca7be7331d9daab6d31284a768bfc4"
+      },
+      "path": "assets/picker/model-logo-qwen-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22387;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22387;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22388;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22388;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22389;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22389;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22391;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22391;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22392;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22392;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22393;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22393;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22395;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22395;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22396;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22396;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22397;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22397;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22399;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22399;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22400;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22400;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22401;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22401;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22403;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22403;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22404;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22404;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22405;3074:91449",
+      "effectiveVisible": true,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "slotPosition": {
+        "x": 3.75,
+        "y": 5.441249847412109
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9"
+      },
+      "path": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22405;3074:91451",
+      "effectiveVisible": true,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "slotPosition": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "layerOpacity": 1,
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2"
+      },
+      "path": "assets/cards/tool-logo-productivity-sample.png"
+    }
+  ],
+  "nonAssetPaintSlots": [
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "3192:27913",
+      "name": "Rectangle 3471520",
+      "type": "RECTANGLE",
+      "effectiveVisible": false,
+      "width": 613,
+      "height": 48,
+      "x": -19,
+      "y": 346,
+      "opacity": 1,
+      "paint": {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [
+          {
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9686274528503418,
+              "b": 0.9764705896377563,
+              "a": 0
+            },
+            "position": 0,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9686274528503418,
+              "b": 0.9764705896377563,
+              "a": 1
+            },
+            "position": 0.692307710647583,
+            "boundVariables": {}
+          }
+        ],
+        "gradientTransform": [
+          [
+            0,
+            1,
+            -2.1853637064035702e-13
+          ],
+          [
+            -606.028564453125,
+            0,
+            303.5142822265625
+          ]
+        ]
+      },
+      "renderedAsAsset": false,
+      "note": "Preserve source gradient stops and transform. Figma context raster output does not change the original paint kind."
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "3163:22406",
+      "name": "content-fade",
+      "type": "RECTANGLE",
+      "effectiveVisible": true,
+      "width": 1137,
+      "height": 48,
+      "x": -19,
+      "y": 684,
+      "opacity": 1,
+      "paint": {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [
+          {
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9686274528503418,
+              "b": 0.9764705896377563,
+              "a": 0
+            },
+            "position": 0,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9686274528503418,
+              "b": 0.9764705896377563,
+              "a": 1
+            },
+            "position": 0.692307710647583,
+            "boundVariables": {}
+          }
+        ],
+        "gradientTransform": [
+          [
+            0,
+            1,
+            -2.1853637064035702e-13
+          ],
+          [
+            -606.028564453125,
+            0,
+            303.5142822265625
+          ]
+        ]
+      },
+      "renderedAsAsset": false,
+      "note": "Preserve source gradient stops and transform. Figma context raster output does not change the original paint kind."
+    }
+  ],
+  "excludedGlyphSlots": [
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27854;2324:30497;2308:45135",
+      "name": "icon/arrow-left/20",
+      "type": "INSTANCE",
+      "sourceNodeId": "2199:23673",
+      "effectiveVisible": false,
+      "width": 24,
+      "height": 24,
+      "x": 4,
+      "y": 4,
+      "geometryRef": "g000",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27858;8845:18214",
+      "name": "System icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "2021:4370",
+      "effectiveVisible": false,
+      "width": 14,
+      "height": 14,
+      "x": 99,
+      "y": 3,
+      "geometryRef": "g002",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27858;8845:18221;6994:17618",
+      "name": "System icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "2021:3373",
+      "effectiveVisible": false,
+      "width": 16,
+      "height": 16.27197265625,
+      "x": 4,
+      "y": 3.864013671875,
+      "geometryRef": "g003",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "3192:27865",
+      "name": "System icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "2021:4370",
+      "effectiveVisible": false,
+      "width": 14,
+      "height": 14,
+      "x": 99,
+      "y": 3,
+      "geometryRef": "g002",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "3192:27875",
+      "name": "System icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "2021:2808",
+      "effectiveVisible": false,
+      "width": 12,
+      "height": 12,
+      "x": 1,
+      "y": 1,
+      "geometryRef": "g004",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "3192:27894",
+      "name": "System icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "2021:4370",
+      "effectiveVisible": false,
+      "width": 14,
+      "height": 14,
+      "x": 36,
+      "y": 3,
+      "geometryRef": "g002",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27902;3130:25695",
+      "name": "leading-icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "3018:24932",
+      "effectiveVisible": false,
+      "width": 16,
+      "height": 16,
+      "x": 4,
+      "y": 4,
+      "geometryRef": "g011",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "3192:27906",
+      "name": "leading-icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "3018:24950",
+      "effectiveVisible": false,
+      "width": 16,
+      "height": 16,
+      "x": 0,
+      "y": 2,
+      "geometryRef": "g012",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27908;3130:25695",
+      "name": "leading-icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "3018:24932",
+      "effectiveVisible": false,
+      "width": 16,
+      "height": 16,
+      "x": 4,
+      "y": 4,
+      "geometryRef": "g011",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27908;3130:25701",
+      "name": "trailing-icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "2372:37015",
+      "effectiveVisible": false,
+      "width": 16,
+      "height": 16,
+      "x": 65,
+      "y": 4,
+      "geometryRef": "g006",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27916;3025:25000",
+      "name": "leading-icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "3018:24932",
+      "effectiveVisible": false,
+      "width": 20,
+      "height": 20,
+      "x": 16,
+      "y": 10,
+      "geometryRef": "g014",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27916;3025:25003",
+      "name": "trailing-icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "3018:24932",
+      "effectiveVisible": false,
+      "width": 20,
+      "height": 20,
+      "x": 80,
+      "y": 10,
+      "geometryRef": "g014",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27917;3074:97440",
+      "name": "leading-icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "3018:24932",
+      "effectiveVisible": false,
+      "width": 20,
+      "height": 20,
+      "x": 16,
+      "y": 10,
+      "geometryRef": "g015",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3192:27853",
+      "nodeId": "I3192:27917;3074:97442",
+      "name": "trailing-icon",
+      "type": "INSTANCE",
+      "sourceNodeId": "3018:24932",
+      "effectiveVisible": false,
+      "width": 20,
+      "height": 20,
+      "x": 80,
+      "y": 10,
+      "geometryRef": "g015",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22377;2324:30497;2308:45135",
+      "name": "icon/arrow-left/20",
+      "type": "INSTANCE",
+      "sourceNodeId": "2199:23673",
+      "effectiveVisible": false,
+      "width": 24,
+      "height": 24,
+      "x": 4,
+      "y": 4,
+      "geometryRef": "g000",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22381;3124:25480",
+      "name": "icon/filter/16",
+      "type": "INSTANCE",
+      "sourceNodeId": "3016:104216",
+      "effectiveVisible": false,
+      "width": 16,
+      "height": 16,
+      "x": 4,
+      "y": 4,
+      "geometryRef": "g008",
+      "reason": "hidden-by-node-or-ancestor",
+      "runtimeAsset": false
+    }
+  ],
+  "excludedPrimitiveSlots": [
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22387;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22388;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22389;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22391;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22392;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22393;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22395;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22396;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22397;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22399;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22400;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22401;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22403;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22404;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    },
+    {
+      "rootNodeId": "3163:22376",
+      "nodeId": "I3163:22405;3074:90977",
+      "name": "dot",
+      "effectiveVisible": false,
+      "width": 8,
+      "height": 8,
+      "x": 37,
+      "y": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "hex": "#3B82F6"
+        }
+      ],
+      "runtimeAsset": false,
+      "reason": "hidden-dot-by-instance-override"
+    }
+  ],
+  "localAdapters": [
+    {
+      "role": "legacy-close-control",
+      "sourceNodeId": "2611:59907",
+      "nodeIds": [
+        "I3192:27854;3192:33995",
+        "I3163:22377;3192:33995"
+      ],
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "radius": 4,
+      "glyphSourceNodeId": "2199:23685",
+      "glyphWidth": 24,
+      "glyphHeight": 24,
+      "glyphStrokeWidth": 1.5,
+      "note": "Local legacy geometry adapter. Existing AgentHubIconButton32 uses radius6/glyph20; do not substitute it wholesale."
+    },
+    {
+      "role": "form-legacy-scrollbar",
+      "sourceNodeId": "2019:3708",
+      "nodeId": "3192:27914",
+      "trackWidth": 11,
+      "trackHeight": 180,
+      "thumbWidth": 4,
+      "thumbHeight": 160,
+      "thumbRadius": 8,
+      "renderedAsAsset": false,
+      "note": "Legacy form source, not AgentHubScrollbar3155:20473. Native overflow/focus behavior is still product-owned."
+    },
+    {
+      "role": "finder-scrollbar",
+      "sourceNodeId": "3155:20473",
+      "nodeId": "3163:22407",
+      "trackWidth": 11,
+      "trackHeight": 180,
+      "thumbWidth": 4,
+      "thumbHeight": 160,
+      "thumbRadius": 9999,
+      "renderedAsAsset": false,
+      "note": "Existing AgentHubScrollbar source; sample thumb geometry is not a universal runtime formula."
+    }
+  ],
+  "counts": {
+    "assets": 21,
+    "runtimeAssets": 20,
+    "visibleGlyphSlots": 49,
+    "visibleImageSlots": 31,
+    "existingFilesReused": 19,
+    "newRuntimeSvgFiles": 1,
+    "newReferencePngFiles": 1,
+    "newFiles": 2,
+    "newBytes": 8849,
+    "excludedGlyphSlots": 16,
+    "excludedPrimitiveSlots": 15
+  },
+  "verification": {
+    "sourceIdentityChecked": true,
+    "effectiveAncestorVisibilityChecked": true,
+    "nativeVsDisplayGeometryChecked": true,
+    "actualInstancePaintAndSourceGeometryChecked": true,
+    "suppliedSvgShapeEquivalenceChecked": true,
+    "wholePinNative16Verified": true,
+    "pngSourceImageHashesChecked": true,
+    "gradientRasterExportSeparatedFromImagePaint": true,
+    "localBytesSha256AndNativeRootBoundsChecked": true,
+    "runtimeVerified": false,
+    "allStatesVerified": false,
+    "issues": []
+  },
+  "notes": [
+    "Asset paths are relative to docs/agent-hub/design. Temporary Figma download URLs are never runtime paths. Reused original files are unchanged; only one whole native16 up SVG and one reference-only gradient PNG are added.",
+    "Effective visibility includes hidden ancestors. Hidden back arrow, error/info, resize, schedule row helpers, footer plus slots, filter branch and dot helpers are excluded; stored fill/stroke fields without a visible paint do not create a rendered glyph.",
+    "All15 card rows are measured scroll content. Their glyph/image nodes are visible in the Figma tree even when clipped outside the current viewport; this is not proof that every row appears simultaneously or that scrolling is implemented.",
+    "Form model chevron FRAME matches existing Picker whole16 SVG by exact shape/stroke/paint; no component source identity is inferred.",
+    "Main archive full pin16 is reused. The supplied narrow GROUP fragment is provenance only; rotation and clip already exist in the whole16 SVG.",
+    "Qwen and tool images are dynamic sample data. Original file SHA1 matches each Figma ImagePaint.imageHash; aspect ratios, actual FILL and unchanged filters are recorded per callsite.",
+    "Finder content-fade is gradient paint; its supplied PNG is a reference export with different native bounds, not original uploaded image content.",
+    "The actual recent-section delay20 glyph is present and matches the existing asset byte-for-byte despite an empty glyph div in generated context.",
+    "Consuming source/export and runtime dialog behavior are not verified. This source snapshot does not force shared frontend dependencies or change other solutions."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubChatComposer",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "2611:69436"
+  },
+  "assets": [
+    {
+      "role": "attach",
+      "sourceNodeId": "2308:44299",
+      "path": "assets/icons/plus/24.svg",
+      "format": "svg",
+      "width": 24,
+      "height": 24,
+      "bytes": 311,
+      "sha256": "0fc51b482c2f277d991961bb9c299a89f99fb9cfe108a72f52479c920cb75da3",
+      "method": "reuse-existing-exact-source",
+      "instanceNodeIds": [
+        "I3074:92878;3074:92856",
+        "I3074:92877;3074:92856",
+        "I3074:92879;3074:92856",
+        "I3074:92880;3074:92856"
+      ]
+    },
+    {
+      "role": "send",
+      "sourceNodeId": "2199:23680",
+      "path": "assets/icons/arrow-up/24.svg",
+      "format": "svg",
+      "width": 24,
+      "height": 24,
+      "bytes": 319,
+      "sha256": "b0553ba1555d85b8a00689b73e4c5ee173cfbb188205c1443c9eadb65da3bbf8",
+      "method": "reuse-existing-exact-source",
+      "instanceNodeIds": [
+        "I3074:93418;3074:92860",
+        "I3074:93165;3074:92860",
+        "I3074:93419;3074:92860",
+        "I3074:93420;3074:92860"
+      ]
+    },
+    {
+      "role": "project-selector",
+      "sourceNodeId": "2037:4537",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "instanceNodeIds": [
+        "2674:15600",
+        "2674:15587",
+        "2674:15605",
+        "2674:15614"
+      ],
+      "exportedInstanceNodeId": "2674:15587",
+      "path": "assets/chat-composer/project-folder-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "strokeWidth": 1,
+      "color": "#555555",
+      "bytes": 1272,
+      "sha256": "d87e6412812cc5d7c2ee8df6e391a8beccdc9b67c7a88915a4341d2d15ede395",
+      "method": "exact-resized-instance-export"
+    }
+  ],
+  "notes": [
+    "Plus/up reuse existing exact-source glyphs at24px. Apply recorded semantic state colors through the product icon adapter without changing geometry. The folder asset preserves the actual16px resized instance, rather than displaying the20px source asset at a forced CSS size."
+  ]
+}

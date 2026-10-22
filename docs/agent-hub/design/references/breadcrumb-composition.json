@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Figma Breadcrumb instances against standalone separator snapshots",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "limits": [
+    "Two five-label samples; dash exists on the separator only",
+    "Original slash source differs from the copied standalone source; displayed Light token overrides match",
+    "No TextButton/IconButton reuse, hover/pressed/focus/dark, overflow menu or browser navigation is verified"
+  ],
+  "instances": [
+    {
+      "breadcrumbVariant": "slash",
+      "nodeId": "I2427:25432;2372:36929",
+      "sourceNodeId": "2372:36931",
+      "standaloneNodeId": "2427:25424",
+      "status": "match"
+    },
+    {
+      "breadcrumbVariant": "slash",
+      "nodeId": "I2427:25433;2372:36929",
+      "sourceNodeId": "2372:36931",
+      "standaloneNodeId": "2427:25424",
+      "status": "match"
+    },
+    {
+      "breadcrumbVariant": "slash",
+      "nodeId": "I2427:25434;2372:36929",
+      "sourceNodeId": "2372:36931",
+      "standaloneNodeId": "2427:25424",
+      "status": "match"
+    },
+    {
+      "breadcrumbVariant": "slash",
+      "nodeId": "I2427:25435;2372:36929",
+      "sourceNodeId": "2372:36931",
+      "standaloneNodeId": "2427:25424",
+      "status": "match"
+    },
+    {
+      "breadcrumbVariant": "arrow",
+      "nodeId": "I2427:25439;2372:36929",
+      "sourceNodeId": "2427:25428",
+      "standaloneNodeId": "2427:25428",
+      "status": "match"
+    },
+    {
+      "breadcrumbVariant": "arrow",
+      "nodeId": "I2427:25440;2372:36929",
+      "sourceNodeId": "2427:25428",
+      "standaloneNodeId": "2427:25428",
+      "status": "match"
+    },
+    {
+      "breadcrumbVariant": "arrow",
+      "nodeId": "I2427:25441;2372:36929",
+      "sourceNodeId": "2427:25428",
+      "standaloneNodeId": "2427:25428",
+      "status": "match"
+    },
+    {
+      "breadcrumbVariant": "arrow",
+      "nodeId": "I2427:25442;2372:36929",
+      "sourceNodeId": "2427:25428",
+      "standaloneNodeId": "2427:25428",
+      "status": "match"
+    }
+  ],
+  "issues": []
+}

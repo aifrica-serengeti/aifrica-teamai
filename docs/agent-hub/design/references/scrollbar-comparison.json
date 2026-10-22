@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Single visible vertical Light Scrollbar sample and documented common baseline",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "status": "match",
+  "sample": {
+    "rootNodeId": "3155:20473",
+    "thumbNodeId": "3155:20472",
+    "rootWidth": 11,
+    "rootHeight": 180,
+    "thumbWidth": 4,
+    "thumbHeight": 160,
+    "thumbPosition": {
+      "x": 3,
+      "y": 3
+    },
+    "rightRemainder": 4,
+    "bottomRemainder": 17,
+    "contentRatioVerified": false,
+    "runtimeFixedLengthAdopted": false
+  },
+  "commonComparison": {
+    "baselineKind": "documented-reference-contract",
+    "shared": {
+      "thumbWidth": 4,
+      "radius": 9999,
+      "initialOffset": 3
+    },
+    "differences": [
+      {
+        "property": "Light default paint",
+        "common": "rgba(85,85,85,0.30)",
+        "agentHub": "#DDDDDD opaque",
+        "status": "intentional-extension"
+      },
+      {
+        "property": "nominal cross-axis geometry",
+        "common": 10,
+        "agentHub": 11,
+        "commonCalculation": "3+4+3",
+        "status": "intentional-extension"
+      }
+    ],
+    "commonHover": "rgba(85,85,85,0.55)",
+    "agentHubHoverVerified": false,
+    "viewportReservationVerified": false
+  },
+  "requiredAssetCount": 0,
+  "limits": [
+    "The11x180 frame and4x160 rectangle are comparison geometry; do not hardcode a160px runtime thumb or shrink a product viewport to11px",
+    "Right4/bottom17 are arithmetic sample remainders; x3/y3 and MIN/SCALE do not establish symmetric endpoints, scroll ratio or drag behavior",
+    "The empty root paints are a track-reference property; do not import a wrapper surface/border/padding or infer a screenshot backdrop fill",
+    "Common native overflow, dynamic geometry and sibling overlay ownership remain an adoption contract; source examples do not prove consuming-product keyboard/focus behavior",
+    "Hover/hidden/horizontal/dark/loading/disabled, pointer capture/drag, wheel/keyboard, ARIA ranges, focus, resize and nested ownership require product verification",
+    "No SVG/PNG asset is needed for this primitive rectangle, and different Scroll bar sources in existing recipes are not globally replaced"
+  ],
+  "issues": []
+}

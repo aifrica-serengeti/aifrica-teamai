@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "Divider",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "requestedNodeId": "3074:101330",
+    "requestedNodeType": "FRAME",
+    "nodeIds": [
+      "3155:20478"
+    ],
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "hiddenInstanceChildrenIncluded": true,
+    "method": "Sparse board metadata resolved to the divider child; child get_design_context screenshot and read-only Plugin API complete tree, geometry, paints, properties, modes/reactions/transforms and variable alias closure"
+  },
+  "implementation": {
+    "status": "unmapped",
+    "source": null,
+    "export": null
+  },
+  "roots": [
+    {
+      "componentId": "Divider",
+      "role": "horizontal-divider-reference",
+      "description": "",
+      "propertyDefinitions": {},
+      "variantProperties": null,
+      "tree": {
+        "nodeId": "3155:20478",
+        "name": "divider",
+        "type": "COMPONENT",
+        "visible": true,
+        "styleRef": "s000",
+        "explicitVariableModes": {},
+        "resolvedVariableModes": {
+          "VariableCollectionId:3077:14": "3077:0",
+          "VariableCollectionId:3081:14": "3081:0"
+        },
+        "children": [
+          {
+            "nodeId": "3155:20477",
+            "name": "line",
+            "type": "RECTANGLE",
+            "visible": true,
+            "styleRef": "s001",
+            "position": {
+              "x": 0,
+              "y": 8
+            },
+            "explicitVariableModes": {},
+            "resolvedVariableModes": {
+              "VariableCollectionId:3077:14": "3077:0",
+              "VariableCollectionId:3081:14": "3081:0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "styles": {
+    "s000": {
+      "layout": {
+        "width": 168,
+        "height": 17,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "layoutMode": "VERTICAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": false,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 8,
+          "bottom": 8
+        },
+        "gap": 10
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER",
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0,
+        "cornerRadii": {
+          "topLeftRadius": 0,
+          "topRightRadius": 0,
+          "bottomLeftRadius": 0,
+          "bottomRightRadius": 0
+        }
+      },
+      "bindings": {}
+    },
+    "s001": {
+      "layout": {
+        "width": 168,
+        "height": 1,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#DDDDDD",
+            "token": {
+              "id": "VariableID:3081:106",
+              "name": "color/border/default"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:106",
+                "name": "color/border/default"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER",
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0,
+        "cornerRadii": {
+          "topLeftRadius": 0,
+          "topRightRadius": 0,
+          "bottomLeftRadius": 0,
+          "bottomRightRadius": 0
+        }
+      },
+      "bindings": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:106",
+            "name": "color/border/default"
+          }
+        ]
+      }
+    }
+  },
+  "prototypeReactions": [
+    {
+      "nodeId": "3155:20478",
+      "reactions": []
+    },
+    {
+      "nodeId": "3155:20477",
+      "reactions": []
+    }
+  ],
+  "transforms": [
+    {
+      "nodeId": "3155:20478",
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          8180
+        ],
+        [
+          0,
+          1,
+          1586
+        ]
+      ]
+    },
+    {
+      "nodeId": "3155:20477",
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          8
+        ]
+      ]
+    }
+  ],
+  "comparison": {
+    "commonComponentId": "Divider",
+    "scope": "supplied horizontal Light appearance",
+    "status": "no-confirmed-visual-difference",
+    "newSolutionContract": false,
+    "runtimeVerified": false,
+    "allStatesVerified": false,
+    "same": {
+      "lineThickness": 1,
+      "lineFill": "#DDDDDD",
+      "linePaintOpacity": 1,
+      "lineNodeOpacity": 1,
+      "paddingBlock": 8,
+      "paddingInline": 0,
+      "totalCrossAxisSize": 17,
+      "surfacePaint": null,
+      "renderedBorder": null,
+      "shadow": null,
+      "radius": 0
+    },
+    "sampleWidth": 168,
+    "runtimeFixedWidthAdopted": false,
+    "darkVerified": false,
+    "verticalVerified": false,
+    "motionVerified": false
+  },
+  "observations": [
+    {
+      "kind": "scope",
+      "note": "The requested3074:101330 is the whole Component board. The actual divider3155:20478 is its standalone COMPONENT child; only two layers, no INSTANCE/TEXT/SLOT, component property definitions{}, variantPropertiesnull and no reactions."
+    },
+    {
+      "kind": "geometry",
+      "note": "Root168x17, vertical auto layout, horizontalFIXED/verticalHUG, px0/py8, stored gap10. Only one child exists, so gap10 produces no inter-item space. Child at0,8 is168x1, horizontalFILL/verticalFIXED/AUTO. Height17=8+1+8;168 is sample width, not a fixed consuming width."
+    },
+    {
+      "kind": "paint",
+      "note": "Root is transparent with no fills/strokes/effects; line is opaque SOLID#DDD with no strokes/effects, all radii0. Stored strokeWeight1 on either layer is not an extra rendered border. Source is a filled rectangle, not a1px stroke plus another filled line."
+    },
+    {
+      "kind": "same-common",
+      "note": "Measured horizontal Light geometry and paint agree with common Divider:1px line,8px padding on each side,17px total, full parent width, transparent wrapper and#DDD. Semantic color/border/default aliases gray/300; map to verified local border-default token without a new palette value. No AgentHubDivider ID, duplicate skill or dedicated override is added."
+    },
+    {
+      "kind": "mapping",
+      "note": "Figma component is a design reference, not the common Divider implementation itself. No actual consuming source/export has been verified. Preserve common decorative/semantic separation and noninteractive behavior; actual source and reduced-motion adoption require product verification."
+    },
+    {
+      "kind": "existing-recipes",
+      "note": "Existing Agent Hub Divider instances source2019:118 and2874:45712 have their own vertical size overrides. They are not this3155:20478 source and are not globally replaced. Menu/Flyout separators, Breadcrumb glyphs and OutputViewer dot are separate roles."
+    },
+    {
+      "kind": "limits",
+      "note": "Only visible horizontal Light sample was supplied. Common dark#555, vertical variant, transition240ms and semantic/ARIA behavior are baseline contracts, not measured Agent Hub variants. Snapshot equality does not prove runtime or all-state parity."
+    }
+  ]
+}

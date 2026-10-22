@@ -1,0 +1,2399 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentIds": [
+    "AgentHubNavIcon",
+    "AgentHubNavItem",
+    "AgentHubNavRail",
+    "AgentHubSNBSectionHeader",
+    "AgentHubSNBItem",
+    "AgentHubSNBPanel",
+    "AgentHubSNB"
+  ],
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3074:101398",
+      "2611:62007",
+      "2611:62032",
+      "2611:62055",
+      "2611:62413",
+      "2611:62441",
+      "2611:63754"
+    ],
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "method": "Figma MCP complete-board and five high-fidelity child get_design_context responses with screenshots, provided SVG downloads via curl -L, full raw source/actual-instance/paint/visibility and byte hash verification"
+  },
+  "assets": [
+    {
+      "role": "nav-home-28",
+      "sourceNodeId": "2611:62006",
+      "sourceRootNodeId": "2611:62007",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2611:62006",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-home-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1337,
+      "sha256": "20918d8d15a6bf5f2a6b47142d3bb626e31328c85a5140a40d397984c174ca62",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62007",
+          "generatedConstant": "imgIconHome",
+          "sourceNodeId": "2611:62006",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "20918d8d15a6bf5f2a6b47142d3bb626e31328c85a5140a40d397984c174ca62"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-book-28",
+      "sourceNodeId": "2611:62005",
+      "sourceRootNodeId": "2611:62007",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2611:62005",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-book-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1584,
+      "sha256": "1b186181f440620523129198c9e6fe72d79f068c9946e33bab7aff21bcf0de86",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62007",
+          "generatedConstant": "imgIconBook",
+          "sourceNodeId": "2611:62005",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "1b186181f440620523129198c9e6fe72d79f068c9946e33bab7aff21bcf0de86"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-clock-28",
+      "sourceNodeId": "2611:62004",
+      "sourceRootNodeId": "2611:62007",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2611:62004",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-clock-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1613,
+      "sha256": "1f4bee33fe4897ca22c407b685c6483703a3aa5f2fd49130e3442e7aaab69991",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62007",
+          "generatedConstant": "imgIconClock",
+          "sourceNodeId": "2611:62004",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "1f4bee33fe4897ca22c407b685c6483703a3aa5f2fd49130e3442e7aaab69991"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-search-28",
+      "sourceNodeId": "2611:71783",
+      "sourceRootNodeId": "2611:62007",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2611:71783",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-search-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1180,
+      "sha256": "3e2d16043ce1402f3c1784cd00c2ae7c5a35d1b38348a8b276c856829884cd4d",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62007",
+          "generatedConstant": "imgIconSearch",
+          "sourceNodeId": "2611:71783",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "3e2d16043ce1402f3c1784cd00c2ae7c5a35d1b38348a8b276c856829884cd4d"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "folder-16",
+      "sourceNodeId": "3108:32",
+      "sourceRootNodeId": "2611:62441",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3018:24833",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "svgLiteralColors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1272,
+      "sha256": "0a130653023fa33578eb326f8a43b3b9527e2cbf15ca9c7bd03be29d21650b8a",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62441",
+          "generatedConstant": "imgIconForder16",
+          "sourceNodeId": "3108:32",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "0a130653023fa33578eb326f8a43b3b9527e2cbf15ca9c7bd03be29d21650b8a"
+        },
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIconForder16",
+          "sourceNodeId": "3108:32",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "0a130653023fa33578eb326f8a43b3b9527e2cbf15ca9c7bd03be29d21650b8a"
+        }
+      ],
+      "note": "Exact supplied whole16 export. Original source name can be misleading; map by actual source identity and this callsite paint."
+    },
+    {
+      "role": "more-16",
+      "sourceNodeId": "I3057:47033;2909:49141",
+      "sourceRootNodeId": "2611:62441",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2751:16967",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/more-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1112,
+      "sha256": "ff00cd45ed3af3561f500ee2be821c5237a9c199a9acc311d463ab2320ae74f7",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62441",
+          "generatedConstant": "imgIcon",
+          "sourceNodeId": "I3057:47033;2909:49141",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "ff00cd45ed3af3561f500ee2be821c5237a9c199a9acc311d463ab2320ae74f7"
+        },
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon3",
+          "sourceNodeId": "I3057:47033;2909:49141",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "ff00cd45ed3af3561f500ee2be821c5237a9c199a9acc311d463ab2320ae74f7"
+        }
+      ],
+      "note": "Exact supplied whole16 export. Original source name can be misleading; map by actual source identity and this callsite paint."
+    },
+    {
+      "role": "more-frame-16",
+      "sourceNodeId": "2611:64605",
+      "sourceRootNodeId": "2611:62441",
+      "sourceKind": "FRAME",
+      "actualSourceNodeId": null,
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/more-frame-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1109,
+      "sha256": "aadbd54582e2e8434b25b3e20790805053c5a183586fd89cef3e829b53bf1f1d",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62441",
+          "generatedConstant": "imgFrame",
+          "sourceNodeId": "2611:64605",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "aadbd54582e2e8434b25b3e20790805053c5a183586fd89cef3e829b53bf1f1d"
+        },
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgFrame",
+          "sourceNodeId": "2611:64605",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "aadbd54582e2e8434b25b3e20790805053c5a183586fd89cef3e829b53bf1f1d"
+        }
+      ],
+      "note": "Direct FRAME whole16 export, not an IconButton/Icon source instance. Preserve complete asset, no path extraction."
+    },
+    {
+      "role": "nav-clock-selected-28",
+      "sourceNodeId": "2611:62024",
+      "sourceRootNodeId": "2611:62032",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:62004",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-clock-selected-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#3B82F6"
+      ],
+      "svgLiteralColors": [
+        "#3B82F6",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1613,
+      "sha256": "23e75682f1fbcc623910877c4e483673912d79880a4917815a13aa84396bb17d",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62032",
+          "generatedConstant": "imgIcon",
+          "sourceNodeId": "2611:62024",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "23e75682f1fbcc623910877c4e483673912d79880a4917815a13aa84396bb17d"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-clock-item-enabled-28",
+      "sourceNodeId": "2611:62008",
+      "sourceRootNodeId": "2611:62032",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:62004",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-clock-item-enabled-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1613,
+      "sha256": "be3b0789eb9a9945a1cb2d87861ba11120e2e2a75a004b6f71dd49d1f9ae6e17",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62032",
+          "generatedConstant": "imgIcon1",
+          "sourceNodeId": "2611:62008",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "be3b0789eb9a9945a1cb2d87861ba11120e2e2a75a004b6f71dd49d1f9ae6e17"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-home-selected-28",
+      "sourceNodeId": "I2611:62033;2611:62024",
+      "sourceRootNodeId": "2611:62055",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:62006",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-home-selected-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#3B82F6"
+      ],
+      "svgLiteralColors": [
+        "#3B82F6",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1337,
+      "sha256": "fc5afe39d79a1cc09470b66172f04b799d2522d8a4dade6fcc3ca7e7e21a0b96",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62055",
+          "generatedConstant": "imgIcon",
+          "sourceNodeId": "I2611:62033;2611:62024",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "fc5afe39d79a1cc09470b66172f04b799d2522d8a4dade6fcc3ca7e7e21a0b96"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-search-rail-28",
+      "sourceNodeId": "I2611:62045;2611:62008",
+      "sourceRootNodeId": "2611:62055",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:71783",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-search-rail-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1182,
+      "sha256": "e10fde127bcde93c802b47f205498d06964156cd2988f1b7174c867cc711bef4",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62055",
+          "generatedConstant": "imgIcon1",
+          "sourceNodeId": "I2611:62045;2611:62008",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "e10fde127bcde93c802b47f205498d06964156cd2988f1b7174c867cc711bef4"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-book-rail-28",
+      "sourceNodeId": "I2611:71759;2611:62008",
+      "sourceRootNodeId": "2611:62055",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:62005",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-book-rail-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1584,
+      "sha256": "f168487152c589170cc4e23e22e8e4d4898a81c506733f027b9d0f19eb138185",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62055",
+          "generatedConstant": "imgIcon2",
+          "sourceNodeId": "I2611:71759;2611:62008",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "f168487152c589170cc4e23e22e8e4d4898a81c506733f027b9d0f19eb138185"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-clock-rail-28",
+      "sourceNodeId": "I2611:62038;2611:62008",
+      "sourceRootNodeId": "2611:62055",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:62004",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-clock-rail-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1613,
+      "sha256": "5890db674f52f0363d44d79d6ae786f134782d6210ebf20d246990aa0bc98be9",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62055",
+          "generatedConstant": "imgIcon3",
+          "sourceNodeId": "I2611:62038;2611:62008",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "5890db674f52f0363d44d79d6ae786f134782d6210ebf20d246990aa0bc98be9"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "settings-20",
+      "sourceNodeId": "I3065:47988;2427:25107",
+      "sourceRootNodeId": "2611:62055",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3065:48565",
+      "sourceWidth": 24,
+      "sourceHeight": 24,
+      "path": "assets/snb/settings-20.svg",
+      "format": "svg",
+      "width": 20.0,
+      "height": 20.0,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 2680,
+      "sha256": "0a923beec4add5515ea0d6f184daad1ded148ee2e48cf1703029c073acc78493",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62055",
+          "generatedConstant": "imgIcon4",
+          "sourceNodeId": "I3065:47988;2427:25107",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "0a923beec4add5515ea0d6f184daad1ded148ee2e48cf1703029c073acc78493"
+        }
+      ],
+      "note": "Native24 solid settings source exported/displayed20; preserve this supplied whole20 asset rather than scaling the library24 asset."
+    },
+    {
+      "role": "section-chevron-down-16",
+      "sourceNodeId": "2611:62351",
+      "sourceRootNodeId": "2611:62413",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2372:37015",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/section-chevron-down-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#656B74"
+      ],
+      "svgLiteralColors": [
+        "#656B74"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 311,
+      "sha256": "6782d46ae57998982af29b1301115781d726ff904d1a0eb1eb4c202a77ac3159",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62413",
+          "generatedConstant": "imgIconChevronDown16",
+          "sourceNodeId": "2611:62351",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "6782d46ae57998982af29b1301115781d726ff904d1a0eb1eb4c202a77ac3159"
+        },
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIconChevronDown16",
+          "sourceNodeId": "2611:62351",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "6782d46ae57998982af29b1301115781d726ff904d1a0eb1eb4c202a77ac3159"
+        }
+      ],
+      "note": "Actual source is the named glyph, with SNB#656B74 paint override; shared source identity does not imply the default#1C1C1C asset is an exact paint match."
+    },
+    {
+      "role": "section-direct-16",
+      "sourceNodeId": "I3016:104075;2909:49141",
+      "sourceRootNodeId": "2611:62413",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3016:104217",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/section-direct-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#656B74"
+      ],
+      "svgLiteralColors": [
+        "#656B74"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 325,
+      "sha256": "3062d9c981905c2cc9dfec9ed843fa3efb96af2b79b9e4fb21e8d62ec7a38fa6",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62413",
+          "generatedConstant": "imgIcon",
+          "sourceNodeId": "I3016:104075;2909:49141",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "3062d9c981905c2cc9dfec9ed843fa3efb96af2b79b9e4fb21e8d62ec7a38fa6"
+        },
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon",
+          "sourceNodeId": "I3016:104075;2909:49141",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "3062d9c981905c2cc9dfec9ed843fa3efb96af2b79b9e4fb21e8d62ec7a38fa6"
+        }
+      ],
+      "note": "Actual source is the named glyph, with SNB#656B74 paint override; shared source identity does not imply the default#1C1C1C asset is an exact paint match."
+    },
+    {
+      "role": "section-filter-16",
+      "sourceNodeId": "I3016:104116;2909:49141",
+      "sourceRootNodeId": "2611:62413",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3016:104216",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/section-filter-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#656B74"
+      ],
+      "svgLiteralColors": [
+        "#656B74"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1012,
+      "sha256": "5b90be9b9a440a25883d4df7f9eeb734435e7fef388ac2e0dbb82a0bf22896f7",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62413",
+          "generatedConstant": "imgIcon1",
+          "sourceNodeId": "I3016:104116;2909:49141",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "5b90be9b9a440a25883d4df7f9eeb734435e7fef388ac2e0dbb82a0bf22896f7"
+        },
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon1",
+          "sourceNodeId": "I3016:104116;2909:49141",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "5b90be9b9a440a25883d4df7f9eeb734435e7fef388ac2e0dbb82a0bf22896f7"
+        }
+      ],
+      "note": "Actual source is the named glyph, with SNB#656B74 paint override; shared source identity does not imply the default#1C1C1C asset is an exact paint match."
+    },
+    {
+      "role": "section-plus-16",
+      "sourceNodeId": "I3016:104157;2909:49141",
+      "sourceRootNodeId": "2611:62413",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2365:15015",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/section-plus-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#656B74"
+      ],
+      "svgLiteralColors": [
+        "#656B74"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 408,
+      "sha256": "e98fde72ad54ff44c3e44de5b89cd64b1654b55fa2994157c71dfbe523b52ca3",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "2611:62413",
+          "generatedConstant": "imgIcon2",
+          "sourceNodeId": "I3016:104157;2909:49141",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "e98fde72ad54ff44c3e44de5b89cd64b1654b55fa2994157c71dfbe523b52ca3"
+        },
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon2",
+          "sourceNodeId": "I3016:104157;2909:49141",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "e98fde72ad54ff44c3e44de5b89cd64b1654b55fa2994157c71dfbe523b52ca3"
+        }
+      ],
+      "note": "Actual source is the named glyph, with SNB#656B74 paint override; shared source identity does not imply the default#1C1C1C asset is an exact paint match."
+    },
+    {
+      "role": "new-chat-plus-white-20",
+      "sourceNodeId": "I3074:54645;3025:24934",
+      "sourceRootNodeId": "2611:63754",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3018:24932",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/snb/new-chat-plus-white-20.svg",
+      "format": "svg",
+      "width": 20.0,
+      "height": 20.0,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "colors": [
+        "#FFFFFF"
+      ],
+      "svgLiteralColors": [
+        "white"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 454,
+      "sha256": "b07b89b307c02563aa44ae95f3c9bf3c34416fef9cddf13978d9b5cb501dbb92",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgLeadingIcon",
+          "sourceNodeId": "I3074:54645;3025:24934",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "b07b89b307c02563aa44ae95f3c9bf3c34416fef9cddf13978d9b5cb501dbb92"
+        }
+      ],
+      "note": "Actual primary40 new-chat leading plus20 uses white paint and1.25px strokes. Do not recolor the existing black plus asset or duplicate the complete Button."
+    },
+    {
+      "role": "new-chat-plus-white-hidden-20",
+      "sourceNodeId": "I3074:54645;3025:24937",
+      "sourceRootNodeId": "2611:63754",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3018:24932",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/snb/new-chat-plus-white-hidden-20.svg",
+      "format": "svg",
+      "width": 20.0,
+      "height": 20.0,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "colors": [
+        "#FFFFFF"
+      ],
+      "svgLiteralColors": [
+        "white"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 455,
+      "sha256": "66a769c71295963fc52cebfb1485f637d50055789ad0c4220802130af08248ae",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": true,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgTrailingIcon",
+          "sourceNodeId": "I3074:54645;3025:24937",
+          "effectiveVisibleInCollectedRoot": false,
+          "providedSha256": "66a769c71295963fc52cebfb1485f637d50055789ad0c4220802130af08248ae"
+        }
+      ],
+      "note": "Source Button helper emits a trailing asset, but the actual new-chat instance has trailing=false. Reference only; do not render a hidden icon or reserve its gap."
+    },
+    {
+      "role": "chat-16",
+      "sourceNodeId": "I2611:62904;3108:32",
+      "sourceRootNodeId": "2611:63754",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2320:15942",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/snb/chat-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "svgLiteralColors": [
+        "#1C1C1C",
+        "white"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 1130,
+      "sha256": "6f7a04c9b8792266ab4918f52da0138f9d235563aef8d4c74cd381c92b6810a7",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIconChat16",
+          "sourceNodeId": "I2611:62904;3108:32",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "6f7a04c9b8792266ab4918f52da0138f9d235563aef8d4c74cd381c92b6810a7"
+        }
+      ],
+      "note": "Exact supplied whole16 export. Original source name can be misleading; map by actual source identity and this callsite paint."
+    },
+    {
+      "role": "nav-clock-selected-board-28",
+      "sourceNodeId": "2611:62024",
+      "sourceRootNodeId": "2611:62032",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:62004",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-clock-selected-board-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#3B82F6"
+      ],
+      "svgLiteralColors": [
+        "#3B82F6",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1615,
+      "sha256": "56800e6f6c5cb400d7167650423316732775b9aa5518e5afaa1d7150ead73371",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon4",
+          "sourceNodeId": "2611:62024",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "56800e6f6c5cb400d7167650423316732775b9aa5518e5afaa1d7150ead73371"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-clock-enabled-board-28",
+      "sourceNodeId": "2611:62008",
+      "sourceRootNodeId": "2611:62032",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:62004",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-clock-enabled-board-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1615,
+      "sha256": "e0edfbc273ac4201bf852ca89a4b67d99ce59e1d9095a0f0f6738b5215091f1f",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon5",
+          "sourceNodeId": "2611:62008",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "e0edfbc273ac4201bf852ca89a4b67d99ce59e1d9095a0f0f6738b5215091f1f"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-home-board-28",
+      "sourceNodeId": "2611:62006",
+      "sourceRootNodeId": "2611:62007",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2611:62006",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-home-board-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1339,
+      "sha256": "0215c187583d50ee3e7f0b0d2f54997257f3c82720fdc5c160e745b007dd36ff",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIconHome",
+          "sourceNodeId": "2611:62006",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "0215c187583d50ee3e7f0b0d2f54997257f3c82720fdc5c160e745b007dd36ff"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-book-board-28",
+      "sourceNodeId": "2611:62005",
+      "sourceRootNodeId": "2611:62007",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2611:62005",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-book-board-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1586,
+      "sha256": "0ed3c6688196459559ceaec23ca62449dac49e3be83dc576b9d970431b1f7530",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIconBook",
+          "sourceNodeId": "2611:62005",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "0ed3c6688196459559ceaec23ca62449dac49e3be83dc576b9d970431b1f7530"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-clock-board-28",
+      "sourceNodeId": "2611:62004",
+      "sourceRootNodeId": "2611:62007",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2611:62004",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-clock-board-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1615,
+      "sha256": "2a57956d64957daae0f157821b54898afb5e0ebd7756b8213af8d9136c70e3b0",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIconClock",
+          "sourceNodeId": "2611:62004",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "2a57956d64957daae0f157821b54898afb5e0ebd7756b8213af8d9136c70e3b0"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-search-board-28",
+      "sourceNodeId": "2611:71783",
+      "sourceRootNodeId": "2611:62007",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2611:71783",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-search-board-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1184,
+      "sha256": "ddb3717f5bb0a3d4c540b3229c400b6e79f7ce3d8788021398e88a66f9b69541",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIconSearch",
+          "sourceNodeId": "2611:71783",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "ddb3717f5bb0a3d4c540b3229c400b6e79f7ce3d8788021398e88a66f9b69541"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-home-selected-board-28",
+      "sourceNodeId": "I2611:62033;2611:62024",
+      "sourceRootNodeId": "2611:62055",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:62006",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-home-selected-board-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#3B82F6"
+      ],
+      "svgLiteralColors": [
+        "#3B82F6",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1339,
+      "sha256": "511fead3640c5634b654a9b08574cbb3d2994c23591300e8a13549f6bb3c229b",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon6",
+          "sourceNodeId": "I2611:62033;2611:62024",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "511fead3640c5634b654a9b08574cbb3d2994c23591300e8a13549f6bb3c229b"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-search-rail-board-28",
+      "sourceNodeId": "I2611:62045;2611:62008",
+      "sourceRootNodeId": "2611:62055",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:71783",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-search-rail-board-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1184,
+      "sha256": "f8ad54f81e29884964031353eca3c4bcd9b46b409715036ea7d36b735ecf14a8",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon7",
+          "sourceNodeId": "I2611:62045;2611:62008",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "f8ad54f81e29884964031353eca3c4bcd9b46b409715036ea7d36b735ecf14a8"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "nav-book-rail-board-28",
+      "sourceNodeId": "I2611:71759;2611:62008",
+      "sourceRootNodeId": "2611:62055",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2611:62005",
+      "sourceWidth": 28,
+      "sourceHeight": 28,
+      "path": "assets/snb/nav-book-rail-board-28.svg",
+      "format": "svg",
+      "width": 28.0,
+      "height": 28.0,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 1586,
+      "sha256": "b020ad2387c9f3cf3fb88782959b1bdbac2d263013a8cf66f3633c5aa6489a7e",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon8",
+          "sourceNodeId": "I2611:71759;2611:62008",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "b020ad2387c9f3cf3fb88782959b1bdbac2d263013a8cf66f3633c5aa6489a7e"
+        }
+      ],
+      "note": "Whole native28 solid glyph. Preserve exact supplied dimensions/paint; no stroke-icon substitution or recoloring. Other Figma group IDs may yield a different byte hash for matching source geometry."
+    },
+    {
+      "role": "settings-board-20",
+      "sourceNodeId": "I3065:47988;2427:25107",
+      "sourceRootNodeId": "2611:62055",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3065:48565",
+      "sourceWidth": 24,
+      "sourceHeight": 24,
+      "path": "assets/snb/settings-board-20.svg",
+      "format": "svg",
+      "width": 20.0,
+      "height": 20.0,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "colors": [
+        "#757575"
+      ],
+      "svgLiteralColors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [],
+      "bytes": 2682,
+      "sha256": "38de54b0bd84badf0104821b0d492f8bf42e1ca8008b6e620fd4c49652ae036e",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "providedContexts": [
+        {
+          "contextNodeId": "3074:101398",
+          "generatedConstant": "imgIcon9",
+          "sourceNodeId": "I3065:47988;2427:25107",
+          "effectiveVisibleInCollectedRoot": true,
+          "providedSha256": "38de54b0bd84badf0104821b0d492f8bf42e1ca8008b6e620fd4c49652ae036e"
+        }
+      ],
+      "note": "Native24 solid settings source exported/displayed20; preserve this supplied whole20 asset rather than scaling the library24 asset."
+    }
+  ],
+  "glyphSlots": [
+    {
+      "rootNodeId": "2611:62032",
+      "nodeId": "2611:62024",
+      "actualSourceNodeId": "2611:62004",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-clock-selected-28.svg",
+      "assetRole": "nav-clock-selected-28",
+      "slotPaint": [
+        "#3B82F6"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62032",
+      "nodeId": "2611:62008",
+      "actualSourceNodeId": "2611:62004",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-clock-item-enabled-28.svg",
+      "assetRole": "nav-clock-item-enabled-28",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62032",
+      "nodeId": "2611:62012",
+      "actualSourceNodeId": "2611:62004",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-clock-item-enabled-28.svg",
+      "assetRole": "nav-clock-item-enabled-28",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62032",
+      "nodeId": "2611:62016",
+      "actualSourceNodeId": "2611:62004",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-clock-item-enabled-28.svg",
+      "assetRole": "nav-clock-item-enabled-28",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62055",
+      "nodeId": "I2611:62033;2611:62024",
+      "actualSourceNodeId": "2611:62006",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-home-selected-28.svg",
+      "assetRole": "nav-home-selected-28",
+      "slotPaint": [
+        "#3B82F6"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62055",
+      "nodeId": "I2611:62045;2611:62008",
+      "actualSourceNodeId": "2611:71783",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-search-rail-28.svg",
+      "assetRole": "nav-search-rail-28",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62055",
+      "nodeId": "I2611:71759;2611:62008",
+      "actualSourceNodeId": "2611:62005",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-book-rail-28.svg",
+      "assetRole": "nav-book-rail-28",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62055",
+      "nodeId": "I2611:62038;2611:62008",
+      "actualSourceNodeId": "2611:62004",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-clock-rail-28.svg",
+      "assetRole": "nav-clock-rail-28",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62055",
+      "nodeId": "I3065:47988;2427:25107",
+      "actualSourceNodeId": "3065:48565",
+      "effectiveVisible": true,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "path": "assets/snb/settings-20.svg",
+      "assetRole": "settings-20",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62413",
+      "nodeId": "2611:62351",
+      "actualSourceNodeId": "2372:37015",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/section-chevron-down-16.svg",
+      "assetRole": "section-chevron-down-16",
+      "slotPaint": [
+        "#656B74"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62413",
+      "nodeId": "I3016:104075;2909:49141",
+      "actualSourceNodeId": "3016:104217",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/section-direct-16.svg",
+      "assetRole": "section-direct-16",
+      "slotPaint": [
+        "#656B74"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62413",
+      "nodeId": "I3016:104116;2909:49141",
+      "actualSourceNodeId": "3016:104216",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/section-filter-16.svg",
+      "assetRole": "section-filter-16",
+      "slotPaint": [
+        "#656B74"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62413",
+      "nodeId": "I3016:104157;2909:49141",
+      "actualSourceNodeId": "2365:15015",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/section-plus-16.svg",
+      "assetRole": "section-plus-16",
+      "slotPaint": [
+        "#656B74"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "I3057:47033;2909:49141",
+      "actualSourceNodeId": "2751:16967",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/more-16.svg",
+      "assetRole": "more-16",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "I3057:47049;2909:49141",
+      "actualSourceNodeId": "2751:16967",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/more-16.svg",
+      "assetRole": "more-16",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "3108:34",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "I3057:45900;2909:49141",
+      "actualSourceNodeId": "2751:16967",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/more-16.svg",
+      "assetRole": "more-16",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "3108:36",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "3108:38",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I3074:54645;3025:24934",
+      "actualSourceNodeId": "3018:24932",
+      "effectiveVisible": true,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "path": "assets/snb/new-chat-plus-white-20.svg",
+      "assetRole": "new-chat-plus-white-20",
+      "slotPaint": [
+        "#FFFFFF"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I3074:54645;3025:24937",
+      "actualSourceNodeId": "3018:24932",
+      "effectiveVisible": false,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "path": "assets/snb/new-chat-plus-white-hidden-20.svg",
+      "assetRole": "new-chat-plus-white-hidden-20",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62902;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62903;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62904;3108:32",
+      "actualSourceNodeId": "2320:15942",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/chat-16.svg",
+      "assetRole": "chat-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62907;3108:34",
+      "actualSourceNodeId": "2320:15942",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/chat-16.svg",
+      "assetRole": "chat-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62907;3057:45900;2909:49141",
+      "actualSourceNodeId": "2751:16967",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/more-16.svg",
+      "assetRole": "more-16",
+      "slotPaint": [
+        "#757575"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62908;3108:32",
+      "actualSourceNodeId": "2320:15942",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/chat-16.svg",
+      "assetRole": "chat-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62781;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62782;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62783;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62786;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62787;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63686;2611:62351",
+      "actualSourceNodeId": "2372:37015",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/section-chevron-down-16.svg",
+      "assetRole": "section-chevron-down-16",
+      "slotPaint": [
+        "#656B74"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63686;3016:104075;2909:49141",
+      "actualSourceNodeId": "3016:104217",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/section-direct-16.svg",
+      "assetRole": "section-direct-16",
+      "slotPaint": [
+        "#656B74"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63686;3016:104116;2909:49141",
+      "actualSourceNodeId": "3016:104216",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/section-filter-16.svg",
+      "assetRole": "section-filter-16",
+      "slotPaint": [
+        "#656B74"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63686;3016:104157;2909:49141",
+      "actualSourceNodeId": "2365:15015",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/section-plus-16.svg",
+      "assetRole": "section-plus-16",
+      "slotPaint": [
+        "#656B74"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63689;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63690;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63691;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63743;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63744;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63692;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63693;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63717;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63718;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63719;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": false,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63720;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:63721;3108:32",
+      "actualSourceNodeId": "3018:24833",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/folder-16.svg",
+      "assetRole": "folder-16",
+      "slotPaint": [
+        "#1C1C1C"
+      ],
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62007",
+      "nodeId": "2611:62006",
+      "actualSourceNodeId": "2611:62006",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-home-28.svg",
+      "assetRole": "nav-home-28",
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62007",
+      "nodeId": "2611:62005",
+      "actualSourceNodeId": "2611:62005",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-book-28.svg",
+      "assetRole": "nav-book-28",
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62007",
+      "nodeId": "2611:62004",
+      "actualSourceNodeId": "2611:62004",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-clock-28.svg",
+      "assetRole": "nav-clock-28",
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62007",
+      "nodeId": "2611:71783",
+      "actualSourceNodeId": "2611:71783",
+      "effectiveVisible": true,
+      "displayWidth": 28,
+      "displayHeight": 28,
+      "path": "assets/snb/nav-search-28.svg",
+      "assetRole": "nav-search-28",
+      "status": "match"
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "2611:64605",
+      "actualSourceNodeId": null,
+      "sourceKind": "FRAME",
+      "effectiveVisible": true,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "path": "assets/snb/more-frame-16.svg",
+      "assetRole": "more-frame-16",
+      "status": "match"
+    }
+  ],
+  "counts": {
+    "providedConstants": 38,
+    "byteDistinctAssets": 31,
+    "newFiles": 31,
+    "sameShaContextsCollapsed": 7,
+    "collectedGlyphSlots": 54,
+    "effectivelyVisibleGlyphSlots": 42,
+    "referenceOnlyAssets": 1,
+    "existingManifestMutated": false,
+    "gradientPaintSlots": 6,
+    "visibleGradientPaintSlots": 6
+  },
+  "notes": [
+    "Each stored SVG is an unmodified complete provided asset; root width/height are preserved. No screenshot, entire component render, whole board or runtime UI image is used.",
+    "The native28 home/book/clock/search solids are a separate source family from AgentHubIcon16/20/24. Blue selected clock/home are actual instance paint overrides, not a global nav-icon color rewrite.",
+    "Byte-distinct exports with different Figma group IDs remain separate by context/source; seven exact SHA duplicate contexts share a record. Only provided source geometry is used, and no SVG paths/colors are edited.",
+    "svgLiteralColors can include white clipping/mask primitives; colors records actual source paint. Original source/native size and displayed/exported slot size are separate.",
+    "The source24 settings icon is displayed/exported20. Header chevron/direct/filter/plus use#656B74 rather than the shared source default#1C1C1C; source identity alone does not prove exact rendered paint equality.",
+    "Folder source3018:24833 retains the misspelled forder source name. Panel instances named icon/forder/16 may actually swap to chat source2320:15942; glyphSlots uses actual source identity.",
+    "One more glyph is a direct FRAME16, distinct from the source2751:16967 INSTANCE glyph. Use each whole supplied export rather than reconstructing paths or substituting source24 more.",
+    "The primary40 new-chat leading plus20 is white; trailing plus20 is hidden in the actual panel and its separate export is reference-only. Do not render hidden icons or reserve empty gaps.",
+    "Avatar letter/name and real project/chat labels are product data. Primitive divider/tree-line geometry, item gradient fades and panel bottom fade are layout/paint contracts, not raster runtime assets.",
+    "The1224px board, radius100 title presentation and40px demonstration gap are provenance only. Product rail+panel composition is a separate contract; do not ship the board as an image.",
+    "No existing asset manifest, product repository, Git state, skill installation or runtime component implementation is changed."
+  ],
+  "nonAssetPaintSlots": [
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "2611:64592",
+      "name": "trailing-icon",
+      "nodeKind": "FRAME",
+      "effectiveVisible": true,
+      "position": {
+        "x": 220,
+        "y": 6
+      },
+      "width": 36,
+      "height": 20,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9725490212440491,
+                "b": 0.9725490212440491,
+                "a": 1
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9725490212440491,
+                "b": 0.9725490212440491,
+                "a": 0.7400000095367432
+              },
+              "position": 0.2589285671710968,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9725490212440491,
+                "b": 0.9725490212440491,
+                "a": 0
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -4.307692527770996,
+              2.637700831814886e-16,
+              1
+            ],
+            [
+              -3.093594716334358e-14,
+              -0.5494505167007446,
+              0.7747251391410828
+            ]
+          ]
+        }
+      ],
+      "renderedAsAsset": false,
+      "note": "Native gradient paint/layout evidence. Preserve actual stops/alpha/transform from this instance; same source identity does not establish equal paint or a nominal CSS direction."
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "2611:64614",
+      "name": "trailing-icon",
+      "nodeKind": "FRAME",
+      "effectiveVisible": true,
+      "position": {
+        "x": 220,
+        "y": 6
+      },
+      "width": 36,
+      "height": 20,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.95686274766922,
+                "g": 0.95686274766922,
+                "b": 0.95686274766922,
+                "a": 1
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.95686274766922,
+                "g": 0.95686274766922,
+                "b": 0.95686274766922,
+                "a": 0.7400000095367432
+              },
+              "position": 0.2589285671710968,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.95686274766922,
+                "g": 0.95686274766922,
+                "b": 0.95686274766922,
+                "a": 0
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -4.307692527770996,
+              2.637700831814886e-16,
+              1
+            ],
+            [
+              -3.093594716334358e-14,
+              -0.5494505167007446,
+              0.7747251391410828
+            ]
+          ]
+        }
+      ],
+      "renderedAsAsset": false,
+      "note": "Native gradient paint/layout evidence. Preserve actual stops/alpha/transform from this instance; same source identity does not establish equal paint or a nominal CSS direction."
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "2611:64581",
+      "name": "trailing-icon",
+      "nodeKind": "FRAME",
+      "effectiveVisible": true,
+      "position": {
+        "x": 220,
+        "y": 6
+      },
+      "width": 36,
+      "height": 20,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9725490212440491,
+                "b": 0.9725490212440491,
+                "a": 1
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9725490212440491,
+                "b": 0.9725490212440491,
+                "a": 0.7400000095367432
+              },
+              "position": 0.2589285671710968,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9725490212440491,
+                "b": 0.9725490212440491,
+                "a": 0
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -4.307692527770996,
+              2.637700831814886e-16,
+              1
+            ],
+            [
+              -3.093594716334358e-14,
+              -0.5494505167007446,
+              0.7747251391410828
+            ]
+          ]
+        }
+      ],
+      "renderedAsAsset": false,
+      "note": "Native gradient paint/layout evidence. Preserve actual stops/alpha/transform from this instance; same source identity does not establish equal paint or a nominal CSS direction."
+    },
+    {
+      "rootNodeId": "2611:62441",
+      "nodeId": "2611:64603",
+      "name": "trailing-icon",
+      "nodeKind": "FRAME",
+      "effectiveVisible": true,
+      "position": {
+        "x": 220,
+        "y": 6
+      },
+      "width": 36,
+      "height": 20,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.95686274766922,
+                "g": 0.95686274766922,
+                "b": 0.95686274766922,
+                "a": 1
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.95686274766922,
+                "g": 0.95686274766922,
+                "b": 0.95686274766922,
+                "a": 0.7400000095367432
+              },
+              "position": 0.2589285671710968,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.95686274766922,
+                "g": 0.95686274766922,
+                "b": 0.95686274766922,
+                "a": 0
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -4.307692527770996,
+              2.637700831814886e-16,
+              1
+            ],
+            [
+              -3.093594716334358e-14,
+              -0.5494505167007446,
+              0.7747251391410828
+            ]
+          ]
+        }
+      ],
+      "renderedAsAsset": false,
+      "note": "Native gradient paint/layout evidence. Preserve actual stops/alpha/transform from this instance; same source identity does not establish equal paint or a nominal CSS direction."
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "I2611:62907;2611:64581",
+      "name": "trailing-icon",
+      "nodeKind": "FRAME",
+      "effectiveVisible": true,
+      "position": {
+        "x": 220,
+        "y": 6
+      },
+      "width": 36,
+      "height": 20,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9725490212440491,
+                "b": 0.9725490212440491,
+                "a": 1
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9725490212440491,
+                "b": 0.9725490212440491,
+                "a": 0.7400000095367432
+              },
+              "position": 0.2589285671710968,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9725490212440491,
+                "b": 0.9725490212440491,
+                "a": 0
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -4.307692527770996,
+              2.637700831814886e-16,
+              1
+            ],
+            [
+              -3.093594716334358e-14,
+              -0.5494505167007446,
+              0.7747251391410828
+            ]
+          ]
+        }
+      ],
+      "renderedAsAsset": false,
+      "note": "Native gradient paint/layout evidence. Preserve actual stops/alpha/transform from this instance; same source identity does not establish equal paint or a nominal CSS direction."
+    },
+    {
+      "rootNodeId": "2611:63754",
+      "nodeId": "2611:62229",
+      "name": "snb-bottom-fade",
+      "nodeKind": "RECTANGLE",
+      "effectiveVisible": true,
+      "position": {
+        "x": -6,
+        "y": 980
+      },
+      "width": 303,
+      "height": 53,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              5.428284774802727e-13,
+              0.4669603407382965,
+              0.5330396294593811
+            ],
+            [
+              -6.116016387939453,
+              3.7547588194013215e-14,
+              3.5580081939697266
+            ]
+          ]
+        }
+      ],
+      "renderedAsAsset": false,
+      "note": "Native gradient paint/layout evidence. Preserve actual stops/alpha/transform from this instance; same source identity does not establish equal paint or a nominal CSS direction."
+    }
+  ],
+  "excludedPresentation": {
+    "boardNodeId": "3074:101398",
+    "boardWidth": 1224,
+    "boardHeight": 1264,
+    "boardRadius": 100,
+    "presentationTitleNodeId": "3074:101399",
+    "presentationOnlyGap": 40,
+    "runtimeAsset": false,
+    "note": "Board background/title/radius/demo gap are reference presentation. No board screenshot or whole-component image is included."
+  },
+  "verification": {
+    "sourceGeometryChecked": true,
+    "svgNativeDimensionsChecked": true,
+    "sourcePaintAndStrokeChecked": true,
+    "localFilesNonEmptyAndSha256Checked": true,
+    "runtimeVerified": false,
+    "allStatesVerified": false,
+    "issues": []
+  }
+}

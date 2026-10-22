@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Checkbox-icon">
+<g clip-path="url(#clip0_0_19)">
+<path id="Box" d="M3 0.5H9C10.3807 0.5 11.5 1.61929 11.5 3V9C11.5 10.3807 10.3807 11.5 9 11.5H3C1.61929 11.5 0.5 10.3807 0.5 9V3C0.5 1.61929 1.61929 0.5 3 0.5Z" fill="#EEEEEE" stroke="#DDDDDD"/>
+<path id="Mark" d="M9 3.75L4.875 7.875L3 6" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_19">
+<rect width="12" height="12" rx="3" fill="white"/>
+</clipPath>
+</defs>
+</svg>

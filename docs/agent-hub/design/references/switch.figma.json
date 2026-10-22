@@ -1,0 +1,574 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubSwitch",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3145:17067",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3145-17067",
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "method": "Figma MCP get_design_context + read-only Plugin API measurements and variable alias resolution"
+  },
+  "implementation": {
+    "status": "unmapped",
+    "source": null,
+    "export": null
+  },
+  "propertyDefinitions": {
+    "size": {
+      "type": "VARIANT",
+      "defaultValue": "22",
+      "variantOptions": [
+        "22"
+      ]
+    },
+    "checked": {
+      "type": "VARIANT",
+      "defaultValue": "true",
+      "variantOptions": [
+        "true",
+        "false"
+      ]
+    },
+    "state": {
+      "type": "VARIANT",
+      "defaultValue": "enabled",
+      "variantOptions": [
+        "enabled",
+        "disabled"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "nodeId": "3145:17059",
+      "name": "size=22, checked=true, state=enabled",
+      "type": "COMPONENT",
+      "visible": true,
+      "layout": {
+        "width": 40,
+        "height": 22,
+        "minWidth": null,
+        "maxWidth": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisAlignItems": "MAX",
+        "counterAxisAlignItems": "MIN",
+        "clipsContent": true,
+        "padding": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 2
+        },
+        "gap": 10
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#3B82F6",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:157",
+              "name": "color/element/primary"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 0.6999999284744263,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999,
+        "radiusToken": {
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        }
+      },
+      "children": [
+        {
+          "nodeId": "3074:121104",
+          "name": "thumb",
+          "type": "ELLIPSE",
+          "visible": true,
+          "layout": {
+            "width": 18,
+            "height": 18,
+            "minWidth": null,
+            "maxWidth": null,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED"
+          },
+          "visual": {
+            "fills": [
+              {
+                "hex": "#FFFFFF",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:3081:155",
+                  "name": "color/element/on-primary"
+                }
+              }
+            ],
+            "border": {
+              "paints": [],
+              "width": 0.6999999284744263,
+              "align": "INSIDE"
+            },
+            "opacity": 1,
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false,
+                "color": {
+                  "hex": "#091E42",
+                  "opacity": 0.31
+                }
+              },
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false,
+                "color": {
+                  "hex": "#091E42",
+                  "opacity": 0.1
+                }
+              }
+            ],
+            "radius": 0
+          },
+          "position": {
+            "x": 20,
+            "y": 2
+          }
+        }
+      ],
+      "variant": {
+        "size": "22",
+        "checked": "true",
+        "state": "enabled"
+      }
+    },
+    {
+      "nodeId": "3145:17060",
+      "name": "size=22, checked=true, state=disabled",
+      "type": "COMPONENT",
+      "visible": true,
+      "layout": {
+        "width": 40,
+        "height": 22,
+        "minWidth": null,
+        "maxWidth": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisAlignItems": "MAX",
+        "counterAxisAlignItems": "MIN",
+        "clipsContent": true,
+        "padding": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 2
+        },
+        "gap": 10
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#EEEEEE",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:179",
+              "name": "color/element/disabled"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 0.6999999284744263,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999,
+        "radiusToken": {
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        }
+      },
+      "children": [
+        {
+          "nodeId": "3074:121108",
+          "name": "thumb",
+          "type": "ELLIPSE",
+          "visible": true,
+          "layout": {
+            "width": 18,
+            "height": 18,
+            "minWidth": null,
+            "maxWidth": null,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED"
+          },
+          "visual": {
+            "fills": [
+              {
+                "hex": "#FFFFFF",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:3081:177",
+                  "name": "color/element/on-disabled"
+                }
+              }
+            ],
+            "border": {
+              "paints": [],
+              "width": 0.6999999284744263,
+              "align": "INSIDE"
+            },
+            "opacity": 1,
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false,
+                "color": {
+                  "hex": "#091E42",
+                  "opacity": 0.31
+                }
+              },
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false,
+                "color": {
+                  "hex": "#091E42",
+                  "opacity": 0.1
+                }
+              }
+            ],
+            "radius": 0
+          },
+          "position": {
+            "x": 20,
+            "y": 2
+          }
+        }
+      ],
+      "variant": {
+        "size": "22",
+        "checked": "true",
+        "state": "disabled"
+      }
+    },
+    {
+      "nodeId": "3145:17061",
+      "name": "size=22, checked=false, state=disabled",
+      "type": "COMPONENT",
+      "visible": true,
+      "layout": {
+        "width": 40,
+        "height": 22,
+        "minWidth": null,
+        "maxWidth": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": true,
+        "padding": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 2
+        },
+        "gap": 10
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#EEEEEE",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:179",
+              "name": "color/element/disabled"
+            }
+          }
+        ],
+        "border": {
+          "paints": [
+            {
+              "hex": "#AAAAAA",
+              "opacity": 1,
+              "token": {
+                "id": "VariableID:3081:127",
+                "name": "color/border/disabled-subtle"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999,
+        "radiusToken": {
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        }
+      },
+      "children": [
+        {
+          "nodeId": "3074:121106",
+          "name": "thumb",
+          "type": "ELLIPSE",
+          "visible": true,
+          "layout": {
+            "width": 18,
+            "height": 18,
+            "minWidth": null,
+            "maxWidth": null,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED"
+          },
+          "visual": {
+            "fills": [
+              {
+                "hex": "#8F8F8F",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:3081:176",
+                  "name": "color/element/on-disabled-radio"
+                }
+              }
+            ],
+            "border": {
+              "paints": [],
+              "width": 0.6999999284744263,
+              "align": "INSIDE"
+            },
+            "opacity": 1,
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false,
+                "color": {
+                  "hex": "#091E42",
+                  "opacity": 0.31
+                }
+              },
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false,
+                "color": {
+                  "hex": "#091E42",
+                  "opacity": 0.1
+                }
+              }
+            ],
+            "radius": 0
+          },
+          "position": {
+            "x": 2,
+            "y": 2
+          }
+        }
+      ],
+      "variant": {
+        "size": "22",
+        "checked": "false",
+        "state": "disabled"
+      }
+    },
+    {
+      "nodeId": "3145:17062",
+      "name": "size=22, checked=false, state=enabled",
+      "type": "COMPONENT",
+      "visible": true,
+      "layout": {
+        "width": 40,
+        "height": 22,
+        "minWidth": null,
+        "maxWidth": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": true,
+        "padding": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 2
+        },
+        "gap": 10
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#8F8F8F",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:178",
+              "name": "color/element/disabled-strong"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 0.6999999284744263,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999,
+        "radiusToken": {
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        }
+      },
+      "children": [
+        {
+          "nodeId": "3074:121102",
+          "name": "thumb",
+          "type": "ELLIPSE",
+          "visible": true,
+          "layout": {
+            "width": 18,
+            "height": 18,
+            "minWidth": null,
+            "maxWidth": null,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED"
+          },
+          "visual": {
+            "fills": [
+              {
+                "hex": "#FFFFFF",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:3081:155",
+                  "name": "color/element/on-primary"
+                }
+              }
+            ],
+            "border": {
+              "paints": [],
+              "width": 0.6999999284744263,
+              "align": "INSIDE"
+            },
+            "opacity": 1,
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false,
+                "color": {
+                  "hex": "#091E42",
+                  "opacity": 0.31
+                }
+              },
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false,
+                "color": {
+                  "hex": "#091E42",
+                  "opacity": 0.1
+                }
+              }
+            ],
+            "radius": 0
+          },
+          "position": {
+            "x": 2,
+            "y": 2
+          }
+        }
+      ],
+      "variant": {
+        "size": "22",
+        "checked": "false",
+        "state": "enabled"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "kind": "semantic-prototype",
+      "note": "Figma state is enabled/disabled and independent of checked. Generated boolean-state prototype and whole-control SVGs are not an accessible interactive Switch implementation."
+    },
+    {
+      "kind": "geometry",
+      "note": "Root radius/full=9999 produces the same fully rounded 40x22 track silhouette as common medium radius11. Thumb is an ELLIPSE; its radius property 0 does not mean a square. Keep outer thumb positions (2,2)/(20,2), travel18, even when adapting the CSS border model."
+    }
+  ]
+}

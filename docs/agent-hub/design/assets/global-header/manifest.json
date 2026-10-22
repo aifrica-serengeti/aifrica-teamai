@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubGlobalHeader",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "2611:62099"
+    ],
+    "method": "Unmodified SVG assets supplied for the Figma get_design_context result, compared with the read-only complete tree/style snapshot. Each glyph is a FRAME; no reusable COMPONENT identity is inferred.",
+    "primitiveMode": "Mode 1",
+    "semanticMode": "Light mode"
+  },
+  "pathBase": "docs/agent-hub/design",
+  "assets": [
+    {
+      "role": "service-logo-mark",
+      "sourceNodeId": "2611:62080",
+      "sourceRootNodeId": "2611:62099",
+      "sourceKind": "FRAME",
+      "sourceName": "symbol-cheetah",
+      "sourceParentNodeId": "2611:62079",
+      "actualSourceNodeId": null,
+      "path": "assets/global-header/service-logo-mark.svg",
+      "format": "svg",
+      "sourceWidth": 21.70786476135254,
+      "sourceHeight": 21.70786476135254,
+      "width": 21.7079,
+      "height": 21.7079,
+      "viewBox": "0 0 21.7079 21.7079",
+      "displayWidth": 21.70786476135254,
+      "displayHeight": 21.70786476135254,
+      "slotPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "colors": [
+        "#0066FF",
+        "#FFFFFF"
+      ],
+      "svgLiteralColors": [
+        "#0066FF",
+        "white"
+      ],
+      "strokeWidths": [],
+      "sourcePaintLayers": [
+        {
+          "nodeId": "2611:62081",
+          "name": "Ellipse 2524",
+          "kind": "VECTOR",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 21.707862854003906,
+          "height": 21.707862854003906,
+          "paints": [
+            {
+              "kind": "fills",
+              "color": "#0066FF",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3077:48"
+                }
+              }
+            }
+          ],
+          "strokeWeight": null
+        },
+        {
+          "nodeId": "2611:62082",
+          "name": "face",
+          "kind": "VECTOR",
+          "position": {
+            "x": 0,
+            "y": 5
+          },
+          "width": 18.270875930786133,
+          "height": 16.225929260253906,
+          "paints": [
+            {
+              "kind": "fills",
+              "color": "#FFFFFF",
+              "opacity": 1,
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": null
+        }
+      ],
+      "bytes": 8944,
+      "sha256": "dfb0984164345aaae46d13d710289fdac2af6ad0f5980e4ab2611c3025877e51",
+      "method": "figma-supplied-original-asset",
+      "effectiveVisibleInCollectedRoot": true,
+      "note": "Service logo static Cheetah symbol; service-name is sibling TEXT and is not baked into this asset."
+    },
+    {
+      "role": "platform-shortcut-mark-16",
+      "sourceNodeId": "2611:62090",
+      "sourceRootNodeId": "2611:62099",
+      "sourceKind": "FRAME",
+      "sourceName": "symbol-cheetah",
+      "sourceParentNodeId": "2611:62089",
+      "actualSourceNodeId": null,
+      "path": "assets/global-header/platform-shortcut-mark-16.svg",
+      "format": "svg",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "width": 16.002,
+      "height": 16.0,
+      "viewBox": "0 0 16.002 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 8,
+        "y": 4
+      },
+      "colors": [
+        "#0066FF",
+        "#FFFFFF"
+      ],
+      "svgLiteralColors": [
+        "#0066FF",
+        "white"
+      ],
+      "strokeWidths": [],
+      "sourcePaintLayers": [
+        {
+          "nodeId": "2611:62091",
+          "name": "Ellipse 2524",
+          "kind": "VECTOR",
+          "position": {
+            "x": -0.001953125,
+            "y": 0
+          },
+          "width": 15.999999046325684,
+          "height": 15.999999046325684,
+          "paints": [
+            {
+              "kind": "fills",
+              "color": "#0066FF",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3077:48"
+                }
+              }
+            }
+          ],
+          "strokeWeight": null
+        },
+        {
+          "nodeId": "2611:62092",
+          "name": "face",
+          "kind": "VECTOR",
+          "position": {
+            "x": -0.001953125,
+            "y": 3.68359375
+          },
+          "width": 13.4667329788208,
+          "height": 11.959484100341797,
+          "paints": [
+            {
+              "kind": "fills",
+              "color": "#FFFFFF",
+              "opacity": 1,
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": null
+        }
+      ],
+      "bytes": 8855,
+      "sha256": "e5625ab750946c1cf2083d7e7634e103e3ff4681b5acd71597c0b9c6885da715",
+      "method": "figma-supplied-original-asset",
+      "effectiveVisibleInCollectedRoot": true,
+      "note": "Platform shortcut static Cheetah symbol; the action label is sibling TEXT and is not an asset. The FRAME measures16×16, while its supplied SVG width/viewBox is16.002×16. Its child vectors have x=-0.001953125; preserve this original export without rewriting its bounds."
+    },
+    {
+      "role": "notification-bell-20",
+      "sourceNodeId": "2611:62095",
+      "sourceRootNodeId": "2611:62099",
+      "sourceKind": "FRAME",
+      "sourceName": "icon/bell",
+      "sourceParentNodeId": "2611:62094",
+      "actualSourceNodeId": null,
+      "path": "assets/global-header/notification-bell-20.svg",
+      "format": "svg",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "width": 20.0,
+      "height": 20.0,
+      "viewBox": "0 0 20 20",
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "slotPosition": {
+        "x": 6,
+        "y": 6
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "svgLiteralColors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "sourcePaintLayers": [
+        {
+          "nodeId": "2611:62096",
+          "name": "Vector",
+          "kind": "VECTOR",
+          "position": {
+            "x": 8.556666374206543,
+            "y": 17.5
+          },
+          "width": 2.886667251586914,
+          "height": 0.833260178565979,
+          "paints": [
+            {
+              "kind": "strokes",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            }
+          ],
+          "strokeWeight": 1.25
+        },
+        {
+          "nodeId": "2611:62097",
+          "name": "Vector",
+          "kind": "VECTOR",
+          "position": {
+            "x": 2.5,
+            "y": 1.66796875
+          },
+          "width": 14.999690055847168,
+          "height": 12.5,
+          "paints": [
+            {
+              "kind": "strokes",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            }
+          ],
+          "strokeWeight": 1.25
+        }
+      ],
+      "bytes": 1297,
+      "sha256": "0e088c542c84c16b033aeafddf5f73e6f019bc3103f3ffeeb3286561401e7147",
+      "method": "figma-supplied-original-asset",
+      "effectiveVisibleInCollectedRoot": true,
+      "note": "Notification static bell glyph. Its parent32px control is a FRAME, not part of the image or an IconButton INSTANCE. Actual visible vector stroke is1.25; the FRAME stored strokeWeight1 has no paint."
+    }
+  ],
+  "counts": {
+    "suppliedOriginalSvgs": 3,
+    "byteDistinctLocalFiles": 3,
+    "newFiles": 3,
+    "reusedExistingAssets": 0,
+    "bytes": 19096,
+    "visibleGlyphSlots": 3
+  },
+  "existingAssetComparison": {
+    "brandMark": {
+      "nodeId": "2611:74300",
+      "path": "assets/brand/agent-hub-mark.png",
+      "sourceFormat": "png",
+      "sourceWidth": 2048,
+      "sourceHeight": 2048,
+      "displayWidth": 180,
+      "displayHeight": 180,
+      "exactSourceIdentityMatch": false,
+      "reused": false,
+      "note": "The main-page Agent Hub BrandMark is a different source and raster asset. Do not substitute it for either header symbol."
+    },
+    "snb": {
+      "manifest": "references/snb.assets.json",
+      "exactSourceIdentityMatch": false,
+      "exactFileSha256Match": false,
+      "reused": false,
+      "note": "The SNB export set contains source-specific navigation glyphs and other icons, not these three FRAME nodes. Similar usage does not establish source or paint equivalence."
+    }
+  },
+  "verification": {
+    "localFilesNonEmptyAndSha256Checked": true,
+    "originalDownloadBytesPreserved": true,
+    "sourceIdentityChecked": true,
+    "sourcePaintAndStrokeChecked": true,
+    "svgNativeDimensionsChecked": true,
+    "allSourceAndExportDimensionsIdentical": false,
+    "dimensionNotes": [
+      "Service mark export21.7079×21.7079 is the supplied decimal-rounded representation of source21.70786476135254×21.70786476135254.",
+      "Shortcut FRAME measures16×16 but supplied original width/viewBox is16.002×16; source child vectors begin at x=-0.001953125. Both measured layout and unmodified export dimensions are recorded; they are not claimed to be identical.",
+      "Bell source and supplied SVG are20×20."
+    ],
+    "runtimeVerified": false,
+    "allStatesVerified": false,
+    "issues": []
+  },
+  "notes": [
+    "These are three static glyph assets only. The service-name and shortcut-label remain sibling text; the whole header, controls and board are not image assets.",
+    "All three source nodes are FRAMEs with actualSourceNodeId null. The containing Global Header node is COMPONENT2611:62099; that does not make its glyph FRAMEs instances of a common icon or BrandMark.",
+    "Preserve full supplied SVGs and their palettes/native bounds. Do not recolor, redraw, extract paths, replace with a similarly named library asset or retain a temporary asset URL in runtime code.",
+    "Asset paths are relative to docs/agent-hub/design. This manifest records design evidence only; consuming-repository source/export and action behavior remain unmapped."
+  ]
+}

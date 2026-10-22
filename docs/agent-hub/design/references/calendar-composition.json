@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Figma instance composition against standalone primitive snapshots",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "controls": [
+    {
+      "role": "cancel",
+      "nodeId": "3149:117355",
+      "component": "AgentHubButton",
+      "sourceNodeId": "3073:390",
+      "variant": {
+        "type": "tertiary",
+        "size": "32",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "role": "confirm",
+      "nodeId": "3149:117363",
+      "component": "AgentHubButton",
+      "sourceNodeId": "3073:366",
+      "variant": {
+        "type": "primary",
+        "size": "32",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "role": "month-toggle",
+      "nodeId": "3149:117331",
+      "component": "AgentHubIconButton",
+      "sourceNodeId": "2427:25108",
+      "variant": {
+        "type": "ghost",
+        "size": "24",
+        "state": "default"
+      },
+      "glyphSourceNodeId": "2372:37015",
+      "glyphAsset": "assets/icons/chevron-down/16.svg",
+      "status": "match"
+    },
+    {
+      "role": "previous",
+      "nodeId": "3149:117336",
+      "component": "AgentHubIconButton",
+      "sourceNodeId": "2427:25106",
+      "variant": {
+        "type": "ghost",
+        "size": "32",
+        "state": "default"
+      },
+      "glyphSourceNodeId": "3017:75811",
+      "glyphAsset": "assets/icons/chevron-left/20.svg",
+      "status": "match"
+    },
+    {
+      "role": "next",
+      "nodeId": "3149:117340",
+      "component": "AgentHubIconButton",
+      "sourceNodeId": "2427:25106",
+      "variant": {
+        "type": "ghost",
+        "size": "32",
+        "state": "default"
+      },
+      "glyphSourceNodeId": "3018:24737",
+      "glyphAsset": "assets/icons/chevron-right/20.svg",
+      "status": "match"
+    }
+  ],
+  "intentionalOverrides": [
+    "footer label text and content-based width",
+    "footer leading/trailing icons disabled; no keycap child at size32",
+    "header glyph swaps to exact chevrons"
+  ],
+  "comparisonLimits": [
+    "standalone IconButton snapshots omit itemSpacing; calendar single-icon gap is independently checked as 0"
+  ],
+  "calendarLocal": {
+    "nodeId": "3149:117326",
+    "name": "month-select",
+    "note": "28px header composition; not standalone tiny AgentHubTextButton; use one interactive owner"
+  },
+  "issues": []
+}

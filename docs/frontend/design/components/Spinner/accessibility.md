@@ -16,7 +16,7 @@
 | 포커스 표시    | 없음. 정지된 장식 요소가 아닌 진행 상태 표시                                        |
 | 스크린리더     | `role="status"` 로 로딩 진행 상태 전달. `aria-live` 영역에 배치 시 상태 변화가 전달 |
 | SVG 숨김       | `<svg aria-hidden="true" focusable="false">` — 시각 정보는 role/aria-label 로 대체  |
-| reduced-motion | `prefers-reduced-motion: reduce` 시 회전 정지(globals.css 전역 규칙)                |
+| reduced-motion | `prefers-reduced-motion: reduce` 시 회전 정지(실제 host 규칙 확인, 없으면 component 범위에서 처리)                |
 
 > Spinner 는 `role="status"` 로 의미를 전달하며, SVG 자체는 보조 기기에서 무시되도록
 > `aria-hidden="true"` 처리한다. 시각 회전과 스크린리더 안내가 분리된다.

@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Flyout four source roots, ten supplied variants and actual header/items/footer composition",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "variants": [
+    {
+      "nodeId": "3005:23096",
+      "variant": {
+        "kind": "item",
+        "state": "default"
+      },
+      "background": null,
+      "backgroundOpacity": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76690",
+      "variant": {
+        "kind": "item",
+        "state": "pressed"
+      },
+      "background": "#000000",
+      "backgroundOpacity": 0.10000000149011612,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76698",
+      "variant": {
+        "kind": "item",
+        "state": "selected"
+      },
+      "background": "#EBF3FF",
+      "backgroundOpacity": 1,
+      "status": "match"
+    },
+    {
+      "nodeId": "3005:23104",
+      "variant": {
+        "kind": "item",
+        "state": "hovered"
+      },
+      "background": "#F8F8F8",
+      "backgroundOpacity": 1,
+      "status": "match"
+    },
+    {
+      "nodeId": "3005:23112",
+      "variant": {
+        "kind": "folder",
+        "state": "default"
+      },
+      "background": null,
+      "backgroundOpacity": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "3005:23119",
+      "variant": {
+        "kind": "folder",
+        "state": "hovered"
+      },
+      "background": "#F8F8F8",
+      "backgroundOpacity": 1,
+      "status": "match"
+    },
+    {
+      "nodeId": "3005:23126",
+      "variant": {
+        "kind": "folder-open",
+        "state": "default"
+      },
+      "background": null,
+      "backgroundOpacity": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "3005:23133",
+      "variant": {
+        "kind": "folder-open",
+        "state": "hovered"
+      },
+      "background": "#F8F8F8",
+      "backgroundOpacity": 1,
+      "status": "match"
+    },
+    {
+      "nodeId": "3005:23140",
+      "variant": {
+        "kind": "child",
+        "state": "default"
+      },
+      "background": null,
+      "backgroundOpacity": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "3005:23143",
+      "variant": {
+        "kind": "child",
+        "state": "hovered"
+      },
+      "background": "#F8F8F8",
+      "backgroundOpacity": 1,
+      "status": "match"
+    }
+  ],
+  "rows": [
+    {
+      "nodeId": "2975:76711",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76712",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76713",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76714",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76715",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76716",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76717",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76718",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76719",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76720",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:76721",
+      "sourceNodeId": "3005:23096",
+      "visible": true,
+      "externalPaintAliasOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "3010:23495",
+      "sourceNodeId": "3005:23096",
+      "visible": false,
+      "externalPaintAliasOverride": "VariableID:545055f1a41c27e2881d948e3d415b0605c481de/12469:161",
+      "status": "match"
+    },
+    {
+      "nodeId": "3010:23500",
+      "sourceNodeId": "3005:23096",
+      "visible": false,
+      "externalPaintAliasOverride": "VariableID:545055f1a41c27e2881d948e3d415b0605c481de/12469:161",
+      "status": "match"
+    },
+    {
+      "nodeId": "3010:23505",
+      "sourceNodeId": "3005:23096",
+      "visible": false,
+      "externalPaintAliasOverride": "VariableID:545055f1a41c27e2881d948e3d415b0605c481de/12469:161",
+      "status": "match"
+    },
+    {
+      "nodeId": "3010:23510",
+      "sourceNodeId": "3005:23096",
+      "visible": false,
+      "externalPaintAliasOverride": "VariableID:545055f1a41c27e2881d948e3d415b0605c481de/12469:161",
+      "status": "match"
+    },
+    {
+      "nodeId": "3010:23515",
+      "sourceNodeId": "3005:23096",
+      "visible": false,
+      "externalPaintAliasOverride": "VariableID:545055f1a41c27e2881d948e3d415b0605c481de/12469:161",
+      "status": "match"
+    }
+  ],
+  "header": {
+    "nodeId": "2975:76707",
+    "sourceNodeId": "3005:23089",
+    "textOverrides": {
+      "count#3005:1": {
+        "type": "TEXT",
+        "value": "count"
+      },
+      "meta#3005:2": {
+        "type": "TEXT",
+        "value": "meta"
+      },
+      "title#3005:0": {
+        "type": "TEXT",
+        "value": "title"
+      }
+    },
+    "status": "match"
+  },
+  "footer": {
+    "nodeId": "3010:23520",
+    "sourceNodeId": "3005:23094",
+    "standaloneHeight": 29,
+    "actualHeight": 33,
+    "standaloneBottomPadding": 4,
+    "actualBottomPadding": 8,
+    "status": "match"
+  },
+  "shell": {
+    "nodeId": "3010:23522",
+    "width": 280,
+    "height": 398,
+    "visibleRows": 11,
+    "hiddenRows": 5,
+    "observedContentFooterOverlap": 11,
+    "runtimeScrollVerified": false,
+    "status": "match"
+  },
+  "assets": [
+    {
+      "path": "assets/icons/file-text/20.svg",
+      "method": "existing-exact-source-geometry",
+      "status": "match"
+    },
+    {
+      "path": "assets/icons/chevron-right/16.svg",
+      "method": "existing-exact-source-geometry",
+      "status": "match"
+    },
+    {
+      "path": "assets/icons/chevron-down/16.svg",
+      "method": "existing-exact-source-geometry",
+      "status": "match"
+    },
+    {
+      "path": "assets/flyout/file-text-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    },
+    {
+      "path": "assets/flyout/chevron-right-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    },
+    {
+      "path": "assets/flyout/chevron-down-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    }
+  ],
+  "motion": {
+    "status": "match",
+    "adoption": "user-requested-adoption",
+    "figmaMeasured": false,
+    "runtimeVerified": false,
+    "durationMs": 150,
+    "easing": "ease",
+    "fillMode": "both",
+    "distancePx": 6,
+    "sides": [
+      "top",
+      "bottom",
+      "left",
+      "right"
+    ],
+    "closedPointerEvents": "none",
+    "reducedMotionIsExplicitAdoption": true
+  },
+  "limits": [
+    "Ten item variants do not cover the full kind/state product; folder/child pressed or selected are not supplied",
+    "Root property getter is unavailable; visible footer binding and generated-context footer default are narrower evidence than complete root props",
+    "Sixteen row instances include five hidden rows, and footer/content overlap requires a separately adopted runtime viewport",
+    "File-text source is native20 resized to16 with actual1.25 stroke, not an interchangeable native16 icon",
+    "Common Menu motion is a product adoption contract rather than measured Figma animation",
+    "Open/close/focus/selection/expansion/disabled/loading/dark/mobile and consuming request behavior remain unverified"
+  ],
+  "issues": []
+}

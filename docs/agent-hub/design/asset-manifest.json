@@ -1,0 +1,4286 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+  "page": {
+    "id": "38:6330",
+    "name": "Latest design"
+  },
+  "sources": [
+    {
+      "kind": "icons",
+      "nodeId": "3074:101401",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3074-101401"
+    },
+    {
+      "kind": "file-icons",
+      "nodeId": "3128:25538",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3128-25538"
+    },
+    {
+      "kind": "brand-mark",
+      "nodeId": "2611:74300",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2611-74300"
+    }
+  ],
+  "exportMethod": {
+    "vectors": "Figma Plugin API exportAsync SVG_STRING, complete component bounds, unchanged paths/paints",
+    "logo": "Figma MCP raw uploaded image, SHA-1 matched to ImagePaint.imageHash; no tracing or background baked in"
+  },
+  "counts": {
+    "figmaIconComponents": 208,
+    "iconNames": 72,
+    "iconAssets": 206,
+    "fileIconAssets": 6,
+    "brandAssets": 1
+  },
+  "icons": [
+    {
+      "name": "agent",
+      "size": 16,
+      "path": "assets/icons/agent/16.svg",
+      "sha256": "874b78cbba90a29ec77b0605d74408e2b1b2c9ea93bf7eddff810cab4f4fcd43",
+      "bytes": 3902,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24695",
+          "name": "icon/agent/16"
+        }
+      ],
+      "strokeWidths": [],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "agent",
+      "size": 20,
+      "path": "assets/icons/agent/20.svg",
+      "sha256": "c4c7016c7611755aa4d93068d85934d354dafe28aa5d875d478c2a7b4c1ba987",
+      "bytes": 3863,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2421:41940",
+          "name": "icon/agent/20"
+        }
+      ],
+      "strokeWidths": [],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "agent",
+      "size": 24,
+      "path": "assets/icons/agent/24.svg",
+      "sha256": "7130ef88361fe70899ce93f9c9e23c6c2cce249707da74e3c9656be668425e91",
+      "bytes": 3911,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24701",
+          "name": "icon/agent/24"
+        }
+      ],
+      "strokeWidths": [],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "size": 16,
+      "path": "assets/icons/arrow-down/16.svg",
+      "sha256": "10013f6f8112afbfc9b0f1901f584924b9d0357f621cc703b1cd07071e51a43f",
+      "bytes": 311,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2879:57931",
+          "name": "icon/arrow-down/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "size": 20,
+      "path": "assets/icons/arrow-down/20.svg",
+      "sha256": "2aa2e1a67720646da09856b63244f88f8975fd7e6f0d0ca4afcd8167ace41e88",
+      "bytes": 354,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24707",
+          "name": "icon/arrow-down/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "size": 24,
+      "path": "assets/icons/arrow-down/24.svg",
+      "sha256": "63b73fb4ac789ef972e1096236881f929b4e16c3ae7f986cc451f0167a179a07",
+      "bytes": 320,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24710",
+          "name": "icon/arrow-down/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-left",
+      "size": 16,
+      "path": "assets/icons/arrow-left/16.svg",
+      "sha256": "3dcb705d253d05a34f23f20084391873c0a8484ee8d717db460ec0b4725e82cf",
+      "bytes": 322,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24713",
+          "name": "icon/arrow-left/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-left",
+      "size": 20,
+      "path": "assets/icons/arrow-left/20.svg",
+      "sha256": "09731c8b362b7899542a8bbd1e25c2dcaaa0c53f90e7df6c0e067833ca396a4d",
+      "bytes": 362,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2199:23673",
+          "name": "icon/arrow-left/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-left",
+      "size": 24,
+      "path": "assets/icons/arrow-left/24.svg",
+      "sha256": "0dcad9c07fbf2fd5348b6ca53302b1b16b2fe3908a3f44468a1fad88cd5333ec",
+      "bytes": 346,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24716",
+          "name": "icon/arrow-left/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "size": 16,
+      "path": "assets/icons/arrow-right/16.svg",
+      "sha256": "e027f9141d220f9f009fc6ffa333a8b00b3d08237d9b99b3efacb37d92a435c4",
+      "bytes": 310,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2199:23721",
+          "name": "icon/arrow-right/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "size": 20,
+      "path": "assets/icons/arrow-right/20.svg",
+      "sha256": "57abc66964792b9ba453a1ea6e5f48ba1493a4e1e23a107807b23c70c33005fc",
+      "bytes": 354,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2199:23690",
+          "name": "icon/arrow-right/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "size": 24,
+      "path": "assets/icons/arrow-right/24.svg",
+      "sha256": "3f31042bd30af4712918da19c9b503351116cb69b7689e000eeaaf62adf16e3f",
+      "bytes": 331,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2199:23720",
+          "name": "icon/arrow-right/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-top-right",
+      "size": 16,
+      "path": "assets/icons/arrow-top-right/16.svg",
+      "sha256": "302c8ec80dd4aa0a8bfbf7883d17827e292c8b1cc3bc854f5481e5dfebbd5e0a",
+      "bytes": 293,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2657:11249",
+          "name": "icon/arrow-top-right/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-top-right",
+      "size": 20,
+      "path": "assets/icons/arrow-top-right/20.svg",
+      "sha256": "564fcdd21fc8fb4890c04aafba1319ea97fabb97a209fc4550d4cdf466ce5379",
+      "bytes": 349,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24719",
+          "name": "icon/arrow-top-right/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-top-right",
+      "size": 24,
+      "path": "assets/icons/arrow-top-right/24.svg",
+      "sha256": "10a7e6a16c0d46d299efbd438dd5dad9534c279c87da59c23b55208c4d97a67b",
+      "bytes": 339,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24722",
+          "name": "icon/arrow-top-right/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "size": 16,
+      "path": "assets/icons/arrow-up/16.svg",
+      "sha256": "7e670347322cf367068aae5cf7c76fe409906c55f3b974200abc5dadcd18ec6c",
+      "bytes": 321,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2872:57853",
+          "name": "icon/arrow-up/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "size": 20,
+      "path": "assets/icons/arrow-up/20.svg",
+      "sha256": "9d08549faea93d8a4ce4fa627f567e60efb3cfb19d2b944bf898ead1ae8e9400",
+      "bytes": 363,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2199:23679",
+          "name": "icon/arrow-up/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "size": 24,
+      "path": "assets/icons/arrow-up/24.svg",
+      "sha256": "b0553ba1555d85b8a00689b73e4c5ee173cfbb188205c1443c9eadb65da3bbf8",
+      "bytes": 319,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2199:23680",
+          "name": "icon/arrow-up/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "book-open",
+      "size": 16,
+      "path": "assets/icons/book-open/16.svg",
+      "sha256": "279a2ce755ed7275ec14594131f7e93178d7c814f047719fe8eb8a0b584a8b1d",
+      "bytes": 1075,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2833:17122",
+          "name": "icon/book-open/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "book-open",
+      "size": 20,
+      "path": "assets/icons/book-open/20.svg",
+      "sha256": "eade990f359c3b70fed9234568c65a5223488fc225c2ffd2f589c434043fb6f5",
+      "bytes": 1133,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24725",
+          "name": "icon/book-open/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "book-open",
+      "size": 24,
+      "path": "assets/icons/book-open/24.svg",
+      "sha256": "5b369f791145c2b1aa2648fb1ab3055ae755a45ba0306591a71014bd173b31c3",
+      "bytes": 975,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24728",
+          "name": "icon/book-open/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "calendar",
+      "size": 16,
+      "path": "assets/icons/calendar/16.svg",
+      "sha256": "aee6339ab9064187d390608e537c36443a98a754b4fe531fde8e9d9e727cdebe",
+      "bytes": 630,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:99623",
+          "name": "icon/calendar/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "calendar",
+      "size": 20,
+      "path": "assets/icons/calendar/20.svg",
+      "sha256": "aa123d965708b37447f925ea7711e7826ac107b2f4e5da7ebed18350e982c745",
+      "bytes": 746,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:99622",
+          "name": "icon/calendar/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "calendar",
+      "size": 24,
+      "path": "assets/icons/calendar/24.svg",
+      "sha256": "5a7003a0d374d81e67231ec434ee3bf90cf6070d950b1e49b9c125ba014ebbc7",
+      "bytes": 627,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:99621",
+          "name": "icon/calendar/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "calendar-clock",
+      "size": 16,
+      "path": "assets/icons/calendar-clock/16.svg",
+      "sha256": "f704f25ff263773426067a6480317fe845c63cbb40534c25ab774b28661b7465",
+      "bytes": 1134,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3192:23384",
+          "name": "icon/calendar-clock/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "calendar-clock",
+      "size": 20,
+      "path": "assets/icons/calendar-clock/20.svg",
+      "sha256": "4d19942d427f0bdf77286d3856029644f93789444b595eb2ef1e76b995ce95cb",
+      "bytes": 1285,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3192:23385",
+          "name": "icon/calendar-clock/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "calendar-clock",
+      "size": 24,
+      "path": "assets/icons/calendar-clock/24.svg",
+      "sha256": "9f116b9be21129ed93e2d11a7983cfd9fd8a7a1e28d82ea182dd268391645e99",
+      "bytes": 1219,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3192:23386",
+          "name": "icon/calendar-clock/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "calendar-days",
+      "size": 16,
+      "path": "assets/icons/calendar-days/16.svg",
+      "sha256": "f129a60c9679dfdabbd273b58a39881d745947cd8c3fbe90d776b920489eb7f4",
+      "bytes": 1219,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3192:25427",
+          "name": "icon/calendar-days/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "calendar-days",
+      "size": 20,
+      "path": "assets/icons/calendar-days/20.svg",
+      "sha256": "d74169b1d1e83f5b63b5c20cabec875b40e5193902186465a3c5f4f42c355805",
+      "bytes": 1458,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3192:26688",
+          "name": "icon/calendar-days/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "calendar-days",
+      "size": 24,
+      "path": "assets/icons/calendar-days/24.svg",
+      "sha256": "0794fa0f581fc4a22d09a58a1ff1a63072743a2ca011d08613ca317d8f9f451e",
+      "bytes": 1363,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3192:26689",
+          "name": "icon/calendar-days/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chat",
+      "size": 16,
+      "path": "assets/icons/chat/16.svg",
+      "sha256": "e872b0f453b4484100a5c0b870157a954f2886b9b1968e44bd1c02f6e8720745",
+      "bytes": 1040,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2320:15942",
+          "name": "icon/chat/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chat",
+      "size": 20,
+      "path": "assets/icons/chat/20.svg",
+      "sha256": "9185ab87eb0577a7b434df8d2aa6447f922fe72d01c0e3e8735c4cbdedb10cd7",
+      "bytes": 910,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2037:4536",
+          "name": "icon/chat/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chat",
+      "size": 24,
+      "path": "assets/icons/chat/24.svg",
+      "sha256": "8ebb2b134dd38c1d8cdb9c98fa4c552738f7adc6853293801a56cea634bc5f1d",
+      "bytes": 911,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24731",
+          "name": "icon/chat/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "check",
+      "size": 16,
+      "path": "assets/icons/check/16.svg",
+      "sha256": "fa388690b69b803a7447555da2e1ae2f29091e2891027c231a27ac23e69c1f92",
+      "bytes": 216,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3074:98929",
+          "name": "icon/check/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "size": 16,
+      "path": "assets/icons/chevron-down/16.svg",
+      "sha256": "433b5d89a07a649c665318cf51bdb3044799ee6663bbc5686a54ab1cbb88809b",
+      "bytes": 194,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2372:37015",
+          "name": "icon/chevron-down/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "size": 20,
+      "path": "assets/icons/chevron-down/20.svg",
+      "sha256": "992779ea828590965c3df51208dda97e05d08f68b83f04fb2d3f9900947f3210",
+      "bytes": 221,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24733",
+          "name": "icon/chevron-down/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "size": 24,
+      "path": "assets/icons/chevron-down/24.svg",
+      "sha256": "7b9990eb221a802da429016bcd334903993229a1d7e25e7069d27a109c172e2e",
+      "bytes": 214,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24735",
+          "name": "icon/chevron-down/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "size": 16,
+      "path": "assets/icons/chevron-left/16.svg",
+      "sha256": "e600e785054ea921e2b86e72070cc785944ce3a88c0bcb2d459e4b9f4c0968e9",
+      "bytes": 195,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3017:75812",
+          "name": "icon/chevron-left/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "size": 20,
+      "path": "assets/icons/chevron-left/20.svg",
+      "sha256": "b0b0e0c808de4598dba3b7dcfd0180bbebfe5de6988ae28768dff6400798e91c",
+      "bytes": 222,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3017:75811",
+          "name": "icon/chevron-left/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "size": 24,
+      "path": "assets/icons/chevron-left/24.svg",
+      "sha256": "1ac1dc3cf3df8487753538be9cd7f42e93dc78c2e07d1531ea6e06d005679caa",
+      "bytes": 215,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3017:75804",
+          "name": "icon/chevron-left/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "size": 16,
+      "path": "assets/icons/chevron-right/16.svg",
+      "sha256": "7ba472cc2106a99196ddadbc8e4fb925576ecd0feac7ab7b906206773206f4cd",
+      "bytes": 194,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2842:38917",
+          "name": "icon/chevron-right/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "size": 20,
+      "path": "assets/icons/chevron-right/20.svg",
+      "sha256": "9a63cb2ebfd5b218cd4740591355dd0e3de4984997aa7465fdbb11f6161eaac1",
+      "bytes": 221,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24737",
+          "name": "icon/chevron-right/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "size": 24,
+      "path": "assets/icons/chevron-right/24.svg",
+      "sha256": "80833124eaadc7a79980e7b08faf42647b1f86d781460016eb4ce33ba20fd0fb",
+      "bytes": 214,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24739",
+          "name": "icon/chevron-right/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "circle-alert",
+      "size": 16,
+      "path": "assets/icons/circle-alert/16.svg",
+      "sha256": "5800e61a1d5371f178fb7acabeef2b04ed708977fa3f6e718884bd5aa79a1048",
+      "bytes": 721,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24741",
+          "name": "icon/circle-alert/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "circle-alert",
+      "size": 20,
+      "path": "assets/icons/circle-alert/20.svg",
+      "sha256": "1016527c35d99899b9b5682d2ef8f229071a45ed0a40e741668cc89c185b5d73",
+      "bytes": 640,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2898:23788",
+          "name": "icon/circle-alert/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "circle-alert",
+      "size": 24,
+      "path": "assets/icons/circle-alert/24.svg",
+      "sha256": "f6921b376376c4b789ab2a8e966ca013a04a5740c62cd6d639313ca7ed3d3b78",
+      "bytes": 572,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24745",
+          "name": "icon/circle-alert/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "circle-play",
+      "size": 16,
+      "path": "assets/icons/circle-play/16.svg",
+      "sha256": "82300b5846ee33f1b539e17eb4b7d92ad82a4b912828b56181ddfaa962066260",
+      "bytes": 1231,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2751:16870",
+          "name": "icon/circle-play/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "circle-play",
+      "size": 20,
+      "path": "assets/icons/circle-play/20.svg",
+      "sha256": "eabdd90d756087d3d13b8fcb51c3d6e6265e008bb27c438ca4478d9def8303af",
+      "bytes": 1129,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24749",
+          "name": "icon/circle-play/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "circle-play",
+      "size": 24,
+      "path": "assets/icons/circle-play/24.svg",
+      "sha256": "24d6a0009d0c448b41e9f420aa75db1658558109a09fec92e99b22ce089774fb",
+      "bytes": 1016,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24752",
+          "name": "icon/circle-play/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "clock-check",
+      "size": 16,
+      "path": "assets/icons/clock-check/16.svg",
+      "sha256": "ef184ecf786d3d3d1b0dfc779e17ba471e3b8eb5976f19e44f1334697371de30",
+      "bytes": 941,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24755",
+          "name": "icon/clock-check/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "clock-check",
+      "size": 20,
+      "path": "assets/icons/clock-check/20.svg",
+      "sha256": "ca1521ed80934226a5e94f4c7ac57569ff8a68d19e15121f3acad3b902b0855a",
+      "bytes": 857,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2921:23924",
+          "name": "icon/clock-check/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "clock-check",
+      "size": 24,
+      "path": "assets/icons/clock-check/24.svg",
+      "sha256": "df88785ef9538088139f1cd32843ea68558fa6fa04bd2634ae9e951d8fb9b583",
+      "bytes": 819,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24759",
+          "name": "icon/clock-check/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "code",
+      "size": 16,
+      "path": "assets/icons/code/16.svg",
+      "sha256": "7ad54a7c27d17f8636af9904ff87ee81ccc443ec54861eba040f07afbca02dd9",
+      "bytes": 316,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24763",
+          "name": "icon/code/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "code",
+      "size": 20,
+      "path": "assets/icons/code/20.svg",
+      "sha256": "1080bcdf2e24bc0ccd394bee678109e6a333d6f01cfcf42c09258c752d0d6590",
+      "bytes": 358,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2886:54298",
+          "name": "icon/code/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "code",
+      "size": 24,
+      "path": "assets/icons/code/24.svg",
+      "sha256": "1bfafaa365a706fae2421a7a07a2423572fe284fd23ace522407c63f06d6e668",
+      "bytes": 326,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24766",
+          "name": "icon/code/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "copy",
+      "size": 16,
+      "path": "assets/icons/copy/16.svg",
+      "sha256": "43577e6fbdaa73a99521547bc417472989cb6419fc73b9b8439f9b41c41be180",
+      "bytes": 817,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2898:49092",
+          "name": "icon/copy/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "copy",
+      "size": 20,
+      "path": "assets/icons/copy/20.svg",
+      "sha256": "036b803ee446d746178672c8006ad4e6a074d69e66f8db87734e4c55439b2b8f",
+      "bytes": 1325,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2762:73882",
+          "name": "icon/copy/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "copy",
+      "size": 24,
+      "path": "assets/icons/copy/24.svg",
+      "sha256": "27f61d5ce1c36553cca42bfc3cc5cf2e0396ce5dc7a0e0a503ee340998c71996",
+      "bytes": 1176,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24769",
+          "name": "icon/copy/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "cowork",
+      "size": 16,
+      "path": "assets/icons/cowork/16.svg",
+      "sha256": "5db1bfaa85e42ce973dd5b27697b476495cbb4c748234d8d5d9b114ec18776b9",
+      "bytes": 697,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24773",
+          "name": "icon/cowork/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "cowork",
+      "size": 20,
+      "path": "assets/icons/cowork/20.svg",
+      "sha256": "e68348199345b53d6b4d4e6538342f067898dd592c1ac24f52f6f5e0a74c619b",
+      "bytes": 747,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2421:41941",
+          "name": "icon/cowork/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "cowork",
+      "size": 24,
+      "path": "assets/icons/cowork/24.svg",
+      "sha256": "bc25284cfae20569de6766398c4ec4e5acf330201841e5d7c867cb9769a6c928",
+      "bytes": 544,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24776",
+          "name": "icon/cowork/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "dataset",
+      "size": 16,
+      "path": "assets/icons/dataset/16.svg",
+      "sha256": "dcee4f294f5dbd5307814e28f96ccb95d3e2e9c97abdc8753e64dad77807eb5d",
+      "bytes": 835,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2975:76313",
+          "name": "icon/dataset/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "dataset",
+      "size": 20,
+      "path": "assets/icons/dataset/20.svg",
+      "sha256": "a8b0dd72fdfb69f1aa46f0b0889379bc1bfa24fdd441332846312ee0c01c1fab",
+      "bytes": 938,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2975:76373",
+          "name": "icon/dataset/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "dataset",
+      "size": 24,
+      "path": "assets/icons/dataset/24.svg",
+      "sha256": "30f7767b39718452eff27326afa507283affa00d32b34a156e8ef28aa58c8f01",
+      "bytes": 812,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24779",
+          "name": "icon/dataset/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "delay",
+      "size": 16,
+      "path": "assets/icons/delay/16.svg",
+      "sha256": "6f2f3ced18e58e88e065c4cc23780a7b195c01fa55b6c2eaa05f7a5be21eaf55",
+      "bytes": 1186,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2312:46700",
+          "name": "icon/delay/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "delay",
+      "size": 20,
+      "path": "assets/icons/delay/20.svg",
+      "sha256": "a85f4f9aa5007adcab14ef1569d47d8007bee84bdd270b6dbb3a865fc57f392e",
+      "bytes": 1161,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24783",
+          "name": "icon/delay/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "delay",
+      "size": 24,
+      "path": "assets/icons/delay/24.svg",
+      "sha256": "0d0bf43c4ecaa15c2b6ef54bca324a474653ea9d6fc38c70049078c5220f259b",
+      "bytes": 1128,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24790",
+          "name": "icon/delay/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "direct",
+      "size": 16,
+      "path": "assets/icons/direct/16.svg",
+      "sha256": "e5b3380364b70bf21e806b8a95ee0a369f5a51a90f4382b921f8f872170b18dc",
+      "bytes": 224,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3016:104217",
+          "name": "icon/direct/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "dislike",
+      "size": 16,
+      "path": "assets/icons/dislike/16.svg",
+      "sha256": "8bd27773fdc183bb4a0bc570b5ab946e6c02f1180a9dfb09859a1a44c963d086",
+      "bytes": 732,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2898:49093",
+          "name": "icon/dislike/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "dislike",
+      "size": 20,
+      "path": "assets/icons/dislike/20.svg",
+      "sha256": "9ec123a5198663ca68f886de88e0397f54b4a6da8d371406ee1c3eed608e6297",
+      "bytes": 774,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24797",
+          "name": "icon/dislike/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "dislike",
+      "size": 24,
+      "path": "assets/icons/dislike/24.svg",
+      "sha256": "4585e57d16f82fc33675efbe59fcff8aa873c763d8b58a3708e50320d2418ae9",
+      "bytes": 696,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24800",
+          "name": "icon/dislike/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "download",
+      "size": 16,
+      "path": "assets/icons/download/16.svg",
+      "sha256": "ae57a8ed4fd3d625ddb973bf0e9eb2bfa7989961cfb13766477137f36d30ff98",
+      "bytes": 396,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3181:47422",
+          "name": "icon/download/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "download",
+      "size": 20,
+      "path": "assets/icons/download/20.svg",
+      "sha256": "01882da4fe1bd342d497bd062e5a0d58fca502c35409eb882103b366c12f0da1",
+      "bytes": 461,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3181:47421",
+          "name": "icon/download/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "download",
+      "size": 24,
+      "path": "assets/icons/download/24.svg",
+      "sha256": "cf2f5214caa263c267f15eb08a651627b21809e3a3a912c934fb6c98e1503270",
+      "bytes": 424,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3181:47420",
+          "name": "icon/download/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "edit",
+      "size": 16,
+      "path": "assets/icons/edit/16.svg",
+      "sha256": "f1e46a6c0c0dcc2888aba7c706acea3ffd06f8854b30324dd034d5310f2cb383",
+      "bytes": 1085,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24803",
+          "name": "icon/edit/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "edit",
+      "size": 20,
+      "path": "assets/icons/edit/20.svg",
+      "sha256": "a64a3cc5b3b121a016aeb0d6a2f37f01b148c816fb9dbd62b5274644241aa106",
+      "bytes": 1137,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2038:3612",
+          "name": "icon/edit/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "edit",
+      "size": 24,
+      "path": "assets/icons/edit/24.svg",
+      "sha256": "6304a0380879285e46faade03adc0551a8a81930a1d5584c85c5e10c35ac05cc",
+      "bytes": 1088,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24806",
+          "name": "icon/edit/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "eye",
+      "size": 16,
+      "path": "assets/icons/eye/16.svg",
+      "sha256": "8e2e0e81966ce23d10d88c9cc5fa3e8ced83cad2047b5afeca92871015409527",
+      "bytes": 862,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24809",
+          "name": "icon/eye/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "eye",
+      "size": 20,
+      "path": "assets/icons/eye/20.svg",
+      "sha256": "5fcab664b32dad502a2f7701bb1f35d5f7aced67ac46da35bf7cb51969f28eb5",
+      "bytes": 922,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2762:73886",
+          "name": "icon/eye/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "eye",
+      "size": 24,
+      "path": "assets/icons/eye/24.svg",
+      "sha256": "8c39485447adf0491371c6211bb5b16c33d44ffa6827b31b4cff86665d4dab85",
+      "bytes": 883,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24812",
+          "name": "icon/eye/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "file",
+      "size": 16,
+      "path": "assets/icons/file/16.svg",
+      "sha256": "e2269bdec107bd5d2cb573d89ae2b62df3009c966d26fd46222c9a5e9af9f5ca",
+      "bytes": 919,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2916:58366",
+          "name": "icon/file/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "file",
+      "size": 20,
+      "path": "assets/icons/file/20.svg",
+      "sha256": "4600970bd2f542d83498a230e65f42b1363e323c652026e193538704221b4332",
+      "bytes": 955,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24815",
+          "name": "icon/file/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "file",
+      "size": 24,
+      "path": "assets/icons/file/24.svg",
+      "sha256": "c49aea12715bbbea3622f2971d71f741e2cd0b08c437dd64d188d5232ccef784",
+      "bytes": 807,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24818",
+          "name": "icon/file/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "file-text",
+      "size": 16,
+      "path": "assets/icons/file-text/16.svg",
+      "sha256": "8497c202e94025e908dd2e5c29ac777ca12d24babee8e46be2c78629dc0ab9ac",
+      "bytes": 1216,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24821",
+          "name": "icon/file-text/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "file-text",
+      "size": 20,
+      "path": "assets/icons/file-text/20.svg",
+      "sha256": "52b9269290886d32d14fd5781f520cfdb5a3456c371e31ea763f079b5638649d",
+      "bytes": 1312,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2762:73887",
+          "name": "icon/file-text/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "file-text",
+      "size": 24,
+      "path": "assets/icons/file-text/24.svg",
+      "sha256": "c8240ffa1a1f1d0652619b8a8b8d1aab0356e9c322b9ca1d2ebbd3e4c5fc999f",
+      "bytes": 1118,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24827",
+          "name": "icon/file-text/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "filter",
+      "size": 16,
+      "path": "assets/icons/filter/16.svg",
+      "sha256": "7f8ccd8b70f9cf02e6f6c29c91e8ea876ad0197ac0d5ef57d51296c06ef5f260",
+      "bytes": 861,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3016:104216",
+          "name": "icon/filter/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "folder",
+      "size": 16,
+      "path": "assets/icons/folder/16.svg",
+      "sha256": "3b31567f7e64197b9f481d3cdf26f8da61776254396196018ede698e017ae1d7",
+      "bytes": 1161,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24833",
+          "name": "icon/forder/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "folder",
+      "size": 20,
+      "path": "assets/icons/folder/20.svg",
+      "sha256": "d4eab591f8d6063361b764b25eeda9deb033ebd82085592ee8512207c05635bb",
+      "bytes": 1174,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2037:4537",
+          "name": "icon/forder/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "folder",
+      "size": 24,
+      "path": "assets/icons/folder/24.svg",
+      "sha256": "88df12b4e03145964830b6547b19906c6aa4d4bea205d15c720f05d512660847",
+      "bytes": 1176,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24835",
+          "name": "icon/forder/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "funnel",
+      "size": 16,
+      "path": "assets/icons/funnel/16.svg",
+      "sha256": "dde22b87ece4798f072cbcad58fc4e356c26d566e587b5e96758d9a0cd5011bd",
+      "bytes": 1014,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:44920",
+          "name": "icon/funnel/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "funnel",
+      "size": 20,
+      "path": "assets/icons/funnel/20.svg",
+      "sha256": "bf07be08600aa0dd68c855cc105b34ebba9f9a2067b43ffd81aaf376dc771323",
+      "bytes": 1038,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:44919",
+          "name": "icon/funnel/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "funnel",
+      "size": 24,
+      "path": "assets/icons/funnel/24.svg",
+      "sha256": "6513c6b55167be8bd91b4522fd7bfb9543753d5827acb1e5911122a0c865969d",
+      "bytes": 1011,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:44912",
+          "name": "icon/funnel/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "globe",
+      "size": 16,
+      "path": "assets/icons/globe/16.svg",
+      "sha256": "3702c224d3e39b0d81ca320db0abad37ff69106ef5444d46ed61a820b6954e86",
+      "bytes": 904,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2320:15715",
+          "name": "icon/globe/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "globe",
+      "size": 20,
+      "path": "assets/icons/globe/20.svg",
+      "sha256": "420389025bac4fc8e9b890e66c4e6ce3d9b5fd38068e6cb58846b4081ec4fee8",
+      "bytes": 825,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24837",
+          "name": "icon/globe/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "globe",
+      "size": 24,
+      "path": "assets/icons/globe/24.svg",
+      "sha256": "9df5ef64e672973805fa2777d10cb238cc3e897caeb48671aa54d3c5deed6579",
+      "bytes": 740,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24841",
+          "name": "icon/globe/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "grid",
+      "size": 16,
+      "path": "assets/icons/grid/16.svg",
+      "sha256": "906f99f027e48aef5d02fdec4d53838a5a88d7895c28e7e743e37757c0b2b041",
+      "bytes": 1213,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2312:46701",
+          "name": "icon/grid/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "grid",
+      "size": 20,
+      "path": "assets/icons/grid/20.svg",
+      "sha256": "21ae8d39051c4d3de3e8666b7fa7b275b98d565edc7eeee0837f4a121218b35c",
+      "bytes": 1327,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24845",
+          "name": "icon/grid/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "grid",
+      "size": 24,
+      "path": "assets/icons/grid/24.svg",
+      "sha256": "193904dcc955f145dedf5c4b89be411c7e63d941f3711511583d1e229b6a38be",
+      "bytes": 1067,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24850",
+          "name": "icon/grid/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "group",
+      "size": 16,
+      "path": "assets/icons/group/16.svg",
+      "sha256": "9f4da812491122eaa857f0c221cd87206995cdd8b5767e55945bf9cdc3fa7506",
+      "bytes": 1123,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2320:15714",
+          "name": "icon/group/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "group",
+      "size": 20,
+      "path": "assets/icons/group/20.svg",
+      "sha256": "fa2983b5c98fa9d2bf43b52f0d548c3310460c46ebdb6d2e65aa2f4398515532",
+      "bytes": 1226,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24855",
+          "name": "icon/group/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "group",
+      "size": 24,
+      "path": "assets/icons/group/24.svg",
+      "sha256": "1d6dfe043fd8e76eb93d6d054f65431a05a18166039e1b18343a341ea40d03fa",
+      "bytes": 1160,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24860",
+          "name": "icon/group/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "image",
+      "size": 16,
+      "path": "assets/icons/image/16.svg",
+      "sha256": "5c773ba305d7595e6b1894d4cf6a42c20531af3c25cdbc027fbfc6d99c51bec9",
+      "bytes": 829,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24865",
+          "name": "icon/image/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "image",
+      "size": 20,
+      "path": "assets/icons/image/20.svg",
+      "sha256": "e689fb0f40db9db31437053a3926e3b5cb571a758d845a7cfd3cd561fe6b35f9",
+      "bytes": 925,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2057:16192",
+          "name": "icon/image/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "image",
+      "size": 24,
+      "path": "assets/icons/image/24.svg",
+      "sha256": "382bf3e52d05e8acef1fd0399c248f1d92dfc8e4d6dece664da26664f2d53474",
+      "bytes": 798,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24869",
+          "name": "icon/image/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "library",
+      "size": 16,
+      "path": "assets/icons/library/16.svg",
+      "sha256": "0b94cc18e0c08a6ab381e4e5f2c455a43812b674031a432287cc6571a6f4263c",
+      "bytes": 651,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24873",
+          "name": "icon/library/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "library",
+      "size": 20,
+      "path": "assets/icons/library/20.svg",
+      "sha256": "908b045b3cf9244774baec8fcd12db8db7eb5546b82e4c8c6694344346ca121d",
+      "bytes": 763,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2038:3610",
+          "name": "icon/library/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "library",
+      "size": 24,
+      "path": "assets/icons/library/24.svg",
+      "sha256": "eb518184656a9d50e386ce2ac4060ff9bd7af6bff576ea4a89ea6ff2bd1f45b9",
+      "bytes": 644,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24878",
+          "name": "icon/library/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "like",
+      "size": 16,
+      "path": "assets/icons/like/16.svg",
+      "sha256": "27cb8de8f262931dbcd71aad7905ecc5ba1899eb80b6bb716a0d3cf06f036e06",
+      "bytes": 729,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2898:49094",
+          "name": "icon/like/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "like",
+      "size": 20,
+      "path": "assets/icons/like/20.svg",
+      "sha256": "57b8f91d87fb5d1a9a212191e08a51f1cc1c9b4a027410534e4d1088263b846c",
+      "bytes": 770,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24883",
+          "name": "icon/like/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "like",
+      "size": 24,
+      "path": "assets/icons/like/24.svg",
+      "sha256": "f96c26b506625e76f2521f0bb9d742ea9c7c72170123886e7442a64d45b5b82c",
+      "bytes": 726,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24886",
+          "name": "icon/like/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "link",
+      "size": 16,
+      "path": "assets/icons/link/16.svg",
+      "sha256": "c0a7f0ab4e4a3e77073ffc3afe29755db3f731343ccea655af1c2c1acaf6dd3d",
+      "bytes": 1260,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:116812",
+          "name": "icon/link/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "link",
+      "size": 20,
+      "path": "assets/icons/link/20.svg",
+      "sha256": "654b168cdb7aa16e0665188ab922b05cf8a87db4b8007923e156fe840a294c1e",
+      "bytes": 1146,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:116811",
+          "name": "icon/link/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "link",
+      "size": 24,
+      "path": "assets/icons/link/24.svg",
+      "sha256": "e46c1e009ed3727c710fc75c32ba566b58ac0f994b66646a179f4c0e79170d08",
+      "bytes": 1123,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:116797",
+          "name": "icon/link/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "list",
+      "size": 16,
+      "path": "assets/icons/list/16.svg",
+      "sha256": "6fb89cef5d4a8412b70593fe6cacbf034614f362871bcf15e4fc32d7ee520f1c",
+      "bytes": 677,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:44845",
+          "name": "icon/list/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "list",
+      "size": 20,
+      "path": "assets/icons/list/20.svg",
+      "sha256": "b41a9874aeea129c1ccd09d3859d1f3ee7d6176606f472143c79947f85e99b52",
+      "bytes": 805,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:44846",
+          "name": "icon/list/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "list",
+      "size": 24,
+      "path": "assets/icons/list/24.svg",
+      "sha256": "343a8c0d8db352f6915b78ca4170408d3ee9969c253efea4af6919c43a4b7432",
+      "bytes": 731,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3079:44847",
+          "name": "icon/list/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "list-filter",
+      "size": 16,
+      "path": "assets/icons/list-filter/16.svg",
+      "sha256": "fcff286a3b200c3b40a0df2492e6e9fe649d924ae51a27cae3dd4cff7ade0f22",
+      "bytes": 366,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3141:16842",
+          "name": "icon/list-filter/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "maximize",
+      "size": 16,
+      "path": "assets/icons/maximize/16.svg",
+      "sha256": "f705a24e8ad29cf34a281312498e4dac890537a215b74eec6c9c9a0774b0003b",
+      "bytes": 483,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3015:24201",
+          "name": "icon/maximize/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "maximize",
+      "size": 20,
+      "path": "assets/icons/maximize/20.svg",
+      "sha256": "d3b65c6c5fe76c191c4d29188d6e4da1e9f576d8641969011b2295de3f0be657",
+      "bytes": 581,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24889",
+          "name": "icon/maximize/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "maximize",
+      "size": 24,
+      "path": "assets/icons/maximize/24.svg",
+      "sha256": "bc0dd458b0f9bb545d56e5e50b2b7aea10c51a981dce71963c3b1b78d2109091",
+      "bytes": 529,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24894",
+          "name": "icon/maximize/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "minimize",
+      "size": 16,
+      "path": "assets/icons/minimize/16.svg",
+      "sha256": "4f3b64c452ca49dad9aaa9a948722f98eb6c5358b1dc84c4fdb908e2758fa2a0",
+      "bytes": 525,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2975:79675",
+          "name": "icon/minimize/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "minimize",
+      "size": 20,
+      "path": "assets/icons/minimize/20.svg",
+      "sha256": "6d7ee5a9e29ca9445e6c8f590906f8360a6590a38f594a9d4acd5e37bb6c3f3b",
+      "bytes": 605,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24899",
+          "name": "icon/minimize/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "minimize",
+      "size": 24,
+      "path": "assets/icons/minimize/24.svg",
+      "sha256": "4015bd7642547ff2f13d5bb7c56565ba922c2a54e29c2ec74b1fd63847d8a798",
+      "bytes": 531,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24904",
+          "name": "icon/minimize/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "minus",
+      "size": 16,
+      "path": "assets/icons/minus/16.svg",
+      "sha256": "97c4be6b6fe863bdd2c018c5efdcb80e0b008f9921d504737dcbf9a404de2964",
+      "bytes": 198,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2916:60518",
+          "name": "icon/minus/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "minus",
+      "size": 20,
+      "path": "assets/icons/minus/20.svg",
+      "sha256": "a2af0d3964c2660c60e4ae8129a1ab1233dfa6d4b66af0bb05dc4b83bebf706a",
+      "bytes": 219,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24909",
+          "name": "icon/minus/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "minus",
+      "size": 24,
+      "path": "assets/icons/minus/24.svg",
+      "sha256": "1c51f2ba3431aa3a1d32c24407bd2dacf82d2a3485003ffda7d82922cc7f6218",
+      "bytes": 207,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24911",
+          "name": "icon/minus/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "more",
+      "size": 16,
+      "path": "assets/icons/more/16.svg",
+      "sha256": "77b730f2ba622b075bd5ef051caebcd7bdb9ef52941c412f43d691bfb46ef9d0",
+      "bytes": 983,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2751:16967",
+          "name": "icon/more/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "more",
+      "size": 20,
+      "path": "assets/icons/more/20.svg",
+      "sha256": "a415e536077489133dbda437d0d16f65ebd622b18b8bb979b0b02190e45dfa94",
+      "bytes": 1045,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2038:3609",
+          "name": "icon/more/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "more",
+      "size": 24,
+      "path": "assets/icons/more/24.svg",
+      "sha256": "f265dd8397ef185977ce111aeb76d48f630c44d86cd3f1c7aa76a56d0f7fcc40",
+      "bytes": 883,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24913",
+          "name": "icon/more/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "panel-right",
+      "size": 16,
+      "path": "assets/icons/panel-right/16.svg",
+      "sha256": "ec4b4aed61cc905fc078f54f81c7dba6f4e56752a01cc8dadff06859cc4d68c2",
+      "bytes": 430,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2800:8884",
+          "name": "icon/panel-right/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "panel-right",
+      "size": 20,
+      "path": "assets/icons/panel-right/20.svg",
+      "sha256": "b1a3b6006e579990d8dcb538d9eeb14550eb135ac6b95e83b954b1abf8792eef",
+      "bytes": 506,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2800:8923",
+          "name": "icon/panel-right/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "panel-right",
+      "size": 24,
+      "path": "assets/icons/panel-right/24.svg",
+      "sha256": "6e846c463d911cf1b6cec4b617e38aa028adbf6b422614ad6e841f12f430f7c7",
+      "bytes": 423,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2800:8877",
+          "name": "icon/panel-right/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pause",
+      "size": 16,
+      "path": "assets/icons/pause/16.svg",
+      "sha256": "ead1a84110159283515040362c10ddab983c964b749906b55fdec1ae4578bb41",
+      "bytes": 661,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2751:14602",
+          "name": "icon/pause/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pause",
+      "size": 20,
+      "path": "assets/icons/pause/20.svg",
+      "sha256": "150b90ff30f4fcf38cf47bd44a1fc7162119df85b4e27b411f748103c4e5896f",
+      "bytes": 722,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2800:8930",
+          "name": "icon/pause/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pause",
+      "size": 24,
+      "path": "assets/icons/pause/24.svg",
+      "sha256": "e60dc723b5bf8ce689eaf0e98032bebec1375b8cc3e45775336dca9a6c20d3ce",
+      "bytes": 537,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2752:65559",
+          "name": "icon/pause/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pencil",
+      "size": 16,
+      "path": "assets/icons/pencil/16.svg",
+      "sha256": "5b787731c2d349ee2f7b06f25b9caa1548db647c92a6bfce8375b1e91c97dc1f",
+      "bytes": 980,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2800:8876",
+          "name": "icon/pencil/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pencil",
+      "size": 20,
+      "path": "assets/icons/pencil/20.svg",
+      "sha256": "a1a23e222265af24904d3206e99112b1dcbc6fc3292b01d070fad8b55d141f89",
+      "bytes": 876,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2762:73888",
+          "name": "icon/pencil/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pencil",
+      "size": 24,
+      "path": "assets/icons/pencil/24.svg",
+      "sha256": "d3919cf001d851cf81429706bf1640c0d985baa6ac7c122280091bfe11b7ae3c",
+      "bytes": 856,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24917",
+          "name": "icon/pencil/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pencil-sparkles",
+      "size": 16,
+      "path": "assets/icons/pencil-sparkles/16.svg",
+      "sha256": "39912459e073fc5bb510c2a36bfc0b59021d4f42091ef9e34197f292497a2602",
+      "bytes": 1572,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3178:46532",
+          "name": "icon/pencil-sparkles/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pencil-sparkles",
+      "size": 20,
+      "path": "assets/icons/pencil-sparkles/20.svg",
+      "sha256": "4454c0dd39a73a000310b562f6272ff50495765a2ea3eaac2c7a4aa4de6d3f1b",
+      "bytes": 1586,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3178:46531",
+          "name": "icon/pencil-sparkles/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pencil-sparkles",
+      "size": 24,
+      "path": "assets/icons/pencil-sparkles/24.svg",
+      "sha256": "328d7be5092572075f3ba5599f78411c8b83323698f7be4181e0c6086febe671",
+      "bytes": 1489,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3178:46530",
+          "name": "icon/pencil-sparkles/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pin",
+      "size": 16,
+      "path": "assets/icons/pin/16.svg",
+      "sha256": "58dd6bbd424a54db73ac251e0e3b9228ae7834c659904707e7e90ed9bb30e861",
+      "bytes": 1719,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2308:44294",
+          "name": "icon/pin/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pin",
+      "size": 20,
+      "path": "assets/icons/pin/20.svg",
+      "sha256": "cc64eb85088e0a93c3bbfdf202aeac2985229c92c6ddafd8a0b90f2b4c1c9e05",
+      "bytes": 1759,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24920",
+          "name": "icon/pin/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "pin",
+      "size": 24,
+      "path": "assets/icons/pin/24.svg",
+      "sha256": "eb1ed7244351fb5e58bf2cf459d0a1b1dd46219d0e038300fe76b39355dbbf4d",
+      "bytes": 1750,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24924",
+          "name": "icon/pin/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "play",
+      "size": 16,
+      "path": "assets/icons/play/16.svg",
+      "sha256": "241f9393a2032e95a89bfb65b046f01f9834f28a9b60ccbedebc267d8ca88b21",
+      "bytes": 802,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2751:16935",
+          "name": "icon/play/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "play",
+      "size": 20,
+      "path": "assets/icons/play/20.svg",
+      "sha256": "e2e0154d8dc654a1472e23ef6c15c0235e1e2ebfa79642f6102759e9cb86b92d",
+      "bytes": 822,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24928",
+          "name": "icon/play/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "play",
+      "size": 24,
+      "path": "assets/icons/play/24.svg",
+      "sha256": "e71ae69c6e254223e39ff4c2d08fb7a0e20b8820666c142ccfbd9d2a3679736e",
+      "bytes": 802,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24930",
+          "name": "icon/play/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "plus",
+      "size": 16,
+      "path": "assets/icons/plus/16.svg",
+      "sha256": "c3f2b654b5a2ba04154e764e3eafc5ee7eb5b296ac77fbf34a0d3e41f62a0acf",
+      "bytes": 293,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2365:15015",
+          "name": "icon/plus/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "plus",
+      "size": 20,
+      "path": "assets/icons/plus/20.svg",
+      "sha256": "6392d70bdb509700a1e52292203226904ca75efe3d38018456d35486ec49e2c4",
+      "bytes": 335,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24932",
+          "name": "icon/plus/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "plus",
+      "size": 24,
+      "path": "assets/icons/plus/24.svg",
+      "sha256": "0fc51b482c2f277d991961bb9c299a89f99fb9cfe108a72f52479c920cb75da3",
+      "bytes": 311,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2308:44299",
+          "name": "icon/plus/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "presentation",
+      "size": 16,
+      "path": "assets/icons/presentation/16.svg",
+      "sha256": "e692144f2496072326afb49604afa466b6f7e5fc2482388b25744940004f64d7",
+      "bytes": 597,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24935",
+          "name": "icon/presentation/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "presentation",
+      "size": 20,
+      "path": "assets/icons/presentation/20.svg",
+      "sha256": "af87cb113fdcad8f90f14e73ed4e86a172dd86d6b9c2340e7c9910933b09aa2f",
+      "bytes": 671,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2762:73883",
+          "name": "icon/presentation/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "presentation",
+      "size": 24,
+      "path": "assets/icons/presentation/24.svg",
+      "sha256": "f659f062e387523cf858909713bd626f724137213c4af969ac62b7300cfe90b9",
+      "bytes": 577,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24939",
+          "name": "icon/presentation/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "puzzle",
+      "size": 16,
+      "path": "assets/icons/puzzle/16.svg",
+      "sha256": "979b418fe01a95198fc259ff81fe775b9f8cec0381fdf1f0dbebdc903ffc2c67",
+      "bytes": 4268,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24943",
+          "name": "icon/puzzle/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "puzzle",
+      "size": 20,
+      "path": "assets/icons/puzzle/20.svg",
+      "sha256": "33c659ee403e99d939c35f871fe45489bc58baa606729e3e6eb35d13e1e12d49",
+      "bytes": 4138,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2038:3611",
+          "name": "icon/puzzle/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "puzzle",
+      "size": 24,
+      "path": "assets/icons/puzzle/24.svg",
+      "sha256": "f091f1b64846e1b93af469c7ecd18177652d4c7f2ceadbd16c227b265a962114",
+      "bytes": 4130,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24945",
+          "name": "icon/puzzle/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "retry",
+      "size": 16,
+      "path": "assets/icons/retry/16.svg",
+      "sha256": "83b8edbef58820a44ab86c51cf6b90db7ef8c534a06360be1302b0223107de1b",
+      "bytes": 695,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2842:39370",
+          "name": "icon/retry/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "retry",
+      "size": 20,
+      "path": "assets/icons/retry/20.svg",
+      "sha256": "b65b0b742200b43cd0edc1ba273bdafea33f1d753a69e191f1150b64d6b3fb13",
+      "bytes": 748,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2872:56741",
+          "name": "icon/retry/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "retry",
+      "size": 24,
+      "path": "assets/icons/retry/24.svg",
+      "sha256": "2afa391fc6f6d26400aed318acf9df77cdc34757352968fe7668392315e91c04",
+      "bytes": 704,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24947",
+          "name": "icon/retry/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "rotate-cw-clock",
+      "size": 16,
+      "path": "assets/icons/rotate-cw-clock/16.svg",
+      "sha256": "f36f77cc1058fd2f67df6c01e8e44feb089fd33fa63b2eabd65f282c7168fb26",
+      "bytes": 809,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3192:23364",
+          "name": "icon/rotate-cw-clock/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "rotate-cw-clock",
+      "size": 20,
+      "path": "assets/icons/rotate-cw-clock/20.svg",
+      "sha256": "dc0ac16eefe883fbab753dd477eed52fba65df691a219ce2b837e49797d1947a",
+      "bytes": 883,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3192:23365",
+          "name": "icon/rotate-cw-clock/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "rotate-cw-clock",
+      "size": 24,
+      "path": "assets/icons/rotate-cw-clock/24.svg",
+      "sha256": "154a53d564ffbf1dd73cbed1d63dbaddcc34c33243467ff7ffd05962724a3b12",
+      "bytes": 842,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3192:23366",
+          "name": "icon/rotate-cw-clock/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "schedule",
+      "size": 16,
+      "path": "assets/icons/schedule/16.svg",
+      "sha256": "26ad2b5812ba8f1e7cac68fec2172b7a47e1a658fb001d561870a97b84f98c04",
+      "bytes": 632,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24950",
+          "name": "icon/schedule/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "schedule",
+      "size": 20,
+      "path": "assets/icons/schedule/20.svg",
+      "sha256": "69ba47474ee56269a257315fb4e71cdb49f47a283b63e3fbefc6e76f84eed114",
+      "bytes": 527,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2053:5271",
+          "name": "icon/schedule/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "schedule",
+      "size": 24,
+      "path": "assets/icons/schedule/24.svg",
+      "sha256": "41c02de0c9cf6393e179ea68e0edd289aee8666be707adc333e9f63f70b51a35",
+      "bytes": 470,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24953",
+          "name": "icon/schedule/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "search",
+      "size": 16,
+      "path": "assets/icons/search/16.svg",
+      "sha256": "db55724e3159ca6af8a8896c7b86300d02741e3fb17eff987942805c0c92dc9c",
+      "bytes": 462,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24956",
+          "name": "icon/search/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "search",
+      "size": 20,
+      "path": "assets/icons/search/20.svg",
+      "sha256": "269edafa39d51b83c905101d78dcb9ce0f343c48b47a19b1b712439b24df880b",
+      "bytes": 514,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2106:10483",
+          "name": "icon/search/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "search",
+      "size": 24,
+      "path": "assets/icons/search/24.svg",
+      "sha256": "85b60694397a02d9dfcf741fd6b494fb419410eb36caa564acd46aa9d9b50066",
+      "bytes": 440,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24959",
+          "name": "icon/search/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "settings",
+      "size": 24,
+      "path": "assets/icons/settings/24.svg",
+      "sha256": "755bfdc7a9bf584f2ff6e24b59dcc608c632a939b87b312405fc70fe944692aa",
+      "bytes": 2579,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3065:48565",
+          "name": "icon/settings/24"
+        }
+      ],
+      "strokeWidths": [],
+      "defaultColors": [
+        "#757575"
+      ]
+    },
+    {
+      "name": "shuffle",
+      "size": 16,
+      "path": "assets/icons/shuffle/16.svg",
+      "sha256": "195aef5d9556248b0044ad2571baa68d7e0097fa862bc77d654b9f381d23d201",
+      "bytes": 1187,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3216:78264",
+          "name": "icon/shuffle/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "shuffle",
+      "size": 20,
+      "path": "assets/icons/shuffle/20.svg",
+      "sha256": "d9b95a93d0d23c5c9fbb08a7abb9dbb08038c3af4ad5372c0c275be90ec1b30f",
+      "bytes": 1143,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3216:78249",
+          "name": "icon/shuffle/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "shuffle",
+      "size": 24,
+      "path": "assets/icons/shuffle/24.svg",
+      "sha256": "226431ac9325231395d171633b540d4d89159e04ac985fc04fe92d074f863c8e",
+      "bytes": 1058,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3216:78248",
+          "name": "icon/shuffle/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "sidebar",
+      "size": 16,
+      "path": "assets/icons/sidebar/16.svg",
+      "sha256": "e9aae906f798b3f559112c01df809bf4822f92c52700bc07ad319c29e5aff576",
+      "bytes": 429,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2326:32917",
+          "name": "icon/sidebar/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "sidebar",
+      "size": 20,
+      "path": "assets/icons/sidebar/20.svg",
+      "sha256": "68652fd082b1e490ee33442ee011b9325253132661e04d30a8897e6dacacfc02",
+      "bytes": 505,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24962",
+          "name": "icon/sidebar/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "sidebar",
+      "size": 24,
+      "path": "assets/icons/sidebar/24.svg",
+      "sha256": "9c50bd7ce3fb2d33d907e2d9a2310a319f345c691f3113800b4a56cf048f9c00",
+      "bytes": 422,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24965",
+          "name": "icon/sidebar/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "skill",
+      "size": 16,
+      "path": "assets/icons/skill/16.svg",
+      "sha256": "94af3ff71a6c2acb19cffce79042dc26fdb1a558c31dcab9270be9b53fa70176",
+      "bytes": 1357,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3216:79472",
+          "name": "icon/skill/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "skill",
+      "size": 20,
+      "path": "assets/icons/skill/20.svg",
+      "sha256": "6c391063f14f2b77a06d9c4d52d5023a32178c5ccada8d9198f778941767d4db",
+      "bytes": 1453,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3216:79473",
+          "name": "icon/skill/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "skill",
+      "size": 24,
+      "path": "assets/icons/skill/24.svg",
+      "sha256": "46e0866e0ce82e0e96bf93b4e28283d62d792662310b40956c5286b98e7ef40b",
+      "bytes": 1302,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3216:79474",
+          "name": "icon/skill/16",
+          "note": "이름은 16이지만 실제 frame은 24×24. 실제 크기로 등록."
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "table",
+      "size": 16,
+      "path": "assets/icons/table/16.svg",
+      "sha256": "376fe542ef422c2f475b57130a912ada29fdefbb0f77ab171b7a9256ba7234b7",
+      "bytes": 598,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24968",
+          "name": "icon/table/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "table",
+      "size": 20,
+      "path": "assets/icons/table/20.svg",
+      "sha256": "3778238881d527caab634d0a1f68f5f98270cba4f147c210e1ef0fe703528065",
+      "bytes": 725,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2762:73885",
+          "name": "icon/table/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "table",
+      "size": 24,
+      "path": "assets/icons/table/24.svg",
+      "sha256": "014e541ab0fba3bc480ee63febbaed14714d74b0d3453ecfca3b4c53b81ea674",
+      "bytes": 630,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24973",
+          "name": "icon/table/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "team",
+      "size": 16,
+      "path": "assets/icons/team/16.svg",
+      "sha256": "5b52d94271e39cc16456c1cf1321f373d4d55e62e426bc8d4840522d4293eb62",
+      "bytes": 1721,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2312:46699",
+          "name": "icon/team/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "team",
+      "size": 20,
+      "path": "assets/icons/team/20.svg",
+      "sha256": "e4d1ec081beb951d0f95b5b141e7cf114a665973d6d3b43cfe92fdf897db3b73",
+      "bytes": 1860,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24978",
+          "name": "icon/team/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "team",
+      "size": 24,
+      "path": "assets/icons/team/24.svg",
+      "sha256": "e88a3dd4d8e15aa05596394ff3e89a7f86e91abe0d6b2eae9a8670fe03a16faa",
+      "bytes": 1639,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24985",
+          "name": "icon/team/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "trash",
+      "size": 16,
+      "path": "assets/icons/trash/16.svg",
+      "sha256": "1066327a606b585e3cf38a66aedeabcb714d933f1d69cca8aea8fd9bc99ca277",
+      "bytes": 984,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24992",
+          "name": "icon/trash/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "trash",
+      "size": 20,
+      "path": "assets/icons/trash/20.svg",
+      "sha256": "49c85435f59913d1ef03285f17e59ddc86a765bcf168cb7dd5aad392d7383153",
+      "bytes": 1090,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2762:73881",
+          "name": "icon/trash/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "trash",
+      "size": 24,
+      "path": "assets/icons/trash/24.svg",
+      "sha256": "ee6fc6a283b8052c3c86c45f6790746529149f933501f94fc027e95d8dfa0456",
+      "bytes": 928,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:24998",
+          "name": "icon/trash/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "upload",
+      "size": 16,
+      "path": "assets/icons/upload/16.svg",
+      "sha256": "f665680aa14fea16406de50a48f09e00d7e3d85dba9e719127b30a5fcee3f67d",
+      "bytes": 378,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25004",
+          "name": "icon/upload/16"
+        },
+        {
+          "nodeId": "3178:46337",
+          "name": "icon/upload/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "upload",
+      "size": 20,
+      "path": "assets/icons/upload/20.svg",
+      "sha256": "51a4c1977be8e99d9fd72a853c8fb5e14675a11bf7608207982d002f358a6a26",
+      "bytes": 450,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2762:73884",
+          "name": "icon/upload/20"
+        },
+        {
+          "nodeId": "3178:46336",
+          "name": "icon/upload/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "upload",
+      "size": 24,
+      "path": "assets/icons/upload/24.svg",
+      "sha256": "742c0742f90941da71feb0a2b9647ab5bc7f5346785e350a1b8c689e8f6fec7c",
+      "bytes": 421,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25008",
+          "name": "icon/upload/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "user",
+      "size": 16,
+      "path": "assets/icons/user/16.svg",
+      "sha256": "9d1a822fa18fc69f209e49215b7725d8123185466dfad0f26d098ed1c63a99e8",
+      "bytes": 646,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2320:15713",
+          "name": "icon/user/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "user",
+      "size": 20,
+      "path": "assets/icons/user/20.svg",
+      "sha256": "756186f7b37083d4ab7c306851de4a39698b5a8470f8ca197c15306726e8d618",
+      "bytes": 711,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25012",
+          "name": "icon/user/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "user",
+      "size": 24,
+      "path": "assets/icons/user/24.svg",
+      "sha256": "5630d824817e6033253b62dd800379e218691734db31ea1f4e340dc2154cd08f",
+      "bytes": 642,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25015",
+          "name": "icon/user/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "workflow",
+      "size": 16,
+      "path": "assets/icons/workflow/16.svg",
+      "sha256": "788ba4f6ddd6529cfb7dffbab918cbdf88e7bdb0a10294f8f970ccaf8db4d63d",
+      "bytes": 864,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25018",
+          "name": "icon/workflow/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "workflow",
+      "size": 20,
+      "path": "assets/icons/workflow/20.svg",
+      "sha256": "2721e6776dafa5cd39f9d4c892dbc91ff87c20c9c3830f884e93907710632a08",
+      "bytes": 940,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2421:41939",
+          "name": "icon/workflow/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "workflow",
+      "size": 24,
+      "path": "assets/icons/workflow/24.svg",
+      "sha256": "d57e471fea0da8d7599a39eaed2adae59618da6155737e4452e9b8d6c5411be5",
+      "bytes": 722,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25022",
+          "name": "icon/workflow/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "wrench",
+      "size": 16,
+      "path": "assets/icons/wrench/16.svg",
+      "sha256": "8a5d2fe84d51f190d41e141ad6fe85657b5002ecae36d4edb5a0745c8e50e672",
+      "bytes": 1277,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2833:16795",
+          "name": "icon/wrench/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "wrench",
+      "size": 20,
+      "path": "assets/icons/wrench/20.svg",
+      "sha256": "7c89cf496a261b8ececc76a1e23249436a71571e254b5cf4354ee86c7097dfec",
+      "bytes": 1149,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25026",
+          "name": "icon/wrench/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "wrench",
+      "size": 24,
+      "path": "assets/icons/wrench/24.svg",
+      "sha256": "54366e07b15857df41ecd2187675b93d8f8ac0d9e0e76db6e8b8aec7163ff2f8",
+      "bytes": 1147,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25028",
+          "name": "icon/wrench/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "x",
+      "size": 16,
+      "path": "assets/icons/x/16.svg",
+      "sha256": "7511c2229c598abe7372dd5a49aa6fa4c79f00a3281160d8c1d31aff3a9d492a",
+      "bytes": 277,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2311:46284",
+          "name": "icon/x/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "x",
+      "size": 20,
+      "path": "assets/icons/x/20.svg",
+      "sha256": "7e79e5beb34a764defd60f46ac56fcca1d944499bbbf529945a62bf4b483870b",
+      "bytes": 317,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2800:51015",
+          "name": "icon/x/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "x",
+      "size": 24,
+      "path": "assets/icons/x/24.svg",
+      "sha256": "f9f671b2896a638c00e0f04c37993d8c1adf9f38516612e8590f7965078c3af1",
+      "bytes": 315,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2199:23685",
+          "name": "icon/x/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "zip",
+      "size": 16,
+      "path": "assets/icons/zip/16.svg",
+      "sha256": "8dfce0522f8838bd95873df686ba4c4caaf8a9eb28318a90f8cfa67cb6def29d",
+      "bytes": 1245,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25030",
+          "name": "icon/zip/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "zip",
+      "size": 20,
+      "path": "assets/icons/zip/20.svg",
+      "sha256": "7a885d6c930b8aa13aff55af878b698d0f8645bf16b80f9da674abddee10d6a0",
+      "bytes": 1335,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "2975:76374",
+          "name": "icon/zip/20"
+        }
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    },
+    {
+      "name": "zip",
+      "size": 24,
+      "path": "assets/icons/zip/24.svg",
+      "sha256": "15b21270754d517d41a2b38ee90d150ee4a9a8400f050ce397caf9214ddb3527",
+      "bytes": 1137,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3018:25035",
+          "name": "icon/zip/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ]
+    }
+  ],
+  "fileIcons": [
+    {
+      "type": "spreadsheet",
+      "nodeId": "3128:25501",
+      "width": 44,
+      "height": 44,
+      "radius": 6,
+      "borderWidth": 1,
+      "borderColor": "#EEEEEE",
+      "glyphBox": {
+        "width": 24,
+        "height": 24
+      },
+      "accent": "#079455",
+      "path": "assets/files/spreadsheet.svg",
+      "sha256": "9736e8a33e22e83ac1411535484dd44e5b30a92b4031658fcfe17bd791297452",
+      "bytes": 1208,
+      "format": "svg"
+    },
+    {
+      "type": "presentation",
+      "nodeId": "3128:25505",
+      "width": 44,
+      "height": 44,
+      "radius": 6,
+      "borderWidth": 1,
+      "borderColor": "#EEEEEE",
+      "glyphBox": {
+        "width": 24,
+        "height": 24
+      },
+      "accent": "#C82C21",
+      "path": "assets/files/presentation.svg",
+      "sha256": "f3708f2f676dd643bf80fef405569b602973a189fe347692616f30e557a521e5",
+      "bytes": 1185,
+      "format": "svg"
+    },
+    {
+      "type": "document",
+      "nodeId": "3128:25517",
+      "width": 44,
+      "height": 44,
+      "radius": 6,
+      "borderWidth": 1,
+      "borderColor": "#EEEEEE",
+      "glyphBox": {
+        "width": 24,
+        "height": 24
+      },
+      "accent": "#1B54C6",
+      "path": "assets/files/document.svg",
+      "sha256": "f84caf6b1c4a58adc829fe8f501330d455299c396e069b2e4279ae47b82c1d5f",
+      "bytes": 1699,
+      "format": "svg"
+    },
+    {
+      "type": "pdf",
+      "nodeId": "3128:25521",
+      "width": 44,
+      "height": 44,
+      "radius": 6,
+      "borderWidth": 1,
+      "borderColor": "#EEEEEE",
+      "glyphBox": {
+        "width": 24,
+        "height": 24
+      },
+      "accent": "#D92D20",
+      "path": "assets/files/pdf.svg",
+      "sha256": "0a783a0e0f0c6a00d452176e4c027024982a20b45be89e647d4f2f4bc2f16737",
+      "bytes": 2197,
+      "format": "svg"
+    },
+    {
+      "type": "code",
+      "nodeId": "3128:25529",
+      "width": 44,
+      "height": 44,
+      "radius": 6,
+      "borderWidth": 1,
+      "borderColor": "#EEEEEE",
+      "glyphBox": {
+        "width": 24,
+        "height": 24
+      },
+      "accent": "#8A8A8A",
+      "path": "assets/files/code.svg",
+      "sha256": "3d5341e1fafc076a258a84ddb85f3072c02fb4ecc774f522bd6957cda6731544",
+      "bytes": 1006,
+      "format": "svg"
+    },
+    {
+      "type": "archive",
+      "nodeId": "3128:25537",
+      "width": 44,
+      "height": 44,
+      "radius": 6,
+      "borderWidth": 1,
+      "borderColor": "#EEEEEE",
+      "glyphBox": {
+        "width": 22,
+        "height": 22
+      },
+      "accent": "#F4A822",
+      "path": "assets/files/archive.svg",
+      "sha256": "67152e9eb80ed1841016057ff52d083b4dc6a8e45d2b0ad22b7d1ddee42a0353",
+      "bytes": 1916,
+      "format": "svg"
+    }
+  ],
+  "brandMark": {
+    "nodeId": "2611:74300",
+    "name": "Agent Hub 메인 마크",
+    "figmaImageHash": "9ad483e40603da8c651c65af6fb5bace9c698cdd",
+    "width": 2048,
+    "height": 2048,
+    "displayWidth": 180,
+    "displayHeight": 180,
+    "format": "png",
+    "transparent": true,
+    "path": "assets/brand/agent-hub-mark.png",
+    "sha256": "8591d15fac29d9d6bf474ab34a1151528e257f4f72aff461359ede012c89537b",
+    "bytes": 1508137
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubFlyout",
+  "status": "user-requested-adoption",
+  "verifiedAt": "2026-10-21",
+  "figmaMeasured": false,
+  "runtimeVerified": false,
+  "source": {
+    "request": "Reuse existing Menu opening and closing animation; build Flyout interior from supplied Figma.",
+    "baselineDocuments": [
+      "DOCS_ROOT/frontend/design/components/Menu/behavior.md",
+      "DOCS_ROOT/frontend/design/components/Menu/implementation/css.md"
+    ],
+    "authoringSource": {
+      "repository": "project.serengeti-cmp",
+      "path": "src/core/components/layout/menu/Menu.css.ts",
+      "kind": "read-only-local-source-snapshot",
+      "sha256": "b120caee8db40d89d28cfc4f751baba51cb6ef0db77228f37af88de246eb9eaa"
+    },
+    "scope": "Apply only when this frontend extension is adopted; common opt-out does not force a Menu dependency or motion policy."
+  },
+  "durationMs": 150,
+  "easing": "ease",
+  "fillMode": "both",
+  "distancePx": 6,
+  "sideFallback": "bottom",
+  "transformOrigin": {
+    "baselineVariable": "--radix-dropdown-menu-content-transform-origin",
+    "adoptedVariable": "--flyout-transform-origin",
+    "policy": "Map the actual positioning adapter origin; do not require a Menu-only variable in a different primitive."
+  },
+  "sides": {
+    "top": {
+      "axis": "Y",
+      "offsetPx": 6,
+      "open": {
+        "from": {
+          "opacity": 0,
+          "transform": "translateY(6px)"
+        },
+        "to": {
+          "opacity": 1,
+          "transform": "translateY(0)"
+        }
+      },
+      "closed": {
+        "from": {
+          "opacity": 1,
+          "transform": "translateY(0)"
+        },
+        "to": {
+          "opacity": 0,
+          "transform": "translateY(6px)"
+        }
+      }
+    },
+    "bottom": {
+      "axis": "Y",
+      "offsetPx": -6,
+      "open": {
+        "from": {
+          "opacity": 0,
+          "transform": "translateY(-6px)"
+        },
+        "to": {
+          "opacity": 1,
+          "transform": "translateY(0)"
+        }
+      },
+      "closed": {
+        "from": {
+          "opacity": 1,
+          "transform": "translateY(0)"
+        },
+        "to": {
+          "opacity": 0,
+          "transform": "translateY(-6px)"
+        }
+      }
+    },
+    "left": {
+      "axis": "X",
+      "offsetPx": 6,
+      "open": {
+        "from": {
+          "opacity": 0,
+          "transform": "translateX(6px)"
+        },
+        "to": {
+          "opacity": 1,
+          "transform": "translateX(0)"
+        }
+      },
+      "closed": {
+        "from": {
+          "opacity": 1,
+          "transform": "translateX(0)"
+        },
+        "to": {
+          "opacity": 0,
+          "transform": "translateX(6px)"
+        }
+      }
+    },
+    "right": {
+      "axis": "X",
+      "offsetPx": -6,
+      "open": {
+        "from": {
+          "opacity": 0,
+          "transform": "translateX(-6px)"
+        },
+        "to": {
+          "opacity": 1,
+          "transform": "translateX(0)"
+        }
+      },
+      "closed": {
+        "from": {
+          "opacity": 1,
+          "transform": "translateX(0)"
+        },
+        "to": {
+          "opacity": 0,
+          "transform": "translateX(-6px)"
+        }
+      }
+    }
+  },
+  "closedPointerEvents": "none",
+  "presencePolicy": "Retain closed surface through exit via actual primitive/Presence owner; do not immediately unmount in a parent or depend only on animationend.",
+  "reducedMotion": {
+    "baselineMenuImplementsOverride": false,
+    "flyoutPolicy": "animation: none",
+    "adoption": "Explicit accessibility fallback, not a claim that existing Menu or globals already implement it.",
+    "cleanup": "Close/unmount/focus restoration must also complete with animation disabled."
+  },
+  "layoutPolicy": "Keep placement transform on a separate positioning wrapper if necessary. Animate the surface only, not header/item/footer independently.",
+  "limits": [
+    "Only source/doc snapshot matches, not latest API or consuming product runtime verification.",
+    "Menu radius, min-width, large row size, max296, role/menu focus policy, portal implementation and generated class names are not inherited by motion adoption.",
+    "No scale, spring, stagger, delay or extra transition between Figma states is supplied."
+  ]
+}

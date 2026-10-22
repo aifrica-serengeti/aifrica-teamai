@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "2611:62099"
+    ],
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "hiddenInstanceChildrenIncluded": true,
+    "method": "Figma MCP get_design_context code/screenshot and read-only Plugin API full tree including hidden descendants, actual source identities, geometry/paints/per-corner/per-edge styles, mixed-font segments, variable modes, reactions/transforms and alias closure. No canvas mutation."
+  },
+  "notes": [
+    "Full21-variable alias closure across4collections. Visible semantic collection has only Light mode. Remote hidden Divider collection also stores Dark values; that is not a rendered Global Header Dark variant. Node mode map remains in global-header.figma.json."
+  ],
+  "variables": [
+    {
+      "id": "VariableID:3081:40",
+      "name": "color/surface/blue-gray",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "r": 0.9647060036659241,
+          "g": 0.9686269760131836,
+          "b": 0.9764710068702698,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3077:48",
+      "name": "blue/500",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0,
+          "g": 0.4000000059604645,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3081:47",
+      "name": "color/text/default",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:32"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:58f3258c8a11bf118eb0f83e3c9b5443ca82681b/10888:752",
+      "name": "color/border/default",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:9975e514c975c8b6597eaf2c98b9549677fc944d/10304:229",
+      "valuesByMode": {
+        "7957:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/10888:974"
+        },
+        "10226:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5b1bf42fdcb9a4731ddc7d99cf757a1d227b6eea/10888:878"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3273:31",
+      "name": "radius/full",
+      "resolvedType": "FLOAT",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:21"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:3081:171",
+      "name": "color/element/navy-subtle",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:36"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3273:23",
+      "name": "radius/control-sm",
+      "resolvedType": "FLOAT",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:15"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:3081:86",
+      "name": "color/button/tertiary-fill",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:15"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3081:85",
+      "name": "color/button/tertiary-border",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:20"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3081:92",
+      "name": "color/button/on-tertiary",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:32"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3273:24",
+      "name": "radius/control-md",
+      "resolvedType": "FLOAT",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:16"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:3081:184",
+      "name": "color/icon/default",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:32"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3077:32",
+      "name": "gray/900",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.10980399698019028,
+          "g": 0.10980399698019028,
+          "b": 0.10980399698019028,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/10888:974",
+      "name": "gray/300",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/7948:1140",
+      "valuesByMode": {
+        "1346:0": {
+          "r": 0.8666666746139526,
+          "g": 0.8666666746139526,
+          "b": 0.8666666746139526,
+          "a": 1
+        }
+      },
+      "scopes": []
+    },
+    {
+      "id": "VariableID:5b1bf42fdcb9a4731ddc7d99cf757a1d227b6eea/10888:878",
+      "name": "gray/800",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/7948:1140",
+      "valuesByMode": {
+        "1346:0": {
+          "r": 0.20000000298023224,
+          "g": 0.20000000298023224,
+          "b": 0.20000000298023224,
+          "a": 1
+        }
+      },
+      "scopes": []
+    },
+    {
+      "id": "VariableID:3273:21",
+      "name": "radius/full",
+      "resolvedType": "FLOAT",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": 9999
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:3077:36",
+      "name": "navy/300",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.8666669726371765,
+          "g": 0.8862749934196472,
+          "b": 0.9450979828834534,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3273:15",
+      "name": "radius/4",
+      "resolvedType": "FLOAT",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": 4
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:3077:15",
+      "name": "Monochrome/white",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3077:20",
+      "name": "gray/300",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.8666669726371765,
+          "g": 0.8666669726371765,
+          "b": 0.8666669726371765,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3273:16",
+      "name": "radius/6",
+      "resolvedType": "FLOAT",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": 6
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:3081:14",
+      "name": "#2 Semantic",
+      "defaultModeId": "3081:0",
+      "modes": [
+        {
+          "name": "Light mode",
+          "modeId": "3081:0"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:3077:14",
+      "name": "#1 Primitive",
+      "defaultModeId": "3077:0",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "3077:0"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:9975e514c975c8b6597eaf2c98b9549677fc944d/10304:229",
+      "name": "#2 Semantic",
+      "defaultModeId": "7957:0",
+      "modes": [
+        {
+          "name": "Light mode",
+          "modeId": "7957:0"
+        },
+        {
+          "name": "Dark mode",
+          "modeId": "10226:0"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/7948:1140",
+      "name": "#1 Primitive",
+      "defaultModeId": "1346:0",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "1346:0"
+        }
+      ]
+    }
+  ]
+}

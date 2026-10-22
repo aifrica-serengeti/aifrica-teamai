@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubCheckbox",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3074:98892",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3074-98892",
+    "method": "Exact SVG asset downloads supplied by get_design_context"
+  },
+  "pathBase": "design directory containing the component registry",
+  "scope": "Light-mode whole Box+Mark visuals; decorative indicators requiring native checkbox semantics",
+  "assets": [
+    {
+      "nodeId": "3074:98893",
+      "variant": {
+        "type": "indeterminate",
+        "size": "medium",
+        "state": "disabled"
+      },
+      "width": 16,
+      "height": 16,
+      "path": "assets/checkbox/medium/indeterminate-disabled.svg",
+      "format": "svg",
+      "bytes": 623,
+      "sha256": "c4b22752e68f41481d103328ea7f4428923136646296c2165a179ef96fa9d251"
+    },
+    {
+      "nodeId": "3074:98896",
+      "variant": {
+        "type": "indeterminate",
+        "size": "medium",
+        "state": "enabled"
+      },
+      "width": 16,
+      "height": 16,
+      "path": "assets/checkbox/medium/indeterminate-enabled.svg",
+      "format": "svg",
+      "bytes": 498,
+      "sha256": "4bdb08f521f00e9cc100041f0daafb28accde68ed5c5582b60c3a12087f4d27d"
+    },
+    {
+      "nodeId": "3074:98899",
+      "variant": {
+        "type": "checked",
+        "size": "medium",
+        "state": "disabled"
+      },
+      "width": 16,
+      "height": 16,
+      "path": "assets/checkbox/medium/checked-disabled.svg",
+      "format": "svg",
+      "bytes": 634,
+      "sha256": "758a3db2b10f80e42bf7da3389f377ffd51ef7707e9d26e60e1bf1c85f690f9b"
+    },
+    {
+      "nodeId": "3074:98902",
+      "variant": {
+        "type": "checked",
+        "size": "medium",
+        "state": "enabled"
+      },
+      "width": 16,
+      "height": 16,
+      "path": "assets/checkbox/medium/checked-enabled.svg",
+      "format": "svg",
+      "bytes": 509,
+      "sha256": "3a92d660d5a431627e40330afa31cae9dbbc31c47c8aec0c44df3cb2dcc059f1"
+    },
+    {
+      "nodeId": "3074:98909",
+      "variant": {
+        "type": "indeterminate",
+        "size": "small",
+        "state": "disabled"
+      },
+      "width": 12,
+      "height": 12,
+      "path": "assets/checkbox/small/indeterminate-disabled.svg",
+      "format": "svg",
+      "bytes": 630,
+      "sha256": "9102b90579fd7f71402d5896d0d8a162f563734247bbd651dfbe526f512822be"
+    },
+    {
+      "nodeId": "3074:98912",
+      "variant": {
+        "type": "indeterminate",
+        "size": "small",
+        "state": "enabled"
+      },
+      "width": 12,
+      "height": 12,
+      "path": "assets/checkbox/small/indeterminate-enabled.svg",
+      "format": "svg",
+      "bytes": 497,
+      "sha256": "05737867253c1c92e1b77998c377175a0052e1f6aa0cd0fe1f1c75e607d45a12"
+    },
+    {
+      "nodeId": "3074:98915",
+      "variant": {
+        "type": "checked",
+        "size": "small",
+        "state": "disabled"
+      },
+      "width": 12,
+      "height": 12,
+      "path": "assets/checkbox/small/checked-disabled.svg",
+      "format": "svg",
+      "bytes": 647,
+      "sha256": "bc5776de3a13f2bb4f6fe254d9d8be7530ad7251a7e5bddd5442ec9c00555377"
+    },
+    {
+      "nodeId": "3074:98918",
+      "variant": {
+        "type": "checked",
+        "size": "small",
+        "state": "enabled"
+      },
+      "width": 12,
+      "height": 12,
+      "path": "assets/checkbox/small/checked-enabled.svg",
+      "format": "svg",
+      "bytes": 514,
+      "sha256": "884cadba92e4661223f6be3e8ccca6bf1db09e37adf8eb3f3c437ba171f81be2"
+    },
+    {
+      "nodeId": "3183:18",
+      "variant": {
+        "type": "indeterminate",
+        "size": "large",
+        "state": "disabled"
+      },
+      "width": 20,
+      "height": 20,
+      "path": "assets/checkbox/large/indeterminate-disabled.svg",
+      "format": "svg",
+      "bytes": 636,
+      "sha256": "6069d1e1a2ffc8a9dcb2f31b8bfcc334bf7fa14c2306afd8b9315134aabc9412"
+    },
+    {
+      "nodeId": "3183:21",
+      "variant": {
+        "type": "indeterminate",
+        "size": "large",
+        "state": "enabled"
+      },
+      "width": 20,
+      "height": 20,
+      "path": "assets/checkbox/large/indeterminate-enabled.svg",
+      "format": "svg",
+      "bytes": 499,
+      "sha256": "4a60319a49e51321e5aaf2942410b1e3d0833bedffe71a44603d8c6ed0567202"
+    },
+    {
+      "nodeId": "3183:24",
+      "variant": {
+        "type": "checked",
+        "size": "large",
+        "state": "disabled"
+      },
+      "width": 20,
+      "height": 20,
+      "path": "assets/checkbox/large/checked-disabled.svg",
+      "format": "svg",
+      "bytes": 654,
+      "sha256": "45ef89e0b05ca05a7cdf1e6cdbfda4eb1b61fa4413da12f877b1fc2f3f3abc35"
+    },
+    {
+      "nodeId": "3183:27",
+      "variant": {
+        "type": "checked",
+        "size": "large",
+        "state": "enabled"
+      },
+      "width": 20,
+      "height": 20,
+      "path": "assets/checkbox/large/checked-enabled.svg",
+      "format": "svg",
+      "bytes": 515,
+      "sha256": "e4c155db7b4a88d99377e9cbab82442eecf28c33c066df6eb3c910483f357513"
+    }
+  ]
+}

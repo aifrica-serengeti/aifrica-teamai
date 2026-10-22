@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "componentId": "AgentHubBrandMark",
+  "kind": "user-requested-vector-reconstruction",
+  "status": "approximation",
+  "originalVector": false,
+  "figmaMeasurement": false,
+  "asset": {
+    "path": "assets/brand/agent-hub-mark-layered.svg",
+    "format": "svg",
+    "bytes": 3677,
+    "sha256": "a5c680c6201a7b1ae62ecccc40cb0c775e2177df0f8a066b9b298bf7e1cccdff",
+    "viewBox": [
+      0,
+      0,
+      200,
+      200
+    ]
+  },
+  "source": {
+    "path": "assets/brand/agent-hub-mark.png",
+    "sha256": "8591d15fac29d9d6bf474ab34a1151528e257f4f72aff461359ede012c89537b",
+    "figmaNodeId": "2611:74300",
+    "format": "png",
+    "width": 2048,
+    "height": 2048
+  },
+  "suppliedSvg": {
+    "fileName": "image 14533.svg",
+    "sha256": "568f08a1f43a50907a8631208240b058cbf920756ac8259cf126e5a37e1a94dc",
+    "width": 92,
+    "height": 92,
+    "containsVectorPaths": false,
+    "embeddedPngMatchesSource": true
+  },
+  "authorization": "사용자가 분리 벡터 원본이 없음을 확인하고, 제공 이미지 기준의 분리 SVG 재구성과 애니메이션 구현을 요청함.",
+  "paintOrder": [
+    "purple",
+    "green",
+    "blue"
+  ],
+  "layers": [
+    {
+      "id": "purple",
+      "element": "ellipse",
+      "center": [
+        100,
+        99
+      ],
+      "radii": [
+        76,
+        40
+      ],
+      "baseRotationDeg": -60,
+      "materialTint": "#C4ABFF",
+      "materialShade": "#6943C7"
+    },
+    {
+      "id": "green",
+      "element": "ellipse",
+      "center": [
+        100,
+        99
+      ],
+      "radii": [
+        76,
+        40
+      ],
+      "baseRotationDeg": 60,
+      "materialTint": "#6BFFDC",
+      "materialShade": "#008C82"
+    },
+    {
+      "id": "blue",
+      "element": "ellipse",
+      "center": [
+        100,
+        97
+      ],
+      "radii": [
+        76,
+        40
+      ],
+      "baseRotationDeg": 0,
+      "materialTint": "#8BE2FF",
+      "materialShade": "#1165BB"
+    }
+  ],
+  "inferred": [
+    "타원의 가려진 영역·정확한 윤곽과 레이어 순서",
+    "그라데이션 색·alpha·투명 마스크",
+    "좌측의 밝은 투명 영역과 끝부분의 fade"
+  ],
+  "motion": {
+    "enabled": false,
+    "status": "deferred-by-user-request",
+    "rendering": "static-original-png",
+    "reason": "Brand mark animation removed at the user request; only the static original PNG is rendered."
+  },
+  "limitations": [
+    "Figma에서 분리한 원본 SVG가 아니며 원본 PNG와 픽셀 단위로 동일하지 않음.",
+    "정적 기본값과 동작 줄이기·강제 색상·인쇄는 원본 PNG를 사용함.",
+    "실제 Agent Hub 제품의 source/export 또는 배포 완료를 의미하지 않음."
+  ],
+  "materialPaletteStatus": "archived inferred reference only; not applied to the rendered PNG"
+}

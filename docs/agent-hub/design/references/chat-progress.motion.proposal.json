@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "kind": "implementation-proposal",
+  "status": "proposal",
+  "proposedAt": "2026-10-21",
+  "componentIds": [
+    "AgentHubChatHeader",
+    "AgentHubThinkingStatus"
+  ],
+  "sourceContext": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "screenNodeId": "3016:118094",
+    "annotationNodeId": "3016:118113",
+    "annotationRequiresHeaderFlowDuringThinking": true,
+    "motionContextQueriesReturnedNoNodes": true,
+    "timingEasingDirectionLoopMeasured": false
+  },
+  "header": {
+    "defaultMode": "static",
+    "optInMode": "thinking",
+    "durationMs": 1800,
+    "delayMs": 0,
+    "easing": "linear",
+    "direction": "left-to-right",
+    "iterations": "infinite",
+    "fillMode": "none",
+    "band": {
+      "preferredWidthPx": 325,
+      "preferredWidthProvenance": "measured-static-sample-width",
+      "responsiveWidthRule": "min(325px, measuredTrackWidth)",
+      "responsiveWidthRuleProvenance": "proposal",
+      "heightPx": 1,
+      "heightProvenance": "figma-measured",
+      "fromX": "-bandWidth",
+      "toX": "trackWidth",
+      "translationAndClippingProvenance": "proposal"
+    },
+    "track": {
+      "position": "absolute",
+      "leftPx": 0,
+      "rightPx": 0,
+      "bottomPxWithExisting1pxHeaderBorder": -1,
+      "heightPx": 1,
+      "clipOnlyTrack": true,
+      "headerOverflowMustRemainVisible": true
+    },
+    "reducedMotion": "static clamped band at x0; animation:none; no transform",
+    "unmeasurableOrZeroWidth": "static fallback; no animation until positive layout width",
+    "resizeObserverUnavailable": "static fallback without installing a polyfill",
+    "exampleModule": "components/AgentHubChatHeader/motion-example.mjs",
+    "businessCompletionFromAnimation": false
+  },
+  "thinkingStatus": {
+    "logoMotion": "none",
+    "textMotion": "user-adopted periodic two-highlight shimmer over uniform text",
+    "elapsedInput": "controlled elapsedSeconds supplied by product owner",
+    "elapsedRounding": "floor finite nonnegative seconds",
+    "invalidOrMissingElapsed": "omit elapsed suffix",
+    "suggestedExternalUpdateMs": 1000,
+    "elapsedPolicyProvenance": "proposal-not-figma-measurement",
+    "componentCreatesTimer": false,
+    "announceEveryElapsedTick": false,
+    "defaultMode": "shimmer",
+    "availableModes": [
+      "static",
+      "shimmer"
+    ],
+    "textMotionProvenance": "user-adoption-and-implementation-proposal-not-figma-measurement",
+    "uniformBase": {
+      "color": "#000000",
+      "textOpacity": 0.69,
+      "staticGradient": false
+    },
+    "shimmer": {
+      "durationMs": 1800,
+      "easing": "linear",
+      "direction": "left-to-right",
+      "iterations": "infinite",
+      "tileWidthPercent": 50,
+      "bandWidthPercent": 28,
+      "centerSpacingPercent": 50,
+      "clearGapPercent": 22,
+      "tileStops": [
+        {
+          "positionPercent": 0,
+          "color": "transparent"
+        },
+        {
+          "positionPercent": 22,
+          "color": "transparent"
+        },
+        {
+          "positionPercent": 50,
+          "color": "#FFFFFF"
+        },
+        {
+          "positionPercent": 78,
+          "color": "transparent"
+        },
+        {
+          "positionPercent": 100,
+          "color": "transparent"
+        }
+      ],
+      "backgroundRepeat": "repeat-x",
+      "backgroundPositionFrom": "0% 0",
+      "backgroundPositionTo": "100% 0",
+      "travelPerCycle": "one 50%-width tile; seamless periodic reset",
+      "edgeClippedFragmentsAllowed": true,
+      "exactlyTwoCompletePeaksEveryFrame": false
+    },
+    "motionFallbacks": {
+      "staticAndReducedMotion": "uniform #000000 text with opacity 0.69; no decorative layer or fixed gradient",
+      "readableAndPrint": "uniform #1C1C1C text with opacity 1; no decorative layer",
+      "forcedColors": "CanvasText with opacity 1; no decorative layer",
+      "textClippingUnsupported": "uniform base text; no decorative layer"
+    }
+  },
+  "notes": [
+    "All motion duration, delay, easing, travel direction, loop and responsive travel rules are implementation proposals, not measured Figma keyframes or company-wide motion tokens.",
+    "The existing measured color stops, header border row and status appearance remain in chat-progress.figma.json. Written animation intent is distinct from measured timing.",
+    "Static ChatHeader remains the default. The product opts into thinking motion and owns request identity, current phase, elapsed time and stop/complete/error transitions.",
+    "Header motion remains decorative and does not report percentage, elapsed time, network success or business completion. ThinkingStatus provides readable status through one announcement owner.",
+    "Actual consuming source/export, browser motion fidelity, contrast alternatives and product adoption remain unverified/unmapped/draft until checked in that repository.",
+    "ThinkingStatus runtime adoption supersedes the earlier fixed 5-stop base plus single-band recipe. Raw Figma stops remain preserved for comparison; Header default static is unchanged."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Elevation samples/EffectStyles and independently captured component effects",
+  "runtimeVerified": false,
+  "styleChecks": [
+    {
+      "level": "Overflow",
+      "effectStyleId": "S:26d2f3166fce4a5a1e2a95b09455db6e8b7de286,10257:13",
+      "status": "match"
+    },
+    {
+      "level": "Overlay",
+      "effectStyleId": "S:d4074d896c3ae3816535687327fc74fdfb609050,12931:3",
+      "status": "match"
+    },
+    {
+      "level": "Mid",
+      "effectStyleId": "S:2bde61d151f1ec7d0dabb54e7d739e21c386023a,10257:12",
+      "status": "match"
+    },
+    {
+      "level": "Raised",
+      "effectStyleId": "S:f774ade3e401b4ad4baf8df0a917d1adb5e85ae5,10257:10",
+      "status": "match"
+    },
+    {
+      "level": "Default",
+      "effectStyleId": null,
+      "status": "match"
+    },
+    {
+      "level": "Sunken",
+      "effectStyleId": null,
+      "status": "match"
+    }
+  ],
+  "comparisons": [
+    {
+      "component": "AgentHubCalendar",
+      "nodeId": "3149:117371",
+      "level": "Mid",
+      "status": "match",
+      "componentOpacity": 1,
+      "boardSampleOpacity": 0.9
+    },
+    {
+      "component": "AgentHubSwitch thumb",
+      "nodeId": "3074:121104",
+      "variant": {
+        "size": "22",
+        "checked": "true",
+        "state": "enabled"
+      },
+      "level": "Raised",
+      "status": "match",
+      "componentOpacity": 1,
+      "boardSampleOpacity": 1
+    },
+    {
+      "component": "AgentHubSwitch thumb",
+      "nodeId": "3074:121108",
+      "variant": {
+        "size": "22",
+        "checked": "true",
+        "state": "disabled"
+      },
+      "level": "Raised",
+      "status": "match",
+      "componentOpacity": 1,
+      "boardSampleOpacity": 1
+    },
+    {
+      "component": "AgentHubSwitch thumb",
+      "nodeId": "3074:121106",
+      "variant": {
+        "size": "22",
+        "checked": "false",
+        "state": "disabled"
+      },
+      "level": "Raised",
+      "status": "match",
+      "componentOpacity": 1,
+      "boardSampleOpacity": 1
+    },
+    {
+      "component": "AgentHubSwitch thumb",
+      "nodeId": "3074:121102",
+      "variant": {
+        "size": "22",
+        "checked": "false",
+        "state": "enabled"
+      },
+      "level": "Raised",
+      "status": "match",
+      "componentOpacity": 1,
+      "boardSampleOpacity": 1
+    }
+  ],
+  "limits": [
+    "Only Calendar root and four Switch thumbs compared; usage table is not an implemented component inventory",
+    "Mid swatch opacity0.9 is not applied to Calendar opacity1; effect alpha and layer opacity are independent"
+  ],
+  "issues": []
+}

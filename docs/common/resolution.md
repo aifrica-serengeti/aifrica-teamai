@@ -62,7 +62,7 @@ backend 작업은 `backend/README.md`와 제품의 backend 계약을 읽고 fron
 - `tokens`에는 `brand`, `color`, `typography`, `border`, `spacing`, `radius`, `elevation`, `motion`을
   의미 이름으로 매핑한다. 제품 token 이름/값은 구현과 함께 확인한다. 빈 map은 결정되지 않았다는 뜻이다.
 - `paths`의 architecture/componentRegistry/designTokens는 consuming repository 상대경로다.
-- `components`는 공통 registry id로 실제 source와 export를 연결한다. `implemented`는 둘 다 필요하며
+- `components`는 공통 또는 선택 솔루션의 registry id로 실제 source와 export를 연결한다. `implemented`는 둘 다 필요하며
   해당 제품에서 확인한 경우에만 쓴다. 다른 제품의 구현 여부를 상속하지 않는다.
 - `pagePatterns`의 list/create/detail은 폭, page size, section, 이동 정책 등 제품 구성을 추가한다.
   공통 page state와 접근성 계약은 `DOCS_ROOT/frontend/design/patterns/README.md`에 남는다.

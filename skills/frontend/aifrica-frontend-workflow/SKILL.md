@@ -31,8 +31,11 @@ dependency를 자동 변경하지 않는다. Next.js의 exact version bundled do
 ## 조사와 구현
 
 - UI 분류를 List/Create/Detail/Component/Other로 정하고 query/draft/validation/mutation/permission owner를 적는다.
-- registry id/name/alias와 가까운 source·export를 의미로 검색한다. 문서 예시는 구현 증거가 아니다.
-- 기존 후보의 semantics/state/accessibility/API와 direct dependency를 비교해 reuse·extend·compose·create를 결정한다.
+- 선택 솔루션의 registry id/name/alias와 local mapping을 먼저 찾는다. 유지보수 모드에서는 가까운 source·export도 의미로 검색한다.
+  문서 예시는 구현 증거가 아니다. 호환 구현이 없거나 의존성이 필요하면 공용 registry의 id/alias·의미·direct dependency를 확인한다.
+- 기존 후보의 semantics/state/API뿐 아니라 motion·focus owner·scroll owner·disabled 차단·keyboard·reduced motion을 비교한다.
+  reuse·extend·compose·create를 구분하고, 계약만 있는 의존성은 재사용 컴포넌트로 먼저 구현·검증한 뒤 상위 UI에 연결한다.
+  Input·Select·Textarea·ScrollArea 같은 책임을 조합부마다 임시 native control·관측·focus CSS로 복제하지 않는다.
 - 기존 제품 수정이면 실제 source를 확인한다. 명시적 문서 전용 재현이면 design/docs-only-build 계약을 따르고
   현재 제품 구현을 베끼지 않는다. 두 모드를 혼동하지 않는다.
 - page 상태·API는 page/domain owner에, public interaction은 가장 좁은 shared owner에 둔다.

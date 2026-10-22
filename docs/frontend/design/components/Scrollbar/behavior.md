@@ -111,7 +111,9 @@ transition:
 ```
 
 > 전역 `*` 셀렉터가 아닌 개별 요소에만 transition 적용. 지속시간 0.2s로 통일.
-> `@media (prefers-reduced-motion: reduce)`가 전역에서 모든 transition을 무력화한다.
+> reduced-motion은 소비 앱의 실제 스타일에서 적용 여부를 확인한다. 전역 규칙이 있다고 가정하지 않는다.
+> `@media (prefers-reduced-motion: reduce)`가 해당 요소에 적용되지 않으면 컴포넌트 범위의 전환·애니메이션을 즉시 완료하는 규칙을 둔다.
+> 전환을 생략해도 값·focus·표시 여부와 종료·정리 책임은 유지한다.
 
 ### 스크롤 타이밍 (`type="scroll"`)
 

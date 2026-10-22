@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Chat Composer measured instances, overrides and existing design references",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "actions": [
+    {
+      "state": "focused",
+      "role": "attach",
+      "nodeId": "3074:92878",
+      "sourceNodeId": "3104:20",
+      "sourceState": "default",
+      "glyphSourceNodeId": "2308:44299",
+      "visualReferenceState": "default",
+      "overrides": [],
+      "status": "match"
+    },
+    {
+      "state": "focused",
+      "role": "send",
+      "nodeId": "3074:93418",
+      "sourceNodeId": "3104:21",
+      "sourceState": "hovered",
+      "glyphSourceNodeId": "2199:23680",
+      "visualReferenceState": "hovered",
+      "overrides": [
+        "glyph"
+      ],
+      "status": "match"
+    },
+    {
+      "state": "enabled",
+      "role": "attach",
+      "nodeId": "3074:92877",
+      "sourceNodeId": "3104:20",
+      "sourceState": "default",
+      "glyphSourceNodeId": "2308:44299",
+      "visualReferenceState": "default",
+      "overrides": [],
+      "status": "match"
+    },
+    {
+      "state": "enabled",
+      "role": "send",
+      "nodeId": "3074:93165",
+      "sourceNodeId": "3104:21",
+      "sourceState": "hovered",
+      "glyphSourceNodeId": "2199:23680",
+      "visualReferenceState": "hovered",
+      "overrides": [
+        "glyph"
+      ],
+      "status": "match"
+    },
+    {
+      "state": "typing",
+      "role": "attach",
+      "nodeId": "3074:92879",
+      "sourceNodeId": "3104:20",
+      "sourceState": "default",
+      "glyphSourceNodeId": "2308:44299",
+      "visualReferenceState": "default",
+      "overrides": [],
+      "status": "match"
+    },
+    {
+      "state": "typing",
+      "role": "send",
+      "nodeId": "3074:93419",
+      "sourceNodeId": "3104:21",
+      "sourceState": "hovered",
+      "glyphSourceNodeId": "2199:23680",
+      "visualReferenceState": "state5 (visual only)",
+      "overrides": [
+        "glyph",
+        "surface",
+        "glyphColor"
+      ],
+      "status": "match"
+    },
+    {
+      "state": "agent-selected",
+      "role": "attach",
+      "nodeId": "3074:92880",
+      "sourceNodeId": "3104:20",
+      "sourceState": "default",
+      "glyphSourceNodeId": "2308:44299",
+      "visualReferenceState": "default",
+      "overrides": [],
+      "status": "match"
+    },
+    {
+      "state": "agent-selected",
+      "role": "send",
+      "nodeId": "3074:93420",
+      "sourceNodeId": "3104:21",
+      "sourceState": "hovered",
+      "glyphSourceNodeId": "2199:23680",
+      "visualReferenceState": "state5 (visual only)",
+      "overrides": [
+        "glyph",
+        "surface",
+        "glyphColor"
+      ],
+      "status": "match"
+    }
+  ],
+  "shadows": [
+    {
+      "state": "focused",
+      "nodeId": "2611:69435",
+      "level": "Overflow",
+      "status": "match"
+    },
+    {
+      "state": "enabled",
+      "nodeId": "2611:69434",
+      "level": "Overflow",
+      "status": "match"
+    },
+    {
+      "state": "typing",
+      "nodeId": "2611:69432",
+      "level": "Overflow",
+      "status": "match"
+    },
+    {
+      "state": "agent-selected",
+      "nodeId": "2611:69433",
+      "level": "Overflow",
+      "status": "match"
+    }
+  ],
+  "selectors": [
+    {
+      "state": "focused",
+      "nodeId": "2674:15599",
+      "surfaceHeight": 58,
+      "visibleBottom": 90,
+      "status": "match"
+    },
+    {
+      "state": "enabled",
+      "nodeId": "2674:15586",
+      "surfaceHeight": 58,
+      "visibleBottom": 90,
+      "status": "match"
+    },
+    {
+      "state": "typing",
+      "nodeId": "2674:15604",
+      "surfaceHeight": 58,
+      "visibleBottom": 90,
+      "status": "match"
+    },
+    {
+      "state": "agent-selected",
+      "nodeId": "2674:15613",
+      "surfaceHeight": 58,
+      "visibleBottom": 90,
+      "status": "match"
+    }
+  ],
+  "styleReferences": [
+    {
+      "nodeId": "2681:7260",
+      "sourceNodeId": "2079:11964",
+      "referenceComponent": "AgentHubAgentTypeChip",
+      "referenceNodeId": "3016:102466",
+      "sourceReuse": false,
+      "status": "match"
+    }
+  ],
+  "limits": [
+    "Four static Light samples only; source hovered is not Composer pointer-hover or request state",
+    "state5 is a visual reference only; global semantics remain undefined",
+    "Workflow style match does not change the common Chip source identity",
+    "No upload, submit, agent/project popup, multiline, keyboard, dark or responsive runtime is verified"
+  ],
+  "issues": []
+}

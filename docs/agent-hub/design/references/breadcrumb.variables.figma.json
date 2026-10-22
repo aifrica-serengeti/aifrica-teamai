@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "2427:25430",
+      "2427:25423"
+    ],
+    "rootModes": [
+      {
+        "id": "2427:25430",
+        "description": "",
+        "explicitVariableModes": {},
+        "resolvedVariableModes": {
+          "VariableCollectionId:3077:14": "3077:0",
+          "VariableCollectionId:3081:14": "3081:0"
+        }
+      },
+      {
+        "id": "2427:25423",
+        "description": "",
+        "explicitVariableModes": {},
+        "resolvedVariableModes": {
+          "VariableCollectionId:3077:14": "3077:0",
+          "VariableCollectionId:3081:14": "3081:0"
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Requested nodes resolve local Semantic Light mode only. External source slash has Light/Dark aliases; these do not establish Agent Hub dark rendering."
+  ],
+  "variables": [
+    {
+      "id": "VariableID:3081:47",
+      "name": "color/text/default",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:32"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3081:49",
+      "name": "color/text/default-subtler",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:23"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:d81d20d9db0cd76ebdf58ca961e0910f6af32fc4/12469:147",
+      "name": "color/text/default-subtler",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:9975e514c975c8b6597eaf2c98b9549677fc944d/10304:229",
+      "valuesByMode": {
+        "7957:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:018b22e19e0dbf35d2de45cfb0cdb442659432c5/12469:33"
+        },
+        "10226:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:98b7e0f302a2f9fe92cffaa55ec3f438ff4f16d2/12469:32"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3077:32",
+      "name": "gray/900",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.10980399698019028,
+          "g": 0.10980399698019028,
+          "b": 0.10980399698019028,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3077:23",
+      "name": "gray/600",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.4588240087032318,
+          "g": 0.4588240087032318,
+          "b": 0.4588240087032318,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:018b22e19e0dbf35d2de45cfb0cdb442659432c5/12469:33",
+      "name": "gray/600",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/12231:348",
+      "valuesByMode": {
+        "1346:0": {
+          "r": 0.4588235318660736,
+          "g": 0.4588235318660736,
+          "b": 0.4588235318660736,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:98b7e0f302a2f9fe92cffaa55ec3f438ff4f16d2/12469:32",
+      "name": "gray/500",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/12231:348",
+      "valuesByMode": {
+        "1346:0": {
+          "r": 0.5607843399047852,
+          "g": 0.5607843399047852,
+          "b": 0.5607843399047852,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:3081:14",
+      "name": "#2 Semantic",
+      "modes": [
+        {
+          "name": "Light mode",
+          "modeId": "3081:0"
+        }
+      ],
+      "defaultModeId": "3081:0"
+    },
+    {
+      "id": "VariableCollectionId:9975e514c975c8b6597eaf2c98b9549677fc944d/10304:229",
+      "name": "#2 Semantic",
+      "modes": [
+        {
+          "name": "Light mode",
+          "modeId": "7957:0"
+        },
+        {
+          "name": "Dark mode",
+          "modeId": "10226:0"
+        }
+      ],
+      "defaultModeId": "7957:0"
+    },
+    {
+      "id": "VariableCollectionId:3077:14",
+      "name": "#1 Primitive",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "3077:0"
+        }
+      ],
+      "defaultModeId": "3077:0"
+    },
+    {
+      "id": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/12231:348",
+      "name": "#1 Primitive",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "1346:0"
+        }
+      ],
+      "defaultModeId": "1346:0"
+    }
+  ]
+}

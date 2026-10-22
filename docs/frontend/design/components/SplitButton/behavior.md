@@ -59,7 +59,9 @@ Split Button 에서 transition 이 적용되는 요소:
 - 분할선(border 겹침) — `border-color`
 
 > 모든 색상 transition 은 **0.2s ease** 로 통일. `transition: all` 금지.
-> `globals.css` 의 `@media (prefers-reduced-motion: reduce)` 가 모든 transition/animation 을 무력화.
+> reduced-motion은 소비 앱의 실제 스타일에서 적용 여부를 확인한다. 전역 규칙이 있다고 가정하지 않는다.
+> `@media (prefers-reduced-motion: reduce)`가 해당 요소에 적용되지 않으면 컴포넌트 범위의 전환·애니메이션을 즉시 완료하는 규칙을 둔다.
+> 전환을 생략해도 값·focus·표시 여부와 종료·정리 책임은 유지한다.
 
 ### Menu 진입/퇴장
 

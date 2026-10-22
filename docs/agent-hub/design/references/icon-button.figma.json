@@ -1,0 +1,4291 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubIconButton",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "2427:25105",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2427-25105",
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "method": "Figma MCP get_design_context + read-only Plugin API measurements and variable alias resolution"
+  },
+  "implementation": {
+    "status": "unmapped",
+    "source": null,
+    "export": null
+  },
+  "propertyDefinitions": {
+    "type": {
+      "type": "VARIANT",
+      "defaultValue": "ghost",
+      "variantOptions": [
+        "ghost",
+        "outlined",
+        "primary"
+      ]
+    },
+    "state": {
+      "type": "VARIANT",
+      "defaultValue": "default",
+      "variantOptions": [
+        "default",
+        "hovered",
+        "pressed",
+        "disabled",
+        "active"
+      ]
+    },
+    "size": {
+      "type": "VARIANT",
+      "defaultValue": "32",
+      "variantOptions": [
+        "32",
+        "24",
+        "20"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "nodeId": "2427:25106",
+      "variant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25107",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25107;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25107;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25108",
+      "variant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25109",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25109;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25109;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25110",
+      "variant": {
+        "type": "ghost",
+        "state": "hovered",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.05,
+            "token": {
+              "id": "VariableID:3081:101",
+              "name": "color/button/opacity-hovered"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25111",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25111;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25111;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25112",
+      "variant": {
+        "type": "ghost",
+        "state": "hovered",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.05,
+            "token": {
+              "id": "VariableID:3081:101",
+              "name": "color/button/opacity-hovered"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25113",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25113;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25113;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25114",
+      "variant": {
+        "type": "ghost",
+        "state": "pressed",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.1,
+            "token": {
+              "id": "VariableID:3081:102",
+              "name": "color/button/opacity-pressed"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25115",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25115;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25115;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25116",
+      "variant": {
+        "type": "ghost",
+        "state": "pressed",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.1,
+            "token": {
+              "id": "VariableID:3081:102",
+              "name": "color/button/opacity-pressed"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25117",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25117;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25117;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25118",
+      "variant": {
+        "type": "ghost",
+        "state": "disabled",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25119",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25119;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25119;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25120",
+      "variant": {
+        "type": "ghost",
+        "state": "disabled",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25121",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25121;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25121;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25122",
+      "variant": {
+        "type": "outlined",
+        "state": "default",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25123",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25123;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25123;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25124",
+      "variant": {
+        "type": "outlined",
+        "state": "default",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25125",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25125;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25125;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25126",
+      "variant": {
+        "type": "outlined",
+        "state": "hovered",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.05,
+            "token": {
+              "id": "VariableID:3081:101",
+              "name": "color/button/opacity-hovered"
+            }
+          }
+        ],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25127",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25127;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25127;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25128",
+      "variant": {
+        "type": "outlined",
+        "state": "hovered",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.05,
+            "token": {
+              "id": "VariableID:3081:101",
+              "name": "color/button/opacity-hovered"
+            }
+          }
+        ],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25129",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25129;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25129;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25130",
+      "variant": {
+        "type": "outlined",
+        "state": "pressed",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.1,
+            "token": {
+              "id": "VariableID:3081:102",
+              "name": "color/button/opacity-pressed"
+            }
+          }
+        ],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25131",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25131;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25131;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25132",
+      "variant": {
+        "type": "outlined",
+        "state": "pressed",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.1,
+            "token": {
+              "id": "VariableID:3081:102",
+              "name": "color/button/opacity-pressed"
+            }
+          }
+        ],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25133",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25133;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25133;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25134",
+      "variant": {
+        "type": "outlined",
+        "state": "disabled",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25135",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25135;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25135;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25136",
+      "variant": {
+        "type": "outlined",
+        "state": "disabled",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25137",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25137;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25137;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25138",
+      "variant": {
+        "type": "primary",
+        "state": "default",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#3B82F6",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:71",
+              "name": "color/button/primary-fill"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25139",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25139;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25139;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25140",
+      "variant": {
+        "type": "primary",
+        "state": "default",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#3B82F6",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:71",
+              "name": "color/button/primary-fill"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25141",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25141;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25141;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25142",
+      "variant": {
+        "type": "primary",
+        "state": "hovered",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#0066FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:72",
+              "name": "color/button/primary-fill-hovered"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25143",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25143;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25143;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25144",
+      "variant": {
+        "type": "primary",
+        "state": "hovered",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#0066FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:72",
+              "name": "color/button/primary-fill-hovered"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25145",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25145;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25145;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25146",
+      "variant": {
+        "type": "primary",
+        "state": "pressed",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#0056D6",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:73",
+              "name": "color/button/primary-fill-pressed"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25147",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25147;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25147;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25148",
+      "variant": {
+        "type": "primary",
+        "state": "pressed",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#0056D6",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:73",
+              "name": "color/button/primary-fill-pressed"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25149",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25149;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25149;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#FFFFFF",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:188",
+                      "name": "color/icon/default-static"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25150",
+      "variant": {
+        "type": "primary",
+        "state": "disabled",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#99C2FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:74",
+              "name": "color/button/primary-fill-disabled"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25151",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25151;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25151;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2427:25152",
+      "variant": {
+        "type": "primary",
+        "state": "disabled",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#99C2FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:74",
+              "name": "color/button/primary-fill-disabled"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2427:25153",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2427:25153;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2427:25153;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2909:49139",
+      "variant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "20"
+      },
+      "layout": {
+        "width": 20,
+        "height": 20,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 2
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2909:49141",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2909:49141;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2909:49141;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2909:49138",
+      "variant": {
+        "type": "ghost",
+        "state": "hovered",
+        "size": "20"
+      },
+      "layout": {
+        "width": 20,
+        "height": 20,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 2
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.05,
+            "token": {
+              "id": "VariableID:3081:101",
+              "name": "color/button/opacity-hovered"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2909:49161",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2909:49161;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2909:49161;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2909:49137",
+      "variant": {
+        "type": "ghost",
+        "state": "pressed",
+        "size": "20"
+      },
+      "layout": {
+        "width": 20,
+        "height": 20,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 2
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#000000",
+            "opacity": 0.1,
+            "token": {
+              "id": "VariableID:3081:102",
+              "name": "color/button/opacity-pressed"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2909:49165",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2909:49165;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2909:49165;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2909:49136",
+      "variant": {
+        "type": "ghost",
+        "state": "disabled",
+        "size": "20"
+      },
+      "layout": {
+        "width": 20,
+        "height": 20,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 2
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "2909:49169",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I2909:49169;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I2909:49169;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#AAAAAA",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:200",
+                      "name": "color/icon/disabled"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "3142:24418",
+      "variant": {
+        "type": "ghost",
+        "state": "active",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#EBF3FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:25",
+              "name": "color/action/default-selected"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "3142:24419",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I3142:24419;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I3142:24419;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "3142:24420",
+      "variant": {
+        "type": "ghost",
+        "state": "active",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#EBF3FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:25",
+              "name": "color/action/default-selected"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "3142:24421",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I3142:24421;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I3142:24421;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "3142:24422",
+      "variant": {
+        "type": "outlined",
+        "state": "active",
+        "size": "32"
+      },
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#EBF3FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:25",
+              "name": "color/action/default-selected"
+            }
+          }
+        ],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 6,
+        "cornerRadii": {
+          "topLeftRadius": 6,
+          "topRightRadius": 6,
+          "bottomLeftRadius": 6,
+          "bottomRightRadius": 6
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:24",
+          "name": "radius/control-md"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "3142:24423",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 20,
+            "height": 20,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "3018:24932",
+            "name": "icon/plus/20",
+            "width": 20,
+            "height": 20
+          },
+          "glyphs": [
+            {
+              "nodeId": "I3142:24423;3018:24933",
+              "type": "VECTOR",
+              "width": 11.666667938232422,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I3142:24423;3018:24934",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 11.666667938232422,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1.25,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "3142:24424",
+      "variant": {
+        "type": "outlined",
+        "state": "active",
+        "size": "24"
+      },
+      "layout": {
+        "width": 24,
+        "height": 24,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#EBF3FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:25",
+              "name": "color/action/default-selected"
+            }
+          }
+        ],
+        "border": {
+          "paints": [
+            {
+              "hex": "#000000",
+              "opacity": 0.1,
+              "token": {
+                "id": "VariableID:3081:103",
+                "name": "color/button/opacity-border"
+              }
+            }
+          ],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "3142:24425",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I3142:24425;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I3142:24425;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "3142:24426",
+      "variant": {
+        "type": "ghost",
+        "state": "active",
+        "size": "20"
+      },
+      "layout": {
+        "width": 20,
+        "height": 20,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "VERTICAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 2
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#EBF3FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:25",
+              "name": "color/action/default-selected"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "cornerRadii": {
+          "topLeftRadius": 4,
+          "topRightRadius": 4,
+          "bottomLeftRadius": 4,
+          "bottomRightRadius": 4
+        },
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "icons": [
+        {
+          "nodeId": "3142:24427",
+          "name": "icon",
+          "visible": true,
+          "layout": {
+            "width": 16,
+            "height": 16,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "layoutMode": "NONE",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "clipsContent": true,
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "source": {
+            "id": "2365:15015",
+            "name": "icon/plus/16",
+            "width": 16,
+            "height": 16
+          },
+          "glyphs": [
+            {
+              "nodeId": "I3142:24427;2365:15013",
+              "type": "VECTOR",
+              "width": 9.333333969116211,
+              "height": 0,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            },
+            {
+              "nodeId": "I3142:24427;2365:15014",
+              "type": "VECTOR",
+              "width": 0,
+              "height": 9.333333969116211,
+              "paints": {
+                "fills": [],
+                "strokes": [
+                  {
+                    "hex": "#1C1C1C",
+                    "opacity": 1,
+                    "token": {
+                      "id": "VariableID:3081:184",
+                      "name": "color/icon/default"
+                    }
+                  }
+                ]
+              },
+              "strokeWidth": 1,
+              "strokeCap": "ROUND",
+              "strokeJoin": "ROUND"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "kind": "sample-icon",
+      "note": "Plus is the design sample. Icon meaning, accessible label and action are owned by the consuming product."
+    },
+    {
+      "kind": "missing-visuals",
+      "note": "Dark, focus and loading visual variants were not provided. Common accessibility requirements still apply."
+    },
+    {
+      "kind": "supported-combinations",
+      "note": "33 measured variants: ghost × 32/24/20 × default/hovered/pressed/disabled/active; outlined × 32/24 × same five states; primary × 32/24 × default/hovered/pressed/disabled. No primary active or outlined/primary 20 sample."
+    }
+  ]
+}

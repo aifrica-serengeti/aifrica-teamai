@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubCalendarDate",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3149:19150",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3149-19150",
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "method": "Figma MCP get_design_context + read-only Plugin API geometry, instance sources, glyph swaps and variable aliases"
+  },
+  "implementation": {
+    "status": "unmapped",
+    "source": null,
+    "export": null
+  },
+  "propertyDefinitions": {
+    "type": {
+      "type": "VARIANT",
+      "defaultValue": "default",
+      "variantOptions": [
+        "default",
+        "today",
+        "selected",
+        "null"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "nodeId": "3149:19128",
+      "name": "type=default",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s000",
+      "children": [
+        {
+          "nodeId": "3149:19126",
+          "name": "selection",
+          "type": "RECTANGLE",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "nodeId": "3149:19127",
+          "name": "day",
+          "type": "TEXT",
+          "visible": true,
+          "styleRef": "s002",
+          "position": {
+            "x": 0,
+            "y": 4
+          },
+          "text": "day"
+        }
+      ],
+      "variant": {
+        "type": "default"
+      }
+    },
+    {
+      "nodeId": "3149:19137",
+      "name": "type=today",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s000",
+      "children": [
+        {
+          "nodeId": "3149:19134",
+          "name": "selection",
+          "type": "RECTANGLE",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "nodeId": "3149:19135",
+          "name": "day",
+          "type": "TEXT",
+          "visible": true,
+          "styleRef": "s003",
+          "position": {
+            "x": 0,
+            "y": 4
+          },
+          "text": "day"
+        },
+        {
+          "nodeId": "3149:19136",
+          "name": "current-indicator",
+          "type": "RECTANGLE",
+          "visible": true,
+          "styleRef": "s004",
+          "position": {
+            "x": 16,
+            "y": 26
+          }
+        }
+      ],
+      "variant": {
+        "type": "today"
+      }
+    },
+    {
+      "nodeId": "3149:19144",
+      "name": "type=selected",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s000",
+      "children": [
+        {
+          "nodeId": "3149:19142",
+          "name": "selection",
+          "type": "RECTANGLE",
+          "visible": true,
+          "styleRef": "s005",
+          "position": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "nodeId": "3149:19143",
+          "name": "day",
+          "type": "TEXT",
+          "visible": true,
+          "styleRef": "s006",
+          "position": {
+            "x": 0,
+            "y": 4
+          },
+          "text": "day"
+        }
+      ],
+      "variant": {
+        "type": "selected"
+      }
+    },
+    {
+      "nodeId": "3149:19149",
+      "name": "type=null",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s000",
+      "children": [
+        {
+          "nodeId": "3149:19148",
+          "name": "selection",
+          "type": "RECTANGLE",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 2,
+            "y": 0
+          }
+        }
+      ],
+      "variant": {
+        "type": "null"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "kind": "measured-only",
+      "note": "Only default/today/selected/null visuals are measured. Hover, pressed, disabled, range bands and Month/Year views are not provided in these nodes; retain common behavior obligations when adopted."
+    },
+    {
+      "kind": "fractional-geometry",
+      "note": "Example cell width256/7=36.57143, selection32 at x2/y0, label37 at x0/y4, today-dot4 at x16/y26. Preserve fractional columns and record any intentional optical alignment change."
+    }
+  ],
+  "styles": {
+    "s000": {
+      "layout": {
+        "width": 36.57143020629883,
+        "height": 32,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "NONE",
+        "layoutGrow": 1,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN",
+        "clipsContent": false,
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 0
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      }
+    },
+    "s001": {
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO"
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999,
+        "radiusToken": {
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        }
+      }
+    },
+    "s002": {
+      "layout": {
+        "width": 37,
+        "height": 24,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO"
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#1C1C1C",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:47",
+              "name": "color/text/default"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 0,
+          "align": "CENTER"
+        },
+        "opacity": 1,
+        "effects": []
+      },
+      "text": {
+        "fontName": {
+          "family": "Pretendard",
+          "style": "Regular"
+        },
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textAutoResize": "HEIGHT",
+        "textDecoration": "NONE"
+      }
+    },
+    "s003": {
+      "layout": {
+        "width": 37,
+        "height": 24,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO"
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#3B82F6",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:58",
+              "name": "color/text/primary"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 0,
+          "align": "CENTER"
+        },
+        "opacity": 1,
+        "effects": []
+      },
+      "text": {
+        "fontName": {
+          "family": "Pretendard",
+          "style": "SemiBold"
+        },
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textAutoResize": "HEIGHT",
+        "textDecoration": "NONE"
+      }
+    },
+    "s004": {
+      "layout": {
+        "width": 4,
+        "height": 4,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO"
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#3B82F6",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:157",
+              "name": "color/element/primary"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999,
+        "radiusToken": {
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        }
+      }
+    },
+    "s005": {
+      "layout": {
+        "width": 32,
+        "height": 32,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO"
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#3B82F6",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:157",
+              "name": "color/element/primary"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999,
+        "radiusToken": {
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        }
+      }
+    },
+    "s006": {
+      "layout": {
+        "width": 37,
+        "height": 24,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO"
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#FFFFFF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:56",
+              "name": "color/text/on-primary"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 0,
+          "align": "CENTER"
+        },
+        "opacity": 1,
+        "effects": []
+      },
+      "text": {
+        "fontName": {
+          "family": "Pretendard",
+          "style": "Regular"
+        },
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textAutoResize": "HEIGHT",
+        "textDecoration": "NONE"
+      }
+    }
+  }
+}

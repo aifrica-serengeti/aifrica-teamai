@@ -48,6 +48,8 @@
 
 - 색상 속성만 transition (`background-color`, `color`). `transition: all` 금지.
 - 컴포넌트 내 모든 요소 0.2s로 통일.
-- `prefers-reduced-motion: reduce` 시 전역 미디어쿼리가 모든 transition 무력화.
+- reduced-motion은 소비 앱의 실제 스타일에서 적용 여부를 확인한다. 전역 규칙이 있다고 가정하지 않는다.
+  `@media (prefers-reduced-motion: reduce)`가 해당 요소에 적용되지 않으면 컴포넌트 범위의 전환·애니메이션을 즉시 완료하는 규칙을 둔다.
+  전환을 생략해도 값·focus·표시 여부와 종료·정리 책임은 유지한다.
 
 ---

@@ -17,6 +17,12 @@
 `unmapped`는 구현이 없다고 단정하는 값이 아니라 이 공통 저장소가 구현 존재를 보증하지 않는다는 뜻이다.
 대상 솔루션을 조사하는 유지보수와, 제품 source 없이 계약으로 새로 구현하는 모드를 혼동하지 않는다.
 
+선택 솔루션의 registry id/name/alias·로컬 채택 정보를 먼저 확인한다. 필요한 구현이나 의존 계약이 없으면
+공용 registry에서 id/alias·의미와 direct dependency를 찾아 leaf까지 읽는다. 이 fallback은 공용 opt-in일 때만 적용한다.
+계약만 있고 실행 구현이 없는 의존성은 현재 제품의 재사용 컴포넌트로 먼저 구현한 뒤 상위 UI가 조합한다.
+Input·Select·Textarea·ScrollArea를 상위마다 임시 native control이나 자체 focus/scroll 로직으로 대체하지 않는다.
+솔루션 전용 geometry는 명시적 adapter로 연결하고 공용의 native 의미·상태·키보드 책임과 분리한다.
+
 ## 구현 순서
 
 1. 버전·reset·font·light/dark 역할 토큰·reduced motion을 연결한다.
@@ -35,6 +41,8 @@
 - reference API에서 지원하지 않는 부분과 profile 차이가 기록되었다.
 - 모든 dependency와 font·자산이 연결되었고 임시 대체물을 최종 결과로 표시하지 않는다.
 - 컴포넌트의 상태·접근성 matrix와 page의 loading/empty/error/refresh/mutation/permission을 확인했다.
+- 정적 모양 외 motion·focus owner·scroll owner·disabled 실차단·keyboard를 확인했다. 실제 host의 reduced-motion 규칙이
+  없거나 해당 요소에 적용되지 않으면 그 컴포넌트 범위에 즉시 완료 fallback을 두고 cleanup까지 검증했다.
 - light/dark·좁은 폭·긴 번역·200% zoom·keyboard·reduced motion을 확인했다.
 - 해당 저장소에 존재하는 lint/typecheck/test/build와 문서 검증을 실행했다.
 

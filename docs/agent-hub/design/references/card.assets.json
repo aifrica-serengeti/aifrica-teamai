@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentIds": [
+    "AgentHubFileItem",
+    "AgentHubDataCard",
+    "AgentHubThumbnailCard",
+    "AgentHubScheduleCard",
+    "AgentHubItemCard"
+  ],
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3128:25559",
+      "2427:25252",
+      "3100:114430",
+      "3100:171",
+      "3095:143"
+    ],
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "hiddenInstanceChildrenIncluded": true,
+    "method": "Figma MCP get_design_context screenshots and read-only Plugin API full tree, property definitions, actual source identities and overrides, exposed instances, per-corner/edge geometry, nonidentity transforms, prototype reactions, complete variable/node modes and alias closure"
+  },
+  "assets": [
+    {
+      "role": "file-spreadsheet-glyph-24",
+      "sourceNodeId": "I3128:25560;3128:25496",
+      "sourceKind": "FRAME",
+      "actualSourceNodeId": null,
+      "sourceWidth": 24,
+      "sourceHeight": 24,
+      "path": "assets/cards/file-spreadsheet-glyph-24.svg",
+      "format": "svg",
+      "width": 24.0,
+      "height": 24.0,
+      "displayWidth": 24,
+      "displayHeight": 24,
+      "colors": [
+        "#079455"
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "bytes": 772,
+      "sha256": "f3fa853a96c1fecae39056841b63696b6ca1f40ce16542790af246e946235e34",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": true,
+      "note": "Source evidence only. Use the whole spreadsheet44 tile or whole exported pin16; do not force this fragment into the parent icon slot."
+    },
+    {
+      "role": "file-size-divider-1x10",
+      "sourceNodeId": "3128:25551",
+      "sourceKind": "VECTOR",
+      "actualSourceNodeId": null,
+      "sourceWidth": 0,
+      "sourceHeight": 10,
+      "path": "assets/cards/file-size-divider-1x10.svg",
+      "format": "svg",
+      "width": 1.0,
+      "height": 10.0,
+      "displayWidth": 0,
+      "displayHeight": 10,
+      "colors": [
+        "#AAAAAA"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 228,
+      "sha256": "8099f0b37c2f9d283bd03f97645bc18e3e4cc9d6e117dd68fdbfbf8171134442",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "note": "Native1x10 SVG includes a centered1px stroke of raw width0x10 VECTOR. Preserve a zero-width wrapper and center the1px img; do not add1px to metadata layout."
+    },
+    {
+      "role": "file-download-chevron-16",
+      "sourceNodeId": "I3074:100371;3109:155",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2372:37015",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/file-download-chevron-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 304,
+      "sha256": "dfb32e21b057016f60ecc001e5404ee32b418727b328c35463d1467357d30331",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "dot-blue-8",
+      "sourceNodeId": "3100:114392",
+      "sourceKind": "ELLIPSE",
+      "actualSourceNodeId": null,
+      "sourceWidth": 8,
+      "sourceHeight": 8,
+      "path": "assets/cards/dot-blue-8.svg",
+      "format": "svg",
+      "width": 8.0,
+      "height": 8.0,
+      "displayWidth": 8,
+      "displayHeight": 8,
+      "colors": [
+        "#3B82F6"
+      ],
+      "strokeWidths": [],
+      "bytes": 223,
+      "sha256": "75e7a4c5e55dff621eb999526290c055ac5091aed64d7fc966ba95bf4f0c0076",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "dot-disabled-8",
+      "sourceNodeId": "3100:114426",
+      "sourceKind": "ELLIPSE",
+      "actualSourceNodeId": null,
+      "sourceWidth": 8,
+      "sourceHeight": 8,
+      "path": "assets/cards/dot-disabled-8.svg",
+      "format": "svg",
+      "width": 8.0,
+      "height": 8.0,
+      "displayWidth": 8,
+      "displayHeight": 8,
+      "colors": [
+        "#AAAAAA"
+      ],
+      "strokeWidths": [],
+      "bytes": 223,
+      "sha256": "bbe7fcf5bf0cce3cb893d0a32a32cfd22904dcbe9fd029cafa0cacc67fa3ed83",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "schedule-active-status-14",
+      "sourceNodeId": "3074:92064",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2312:46700",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/schedule-active-status-14.svg",
+      "format": "svg",
+      "width": 14.0,
+      "height": 14.0,
+      "displayWidth": 14,
+      "displayHeight": 14,
+      "colors": [
+        "#1C1C1C",
+        "white"
+      ],
+      "strokeWidths": [
+        0.875
+      ],
+      "bytes": 1468,
+      "sha256": "4d1bec61b336f032ce130bc85fda5361715387cfd2a6fe089b971233a75a0026",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "schedule-pause-control-16",
+      "sourceNodeId": "3074:92067",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2751:14602",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/schedule-pause-control-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 776,
+      "sha256": "350fe37bf1fb28611e2df888fee6108675a6e37b4f69212146ae2c8ebfff6694",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "schedule-paused-status-14",
+      "sourceNodeId": "3100:33",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2751:14602",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/schedule-paused-status-14.svg",
+      "format": "svg",
+      "width": 14.0,
+      "height": 14.0,
+      "displayWidth": 14,
+      "displayHeight": 14,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        0.875
+      ],
+      "bytes": 857,
+      "sha256": "08aeba22cfdcca52dbe131aebc7ca7dbddb7406c2afcb976e2fc70b43a4b35b5",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "schedule-play-control-16",
+      "sourceNodeId": "3100:36",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2751:16870",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/schedule-play-control-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1324,
+      "sha256": "0d85a4bbba63fe7df082868f761160fed12dafba7a1a244ee5b607c1db0319b2",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "schedule-active-disabled-status-14",
+      "sourceNodeId": "3100:99",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2312:46700",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/schedule-active-disabled-status-14.svg",
+      "format": "svg",
+      "width": 14.0,
+      "height": 14.0,
+      "displayWidth": 14,
+      "displayHeight": 14,
+      "colors": [
+        "#AAAAAA",
+        "white"
+      ],
+      "strokeWidths": [
+        0.875
+      ],
+      "bytes": 1466,
+      "sha256": "33f43f8b4f822adab787b8f69483c16e06e785724fd474dd0e40a396936ac65e",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "schedule-pause-disabled-control-16",
+      "sourceNodeId": "3100:102",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2751:14602",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/schedule-pause-disabled-control-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#AAAAAA"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 776,
+      "sha256": "bffdfdf8f1b15fa167eab25605ee60bfdd21cf97a2c593162e73d5cd4bdf9cb5",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "schedule-paused-disabled-status-14",
+      "sourceNodeId": "3100:163",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2751:14602",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/schedule-paused-disabled-status-14.svg",
+      "format": "svg",
+      "width": 14.0,
+      "height": 14.0,
+      "displayWidth": 14,
+      "displayHeight": 14,
+      "colors": [
+        "#AAAAAA"
+      ],
+      "strokeWidths": [
+        0.875
+      ],
+      "bytes": 857,
+      "sha256": "52b8538009c198a205384b5518759370075798b50aaeb45ff88c3e674dcaded4",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "schedule-play-disabled-control-16",
+      "sourceNodeId": "3100:166",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2751:16870",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/schedule-play-disabled-control-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#AAAAAA",
+        "white"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1324,
+      "sha256": "58378ed013f43b26805d851378792efa453df574b0381863ea87f5ca23fc0fce",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "item-more-16",
+      "sourceNodeId": "I3074:91439;2909:49141",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3018:24913",
+      "sourceWidth": 24,
+      "sourceHeight": 24,
+      "path": "assets/cards/item-more-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1082,
+      "sha256": "22330d1b17da198cb213be4f64008925c948d8c02e5006606806577c57240fc5",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "item-more-disabled-16",
+      "sourceNodeId": "I3095:106;2909:49169",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3018:24913",
+      "sourceWidth": 24,
+      "sourceHeight": 24,
+      "path": "assets/cards/item-more-disabled-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#AAAAAA"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1082,
+      "sha256": "b8e4122a23b1557a713cf546527fa6a057f0cb8a3b654afbdafc7253e16854dc",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "item-chat-16",
+      "sourceNodeId": "3074:91454",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2320:15942",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/item-chat-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1128,
+      "sha256": "f65dc7cefff3de90280ce455f7193891fac52a189bd1c02dddc334938e72955b",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "item-chat-disabled-16",
+      "sourceNodeId": "3095:124",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2320:15942",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/item-chat-disabled-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#AAAAAA",
+        "white"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1128,
+      "sha256": "8e40a93c4e98bf5701234ec891e06392138f0faef6060a502a222468e7fd55d0",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false
+    },
+    {
+      "role": "pin-fragment-reference",
+      "sourceNodeId": "I3095:44;2308:44288",
+      "sourceKind": "GROUP",
+      "actualSourceNodeId": null,
+      "sourceWidth": 9.333333015441895,
+      "sourceHeight": 13.33226490020752,
+      "path": "assets/cards/pin-fragment-reference.svg",
+      "format": "svg",
+      "width": 10.3333,
+      "height": 14.3323,
+      "displayWidth": 9.333333015441895,
+      "displayHeight": 13.33226490020752,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1631,
+      "sha256": "748bf820d544c64846b7091d89873c2442c483f95a4b9e1419479463ad4777e0",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": true,
+      "note": "Source evidence only. Use the whole spreadsheet44 tile or whole exported pin16; do not force this fragment into the parent icon slot."
+    },
+    {
+      "role": "tool-logo-mail-sample",
+      "sourceNodeId": "3074:91449",
+      "sourceKind": "RECTANGLE",
+      "actualSourceNodeId": null,
+      "sourceWidth": 16.5,
+      "sourceHeight": 13.117500305175781,
+      "path": "assets/cards/tool-logo-mail-sample.png",
+      "format": "png",
+      "width": 800,
+      "height": 636,
+      "displayWidth": 16.5,
+      "displayHeight": 13.117500305175781,
+      "colors": [],
+      "strokeWidths": [],
+      "bytes": 150903,
+      "sha256": "1ce83bf179c6ade5daaa5a3f548b75d5aed3b685e0e9180d2dfdb4c1d5383237",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "imageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9",
+      "sha1": "449621c003b3a3bb7e8f972a03ace0484928f8f9",
+      "dynamicSample": true,
+      "disabledImageNodeId": "3095:117",
+      "disabledSaturation": -1,
+      "productAdapter": "Reuse the actual data image; disabled applies grayscale(1). Supplied disabled placeholder PNG does not match the original imageHash."
+    },
+    {
+      "role": "tool-logo-productivity-sample",
+      "sourceNodeId": "3074:91451",
+      "sourceKind": "RECTANGLE",
+      "actualSourceNodeId": null,
+      "sourceWidth": 15,
+      "sourceHeight": 15,
+      "path": "assets/cards/tool-logo-productivity-sample.png",
+      "format": "png",
+      "width": 960,
+      "height": 960,
+      "displayWidth": 15,
+      "displayHeight": 15,
+      "colors": [],
+      "strokeWidths": [],
+      "bytes": 40078,
+      "sha256": "c0c6c050026b36481c10ea384772bcccd429c95c64642406ea26124eec35541c",
+      "method": "figma-supplied-original-asset",
+      "referenceOnly": false,
+      "imageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2",
+      "sha1": "a6e6efe5773829825b4cce3abd9922cdfe849eb2",
+      "dynamicSample": true,
+      "disabledImageNodeId": "3095:119",
+      "disabledSaturation": -1,
+      "productAdapter": "Reuse the actual data image; disabled applies grayscale(1). Supplied disabled placeholder PNG does not match the original imageHash."
+    },
+    {
+      "role": "pin-hovered-16",
+      "sourceNodeId": "3095:44",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2308:44294",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/cards/pin-hovered-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1787,
+      "sha256": "fe5b6fad4216c19afd9ef99c4861c05c2c1980e2b551892f743cba82d3ff9070",
+      "method": "figma-read-only-native-export",
+      "referenceOnly": false,
+      "exportSettings": {
+        "format": "SVG_STRING",
+        "svgIdAttribute": true
+      },
+      "note": "Whole actual16px pin exported read-only. Rotation is baked into coordinates; no extra CSS rotate and no scaling of supplied partial fragment."
+    },
+    {
+      "role": "existing-spreadsheet-file-tile",
+      "sourceNodeId": "3128:25560",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3128:25501",
+      "sourceWidth": 44,
+      "sourceHeight": 44,
+      "path": "assets/files/spreadsheet.svg",
+      "format": "svg",
+      "width": 44.0,
+      "height": 44.0,
+      "displayWidth": 44,
+      "displayHeight": 44,
+      "colors": [
+        "#079455",
+        "#EEEEEE",
+        "url(#paint0_linear_3128_25501)",
+        "white"
+      ],
+      "strokeWidths": [
+        1.0,
+        1.5
+      ],
+      "bytes": 1208,
+      "sha256": "9736e8a33e22e83ac1411535484dd44e5b30a92b4031658fcfe17bd791297452",
+      "method": "reuse-existing-exact-source",
+      "referenceOnly": false,
+      "note": "Exact original44px tile source3128:25501; source evidence and actual instance both have sheet offset8/8. Includes accent/sheet/gradient/border/glyph; do not recreate or overlay another24px glyph."
+    }
+  ],
+  "exceptions": [
+    {
+      "generatedConstant": "imgLogo2",
+      "sourceNodeId": "3095:117",
+      "providedWidth": 32,
+      "providedHeight": 32,
+      "providedBytes": 159,
+      "providedSha256": "338a795f06e30f0216c162fb0e188db9595cb2cbc90557524e4dc28c670b6531",
+      "providedSha1": "6795500ea9ab598489dcac542ef18c505d3ed7b3",
+      "actualImageHash": "449621c003b3a3bb7e8f972a03ace0484928f8f9",
+      "actualSaturation": -1,
+      "status": "rejected-runtime-placeholder",
+      "reason": "Both supplied PNGs are the same32px placeholder and match neither original image hash. Original source PNGs are available and verified; preserve dynamic image identity and apply recorded disabled filter instead.",
+      "replacementPath": "assets/cards/tool-logo-mail-sample.png"
+    },
+    {
+      "generatedConstant": "imgLogo3",
+      "sourceNodeId": "3095:119",
+      "providedWidth": 32,
+      "providedHeight": 32,
+      "providedBytes": 159,
+      "providedSha256": "338a795f06e30f0216c162fb0e188db9595cb2cbc90557524e4dc28c670b6531",
+      "providedSha1": "6795500ea9ab598489dcac542ef18c505d3ed7b3",
+      "actualImageHash": "a6e6efe5773829825b4cce3abd9922cdfe849eb2",
+      "actualSaturation": -1,
+      "status": "rejected-runtime-placeholder",
+      "reason": "Both supplied PNGs are the same32px placeholder and match neither original image hash. Original source PNGs are available and verified; preserve dynamic image identity and apply recorded disabled filter instead.",
+      "replacementPath": "assets/cards/tool-logo-productivity-sample.png"
+    }
+  ],
+  "notes": [
+    "24 supplied constants include two duplicate dots and two rejected disabled placeholder PNGs. Preserve20 usable byte-distinct supplied assets, one native pin export and one existing whole44px file tile:22 entries/21 new files.",
+    "Spreadsheet24 glyph and pin partial fragment are referenceOnly; runtime uses complete44/16px assets. Thumbnail has no static image paint; tool PNGs are dynamic sample data, not fixed Agent Hub brand identities.",
+    "Native size, displayed slot, source identity, state paint and stroke are distinct. Keep14px status/16px controls and disabled PNG filter adapter separate; never use temporary URLs at runtime."
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Five distinct card families, 25 supplied layouts and actual nested overrides",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "families": [
+    {
+      "componentId": "AgentHubFileItem",
+      "rootNodeId": "3128:25559",
+      "suppliedLayouts": 1,
+      "width": 512,
+      "height": 68,
+      "radius": 12,
+      "status": "match"
+    },
+    {
+      "componentId": "AgentHubDataCard",
+      "rootNodeId": "2427:25252",
+      "suppliedLayouts": 3,
+      "width": 120,
+      "height": 120,
+      "radius": 12,
+      "status": "match"
+    },
+    {
+      "componentId": "AgentHubThumbnailCard",
+      "rootNodeId": "3100:114430",
+      "suppliedLayouts": 5,
+      "width": 324,
+      "height": 343.50001525878906,
+      "radius": 24,
+      "status": "match"
+    },
+    {
+      "componentId": "AgentHubScheduleCard",
+      "rootNodeId": "3100:171",
+      "suppliedLayouts": 10,
+      "width": 324,
+      "height": 118,
+      "radius": 24,
+      "status": "match"
+    },
+    {
+      "componentId": "AgentHubItemCard",
+      "rootNodeId": "3095:143",
+      "suppliedLayouts": 6,
+      "width": 324,
+      "height": 146,
+      "radius": 24,
+      "status": "match"
+    }
+  ],
+  "nested": [
+    {
+      "componentId": "AgentHubFileItem",
+      "sourceNodeIds": [
+        "3128:25501",
+        "2874:45712",
+        "3109:144",
+        "2372:37015"
+      ],
+      "status": "match"
+    },
+    {
+      "componentId": "AgentHubDataCard",
+      "sourceNodeIds": [
+        "2079:12042"
+      ],
+      "status": "match"
+    },
+    {
+      "componentId": "AgentHubThumbnailCard",
+      "actualNestedInstances": 0,
+      "suppliedOptionalOffLayouts": 0,
+      "status": "match"
+    },
+    {
+      "componentId": "AgentHubScheduleCard",
+      "suppliedStateStatusPairs": 10,
+      "toggleKind": "FRAME",
+      "toggleGlyphSize": 16,
+      "statusGlyphSize": 14,
+      "status": "match"
+    },
+    {
+      "componentId": "AgentHubItemCard",
+      "actualMoreControlSize": 20,
+      "actualMoreGlyphSize": 16,
+      "suppliedPinLayouts": 2,
+      "status": "match"
+    }
+  ],
+  "assets": [
+    {
+      "role": "file-spreadsheet-glyph-24",
+      "path": "assets/cards/file-spreadsheet-glyph-24.svg",
+      "status": "match"
+    },
+    {
+      "role": "file-size-divider-1x10",
+      "path": "assets/cards/file-size-divider-1x10.svg",
+      "status": "match"
+    },
+    {
+      "role": "file-download-chevron-16",
+      "path": "assets/cards/file-download-chevron-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "dot-blue-8",
+      "path": "assets/cards/dot-blue-8.svg",
+      "status": "match"
+    },
+    {
+      "role": "dot-disabled-8",
+      "path": "assets/cards/dot-disabled-8.svg",
+      "status": "match"
+    },
+    {
+      "role": "schedule-active-status-14",
+      "path": "assets/cards/schedule-active-status-14.svg",
+      "status": "match"
+    },
+    {
+      "role": "schedule-pause-control-16",
+      "path": "assets/cards/schedule-pause-control-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "schedule-paused-status-14",
+      "path": "assets/cards/schedule-paused-status-14.svg",
+      "status": "match"
+    },
+    {
+      "role": "schedule-play-control-16",
+      "path": "assets/cards/schedule-play-control-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "schedule-active-disabled-status-14",
+      "path": "assets/cards/schedule-active-disabled-status-14.svg",
+      "status": "match"
+    },
+    {
+      "role": "schedule-pause-disabled-control-16",
+      "path": "assets/cards/schedule-pause-disabled-control-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "schedule-paused-disabled-status-14",
+      "path": "assets/cards/schedule-paused-disabled-status-14.svg",
+      "status": "match"
+    },
+    {
+      "role": "schedule-play-disabled-control-16",
+      "path": "assets/cards/schedule-play-disabled-control-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "item-more-16",
+      "path": "assets/cards/item-more-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "item-more-disabled-16",
+      "path": "assets/cards/item-more-disabled-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "item-chat-16",
+      "path": "assets/cards/item-chat-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "item-chat-disabled-16",
+      "path": "assets/cards/item-chat-disabled-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "pin-fragment-reference",
+      "path": "assets/cards/pin-fragment-reference.svg",
+      "status": "match"
+    },
+    {
+      "role": "tool-logo-mail-sample",
+      "path": "assets/cards/tool-logo-mail-sample.png",
+      "status": "match"
+    },
+    {
+      "role": "tool-logo-productivity-sample",
+      "path": "assets/cards/tool-logo-productivity-sample.png",
+      "status": "match"
+    },
+    {
+      "role": "pin-hovered-16",
+      "path": "assets/cards/pin-hovered-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "existing-spreadsheet-file-tile",
+      "path": "assets/files/spreadsheet.svg",
+      "status": "match"
+    }
+  ],
+  "limits": [
+    "25 static layouts do not establish focus/keyboard/disabled guards, selection ownership or responsive/long-content behavior",
+    "The common Card dependency is an adoption contract, not an observed common Card instance in these Figma trees",
+    "DataCard has three supplied states; the other card state axes and optional branches must not expand that evidence",
+    "File download/dropdown, Schedule pause/resume and Item pin/chat/more require explicit consuming-product callbacks and verified source/export mappings",
+    "FileItem defines button=true, but its supplied Button has no visible property reference; connecting a show-action API is a proposed consuming-product contract",
+    "Tool logos are replaceable image content; ThumbnailCard contains a plain placeholder FRAME rather than an implemented image renderer"
+  ],
+  "issues": []
+}

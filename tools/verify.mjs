@@ -6,8 +6,10 @@ import { loadComponentCatalogs } from '../docs/frontend/contracts/check-first-us
 const errors = [];
 const assert = (condition, message) => { if (!condition) errors.push(message); };
 const exists = relative => fs.existsSync(path.join(ROOT, relative));
+// Consumer fixtures contain downloaded skill copies and build output, not shared source.
+const generatedDirectories = new Set(['node_modules', '.git', '.teamai', '.codex', '.claude', 'dist']);
 function files(directory) {
-  return fs.readdirSync(directory, { withFileTypes: true }).flatMap(entry => entry.name === 'node_modules' || entry.name === '.git' ? [] : entry.isDirectory() ? files(path.join(directory, entry.name)) : [path.join(directory, entry.name)]);
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap(entry => generatedDirectories.has(entry.name) ? [] : entry.isDirectory() ? files(path.join(directory, entry.name)) : [path.join(directory, entry.name)]);
 }
 const allFiles = files(ROOT);
 const markdownLinks = [];

@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Six Session source roots, nineteen variants and actual filled/empty compositions",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "panels": [
+    {
+      "nodeId": "2975:69459",
+      "state": "filled",
+      "width": 320,
+      "height": 934,
+      "contentWidth": 294,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:69458",
+      "state": "empty",
+      "width": 320,
+      "height": 154,
+      "contentWidth": 294,
+      "status": "match"
+    }
+  ],
+  "statePalettes": [
+    {
+      "nodeId": "2986:22092",
+      "state": "default",
+      "background": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:67191",
+      "state": "hovered",
+      "background": "#000000",
+      "status": "match"
+    },
+    {
+      "nodeId": "2986:22103",
+      "state": "pressed",
+      "background": "#000000",
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:67661",
+      "state": "selected",
+      "background": "#EBF3FF",
+      "status": "match"
+    },
+    {
+      "nodeId": "2987:22133",
+      "state": "default",
+      "background": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:67202",
+      "state": "hovered",
+      "background": "#000000",
+      "status": "match"
+    },
+    {
+      "nodeId": "2987:22142",
+      "state": "pressed",
+      "background": "#000000",
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:67672",
+      "state": "selected",
+      "background": "#EBF3FF",
+      "status": "match"
+    },
+    {
+      "nodeId": "2995:22298",
+      "state": "default",
+      "background": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68531",
+      "state": "hovered",
+      "background": "#000000",
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68534",
+      "state": "pressed",
+      "background": "#000000",
+      "status": "match"
+    },
+    {
+      "nodeId": "2995:22301",
+      "state": "selected",
+      "background": "#EBF3FF",
+      "status": "match"
+    }
+  ],
+  "compositions": [
+    {
+      "nodeId": "2975:69415",
+      "family": "AgentHubSessionSectionHeader",
+      "sourceNodeId": "2986:22115",
+      "variant": {
+        "collapsed": "false"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:69417",
+      "family": "AgentHubSessionItem",
+      "sourceNodeId": "2986:22092",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:69424",
+      "family": "AgentHubSessionHistoryItem",
+      "sourceNodeId": "2995:22301",
+      "variant": {
+        "state": "selected"
+      },
+      "selectedSemanticOverride": "color/action/default-selected",
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:69425",
+      "family": "AgentHubSessionHistoryItem",
+      "sourceNodeId": "2995:22298",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:69426",
+      "family": "AgentHubSessionHistoryItem",
+      "sourceNodeId": "2995:22298",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:69427",
+      "family": "AgentHubSessionHistoryItem",
+      "sourceNodeId": "2995:22298",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:69428",
+      "family": "AgentHubSessionHistoryItem",
+      "sourceNodeId": "2995:22298",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68161",
+      "family": "AgentHubSessionSectionHeader",
+      "sourceNodeId": "2986:22115",
+      "variant": {
+        "collapsed": "false"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68163",
+      "family": "AgentHubSessionProgressStep",
+      "sourceNodeId": "2987:22103",
+      "variant": {
+        "status": "done"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68164",
+      "family": "AgentHubSessionProgressStep",
+      "sourceNodeId": "2987:22114",
+      "variant": {
+        "status": "active"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68165",
+      "family": "AgentHubSessionProgressStep",
+      "sourceNodeId": "2987:22122",
+      "variant": {
+        "status": "pending"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68166",
+      "family": "AgentHubSessionProgressStep",
+      "sourceNodeId": "2987:22122",
+      "variant": {
+        "status": "pending"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68168",
+      "family": "AgentHubSessionSectionHeader",
+      "sourceNodeId": "2986:22115",
+      "variant": {
+        "collapsed": "false"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68170",
+      "family": "AgentHubSessionItem",
+      "sourceNodeId": "2986:22092",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68171",
+      "family": "AgentHubSessionItem",
+      "sourceNodeId": "2986:22092",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68172",
+      "family": "AgentHubSessionItem",
+      "sourceNodeId": "2986:22092",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68173",
+      "family": "AgentHubSessionItem",
+      "sourceNodeId": "2986:22092",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68174",
+      "family": "AgentHubSessionItem",
+      "sourceNodeId": "2986:22092",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68176",
+      "family": "AgentHubSessionSectionHeader",
+      "sourceNodeId": "2986:22115",
+      "variant": {
+        "collapsed": "false"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68179",
+      "family": "AgentHubSessionContextItem",
+      "sourceNodeId": "2987:22133",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68180",
+      "family": "AgentHubSessionContextItem",
+      "sourceNodeId": "2987:22133",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68181",
+      "family": "AgentHubSessionContextItem",
+      "sourceNodeId": "2987:22133",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68182",
+      "family": "AgentHubSessionContextItem",
+      "sourceNodeId": "2987:22133",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68183",
+      "family": "AgentHubSessionContextItem",
+      "sourceNodeId": "2987:22133",
+      "variant": {
+        "state": "default"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2975:68061",
+      "family": "AgentHubSessionSectionHeader",
+      "sourceNodeId": "2986:22115",
+      "variant": {
+        "collapsed": "false"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    },
+    {
+      "nodeId": "2988:22821",
+      "family": "AgentHubSessionSectionHeader",
+      "sourceNodeId": "2986:22115",
+      "variant": {
+        "collapsed": "false"
+      },
+      "selectedSemanticOverride": null,
+      "status": "match"
+    }
+  ],
+  "assets": [
+    {
+      "role": "chevron-down-16",
+      "path": "assets/session/chevron-down-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "chevron-right-16",
+      "path": "assets/session/chevron-right-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "plus-16",
+      "path": "assets/session/plus-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "progress-done-20",
+      "path": "assets/session/progress-done-20.svg",
+      "status": "match"
+    },
+    {
+      "role": "progress-active-20",
+      "path": "assets/session/progress-active-20.svg",
+      "status": "match"
+    },
+    {
+      "role": "progress-pending-circle-20",
+      "path": "assets/session/progress-pending-circle-20.svg",
+      "status": "match"
+    },
+    {
+      "role": "history-unread-dot-6",
+      "path": "assets/session/history-unread-dot-6.svg",
+      "status": "match"
+    },
+    {
+      "role": "schedule-16",
+      "path": "assets/session/schedule-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "file-text-16",
+      "path": "assets/session/file-text-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "table-16",
+      "path": "assets/session/table-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "code-16",
+      "path": "assets/session/code-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "image-16",
+      "path": "assets/session/image-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "folder-16",
+      "path": "assets/session/folder-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "book-open-16",
+      "path": "assets/session/book-open-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "context-book-open-16",
+      "path": "assets/session/context-book-open-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "wrench-16",
+      "path": "assets/session/wrench-16.svg",
+      "status": "match"
+    },
+    {
+      "role": "scroll-text-16",
+      "path": "assets/session/scroll-text-16.svg",
+      "status": "match"
+    }
+  ],
+  "limits": [
+    "Filled and empty Light snapshots are not a loading/error/disabled/dark/mobile or runtime API state machine",
+    "Panel root property definitions are unavailable; separately collected child property contracts remain valid",
+    "Selected history means viewed run, unread dot is independent, and progress status is supplied product data",
+    "Done/active/pending indicators are direct shapes and assets rather than Checkbox/Menu/Tree semantics",
+    "History ghost24 source has an explicit16px control override while its glyph remains16; source and display dimensions differ",
+    "Section expansion/actions, output/context interactions, live announcements, focus and source/export adoption require product verification"
+  ],
+  "issues": []
+}

@@ -24,6 +24,12 @@
     "detail": {}
   },
   "documentOverrides": [],
-  "exceptions": [],
+  "exceptions": [
+    {
+      "contract": "Textarea",
+      "reason": "후속 사용자 요청으로 AgentHubChatComposer 입력과 바깥 pill의 추가 focus 테두리·ring을 생략합니다. 기본 선·shadow·caret·native focus와 보조 버튼의 독립 focus는 유지합니다.",
+      "scope": "AgentHubChatComposer의 입력 시각에 한정. 일반 Input/Textarea와 Search에는 적용하지 않습니다. design/components/AgentHubChatComposer/styles.md 참조."
+    }
+  ],
   "inheritCommon": true
 }

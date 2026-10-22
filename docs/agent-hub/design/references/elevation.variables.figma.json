@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3261:59766"
+    ]
+  },
+  "variables": [
+    {
+      "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+      "name": "Monochrome/white",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/12231:348",
+      "valuesByMode": {
+        "1346:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+      "name": "gray/300",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/12231:348",
+      "valuesByMode": {
+        "1346:0": {
+          "r": 0.8666666746139526,
+          "g": 0.8666666746139526,
+          "b": 0.8666666746139526,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:fe2a664202d23547de7115bd294f9ba1c380cc7c/12469:27",
+      "name": "gray/50",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/12231:348",
+      "valuesByMode": {
+        "1346:0": {
+          "r": 0.9725490212440491,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {}
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/12231:348",
+      "name": "#1 Primitive",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "1346:0"
+        }
+      ],
+      "defaultModeId": "1346:0"
+    }
+  ]
+}

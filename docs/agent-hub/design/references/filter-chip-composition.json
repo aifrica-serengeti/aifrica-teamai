@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Figma group instances against standalone filter-chip snapshots",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "limits": [
+    "Six label-only md/enabled chips per measured layout; first selected is a design sample",
+    "Hidden icon/count slot geometry, focused/dark and browser selection/scroll behavior are not verified"
+  ],
+  "instances": [
+    {
+      "layout": "hug",
+      "nodeId": "3099:25139",
+      "sourceNodeId": "3092:25164",
+      "variant": {
+        "size": "md",
+        "selected": "true",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "hug",
+      "nodeId": "3099:25144",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "hug",
+      "nodeId": "3099:25149",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "hug",
+      "nodeId": "3099:25154",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "hug",
+      "nodeId": "3099:25159",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "hug",
+      "nodeId": "3099:25164",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "wrap",
+      "nodeId": "3099:25170",
+      "sourceNodeId": "3092:25164",
+      "variant": {
+        "size": "md",
+        "selected": "true",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "wrap",
+      "nodeId": "3099:25175",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "wrap",
+      "nodeId": "3099:25180",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "wrap",
+      "nodeId": "3099:25185",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "wrap",
+      "nodeId": "3099:25190",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "wrap",
+      "nodeId": "3099:25195",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "scroll",
+      "nodeId": "3099:25201",
+      "sourceNodeId": "3092:25164",
+      "variant": {
+        "size": "md",
+        "selected": "true",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "scroll",
+      "nodeId": "3099:25206",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "scroll",
+      "nodeId": "3099:25211",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "scroll",
+      "nodeId": "3099:25216",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "scroll",
+      "nodeId": "3099:25221",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    },
+    {
+      "layout": "scroll",
+      "nodeId": "3099:25226",
+      "sourceNodeId": "3092:25109",
+      "variant": {
+        "size": "md",
+        "selected": "false",
+        "state": "enabled"
+      },
+      "status": "match"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentIds": [
+    "AgentHubSessionPanel",
+    "AgentHubSessionItem",
+    "AgentHubSessionProgressStep",
+    "AgentHubSessionContextItem",
+    "AgentHubSessionSectionHeader",
+    "AgentHubSessionHistoryItem"
+  ],
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "2975:69460",
+      "2986:22114",
+      "2987:22132",
+      "2987:22151",
+      "2986:22139",
+      "2995:22304"
+    ],
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "hiddenInstanceChildrenIncluded": true,
+    "method": "Figma MCP get_design_context screenshots and read-only Plugin API full tree, actual source identities/overrides, per-edge strokes, node modes and variable alias closure"
+  },
+  "assets": [
+    {
+      "role": "chevron-down-16",
+      "sourceNodeId": "I2986:22120;2427:25109",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2372:37015",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/session/chevron-down-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 311,
+      "sha256": "1ca73cbbccb43d27ce07871ec30694205181d79ede1ed04f571338c331c51469",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "chevron-right-16",
+      "sourceNodeId": "I2986:22132;2427:25109",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2842:38917",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/session/chevron-right-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 303,
+      "sha256": "0cad19552be9a1ce42807fdd164bd56ed8ab5c55c8ac4835a229e2ad49e21df6",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact provided local SVG. Source identity, native dimensions, actual displayed box and paint are separate. Pending circle excludes index text; unread dot visibility is controlled by product data. Generated plus24 label is corrected to actual chevron-right source."
+    },
+    {
+      "role": "plus-16",
+      "sourceNodeId": "I2986:22123;2427:25109",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2365:15015",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/session/plus-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 408,
+      "sha256": "5dc87654ac21b355a3e382298457e0b05f984e4dbe616389e72273fb026013d1",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "progress-done-20",
+      "sourceNodeId": "2987:22106",
+      "sourceKind": "GROUP",
+      "actualSourceNodeId": null,
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/session/progress-done-20.svg",
+      "format": "svg",
+      "width": 20.0,
+      "height": 20.0,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "colors": [
+        "#1C1C1C",
+        "white"
+      ],
+      "strokeWidths": [
+        0.875
+      ],
+      "bytes": 411,
+      "sha256": "627640e39bbb0bbfd7937c50be21b7408566f81f5626059460b6189e8e954c31",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "progress-active-20",
+      "sourceNodeId": "2987:22116",
+      "sourceKind": "FRAME",
+      "actualSourceNodeId": null,
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/session/progress-active-20.svg",
+      "format": "svg",
+      "width": 20.0,
+      "height": 20.0,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "colors": [
+        "#3B82F6",
+        "#CCE0FF"
+      ],
+      "strokeWidths": [
+        4.0
+      ],
+      "bytes": 384,
+      "sha256": "bead8bea3b60087bac769fc76f38c381e79892f26d4debffc74fc1dc5766c2a3",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "progress-pending-circle-20",
+      "sourceNodeId": "2987:22126",
+      "sourceKind": "ELLIPSE",
+      "actualSourceNodeId": null,
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/session/progress-pending-circle-20.svg",
+      "format": "svg",
+      "width": 20.0,
+      "height": 20.0,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "colors": [
+        "#EEEEEE"
+      ],
+      "strokeWidths": [],
+      "bytes": 233,
+      "sha256": "90070a31867dff5bbf2afc4a4cecfd8dba685aebc5fb0350e09d888bbae277e0",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "history-unread-dot-6",
+      "sourceNodeId": "2995:22300",
+      "sourceKind": "ELLIPSE",
+      "actualSourceNodeId": null,
+      "sourceWidth": 6,
+      "sourceHeight": 6,
+      "path": "assets/session/history-unread-dot-6.svg",
+      "format": "svg",
+      "width": 6.0,
+      "height": 6.0,
+      "displayWidth": 6,
+      "displayHeight": 6,
+      "colors": [
+        "#3B82F6"
+      ],
+      "strokeWidths": [],
+      "bytes": 223,
+      "sha256": "b15329deed7aac752031eee187facf87a8f2b4ea38a1161d9e5847f6e1bf294d",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "schedule-16",
+      "sourceNodeId": "I2975:69417;2986:22094",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2053:5271",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/session/schedule-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 772,
+      "sha256": "2bcc1e158be5d42019b68762752ffa8087189888594f0b10386b16421153bf1a",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "file-text-16",
+      "sourceNodeId": "2986:22094",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2762:73887",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/session/file-text-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 1477,
+      "sha256": "9d5e7040bb113a225ebf4ec2394e3ae967f1564e46cfbbb8106e62e4dc6cd823",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "table-16",
+      "sourceNodeId": "I2975:68171;2986:22094",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2762:73885",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/session/table-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 821,
+      "sha256": "c4bb3f154df8289796d145e85e1ef881601fcb7cae46c2d3dc1b01bd16e8fb54",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "code-16",
+      "sourceNodeId": "I2975:68172;2986:22094",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2886:54298",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/session/code-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 474,
+      "sha256": "73478bc2063dbda978540585e2d22a95e5a8690c6fb76d6f06a7191a402e31bf",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "image-16",
+      "sourceNodeId": "I2975:68174;2986:22094",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2057:16192",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/session/image-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 1023,
+      "sha256": "2e4a06e7670c0b9a25f6df8ea3ee191831440fca013b35160a6ea48374e3c9bd",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "folder-16",
+      "sourceNodeId": "I2975:68180;2987:22136",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2037:4537",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "path": "assets/session/folder-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.25
+      ],
+      "bytes": 1282,
+      "sha256": "df90af9d4135ceef6d41253d96e26ade356a520dfd8aa169a89b497aa63a5d0a",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "book-open-16",
+      "sourceNodeId": "2987:22136",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2833:17122",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/session/book-open-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1190,
+      "sha256": "57d333582d8151f4c37cf47e6e4a47b19053c4c5620f500ce24dc72a319e4b88",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "context-book-open-16",
+      "sourceNodeId": "I2975:68181;2987:22136",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2833:17122",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/session/context-book-open-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1203,
+      "sha256": "d25b4105d577d9ba3dd5dc5689c43f7fda404c291e5eb731dfc497f8456080ed",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "wrench-16",
+      "sourceNodeId": "I2975:68182;2987:22136",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2833:16795",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/session/wrench-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575",
+        "white"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1359,
+      "sha256": "01ce0ead2e97879fbffa9423b7e76f297976246be2cb9409f4f9b45f79f5bc5f",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    },
+    {
+      "role": "scroll-text-16",
+      "sourceNodeId": "I2975:68183;2987:22136",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2986:22091",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "path": "assets/session/scroll-text-16.svg",
+      "format": "svg",
+      "width": 16.0,
+      "height": 16.0,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#757575"
+      ],
+      "strokeWidths": [
+        1.0
+      ],
+      "bytes": 1480,
+      "sha256": "f49d7be702ddbda8a643d8235f53b0a5d612c5e8478251d67e402e70ba9bf901",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied local asset; no path redrawing, 20-to-16 stroke recalculation or temporary runtime URL."
+    }
+  ],
+  "notes": [
+    "27 provided asset constants deduplicate to17 byte-distinct SVGs; local book-open exports retain different source group labels despite matching geometry/paint. No screenshot or entire Session render is used as UI.",
+    "Session file glyphs are native20 sources displayed16 with stroke1.25. Header/context-native16 glyphs use1px stroke, chevrons#757575 while plus#1C1C1C. Preserve exact paint per asset rather than inheriting one parent color.",
+    "Done whole20px mark contains whitecheck stroke.875; active20px glyph contains4px#CCE0FF ring and#3B82F6 fill. Pending20px#EEE circle uses separate12/16#8F8F8F index. Connector is layout/CSS Divider, not a downloaded glyph."
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentIds": [
+    "AgentHubChatHeader",
+    "AgentHubThinkingStatus"
+  ],
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3016:118101",
+      "3016:118106"
+    ],
+    "screenNodeId": "3016:118094",
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "verifiedAt": "2026-10-21",
+    "method": "Current read-only Plugin API recheck of complete exposed header/status subtrees, BrandMark source component, actual instance sources/properties, per-edge/corner styles, original raw gradients, alias closure, node modes/reactions/transforms. Existing root get_design_context screenshot and original PNG byte metadata retained as evidence. No canvas mutation or asset download.",
+    "skipInvisibleInstanceChildren": true,
+    "skipFlagWasNotModified": true,
+    "hiddenInstanceSubtreesExhaustive": false,
+    "scopeNote": "Header exposes15 nodes with pause=false. Skipped hidden instance descendants are not asserted absent; source properties and the prior baseline retain that Boolean contract."
+  },
+  "assets": [
+    {
+      "role": "header-file-16",
+      "sourceNodeId": "2916:58366",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2916:58366",
+      "instanceNodeIds": [
+        "I3016:118101;3016:79809;2427:25109"
+      ],
+      "path": "assets/icons/file/16.svg",
+      "format": "svg",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 919,
+      "sha256": "e2269bdec107bd5d2cb573d89ae2b62df3009c966d26fd46222c9a5e9af9f5ca",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "note": "Exact actual swapped source and current16px geometry/default paint match the existing header contract. Inherited icon/plus/24 layer name is not the actual glyph."
+    },
+    {
+      "role": "header-more-16",
+      "sourceNodeId": "2751:16967",
+      "sourceKind": "COMPONENT",
+      "actualSourceNodeId": "2751:16967",
+      "instanceNodeIds": [
+        "I3016:118101;3016:79810;2427:25109"
+      ],
+      "path": "assets/icons/more/16.svg",
+      "format": "svg",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 983,
+      "sha256": "77b730f2ba622b075bd5ef051caebcd7bdb9ef52941c412f43d691bfb46ef9d0",
+      "method": "reuse-existing-exact-source",
+      "reuseFrom": "asset-manifest.json",
+      "note": "Exact actual swapped source and current16px geometry/default paint match the existing header contract. Inherited icon/plus/24 layer name is not the actual glyph."
+    },
+    {
+      "role": "thinking-brand-mark-32",
+      "sourceNodeId": "2611:74300",
+      "sourceKind": "RECTANGLE",
+      "sourceComponentNodeId": "2611:74302",
+      "componentSourceSize": [
+        180,
+        180
+      ],
+      "instanceNodeIds": [
+        "3016:118107"
+      ],
+      "imageLayerNodeIds": [
+        "I3016:118107;2611:74300"
+      ],
+      "imageHash": "9ad483e40603da8c651c65af6fb5bace9c698cdd",
+      "path": "assets/brand/agent-hub-mark.png",
+      "format": "png",
+      "sourceWidth": 2048,
+      "sourceHeight": 2048,
+      "width": 2048,
+      "height": 2048,
+      "displayWidth": 32,
+      "displayHeight": 32,
+      "bytes": 1508137,
+      "sha1": "9ad483e40603da8c651c65af6fb5bace9c698cdd",
+      "sha256": "8591d15fac29d9d6bf474ab34a1151528e257f4f72aff461359ede012c89537b",
+      "method": "reuse-existing-image-hash",
+      "reuseFrom": "asset-manifest.json",
+      "paint": {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FILL",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "9ad483e40603da8c651c65af6fb5bace9c698cdd"
+      },
+      "originalBytesVerification": {
+        "format": "PNG",
+        "pngHeaderHex": "89504e470d0a1a0a0000000d49484452",
+        "ihdr": {
+          "width": 2048,
+          "height": 2048,
+          "bitDepth": 8,
+          "colorType": 6
+        },
+        "chunkCounts": {
+          "IHDR": 1,
+          "IDAT": 369,
+          "IEND": 1
+        },
+        "all371ChunkMetadataAndCrcMatchExisting": true,
+        "hasAnimationChunks": false,
+        "isGif": false,
+        "parsedEntireFile": true
+      },
+      "animated": false,
+      "note": "Reuse the exact original staticRGBA PNG at32px with identity FILL and zero filters. It is not an animated GIF/APNG or a separate spinner asset; no rotation/recolor/crop/redraw is added."
+    }
+  ],
+  "counts": {
+    "existingAssetsReused": 3,
+    "newFiles": 0,
+    "headerGlyphSlots": 2,
+    "brandMarkSlots": 1
+  },
+  "nonAssetPaintSlots": [
+    {
+      "nodeId": "I3016:118101;3016:79726",
+      "kind": "RECTANGLE-gradient",
+      "runtimeAssetFile": false
+    },
+    {
+      "nodeId": "3016:118108",
+      "kind": "TEXT-gradient",
+      "runtimeAssetFile": false
+    }
+  ],
+  "verification": {
+    "currentSourceIdentityAndDisplaySizeChecked": true,
+    "existingBytesSha256Checked": true,
+    "brandImageHashAndStaticPngChecked": true,
+    "runtimeVerified": false,
+    "animationVerified": false,
+    "issues": []
+  },
+  "notes": [
+    "No new bitmap/SVG or temporary asset download is required. File/more reuse exact existing16px glyphs; pause=false exposes no pause action in this sample.",
+    "The32px BrandMark instance points to the same original component/2048px PNG; preserve native asset bounds and configure only its measured display slot.",
+    "Gradients are paint, not raster image sources. Red instructional outline/text3016:118112/113 are excluded from product assets.",
+    "Only measured asset facts are recorded. Motion intent and implementation proposals do not make this static PNG animated."
+  ]
+}

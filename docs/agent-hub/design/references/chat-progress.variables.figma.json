@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentIds": [
+    "AgentHubChatHeader",
+    "AgentHubThinkingStatus"
+  ],
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3016:118101",
+      "3016:118106"
+    ],
+    "screenNodeId": "3016:118094",
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "verifiedAt": "2026-10-21",
+    "method": "Current read-only Plugin API recheck of complete exposed header/status subtrees, BrandMark source component, actual instance sources/properties, per-edge/corner styles, original raw gradients, alias closure, node modes/reactions/transforms. Existing root get_design_context screenshot and original PNG byte metadata retained as evidence. No canvas mutation or asset download.",
+    "skipInvisibleInstanceChildren": true,
+    "skipFlagWasNotModified": true,
+    "hiddenInstanceSubtreesExhaustive": false,
+    "scopeNote": "Header exposes15 nodes with pause=false. Skipped hidden instance descendants are not asserted absent; source properties and the prior baseline retain that Boolean contract."
+  },
+  "directVariableIds": [
+    "VariableID:3081:31",
+    "VariableID:3081:106",
+    "VariableID:3273:23",
+    "VariableID:3081:184",
+    "VariableID:3022:24941",
+    "VariableID:3081:47"
+  ],
+  "variables": [
+    {
+      "id": "VariableID:3081:31",
+      "name": "color/surface/default",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:15"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3081:106",
+      "name": "color/border/default",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:20"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3273:23",
+      "name": "radius/control-sm",
+      "resolvedType": "FLOAT",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:15"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:3081:184",
+      "name": "color/icon/default",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:32"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3022:24941",
+      "name": "icon/stroke-16",
+      "resolvedType": "FLOAT",
+      "variableCollectionId": "VariableCollectionId:3021:24942",
+      "valuesByMode": {
+        "3021:0": 1,
+        "3021:1": 1,
+        "3021:2": 1.25,
+        "3022:0": 1.5
+      },
+      "scopes": [
+        "STROKE_FLOAT"
+      ]
+    },
+    {
+      "id": "VariableID:3081:47",
+      "name": "color/text/default",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3081:14",
+      "valuesByMode": {
+        "3081:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3077:32"
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3077:15",
+      "name": "Monochrome/white",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3077:20",
+      "name": "gray/300",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.8666669726371765,
+          "g": 0.8666669726371765,
+          "b": 0.8666669726371765,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "id": "VariableID:3273:15",
+      "name": "radius/4",
+      "resolvedType": "FLOAT",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": 4
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:3077:32",
+      "name": "gray/900",
+      "resolvedType": "COLOR",
+      "variableCollectionId": "VariableCollectionId:3077:14",
+      "valuesByMode": {
+        "3077:0": {
+          "r": 0.10980399698019028,
+          "g": 0.10980399698019028,
+          "b": 0.10980399698019028,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:3081:14",
+      "name": "#2 Semantic",
+      "defaultModeId": "3081:0",
+      "modes": [
+        {
+          "name": "Light mode",
+          "modeId": "3081:0"
+        }
+      ],
+      "remote": false
+    },
+    {
+      "id": "VariableCollectionId:3021:24942",
+      "name": "icon",
+      "defaultModeId": "3021:0",
+      "modes": [
+        {
+          "name": "native",
+          "modeId": "3021:0"
+        },
+        {
+          "name": "16",
+          "modeId": "3021:1"
+        },
+        {
+          "name": "20",
+          "modeId": "3021:2"
+        },
+        {
+          "name": "24",
+          "modeId": "3022:0"
+        }
+      ],
+      "remote": false
+    },
+    {
+      "id": "VariableCollectionId:3077:14",
+      "name": "#1 Primitive",
+      "defaultModeId": "3077:0",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "3077:0"
+        }
+      ],
+      "remote": false
+    },
+    {
+      "id": "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/12231:348",
+      "name": "#1 Primitive",
+      "defaultModeId": "1346:0",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "1346:0"
+        }
+      ],
+      "remote": true
+    },
+    {
+      "id": "VariableCollectionId:9975e514c975c8b6597eaf2c98b9549677fc944d/10304:229",
+      "name": "#2 Semantic",
+      "defaultModeId": "7957:0",
+      "modes": [
+        {
+          "name": "Light mode",
+          "modeId": "7957:0"
+        },
+        {
+          "name": "Dark mode",
+          "modeId": "10226:0"
+        }
+      ],
+      "remote": true
+    }
+  ],
+  "nodeModes": [
+    {
+      "nodeId": "3016:118101",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:0",
+        "VariableCollectionId:faa03aeeb785d3cb370c87e231162e1e12bda6e8/12231:348": "1346:0",
+        "VariableCollectionId:9975e514c975c8b6597eaf2c98b9549677fc944d/10304:229": "7957:0"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;2916:58929",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79726",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {}
+    },
+    {
+      "nodeId": "I3016:118101;3016:79807",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:0"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79809",
+      "explicitVariableModes": {
+        "VariableCollectionId:3021:24942": "3021:1"
+      },
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:1"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79810",
+      "explicitVariableModes": {
+        "VariableCollectionId:3021:24942": "3021:1"
+      },
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:1"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;2916:58929;2427:25436",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79809;2427:25109",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:1"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79810;2427:25109",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:1"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79809;2427:25109;2916:58361",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:1"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79809;2427:25109;2916:58362",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:1"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79810;2427:25109;2751:16956",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:1"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79810;2427:25109;2751:16957",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:1"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;3016:79810;2427:25109;2751:16958",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:1"
+      }
+    },
+    {
+      "nodeId": "I3016:118101;2916:58929;2427:25436;2372:36928",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0"
+      }
+    },
+    {
+      "nodeId": "3016:118106",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {}
+    },
+    {
+      "nodeId": "3016:118107",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {}
+    },
+    {
+      "nodeId": "3016:118108",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {}
+    },
+    {
+      "nodeId": "I3016:118107;2611:74300",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {}
+    },
+    {
+      "nodeId": "2611:74302",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {}
+    },
+    {
+      "nodeId": "2611:74300",
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {}
+    }
+  ],
+  "notes": [
+    "Six direct variable bindings close over ten variables. Collection IDs remain authoritative even where imported collections have the same display names.",
+    "All current node explicit/resolved modes are retained, including inherited imported collection modes. Mode availability is not evidence that a dark screen or another state was rendered.",
+    "Icon collection native/16/20/24 modes determine stroke sizing, not semantic light/dark themes. Current file/more actions adopt explicit16 mode.",
+    "Both gradients, thinking opacity and BrandMark image paint are unbound raw values. No invented variable aliases or proposed animation parameters are introduced."
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubMessageExample",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "2320:28612",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2320-28612",
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "method": "Figma MCP screenshot + get_design_context + read-only Plugin API geometry, icon visibility binding, instance identity, variable modes and aliases"
+  },
+  "implementation": {
+    "status": "unmapped",
+    "source": null,
+    "export": null
+  },
+  "description": "",
+  "propertyDefinitions": {
+    "icon#2367:11": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "state": {
+      "type": "VARIANT",
+      "defaultValue": "enabled",
+      "variantOptions": [
+        "enabled",
+        "hovered",
+        "pressed"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "nodeId": "2320:28611",
+      "name": "state=enabled",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s000",
+      "variant": {
+        "state": "enabled"
+      },
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:0"
+      },
+      "children": [
+        {
+          "nodeId": "2320:28594",
+          "name": "message",
+          "type": "TEXT",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 20,
+            "y": 12
+          },
+          "text": "message"
+        },
+        {
+          "nodeId": "3160:19768",
+          "name": "icon",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s002",
+          "position": {
+            "x": 81,
+            "y": 12
+          },
+          "instance": {
+            "source": {
+              "id": "2199:23690",
+              "name": "icon/arrow-right/20",
+              "type": "COMPONENT",
+              "width": 20,
+              "height": 20
+            },
+            "variant": null,
+            "componentProperties": {}
+          },
+          "explicitVariableModes": {},
+          "resolvedVariableModes": {
+            "VariableCollectionId:3077:14": "3077:0",
+            "VariableCollectionId:3081:14": "3081:0",
+            "VariableCollectionId:3021:24942": "3021:0"
+          },
+          "componentPropertyReferences": {
+            "visible": "icon#2367:11"
+          },
+          "children": [
+            {
+              "nodeId": "I3160:19768;2199:23687",
+              "name": "Vector",
+              "type": "VECTOR",
+              "visible": true,
+              "styleRef": "s003",
+              "position": {
+                "x": 4.1640625,
+                "y": 10
+              }
+            },
+            {
+              "nodeId": "I3160:19768;2199:23688",
+              "name": "Vector",
+              "type": "VECTOR",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 10,
+                "y": 4.16796875
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2320:28610",
+      "name": "state=hovered",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s005",
+      "variant": {
+        "state": "hovered"
+      },
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:0"
+      },
+      "children": [
+        {
+          "nodeId": "2320:28600",
+          "name": "message",
+          "type": "TEXT",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 20,
+            "y": 12
+          },
+          "text": "message"
+        },
+        {
+          "nodeId": "3160:19771",
+          "name": "icon",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s002",
+          "position": {
+            "x": 81,
+            "y": 12
+          },
+          "instance": {
+            "source": {
+              "id": "2199:23690",
+              "name": "icon/arrow-right/20",
+              "type": "COMPONENT",
+              "width": 20,
+              "height": 20
+            },
+            "variant": null,
+            "componentProperties": {}
+          },
+          "explicitVariableModes": {},
+          "resolvedVariableModes": {
+            "VariableCollectionId:3077:14": "3077:0",
+            "VariableCollectionId:3081:14": "3081:0",
+            "VariableCollectionId:3021:24942": "3021:0"
+          },
+          "componentPropertyReferences": {
+            "visible": "icon#2367:11"
+          },
+          "children": [
+            {
+              "nodeId": "I3160:19771;2199:23687",
+              "name": "Vector",
+              "type": "VECTOR",
+              "visible": true,
+              "styleRef": "s003",
+              "position": {
+                "x": 4.1640625,
+                "y": 10
+              }
+            },
+            {
+              "nodeId": "I3160:19771;2199:23688",
+              "name": "Vector",
+              "type": "VECTOR",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 10,
+                "y": 4.16796875
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": "2320:28609",
+      "name": "state=pressed",
+      "type": "COMPONENT",
+      "visible": true,
+      "styleRef": "s006",
+      "variant": {
+        "state": "pressed"
+      },
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {
+        "VariableCollectionId:3077:14": "3077:0",
+        "VariableCollectionId:3081:14": "3081:0",
+        "VariableCollectionId:3021:24942": "3021:0"
+      },
+      "children": [
+        {
+          "nodeId": "2320:28605",
+          "name": "message",
+          "type": "TEXT",
+          "visible": true,
+          "styleRef": "s001",
+          "position": {
+            "x": 20,
+            "y": 12
+          },
+          "text": "message"
+        },
+        {
+          "nodeId": "3160:19774",
+          "name": "icon",
+          "type": "INSTANCE",
+          "visible": true,
+          "styleRef": "s002",
+          "position": {
+            "x": 81,
+            "y": 12
+          },
+          "instance": {
+            "source": {
+              "id": "2199:23690",
+              "name": "icon/arrow-right/20",
+              "type": "COMPONENT",
+              "width": 20,
+              "height": 20
+            },
+            "variant": null,
+            "componentProperties": {}
+          },
+          "explicitVariableModes": {},
+          "resolvedVariableModes": {
+            "VariableCollectionId:3077:14": "3077:0",
+            "VariableCollectionId:3081:14": "3081:0",
+            "VariableCollectionId:3021:24942": "3021:0"
+          },
+          "componentPropertyReferences": {
+            "visible": "icon#2367:11"
+          },
+          "children": [
+            {
+              "nodeId": "I3160:19774;2199:23687",
+              "name": "Vector",
+              "type": "VECTOR",
+              "visible": true,
+              "styleRef": "s003",
+              "position": {
+                "x": 4.1640625,
+                "y": 10
+              }
+            },
+            {
+              "nodeId": "I3160:19774;2199:23688",
+              "name": "Vector",
+              "type": "VECTOR",
+              "visible": true,
+              "styleRef": "s004",
+              "position": {
+                "x": 10,
+                "y": 4.16796875
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "s000": {
+      "layout": {
+        "width": 121,
+        "height": 44,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "layoutMode": "HORIZONTAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MAX",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": false,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 20,
+          "right": 20,
+          "top": 12,
+          "bottom": 12
+        },
+        "gap": 4
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#EBF3FF",
+            "token": {
+              "id": "VariableID:3162:19822",
+              "name": "color/action/primary-subtle"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3162:19822",
+                "name": "color/action/primary-subtle"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 12
+      },
+      "bindings": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3162:19822",
+            "name": "color/action/primary-subtle"
+          }
+        ]
+      }
+    },
+    "s001": {
+      "layout": {
+        "width": 57,
+        "height": 20,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#1C1C1C",
+            "token": {
+              "id": "VariableID:3081:47",
+              "name": "color/text/default"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:47",
+                "name": "color/text/default"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": []
+      },
+      "bindings": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:47",
+            "name": "color/text/default"
+          }
+        ]
+      },
+      "text": {
+        "fontName": {
+          "family": "Pretendard",
+          "style": "Regular"
+        },
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textDecoration": "NONE"
+      }
+    },
+    "s002": {
+      "layout": {
+        "width": 20,
+        "height": 20,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "NONE",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN",
+        "clipsContent": true,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": false,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 0
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {}
+    },
+    "s003": {
+      "layout": {
+        "width": 11.666666030883789,
+        "height": 0,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "SCALE",
+          "vertical": "SCALE"
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "hex": "#1C1C1C",
+              "token": {
+                "id": "VariableID:3081:184",
+                "name": "color/icon/default"
+              },
+              "bindings": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184",
+                  "name": "color/icon/default"
+                }
+              }
+            }
+          ],
+          "width": 1.25,
+          "align": "CENTER",
+          "cap": "ROUND",
+          "join": "ROUND"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3022:24942",
+          "name": "icon/stroke-20"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:184",
+            "name": "color/icon/default"
+          }
+        ]
+      }
+    },
+    "s004": {
+      "layout": {
+        "width": 5.8333330154418945,
+        "height": 11.666666030883789,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "SCALE",
+          "vertical": "SCALE"
+        }
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "hex": "#1C1C1C",
+              "token": {
+                "id": "VariableID:3081:184",
+                "name": "color/icon/default"
+              },
+              "bindings": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184",
+                  "name": "color/icon/default"
+                }
+              }
+            }
+          ],
+          "width": 1.25,
+          "align": "CENTER",
+          "cap": "ROUND",
+          "join": "ROUND"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0
+      },
+      "bindings": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3022:24942",
+          "name": "icon/stroke-20"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:184",
+            "name": "color/icon/default"
+          }
+        ]
+      }
+    },
+    "s005": {
+      "layout": {
+        "width": 121,
+        "height": 44,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "layoutMode": "HORIZONTAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MAX",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": false,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 20,
+          "right": 20,
+          "top": 12,
+          "bottom": 12
+        },
+        "gap": 4
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#CCE0FF",
+            "token": {
+              "id": "VariableID:3162:19823",
+              "name": "color/action/primary-subtle-hovered"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3162:19823",
+                "name": "color/action/primary-subtle-hovered"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 12
+      },
+      "bindings": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3162:19823",
+            "name": "color/action/primary-subtle-hovered"
+          }
+        ]
+      }
+    },
+    "s006": {
+      "layout": {
+        "width": 121,
+        "height": 44,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "layoutMode": "HORIZONTAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MAX",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": false,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 20,
+          "right": 20,
+          "top": 12,
+          "bottom": 12
+        },
+        "gap": 4
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#99C2FF",
+            "token": {
+              "id": "VariableID:3162:19824",
+              "name": "color/action/primary-subtle-pressed"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3162:19824",
+                "name": "color/action/primary-subtle-pressed"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER"
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 12
+      },
+      "bindings": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:28",
+          "name": "radius/surface-sm"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3162:19824",
+            "name": "color/action/primary-subtle-pressed"
+          }
+        ]
+      }
+    }
+  },
+  "observations": [
+    {
+      "kind": "scope",
+      "note": "Three example-action visuals enabled/hovered/pressed. This is not the delivered-user-message contract. Actual select behavior, draft replacement/append or immediate execution is not supplied by these static nodes."
+    },
+    {
+      "kind": "geometry",
+      "note": "All three samples HUG121x44, radius/surface-sm12, px20/py12/gap4, no actual border/shadow, clipping=false. Label message57x20 plus arrow20 plus gap4 plus horizontal padding40 explains sample width121; it is not a fixed product width."
+    },
+    {
+      "kind": "palette",
+      "note": "Enabled/hovered/pressed use color/action/primary-subtle, primary-subtle-hovered, primary-subtle-pressed (#EBF3FF/#CCE0FF/#99C2FF). This is not AgentHubButton secondary mapping; label weight400 differs from standard action button600."
+    },
+    {
+      "kind": "text",
+      "note": "Label is Pretendard Regular14/20/400 and #1C1C1C in all states. No root TEXT property is declared; a consumer label prop is a proposed API, not an existing Figma text binding."
+    },
+    {
+      "kind": "icon",
+      "note": "All three visible arrow-right20 instances point to2199:23690 at native20/stroke1.25/#1C1C1C. icon#2367:11 defaults true and binds each instance visible property. icon=false has no separately rendered sample; remove the glyph and its inter-item gap rather than retaining an empty slot."
+    },
+    {
+      "kind": "source-vs-semantics",
+      "note": "No Button/Card/UserMessage instance is present. A native action can follow common Button semantics or extend a suitable product variant, without claiming Figma Button reuse or inheriting its colors/font/radius."
+    },
+    {
+      "kind": "state-semantics",
+      "note": "Hovered and pressed are transient interaction visuals, not selected/sent/success/request-pending. No toggle, aria-pressed, route destination or send API is established by the arrow."
+    },
+    {
+      "kind": "unverified",
+      "note": "Only Light/icon-visible one-line samples. No icon-hidden render, disabled/focus/loading/dark, long/wrapped label/mobile, keyboard or selection-to-composer execution runtime is verified."
+    }
+  ]
+}

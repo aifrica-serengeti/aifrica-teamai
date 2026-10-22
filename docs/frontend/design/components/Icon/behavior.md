@@ -24,7 +24,8 @@ transition: color 0.2s ease;
 격자 표시처럼 상태가 전환되는 액션에서는 `grid`와 `grid_off`를 현재 가능한 액션에 맞춰 교체한다.
 아이콘 자체에 별도 상태를 저장하지 않고 상태 소유자가 `name`을 선택한다.
 
-> `globals.css` 의 `@media (prefers-reduced-motion: reduce)` 가 모든 transition 을 무력화하므로
-> 컴포넌트는 별도 reduced-motion 처리 불필요.
+> reduced-motion은 소비 앱의 실제 스타일에서 적용 여부를 확인한다. 전역 규칙이 있다고 가정하지 않는다.
+> `@media (prefers-reduced-motion: reduce)`가 해당 요소에 적용되지 않으면 컴포넌트 범위의 전환·애니메이션을 즉시 완료하는 규칙을 둔다.
+> 전환을 생략해도 값·focus·표시 여부와 종료·정리 책임은 유지한다.
 
 ---

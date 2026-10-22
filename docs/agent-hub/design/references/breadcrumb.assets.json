@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubBreadcrumbSeparator",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "2427:25423"
+  },
+  "assets": [
+    {
+      "nodeId": "2427:25428",
+      "variant": {
+        ".type": "arrow"
+      },
+      "path": "assets/breadcrumb/separator-arrow.svg",
+      "format": "svg",
+      "width": 21.5575,
+      "height": 24.0,
+      "viewBox": "0 0 21.5575 24",
+      "includesSeparatorPadding": true,
+      "bytes": 332,
+      "sha256": "7bd9789afd7845edbe7a93512eede186cab109c7d200a4398c01f0e88667e92f"
+    }
+  ]
+}

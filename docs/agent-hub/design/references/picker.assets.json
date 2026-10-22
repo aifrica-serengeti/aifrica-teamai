@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentIds": [
+    "AgentHubPickerItem",
+    "AgentHubPickerFooter",
+    "AgentHubPicker"
+  ],
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "2627:61977",
+      "2627:62004",
+      "3016:104794",
+      "2978:58104"
+    ],
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "method": "Figma MCP get_design_context screenshots and read-only Plugin API tree, source identities, geometry, actual overrides, per-edge strokes, variable modes and aliases"
+  },
+  "assets": [
+    {
+      "role": "existing-chat",
+      "sourceNodeIds": [
+        "2320:15942"
+      ],
+      "instanceNodeIds": [
+        "2978:58129",
+        "2978:58148"
+      ],
+      "path": "assets/icons/chat/16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "bytes": 1040,
+      "sha256": "e872b0f453b4484100a5c0b870157a954f2886b9b1968e44bd1c02f6e8720745",
+      "method": "reuse-existing-exact-source",
+      "note": "Record instance state paint separately; source identity is not a claim that the default asset color matches every override."
+    },
+    {
+      "role": "existing-filter",
+      "sourceNodeIds": [
+        "3016:104216"
+      ],
+      "instanceNodeIds": [
+        "I3079:114040;3142:116465"
+      ],
+      "path": "assets/icons/filter/16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "bytes": 861,
+      "sha256": "7f8ccd8b70f9cf02e6f6c29c91e8ea876ad0197ac0d5ef57d51296c06ef5f260",
+      "method": "reuse-existing-exact-source",
+      "note": "Exact main-component geometry reference. Use effectiveAssetPath for the recorded #757575 instance paint, or a verified semantic-color adapter; plain default #1C1C1C img would differ.",
+      "effectiveAssetPath": "assets/picker/filter-subtler-16.svg"
+    },
+    {
+      "role": "existing-folder",
+      "sourceNodeIds": [
+        "3018:24833"
+      ],
+      "instanceNodeIds": [
+        "I2978:58126;3108:34",
+        "I2978:58137;3108:32",
+        "I2978:58138;3108:32",
+        "I2978:58139;3108:34",
+        "I2978:58140;3108:32",
+        "I2978:58145;3108:34",
+        "I2978:58156;3108:32",
+        "I2978:58157;3108:32",
+        "I2978:58158;3108:34",
+        "I2978:58159;3108:32",
+        "I2978:58162;3108:34"
+      ],
+      "path": "assets/icons/folder/16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "bytes": 1161,
+      "sha256": "3b31567f7e64197b9f481d3cdf26f8da61776254396196018ede698e017ae1d7",
+      "method": "reuse-existing-exact-source",
+      "note": "Record instance state paint separately; source identity is not a claim that the default asset color matches every override."
+    },
+    {
+      "role": "existing-more",
+      "sourceNodeIds": [
+        "2751:16967"
+      ],
+      "instanceNodeIds": [
+        "I2978:58126;3057:45900;2909:49141",
+        "I2978:58145;3057:45900;2909:49141",
+        "I2978:58158;3057:45900;2909:49141",
+        "I2978:58162;3057:45900;2909:49141"
+      ],
+      "path": "assets/icons/more/16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "bytes": 983,
+      "sha256": "77b730f2ba622b075bd5ef051caebcd7bdb9ef52941c412f43d691bfb46ef9d0",
+      "method": "reuse-existing-exact-source",
+      "note": "Exact main-component geometry reference. Use effectiveAssetPath for the recorded #757575 instance paint, or a verified semantic-color adapter; plain default #1C1C1C img would differ.",
+      "effectiveAssetPath": "assets/picker/more-subtler-16.svg"
+    },
+    {
+      "role": "existing-search",
+      "sourceNodeIds": [
+        "3018:24956"
+      ],
+      "instanceNodeIds": [
+        "I3079:114040;3142:116459"
+      ],
+      "path": "assets/icons/search/16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "bytes": 462,
+      "sha256": "db55724e3159ca6af8a8896c7b86300d02741e3fb17eff987942805c0c92dc9c",
+      "method": "reuse-existing-exact-source",
+      "note": "Record instance state paint separately; source identity is not a claim that the default asset color matches every override."
+    },
+    {
+      "role": "dynamic-model-logo-sample",
+      "sourceNodeId": "2627:61956",
+      "sourceKind": "RECTANGLE",
+      "path": "assets/picker/model-logo-qwen-sample.png",
+      "format": "png",
+      "width": 200,
+      "height": 200,
+      "displayWidth": 20,
+      "displayHeight": 20,
+      "bytes": 15750,
+      "sha256": "7d40989816c4decb4f780cace0642391d3f50e4afdabc024f649d1bc3ed148bd",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact provided asset, not a main-component identity. Visibility and clipping are retained separately; logo is only the supplied sample of a dynamic product-model slot.",
+      "figmaImageHash": "0b5fbd3f1bca7be7331d9daab6d31284a768bfc4",
+      "sha1": "0b5fbd3f1bca7be7331d9daab6d31284a768bfc4"
+    },
+    {
+      "role": "model-selector-chevron",
+      "sourceNodeId": "2627:61958",
+      "sourceKind": "FRAME",
+      "path": "assets/picker/model-chevron-down-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "bytes": 295,
+      "sha256": "7d2d7e9505160697afe2306e38bbb12080b50ba9493904d274d8e919ed08cef3",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact provided asset, not a main-component identity. Visibility and clipping are retained separately; logo is only the supplied sample of a dynamic product-model slot."
+    },
+    {
+      "role": "footer-discovery-chevron",
+      "sourceNodeId": "2627:61995",
+      "sourceKind": "FRAME",
+      "path": "assets/picker/footer-chevron-right-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "bytes": 295,
+      "sha256": "2fdc80a0ddac1d299b4d189c01e61c800ac196a696a9646fdbfa0321b3dbec95",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact provided asset, not a main-component identity. Visibility and clipping are retained separately; logo is only the supplied sample of a dynamic product-model slot."
+    },
+    {
+      "role": "below-viewport-other-folder",
+      "sourceNodeId": "2978:58165",
+      "sourceKind": "FRAME",
+      "path": "assets/picker/other-folder-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "bytes": 1095,
+      "sha256": "60714e26ea97edfd9ffb07011c571d8ba648825a35fd7fecfade2fd0bf1ae25b",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact provided asset, not a main-component identity. Visibility and clipping are retained separately; logo is only the supplied sample of a dynamic product-model slot."
+    },
+    {
+      "role": "opacity-zero-alternative-more",
+      "sourceNodeId": "2978:58133",
+      "sourceKind": "FRAME",
+      "path": "assets/picker/hidden-more-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "bytes": 1113,
+      "sha256": "d194ab09b73124ef69cc096535e10141237af0aa4b066a5fd663e16c290ecc66",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact provided asset, not a main-component identity. Visibility and clipping are retained separately; logo is only the supplied sample of a dynamic product-model slot."
+    },
+    {
+      "role": "search-filter-exact-subtler-paint",
+      "sourceNodeId": "I3079:114040;3142:116465",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3016:104216",
+      "path": "assets/picker/filter-subtler-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "color": "#757575",
+      "strokeWidth": 1,
+      "bytes": 1022,
+      "sha256": "8b500074e1170c423a47a76560c18b29aaa40c9dca43fc1031f6b79b8c9d730f",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied instance paint. Existing main-library glyph has the same source geometry but default #1C1C1C. This file preserves #757575 without editing SVG paths; visibility/clipping remains the parent contract."
+    },
+    {
+      "role": "menu-more-exact-subtler-paint",
+      "sourceNodeId": "I2978:58158;3057:45900;2909:49141",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2751:16967",
+      "path": "assets/picker/more-subtler-16.svg",
+      "format": "svg",
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "color": "#757575",
+      "strokeWidth": 1,
+      "bytes": 1112,
+      "sha256": "ff00cd45ed3af3561f500ee2be821c5237a9c199a9acc311d463ab2320ae74f7",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact supplied instance paint. Existing main-library glyph has the same source geometry but default #1C1C1C. This file preserves #757575 without editing SVG paths; visibility/clipping remains the parent contract."
+    }
+  ],
+  "notes": [
+    "No temporary Figma URLs are runtime sources. SVGs retain native16x16; the model PNG uses the recorded20x20 data-driven image slot. No screenshot or whole component is used as an implementation image."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubUserMessage",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "2972:20901"
+  },
+  "assets": [
+    {
+      "role": "schedule-status",
+      "sourceNodeId": "2053:5271",
+      "sourceWidth": 20,
+      "sourceHeight": 20,
+      "instanceNodeIds": [
+        "3103:25272"
+      ],
+      "exportedInstanceNodeId": "3103:25272",
+      "path": "assets/message-user/schedule-12.svg",
+      "format": "svg",
+      "width": 12,
+      "height": 12,
+      "strokeWidth": 0.75,
+      "color": "#555555",
+      "bytes": 770,
+      "sha256": "3e880bf3cca1a0af14f1269b3fbb693a5431dcdc5448e2f4697b28bc6dfd5b3b",
+      "method": "exact-resized-instance-export"
+    }
+  ],
+  "notes": [
+    "Only one icon is rendered. Hidden arrow instances are intentionally not shipped as Message actions. The scheduled status text carries meaning; this icon is decorative."
+  ]
+}

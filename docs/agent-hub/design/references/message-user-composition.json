@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "User-message samples and actual common leaf reuse",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "bubbles": [
+    {
+      "kind": "chat",
+      "nodeId": "2972:20899",
+      "type": "COMPONENT",
+      "sourceReuse": false,
+      "status": "match"
+    },
+    {
+      "kind": "agent",
+      "nodeId": "2972:20900",
+      "type": "COMPONENT",
+      "sourceReuse": false,
+      "status": "match"
+    },
+    {
+      "kind": "schedule",
+      "nodeId": "3103:25274",
+      "type": "FRAME",
+      "sourceReuse": false,
+      "status": "match"
+    }
+  ],
+  "reuse": [
+    {
+      "role": "Chip",
+      "nodeId": "2967:21892",
+      "sourceNodeId": "2079:11964",
+      "comparedWith": "2681:7260",
+      "referenceComponent": "AgentHubChatComposer",
+      "status": "match"
+    },
+    {
+      "role": "Divider",
+      "nodeId": "2967:21895",
+      "sourceNodeId": "2019:118",
+      "comparedWith": "2611:68545",
+      "referenceComponent": "AgentHubChatComposer",
+      "status": "match"
+    }
+  ],
+  "hidden": [
+    {
+      "kind": "chat",
+      "nodeId": "2967:21898",
+      "rendered": false,
+      "sourceNodeId": "2199:23721"
+    },
+    {
+      "kind": "agent",
+      "nodeId": "2967:21889",
+      "rendered": false,
+      "sourceNodeId": "2199:23721"
+    },
+    {
+      "kind": "schedule",
+      "nodeId": "3103:25275",
+      "rendered": false,
+      "sourceNodeId": "2199:23721"
+    }
+  ],
+  "textBindings": [
+    {
+      "kind": "chat",
+      "nodeId": "2967:21899",
+      "property": "message#2972:0"
+    },
+    {
+      "kind": "agent",
+      "nodeId": "2967:21896",
+      "property": "message#2972:0"
+    },
+    {
+      "kind": "schedule",
+      "nodeId": "3103:25276",
+      "property": "message#2972:0"
+    }
+  ],
+  "schedule": {
+    "nodeId": "3103:25277",
+    "status": "match",
+    "innerBubbleType": "FRAME",
+    "innerBubbleSourceReuse": false
+  },
+  "limits": [
+    "User message only; no assistant/Markdown/delivery or scheduled execution runtime",
+    "Shared Chip has a generic agent label; matching purple colors do not identify a workflow agent type",
+    "Stored hidden arrows are not rendered controls; scheduled inner bubble is a matching frame, not a chat instance",
+    "One-line fixed44px clipping is measured evidence, not approval to discard long user content"
+  ],
+  "issues": []
+}

@@ -111,6 +111,8 @@ Single + `selectionUnit="month"`에서는 `month ↔ year`만 전환한다. 연�
 | Weekday 셀                    | `color`                                      |
 | Month/Year 셀                 | `background-color, color`                    |
 
-> `@media (prefers-reduced-motion: reduce)` 가 전역으로 모든 transition 을 무력화한다.
+> reduced-motion은 소비 앱의 실제 스타일에서 적용 여부를 확인한다. 전역 규칙이 있다고 가정하지 않는다.
+> `@media (prefers-reduced-motion: reduce)`가 해당 요소에 적용되지 않으면 컴포넌트 범위의 전환·애니메이션을 즉시 완료하는 규칙을 둔다.
+> 전환을 생략해도 값·focus·표시 여부와 종료·정리 책임은 유지한다.
 
 ---

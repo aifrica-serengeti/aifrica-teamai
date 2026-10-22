@@ -1,0 +1,825 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "kind": "foundation",
+  "foundation": "elevation",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3261:59766",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3261-59766",
+    "page": "Latest design",
+    "appearanceScope": "Observed light sample surfaces; primitive variables Mode 1, no dark design supplied",
+    "method": "Figma MCP get_design_context + read-only sample geometry, native ordered effects and referenced EffectStyle definitions"
+  },
+  "adoption": {
+    "status": "unmapped",
+    "tokenSource": null,
+    "runtimeVerified": false
+  },
+  "board": {
+    "nodeId": "3261:59766",
+    "name": "Container02",
+    "width": 868,
+    "height": 1451
+  },
+  "levels": [
+    {
+      "level": "Overflow",
+      "sampleNodeId": "3261:59790",
+      "effectStyleId": "S:26d2f3166fce4a5a1e2a95b09455db6e8b7de286,10257:13",
+      "sample": {
+        "name": "Rectangle 3470533",
+        "type": "RECTANGLE",
+        "visible": true,
+        "position": {
+          "x": 32,
+          "y": 32
+        },
+        "layout": {
+          "width": 56,
+          "height": 56,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "layoutGrow": 0,
+          "layoutPositioning": "AUTO"
+        },
+        "visual": {
+          "fills": [
+            {
+              "hex": "#FFFFFF",
+              "opacity": 1,
+              "token": {
+                "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+                "name": "Monochrome/white"
+              }
+            }
+          ],
+          "border": {
+            "paints": [
+              {
+                "hex": "#DDDDDD",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+                  "name": "gray/300"
+                }
+              }
+            ],
+            "width": 1,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "join": "MITER"
+          },
+          "radius": 8,
+          "opacity": 1
+        },
+        "bindings": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+              "name": "Monochrome/white"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+              "name": "gray/300"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.12
+          },
+          "bindings": {}
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 8,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.16
+          },
+          "bindings": {}
+        }
+      ],
+      "cssShadow": "0px 0px 1px 0px rgba(9,30,66,0.12), 0px 0px 8px 0px rgba(9,30,66,0.16)",
+      "usage": {
+        "id": "3261:59792",
+        "text": "Table이나 Dialog의 Sticky header\n(스크롤 가능한 콘텐츠가 가용 영역을\n초과할 경우)"
+      },
+      "label": {
+        "id": "3261:59794",
+        "text": "Overflow"
+      }
+    },
+    {
+      "level": "Overlay",
+      "sampleNodeId": "3261:59797",
+      "effectStyleId": "S:d4074d896c3ae3816535687327fc74fdfb609050,12931:3",
+      "sample": {
+        "name": "Rectangle 3470533",
+        "type": "RECTANGLE",
+        "visible": true,
+        "position": {
+          "x": 32,
+          "y": 24
+        },
+        "layout": {
+          "width": 56,
+          "height": 56,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "layoutGrow": 0,
+          "layoutPositioning": "AUTO"
+        },
+        "visual": {
+          "fills": [
+            {
+              "hex": "#FFFFFF",
+              "opacity": 1,
+              "token": {
+                "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+                "name": "Monochrome/white"
+              }
+            }
+          ],
+          "border": {
+            "paints": [
+              {
+                "hex": "#DDDDDD",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+                  "name": "gray/300"
+                }
+              }
+            ],
+            "width": 1,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "join": "MITER"
+          },
+          "radius": 8,
+          "opacity": 1
+        },
+        "bindings": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+              "name": "Monochrome/white"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+              "name": "gray/300"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.31
+          },
+          "bindings": {}
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 12,
+          "offset": {
+            "x": 0,
+            "y": 8
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.15
+          },
+          "bindings": {}
+        }
+      ],
+      "cssShadow": "0px 0px 1px 0px rgba(9,30,66,0.31), 0px 8px 12px 0px rgba(9,30,66,0.15)",
+      "usage": {
+        "id": "3261:59799",
+        "text": "Dialog  "
+      },
+      "label": {
+        "id": "3261:59801",
+        "text": "Overlay"
+      }
+    },
+    {
+      "level": "Mid",
+      "sampleNodeId": "3261:59804",
+      "effectStyleId": "S:2bde61d151f1ec7d0dabb54e7d739e21c386023a,10257:12",
+      "sample": {
+        "name": "Rectangle 3470533",
+        "type": "RECTANGLE",
+        "visible": true,
+        "position": {
+          "x": 32,
+          "y": 92
+        },
+        "layout": {
+          "width": 56,
+          "height": 56,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "layoutGrow": 0,
+          "layoutPositioning": "AUTO"
+        },
+        "visual": {
+          "fills": [
+            {
+              "hex": "#FFFFFF",
+              "opacity": 1,
+              "token": {
+                "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+                "name": "Monochrome/white"
+              }
+            }
+          ],
+          "border": {
+            "paints": [
+              {
+                "hex": "#DDDDDD",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+                  "name": "gray/300"
+                }
+              }
+            ],
+            "width": 1,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "join": "MITER"
+          },
+          "radius": 8,
+          "opacity": 0.9
+        },
+        "bindings": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+              "name": "Monochrome/white"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+              "name": "gray/300"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.31
+          },
+          "bindings": {}
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 6,
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.15
+          },
+          "bindings": {}
+        }
+      ],
+      "cssShadow": "0px 0px 1px 0px rgba(9,30,66,0.31), 0px 4px 6px 0px rgba(9,30,66,0.15)",
+      "usage": {
+        "id": "3261:59806",
+        "text": "Action Bar\nDrop Down\nMenu\nToast Notification\nSelect\nDate Picker\nCard(Hoverd)\nOpen Panel"
+      },
+      "label": {
+        "id": "3261:59808",
+        "text": "Mid"
+      }
+    },
+    {
+      "level": "Raised",
+      "sampleNodeId": "3261:59811",
+      "effectStyleId": "S:f774ade3e401b4ad4baf8df0a917d1adb5e85ae5,10257:10",
+      "sample": {
+        "name": "Rectangle 3470533",
+        "type": "RECTANGLE",
+        "visible": true,
+        "position": {
+          "x": 32,
+          "y": 24
+        },
+        "layout": {
+          "width": 56,
+          "height": 56,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "layoutGrow": 0,
+          "layoutPositioning": "AUTO"
+        },
+        "visual": {
+          "fills": [
+            {
+              "hex": "#FFFFFF",
+              "opacity": 1,
+              "token": {
+                "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+                "name": "Monochrome/white"
+              }
+            }
+          ],
+          "border": {
+            "paints": [
+              {
+                "hex": "#DDDDDD",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+                  "name": "gray/300"
+                }
+              }
+            ],
+            "width": 1,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "join": "MITER"
+          },
+          "radius": 8,
+          "opacity": 1
+        },
+        "bindings": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+              "name": "Monochrome/white"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+              "name": "gray/300"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.31
+          },
+          "bindings": {}
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.1
+          },
+          "bindings": {}
+        }
+      ],
+      "cssShadow": "0px 0px 1px 0px rgba(9,30,66,0.31), 0px 1px 1px 0px rgba(9,30,66,0.1)",
+      "usage": {
+        "id": "3261:59813",
+        "text": "Slider(Handle)\nInline Notification"
+      },
+      "label": {
+        "id": "3261:59815",
+        "text": "Raised"
+      }
+    },
+    {
+      "level": "Default",
+      "sampleNodeId": "3261:59818",
+      "effectStyleId": null,
+      "sample": {
+        "name": "Rectangle 3470533",
+        "type": "RECTANGLE",
+        "visible": true,
+        "position": {
+          "x": 32,
+          "y": 296
+        },
+        "layout": {
+          "width": 56,
+          "height": 56,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "layoutGrow": 0,
+          "layoutPositioning": "AUTO"
+        },
+        "visual": {
+          "fills": [
+            {
+              "hex": "#FFFFFF",
+              "opacity": 1,
+              "token": {
+                "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+                "name": "Monochrome/white"
+              }
+            }
+          ],
+          "border": {
+            "paints": [
+              {
+                "hex": "#DDDDDD",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+                  "name": "gray/300"
+                }
+              }
+            ],
+            "width": 1,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "join": "MITER"
+          },
+          "radius": 8,
+          "opacity": 1
+        },
+        "bindings": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a057418038c25382d3885c3f6d59c3d9531f0be8/12469:37",
+              "name": "Monochrome/white"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+              "name": "gray/300"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "cssShadow": "none",
+      "usage": {
+        "id": "3261:59820",
+        "text": "Avatar  \r\nBadge  \r\nBreadcrumb  \r\nButton  \r\nCard  \r\nCard Accordion  \r\nCheckbox  \r\nChip\nHeader\nInput  \r\nPagination  \r\nRadio  \r\nSearch  \r\nSegmented Control\nSlider\nSpinner  \r\nStatus  \r\nStepper  \r\nSwitch  \r\nTab  \r\nTable  \r\nTextarea  \r\nThumbnail  \r\nTooltip  \r\nTree  "
+      },
+      "label": {
+        "id": "3261:59822",
+        "text": "Default"
+      }
+    },
+    {
+      "level": "Sunken",
+      "sampleNodeId": "3261:59825",
+      "effectStyleId": null,
+      "sample": {
+        "name": "Rectangle 3470533",
+        "type": "RECTANGLE",
+        "visible": true,
+        "position": {
+          "x": 32,
+          "y": 24
+        },
+        "layout": {
+          "width": 56,
+          "height": 56,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "layoutGrow": 0,
+          "layoutPositioning": "AUTO"
+        },
+        "visual": {
+          "fills": [
+            {
+              "hex": "#F8F8F8",
+              "opacity": 1,
+              "token": {
+                "id": "VariableID:fe2a664202d23547de7115bd294f9ba1c380cc7c/12469:27",
+                "name": "gray/50"
+              }
+            }
+          ],
+          "border": {
+            "paints": [
+              {
+                "hex": "#DDDDDD",
+                "opacity": 1,
+                "token": {
+                  "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+                  "name": "gray/300"
+                }
+              }
+            ],
+            "width": 1,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "join": "MITER"
+          },
+          "radius": 8,
+          "opacity": 1
+        },
+        "bindings": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:fe2a664202d23547de7115bd294f9ba1c380cc7c/12469:27",
+              "name": "gray/50"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d490032873c631f882a4080a353e3533bf92b1d2/12469:30",
+              "name": "gray/300"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "cssShadow": "none",
+      "usage": {
+        "id": "3261:59827",
+        "text": "Sunken background"
+      },
+      "label": {
+        "id": "3261:59829",
+        "text": "Sunken"
+      }
+    }
+  ],
+  "effectStyles": [
+    {
+      "id": "S:26d2f3166fce4a5a1e2a95b09455db6e8b7de286,10257:13",
+      "name": "Overflow",
+      "type": "EFFECT",
+      "description": "",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.12
+          },
+          "bindings": {}
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 8,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.16
+          },
+          "bindings": {}
+        }
+      ]
+    },
+    {
+      "id": "S:d4074d896c3ae3816535687327fc74fdfb609050,12931:3",
+      "name": "Overlay",
+      "type": "EFFECT",
+      "description": "",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.31
+          },
+          "bindings": {}
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 12,
+          "offset": {
+            "x": 0,
+            "y": 8
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.15
+          },
+          "bindings": {}
+        }
+      ]
+    },
+    {
+      "id": "S:2bde61d151f1ec7d0dabb54e7d739e21c386023a,10257:12",
+      "name": "Mid",
+      "type": "EFFECT",
+      "description": "",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.31
+          },
+          "bindings": {}
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 6,
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.15
+          },
+          "bindings": {}
+        }
+      ]
+    },
+    {
+      "id": "S:f774ade3e401b4ad4baf8df0a917d1adb5e85ae5,10257:10",
+      "name": "Raised",
+      "type": "EFFECT",
+      "description": "",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.31
+          },
+          "bindings": {}
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false,
+          "color": {
+            "hex": "#091E42",
+            "opacity": 0.1
+          },
+          "bindings": {}
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "kind": "opacity",
+      "note": "Mid swatch node opacity0.9 is independent of raw effect alpha0.31/0.15 and is not a universal Mid surface/content opacity."
+    },
+    {
+      "kind": "swatch",
+      "note": "All samples are56x56, radius8, border1 inside#DDD; those are board illustration values, not all-component geometry. Sunken has#F8F8F8 fill and no effects."
+    },
+    {
+      "kind": "mapping",
+      "note": "Usage text suggests component roles; it is not verified implementation mapping or permission to remove child shadows, change z-index/portal/focus, or erase state layers."
+    },
+    {
+      "kind": "css",
+      "note": "cssShadow is a derived CSS representation preserving the measured effect order; effect bindings are empty and new product token names are not verified."
+    }
+  ]
+}

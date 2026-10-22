@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubOutputViewer",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3015:24221"
+    ],
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "hiddenInstanceChildrenIncluded": true,
+    "method": "Figma MCP get_design_context screenshot and read-only Plugin API complete tree, property definitions including native SLOT, actual instance sources, per-edge strokes/per-corner radii, node modes and alias closure"
+  },
+  "assets": [
+    {
+      "role": "type-divider-dot-3",
+      "sourceNodeId": "3015:24207",
+      "sourceKind": "ELLIPSE",
+      "actualSourceNodeId": null,
+      "path": "assets/output-viewer/type-divider-dot-3.svg",
+      "format": "svg",
+      "sourceWidth": 3,
+      "sourceHeight": 3,
+      "width": 3,
+      "height": 3,
+      "displayWidth": 3,
+      "displayHeight": 3,
+      "colors": [
+        "#AAAAAA"
+      ],
+      "strokeWidths": [],
+      "bytes": 237,
+      "sha256": "39d22cc9a7f32c0a40e4c9e3e046c2f378fb16870b7e7f05ba2d6b99bc882d82",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact provided native-size SVG; generated plus24 name is not actual geometry. No whole-view screenshot, edited paths or temporary runtime asset URL."
+    },
+    {
+      "role": "maximize-16",
+      "sourceNodeId": "I3015:24222;2427:25109",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "3015:24201",
+      "path": "assets/output-viewer/maximize-16.svg",
+      "format": "svg",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 634,
+      "sha256": "4d08541a7bb7d4556225c3f69c38578bb54d82bd0fdf13da07d625482193d3ea",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact provided native-size SVG; generated plus24 name is not actual geometry. No whole-view screenshot, edited paths or temporary runtime asset URL."
+    },
+    {
+      "role": "close-16",
+      "sourceNodeId": "I3015:24226;2427:25109",
+      "sourceKind": "INSTANCE",
+      "actualSourceNodeId": "2311:46284",
+      "path": "assets/output-viewer/close-16.svg",
+      "format": "svg",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "width": 16,
+      "height": 16,
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "bytes": 400,
+      "sha256": "11a26ef8681047db0f02282abcd797168079d3591ac7e49f91395eaf5d49a24a",
+      "method": "figma-supplied-original-asset",
+      "note": "Exact provided native-size SVG; generated plus24 name is not actual geometry. No whole-view screenshot, edited paths or temporary runtime asset URL."
+    }
+  ],
+  "notes": [
+    "Three supplied static assets only:3px divider dot and16px maximize/x glyphs. Buttons remain independent24px controls; the content SLOT is dynamic product content, not an image asset."
+  ]
+}

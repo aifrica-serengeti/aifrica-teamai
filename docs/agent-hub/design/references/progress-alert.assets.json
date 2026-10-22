@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubProgressAlert",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3016:102212"
+  },
+  "assets": [
+    {
+      "role": "interrupted-notice",
+      "sourceNodeId": "2898:23788",
+      "instanceNodeIds": [
+        "2898:23789"
+      ],
+      "path": "assets/icons/circle-alert/20.svg",
+      "format": "svg",
+      "width": 20,
+      "height": 20,
+      "strokeWidth": 1.25,
+      "color": "#1C1C1C",
+      "bytes": 640,
+      "sha256": "1016527c35d99899b9b5682d2ef8f229071a45ed0a40e741668cc89c185b5d73",
+      "method": "reuse-existing-exact-source"
+    }
+  ],
+  "notes": [
+    "Only the circle-alert20 icon is rendered. Button leading/trailing/keycap helpers in generated context are unused because the actual slot properties are false. No new SVG asset or icon size is introduced."
+  ]
+}

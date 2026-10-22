@@ -1,0 +1,710 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubChatHeader",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "2967:34438"
+    ],
+    "method": "Supplied static SVG downloads compared against the existing AgentHubIcon manifest and the read-only full Chat Header tree/styles/actual instance sources. No Figma canvas mutation."
+  },
+  "assets": [
+    {
+      "role": "pause-action-glyph",
+      "sourceNodeId": "2751:14602",
+      "sourceName": "icon/pause/16",
+      "sourceKind": "COMPONENT",
+      "instanceNodeIds": [
+        "I3016:79808;2427:25109"
+      ],
+      "instanceLayerName": "icon/plus/24",
+      "controlNodeId": "3016:79808",
+      "controlSourceNodeId": "2427:25108",
+      "controlVariant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "24"
+      },
+      "path": "assets/icons/pause/16.svg",
+      "format": "svg",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "sourcePaintLayers": [
+        {
+          "nodeId": "I3016:79808;2427:25109;2751:14600",
+          "kind": "VECTOR",
+          "position": {
+            "x": 9.3330078125,
+            "y": 2
+          },
+          "width": 3.3333332538604736,
+          "height": 12,
+          "strokeWidth": 1,
+          "paints": [
+            {
+              "kind": "strokes",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "I3016:79808;2427:25109;2751:14601",
+          "kind": "VECTOR",
+          "position": {
+            "x": 3.3330078125,
+            "y": 2
+          },
+          "width": 3.3333332538604736,
+          "height": 12,
+          "strokeWidth": 1,
+          "paints": [
+            {
+              "kind": "strokes",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "bytes": 661,
+      "sha256": "ead1a84110159283515040362c10ddab983c964b749906b55fdec1ae4578bb41",
+      "method": "reuse-existing-exact-source",
+      "providedExport": {
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "bytes": 784,
+        "sha256": "fafbe39a6371ca17ac768cf5e9af7f659f154b7738202e1c2f481ff787ff63d7",
+        "colors": [
+          "#1C1C1C"
+        ],
+        "strokeWidths": [
+          1.0
+        ],
+        "byteIdenticalToReusedFile": false,
+        "shapeAttributesIdenticalIgnoringIds": false
+      },
+      "reuseValidation": {
+        "sourceIdentityMatchesAssetManifest": true,
+        "sourceAndDisplayDimensionsMatch": true,
+        "paintAndStrokeMatch": true,
+        "suppliedGeometryEquivalent": true,
+        "rawVectorBoundsMatch": true
+      },
+      "note": "Existing original icon asset is reused by exact Figma COMPONENT source, native/display16px size, #1C1C1C paint and1px stroke. Supplied context SVG has a different byte serialization; pause also traverses its two bar paths in a different direction. No byte/path identity is claimed. The icon layer name icon/plus/24 is inherited from the slot and does not identify the actual glyph.",
+      "geometryEquivalence": {
+        "equivalent": true,
+        "sourceVectorCount": 2,
+        "providedPathCount": 2,
+        "reusedPathCount": 2,
+        "pathComparisons": [
+          {
+            "pathIndex": 0,
+            "sourceVectorNodeId": "I3016:79808;2427:25109;2751:14600",
+            "geometry": {
+              "equivalent": true,
+              "method": "closed-line-cubic-segments-compared-with-cyclic-start-and-reversal",
+              "direction": "reversed",
+              "cyclicSegmentOffset": 7,
+              "numericTolerance": 0,
+              "segmentCount": 8
+            },
+            "styleMatch": true,
+            "style": {
+              "fill": "none",
+              "stroke": "#1C1C1C",
+              "stroke-width": "1",
+              "stroke-linecap": "round",
+              "stroke-linejoin": "round"
+            },
+            "noTransforms": true,
+            "svgPathBounds": [
+              9.33301,
+              2.0,
+              3.33329,
+              12.0
+            ],
+            "sourceVectorBounds": [
+              9.3330078125,
+              2,
+              3.3333332538604736,
+              12
+            ],
+            "maxCoordinateDifference": 4.325386047376867e-05,
+            "sourceCoordinateTolerance": 0.0001,
+            "sourceBoundsMatch": true
+          },
+          {
+            "pathIndex": 1,
+            "sourceVectorNodeId": "I3016:79808;2427:25109;2751:14601",
+            "geometry": {
+              "equivalent": true,
+              "method": "closed-line-cubic-segments-compared-with-cyclic-start-and-reversal",
+              "direction": "reversed",
+              "cyclicSegmentOffset": 7,
+              "numericTolerance": 0,
+              "segmentCount": 8
+            },
+            "styleMatch": true,
+            "style": {
+              "fill": "none",
+              "stroke": "#1C1C1C",
+              "stroke-width": "1",
+              "stroke-linecap": "round",
+              "stroke-linejoin": "round"
+            },
+            "noTransforms": true,
+            "svgPathBounds": [
+              3.33301,
+              2.0,
+              3.33333,
+              12.0
+            ],
+            "sourceVectorBounds": [
+              3.3330078125,
+              2,
+              3.3333332538604736,
+              12
+            ],
+            "maxCoordinateDifference": 3.25386047350662e-06,
+            "sourceCoordinateTolerance": 0.0001,
+            "sourceBoundsMatch": true
+          }
+        ],
+        "note": "Path bounds exclude stroke expansion, matching Figma VECTOR geometry. Source-coordinate tolerance0.0001 accounts only for supplied decimal precision; comparison between supplied and reused line/cubic endpoints and control points is exact with tolerance0. Style comparison resolves inherited fill:none and SVG default stroke-width:1."
+      }
+    },
+    {
+      "role": "file-action-glyph",
+      "sourceNodeId": "2916:58366",
+      "sourceName": "icon/file/16",
+      "sourceKind": "COMPONENT",
+      "instanceNodeIds": [
+        "I3016:79809;2427:25109"
+      ],
+      "instanceLayerName": "icon/plus/24",
+      "controlNodeId": "3016:79809",
+      "controlSourceNodeId": "2427:25108",
+      "controlVariant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "24"
+      },
+      "path": "assets/icons/file/16.svg",
+      "format": "svg",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "sourcePaintLayers": [
+        {
+          "nodeId": "I3016:79809;2427:25109;2916:58361",
+          "kind": "VECTOR",
+          "position": {
+            "x": 2.6669921875,
+            "y": 1.33203125
+          },
+          "width": 10.666669845581055,
+          "height": 13.333335876464844,
+          "strokeWidth": 1,
+          "paints": [
+            {
+              "kind": "strokes",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "I3016:79809;2427:25109;2916:58362",
+          "kind": "VECTOR",
+          "position": {
+            "x": 9.3330078125,
+            "y": 1.33203125
+          },
+          "width": 4,
+          "height": 4,
+          "strokeWidth": 1,
+          "paints": [
+            {
+              "kind": "strokes",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "bytes": 919,
+      "sha256": "e2269bdec107bd5d2cb573d89ae2b62df3009c966d26fd46222c9a5e9af9f5ca",
+      "method": "reuse-existing-exact-source",
+      "providedExport": {
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "bytes": 1042,
+        "sha256": "fb63201901b6fcdf4bcb53951d8d7cd3b6961a1e9f42c4cb96280150e75cfc82",
+        "colors": [
+          "#1C1C1C"
+        ],
+        "strokeWidths": [
+          1.0
+        ],
+        "byteIdenticalToReusedFile": false,
+        "shapeAttributesIdenticalIgnoringIds": true
+      },
+      "reuseValidation": {
+        "sourceIdentityMatchesAssetManifest": true,
+        "sourceAndDisplayDimensionsMatch": true,
+        "paintAndStrokeMatch": true,
+        "suppliedGeometryEquivalent": true,
+        "rawVectorBoundsMatch": true
+      },
+      "note": "Existing original icon asset is reused by exact Figma COMPONENT source, native/display16px size, #1C1C1C paint and1px stroke. Supplied context SVG has a different byte serialization; pause also traverses its two bar paths in a different direction. No byte/path identity is claimed. The icon layer name icon/plus/24 is inherited from the slot and does not identify the actual glyph.",
+      "geometryEquivalence": {
+        "equivalent": true,
+        "sourceVectorCount": 2,
+        "providedPathCount": 2,
+        "reusedPathCount": 2,
+        "pathComparisons": [
+          {
+            "pathIndex": 0,
+            "sourceVectorNodeId": "I3016:79809;2427:25109;2916:58361",
+            "geometry": {
+              "equivalent": true,
+              "method": "identical-absolute-line-cubic-segments",
+              "direction": "same",
+              "numericTolerance": 0,
+              "segmentCount": 15
+            },
+            "styleMatch": true,
+            "style": {
+              "fill": "none",
+              "stroke": "#1C1C1C",
+              "stroke-width": "1",
+              "stroke-linecap": "round",
+              "stroke-linejoin": "round"
+            },
+            "noTransforms": true,
+            "svgPathBounds": [
+              2.66699,
+              1.3320279231925882,
+              10.666711614938837,
+              13.33337207680741
+            ],
+            "sourceVectorBounds": [
+              2.6669921875,
+              1.33203125,
+              10.666669845581055,
+              13.333335876464844
+            ],
+            "maxCoordinateDifference": 4.17693577823286e-05,
+            "sourceCoordinateTolerance": 0.0001,
+            "sourceBoundsMatch": true
+          },
+          {
+            "pathIndex": 1,
+            "sourceVectorNodeId": "I3016:79809;2427:25109;2916:58362",
+            "geometry": {
+              "equivalent": true,
+              "method": "identical-absolute-line-cubic-segments",
+              "direction": "same",
+              "numericTolerance": 0,
+              "segmentCount": 4
+            },
+            "styleMatch": true,
+            "style": {
+              "fill": "none",
+              "stroke": "#1C1C1C",
+              "stroke-width": "1",
+              "stroke-linecap": "round",
+              "stroke-linejoin": "round"
+            },
+            "noTransforms": true,
+            "svgPathBounds": [
+              9.33301,
+              1.33203,
+              3.9999900000000004,
+              3.9999999999999996
+            ],
+            "sourceVectorBounds": [
+              9.3330078125,
+              1.33203125,
+              4,
+              4
+            ],
+            "maxCoordinateDifference": 9.999999999621423e-06,
+            "sourceCoordinateTolerance": 0.0001,
+            "sourceBoundsMatch": true
+          }
+        ],
+        "note": "Path bounds exclude stroke expansion, matching Figma VECTOR geometry. Source-coordinate tolerance0.0001 accounts only for supplied decimal precision; comparison between supplied and reused line/cubic endpoints and control points is exact with tolerance0. Style comparison resolves inherited fill:none and SVG default stroke-width:1."
+      }
+    },
+    {
+      "role": "more-action-glyph",
+      "sourceNodeId": "2751:16967",
+      "sourceName": "icon/more/16",
+      "sourceKind": "COMPONENT",
+      "instanceNodeIds": [
+        "I3016:79810;2427:25109"
+      ],
+      "instanceLayerName": "icon/plus/24",
+      "controlNodeId": "3016:79810",
+      "controlSourceNodeId": "2427:25108",
+      "controlVariant": {
+        "type": "ghost",
+        "state": "default",
+        "size": "24"
+      },
+      "path": "assets/icons/more/16.svg",
+      "format": "svg",
+      "sourceWidth": 16,
+      "sourceHeight": 16,
+      "width": 16.0,
+      "height": 16.0,
+      "viewBox": "0 0 16 16",
+      "displayWidth": 16,
+      "displayHeight": 16,
+      "slotPosition": {
+        "x": 4,
+        "y": 4
+      },
+      "colors": [
+        "#1C1C1C"
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "sourcePaintLayers": [
+        {
+          "nodeId": "I3016:79810;2427:25109;2751:16956",
+          "kind": "VECTOR",
+          "position": {
+            "x": 7.3310546875,
+            "y": 7.33203125
+          },
+          "width": 1.3333332538604736,
+          "height": 1.3333332538604736,
+          "strokeWidth": 1,
+          "paints": [
+            {
+              "kind": "fills",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            },
+            {
+              "kind": "strokes",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "I3016:79810;2427:25109;2751:16957",
+          "kind": "VECTOR",
+          "position": {
+            "x": 12,
+            "y": 7.33203125
+          },
+          "width": 1.3333332538604736,
+          "height": 1.3333332538604736,
+          "strokeWidth": 1,
+          "paints": [
+            {
+              "kind": "fills",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            },
+            {
+              "kind": "strokes",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "I3016:79810;2427:25109;2751:16958",
+          "kind": "VECTOR",
+          "position": {
+            "x": 2.6689453125,
+            "y": 7.33203125
+          },
+          "width": 1.3333332538604736,
+          "height": 1.3333332538604736,
+          "strokeWidth": 1,
+          "paints": [
+            {
+              "kind": "fills",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            },
+            {
+              "kind": "strokes",
+              "color": "#1C1C1C",
+              "opacity": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3081:184"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "bytes": 983,
+      "sha256": "77b730f2ba622b075bd5ef051caebcd7bdb9ef52941c412f43d691bfb46ef9d0",
+      "method": "reuse-existing-exact-source",
+      "providedExport": {
+        "width": 16.0,
+        "height": 16.0,
+        "viewBox": "0 0 16 16",
+        "bytes": 1120,
+        "sha256": "489984c80eceeafe685b293a2a4428dae04fbf8adf16e172aa6c8f1b96ddc2ab",
+        "colors": [
+          "#1C1C1C"
+        ],
+        "strokeWidths": [
+          1.0
+        ],
+        "byteIdenticalToReusedFile": false,
+        "shapeAttributesIdenticalIgnoringIds": true
+      },
+      "reuseValidation": {
+        "sourceIdentityMatchesAssetManifest": true,
+        "sourceAndDisplayDimensionsMatch": true,
+        "paintAndStrokeMatch": true,
+        "suppliedGeometryEquivalent": true,
+        "rawVectorBoundsMatch": true
+      },
+      "note": "Existing original icon asset is reused by exact Figma COMPONENT source, native/display16px size, #1C1C1C paint and1px stroke. Supplied context SVG has a different byte serialization; pause also traverses its two bar paths in a different direction. No byte/path identity is claimed. The icon layer name icon/plus/24 is inherited from the slot and does not identify the actual glyph.",
+      "geometryEquivalence": {
+        "equivalent": true,
+        "sourceVectorCount": 3,
+        "providedPathCount": 3,
+        "reusedPathCount": 3,
+        "pathComparisons": [
+          {
+            "pathIndex": 0,
+            "sourceVectorNodeId": "I3016:79810;2427:25109;2751:16956",
+            "geometry": {
+              "equivalent": true,
+              "method": "identical-absolute-line-cubic-segments",
+              "direction": "same",
+              "numericTolerance": 0,
+              "segmentCount": 4
+            },
+            "styleMatch": true,
+            "style": {
+              "fill": "#1C1C1C",
+              "stroke": "#1C1C1C",
+              "stroke-width": "1",
+              "stroke-linecap": "round",
+              "stroke-linejoin": "round"
+            },
+            "noTransforms": true,
+            "svgPathBounds": [
+              7.33105,
+              7.33203,
+              1.3333399999999989,
+              1.3333300000000001
+            ],
+            "sourceVectorBounds": [
+              7.3310546875,
+              7.33203125,
+              1.3333332538604736,
+              1.3333332538604736
+            ],
+            "maxCoordinateDifference": 6.746139525226624e-06,
+            "sourceCoordinateTolerance": 0.0001,
+            "sourceBoundsMatch": true
+          },
+          {
+            "pathIndex": 1,
+            "sourceVectorNodeId": "I3016:79810;2427:25109;2751:16957",
+            "geometry": {
+              "equivalent": true,
+              "method": "identical-absolute-line-cubic-segments",
+              "direction": "same",
+              "numericTolerance": 0,
+              "segmentCount": 4
+            },
+            "styleMatch": true,
+            "style": {
+              "fill": "#1C1C1C",
+              "stroke": "#1C1C1C",
+              "stroke-width": "1",
+              "stroke-linecap": "round",
+              "stroke-linejoin": "round"
+            },
+            "noTransforms": true,
+            "svgPathBounds": [
+              12.0,
+              7.33203,
+              1.3332999999999995,
+              1.3333300000000001
+            ],
+            "sourceVectorBounds": [
+              12,
+              7.33203125,
+              1.3333332538604736,
+              1.3333332538604736
+            ],
+            "maxCoordinateDifference": 3.3253860474147245e-05,
+            "sourceCoordinateTolerance": 0.0001,
+            "sourceBoundsMatch": true
+          },
+          {
+            "pathIndex": 2,
+            "sourceVectorNodeId": "I3016:79810;2427:25109;2751:16958",
+            "geometry": {
+              "equivalent": true,
+              "method": "identical-absolute-line-cubic-segments",
+              "direction": "same",
+              "numericTolerance": 0,
+              "segmentCount": 4
+            },
+            "styleMatch": true,
+            "style": {
+              "fill": "#1C1C1C",
+              "stroke": "#1C1C1C",
+              "stroke-width": "1",
+              "stroke-linecap": "round",
+              "stroke-linejoin": "round"
+            },
+            "noTransforms": true,
+            "svgPathBounds": [
+              2.66895,
+              7.33203,
+              1.3333299999999997,
+              1.3333300000000001
+            ],
+            "sourceVectorBounds": [
+              2.6689453125,
+              7.33203125,
+              1.3333332538604736,
+              1.3333332538604736
+            ],
+            "maxCoordinateDifference": 4.687500000155609e-06,
+            "sourceCoordinateTolerance": 0.0001,
+            "sourceBoundsMatch": true
+          }
+        ],
+        "note": "Path bounds exclude stroke expansion, matching Figma VECTOR geometry. Source-coordinate tolerance0.0001 accounts only for supplied decimal precision; comparison between supplied and reused line/cubic endpoints and control points is exact with tolerance0. Style comparison resolves inherited fill:none and SVG default stroke-width:1."
+      }
+    }
+  ],
+  "counts": {
+    "glyphSlots": 3,
+    "existingAssetsReused": 3,
+    "newSvgFiles": 0,
+    "reusedAssetBytes": 2563
+  },
+  "verification": {
+    "sourceIdentityChecked": true,
+    "nativeAndDisplayGeometryChecked": true,
+    "paintAndStrokeChecked": true,
+    "localFilesNonEmptyAndSha256Checked": true,
+    "providedAndReusedByteIdentityClaimed": false,
+    "runtimeVerified": false,
+    "allStatesVerified": false,
+    "issues": [],
+    "suppliedGeometryEquivalenceChecked": true,
+    "actualVectorBoundsChecked": true
+  },
+  "notes": [
+    "The Figma component is chat-header2967:34438. These are the pause, file and more action glyphs; it is not a chart component.",
+    "Each visible action host is an actual ghost/default/24 IconButton INSTANCE from2427:25108. Each inner glyph is an actual16px INSTANCE swapped to the specific source recorded above; the inherited layer name icon/plus/24 is not the source identity.",
+    "Only the glyph image is reused. Preserve independent24px native action hosts, product callbacks, focus behavior and visibility Boolean ownership; no entire header screenshot or component is used as an asset.",
+    "Existing assets/icons/{pause,file,more}/16.svg are reused without modification. The temporary supplied SVG downloads are provenance evidence, not duplicate repository/runtime files.",
+    "Reused file hashes and supplied export hashes are recorded separately. Matching COMPONENT source, size, stroke and paint permits reuse; differing serialization is not described as byte-identical.",
+    "The active-indicator is a RECTANGLE with gradient paint, while text is live text. This manifest does not create raster assets for either. Consuming source/export remains unmapped.",
+    "Geometry equivalence is independently checked, not inferred from source ID alone: file/more paths are identical after omitting IDs, pause closed cubic/line outlines match exactly after reversing traversal and rotating the segment start, and every path geometry matches its actual overridden vector bounds within0.0001 export precision. Inherited fill, stroke, cap/join and absence of transforms are also compared."
+  ]
+}

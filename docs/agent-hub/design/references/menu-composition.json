@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "Eight MenuItem states, full hidden descendants and eleven actual enabled Menu rows",
+  "runtimeVerified": false,
+  "allStatesVerified": false,
+  "variants": [
+    {
+      "nodeId": "3135:15951",
+      "variant": {
+        "type": "default",
+        "state": "enabled"
+      },
+      "contentBackground": null,
+      "labelColor": "#1C1C1C",
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3135:15961",
+      "variant": {
+        "type": "default",
+        "state": "hovered"
+      },
+      "contentBackground": "#F8F8F8",
+      "labelColor": "#1C1C1C",
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3135:15971",
+      "variant": {
+        "type": "default",
+        "state": "pressed"
+      },
+      "contentBackground": "#F4F4F4",
+      "labelColor": "#1C1C1C",
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3135:15981",
+      "variant": {
+        "type": "default",
+        "state": "disabled"
+      },
+      "contentBackground": null,
+      "labelColor": "#AAAAAA",
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3135:15991",
+      "variant": {
+        "type": "destructive",
+        "state": "enabled"
+      },
+      "contentBackground": null,
+      "labelColor": "#D00A0A",
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3135:16001",
+      "variant": {
+        "type": "destructive",
+        "state": "hovered"
+      },
+      "contentBackground": "#F8F8F8",
+      "labelColor": "#D00A0A",
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3135:16011",
+      "variant": {
+        "type": "destructive",
+        "state": "pressed"
+      },
+      "contentBackground": "#F4F4F4",
+      "labelColor": "#D00A0A",
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3135:16021",
+      "variant": {
+        "type": "destructive",
+        "state": "disabled"
+      },
+      "contentBackground": null,
+      "labelColor": "#AAAAAA",
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    }
+  ],
+  "rows": [
+    {
+      "nodeId": "3136:16074",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16080",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16086",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16094",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16100",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16106",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16112",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16118",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16124",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16130",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    },
+    {
+      "nodeId": "3136:16136",
+      "sourceNodeId": "3135:15951",
+      "width": 158,
+      "height": 28,
+      "hiddenSlots": [
+        "icon",
+        "value",
+        "check",
+        "chevron",
+        "section-header",
+        "divider"
+      ],
+      "status": "match"
+    }
+  ],
+  "panel": {
+    "nodeId": "3135:16036",
+    "width": 160,
+    "height": 318,
+    "radius": 12,
+    "rowCount": 11,
+    "actualEffectStyleId": "S:a15de5d74923403292f59da1f6d689b596ade000,",
+    "effectValuesMatch": "Mid",
+    "effectIdentityMatches": false,
+    "scrollbarVisible": false,
+    "status": "match"
+  },
+  "assets": [
+    {
+      "path": "assets/icons/edit/16.svg",
+      "method": "existing-exact-source-geometry",
+      "status": "match"
+    },
+    {
+      "path": "assets/icons/check/16.svg",
+      "method": "existing-exact-source-geometry",
+      "status": "match"
+    },
+    {
+      "path": "assets/icons/chevron-right/16.svg",
+      "method": "existing-exact-source-geometry",
+      "status": "match"
+    },
+    {
+      "path": "assets/menu/default-edit-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    },
+    {
+      "path": "assets/menu/default-check-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    },
+    {
+      "path": "assets/menu/default-chevron-right-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    },
+    {
+      "path": "assets/menu/disabled-edit-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    },
+    {
+      "path": "assets/menu/disabled-check-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    },
+    {
+      "path": "assets/menu/disabled-chevron-right-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    },
+    {
+      "path": "assets/menu/destructive-edit-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    },
+    {
+      "path": "assets/menu/destructive-check-16.svg",
+      "method": "figma-supplied-original-asset",
+      "status": "match"
+    }
+  ],
+  "limits": [
+    "Eight Light item variants and one all-optional-slots-off panel only; true slot combinations have not been measured",
+    "Hidden state glyph paints and source swaps are evidence rather than visible default controls",
+    "Panel shadow values match Mid while its actual EffectStyle identity is distinct",
+    "Scrollbar is a hidden absolute FRAME; clipping/NONE overflow does not establish functioning scrolling",
+    "Persistent selected, keyboard focus, dark/mobile, trigger/open/close/submenu and consuming command behavior remain unverified"
+  ],
+  "issues": []
+}

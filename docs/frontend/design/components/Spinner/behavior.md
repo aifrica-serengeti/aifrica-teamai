@@ -18,8 +18,10 @@ Spinner 는 비활성(disabled)/읽기 전용(read-only) 등의 상태를 가지
 | **숨김** | 로딩 완료 시 | 호출측에서 `<Spinner />` 제거(조건부 렌더링) |
 
 > **행동 규칙**: Spinner 는 상태를 내부에 두지 않는다. 표시 여부는 부모가 제어한다.
-> `prefers-reduced-motion: reduce` 환경에서는 globals.css 전역 규칙이 animation 을
-> 무력화하여 정지 상태로 표시된다.
+> reduced-motion은 소비 앱의 실제 스타일에서 적용 여부를 확인한다. 전역 규칙이 있다고 가정하지 않는다.
+> `@media (prefers-reduced-motion: reduce)`가 해당 요소에 적용되지 않으면 컴포넌트 범위의 전환·애니메이션을 즉시 완료하는 규칙을 둔다.
+> 전환을 생략해도 값·focus·표시 여부와 종료·정리 책임은 유지한다.
+> Spinner는 회전을 멈춘 정지 도형으로 남긴다. 부모의 loading 상태가 계속되는 동안 표시나 접근성 의미를 제거하지 않는다.
 
 ---
 
@@ -53,8 +55,9 @@ transition: stroke 0.2s ease;
 
 - **절대 `transition: all` 을 쓰지 않는다.** 색상(stroke) 속성만 지정.
 - 전역 `*` 셀렉터는 금지(AGENTS.md "색상 전환 애니메이션" 참조).
-- `globals.css` 의 `@media (prefers-reduced-motion: reduce)` 가 회전 animation 과
-  색상 transition 모두를 무력화하므로 컴포넌트는 별도 reduced-motion 처리 불필요.
+- reduced-motion은 소비 앱의 실제 스타일에서 적용 여부를 확인한다. 전역 규칙이 있다고 가정하지 않는다.
+  `@media (prefers-reduced-motion: reduce)`가 해당 요소에 적용되지 않으면 컴포넌트 범위의 전환·애니메이션을 즉시 완료하는 규칙을 둔다.
+  전환을 생략해도 값·focus·표시 여부와 종료·정리 책임은 유지한다.
 
 ---
 

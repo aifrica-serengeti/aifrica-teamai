@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "componentId": "AgentHubScrollbar",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeIds": [
+      "3155:20473"
+    ],
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "hiddenInstanceChildrenIncluded": true,
+    "method": "Figma MCP get_design_context screenshot and read-only Plugin API complete tree, paints, per-corner radii, geometry, property definitions, reactions and variable alias closure"
+  },
+  "implementation": {
+    "status": "unmapped",
+    "source": null,
+    "export": null
+  },
+  "roots": [
+    {
+      "componentId": "AgentHubScrollbar",
+      "role": "vertical-scrollbar-reference",
+      "description": "",
+      "propertyDefinitions": {},
+      "variantProperties": null,
+      "tree": {
+        "nodeId": "3155:20473",
+        "name": "scroll-bar",
+        "type": "COMPONENT",
+        "visible": true,
+        "styleRef": "s000",
+        "explicitVariableModes": {},
+        "resolvedVariableModes": {
+          "VariableCollectionId:3077:14": "3077:0",
+          "VariableCollectionId:3081:14": "3081:0"
+        },
+        "children": [
+          {
+            "nodeId": "3155:20472",
+            "name": "thumb",
+            "type": "RECTANGLE",
+            "visible": true,
+            "styleRef": "s001",
+            "position": {
+              "x": 3,
+              "y": 3
+            },
+            "explicitVariableModes": {},
+            "resolvedVariableModes": {
+              "VariableCollectionId:3077:14": "3077:0",
+              "VariableCollectionId:3081:14": "3081:0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "styles": {
+    "s000": {
+      "layout": {
+        "width": 11,
+        "height": 180,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "layoutGrow": 0,
+        "layoutPositioning": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN",
+        "clipsContent": false,
+        "layoutWrap": "NO_WRAP",
+        "counterAxisSpacing": 0,
+        "strokesIncludedInLayout": false,
+        "overflowDirection": "NONE",
+        "constraints": {
+          "horizontal": "MAX",
+          "vertical": "MIN"
+        },
+        "padding": {
+          "left": 0,
+          "right": 1,
+          "top": 1,
+          "bottom": 0
+        },
+        "gap": 0
+      },
+      "visual": {
+        "fills": [],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER",
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 0,
+        "cornerRadii": {
+          "topLeftRadius": 0,
+          "topRightRadius": 0,
+          "bottomLeftRadius": 0,
+          "bottomRightRadius": 0
+        }
+      },
+      "bindings": {}
+    },
+    "s001": {
+      "layout": {
+        "width": 4,
+        "height": 160,
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutGrow": 0,
+        "layoutPositioning": "ABSOLUTE",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "SCALE"
+        }
+      },
+      "visual": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "hex": "#DDDDDD",
+            "token": {
+              "id": "VariableID:3081:220",
+              "name": "color/scroll/default"
+            },
+            "bindings": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:3081:220",
+                "name": "color/scroll/default"
+              }
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE",
+          "cap": "NONE",
+          "join": "MITER",
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "opacity": 1,
+        "effects": [],
+        "radius": 9999,
+        "cornerRadii": {
+          "topLeftRadius": 9999,
+          "topRightRadius": 9999,
+          "bottomLeftRadius": 9999,
+          "bottomRightRadius": 9999
+        }
+      },
+      "bindings": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3273:31",
+          "name": "radius/full"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3081:220",
+            "name": "color/scroll/default"
+          }
+        ]
+      }
+    }
+  },
+  "prototypeReactions": [
+    {
+      "nodeId": "3155:20473",
+      "reactions": []
+    },
+    {
+      "nodeId": "3155:20472",
+      "reactions": []
+    }
+  ],
+  "transforms": [
+    {
+      "nodeId": "3155:20473",
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          8145
+        ],
+        [
+          0,
+          1,
+          1586
+        ]
+      ]
+    },
+    {
+      "nodeId": "3155:20472",
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "kind": "scope",
+      "note": "One standalone COMPONENT with one RECTANGLE child, no instances, properties or variants. Only the supplied visible vertical Light sample is verified. No supplied hover/pressed/hidden/horizontal/dark or overflow runtime states."
+    },
+    {
+      "kind": "root",
+      "note": "11x180 FIXED sample; horizontal auto layout, stored padding left0/right1/top1/bottom0, gap0. No fill, rendered stroke or effect; opacity1, radius0, clipsContentfalse, overflowDirection NONE, constraints MAX/MIN. The gray screenshot backdrop is not a component fill. Root canvas transform is provenance, not app position."
+    },
+    {
+      "kind": "thumb",
+      "note": "Absolute child at3,3, fixed4x160; constraints MIN/SCALE, radius9999 on all corners, opaque SOLID#DDDDDD color/scroll/default→gray/300, no stroke/effect. Stored strokeWeight1 without stroke paints is not a rendered border. Child absolute placement is not produced by root padding."
+    },
+    {
+      "kind": "difference",
+      "note": "Default thickness4/radius9999/start3 agree with common baseline. Agent Hub supplied fill is opaque#DDD, while common runtime Light thumb fill is rgba(85,85,85,.30), hover .55. Supplied local gutter width11 differs from common nominal4+3+3=10; actual child remainder4 on right and17 below is sample placement, not symmetric runtime endpoint inset."
+    },
+    {
+      "kind": "runtime",
+      "note": "11x180 gutter and4x160 thumb are comparison fixture geometry, not fixed product viewport or content-independent thumb length. Keep native overflow, dynamic ratio/clamping, sibling overlay and independent nested ownership. Product must map the local gutter/offset without shrinking the viewport to11 or injecting wrapper surface/border/padding."
+    },
+    {
+      "kind": "limits",
+      "note": "No prototype reactions on either node. This rectangle is not a functioning scroll implementation, drag target or focus policy. Existing Menu/Picker use a different Scroll bar source2019:3708 and must not be globally replaced. Product source/export stays unmapped; runtimeVerified and allStatesVerified false."
+    }
+  ]
+}

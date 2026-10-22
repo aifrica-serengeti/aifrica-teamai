@@ -51,8 +51,9 @@ transition:
   색상 속성(`background-color`, `color`)만 지정.
 - **지속시간은 0.2s 로 통일** — 다른 컴포넌트와 타이밍을 맞춘다.
 - 전역 `*` 셀렉터는 성능 저하/부작용으로 금지한다(AGENTS.md "색상 전환 애니메이션" 참조).
-- `globals.css` 의 `@media (prefers-reduced-motion: reduce)` 가 모든 transition 을
-  무력화하므로 컴포넌트는 별도 reduced-motion 처리 불필요.
+- reduced-motion은 소비 앱의 실제 스타일에서 적용 여부를 확인한다. 전역 규칙이 있다고 가정하지 않는다.
+  `@media (prefers-reduced-motion: reduce)`가 해당 요소에 적용되지 않으면 컴포넌트 범위의 전환·애니메이션을 즉시 완료하는 규칙을 둔다.
+  전환을 생략해도 값·focus·표시 여부와 종료·정리 책임은 유지한다.
 
 ---
 

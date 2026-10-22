@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-20",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3016:102468",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3016-102468",
+    "page": "Latest design",
+    "semanticMode": "Light mode",
+    "method": "Figma MCP get_design_context + read-only Plugin API measurements and variable alias resolution"
+  },
+  "implementation": {
+    "status": "unmapped",
+    "source": null,
+    "export": null
+  },
+  "componentId": "AgentHubAgentTypeChip",
+  "propertyDefinitions": {
+    "agent-types": {
+      "type": "VARIANT",
+      "defaultValue": "assistant",
+      "variantOptions": [
+        "assistant",
+        "workflow",
+        "runtime",
+        "common-chat"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "nodeId": "3016:102467",
+      "variant": {
+        "agent-types": "assistant"
+      },
+      "layout": {
+        "width": 68,
+        "height": 20,
+        "minWidth": null,
+        "maxWidth": 200,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 4
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#EBF3FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:158",
+              "name": "color/element/primary-subtle"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "text": {
+        "nodeId": "3016:102460",
+        "label": "어시스턴트",
+        "font": {
+          "family": "Pretendard",
+          "style": "SemiBold"
+        },
+        "fontSize": 12,
+        "fontWeight": 600,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlign": "LEFT",
+        "truncation": "ENDING",
+        "maxLines": 1,
+        "fills": [
+          {
+            "hex": "#3B82F6",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:58",
+              "name": "color/text/primary"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "OUTSIDE"
+        },
+        "opacity": 1
+      }
+    },
+    {
+      "nodeId": "3016:102466",
+      "variant": {
+        "agent-types": "workflow"
+      },
+      "layout": {
+        "width": 68,
+        "height": 20,
+        "minWidth": null,
+        "maxWidth": 200,
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 4
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#FAF5FF",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:165",
+              "name": "color/element/purple-subtle"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "text": {
+        "nodeId": "3016:102462",
+        "label": "워크플로우",
+        "font": {
+          "family": "Pretendard",
+          "style": "SemiBold"
+        },
+        "fontSize": 12,
+        "fontWeight": 600,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlign": "LEFT",
+        "truncation": "ENDING",
+        "maxLines": 1,
+        "fills": [
+          {
+            "hex": "#9333EA",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:61",
+              "name": "color/text/purple"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "OUTSIDE"
+        },
+        "opacity": 1
+      }
+    },
+    {
+      "nodeId": "3016:102465",
+      "variant": {
+        "agent-types": "runtime"
+      },
+      "layout": {
+        "width": 68,
+        "height": 20,
+        "minWidth": null,
+        "maxWidth": 200,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 4
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#DDE2F1",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:171",
+              "name": "color/element/navy-subtle"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "text": {
+        "nodeId": "3016:102464",
+        "label": "런타임",
+        "font": {
+          "family": "Pretendard",
+          "style": "SemiBold"
+        },
+        "fontSize": 12,
+        "fontWeight": 600,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlign": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1,
+        "fills": [
+          {
+            "hex": "#1E232E",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:63",
+              "name": "color/text/navy-bold"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "OUTSIDE"
+        },
+        "opacity": 1
+      }
+    },
+    {
+      "nodeId": "3016:102480",
+      "variant": {
+        "agent-types": "common-chat"
+      },
+      "layout": {
+        "width": 68,
+        "height": 20,
+        "minWidth": null,
+        "maxWidth": 200,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "clipsContent": false,
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 0,
+          "bottom": 0
+        },
+        "gap": 4
+      },
+      "visual": {
+        "fills": [
+          {
+            "hex": "#EEEEEE",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:169",
+              "name": "color/element/gray-subtle"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "INSIDE"
+        },
+        "opacity": 1,
+        "radius": 4,
+        "radiusToken": {
+          "id": "VariableID:3273:23",
+          "name": "radius/control-sm"
+        }
+      },
+      "text": {
+        "nodeId": "3016:102481",
+        "label": "일반 채팅",
+        "font": {
+          "family": "Pretendard",
+          "style": "SemiBold"
+        },
+        "fontSize": 12,
+        "fontWeight": 600,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlign": "CENTER",
+        "truncation": "ENDING",
+        "maxLines": 1,
+        "fills": [
+          {
+            "hex": "#1E232E",
+            "opacity": 1,
+            "token": {
+              "id": "VariableID:3081:63",
+              "name": "color/text/navy-bold"
+            }
+          }
+        ],
+        "border": {
+          "paints": [],
+          "width": 1,
+          "align": "OUTSIDE"
+        },
+        "opacity": 1
+      }
+    }
+  ]
+}
