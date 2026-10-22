@@ -1,0 +1,388 @@
+{
+  "picker": {
+    "before": {
+      "chat": {
+        "x": 5,
+        "y": 21,
+        "width": 766,
+        "height": 36
+      },
+      "strip": {
+        "x": 1,
+        "y": 69,
+        "width": 774,
+        "height": 8
+      },
+      "title": {
+        "x": 5,
+        "y": 89,
+        "width": 766,
+        "height": 16
+      },
+      "footer": {
+        "x": 0,
+        "y": 416,
+        "width": 776,
+        "height": 39
+      },
+      "list": {
+        "x": 1,
+        "y": 109,
+        "width": 774,
+        "height": 307
+      }
+    },
+    "after": {
+      "chat": {
+        "x": 5,
+        "y": 21,
+        "width": 766,
+        "height": 36
+      },
+      "strip": {
+        "x": 1,
+        "y": 69,
+        "width": 774,
+        "height": 8
+      },
+      "title": {
+        "x": 5,
+        "y": 89,
+        "width": 766,
+        "height": 16
+      },
+      "footer": {
+        "x": 0,
+        "y": 416,
+        "width": 776,
+        "height": 39
+      },
+      "list": {
+        "x": 1,
+        "y": 109,
+        "width": 774,
+        "height": 307
+      },
+      "scrollTop": 9,
+      "focused": "runtime-service",
+      "activeBottom": 416,
+      "thumbWidth": "4px",
+      "gutter": "11px"
+    }
+  },
+  "flyout": {
+    "before": {
+      "width": 280,
+      "height": 398,
+      "header": {
+        "x": 1,
+        "y": 5,
+        "width": 278,
+        "height": 54
+      },
+      "body": {
+        "x": 1,
+        "y": 59,
+        "width": 278,
+        "height": 306
+      },
+      "footer": {
+        "x": 1,
+        "y": 365,
+        "width": 278,
+        "height": 33
+      },
+      "scrollTop": 0,
+      "clientHeight": 306,
+      "scrollHeight": 401,
+      "flatItems": 14,
+      "expandedTargets": 0,
+      "nestedLists": 0,
+      "thumbWidth": "4px",
+      "gutter": "11px",
+      "scrollbarWidth": "none",
+      "focused": "프로젝트 요약.docx",
+      "activeBottom": 96
+    },
+    "after": {
+      "width": 280,
+      "height": 398,
+      "header": {
+        "x": 1,
+        "y": 5,
+        "width": 278,
+        "height": 54
+      },
+      "body": {
+        "x": 1,
+        "y": 59,
+        "width": 278,
+        "height": 306
+      },
+      "footer": {
+        "x": 1,
+        "y": 365,
+        "width": 278,
+        "height": 33
+      },
+      "scrollTop": 95,
+      "clientHeight": 306,
+      "scrollHeight": 401,
+      "flatItems": 14,
+      "expandedTargets": 0,
+      "nestedLists": 0,
+      "thumbWidth": "4px",
+      "gutter": "11px",
+      "scrollbarWidth": "none",
+      "focused": "참고 자료 9.docx",
+      "activeBottom": 365
+    },
+    "close": {
+      "focusRestored": true,
+      "openFlyouts": 0
+    }
+  },
+  "motion": {
+    "calendar": {
+      "property": "background-color",
+      "duration": "0.2s",
+      "easing": "ease",
+      "opacity": "1",
+      "color": "rgb(28, 28, 28)"
+    },
+    "persistentSelection": true,
+    "cards": [
+      {
+        "name": "AgentHubFileItem",
+        "property": "background-color, border-color, box-shadow, color",
+        "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+        "easing": "ease, ease, ease, ease",
+        "opacity": "1",
+        "color": "rgb(28, 28, 28)"
+      },
+      {
+        "name": "AgentHubDataCard",
+        "property": "background-color, border-color, box-shadow, color",
+        "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+        "easing": "ease, ease, ease, ease",
+        "opacity": "1",
+        "color": "rgb(28, 28, 28)"
+      },
+      {
+        "name": "AgentHubThumbnailCard",
+        "property": "background-color, border-color, box-shadow, color",
+        "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+        "easing": "ease, ease, ease, ease",
+        "opacity": "1",
+        "color": "rgb(28, 28, 28)"
+      },
+      {
+        "name": "AgentHubScheduleCard",
+        "property": "background-color, border-color, box-shadow, color",
+        "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+        "easing": "ease, ease, ease, ease",
+        "opacity": "1",
+        "color": "rgb(28, 28, 28)"
+      },
+      {
+        "name": "AgentHubItemCard",
+        "property": "background-color, border-color, box-shadow, color",
+        "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+        "easing": "ease, ease, ease, ease",
+        "opacity": "1",
+        "color": "rgb(28, 28, 28)"
+      },
+      {
+        "name": "AgentHubItemCard",
+        "property": "background-color, border-color, box-shadow, color",
+        "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+        "easing": "ease, ease, ease, ease",
+        "opacity": "1",
+        "color": "rgb(28, 28, 28)"
+      },
+      {
+        "name": "AgentHubItemCard",
+        "property": "background-color, border-color, box-shadow, color",
+        "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+        "easing": "ease, ease, ease, ease",
+        "opacity": "1",
+        "color": "rgb(28, 28, 28)"
+      },
+      {
+        "name": "AgentHubItemCard",
+        "property": "background-color, border-color, box-shadow, color",
+        "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+        "easing": "ease, ease, ease, ease",
+        "opacity": "1",
+        "color": "rgb(28, 28, 28)"
+      }
+    ],
+    "nestedButtons": 0
+  },
+  "disabled": [
+    {
+      "name": "AgentHubThumbnailCard",
+      "disabled": "true",
+      "opacity": "1",
+      "titleColor": "rgb(170, 170, 170)",
+      "toolFilter": null
+    },
+    {
+      "name": "AgentHubScheduleCard",
+      "disabled": "true",
+      "opacity": "1",
+      "titleColor": "rgb(170, 170, 170)",
+      "toolFilter": null
+    },
+    {
+      "name": "AgentHubItemCard",
+      "disabled": "true",
+      "opacity": "1",
+      "titleColor": "rgb(170, 170, 170)",
+      "actualDisabled": true,
+      "toolFilter": "grayscale(1)"
+    }
+  ],
+  "reduce": {
+    "matches": true,
+    "calendar": "none",
+    "cards": [
+      {
+        "name": "AgentHubFileItem",
+        "transition": "none",
+        "duration": "0s"
+      },
+      {
+        "name": "AgentHubDataCard",
+        "transition": "none",
+        "duration": "0s"
+      },
+      {
+        "name": "AgentHubThumbnailCard",
+        "transition": "none",
+        "duration": "0s"
+      },
+      {
+        "name": "AgentHubScheduleCard",
+        "transition": "none",
+        "duration": "0s"
+      },
+      {
+        "name": "AgentHubItemCard",
+        "transition": "none",
+        "duration": "0s"
+      },
+      {
+        "name": "AgentHubItemCard",
+        "transition": "none",
+        "duration": "0s"
+      },
+      {
+        "name": "AgentHubItemCard",
+        "transition": "none",
+        "duration": "0s"
+      },
+      {
+        "name": "AgentHubItemCard",
+        "transition": "none",
+        "duration": "0s"
+      }
+    ]
+  },
+  "searchPicker": {
+    "before": {
+      "search": {
+        "x": 1,
+        "y": 21,
+        "width": 530,
+        "height": 32
+      },
+      "strip": {
+        "x": 1,
+        "y": 65,
+        "width": 530,
+        "height": 8
+      },
+      "footer": {
+        "x": 0,
+        "y": 497,
+        "width": 532,
+        "height": 39
+      }
+    },
+    "after": {
+      "search": {
+        "x": 1,
+        "y": 21,
+        "width": 530,
+        "height": 32
+      },
+      "strip": {
+        "x": 1,
+        "y": 65,
+        "width": 530,
+        "height": 8
+      },
+      "footer": {
+        "x": 0,
+        "y": 497,
+        "width": 532,
+        "height": 39
+      },
+      "scrollTop": 144,
+      "focused": "other-2",
+      "activeBottom": 497,
+      "outline": "rgb(37, 99, 235) solid 1px",
+      "outlineOffsetBeforeCoreFix": "2px"
+    },
+    "search": {
+      "value": "시장",
+      "resultIds": [
+        "project-1"
+      ]
+    }
+  },
+  "calendar": {
+    "persistentSelection": true,
+    "ariaSelected": "true",
+    "selected": "true",
+    "transition": "background-color",
+    "duration": "0.2s",
+    "easing": "ease"
+  },
+  "finalFocus": {
+    "focused": "other-2",
+    "outlineOffset": "-2px",
+    "outline": "rgb(37, 99, 235) solid 1px"
+  },
+  "cardInteraction": {
+    "hover": {
+      "background": "rgb(248, 248, 248)",
+      "transition": "background-color, border-color, box-shadow, color",
+      "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+      "easing": "ease, ease, ease, ease",
+      "point": {
+        "x": 466.8984375,
+        "y": 463.390625
+      }
+    },
+    "pressed": {
+      "active": true,
+      "background": "rgb(244, 244, 244)",
+      "duration": "0.2s, 0.2s, 0.2s, 0.2s",
+      "easing": "ease, ease, ease, ease"
+    }
+  },
+  "meta": {
+    "checkedAt": "2026-10-21",
+    "url": "http://127.0.0.1:5174/",
+    "browser": "Ego taskSpace21 pagep2",
+    "scope": "React consuming test application, Collections gallery",
+    "limits": [
+      "제공된 두 Picker recipe와 기본 평면 Flyout, 대표 Thumbnail hover/pressed 및 카드5종 computed transition을 검증했습니다. 전체 제품 화면·모든 동적 조합의 검증이 아닙니다.",
+      "원본 Figma reference는 변경하지 않았습니다. AH scrollbar11px gutter 예약으로 recommendation row766→755/search row522→511/Flyout row278→267인 runtime 차이를 별도 문서에 기록했습니다.",
+      "Flyout sample은 동적14행입니다. Figma의 표시11행/숨김5행과 동일 데이터라는 뜻이 아닙니다.",
+      "inset focus selector 보강 전후 결과를 구분했습니다. finalFocus가 최종 결과입니다."
+    ]
+  }
+}

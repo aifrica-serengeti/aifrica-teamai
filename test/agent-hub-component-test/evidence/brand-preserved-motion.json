@@ -1,0 +1,53 @@
+{
+  "samples": [
+    {
+      "time": 1.6,
+      "alphaChanges": 0,
+      "rgbChanges": 25868,
+      "maxRgb": 71
+    },
+    {
+      "time": 3.1,
+      "alphaChanges": 0,
+      "rgbChanges": 27536,
+      "maxRgb": 88
+    },
+    {
+      "time": 5.9,
+      "alphaChanges": 0,
+      "rgbChanges": 21958,
+      "maxRgb": 80
+    }
+  ],
+  "nonSquareOutsideAlpha": 0,
+  "zeroFrameVisiblePixels": 54152,
+  "playback": {
+    "pausedPixelsEqual": true,
+    "resumedChanges": true
+  },
+  "reduced": {
+    "ready": "true",
+    "source": "visible",
+    "canvas": "hidden"
+  },
+  "forced": {
+    "ready": "true",
+    "source": "visible",
+    "canvas": "hidden"
+  },
+  "print": {
+    "ready": "true",
+    "source": "visible",
+    "canvas": "hidden"
+  },
+  "contextLost": {
+    "ready": "false",
+    "source": "visible",
+    "canvas": "hidden"
+  },
+  "contextRestored": {
+    "ready": "true",
+    "source": "hidden",
+    "canvas": "visible"
+  }
+}

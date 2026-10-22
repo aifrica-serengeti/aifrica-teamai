@@ -1,0 +1,8 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon/filter/16">
+<path id="line-top" d="M9.33301 11.332H3.33301" stroke-linecap="round" stroke-linejoin="round" stroke="#757575"/>
+<path id="line-bottom" d="M12.667 4.66797H6.66699" stroke-linecap="round" stroke-linejoin="round" stroke="#757575"/>
+<path id="knob-top" d="M13.333 11.332C13.333 12.4366 12.4376 13.332 11.333 13.332C10.2284 13.332 9.33301 12.4366 9.33301 11.332C9.33301 10.2275 10.2284 9.33203 11.333 9.33203C12.4376 9.33203 13.333 10.2275 13.333 11.332Z" stroke-linecap="round" stroke-linejoin="round" stroke="#757575"/>
+<path id="knob-bottom" d="M6.66699 4.66797C6.66699 5.77254 5.77156 6.66797 4.66699 6.66797C3.56242 6.66797 2.66699 5.77254 2.66699 4.66797C2.66699 3.5634 3.56242 2.66797 4.66699 2.66797C5.77156 2.66797 6.66699 3.5634 6.66699 4.66797Z" stroke-linecap="round" stroke-linejoin="round" stroke="#757575"/>
+</g>
+</svg>

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "status": "implementation-proposal-not-figma-measurement",
+  "adoptedAt": "2026-10-21",
+  "effects": {
+    "checkboxMark": {
+      "enterMs": 160,
+      "exitMs": 120,
+      "enterEasing": "ease-out",
+      "exitEasing": "ease-in",
+      "opacity": [
+        0,
+        1
+      ],
+      "transform": "none",
+      "geometry": "native Mark x/y/width/height fixed throughout enter and exit"
+    },
+    "thinkingStatus": {
+      "durationMs": 1800,
+      "easing": "linear",
+      "bandPercent": 28,
+      "direction": "left-to-right"
+    },
+    "progressHalo": {
+      "durationMs": 1600,
+      "easing": "ease-out",
+      "fill": "#CCE0FF",
+      "scale": [
+        1,
+        1.6
+      ],
+      "opacity": [
+        0,
+        0.6,
+        0
+      ],
+      "keyframes": [
+        {
+          "offset": 0,
+          "scale": 1,
+          "opacity": 0
+        },
+        {
+          "offset": 0.22,
+          "scale": 1.08,
+          "opacity": 0.6
+        },
+        {
+          "offset": 1,
+          "scale": 1.6,
+          "opacity": 0
+        }
+      ]
+    },
+    "messageTextReveal": {
+      "durationMs": 400,
+      "easing": "ease-out",
+      "direction": "left-to-right",
+      "mode": "visual mask on externally inserted or newly appended text; complete semantic value immediately",
+      "directTyping": "cancel visual effect; do not animate typing or IME",
+      "reducedMotion": "immediate complete text; no mask",
+      "figmaMeasurement": false
+    }
+  },
+  "reducedMotion": "immediate state; no repeat; cancel old completion"
+}

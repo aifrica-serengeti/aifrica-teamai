@@ -1,0 +1,118 @@
+{
+  "panel": {
+    "opening": {
+      "name": "ah-popup-in-bottom",
+      "duration": 150,
+      "opacity": "0.802403",
+      "transform": "matrix(1, 0, 0, 1, 0, -1.18558)"
+    },
+    "before": {
+      "header": {
+        "y": 5,
+        "height": 63,
+        "width": 278
+      },
+      "viewport": {
+        "y": 68,
+        "height": 297,
+        "width": 278
+      },
+      "footer": {
+        "y": 365,
+        "height": 33,
+        "width": 278
+      },
+      "line": "rgb(221, 221, 221)",
+      "dividerInsideContent": false
+    },
+    "positions": [
+      {
+        "scrollTop": 0,
+        "header": {
+          "y": 5,
+          "height": 63,
+          "width": 278
+        },
+        "footer": {
+          "y": 365,
+          "height": 33,
+          "width": 278
+        },
+        "line": "rgb(221, 221, 221)"
+      },
+      {
+        "scrollTop": 62,
+        "header": {
+          "y": 5,
+          "height": 63,
+          "width": 278
+        },
+        "footer": {
+          "y": 365,
+          "height": 33,
+          "width": 278
+        },
+        "line": "rgb(221, 221, 221)"
+      },
+      {
+        "scrollTop": 123,
+        "header": {
+          "y": 5,
+          "height": 63,
+          "width": 278
+        },
+        "footer": {
+          "y": 365,
+          "height": 33,
+          "width": 278
+        },
+        "line": "rgb(221, 221, 221)"
+      }
+    ],
+    "headerFixed": true,
+    "folder": "true"
+  },
+  "collapse": {
+    "expanded": "false",
+    "inert": true,
+    "ariaHidden": "true",
+    "focusRestored": true,
+    "heightDuration": 250,
+    "middleHeight": 16.59375,
+    "rotationDuration": 200,
+    "middleTransform": "matrix(0.305424, -0.952216, 0.952216, 0.305424, 0, 0)"
+  },
+  "reopened": {
+    "height": 84,
+    "selectedUnchanged": true,
+    "focus": true
+  },
+  "rapid": {
+    "expanded": "true",
+    "selected": "프로젝트 요약.docx",
+    "survived": {
+      "expanded": "true",
+      "body": true,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  },
+  "close": {
+    "name": "ah-popup-out-bottom",
+    "duration": 150,
+    "opacity": "0.197597",
+    "inert": true,
+    "pointerEvents": "none",
+    "focusRestored": true
+  },
+  "flat": {
+    "files": 14,
+    "folders": 0,
+    "header": 63
+  },
+  "reducedMotion": {
+    "openingAnimations": 0,
+    "expanded": "false",
+    "childRemoved": true,
+    "rotationDuration": "0s"
+  }
+}

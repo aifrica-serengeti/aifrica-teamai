@@ -1,0 +1,143 @@
+{
+  "before": {
+    "top": 0,
+    "max": 319,
+    "focus": "common-scroll-viewport ",
+    "x": 1056,
+    "y": 503.5,
+    "header": 0,
+    "rail": 68,
+    "thumb": "rgb(221, 221, 221)",
+    "width": 4,
+    "native": "none"
+  },
+  "wheel": {
+    "top": 318,
+    "max": 319,
+    "focus": "common-scroll-viewport ",
+    "x": 1056,
+    "y": 503.5,
+    "header": 0,
+    "rail": 68,
+    "thumb": "rgb(221, 221, 221)",
+    "width": 4,
+    "native": "none"
+  },
+  "pageDown": {
+    "top": 318,
+    "max": 319,
+    "focus": "common-scroll-viewport ",
+    "x": 1056,
+    "y": 503.5,
+    "header": 0,
+    "rail": 68,
+    "thumb": "rgb(221, 221, 221)",
+    "width": 4,
+    "native": "none"
+  },
+  "end": {
+    "top": 318,
+    "max": 319,
+    "focus": "common-scroll-viewport ",
+    "x": 1056,
+    "y": 503.5,
+    "header": 0,
+    "rail": 68,
+    "thumb": "rgb(221, 221, 221)",
+    "width": 4,
+    "native": "none"
+  },
+  "last": {
+    "top": 318,
+    "max": 319,
+    "focus": "ah-frame-control24",
+    "x": 1056,
+    "y": 503.5,
+    "header": 0,
+    "rail": 68,
+    "thumb": "rgb(221, 221, 221)",
+    "width": 4,
+    "native": "none"
+  },
+  "details": {
+    "focus": "문서 작성 에이전트 15 대화 시작",
+    "visible": true,
+    "scrollOwners": [
+      "common-scroll-viewport "
+    ],
+    "viewports": 1
+  },
+  "keyboardFromStart": 315,
+  "drag": 173,
+  "textarea": {
+    "height": 140,
+    "body": 103,
+    "toolbar": 37,
+    "boundary": "rgb(59, 130, 246) 0px 0px 0px 2px inset",
+    "outline": "none",
+    "overlayPointer": "none"
+  },
+  "toolbarFocus": {
+    "outline": "solid",
+    "outlineColor": "rgb(59, 130, 246)",
+    "surface": "rgb(221, 221, 221) 0px 0px 0px 1px inset"
+  },
+  "select": {
+    "radius": "12px",
+    "padding": "4px 0px",
+    "motion": "ah-popup-in-bottom",
+    "duration": "0.15s",
+    "listbox": true,
+    "options": [
+      {
+        "height": 28,
+        "padding": "4px 12px 4px 16px",
+        "selected": "false",
+        "component": "AgentHubMenuItem",
+        "checkSlot": 16
+      },
+      {
+        "height": 28,
+        "padding": "4px 12px 4px 16px",
+        "selected": "true",
+        "component": "AgentHubMenuItem",
+        "checkSlot": 16
+      },
+      {
+        "height": 28,
+        "padding": "4px 12px 4px 16px",
+        "selected": "false",
+        "component": "AgentHubMenuItem",
+        "checkSlot": 16
+      }
+    ],
+    "scrollComponent": "AgentHubScrollbar"
+  },
+  "selection": {
+    "value": "weekly",
+    "focus": "빈도"
+  },
+  "popupEscape": {
+    "dialogOpen": true,
+    "expanded": "false"
+  },
+  "reduced": {
+    "boundaryTransition": "0s",
+    "popupAnimation": "none"
+  },
+  "invalid": {
+    "invalid": "true",
+    "stroke": "rgb(232, 25, 25) 0px 0px 0px 2px inset"
+  },
+  "readOnly": {
+    "readOnly": true,
+    "toolbarDisabled": true,
+    "popup": false,
+    "stroke": "rgb(221, 221, 221) 0px 0px 0px 1px inset"
+  },
+  "disabled": {
+    "textarea": true,
+    "toolbar": true,
+    "select": true
+  }
+}

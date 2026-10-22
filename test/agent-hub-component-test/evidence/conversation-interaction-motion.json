@@ -1,0 +1,118 @@
+{
+  "composer": {
+    "value": "지난주 부서별 실적을 요약해 주세요.",
+    "active": "true",
+    "animation": true,
+    "focus": true,
+    "editorWidth": 662,
+    "maskSize": "568.867px 100%",
+    "measurement": "canvas font-matched text width clamped to textarea viewport"
+  },
+  "frames": [
+    {
+      "time": 0,
+      "mask": "-341.32px 0px",
+      "value": "지난주 부서별 실적을 요약해 주세요."
+    },
+    {
+      "time": 100,
+      "mask": "-212.254px 0px",
+      "value": "지난주 부서별 실적을 요약해 주세요."
+    },
+    {
+      "time": 200,
+      "mask": "-107.638px 0px",
+      "value": "지난주 부서별 실적을 요약해 주세요."
+    },
+    {
+      "time": 399,
+      "mask": "-0.00401971px 0px",
+      "value": "지난주 부서별 실적을 요약해 주세요."
+    }
+  ],
+  "finished": {
+    "active": null,
+    "mask": "none",
+    "customSize": ""
+  },
+  "ime": {
+    "active": null,
+    "animations": 0
+  },
+  "append": {
+    "initial": "지난주 부서별 실적을 분석했습니다.",
+    "text": "지난주 부서별 실적을 분석했습니다. 주요 지표가 개선되었습니다.",
+    "activePieces": 2,
+    "oldAnimationSame": true,
+    "prefixRetained": true
+  },
+  "replace": {
+    "text": "다른 요청에서 전달된 새 본문입니다.",
+    "oldConnected": false,
+    "oldAnimationState": "idle"
+  },
+  "completed": {
+    "text": "다른 요청에서 전달된 새 본문입니다.",
+    "activePieces": 0,
+    "pieces": 1
+  },
+  "halo": [
+    {
+      "time": 0,
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "time": 160,
+      "opacity": "0.380691",
+      "transform": "matrix(1.05076, 0, 0, 1.05076, 0, 0)"
+    },
+    {
+      "time": 352,
+      "opacity": "0.6",
+      "transform": "matrix(1.08, 0, 0, 1.08, 0, 0)"
+    },
+    {
+      "time": 1200,
+      "opacity": "0.0874262",
+      "transform": "matrix(1.52423, 0, 0, 1.52423, 0, 0)"
+    },
+    {
+      "time": 1599,
+      "opacity": "7.27291e-07",
+      "transform": "matrix(1.6, 0, 0, 1.6, 0, 0)"
+    },
+    {
+      "time": 1600,
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "time": 1601,
+      "opacity": "0.00290945",
+      "transform": "matrix(1.00039, 0, 0, 1.00039, 0, 0)"
+    }
+  ],
+  "shimmer": {
+    "gradient": "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 22%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 78%, rgba(255, 255, 255, 0) 100%)",
+    "size": "50% 100%"
+  },
+  "media": {
+    "reduced": {
+      "active": 0,
+      "editorValue": "지난주 부서별 실적을 요약해 주세요.",
+      "text": "지난주 부서별 실적을 분석했습니다.",
+      "shimmer": "none",
+      "halo": "none"
+    },
+    "forced": {
+      "active": 0,
+      "text": "다른 요청에서 전달된 새 본문입니다."
+    }
+  },
+  "nativeEdit": {
+    "active": null,
+    "selection": 19,
+    "value": "지난주 부서별 실적을 요약해 주세요."
+  }
+}

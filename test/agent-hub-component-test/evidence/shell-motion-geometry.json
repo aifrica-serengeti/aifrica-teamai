@@ -1,0 +1,65 @@
+{
+  "geometry": {
+    "dialog": {
+      "width": 580,
+      "height": 554
+    },
+    "input": {
+      "width": 532,
+      "height": 40
+    },
+    "textareaSurface": {
+      "width": 532,
+      "height": 140
+    },
+    "textarea": {
+      "width": 532,
+      "height": 103
+    },
+    "toolbar": {
+      "width": 532,
+      "height": 37
+    },
+    "frequency": {
+      "width": 532,
+      "height": 50
+    },
+    "inputRadius": "8px",
+    "labelFont": "600 14px / 20px Pretendard, system-ui, sans-serif",
+    "viewport": {
+      "height": 394,
+      "scroll": 394
+    }
+  },
+  "dialogExit": {
+    "mid": {
+      "atMs": 100,
+      "method": "deterministic CSS transition seek",
+      "nativeOpen": true,
+      "opacity": "0.197597",
+      "transform": "matrix(0.967904, 0, 0, 0.967904, 0, 0)"
+    },
+    "final": {
+      "nativeOpen": false,
+      "focus": "예약 작업 편집",
+      "bodyOverflow": ""
+    }
+  },
+  "projectOpen": {
+    "expanded": "true",
+    "glyph": "/agent-hub/assets/snb/folder-16.svg",
+    "children": 3,
+    "childPadding": "36px",
+    "disclosureDuration": "0.25s"
+  },
+  "projectClosed": {
+    "expanded": "false",
+    "glyph": "common-folder-closed"
+  },
+  "header": {
+    "shortcut": "0.2s, 0.2s, 0.2s, 0.2s",
+    "notification": "0.2s, 0.2s, 0.2s, 0.2s",
+    "nav": "0.2s, 0.2s, 0.2s, 0.2s",
+    "navGlyph": "opacity"
+  }
+}

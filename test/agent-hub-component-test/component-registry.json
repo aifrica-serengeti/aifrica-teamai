@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "scope": "guide-only React component lab; not production adoption",
+  "components": [
+    {
+      "id": "AgentHubIcon",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubIcon",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubIcon/README.md"
+    },
+    {
+      "id": "AgentHubFileIcon",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubFileIcon",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubFileIcon/README.md"
+    },
+    {
+      "id": "AgentHubBrandMark",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubBrandMark",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubBrandMark/README.md"
+    },
+    {
+      "id": "AgentHubAgentTypeChip",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubAgentTypeChip",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubAgentTypeChip/README.md"
+    },
+    {
+      "id": "AgentHubButton",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubButton",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubButton/README.md"
+    },
+    {
+      "id": "AgentHubIconButton",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubIconButton",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubIconButton/README.md"
+    },
+    {
+      "id": "AgentHubAttachIconButton",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubAttachIconButton",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubAttachIconButton/README.md"
+    },
+    {
+      "id": "AgentHubSwitch",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubSwitch",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSwitch/README.md"
+    },
+    {
+      "id": "AgentHubTextButton",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubTextButton",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubTextButton/README.md"
+    },
+    {
+      "id": "AgentHubCalendar",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubCalendar",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubCalendar/README.md"
+    },
+    {
+      "id": "AgentHubCalendarDate",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubCalendarDate",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubCalendarDate/README.md"
+    },
+    {
+      "id": "AgentHubSearch",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubSearch",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSearch/README.md"
+    },
+    {
+      "id": "AgentHubPillChip",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubPillChip",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubPillChip/README.md"
+    },
+    {
+      "id": "AgentHubFilterChip",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubFilterChip",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubFilterChip/README.md"
+    },
+    {
+      "id": "AgentHubFilterChipGroup",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubFilterChipGroup",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubFilterChipGroup/README.md"
+    },
+    {
+      "id": "AgentHubCheckbox",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubCheckbox",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubCheckbox/README.md"
+    },
+    {
+      "id": "AgentHubBreadcrumb",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubBreadcrumb",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubBreadcrumb/README.md"
+    },
+    {
+      "id": "AgentHubBreadcrumbSeparator",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubBreadcrumbSeparator",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubBreadcrumbSeparator/README.md"
+    },
+    {
+      "id": "AgentHubChatComposer",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubChatComposer",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubChatComposer/README.md"
+    },
+    {
+      "id": "AgentHubUserMessage",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubUserMessage",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubUserMessage/README.md"
+    },
+    {
+      "id": "AgentHubProgressAlert",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubProgressAlert",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubProgressAlert/README.md"
+    },
+    {
+      "id": "AgentHubMessageExample",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubMessageExample",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubMessageExample/README.md"
+    },
+    {
+      "id": "AgentHubPickerItem",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubPickerItem",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubPickerItem/README.md"
+    },
+    {
+      "id": "AgentHubPickerFooter",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubPickerFooter",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubPickerFooter/README.md"
+    },
+    {
+      "id": "AgentHubPicker",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubPicker",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubPicker/README.md"
+    },
+    {
+      "id": "AgentHubMenuItem",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubMenuItem",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubMenuItem/README.md"
+    },
+    {
+      "id": "AgentHubMenu",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubMenu",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubMenu/README.md"
+    },
+    {
+      "id": "AgentHubFlyoutHeader",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFlyoutHeader",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubFlyoutHeader/README.md"
+    },
+    {
+      "id": "AgentHubFlyoutFooter",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFlyoutFooter",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubFlyoutFooter/README.md"
+    },
+    {
+      "id": "AgentHubFlyoutItem",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFlyoutItem",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubFlyoutItem/README.md"
+    },
+    {
+      "id": "AgentHubFlyout",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFlyout",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubFlyout/README.md"
+    },
+    {
+      "id": "AgentHubSessionItem",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionItem",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSessionItem/README.md"
+    },
+    {
+      "id": "AgentHubSessionProgressStep",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionProgressStep",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSessionProgressStep/README.md"
+    },
+    {
+      "id": "AgentHubSessionContextItem",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionContextItem",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSessionContextItem/README.md"
+    },
+    {
+      "id": "AgentHubSessionSectionHeader",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionSectionHeader",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSessionSectionHeader/README.md"
+    },
+    {
+      "id": "AgentHubSessionHistoryItem",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionHistoryItem",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSessionHistoryItem/README.md"
+    },
+    {
+      "id": "AgentHubSessionPanel",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionPanel",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSessionPanel/README.md"
+    },
+    {
+      "id": "AgentHubOutputViewer",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubOutputViewer",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubOutputViewer/README.md"
+    },
+    {
+      "id": "AgentHubFileItem",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFileItem",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubFileItem/README.md"
+    },
+    {
+      "id": "AgentHubDataCard",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubDataCard",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubDataCard/README.md"
+    },
+    {
+      "id": "AgentHubThumbnailCard",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubThumbnailCard",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubThumbnailCard/README.md"
+    },
+    {
+      "id": "AgentHubScheduleCard",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubScheduleCard",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubScheduleCard/README.md"
+    },
+    {
+      "id": "AgentHubItemCard",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubItemCard",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubItemCard/README.md"
+    },
+    {
+      "id": "AgentHubScrollbar",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubScrollbar",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubScrollbar/README.md"
+    },
+    {
+      "id": "AgentHubDialogFooter",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubDialogFooter",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubDialogFooter/README.md"
+    },
+    {
+      "id": "AgentHubNavIcon",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubNavIcon",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubNavIcon/README.md"
+    },
+    {
+      "id": "AgentHubNavItem",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubNavItem",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubNavItem/README.md"
+    },
+    {
+      "id": "AgentHubNavRail",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubNavRail",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubNavRail/README.md"
+    },
+    {
+      "id": "AgentHubSNBSectionHeader",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubSNBSectionHeader",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSNBSectionHeader/README.md"
+    },
+    {
+      "id": "AgentHubSNBItem",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubSNBItem",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSNBItem/README.md"
+    },
+    {
+      "id": "AgentHubSNBPanel",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubSNBPanel",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSNBPanel/README.md"
+    },
+    {
+      "id": "AgentHubSNB",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubSNB",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSNB/README.md"
+    },
+    {
+      "id": "AgentHubGlobalHeader",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubGlobalHeader",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubGlobalHeader/README.md"
+    },
+    {
+      "id": "AgentHubChatHeader",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubChatHeader",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubChatHeader/README.md"
+    },
+    {
+      "id": "AgentHubDialog",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubDialog",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubDialog/README.md"
+    },
+    {
+      "id": "AgentHubThinkingStatus",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubThinkingStatus",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubThinkingStatus/README.md"
+    },
+    {
+      "id": "AgentHubInput",
+      "source": "src/components/forms.tsx",
+      "export": "AgentHubInput",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubInput/README.md"
+    },
+    {
+      "id": "AgentHubTextarea",
+      "source": "src/components/forms.tsx",
+      "export": "AgentHubTextarea",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubTextarea/README.md"
+    },
+    {
+      "id": "AgentHubSelect",
+      "source": "src/components/forms.tsx",
+      "export": "AgentHubSelect",
+      "guide": ".teamai/docs/agent-hub/design/components/AgentHubSelect/README.md"
+    }
+  ],
+  "commonAdapters": [
+    {
+      "contract": "Input",
+      "source": "src/components/common/controls.tsx",
+      "export": "InputControl",
+      "status": "partial-contract",
+      "scope": "Native single-line control, focus owner, required/invalid/readOnly/disabled; no full Input field API"
+    },
+    {
+      "contract": "Textarea",
+      "source": "src/components/common/controls.tsx",
+      "export": "TextareaControl",
+      "status": "partial-contract",
+      "scope": "Native multiline control, IME/focus/state; toolbar and solution geometry are adapters"
+    },
+    {
+      "contract": "Select",
+      "source": "src/components/common/Select.tsx",
+      "export": "SingleSelect",
+      "status": "partial-contract",
+      "scope": "Single selection, keyboard, cancel/focus, popup150ms/scroll; no search or multi-select"
+    },
+    {
+      "contract": "Scrollbar",
+      "source": "src/components/common/ScrollArea.tsx",
+      "export": "ScrollArea",
+      "status": "partial-contract",
+      "scope": "One native viewport with measured bars, pointer/wheel/keyboard/resize; not every public baseline prop"
+    }
+  ]
+}

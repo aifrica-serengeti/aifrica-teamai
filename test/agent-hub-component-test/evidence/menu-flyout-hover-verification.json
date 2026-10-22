@@ -1,0 +1,12 @@
+{
+  "flyout": {
+    "middle": "rgba(248, 248, 248, 0.804)",
+    "duration": 200,
+    "final": "rgb(248, 248, 248)"
+  },
+  "menu": {
+    "middle": "rgba(248, 248, 248, 0.804)",
+    "duration": 200,
+    "final": "rgb(248, 248, 248)"
+  }
+}

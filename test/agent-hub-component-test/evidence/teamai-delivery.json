@@ -1,0 +1,52 @@
+{
+  "cliVersion": "0.27.0",
+  "source": "current aifrica-teamai checkout, delivered through isolated Git snapshot",
+  "snapshotCommit": "9f92cc17270746eca11282ad05cd39081d5f3c0e",
+  "role": "frontend-common",
+  "project": "agent-hub",
+  "namespaces": [
+    {
+      "namespace": "common",
+      "files": 10,
+      "byteExact": true
+    },
+    {
+      "namespace": "frontend",
+      "files": 546,
+      "byteExact": true
+    },
+    {
+      "namespace": "agent-hub",
+      "files": 848,
+      "byteExact": true
+    }
+  ],
+  "actualSelection": {
+    "primaryRole": "frontend-common",
+    "additionalRoles": [],
+    "projects": [
+      "agent-hub"
+    ],
+    "verifiedFrom": "/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/agent-hub-component-cli-T0F6nm/home/.teamai/projects/private-var-folders-z9-556rb8p56sn7kfzn2x3rqh840000gn-t-agent-hub-component-cli-t0f6nm-consumer.git-bce28e2f97566feb/config.yaml"
+  },
+  "skills": {
+    ".codex": [
+      "aifrica-design-system",
+      "aifrica-frontend-architecture-refactor",
+      "aifrica-frontend-docs",
+      "aifrica-frontend-github-workflow",
+      "aifrica-frontend-workflow",
+      "aifrica-page-patterns",
+      "aifrica-ui-architecture-design"
+    ],
+    ".claude": [
+      "aifrica-design-system",
+      "aifrica-frontend-architecture-refactor",
+      "aifrica-frontend-docs",
+      "aifrica-frontend-github-workflow",
+      "aifrica-frontend-workflow",
+      "aifrica-page-patterns",
+      "aifrica-ui-architecture-design"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[data-text-revealing="true"] {
+  /* A soft edge sweeps left→right; the original text and layout never move. */
+  mask-image: linear-gradient(90deg, #000 0 40%, transparent 60% 100%);
+  mask-size: var(--ah-text-reveal-mask-size, 250% 100%);
+  mask-repeat: no-repeat;
+  mask-position: 0% 0;
+}
+@media (prefers-reduced-motion: reduce), (forced-colors: active), print {
+  [data-text-revealing="true"] {
+    mask-image: none !important;
+  }
+}

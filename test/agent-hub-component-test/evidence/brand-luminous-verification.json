@@ -1,0 +1,236 @@
+{
+  "structure": {
+    "uniqueIds": true,
+    "ids": 66,
+    "instances": [
+      {
+        "size": 180,
+        "hostAnimation": "none",
+        "svgAnimation": "none",
+        "role": "img",
+        "label": "움직이는 Agent Hub 마크 180px",
+        "hiddenSvg": "true",
+        "compact": "full",
+        "rimVisible": "inline",
+        "unresolved": [],
+        "ellipses": [
+          {
+            "rx": "76",
+            "ry": "40",
+            "angle": "rotate(-60 100 99)"
+          },
+          {
+            "rx": "76",
+            "ry": "40",
+            "angle": "rotate(60 100 99)"
+          },
+          {
+            "rx": "76",
+            "ry": "40",
+            "angle": null
+          }
+        ],
+        "animationCount": 9
+      },
+      {
+        "size": 96,
+        "hostAnimation": "none",
+        "svgAnimation": "none",
+        "role": "img",
+        "label": "움직이는 Agent Hub 마크 96px",
+        "hiddenSvg": "true",
+        "compact": "full",
+        "rimVisible": "inline",
+        "unresolved": [],
+        "ellipses": [
+          {
+            "rx": "76",
+            "ry": "40",
+            "angle": "rotate(-60 100 99)"
+          },
+          {
+            "rx": "76",
+            "ry": "40",
+            "angle": "rotate(60 100 99)"
+          },
+          {
+            "rx": "76",
+            "ry": "40",
+            "angle": null
+          }
+        ],
+        "animationCount": 9
+      },
+      {
+        "size": 32,
+        "hostAnimation": "none",
+        "svgAnimation": "none",
+        "role": "img",
+        "label": "움직이는 Agent Hub 마크 32px",
+        "hiddenSvg": "true",
+        "compact": "compact",
+        "rimVisible": "none",
+        "unresolved": [],
+        "ellipses": [
+          {
+            "rx": "76",
+            "ry": "40",
+            "angle": "rotate(-60 100 99)"
+          },
+          {
+            "rx": "76",
+            "ry": "40",
+            "angle": "rotate(60 100 99)"
+          },
+          {
+            "rx": "76",
+            "ry": "40",
+            "angle": null
+          }
+        ],
+        "animationCount": 6
+      }
+    ]
+  },
+  "pause": {
+    "animations": 24,
+    "allPaused": true,
+    "framesHeld": true
+  },
+  "resume": true,
+  "offscreen": true,
+  "prefers-reduced-motion": [
+    {
+      "size": 180,
+      "vector": "none",
+      "png": "visible",
+      "animations": 0,
+      "label": "움직이는 Agent Hub 마크 180px"
+    },
+    {
+      "size": 96,
+      "vector": "none",
+      "png": "visible",
+      "animations": 0,
+      "label": "움직이는 Agent Hub 마크 96px"
+    },
+    {
+      "size": 32,
+      "vector": "none",
+      "png": "visible",
+      "animations": 0,
+      "label": "움직이는 Agent Hub 마크 32px"
+    }
+  ],
+  "forced-colors": [
+    {
+      "size": 180,
+      "vector": "none",
+      "png": "visible",
+      "animations": 0,
+      "label": "움직이는 Agent Hub 마크 180px"
+    },
+    {
+      "size": 96,
+      "vector": "none",
+      "png": "visible",
+      "animations": 0,
+      "label": "움직이는 Agent Hub 마크 96px"
+    },
+    {
+      "size": 32,
+      "vector": "none",
+      "png": "visible",
+      "animations": 0,
+      "label": "움직이는 Agent Hub 마크 32px"
+    }
+  ],
+  "print": [
+    {
+      "size": 180,
+      "vector": "none",
+      "png": "visible",
+      "animations": 0,
+      "label": "움직이는 Agent Hub 마크 180px"
+    },
+    {
+      "size": 96,
+      "vector": "none",
+      "png": "visible",
+      "animations": 0,
+      "label": "움직이는 Agent Hub 마크 96px"
+    },
+    {
+      "size": 32,
+      "vector": "none",
+      "png": "visible",
+      "animations": 0,
+      "label": "움직이는 Agent Hub 마크 32px"
+    }
+  ],
+  "loop": [
+    {
+      "name": "ah-brand-precession",
+      "period": 13600,
+      "direction": "normal",
+      "start": "matrix(1.00166, 0.0123847, -0.0123847, 1.00166, 0, 0)",
+      "end": "matrix(1.00166, 0.0123847, -0.0123847, 1.00166, 0, 0)"
+    },
+    {
+      "name": "ah-brand-light-turn",
+      "period": 11200,
+      "direction": "reverse",
+      "start": "matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)",
+      "end": "matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)"
+    },
+    {
+      "name": "ah-brand-rim-travel",
+      "period": 11200,
+      "direction": "reverse",
+      "start": "-315px",
+      "end": "-315px"
+    },
+    {
+      "name": "ah-brand-precession",
+      "period": 10400,
+      "direction": "normal",
+      "start": "matrix(1.00344, 0.0850348, -0.0850348, 1.00344, 0, 0)",
+      "end": "matrix(1.00344, 0.0850348, -0.0850348, 1.00344, 0, 0)"
+    },
+    {
+      "name": "ah-brand-light-turn",
+      "period": 8400,
+      "direction": "normal",
+      "start": "matrix(-1, 0, 0, -1, 0, 0)",
+      "end": "matrix(-1, 0, 0, -1, 0, 0)"
+    },
+    {
+      "name": "ah-brand-rim-travel",
+      "period": 8400,
+      "direction": "normal",
+      "start": "-180px",
+      "end": "-180px"
+    },
+    {
+      "name": "ah-brand-precession",
+      "period": 9200,
+      "direction": "normal",
+      "start": "matrix(1.00304, 0.00655379, -0.00655379, 1.00304, 0, 0)",
+      "end": "matrix(1.00304, 0.00655379, -0.00655379, 1.00304, 0, 0)"
+    },
+    {
+      "name": "ah-brand-light-turn",
+      "period": 6800,
+      "direction": "normal",
+      "start": "matrix(0, 1, -1, 0, 0, 0)",
+      "end": "matrix(0, 1, -1, 0, 0, 0)"
+    },
+    {
+      "name": "ah-brand-rim-travel",
+      "period": 6800,
+      "direction": "normal",
+      "start": "-90px",
+      "end": "-90px"
+    }
+  ]
+}

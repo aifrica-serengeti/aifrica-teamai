@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "status": "figma-reference",
+  "verifiedAt": "2026-10-21",
+  "method": "Read-only Figma Plugin API exportAsync SVG_STRING of original Mark nodes; no canvas mutation or path editing. Native SVG dimensions include export rounding; positions include half-stroke render bounds.",
+  "assets": [
+    {
+      "size": "medium",
+      "kind": "indeterminate",
+      "sourceNodeId": "3074:98898",
+      "path": "assets/checkbox/marks/indeterminate-medium.svg",
+      "x": 3.5,
+      "y": 7.5,
+      "width": 9,
+      "height": 1,
+      "bytes": 186,
+      "sha256": "21396eee91664b7c2a05d1ea425a94ca1d8277b535038073a237c194e47e4379"
+    },
+    {
+      "size": "medium",
+      "kind": "checked",
+      "sourceNodeId": "3074:98904",
+      "path": "assets/checkbox/marks/checked-medium.svg",
+      "x": 3.5,
+      "y": 4.5,
+      "width": 9,
+      "height": 7,
+      "bytes": 194,
+      "sha256": "716c43106ad00f621881d23c8edcb26cde92f5a92f43dc067386badfe5959ab4"
+    },
+    {
+      "size": "small",
+      "kind": "indeterminate",
+      "sourceNodeId": "3074:98914",
+      "path": "assets/checkbox/marks/indeterminate-small.svg",
+      "x": 2.5,
+      "y": 5.5,
+      "width": 7,
+      "height": 1,
+      "bytes": 186,
+      "sha256": "18fdaca3be2a4a6a6bb81402757922b190a6fa79d18114cc0bf88bedd6fca297"
+    },
+    {
+      "size": "small",
+      "kind": "checked",
+      "sourceNodeId": "3074:98920",
+      "path": "assets/checkbox/marks/checked-small.svg",
+      "x": 2.5,
+      "y": 3.25,
+      "width": 7,
+      "height": 6,
+      "bytes": 203,
+      "sha256": "7aae4125dd4e578596a80c3630483e2add4a3564566e2eca7ad14979a83a2224"
+    },
+    {
+      "size": "large",
+      "kind": "indeterminate",
+      "sourceNodeId": "3183:23",
+      "path": "assets/checkbox/marks/indeterminate-large.svg",
+      "x": 4.5,
+      "y": 9.5,
+      "width": 11,
+      "height": 1,
+      "bytes": 189,
+      "sha256": "a64e4281b0106a33bd3f201f0f42ee6722ad83d09cd67a309d936e2910d5ffae"
+    },
+    {
+      "size": "large",
+      "kind": "checked",
+      "sourceNodeId": "3183:29",
+      "path": "assets/checkbox/marks/checked-large.svg",
+      "x": 4.5,
+      "y": 5.75,
+      "width": 11,
+      "height": 8,
+      "bytes": 206,
+      "sha256": "38e57439a8cc12eea6ed53f439f051a4653595e83922b8395cbacca5ef2d4120"
+    }
+  ],
+  "fileKey": "cUKHT2PdHjAKRXZlzulnO5"
+}

@@ -1,0 +1,45 @@
+{
+  "before": {
+    "border": "1px solid rgb(221, 221, 221)",
+    "shadow": "rgba(9, 30, 66, 0.12) 0px 0px 1px 0px, rgba(9, 30, 66, 0.16) 0px 0px 8px 0px",
+    "height": 58
+  },
+  "pointer": {
+    "focused": true,
+    "innerOutline": "none",
+    "innerShadow": "none",
+    "outerOutline": "none",
+    "border": "1px solid rgb(221, 221, 221)",
+    "shadow": "rgba(9, 30, 66, 0.12) 0px 0px 1px 0px, rgba(9, 30, 66, 0.16) 0px 0px 8px 0px",
+    "height": 58,
+    "caret": "rgb(28, 28, 28)"
+  },
+  "keyboard": {
+    "focused": true,
+    "focusVisible": true,
+    "innerOutline": "none",
+    "outerOutline": "none",
+    "value": "focus 검증 메시지"
+  },
+  "buttons": {
+    "attach": {
+      "label": "파일 첨부",
+      "visible": true,
+      "outline": "solid",
+      "width": "1px"
+    },
+    "send": {
+      "label": "메시지 전송",
+      "visible": true,
+      "outline": "solid",
+      "width": "1px"
+    },
+    "project": {
+      "label": "Serengeti AI",
+      "visible": true,
+      "outline": "solid",
+      "width": "1px"
+    }
+  },
+  "pass": true
+}

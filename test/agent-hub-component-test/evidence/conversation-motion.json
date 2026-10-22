@@ -1,0 +1,83 @@
+{
+  "band": [
+    {
+      "time": 0,
+      "position": "-25%",
+      "size": "20% 100%",
+      "opacity": "1"
+    },
+    {
+      "time": 900,
+      "position": "50%",
+      "size": "20% 100%",
+      "opacity": "1"
+    },
+    {
+      "time": 1799,
+      "position": "124.917%",
+      "size": "20% 100%",
+      "opacity": "1"
+    }
+  ],
+  "wave": [
+    {
+      "time": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "opacity": "0.6",
+      "image": {
+        "x": 349.5,
+        "y": 1093.875,
+        "width": 20,
+        "height": 20,
+        "top": 1093.875,
+        "right": 369.5,
+        "bottom": 1113.875,
+        "left": 349.5
+      }
+    },
+    {
+      "time": 800,
+      "transform": "matrix(1.41079, 0, 0, 1.41079, 0, 0)",
+      "opacity": "0.189214",
+      "image": {
+        "x": 349.5,
+        "y": 1093.875,
+        "width": 20,
+        "height": 20,
+        "top": 1093.875,
+        "right": 369.5,
+        "bottom": 1113.875,
+        "left": 349.5
+      }
+    },
+    {
+      "time": 1599,
+      "transform": "matrix(1.6, 0, 0, 1.6, 0, 0)",
+      "opacity": "4.42572e-07",
+      "image": {
+        "x": 349.5,
+        "y": 1093.875,
+        "width": 20,
+        "height": 20,
+        "top": 1093.875,
+        "right": 369.5,
+        "bottom": 1113.875,
+        "left": 349.5
+      }
+    }
+  ],
+  "baseUnchanged": true,
+  "textOpacity": "0.69",
+  "imageRect": {
+    "x": 349.5,
+    "y": 1093.875,
+    "width": 20,
+    "height": 20,
+    "top": 1093.875,
+    "right": 369.5,
+    "bottom": 1113.875,
+    "left": 349.5
+  },
+  "glyphTransform": "none",
+  "logoAnimation": "none"
+}

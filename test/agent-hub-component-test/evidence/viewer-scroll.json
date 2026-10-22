@@ -1,0 +1,26 @@
+{
+  "before": {
+    "x": 329.5,
+    "y": 166.875,
+    "width": 540,
+    "height": 34,
+    "top": 166.875,
+    "right": 869.5,
+    "bottom": 200.875,
+    "left": 329.5
+  },
+  "top": 990,
+  "height": 493,
+  "total": 1483,
+  "header": {
+    "x": 329.5,
+    "y": 166.875,
+    "width": 540,
+    "height": 34,
+    "top": 166.875,
+    "right": 869.5,
+    "bottom": 200.875,
+    "left": 329.5
+  },
+  "focus": "common-scroll-viewport "
+}

@@ -1,0 +1,578 @@
+{
+  "geometry": {
+    "hostSizes": [
+      [
+        180,
+        180
+      ],
+      [
+        96,
+        96
+      ],
+      [
+        32,
+        32
+      ]
+    ],
+    "layers": [
+      [
+        {
+          "id": "purple",
+          "ellipse": "<ellipse cx=\"100\" cy=\"99\" rx=\"76\" ry=\"40\" transform=\"rotate(-60 100 99)\" fill=\"url(#ah-_r_0_-layered-purple)\" mask=\"url(#ah-_r_0_-layered-soft-ends)\"></ellipse>",
+          "duration": "7.3s"
+        },
+        {
+          "id": "green",
+          "ellipse": "<ellipse cx=\"100\" cy=\"99\" rx=\"76\" ry=\"40\" transform=\"rotate(60 100 99)\" fill=\"url(#ah-_r_0_-layered-green)\"></ellipse>",
+          "duration": "6.1s"
+        },
+        {
+          "id": "blue",
+          "ellipse": "<ellipse cx=\"100\" cy=\"97\" rx=\"76\" ry=\"40\" fill=\"url(#ah-_r_0_-layered-blue)\"></ellipse>",
+          "duration": "5.3s"
+        }
+      ],
+      [
+        {
+          "id": "purple",
+          "ellipse": "<ellipse cx=\"100\" cy=\"99\" rx=\"76\" ry=\"40\" transform=\"rotate(-60 100 99)\" fill=\"url(#ah-_r_1_-layered-purple)\" mask=\"url(#ah-_r_1_-layered-soft-ends)\"></ellipse>",
+          "duration": "7.3s"
+        },
+        {
+          "id": "green",
+          "ellipse": "<ellipse cx=\"100\" cy=\"99\" rx=\"76\" ry=\"40\" transform=\"rotate(60 100 99)\" fill=\"url(#ah-_r_1_-layered-green)\"></ellipse>",
+          "duration": "6.1s"
+        },
+        {
+          "id": "blue",
+          "ellipse": "<ellipse cx=\"100\" cy=\"97\" rx=\"76\" ry=\"40\" fill=\"url(#ah-_r_1_-layered-blue)\"></ellipse>",
+          "duration": "5.3s"
+        }
+      ],
+      [
+        {
+          "id": "purple",
+          "ellipse": "<ellipse cx=\"100\" cy=\"99\" rx=\"76\" ry=\"40\" transform=\"rotate(-60 100 99)\" fill=\"url(#ah-_r_2_-layered-purple)\" mask=\"url(#ah-_r_2_-layered-soft-ends)\"></ellipse>",
+          "duration": "7.3s"
+        },
+        {
+          "id": "green",
+          "ellipse": "<ellipse cx=\"100\" cy=\"99\" rx=\"76\" ry=\"40\" transform=\"rotate(60 100 99)\" fill=\"url(#ah-_r_2_-layered-green)\"></ellipse>",
+          "duration": "6.1s"
+        },
+        {
+          "id": "blue",
+          "ellipse": "<ellipse cx=\"100\" cy=\"97\" rx=\"76\" ry=\"40\" fill=\"url(#ah-_r_2_-layered-blue)\"></ellipse>",
+          "duration": "5.3s"
+        }
+      ]
+    ],
+    "idsUnique": true,
+    "canvasCount": 0
+  },
+  "frames": [
+    {
+      "ms": 0,
+      "transforms": [
+        {
+          "id": "purple",
+          "matrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "dot": 0
+        },
+        {
+          "id": "green",
+          "matrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "dot": 0
+        },
+        {
+          "id": "blue",
+          "matrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "dot": 0
+        },
+        {
+          "id": "purple",
+          "matrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "dot": 0
+        },
+        {
+          "id": "green",
+          "matrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "dot": 0
+        },
+        {
+          "id": "blue",
+          "matrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "dot": 0
+        },
+        {
+          "id": "purple",
+          "matrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "dot": 0
+        },
+        {
+          "id": "green",
+          "matrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "dot": 0
+        },
+        {
+          "id": "blue",
+          "matrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "dot": 0
+        }
+      ],
+      "screenshot": "brand-vector-0.png"
+    },
+    {
+      "ms": 1900,
+      "transforms": [
+        {
+          "id": "purple",
+          "matrix": [
+            0.992726,
+            0.0719441,
+            -0.0719441,
+            0.992726,
+            0.405005,
+            -0.514505
+          ],
+          "angle": 4.145050519176255,
+          "scaleX": 0.995329525635008,
+          "scaleY": 0.995329525635008,
+          "dot": 0
+        },
+        {
+          "id": "green",
+          "matrix": [
+            1.00736,
+            -0.0128796,
+            0.0128796,
+            1.00736,
+            0.162414,
+            -0.508916
+          ],
+          "angle": -0.7325152033977071,
+          "scaleX": 1.0074423326901447,
+          "scaleY": 1.0074423326901447,
+          "dot": 0
+        },
+        {
+          "id": "blue",
+          "matrix": [
+            1.00124,
+            -0.00461182,
+            0.00461182,
+            1.00124,
+            -0.0955726,
+            0.183542
+          ],
+          "angle": -0.2639087063913262,
+          "scaleX": 1.0012506212151442,
+          "scaleY": 1.0012506212151442,
+          "dot": 0
+        },
+        {
+          "id": "purple",
+          "matrix": [
+            0.992726,
+            0.0719441,
+            -0.0719441,
+            0.992726,
+            0.405005,
+            -0.514505
+          ],
+          "angle": 4.145050519176255,
+          "scaleX": 0.995329525635008,
+          "scaleY": 0.995329525635008,
+          "dot": 0
+        },
+        {
+          "id": "green",
+          "matrix": [
+            1.00736,
+            -0.0128796,
+            0.0128796,
+            1.00736,
+            0.162414,
+            -0.508916
+          ],
+          "angle": -0.7325152033977071,
+          "scaleX": 1.0074423326901447,
+          "scaleY": 1.0074423326901447,
+          "dot": 0
+        },
+        {
+          "id": "blue",
+          "matrix": [
+            1.00124,
+            -0.00461182,
+            0.00461182,
+            1.00124,
+            -0.0955726,
+            0.183542
+          ],
+          "angle": -0.2639087063913262,
+          "scaleX": 1.0012506212151442,
+          "scaleY": 1.0012506212151442,
+          "dot": 0
+        },
+        {
+          "id": "purple",
+          "matrix": [
+            0.992726,
+            0.0719441,
+            -0.0719441,
+            0.992726,
+            0.405005,
+            -0.514505
+          ],
+          "angle": 4.145050519176255,
+          "scaleX": 0.995329525635008,
+          "scaleY": 0.995329525635008,
+          "dot": 0
+        },
+        {
+          "id": "green",
+          "matrix": [
+            1.00736,
+            -0.0128796,
+            0.0128796,
+            1.00736,
+            0.162414,
+            -0.508916
+          ],
+          "angle": -0.7325152033977071,
+          "scaleX": 1.0074423326901447,
+          "scaleY": 1.0074423326901447,
+          "dot": 0
+        },
+        {
+          "id": "blue",
+          "matrix": [
+            1.00124,
+            -0.00461182,
+            0.00461182,
+            1.00124,
+            -0.0955726,
+            0.183542
+          ],
+          "angle": -0.2639087063913262,
+          "scaleX": 1.0012506212151442,
+          "scaleY": 1.0012506212151442,
+          "dot": 0
+        }
+      ],
+      "screenshot": "brand-vector-1900.png"
+    },
+    {
+      "ms": 4000,
+      "transforms": [
+        {
+          "id": "purple",
+          "matrix": [
+            1.0074,
+            -0.0504581,
+            0.0504581,
+            1.0074,
+            -0.300129,
+            0.349968
+          ],
+          "angle": -2.8674033879885674,
+          "scaleX": 1.0086628672929374,
+          "scaleY": 1.0086628672929374,
+          "dot": 0
+        },
+        {
+          "id": "green",
+          "matrix": [
+            0.98804,
+            0.0684475,
+            -0.0684475,
+            0.98804,
+            0.211132,
+            0.67588
+          ],
+          "angle": 3.962893356793574,
+          "scaleX": 0.9904080481580559,
+          "scaleY": 0.9904080481580559,
+          "dot": 0
+        },
+        {
+          "id": "blue",
+          "matrix": [
+            1.00259,
+            -0.0518383,
+            0.0518383,
+            1.00259,
+            0.39263,
+            -0.49866
+          ],
+          "angle": -2.959807429887008,
+          "scaleX": 1.0039292392628525,
+          "scaleY": 1.0039292392628525,
+          "dot": 0
+        },
+        {
+          "id": "purple",
+          "matrix": [
+            1.0074,
+            -0.0504581,
+            0.0504581,
+            1.0074,
+            -0.300129,
+            0.349968
+          ],
+          "angle": -2.8674033879885674,
+          "scaleX": 1.0086628672929374,
+          "scaleY": 1.0086628672929374,
+          "dot": 0
+        },
+        {
+          "id": "green",
+          "matrix": [
+            0.98804,
+            0.0684475,
+            -0.0684475,
+            0.98804,
+            0.211132,
+            0.67588
+          ],
+          "angle": 3.962893356793574,
+          "scaleX": 0.9904080481580559,
+          "scaleY": 0.9904080481580559,
+          "dot": 0
+        },
+        {
+          "id": "blue",
+          "matrix": [
+            1.00259,
+            -0.0518383,
+            0.0518383,
+            1.00259,
+            0.39263,
+            -0.49866
+          ],
+          "angle": -2.959807429887008,
+          "scaleX": 1.0039292392628525,
+          "scaleY": 1.0039292392628525,
+          "dot": 0
+        },
+        {
+          "id": "purple",
+          "matrix": [
+            1.0074,
+            -0.0504581,
+            0.0504581,
+            1.0074,
+            -0.300129,
+            0.349968
+          ],
+          "angle": -2.8674033879885674,
+          "scaleX": 1.0086628672929374,
+          "scaleY": 1.0086628672929374,
+          "dot": 0
+        },
+        {
+          "id": "green",
+          "matrix": [
+            0.98804,
+            0.0684475,
+            -0.0684475,
+            0.98804,
+            0.211132,
+            0.67588
+          ],
+          "angle": 3.962893356793574,
+          "scaleX": 0.9904080481580559,
+          "scaleY": 0.9904080481580559,
+          "dot": 0
+        },
+        {
+          "id": "blue",
+          "matrix": [
+            1.00259,
+            -0.0518383,
+            0.0518383,
+            1.00259,
+            0.39263,
+            -0.49866
+          ],
+          "angle": -2.959807429887008,
+          "scaleX": 1.0039292392628525,
+          "scaleY": 1.0039292392628525,
+          "dot": 0
+        }
+      ],
+      "screenshot": "brand-vector-4000.png"
+    }
+  ],
+  "pausedFrameHeld": true,
+  "resumed": true,
+  "media": [
+    {
+      "kind": "reduce",
+      "states": [
+        {
+          "pngVisible": true,
+          "vectorHidden": true,
+          "animations": 0,
+          "png": "/agent-hub/assets/brand/agent-hub-mark.png"
+        },
+        {
+          "pngVisible": true,
+          "vectorHidden": true,
+          "animations": 0,
+          "png": "/agent-hub/assets/brand/agent-hub-mark.png"
+        },
+        {
+          "pngVisible": true,
+          "vectorHidden": true,
+          "animations": 0,
+          "png": "/agent-hub/assets/brand/agent-hub-mark.png"
+        }
+      ]
+    },
+    {
+      "kind": "forced",
+      "states": [
+        {
+          "pngVisible": true,
+          "vectorHidden": true,
+          "animations": 0,
+          "png": "/agent-hub/assets/brand/agent-hub-mark.png"
+        },
+        {
+          "pngVisible": true,
+          "vectorHidden": true,
+          "animations": 0,
+          "png": "/agent-hub/assets/brand/agent-hub-mark.png"
+        },
+        {
+          "pngVisible": true,
+          "vectorHidden": true,
+          "animations": 0,
+          "png": "/agent-hub/assets/brand/agent-hub-mark.png"
+        }
+      ]
+    },
+    {
+      "kind": "print",
+      "states": [
+        {
+          "pngVisible": true,
+          "vectorHidden": true,
+          "animations": 0,
+          "png": "/agent-hub/assets/brand/agent-hub-mark.png"
+        },
+        {
+          "pngVisible": true,
+          "vectorHidden": true,
+          "animations": 0,
+          "png": "/agent-hub/assets/brand/agent-hub-mark.png"
+        },
+        {
+          "pngVisible": true,
+          "vectorHidden": true,
+          "animations": 0,
+          "png": "/agent-hub/assets/brand/agent-hub-mark.png"
+        }
+      ]
+    }
+  ],
+  "offscreenFrameHeld": true,
+  "unmountRemovedAnimations": true,
+  "comparison": {
+    "comparison": "200px white-surface numerical difference; approximation, not a Figma equality claim",
+    "rgbRMSE": 11.440302959267646,
+    "silhouetteIoUAtAlphaPoint2": 0.9070192154994442
+  }
+}

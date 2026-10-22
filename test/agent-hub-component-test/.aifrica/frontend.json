@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "inheritCommon": true,
+  "status": "draft",
+  "paths": {
+    "architecture": "ARCHITECTURE.md",
+    "componentRegistry": "component-registry.json",
+    "designTokens": "src/styles.css"
+  },
+  "components": {
+    "AgentHubIcon": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubIcon"
+    },
+    "AgentHubFileIcon": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubFileIcon"
+    },
+    "AgentHubBrandMark": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubBrandMark"
+    },
+    "AgentHubAgentTypeChip": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubAgentTypeChip"
+    },
+    "AgentHubButton": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubButton"
+    },
+    "AgentHubIconButton": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubIconButton"
+    },
+    "AgentHubAttachIconButton": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubAttachIconButton"
+    },
+    "AgentHubSwitch": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubSwitch"
+    },
+    "AgentHubTextButton": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubTextButton"
+    },
+    "AgentHubCalendar": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubCalendar"
+    },
+    "AgentHubCalendarDate": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubCalendarDate"
+    },
+    "AgentHubSearch": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubSearch"
+    },
+    "AgentHubPillChip": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubPillChip"
+    },
+    "AgentHubFilterChip": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubFilterChip"
+    },
+    "AgentHubFilterChipGroup": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubFilterChipGroup"
+    },
+    "AgentHubCheckbox": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubCheckbox"
+    },
+    "AgentHubBreadcrumb": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubBreadcrumb"
+    },
+    "AgentHubBreadcrumbSeparator": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubBreadcrumbSeparator"
+    },
+    "AgentHubChatComposer": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubChatComposer"
+    },
+    "AgentHubUserMessage": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubUserMessage"
+    },
+    "AgentHubProgressAlert": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubProgressAlert"
+    },
+    "AgentHubMessageExample": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubMessageExample"
+    },
+    "AgentHubPickerItem": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubPickerItem"
+    },
+    "AgentHubPickerFooter": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubPickerFooter"
+    },
+    "AgentHubPicker": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubPicker"
+    },
+    "AgentHubMenuItem": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubMenuItem"
+    },
+    "AgentHubMenu": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubMenu"
+    },
+    "AgentHubFlyoutHeader": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFlyoutHeader"
+    },
+    "AgentHubFlyoutFooter": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFlyoutFooter"
+    },
+    "AgentHubFlyoutItem": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFlyoutItem"
+    },
+    "AgentHubFlyout": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFlyout"
+    },
+    "AgentHubSessionItem": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionItem"
+    },
+    "AgentHubSessionProgressStep": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionProgressStep"
+    },
+    "AgentHubSessionContextItem": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionContextItem"
+    },
+    "AgentHubSessionSectionHeader": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionSectionHeader"
+    },
+    "AgentHubSessionHistoryItem": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionHistoryItem"
+    },
+    "AgentHubSessionPanel": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubSessionPanel"
+    },
+    "AgentHubOutputViewer": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubOutputViewer"
+    },
+    "AgentHubFileItem": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubFileItem"
+    },
+    "AgentHubDataCard": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubDataCard"
+    },
+    "AgentHubThumbnailCard": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubThumbnailCard"
+    },
+    "AgentHubScheduleCard": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubScheduleCard"
+    },
+    "AgentHubItemCard": {
+      "status": "implemented",
+      "source": "src/components/collections.tsx",
+      "export": "AgentHubItemCard"
+    },
+    "AgentHubScrollbar": {
+      "status": "implemented",
+      "source": "src/components/primitives.tsx",
+      "export": "AgentHubScrollbar"
+    },
+    "AgentHubDialogFooter": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubDialogFooter"
+    },
+    "AgentHubNavIcon": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubNavIcon"
+    },
+    "AgentHubNavItem": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubNavItem"
+    },
+    "AgentHubNavRail": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubNavRail"
+    },
+    "AgentHubSNBSectionHeader": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubSNBSectionHeader"
+    },
+    "AgentHubSNBItem": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubSNBItem"
+    },
+    "AgentHubSNBPanel": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubSNBPanel"
+    },
+    "AgentHubSNB": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubSNB"
+    },
+    "AgentHubGlobalHeader": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubGlobalHeader"
+    },
+    "AgentHubChatHeader": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubChatHeader"
+    },
+    "AgentHubDialog": {
+      "status": "implemented",
+      "source": "src/components/shell.tsx",
+      "export": "AgentHubDialog"
+    },
+    "AgentHubThinkingStatus": {
+      "status": "implemented",
+      "source": "src/components/conversation.tsx",
+      "export": "AgentHubThinkingStatus"
+    },
+    "AgentHubInput": {
+      "status": "implemented",
+      "source": "src/components/forms.tsx",
+      "export": "AgentHubInput"
+    },
+    "AgentHubTextarea": {
+      "status": "implemented",
+      "source": "src/components/forms.tsx",
+      "export": "AgentHubTextarea"
+    },
+    "AgentHubSelect": {
+      "status": "implemented",
+      "source": "src/components/forms.tsx",
+      "export": "AgentHubSelect"
+    }
+  },
+  "documentOverrides": [
+    "IMPLEMENTATION-NOTES.md"
+  ]
+}

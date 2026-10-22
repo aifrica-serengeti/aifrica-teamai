@@ -1,0 +1,80 @@
+{
+  "geometry": {
+    "dialog": {
+      "width": 580,
+      "height": 554
+    },
+    "input": {
+      "width": 532,
+      "height": 40
+    },
+    "textarea": {
+      "width": 532,
+      "height": 103
+    },
+    "toolbar": {
+      "width": 532,
+      "height": 37
+    },
+    "textareaSurface": {
+      "width": 532,
+      "height": 140
+    },
+    "frequencyCard": {
+      "width": 532,
+      "height": 50
+    },
+    "selectTrigger": {
+      "width": 64.3125,
+      "height": 24
+    },
+    "legacyClose": {
+      "width": 32,
+      "height": 32
+    },
+    "legacyGlyph": {
+      "width": 24,
+      "height": 24
+    },
+    "labelGap": "2px",
+    "inputPadding": "9px 11px",
+    "textareaPadding": "8px 12px",
+    "bodyScrollTop": 0
+  },
+  "hover": {
+    "background": "rgba(0, 0, 0, 0.05)",
+    "radius": "4px"
+  },
+  "focus": {
+    "outline": "none",
+    "border": "rgb(221, 221, 221)",
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px inset"
+  },
+  "popup": {
+    "popover": true,
+    "bodyScrollTop": 0,
+    "visibleOptions": true,
+    "activeId": "_r_1e_-options-2"
+  },
+  "selected": {
+    "value": "매주",
+    "focus": "combobox",
+    "parentScroll": 0
+  },
+  "settledFocus": {
+    "input": {
+      "active": true,
+      "readOnly": false,
+      "visible": true,
+      "border": "rgb(59, 130, 246)",
+      "shadow": "rgb(59, 130, 246) 0px 0px 0px 1px inset",
+      "outline": "none"
+    },
+    "textarea": {
+      "active": true,
+      "innerOutline": "none",
+      "innerShadow": "none",
+      "surfaceShadow": "rgb(59, 130, 246) 0px 0px 0px 2px inset"
+    }
+  }
+}

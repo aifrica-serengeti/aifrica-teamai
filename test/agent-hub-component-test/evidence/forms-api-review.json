@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-21T05:57:39.163Z",
+  "scope": "temporary browser-only React fixture; no app source changes",
+  "nativeFields": {
+    "providedId": "ah-review-provided-select",
+    "labels": [
+      "ID 검증"
+    ],
+    "input": {
+      "invalid": "true",
+      "describedBy": "ah-review-help"
+    },
+    "textarea": {
+      "invalid": "true",
+      "describedBy": "ah-review-help"
+    },
+    "errorInput": {
+      "invalid": "true",
+      "describedBy": "ah-review-help ah-review-error-input-error"
+    },
+    "errorTextarea": {
+      "invalid": "true",
+      "describedBy": "ah-review-help ah-review-error-textarea-error"
+    },
+    "select": {
+      "invalid": "true",
+      "describedBy": "ah-review-help ah-review-provided-select-error"
+    }
+  },
+  "initial": {
+    "active": "_r_1m_-options-2",
+    "activeLabel": "Gamma",
+    "exists": true
+  },
+  "shrunk": {
+    "active": "_r_1m_-options-0",
+    "activeLabel": "Alpha",
+    "exists": true
+  },
+  "selection": {
+    "value": "a",
+    "expanded": "false"
+  },
+  "empty": {
+    "active": null,
+    "options": 0
+  },
+  "disabledFallback": {
+    "active": "_r_1m_-options-1",
+    "label": "Available",
+    "disabled": null
+  },
+  "disabledSelection": "b",
+  "escapeInDialog": {
+    "focused": {
+      "class": "common-scroll-viewport ",
+      "expanded": "true"
+    },
+    "after": {
+      "dialog": true,
+      "expanded": "false",
+      "popupPresent": false,
+      "focus": "common-select-trigger"
+    }
+  },
+  "pass": true,
+  "cleanup": {
+    "fixtureAbsent": true,
+    "popupAbsent": true
+  }
+}

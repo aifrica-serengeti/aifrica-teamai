@@ -1,0 +1,869 @@
+{
+  "verifiedAt": "2026-10-21T05:54:13.872Z",
+  "url": "http://127.0.0.1:5174/",
+  "spaceId": 21,
+  "page": "p2",
+  "method": "실제 Ego 브라우저의 native focus/click/pointer/keyboard 조작과 computed style·DOM geometry 관찰. 소스 수정 없음.",
+  "search": [
+    {
+      "label": "에이전트 검색",
+      "size": "48",
+      "value": "",
+      "readOnly": false,
+      "focused": true,
+      "inputOutline": {
+        "style": "none",
+        "width": "3px",
+        "offset": "3px"
+      },
+      "inputBoxShadow": "none",
+      "outerShadow": "rgb(59, 130, 246) 0px 0px 0px 2px inset",
+      "outerBackground": "rgb(255, 255, 255)",
+      "geometry": {
+        "rootHeight": 48,
+        "inputStart": 40
+      },
+      "clearPresent": false
+    },
+    {
+      "label": "작은 검색",
+      "size": "32",
+      "value": "문서",
+      "readOnly": false,
+      "focused": true,
+      "inputOutline": {
+        "style": "none",
+        "width": "3px",
+        "offset": "3px"
+      },
+      "inputBoxShadow": "none",
+      "outerShadow": "rgb(59, 130, 246) 0px 0px 0px 2px inset",
+      "outerBackground": "rgb(255, 255, 255)",
+      "geometry": {
+        "rootHeight": 32,
+        "inputStart": 28
+      },
+      "clearPresent": true
+    },
+    {
+      "label": "읽기 전용 검색",
+      "size": "32",
+      "value": "선택과 복사는 가능합니다",
+      "readOnly": true,
+      "focused": true,
+      "inputOutline": {
+        "style": "none",
+        "width": "3px",
+        "offset": "3px"
+      },
+      "inputBoxShadow": "none",
+      "outerShadow": "rgb(221, 221, 221) 0px 0px 0px 1px inset",
+      "outerBackground": "rgb(248, 248, 248)",
+      "geometry": {
+        "rootHeight": 32,
+        "inputStart": 28
+      },
+      "clearPresent": false
+    }
+  ],
+  "secondary": [
+    {
+      "size": "40",
+      "active": true,
+      "background": "rgb(102, 163, 255)",
+      "labelColor": "rgb(28, 28, 28)",
+      "glyphs": [
+        {
+          "color": "rgb(28, 28, 28)",
+          "width": 20
+        },
+        {
+          "color": "rgb(28, 28, 28)",
+          "width": 20
+        }
+      ],
+      "height": 40,
+      "waitError": null
+    },
+    {
+      "size": "32",
+      "active": true,
+      "background": "rgb(102, 163, 255)",
+      "labelColor": "rgb(28, 28, 28)",
+      "glyphs": [
+        {
+          "color": "rgb(28, 28, 28)",
+          "width": 16
+        },
+        {
+          "color": "rgb(28, 28, 28)",
+          "width": 16
+        }
+      ],
+      "height": 32,
+      "waitError": null
+    },
+    {
+      "size": "28",
+      "active": true,
+      "background": "rgb(102, 163, 255)",
+      "labelColor": "rgb(28, 28, 28)",
+      "glyphs": [
+        {
+          "color": "rgb(28, 28, 28)",
+          "width": 16
+        },
+        {
+          "color": "rgb(28, 28, 28)",
+          "width": 16
+        }
+      ],
+      "height": 28,
+      "waitError": null
+    }
+  ],
+  "filter": [
+    {
+      "step": "before",
+      "selected": "false",
+      "width": 96.09375,
+      "height": 32,
+      "x": 455.09375,
+      "y": 448.09375,
+      "borderWidth": "1px",
+      "borderColor": "rgb(221, 221, 221)",
+      "neighbor": {
+        "x": 563.1875,
+        "y": 446.09375,
+        "width": 95.34375,
+        "height": 36
+      }
+    },
+    {
+      "step": "afterToggle",
+      "selected": "true",
+      "width": 96.09375,
+      "height": 32,
+      "x": 455.09375,
+      "y": 448.09375,
+      "borderWidth": "1px",
+      "borderColor": "rgba(221, 221, 221, 0.592)",
+      "neighbor": {
+        "x": 563.1875,
+        "y": 446.09375,
+        "width": 95.34375,
+        "height": 36
+      }
+    },
+    {
+      "step": "afterRestore",
+      "selected": "false",
+      "width": 96.09375,
+      "height": 32,
+      "x": 455.09375,
+      "y": 448.09375,
+      "borderWidth": "1px",
+      "borderColor": "rgba(221, 221, 221, 0.075)",
+      "neighbor": {
+        "x": 563.1875,
+        "y": 446.09375,
+        "width": 95.34375,
+        "height": 36
+      }
+    }
+  ],
+  "checkbox": {
+    "initial": {
+      "state": "indeterminate",
+      "checked": false,
+      "mixed": true,
+      "ariaChecked": "mixed",
+      "sameInput": true,
+      "box": {
+        "background": "rgb(59, 130, 246)",
+        "transitionDuration": "0.2s, 0.2s",
+        "transitionProperty": "background-color, border-color"
+      },
+      "marks": [
+        {
+          "visible": "true",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transitionDuration": "0.16s",
+          "transitionTimingFunction": "ease-out",
+          "transitionProperty": "opacity, transform",
+          "asset": "/agent-hub/assets/checkbox/marks/indeterminate-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 1
+          },
+          "animations": []
+        },
+        {
+          "visible": "false",
+          "opacity": "0",
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "transitionDuration": "0.12s, 0.12s",
+          "transitionTimingFunction": "ease-in, ease-in",
+          "transitionProperty": "opacity, transform",
+          "asset": "/agent-hub/assets/checkbox/marks/checked-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 7
+          },
+          "animations": []
+        }
+      ]
+    },
+    "exit": {
+      "state": "unchecked",
+      "checked": false,
+      "mixed": false,
+      "ariaChecked": "false",
+      "sameInput": true,
+      "box": {
+        "background": "rgb(255, 255, 255)",
+        "transitionDuration": "0.2s, 0.2s",
+        "transitionProperty": "background-color, border-color"
+      },
+      "marks": [
+        {
+          "visible": "false",
+          "opacity": "0",
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "transitionDuration": "0.12s, 0.12s",
+          "transitionTimingFunction": "ease-in, ease-in",
+          "transitionProperty": "opacity, transform",
+          "asset": "/agent-hub/assets/checkbox/marks/indeterminate-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 1
+          },
+          "animations": []
+        },
+        {
+          "visible": "false",
+          "opacity": "0",
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "transitionDuration": "0.12s, 0.12s",
+          "transitionTimingFunction": "ease-in, ease-in",
+          "transitionProperty": "opacity, transform",
+          "asset": "/agent-hub/assets/checkbox/marks/checked-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 7
+          },
+          "animations": []
+        }
+      ]
+    },
+    "enter": {
+      "state": "checked",
+      "checked": true,
+      "mixed": false,
+      "ariaChecked": "true",
+      "sameInput": true,
+      "box": {
+        "background": "rgb(212, 227, 253)",
+        "transitionDuration": "0.2s, 0.2s",
+        "transitionProperty": "background-color, border-color"
+      },
+      "marks": [
+        {
+          "visible": "false",
+          "opacity": "0",
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "transitionDuration": "0.12s, 0.12s",
+          "transitionTimingFunction": "ease-in, ease-in",
+          "transitionProperty": "opacity, transform",
+          "asset": "/agent-hub/assets/checkbox/marks/indeterminate-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 1
+          },
+          "animations": []
+        },
+        {
+          "visible": "true",
+          "opacity": "0.320666",
+          "transform": "matrix(0.864133, 0, 0, 0.864133, 0, 0)",
+          "transitionDuration": "0.16s",
+          "transitionTimingFunction": "ease-out",
+          "transitionProperty": "opacity, transform",
+          "asset": "/agent-hub/assets/checkbox/marks/checked-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 7
+          },
+          "animations": [
+            {
+              "property": "opacity",
+              "playState": "running",
+              "duration": 160,
+              "progress": 0.3206661103172988
+            },
+            {
+              "property": "transform",
+              "playState": "running",
+              "duration": 160,
+              "progress": 0.3206661103172988
+            }
+          ]
+        }
+      ]
+    },
+    "enterSettled": {
+      "state": "checked",
+      "checked": true,
+      "mixed": false,
+      "ariaChecked": "true",
+      "sameInput": true,
+      "box": {
+        "background": "rgb(59, 130, 246)",
+        "transitionDuration": "0.2s, 0.2s",
+        "transitionProperty": "background-color, border-color"
+      },
+      "marks": [
+        {
+          "visible": "false",
+          "opacity": "0",
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "transitionDuration": "0.12s, 0.12s",
+          "transitionTimingFunction": "ease-in, ease-in",
+          "transitionProperty": "opacity, transform",
+          "asset": "/agent-hub/assets/checkbox/marks/indeterminate-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 1
+          },
+          "animations": []
+        },
+        {
+          "visible": "true",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transitionDuration": "0.16s",
+          "transitionTimingFunction": "ease-out",
+          "transitionProperty": "opacity, transform",
+          "asset": "/agent-hub/assets/checkbox/marks/checked-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 7
+          },
+          "animations": []
+        }
+      ]
+    },
+    "rapid": {
+      "durationMs": 267,
+      "result": {
+        "state": "indeterminate",
+        "checked": false,
+        "mixed": true,
+        "ariaChecked": "mixed",
+        "sameInput": true,
+        "box": {
+          "background": "rgb(59, 130, 246)",
+          "transitionDuration": "0.2s, 0.2s",
+          "transitionProperty": "background-color, border-color"
+        },
+        "marks": [
+          {
+            "visible": "true",
+            "opacity": "0",
+            "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+            "transitionDuration": "0.16s",
+            "transitionTimingFunction": "ease-out",
+            "transitionProperty": "opacity, transform",
+            "asset": "/agent-hub/assets/checkbox/marks/indeterminate-medium.svg",
+            "loaded": true,
+            "native": {
+              "width": 9,
+              "height": 1
+            },
+            "animations": [
+              {
+                "property": "opacity",
+                "playState": "running",
+                "duration": 160,
+                "progress": 0
+              },
+              {
+                "property": "transform",
+                "playState": "running",
+                "duration": 160,
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "visible": "false",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "transitionDuration": "0.12s, 0.12s",
+            "transitionTimingFunction": "ease-in, ease-in",
+            "transitionProperty": "opacity, transform",
+            "asset": "/agent-hub/assets/checkbox/marks/checked-medium.svg",
+            "loaded": true,
+            "native": {
+              "width": 9,
+              "height": 7
+            },
+            "animations": [
+              {
+                "property": "opacity",
+                "playState": "running",
+                "duration": 120,
+                "progress": 0
+              },
+              {
+                "property": "transform",
+                "playState": "running",
+                "duration": 120,
+                "progress": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "reducedUnchecked": {
+      "state": "unchecked",
+      "checked": false,
+      "mixed": false,
+      "ariaChecked": "false",
+      "sameInput": true,
+      "box": {
+        "background": "rgb(255, 255, 255)",
+        "transitionDuration": "0s",
+        "transitionProperty": "none"
+      },
+      "marks": [
+        {
+          "visible": "false",
+          "opacity": "0",
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "transitionProperty": "none",
+          "asset": "/agent-hub/assets/checkbox/marks/indeterminate-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 1
+          },
+          "animations": []
+        },
+        {
+          "visible": "false",
+          "opacity": "0",
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "transitionProperty": "none",
+          "asset": "/agent-hub/assets/checkbox/marks/checked-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 7
+          },
+          "animations": []
+        }
+      ]
+    },
+    "reducedChecked": {
+      "state": "checked",
+      "checked": true,
+      "mixed": false,
+      "ariaChecked": "true",
+      "sameInput": true,
+      "box": {
+        "background": "rgb(59, 130, 246)",
+        "transitionDuration": "0s",
+        "transitionProperty": "none"
+      },
+      "marks": [
+        {
+          "visible": "false",
+          "opacity": "0",
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "transitionProperty": "none",
+          "asset": "/agent-hub/assets/checkbox/marks/indeterminate-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 1
+          },
+          "animations": []
+        },
+        {
+          "visible": "true",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "transitionProperty": "none",
+          "asset": "/agent-hub/assets/checkbox/marks/checked-medium.svg",
+          "loaded": true,
+          "native": {
+            "width": 9,
+            "height": 7
+          },
+          "animations": []
+        }
+      ]
+    },
+    "exitNative": {
+      "state": "unchecked",
+      "marks": [
+        {
+          "visible": "false",
+          "opacity": "0",
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "transitionDuration": "0.12s, 0.12s",
+          "transitionTimingFunction": "ease-in, ease-in",
+          "animations": []
+        },
+        {
+          "visible": "false",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transitionDuration": "0.12s, 0.12s",
+          "transitionTimingFunction": "ease-in, ease-in",
+          "animations": [
+            {
+              "duration": 120,
+              "property": "opacity",
+              "progress": 0
+            },
+            {
+              "duration": 120,
+              "property": "transform",
+              "progress": 0
+            }
+          ]
+        }
+      ]
+    },
+    "rapidSettled": {
+      "state": "indeterminate",
+      "mixed": true,
+      "shownMarks": 1,
+      "runningAnimations": 0
+    }
+  },
+  "breadcrumb": {
+    "before": {
+      "hover": false,
+      "line": "underline",
+      "color": "rgba(0, 0, 0, 0)",
+      "transitionDuration": "0.2s, 0.2s",
+      "transitionProperty": "color, text-decoration-color",
+      "transitionTimingFunction": "ease, ease",
+      "currentLine": "none",
+      "animations": []
+    },
+    "enter": {
+      "hover": true,
+      "line": "underline",
+      "color": "rgba(0, 0, 0, 0)",
+      "transitionDuration": "0.2s, 0.2s",
+      "transitionProperty": "color, text-decoration-color",
+      "transitionTimingFunction": "ease, ease",
+      "currentLine": "none",
+      "animations": [
+        {
+          "property": "text-decoration-color",
+          "duration": 200,
+          "progress": 0
+        }
+      ]
+    },
+    "hoverSettled": {
+      "hover": true,
+      "line": "underline",
+      "color": "rgb(28, 28, 28)",
+      "transitionDuration": "0.2s, 0.2s",
+      "transitionProperty": "color, text-decoration-color",
+      "transitionTimingFunction": "ease, ease",
+      "currentLine": "none",
+      "animations": []
+    },
+    "exit": {
+      "hover": false,
+      "line": "underline",
+      "color": "rgb(28, 28, 28)",
+      "transitionDuration": "0.2s, 0.2s",
+      "transitionProperty": "color, text-decoration-color",
+      "transitionTimingFunction": "ease, ease",
+      "currentLine": "none",
+      "animations": [
+        {
+          "property": "text-decoration-color",
+          "duration": 200,
+          "progress": 0
+        }
+      ]
+    },
+    "reduced": {
+      "hover": true,
+      "line": "underline",
+      "color": "rgb(28, 28, 28)",
+      "transitionDuration": "0s",
+      "transitionProperty": "none",
+      "transitionTimingFunction": "ease",
+      "currentLine": "none",
+      "animations": []
+    }
+  },
+  "limits": [
+    "인쇄·forced-colors는 root 별도 QA 범위."
+  ],
+  "searchClearBefore": {
+    "value": "최종 검색 검증",
+    "tabIndex": -1,
+    "buttonType": "button"
+  },
+  "searchClearFocus": {
+    "label": "검색어 지우기",
+    "outlineWidth": "2px",
+    "outlineOffset": "3px",
+    "outlineColor": "rgb(0, 102, 255)",
+    "outlineStyle": "solid"
+  },
+  "searchClearAfter": {
+    "value": "",
+    "focusReturned": true,
+    "clearPresent": false,
+    "output": "입력값: (비어 있음) · 제출: (없음)"
+  },
+  "searchFilterFocus": {
+    "label": "검색 필터",
+    "tabIndex": 0,
+    "outlineStyle": "solid",
+    "outlineWidth": "1px",
+    "outlineOffset": "1px"
+  },
+  "searchClearFocusAfterRootFix": {
+    "active": true,
+    "focusVisible": true,
+    "outlineStyle": "solid",
+    "outlineWidth": "2px",
+    "outlineOffset": "2px",
+    "outlineColor": "rgb(59, 130, 246)"
+  },
+  "final": {
+    "verifiedAt": "2026-10-21T06:01:19.238Z",
+    "reducedRestored": true,
+    "missingAssets": []
+  },
+  "searchClearFocusAfterRootFixUnconfirmed": {
+    "outlineStyle": "none",
+    "outlineWidth": "3px",
+    "outlineOffset": "0px",
+    "outlineColor": "rgb(0, 0, 0)"
+  },
+  "filterBySize": [
+    {
+      "size": "sm",
+      "before": {
+        "selected": "false",
+        "width": 89.59375,
+        "height": 28,
+        "relative": {
+          "x": 0,
+          "y": 4
+        },
+        "neighborRelative": {
+          "x": 101.59375,
+          "y": 2
+        },
+        "borderColor": "rgb(221, 221, 221)"
+      },
+      "after": {
+        "selected": "true",
+        "width": 89.59375,
+        "height": 28,
+        "relative": {
+          "x": 0,
+          "y": 4
+        },
+        "neighborRelative": {
+          "x": 101.59375,
+          "y": 2
+        },
+        "borderColor": "rgba(221, 221, 221, 0.584)"
+      },
+      "restored": {
+        "selected": "false",
+        "width": 89.59375,
+        "height": 28,
+        "relative": {
+          "x": 0,
+          "y": 4
+        },
+        "neighborRelative": {
+          "x": 101.59375,
+          "y": 2
+        },
+        "borderColor": "rgba(221, 221, 221, 0.04)"
+      },
+      "widthDelta": 0,
+      "neighborDelta": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "size": "md",
+      "before": {
+        "selected": "false",
+        "width": 96.09375,
+        "height": 32,
+        "relative": {
+          "x": 101.59375,
+          "y": 2
+        },
+        "neighborRelative": {
+          "x": 209.6875,
+          "y": 0
+        },
+        "borderColor": "rgb(221, 221, 221)"
+      },
+      "after": {
+        "selected": "true",
+        "width": 96.09375,
+        "height": 32,
+        "relative": {
+          "x": 101.59375,
+          "y": 2
+        },
+        "neighborRelative": {
+          "x": 209.6875,
+          "y": 0
+        },
+        "borderColor": "rgb(221, 221, 221)"
+      },
+      "restored": {
+        "selected": "false",
+        "width": 96.09375,
+        "height": 32,
+        "relative": {
+          "x": 101.59375,
+          "y": 2
+        },
+        "neighborRelative": {
+          "x": 209.6875,
+          "y": 0
+        },
+        "borderColor": "rgb(221, 221, 221)"
+      },
+      "widthDelta": 0,
+      "neighborDelta": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "size": "lg",
+      "before": {
+        "selected": "false",
+        "width": 95.34375,
+        "height": 36,
+        "relative": {
+          "x": 209.6875,
+          "y": 0
+        },
+        "neighborRelative": {
+          "x": 317.03125,
+          "y": 2
+        },
+        "borderColor": "rgb(221, 221, 221)"
+      },
+      "after": {
+        "selected": "true",
+        "width": 95.34375,
+        "height": 36,
+        "relative": {
+          "x": 209.6875,
+          "y": 0
+        },
+        "neighborRelative": {
+          "x": 317.03125,
+          "y": 2
+        },
+        "borderColor": "rgb(221, 221, 221)"
+      },
+      "restored": {
+        "selected": "false",
+        "width": 95.34375,
+        "height": 36,
+        "relative": {
+          "x": 209.6875,
+          "y": 0
+        },
+        "neighborRelative": {
+          "x": 317.03125,
+          "y": 2
+        },
+        "borderColor": "rgb(221, 221, 221)"
+      },
+      "widthDelta": 0,
+      "neighborDelta": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "findings": [
+    {
+      "severity": "P2",
+      "description": "clear focus의전역[tabindex]규칙충돌(offset3px/#0066FF)",
+      "status": "resolved-by-root",
+      "before": {
+        "label": "검색어 지우기",
+        "outlineWidth": "2px",
+        "outlineOffset": "3px",
+        "outlineColor": "rgb(0, 102, 255)",
+        "outlineStyle": "solid"
+      },
+      "after": {
+        "active": true,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "outlineOffset": "2px",
+        "outlineColor": "rgb(59, 130, 246)"
+      }
+    }
+  ],
+  "summary": {
+    "searchFocusOwned": true,
+    "searchGeometry": true,
+    "clearFocusRestored": true,
+    "clearFocusRing": true,
+    "filterFocus": true,
+    "secondaryCurrentColor": true,
+    "filterStableAllSizes": true,
+    "checkboxEnter160": true,
+    "checkboxExit120": true,
+    "checkboxSameInput": true,
+    "checkboxRapidFinalMixed": true,
+    "checkboxReduced": true,
+    "breadcrumb200": true,
+    "breadcrumbCurrentNonInteractive": true,
+    "breadcrumbReduced": true,
+    "missingAssetsZero": true
+  },
+  "status": "PASS"
+}

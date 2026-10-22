@@ -1,0 +1,60 @@
+{
+  "readonly": {
+    "input": true,
+    "textarea": true,
+    "value": "주간 시장 동향 분석",
+    "selection": [
+      0,
+      11
+    ],
+    "toolbarDisabled": true,
+    "selectReadonly": "true",
+    "expanded": "false",
+    "submitDisabled": true
+  },
+  "disabled": {
+    "controls": [
+      {
+        "tag": "INPUT",
+        "disabled": true
+      },
+      {
+        "tag": "TEXTAREA",
+        "disabled": true
+      },
+      {
+        "tag": "BUTTON",
+        "disabled": true
+      }
+    ],
+    "toolbarDisabled": true,
+    "submitDisabled": true
+  },
+  "errors": {
+    "fields": [
+      {
+        "invalid": "true",
+        "description": "_r_1b_-error",
+        "resolved": true
+      },
+      {
+        "invalid": "true",
+        "description": "_r_1c_-error",
+        "resolved": true
+      },
+      {
+        "invalid": "true",
+        "description": "_r_1d_-error",
+        "resolved": true
+      }
+    ],
+    "alerts": 3,
+    "submitDisabled": true
+  },
+  "required": {
+    "valueMissing": true,
+    "invalid": true,
+    "submitDisabled": true,
+    "dialogOpen": true
+  }
+}

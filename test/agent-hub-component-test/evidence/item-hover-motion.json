@@ -1,0 +1,392 @@
+{
+  "method": "Native picker hover smoke check plus DevTools forced :hover on actual rendered item nodes; CSS transition paused at100ms.",
+  "results": [
+    {
+      "selector": ".ah-picker-item[data-kind=\"agent\"]",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "geometry": [
+          336.5,
+          889.09375,
+          755,
+          36
+        ]
+      },
+      "directions": [
+        {
+          "hover": true,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.804)",
+          "end": "rgb(248, 248, 248)",
+          "geometry": [
+            336.5,
+            889.09375,
+            755,
+            36
+          ],
+          "interpolated": true
+        },
+        {
+          "hover": false,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.196)",
+          "end": "rgba(0, 0, 0, 0)",
+          "geometry": [
+            336.5,
+            889.09375,
+            755,
+            36
+          ],
+          "interpolated": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "selector": ".ah-picker-item[data-kind=\"chat\"]",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "geometry": [
+          336.5,
+          801.09375,
+          766,
+          36
+        ]
+      },
+      "directions": [
+        {
+          "hover": true,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.804)",
+          "end": "rgb(248, 248, 248)",
+          "geometry": [
+            336.5,
+            801.09375,
+            766,
+            36
+          ],
+          "interpolated": true
+        },
+        {
+          "hover": false,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.196)",
+          "end": "rgba(0, 0, 0, 0)",
+          "geometry": [
+            336.5,
+            801.09375,
+            766,
+            36
+          ],
+          "interpolated": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "selector": "#menu-item-sample",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "geometry": [
+          454.234375,
+          1602.09375,
+          208,
+          28
+        ]
+      },
+      "directions": [
+        {
+          "hover": true,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.804)",
+          "end": "rgb(248, 248, 248)",
+          "geometry": [
+            454.234375,
+            1602.09375,
+            208,
+            28
+          ],
+          "interpolated": true
+        },
+        {
+          "hover": false,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.196)",
+          "end": "rgba(0, 0, 0, 0)",
+          "geometry": [
+            454.234375,
+            1602.09375,
+            208,
+            28
+          ],
+          "interpolated": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "selector": "#menu-item-destructive",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "geometry": [
+          454.234375,
+          1658.09375,
+          208,
+          28
+        ]
+      },
+      "directions": [
+        {
+          "hover": true,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.804)",
+          "end": "rgb(248, 248, 248)",
+          "geometry": [
+            454.234375,
+            1658.09375,
+            208,
+            28
+          ],
+          "interpolated": true
+        },
+        {
+          "hover": false,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.196)",
+          "end": "rgba(0, 0, 0, 0)",
+          "geometry": [
+            454.234375,
+            1658.09375,
+            208,
+            28
+          ],
+          "interpolated": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "selector": ".ah-flyout-item[data-kind=\"item\"]",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "geometry": [
+          332.5,
+          1948.09375,
+          278,
+          28
+        ]
+      },
+      "directions": [
+        {
+          "hover": true,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.804)",
+          "end": "rgb(248, 248, 248)",
+          "geometry": [
+            332.5,
+            1948.09375,
+            278,
+            28
+          ],
+          "interpolated": true
+        },
+        {
+          "hover": false,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.196)",
+          "end": "rgba(0, 0, 0, 0)",
+          "geometry": [
+            332.5,
+            1948.09375,
+            278,
+            28
+          ],
+          "interpolated": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "selector": ".ah-flyout-item[data-kind=\"folder\"]",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "geometry": [
+          332.5,
+          1976.09375,
+          278,
+          28
+        ]
+      },
+      "directions": [
+        {
+          "hover": true,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.804)",
+          "end": "rgb(248, 248, 248)",
+          "geometry": [
+            332.5,
+            1976.09375,
+            278,
+            28
+          ],
+          "interpolated": true
+        },
+        {
+          "hover": false,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.196)",
+          "end": "rgba(0, 0, 0, 0)",
+          "geometry": [
+            332.5,
+            1976.09375,
+            278,
+            28
+          ],
+          "interpolated": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "selector": ".ah-flyout-item[data-kind=\"folder-open\"]",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "geometry": [
+          332.5,
+          2004.09375,
+          278,
+          28
+        ]
+      },
+      "directions": [
+        {
+          "hover": true,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.804)",
+          "end": "rgb(248, 248, 248)",
+          "geometry": [
+            332.5,
+            2004.09375,
+            278,
+            28
+          ],
+          "interpolated": true
+        },
+        {
+          "hover": false,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.196)",
+          "end": "rgba(0, 0, 0, 0)",
+          "geometry": [
+            332.5,
+            2004.09375,
+            278,
+            28
+          ],
+          "interpolated": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "selector": ".ah-flyout-item[data-kind=\"child\"]",
+      "before": {
+        "background": "rgba(0, 0, 0, 0)",
+        "geometry": [
+          332.5,
+          2032.09375,
+          278,
+          28
+        ]
+      },
+      "directions": [
+        {
+          "hover": true,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.804)",
+          "end": "rgb(248, 248, 248)",
+          "geometry": [
+            332.5,
+            2032.09375,
+            278,
+            28
+          ],
+          "interpolated": true
+        },
+        {
+          "hover": false,
+          "animations": 1,
+          "middle": "rgba(248, 248, 248, 0.196)",
+          "end": "rgba(0, 0, 0, 0)",
+          "geometry": [
+            332.5,
+            2032.09375,
+            278,
+            28
+          ],
+          "interpolated": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "disabled": [
+    {
+      "selector": ".ah-picker-item[data-kind=\"agent\"]",
+      "background": "rgba(0, 0, 0, 0)",
+      "blocked": true
+    },
+    {
+      "selector": "#menu-item-disabled",
+      "background": "rgba(0, 0, 0, 0)",
+      "blocked": true
+    },
+    {
+      "selector": ".ah-flyout-item[data-kind=\"folder\"]",
+      "background": "rgba(0, 0, 0, 0)",
+      "blocked": true
+    },
+    {
+      "selector": ".ah-flyout-item[data-kind=\"item\"]",
+      "background": "rgba(0, 0, 0, 0)",
+      "blocked": true
+    }
+  ],
+  "states": [
+    {
+      "selector": "#menu-item-sample",
+      "pressed": "rgb(244, 244, 244)"
+    },
+    {
+      "selector": ".ah-flyout-item[data-kind=\"item\"]",
+      "pressed": "rgba(0, 0, 0, 0.1)"
+    }
+  ],
+  "selected": {
+    "background": "rgb(235, 243, 255)",
+    "preserved": true
+  },
+  "reducedMotion": [
+    {
+      "selector": ".ah-picker-item[data-kind=\"agent\"]",
+      "duration": "0s",
+      "animations": 0,
+      "background": "rgb(248, 248, 248)",
+      "immediate": true
+    },
+    {
+      "selector": "#menu-item-sample",
+      "duration": "0s",
+      "animations": 0,
+      "background": "rgb(248, 248, 248)",
+      "immediate": true
+    },
+    {
+      "selector": ".ah-flyout-item[data-kind=\"item\"]",
+      "duration": "0s",
+      "animations": 0,
+      "background": "rgb(248, 248, 248)",
+      "immediate": true
+    }
+  ]
+}

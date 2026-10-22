@@ -1,0 +1,231 @@
+{
+  "testedAt": "2026-10-21",
+  "scope": "Guide-only React component fixture; representative interaction and layout verification, not exhaustive Figma pixel approval",
+  "primitiveChecks": {
+    "switchSpace": true,
+    "readOnlyGuard": true,
+    "mixedToChecked": true,
+    "searchEnterAndClearFocus": true,
+    "nativeScrollEndTop": 900,
+    "scrollbarThumbWidth": 4,
+    "all206IconsLoaded": true,
+    "missingAssets": 0,
+    "brokenImages": 0
+  },
+  "shellChecks": {
+    "headerHeight": 48,
+    "indicatorHeight": 1,
+    "thinkingDurationMsProposal": 1800,
+    "easingProposal": "linear",
+    "reducedMotionAnimationCount": 0,
+    "scheduledDialogSize": [
+      580,
+      554
+    ],
+    "dialogTitlePx": 24,
+    "footerHeight": 88,
+    "nameInputHeight": 40,
+    "textareaHeightExcludingToolbar": 103,
+    "modalTabWrapBothDirections": true,
+    "escapeClosesAndRestoresTrigger": true,
+    "emptyNameDisablesSubmit": true,
+    "finderWidth": 1296,
+    "finderInitialCards": 15,
+    "finderResearchFilterCards": 4,
+    "finderMoreButtonSize": [
+      20,
+      20
+    ],
+    "finderInputDuplicateBorder": false
+  },
+  "responsiveChecks": {
+    "widths": [
+      375,
+      768,
+      1280
+    ],
+    "allFourGroupsHaveNoDocumentHorizontalOverflow": true,
+    "primitiveWideExamplesScrollLocally": true
+  },
+  "collectionsChecks": {
+    "dateKeyboardConfirmed": "2026-12-01",
+    "calendarMeasured": {
+      "width": 288,
+      "height": 362,
+      "weeks": 5,
+      "dates": 31
+    },
+    "menuArrowSkipDisabled": true,
+    "menuHomeEnd": true,
+    "menuEscapeRestore": true,
+    "flyoutFocusAndDisclosure": true,
+    "flyoutLastItemAboveFooter": {
+      "label": "참고 자료 9.docx",
+      "visible": true,
+      "scrollTop": 128
+    },
+    "flyoutEscapeRestore": true,
+    "pickerSearchArrowEnter": true,
+    "metrics": {
+      "components": [
+        "AgentHubCalendar",
+        "AgentHubIconButton",
+        "AgentHubCalendarDate",
+        "AgentHubButton",
+        "AgentHubPicker",
+        "AgentHubPickerItem",
+        "AgentHubAgentTypeChip",
+        "AgentHubPickerFooter",
+        "AgentHubSearch",
+        "AgentHubMenu",
+        "AgentHubMenuItem",
+        "AgentHubFlyoutHeader",
+        "AgentHubFlyoutItem",
+        "AgentHubFlyoutFooter",
+        "AgentHubFileItem",
+        "AgentHubFileIcon",
+        "AgentHubDataCard",
+        "AgentHubThumbnailCard",
+        "AgentHubScheduleCard",
+        "AgentHubItemCard"
+      ],
+      "picker": [
+        {
+          "height": 455,
+          "footer": 39
+        },
+        {
+          "height": 536,
+          "footer": 39
+        }
+      ],
+      "card": [
+        {
+          "height": 166,
+          "width": 282.796875,
+          "description": 40
+        },
+        {
+          "height": 166,
+          "width": 282.796875,
+          "description": 40
+        },
+        {
+          "height": 146,
+          "width": 282.796875,
+          "description": 20
+        },
+        {
+          "height": 166,
+          "width": 282.796875,
+          "description": 40
+        }
+      ],
+      "nested": 0,
+      "broken": []
+    },
+    "reducedMotion": {
+      "animation": "none",
+      "reduce": true
+    },
+    "rapidReopen": {
+      "state": "open",
+      "hidden": null,
+      "inert": false
+    }
+  },
+  "conversationChecks": {
+    "testedAt": "2026-10-21",
+    "taskSpace": 18,
+    "page": "p2",
+    "url": "http://127.0.0.1:5174/",
+    "checks": {
+      "exampleFillsDraftWithoutSending": true,
+      "exampleFocusesEditor": true,
+      "enterSubmitsExactlyOneUserMessage": true,
+      "submitClearsDraftByDemoOwnerPolicy": true,
+      "thinkingDisablesSendAndRetry": true,
+      "editRestoresLastPromptAndFocusesEditor": true,
+      "shiftEnterKeepsNativeNewlineWithoutSubmitting": true,
+      "retryStartsControlledDemoPhase": true,
+      "runSelectionKeepsUnreadDotIndependent": true,
+      "collapseRemovesOutputRowsFromDOM": true,
+      "collapseUpdatesAriaExpanded": true,
+      "expandRestoresOutputRows": true,
+      "outputActivationSelectsViewerTitle": true,
+      "viewerExpandUsesConsumerLayout": true,
+      "viewerCloseRemovesViewer": true,
+      "viewerCloseRestoresTableOutputTriggerFocus": true,
+      "emptyPanelHeight154": true,
+      "emptyPanelOnlyTwoAddButtons": true,
+      "elapsed3Point9Displays3Seconds": true,
+      "negativeAndUndefinedElapsedOmitSuffix": true,
+      "thinkingAnimationNone": true,
+      "thinkingPngNative2048Display32": true,
+      "allRenderedImagesLoad": true,
+      "missingAssetMarkersZero": true,
+      "narrow390ViewportNoDocumentOverflow": true,
+      "narrowAgentComposerInputAndSendRemainVisible": true,
+      "typecheckPass": true
+    },
+    "measuredSizes": {
+      "composerSurface": [
+        768,
+        58
+      ],
+      "composerProjectHeight": 28,
+      "progressAlert": [
+        640,
+        46
+      ],
+      "sessionFilled": [
+        320,
+        934
+      ],
+      "sessionEmpty": [
+        320,
+        154
+      ],
+      "sessionInnerWidth": 294,
+      "sessionHistoryRowWidth": 278,
+      "sessionContextRowWidth": 282,
+      "progressStepHeights": [
+        32,
+        32,
+        32,
+        20
+      ],
+      "viewer": [
+        540,
+        977
+      ],
+      "viewerHeader": [
+        540,
+        34
+      ],
+      "thinkingHugSample": [
+        135.4375,
+        32
+      ]
+    },
+    "consumerPoliciesNotFigmaMeasurements": [
+      "Enter sends; Shift+Enter inserts newline; modifier Enter uses native behavior",
+      "Accept locally and clear draft after demo submit; no network requests or assistant response generation",
+      "Wrap long user messages and narrow agent metadata without discarding text",
+      "Selected rows retain selected background during hover/press",
+      "Viewer expands to available parent width and1100px then restores; no modal/fullscreen browser API",
+      "Viewer content is demonstration JSX, not a DOCX/PDF/Markdown renderer",
+      "Controlled elapsed is manually supplied and can use a single-color readable adapter"
+    ],
+    "notVerified": [
+      "Operating-system IME composition lifecycle; implementation checks both composition ref and native isComposing/keyCode229",
+      "Actual assistive technology reading, color contrast audit, backend requests/uploads/streaming",
+      "All light/dark and cross-state visual combinations"
+    ]
+  },
+  "limits": [
+    "No exhaustive Figma variant pixel-diff approval",
+    "Native OS IME and physical assistive technology not exercised",
+    "Unprovided dark visual states not invented"
+  ]
+}

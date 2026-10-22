@@ -1,0 +1,162 @@
+{
+  "snb": [
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "2",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "2",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "2",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    },
+    {
+      "depth": "1",
+      "rightInset": 2,
+      "buttonWidth": 20,
+      "mainReserved": "20px"
+    }
+  ],
+  "frequency": {
+    "panelWidth": 160,
+    "overflow": "false",
+    "gutter": "0px",
+    "leftOuterSpace": 1,
+    "rightOuterSpace": 1,
+    "rowPadding": [
+      "16px",
+      "12px"
+    ],
+    "roles": [
+      "listbox",
+      "option"
+    ],
+    "active": {
+      "text": "매일",
+      "shadow": "rgb(37, 99, 235) 0px 0px 0px 2px inset"
+    },
+    "escapeKeptDialog": true
+  }
+}

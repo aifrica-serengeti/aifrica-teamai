@@ -1,0 +1,72 @@
+{
+  "snapshotCommit": "afc7414c6e97bb0a8ce545140dd1b65226e02bda",
+  "cases": [
+    {
+      "solution": "agent-hub",
+      "stage": "enabled",
+      "inheritCommon": true,
+      "sharedSkillsByTool": {
+        ".codex": 7,
+        ".claude": 7
+      },
+      "frontendDocsPresent": true,
+      "sharedHookPresent": true,
+      "localProductSkillsPreserved": true,
+      "docs": 1399,
+      "modifiedSharedSkillKept": null
+    },
+    {
+      "solution": "agent-hub",
+      "stage": "disabled",
+      "inheritCommon": false,
+      "sharedSkillsByTool": {
+        ".codex": 0,
+        ".claude": 0
+      },
+      "frontendDocsPresent": false,
+      "sharedHookPresent": false,
+      "localProductSkillsPreserved": true,
+      "docs": 853,
+      "modifiedSharedSkillKept": null
+    }
+  ],
+  "label": "Agent Hub interaction reinforcement",
+  "fixtureRun": "/private/var/folders/z9/556rb8p56sn7kfzn2x3rqh840000gn/T/aifrica-interaction-optout-hfdclq7u",
+  "selectedDocsCurrentVsSnapshot": {
+    "common": {
+      "currentFiles": 10,
+      "snapshotFiles": 10,
+      "currentTreeSha256": "b8e5d73ec709055d341eda2e41472e5750e846e737e3cb6e7f0fc29d1b15f39e",
+      "snapshotTreeSha256": "b8e5d73ec709055d341eda2e41472e5750e846e737e3cb6e7f0fc29d1b15f39e",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "byteExact": true
+    },
+    "frontend": {
+      "currentFiles": 546,
+      "snapshotFiles": 546,
+      "currentTreeSha256": "24e9e118100983c725304ef753f783a9f03c74e776de9ae8812d8dbcd5427219",
+      "snapshotTreeSha256": "24e9e118100983c725304ef753f783a9f03c74e776de9ae8812d8dbcd5427219",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "byteExact": true
+    },
+    "agent-hub": {
+      "currentFiles": 843,
+      "snapshotFiles": 843,
+      "currentTreeSha256": "b9f194292a2823b8bb1700cf36f0859d3a97c1bf51e95f046675a1dd8db763ce",
+      "snapshotTreeSha256": "b9f194292a2823b8bb1700cf36f0859d3a97c1bf51e95f046675a1dd8db763ce",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "byteExact": true
+    }
+  },
+  "currentSnapshotByteExact": true,
+  "snapshotContracts": {
+    "frontend": 51,
+    "agentHub": 59
+  }
+}

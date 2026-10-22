@@ -1,0 +1,612 @@
+[
+  {
+    "id": "AgentHubIcon",
+    "name": "Agent Hub Icon",
+    "category": "display",
+    "dependencies": [],
+    "guide": "components/AgentHubIcon/README.md"
+  },
+  {
+    "id": "AgentHubFileIcon",
+    "name": "Agent Hub File Icon",
+    "category": "display",
+    "dependencies": [],
+    "guide": "components/AgentHubFileIcon/README.md"
+  },
+  {
+    "id": "AgentHubBrandMark",
+    "name": "Agent Hub Brand Mark",
+    "category": "display",
+    "dependencies": [],
+    "guide": "components/AgentHubBrandMark/README.md"
+  },
+  {
+    "id": "AgentHubAgentTypeChip",
+    "name": "Agent Hub Agent Type Chip",
+    "category": "display",
+    "dependencies": [
+      "Chip"
+    ],
+    "guide": "components/AgentHubAgentTypeChip/README.md"
+  },
+  {
+    "id": "AgentHubButton",
+    "name": "Agent Hub Button",
+    "category": "action",
+    "dependencies": [
+      "Button",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubButton/README.md"
+  },
+  {
+    "id": "AgentHubIconButton",
+    "name": "Agent Hub Icon Button",
+    "category": "action",
+    "dependencies": [
+      "IconButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubIconButton/README.md"
+  },
+  {
+    "id": "AgentHubAttachIconButton",
+    "name": "Agent Hub Attach Icon Button",
+    "category": "action",
+    "dependencies": [
+      "IconButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubAttachIconButton/README.md"
+  },
+  {
+    "id": "AgentHubSwitch",
+    "name": "Agent Hub Switch",
+    "category": "form",
+    "dependencies": [
+      "Switch"
+    ],
+    "guide": "components/AgentHubSwitch/README.md"
+  },
+  {
+    "id": "AgentHubTextButton",
+    "name": "Agent Hub Text Button",
+    "category": "action",
+    "dependencies": [
+      "TextButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubTextButton/README.md"
+  },
+  {
+    "id": "AgentHubCalendar",
+    "name": "Agent Hub Calendar",
+    "category": "form",
+    "dependencies": [
+      "Calendar",
+      "AgentHubCalendarDate",
+      "AgentHubButton",
+      "AgentHubIconButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubCalendar/README.md"
+  },
+  {
+    "id": "AgentHubCalendarDate",
+    "name": "Agent Hub Calendar Date",
+    "category": "form",
+    "dependencies": [],
+    "guide": "components/AgentHubCalendarDate/README.md"
+  },
+  {
+    "id": "AgentHubSearch",
+    "name": "Agent Hub Search",
+    "category": "form",
+    "dependencies": [
+      "Search",
+      "Input",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubSearch/README.md"
+  },
+  {
+    "id": "AgentHubPillChip",
+    "name": "Agent Hub Pill Chip",
+    "category": "display",
+    "dependencies": [
+      "Chip"
+    ],
+    "guide": "components/AgentHubPillChip/README.md"
+  },
+  {
+    "id": "AgentHubFilterChip",
+    "name": "Agent Hub Filter Chip",
+    "category": "form",
+    "dependencies": [
+      "Chip",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubFilterChip/README.md"
+  },
+  {
+    "id": "AgentHubFilterChipGroup",
+    "name": "Agent Hub Filter Chip Group",
+    "category": "form",
+    "dependencies": [
+      "AgentHubFilterChip"
+    ],
+    "guide": "components/AgentHubFilterChipGroup/README.md"
+  },
+  {
+    "id": "AgentHubCheckbox",
+    "name": "Agent Hub Checkbox",
+    "category": "form",
+    "dependencies": [
+      "Checkbox"
+    ],
+    "guide": "components/AgentHubCheckbox/README.md"
+  },
+  {
+    "id": "AgentHubBreadcrumb",
+    "name": "Agent Hub Breadcrumb",
+    "category": "navigation",
+    "dependencies": [
+      "Breadcrumb",
+      "AgentHubBreadcrumbSeparator"
+    ],
+    "guide": "components/AgentHubBreadcrumb/README.md"
+  },
+  {
+    "id": "AgentHubBreadcrumbSeparator",
+    "name": "Agent Hub Breadcrumb Separator",
+    "category": "navigation",
+    "dependencies": [],
+    "guide": "components/AgentHubBreadcrumbSeparator/README.md"
+  },
+  {
+    "id": "AgentHubChatComposer",
+    "name": "Agent Hub Chat Composer",
+    "category": "form",
+    "dependencies": [
+      "Textarea",
+      "Chip",
+      "Divider",
+      "AgentHubAttachIconButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubChatComposer/README.md"
+  },
+  {
+    "id": "AgentHubUserMessage",
+    "name": "Agent Hub User Message",
+    "category": "display",
+    "dependencies": [
+      "Chip",
+      "Divider",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubUserMessage/README.md"
+  },
+  {
+    "id": "AgentHubProgressAlert",
+    "name": "Agent Hub Progress Alert",
+    "category": "content-feedback",
+    "dependencies": [
+      "AgentHubButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubProgressAlert/README.md"
+  },
+  {
+    "id": "AgentHubMessageExample",
+    "name": "Agent Hub Message Example",
+    "category": "action",
+    "dependencies": [
+      "Button",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubMessageExample/README.md"
+  },
+  {
+    "id": "AgentHubPickerItem",
+    "name": "Agent Hub Picker Item",
+    "category": "form",
+    "dependencies": [
+      "Button",
+      "AgentHubAgentTypeChip",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubPickerItem/README.md"
+  },
+  {
+    "id": "AgentHubPickerFooter",
+    "name": "Agent Hub Picker Footer",
+    "category": "form",
+    "dependencies": [
+      "Divider",
+      "Button",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubPickerFooter/README.md"
+  },
+  {
+    "id": "AgentHubPicker",
+    "name": "Agent Hub Picker",
+    "category": "form",
+    "dependencies": [
+      "AgentHubPickerItem",
+      "AgentHubPickerFooter",
+      "AgentHubSearch",
+      "AgentHubIconButton",
+      "AgentHubAgentTypeChip",
+      "AgentHubIcon",
+      "Scrollbar",
+      "Button",
+      "AgentHubScrollbar"
+    ],
+    "guide": "components/AgentHubPicker/README.md"
+  },
+  {
+    "id": "AgentHubMenuItem",
+    "name": "Agent Hub Menu Item",
+    "category": "navigation",
+    "dependencies": [
+      "Menu",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubMenuItem/README.md"
+  },
+  {
+    "id": "AgentHubMenu",
+    "name": "Agent Hub Menu",
+    "category": "navigation",
+    "dependencies": [
+      "Menu",
+      "AgentHubMenuItem",
+      "Scrollbar"
+    ],
+    "guide": "components/AgentHubMenu/README.md"
+  },
+  {
+    "id": "AgentHubFlyoutHeader",
+    "name": "Agent Hub Flyout Header",
+    "category": "display",
+    "dependencies": [],
+    "guide": "components/AgentHubFlyoutHeader/README.md"
+  },
+  {
+    "id": "AgentHubFlyoutFooter",
+    "name": "Agent Hub Flyout Footer",
+    "category": "display",
+    "dependencies": [],
+    "guide": "components/AgentHubFlyoutFooter/README.md"
+  },
+  {
+    "id": "AgentHubFlyoutItem",
+    "name": "Agent Hub Flyout Item",
+    "category": "navigation",
+    "dependencies": [
+      "Button",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubFlyoutItem/README.md"
+  },
+  {
+    "id": "AgentHubFlyout",
+    "name": "Agent Hub Flyout",
+    "category": "navigation",
+    "dependencies": [
+      "AgentHubFlyoutHeader",
+      "AgentHubFlyoutFooter",
+      "AgentHubFlyoutItem",
+      "Scrollbar",
+      "AgentHubScrollbar"
+    ],
+    "guide": "components/AgentHubFlyout/README.md"
+  },
+  {
+    "id": "AgentHubSessionItem",
+    "name": "Agent Hub Session Item",
+    "category": "action",
+    "dependencies": [
+      "Button",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubSessionItem/README.md"
+  },
+  {
+    "id": "AgentHubSessionProgressStep",
+    "name": "Agent Hub Session Progress Step",
+    "category": "display",
+    "dependencies": [
+      "Divider"
+    ],
+    "guide": "components/AgentHubSessionProgressStep/README.md"
+  },
+  {
+    "id": "AgentHubSessionContextItem",
+    "name": "Agent Hub Session Context Item",
+    "category": "action",
+    "dependencies": [
+      "Button",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubSessionContextItem/README.md"
+  },
+  {
+    "id": "AgentHubSessionSectionHeader",
+    "name": "Agent Hub Session Section Header",
+    "category": "display",
+    "dependencies": [
+      "AgentHubIconButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubSessionSectionHeader/README.md"
+  },
+  {
+    "id": "AgentHubSessionHistoryItem",
+    "name": "Agent Hub Session History Item",
+    "category": "navigation",
+    "dependencies": [
+      "Button"
+    ],
+    "guide": "components/AgentHubSessionHistoryItem/README.md"
+  },
+  {
+    "id": "AgentHubSessionPanel",
+    "name": "Agent Hub Session Panel",
+    "category": "display",
+    "dependencies": [
+      "AgentHubSessionItem",
+      "AgentHubSessionProgressStep",
+      "AgentHubSessionContextItem",
+      "AgentHubSessionSectionHeader",
+      "AgentHubSessionHistoryItem",
+      "AgentHubIconButton",
+      "AgentHubScrollbar"
+    ],
+    "guide": "components/AgentHubSessionPanel/README.md"
+  },
+  {
+    "id": "AgentHubOutputViewer",
+    "name": "Agent Hub Output Viewer",
+    "category": "display",
+    "dependencies": [
+      "AgentHubIconButton",
+      "AgentHubIcon",
+      "AgentHubScrollbar"
+    ],
+    "guide": "components/AgentHubOutputViewer/README.md"
+  },
+  {
+    "id": "AgentHubFileItem",
+    "name": "Agent Hub File Item",
+    "category": "display",
+    "dependencies": [
+      "AgentHubFileIcon",
+      "AgentHubButton",
+      "Divider",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubFileItem/README.md"
+  },
+  {
+    "id": "AgentHubDataCard",
+    "name": "Agent Hub Data Card",
+    "category": "display",
+    "dependencies": [
+      "Card",
+      "Chip"
+    ],
+    "guide": "components/AgentHubDataCard/README.md"
+  },
+  {
+    "id": "AgentHubThumbnailCard",
+    "name": "Agent Hub Thumbnail Card",
+    "category": "display",
+    "dependencies": [
+      "Card"
+    ],
+    "guide": "components/AgentHubThumbnailCard/README.md"
+  },
+  {
+    "id": "AgentHubScheduleCard",
+    "name": "Agent Hub Schedule Card",
+    "category": "display",
+    "dependencies": [
+      "Card",
+      "Button",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubScheduleCard/README.md"
+  },
+  {
+    "id": "AgentHubItemCard",
+    "name": "Agent Hub Item Card",
+    "category": "display",
+    "dependencies": [
+      "Card",
+      "Button",
+      "AgentHubIconButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubItemCard/README.md"
+  },
+  {
+    "id": "AgentHubScrollbar",
+    "name": "Agent Hub Scrollbar",
+    "category": "content-feedback",
+    "dependencies": [
+      "Scrollbar"
+    ],
+    "guide": "components/AgentHubScrollbar/README.md"
+  },
+  {
+    "id": "AgentHubDialogFooter",
+    "name": "Agent Hub Dialog Footer",
+    "category": "action",
+    "dependencies": [
+      "Dialog",
+      "AgentHubButton"
+    ],
+    "guide": "components/AgentHubDialogFooter/README.md"
+  },
+  {
+    "id": "AgentHubNavIcon",
+    "name": "Agent Hub Navigation Icon",
+    "category": "display",
+    "dependencies": [],
+    "guide": "components/AgentHubNavIcon/README.md"
+  },
+  {
+    "id": "AgentHubNavItem",
+    "name": "Agent Hub Navigation Rail Item",
+    "category": "action",
+    "dependencies": [
+      "AgentHubNavIcon",
+      "Button",
+      "Link"
+    ],
+    "guide": "components/AgentHubNavItem/README.md"
+  },
+  {
+    "id": "AgentHubNavRail",
+    "name": "Agent Hub Navigation Rail",
+    "category": "navigation",
+    "dependencies": [
+      "AgentHubNavItem",
+      "AgentHubIconButton",
+      "Avatar"
+    ],
+    "guide": "components/AgentHubNavRail/README.md"
+  },
+  {
+    "id": "AgentHubSNBSectionHeader",
+    "name": "Agent Hub SNB Section Header",
+    "category": "navigation",
+    "dependencies": [
+      "AgentHubIconButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubSNBSectionHeader/README.md"
+  },
+  {
+    "id": "AgentHubSNBItem",
+    "name": "Agent Hub SNB Item",
+    "category": "navigation",
+    "dependencies": [
+      "AgentHubIconButton",
+      "AgentHubIcon",
+      "Link",
+      "Button"
+    ],
+    "guide": "components/AgentHubSNBItem/README.md"
+  },
+  {
+    "id": "AgentHubSNBPanel",
+    "name": "Agent Hub SNB Panel",
+    "category": "navigation",
+    "dependencies": [
+      "AgentHubSNBSectionHeader",
+      "AgentHubSNBItem",
+      "AgentHubButton",
+      "Divider",
+      "AgentHubScrollbar",
+      "Scrollbar"
+    ],
+    "guide": "components/AgentHubSNBPanel/README.md"
+  },
+  {
+    "id": "AgentHubSNB",
+    "name": "Agent Hub SNB",
+    "category": "navigation",
+    "dependencies": [
+      "AgentHubNavRail",
+      "AgentHubSNBPanel"
+    ],
+    "guide": "components/AgentHubSNB/README.md"
+  },
+  {
+    "id": "AgentHubGlobalHeader",
+    "name": "Agent Hub Global Header",
+    "category": "navigation",
+    "dependencies": [
+      "Button",
+      "Link",
+      "IconButton"
+    ],
+    "guide": "components/AgentHubGlobalHeader/README.md"
+  },
+  {
+    "id": "AgentHubChatHeader",
+    "name": "Agent Hub Chat Header",
+    "category": "navigation",
+    "dependencies": [
+      "AgentHubBreadcrumb",
+      "AgentHubIconButton"
+    ],
+    "guide": "components/AgentHubChatHeader/README.md"
+  },
+  {
+    "id": "AgentHubDialog",
+    "name": "Agent Hub Dialog",
+    "category": "overlay",
+    "dependencies": [
+      "Dialog",
+      "Textarea",
+      "Divider",
+      "AgentHubDialogFooter",
+      "AgentHubButton",
+      "AgentHubSearch",
+      "AgentHubItemCard",
+      "AgentHubScrollbar",
+      "AgentHubInput",
+      "AgentHubTextarea",
+      "AgentHubSelect",
+      "IconButton"
+    ],
+    "guide": "components/AgentHubDialog/README.md"
+  },
+  {
+    "id": "AgentHubThinkingStatus",
+    "name": "Agent Hub Thinking Status",
+    "category": "feedback",
+    "dependencies": [
+      "AgentHubBrandMark"
+    ],
+    "guide": "components/AgentHubThinkingStatus/README.md"
+  },
+  {
+    "id": "AgentHubInput",
+    "name": "Agent Hub Input",
+    "category": "input",
+    "dependencies": [
+      "Input"
+    ],
+    "guide": "components/AgentHubInput/README.md"
+  },
+  {
+    "id": "AgentHubTextarea",
+    "name": "Agent Hub Textarea",
+    "category": "input",
+    "dependencies": [
+      "Textarea",
+      "AgentHubButton",
+      "AgentHubIcon"
+    ],
+    "guide": "components/AgentHubTextarea/README.md"
+  },
+  {
+    "id": "AgentHubSelect",
+    "name": "Agent Hub Select",
+    "category": "input",
+    "dependencies": [
+      "Select",
+      "AgentHubIcon",
+      "AgentHubMenu",
+      "AgentHubMenuItem",
+      "AgentHubScrollbar"
+    ],
+    "guide": "components/AgentHubSelect/README.md"
+  }
+]

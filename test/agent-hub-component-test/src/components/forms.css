@@ -1,0 +1,189 @@
+.ah-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.ah-form-field > label {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font: 600 14px/20px var(--font-sans);
+}
+.ah-form-field i {
+  color: #e81919;
+  font: 400 14px/20px var(--font-sans);
+  font-style: normal;
+}
+.ah-form-error {
+  font: 400 12px/16px var(--font-sans);
+  color: #e81919;
+}
+.ah-form-field input[aria-invalid="true"] {
+  border-color: #e81919;
+}
+.ah-form-textarea {
+  position: relative;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 0;
+  border-radius: 8px;
+  background: white;
+  transition: background-color 200ms ease;
+}
+.ah-form-textarea::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 1px #ddd;
+  transition: box-shadow 200ms ease;
+}
+.ah-form-textarea:has(textarea:focus-visible)::after {
+  box-shadow: inset 0 0 0 2px #3b82f6;
+}
+.ah-form-textarea[data-invalid="true"]::after {
+  box-shadow: inset 0 0 0 1px #e81919;
+}
+.ah-form-textarea textarea {
+  width: 100%;
+  min-height: 0;
+  flex: 1;
+  padding: 8px 12px;
+  border: 0;
+  background: transparent;
+  color: #1c1c1c;
+  resize: none;
+  font: 400 14px/20px var(--font-sans);
+}
+.ah-form-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 37px;
+  height: 37px;
+  padding: 4px 8px;
+  border-top: 1px solid #eee;
+  background: #f4f4f4;
+}
+.ah-form-toolbar > div {
+  display: flex;
+  gap: 4px;
+}
+.ah-form-textarea[data-disabled="true"],
+.ah-form-textarea[data-readonly="true"] {
+  background: #f8f8f8;
+}
+.ah-form-textarea[data-disabled="true"] textarea {
+  color: #aaa;
+}
+.ah-form-textarea[data-disabled="true"] .ah-form-toolbar,
+.ah-form-textarea[data-readonly="true"] .ah-form-toolbar {
+  pointer-events: none;
+}
+.ah-frequency-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: white;
+  transition:
+    border-color 200ms ease,
+    background-color 200ms ease;
+}
+.ah-frequency-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font: 400 14px/20px var(--font-sans);
+}
+.ah-frequency-select {
+  min-width: 0;
+}
+/* Short frequency menus have no thumb: do not reserve its 11px gutter.
+   Keep the measured gutter when the same adapter actually overflows. */
+.ah-frequency-popup
+  .common-scroll-area[data-overflow-y="false"]
+  > .common-scroll-viewport {
+  padding-right: 0;
+}
+.ah-frequency-select .common-select-trigger {
+  width: auto;
+  min-height: 24px;
+  height: 24px;
+  padding: 2px 4px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  gap: 4px;
+  font: 400 14px/20px var(--font-sans);
+}
+.ah-frequency-select .common-select-trigger:hover:not(:disabled) {
+  background: rgb(0 0 0/0.05);
+}
+.ah-frequency-select .common-select-trigger:active:not(:disabled) {
+  background: rgb(0 0 0/0.1);
+}
+.ah-frequency-select .common-select-trigger:focus-visible {
+  outline: 1px solid #3b82f6;
+  outline-offset: 1px;
+}
+.ah-frequency-card[data-disabled="true"],
+.ah-frequency-card[data-readonly="true"] {
+  background: #f8f8f8;
+}
+.ah-frequency-card[data-disabled="true"] {
+  color: #aaa;
+}
+.ah-frequency-card[data-invalid="true"] {
+  border-color: #e81919;
+  box-shadow: inset 0 0 0 1px #e81919;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ah-form-field *,
+  .ah-form-textarea::after {
+    transition: none !important;
+  }
+}
+
+.ah-form-toolbar {
+  margin: 0;
+  min-inline-size: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+[data-component="AgentHubInput"] {
+  --control-radius: 8px;
+  --control-height: 40px;
+}
+
+.ah-form-textarea[data-invalid="true"]:has(textarea:focus-visible)::after {
+  box-shadow: inset 0 0 0 2px #e81919;
+}
+.ah-form-textarea textarea {
+  transition: color 200ms ease;
+}
+.ah-form-textarea[data-readonly="true"]:has(textarea:focus-visible)::after {
+  box-shadow: inset 0 0 0 1px #ddd;
+}
+@media (forced-colors: active) {
+  .ah-form-textarea::after {
+    border: 1px solid CanvasText;
+    box-shadow: none;
+  }
+  .ah-form-textarea:has(textarea:focus-visible)::after {
+    border: 2px solid Highlight;
+  }
+  .ah-form-textarea[data-readonly="true"]:has(textarea:focus-visible)::after {
+    border: 1px solid CanvasText;
+  }
+}

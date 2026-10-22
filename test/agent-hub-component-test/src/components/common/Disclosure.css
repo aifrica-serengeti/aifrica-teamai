@@ -1,0 +1,12 @@
+.common-disclosure {
+  overflow: hidden;
+  min-height: 0;
+}
+.common-disclosure-content {
+  display: flow-root;
+}
+@media (prefers-reduced-motion: reduce) {
+  .common-disclosure {
+    transition: none !important;
+  }
+}

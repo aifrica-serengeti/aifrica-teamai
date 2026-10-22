@@ -1,0 +1,115 @@
+{
+  "chip": {
+    "stable": true,
+    "borderWidth": "1px",
+    "innerTransition": "0.2s, 0.2s"
+  },
+  "search": {
+    "outline": "none"
+  },
+  "checkbox": {
+    "checked": true,
+    "markTransform": "none"
+  },
+  "brand": {
+    "marks": true,
+    "wave": 0,
+    "count": "59"
+  },
+  "menu": {
+    "outline": "none",
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset",
+    "focus": true
+  },
+  "flyout": {
+    "headerFixed": true,
+    "footerFixed": true,
+    "scrollTop": 123,
+    "scrollHeight": 420,
+    "height": 297,
+    "lastFocus": "참고 자료 9.docx",
+    "seam": {
+      "owner": "header::after",
+      "height": "1px",
+      "background": "rgb(221, 221, 221)",
+      "position": "absolute"
+    }
+  },
+  "composer": {
+    "outline": "none",
+    "value": ""
+  },
+  "textInjection": {
+    "value": "지난주 부서별 실적을 요약해 주세요.",
+    "focused": true,
+    "outline": "none"
+  },
+  "conversation": {
+    "session": {
+      "trackTopInset": 16,
+      "trackBottomInset": 16,
+      "viewport": true
+    },
+    "viewer": {
+      "viewport": true,
+      "scrollHeight": 1483
+    },
+    "thinking": true
+  },
+  "textarea": {
+    "background": "rgb(244, 244, 244)",
+    "padding": "4px 8px",
+    "borderTop": "1px solid rgb(238, 238, 238)",
+    "toolbarHeight": 37,
+    "formAncestor": false
+  },
+  "selectPointer": {
+    "active": 0,
+    "descendant": null
+  },
+  "selectTab": {
+    "expanded": "false",
+    "dialog": true,
+    "focus": "고급"
+  },
+  "selectShiftTab": {
+    "expanded": "false",
+    "dialog": true,
+    "focus": "Qwen3.8"
+  },
+  "formReadonly": {
+    "readonly": true,
+    "disabled": false,
+    "toolbarDisabled": true,
+    "expanded": "false"
+  },
+  "formDisabled": {
+    "textarea": true,
+    "combobox": true,
+    "toolbar": true
+  },
+  "finder": {
+    "viewports": [
+      {
+        "height": 732,
+        "scrollHeight": 1051,
+        "nativeScrollbar": "none"
+      }
+    ],
+    "thumbs": [
+      "4px"
+    ]
+  },
+  "snb": {
+    "moreInsets": [
+      "2px",
+      "2px",
+      "2px",
+      "2px"
+    ],
+    "scrollEngine": true,
+    "hoverVisibility": [
+      "hover"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+.common-select {
+  position: relative;
+  min-width: 100px;
+}
+.common-select-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  color: #1c1c1c;
+  padding: 8px 12px;
+  transition:
+    color 200ms ease,
+    background-color 200ms ease,
+    border-color 200ms ease;
+}
+.common-select-trigger:hover:not(:disabled) {
+  border-color: #aaa;
+}
+.common-select[data-readonly="true"] .common-select-trigger {
+  background: #f8f8f8;
+  cursor: default;
+}
+.common-select-trigger:disabled {
+  background: #f8f8f8;
+  color: #aaa;
+}
+.common-select[data-invalid="true"] .common-select-trigger {
+  border-color: #e81919;
+}
+.common-select-native {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.common-select-popup {
+  position: fixed;
+  z-index: 30;
+  margin: 0;
+  min-width: 160px;
+  transform-origin: top;
+  transition:
+    opacity 150ms ease,
+    transform 150ms ease;
+}
+.common-select-popup:not([data-custom-popup="true"]) {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  box-shadow: var(--ah-shadow-overlay);
+  padding: 4px;
+}
+.common-select-popup:not([data-custom-popup="true"])[data-open="true"] {
+  opacity: 1;
+  transform: translateY(0) scaleY(1);
+  animation: common-select-in 150ms ease;
+}
+.common-select-popup:not([data-custom-popup="true"])[data-open="false"] {
+  opacity: 0;
+  transform: translateY(-4px) scaleY(0.96);
+}
+.common-select-popup .common-select-option {
+  padding: 6px 8px;
+  border-radius: 4px;
+  min-height: 32px;
+  cursor: pointer;
+  font: 400 14px/20px var(--font-sans);
+  transition:
+    color 200ms ease,
+    background-color 200ms ease;
+}
+.common-select-popup .common-select-option[data-active="true"] {
+  background: #f4f4f4;
+}
+.common-select-popup .common-select-option[aria-selected="true"] {
+  color: #0066ff;
+  background: #eaf2ff;
+}
+.common-select-popup .common-select-option[aria-disabled="true"] {
+  color: #aaa;
+  cursor: not-allowed;
+}
+@keyframes common-select-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scaleY(0.96);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .common-select *,
+  .common-select-popup {
+    transition: none !important;
+    animation: none !important;
+  }
+}

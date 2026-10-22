@@ -1,0 +1,136 @@
+{
+  "frames": [
+    {
+      "time": 0,
+      "position": "0% 0px",
+      "size": "50% 100%",
+      "repeat": "repeat-x",
+      "baseBackground": "none",
+      "clip": {
+        "x": 375.5,
+        "y": 1687.875,
+        "width": 95.4375,
+        "height": 20,
+        "scale": 4
+      },
+      "sha256": "49b3d12338817e2a149011b56c967558d3f2fd5c3fa27bd12db7f2a14e0cb9a3"
+    },
+    {
+      "time": 450,
+      "position": "25% 0px",
+      "size": "50% 100%",
+      "repeat": "repeat-x",
+      "baseBackground": "none",
+      "clip": {
+        "x": 375.5,
+        "y": 1687.875,
+        "width": 95.4375,
+        "height": 20,
+        "scale": 4
+      },
+      "sha256": "64b89d02c9f76eef631cf9ba3d72b35cbb2de0497daa29c12e0a78a436e8576f"
+    },
+    {
+      "time": 900,
+      "position": "50% 0px",
+      "size": "50% 100%",
+      "repeat": "repeat-x",
+      "baseBackground": "none",
+      "clip": {
+        "x": 375.5,
+        "y": 1687.875,
+        "width": 95.4375,
+        "height": 20,
+        "scale": 4
+      },
+      "sha256": "31bd0f0219e31b857812cffecd15eeb94191a7386ffa9a6230c8869cf6fb6d5c"
+    },
+    {
+      "time": 1350,
+      "position": "75% 0px",
+      "size": "50% 100%",
+      "repeat": "repeat-x",
+      "baseBackground": "none",
+      "clip": {
+        "x": 375.5,
+        "y": 1687.875,
+        "width": 95.4375,
+        "height": 20,
+        "scale": 4
+      },
+      "sha256": "2355dbba3b839668f920152686587145d729186114ee37b5c28ee30c4546010d"
+    },
+    {
+      "time": 1800,
+      "position": "0% 0px",
+      "size": "50% 100%",
+      "repeat": "repeat-x",
+      "baseBackground": "none",
+      "clip": {
+        "x": 375.5,
+        "y": 1687.875,
+        "width": 95.4375,
+        "height": 20,
+        "scale": 4
+      },
+      "sha256": "49b3d12338817e2a149011b56c967558d3f2fd5c3fa27bd12db7f2a14e0cb9a3"
+    }
+  ],
+  "seamIdentical": true,
+  "frameMoves": true,
+  "staticState": {
+    "background": "none",
+    "color": "rgb(0, 0, 0)",
+    "opacity": "0.69",
+    "content": "none",
+    "animations": 0,
+    "clip": {
+      "x": 375.5,
+      "y": 1687.875,
+      "width": 95.4375,
+      "height": 20,
+      "scale": 4
+    }
+  },
+  "elapsed": {
+    "text": "생각하는 중 · 1234초",
+    "sameAnimation": true,
+    "time": 450,
+    "width": 118.4375
+  },
+  "readable": {
+    "background": "none",
+    "color": "rgb(28, 28, 28)",
+    "opacity": "1",
+    "animations": 0
+  },
+  "media": [
+    {
+      "mode": "reduce",
+      "background": "none",
+      "color": "rgb(0, 0, 0)",
+      "opacity": "0.69",
+      "bandDisplay": "none",
+      "animations": 0,
+      "readableText": "생각하는 중 · 1234초"
+    },
+    {
+      "mode": "forced",
+      "background": "none",
+      "color": "rgb(255, 255, 255)",
+      "opacity": "1",
+      "bandDisplay": "none",
+      "animations": 0,
+      "readableText": "생각하는 중 · 1234초"
+    },
+    {
+      "mode": "print",
+      "background": "none",
+      "color": "rgb(28, 28, 28)",
+      "opacity": "1",
+      "bandDisplay": "none",
+      "animations": 0,
+      "readableText": "생각하는 중 · 1234초"
+    }
+  ]
+}

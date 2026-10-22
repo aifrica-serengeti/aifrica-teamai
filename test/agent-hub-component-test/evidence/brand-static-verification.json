@@ -1,0 +1,42 @@
+{
+  "marks": [
+    {
+      "tag": "IMG",
+      "size": "32",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png",
+      "motion": "static",
+      "animations": 0
+    },
+    {
+      "tag": "IMG",
+      "size": "64",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png",
+      "motion": "static",
+      "animations": 0
+    },
+    {
+      "tag": "IMG",
+      "size": "96",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png",
+      "motion": "static",
+      "animations": 0
+    },
+    {
+      "tag": "IMG",
+      "size": "180",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png",
+      "motion": "static",
+      "animations": 0
+    },
+    {
+      "tag": "IMG",
+      "size": "180",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png",
+      "motion": "static",
+      "animations": 0
+    }
+  ],
+  "waveHosts": 0,
+  "motionLayers": 0,
+  "controls": 0
+}

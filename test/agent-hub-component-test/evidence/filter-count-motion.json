@@ -1,0 +1,264 @@
+{
+  "results": [
+    {
+      "size": "sm",
+      "before": {
+        "paint": {
+          "background": "rgb(238, 238, 238)",
+          "color": "rgb(85, 85, 85)"
+        },
+        "button": {
+          "x": 359.5,
+          "y": 3931.09375,
+          "width": 89.59375,
+          "height": 28
+        },
+        "count": {
+          "x": 421.484375,
+          "y": 3937.09375,
+          "width": 16.609375,
+          "height": 16
+        },
+        "neighbor": {
+          "x": 461.09375,
+          "y": 3929.09375,
+          "width": 96.09375,
+          "height": 32
+        }
+      },
+      "directions": [
+        {
+          "selected": "true",
+          "properties": [
+            "background-color",
+            "color"
+          ],
+          "middle": {
+            "background": "rgb(94, 151, 244)",
+            "color": "rgb(221, 221, 221)"
+          },
+          "end": {
+            "background": "rgb(59, 130, 246)",
+            "color": "rgb(255, 255, 255)"
+          },
+          "interpolated": true
+        },
+        {
+          "selected": "false",
+          "properties": [
+            "background-color",
+            "color"
+          ],
+          "middle": {
+            "background": "rgb(203, 217, 240)",
+            "color": "rgb(119, 119, 119)"
+          },
+          "end": {
+            "background": "rgb(238, 238, 238)",
+            "color": "rgb(85, 85, 85)"
+          },
+          "interpolated": true
+        }
+      ],
+      "after": {
+        "button": {
+          "x": 359.5,
+          "y": 3931.09375,
+          "width": 89.59375,
+          "height": 28
+        },
+        "count": {
+          "x": 421.484375,
+          "y": 3937.09375,
+          "width": 16.609375,
+          "height": 16
+        },
+        "neighbor": {
+          "x": 461.09375,
+          "y": 3929.09375,
+          "width": 96.09375,
+          "height": 32
+        }
+      },
+      "geometryStable": true
+    },
+    {
+      "size": "md",
+      "before": {
+        "paint": {
+          "background": "rgb(238, 238, 238)",
+          "color": "rgb(85, 85, 85)"
+        },
+        "button": {
+          "x": 461.09375,
+          "y": 3929.09375,
+          "width": 96.09375,
+          "height": 32
+        },
+        "count": {
+          "x": 526.1875,
+          "y": 3936.09375,
+          "width": 18,
+          "height": 18
+        },
+        "neighbor": {
+          "x": 569.1875,
+          "y": 3927.09375,
+          "width": 95.34375,
+          "height": 36
+        }
+      },
+      "directions": [
+        {
+          "selected": "true",
+          "properties": [
+            "background-color",
+            "color"
+          ],
+          "middle": {
+            "background": "rgb(94, 151, 244)",
+            "color": "rgb(221, 221, 221)"
+          },
+          "end": {
+            "background": "rgb(59, 130, 246)",
+            "color": "rgb(255, 255, 255)"
+          },
+          "interpolated": true
+        },
+        {
+          "selected": "false",
+          "properties": [
+            "background-color",
+            "color"
+          ],
+          "middle": {
+            "background": "rgb(203, 217, 240)",
+            "color": "rgb(119, 119, 119)"
+          },
+          "end": {
+            "background": "rgb(238, 238, 238)",
+            "color": "rgb(85, 85, 85)"
+          },
+          "interpolated": true
+        }
+      ],
+      "after": {
+        "button": {
+          "x": 461.09375,
+          "y": 3929.09375,
+          "width": 96.09375,
+          "height": 32
+        },
+        "count": {
+          "x": 526.1875,
+          "y": 3936.09375,
+          "width": 18,
+          "height": 18
+        },
+        "neighbor": {
+          "x": 569.1875,
+          "y": 3927.09375,
+          "width": 95.34375,
+          "height": 36
+        }
+      },
+      "geometryStable": true
+    },
+    {
+      "size": "lg",
+      "before": {
+        "paint": {
+          "background": "rgb(238, 238, 238)",
+          "color": "rgb(85, 85, 85)"
+        },
+        "button": {
+          "x": 569.1875,
+          "y": 3927.09375,
+          "width": 95.34375,
+          "height": 36
+        },
+        "count": {
+          "x": 629.53125,
+          "y": 3935.09375,
+          "width": 20,
+          "height": 20
+        },
+        "neighbor": {
+          "x": 676.53125,
+          "y": 3929.09375,
+          "width": 112.3125,
+          "height": 32
+        }
+      },
+      "directions": [
+        {
+          "selected": "true",
+          "properties": [
+            "background-color",
+            "color"
+          ],
+          "middle": {
+            "background": "rgb(94, 151, 244)",
+            "color": "rgb(221, 221, 221)"
+          },
+          "end": {
+            "background": "rgb(59, 130, 246)",
+            "color": "rgb(255, 255, 255)"
+          },
+          "interpolated": true
+        },
+        {
+          "selected": "false",
+          "properties": [
+            "background-color",
+            "color"
+          ],
+          "middle": {
+            "background": "rgb(203, 217, 240)",
+            "color": "rgb(119, 119, 119)"
+          },
+          "end": {
+            "background": "rgb(238, 238, 238)",
+            "color": "rgb(85, 85, 85)"
+          },
+          "interpolated": true
+        }
+      ],
+      "after": {
+        "button": {
+          "x": 569.1875,
+          "y": 3927.09375,
+          "width": 95.34375,
+          "height": 36
+        },
+        "count": {
+          "x": 629.53125,
+          "y": 3935.09375,
+          "width": 20,
+          "height": 20
+        },
+        "neighbor": {
+          "x": 676.53125,
+          "y": 3929.09375,
+          "width": 112.3125,
+          "height": 32
+        }
+      },
+      "geometryStable": true
+    }
+  ],
+  "disabled": {
+    "selectedUnchanged": true,
+    "paint": {
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(170, 170, 170)"
+    }
+  },
+  "countButtons": 0,
+  "reducedMotion": {
+    "duration": "0s",
+    "animations": 0,
+    "background": "rgb(59, 130, 246)",
+    "color": "rgb(255, 255, 255)"
+  }
+}

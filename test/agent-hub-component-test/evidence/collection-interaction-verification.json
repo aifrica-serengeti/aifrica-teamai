@@ -1,0 +1,70 @@
+{
+  "recommendation": {
+    "grounded": {
+      "matches": 9
+    },
+    "transition": {
+      "exists": true,
+      "mid": "rgba(248, 248, 248, 0.804)"
+    },
+    "hovered": {
+      "background": "rgb(248, 248, 248)",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset",
+      "outline": "none",
+      "transition": "background-color, color, box-shadow",
+      "hover": true,
+      "focusVisible": false,
+      "width": 755
+    },
+    "focused": {
+      "outline": "none",
+      "shadow": "rgb(37, 99, 235) 0px 0px 0px 2px inset",
+      "hover": false,
+      "label": "어시스턴트시장 동향 조사"
+    },
+    "ringSuppressed": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+  },
+  "search": {
+    "grounded": {
+      "matches": 14
+    },
+    "transition": {
+      "exists": true,
+      "mid": "rgba(248, 248, 248, 0.804)"
+    },
+    "hovered": {
+      "background": "rgb(248, 248, 248)",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset",
+      "outline": "none",
+      "transition": "background-color, color, box-shadow",
+      "hover": true,
+      "focusVisible": false,
+      "width": 511
+    },
+    "focused": {
+      "outline": "none",
+      "shadow": "rgb(37, 99, 235) 0px 0px 0px 2px inset",
+      "hover": false,
+      "label": "시장 조사 프로젝트"
+    },
+    "ringSuppressed": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+  },
+  "standalone": {
+    "label": "회의록 작성 도우미",
+    "outline": "none",
+    "shadow": "rgb(37, 99, 235) 0px 0px 0px 2px inset"
+  },
+  "menu": {
+    "text": "메뉴 열기",
+    "buttons": [
+      {
+        "id": "",
+        "label": "메뉴 열기",
+        "disabled": false
+      }
+    ],
+    "focus": "이름 변경",
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset",
+    "outline": "none"
+  }
+}

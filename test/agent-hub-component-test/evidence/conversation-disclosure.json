@@ -1,0 +1,21 @@
+{
+  "closing": {
+    "present": true,
+    "inert": true,
+    "ariaHidden": "true",
+    "transition": "height 0.25s"
+  },
+  "removed": true,
+  "opened": {
+    "height": 184,
+    "inert": false,
+    "overflow": "visible",
+    "rotation": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  "restored": true,
+  "rapid": {
+    "open": "true",
+    "height": "auto",
+    "rows": 5
+  }
+}

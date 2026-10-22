@@ -1,0 +1,447 @@
+{
+  "frames": [
+    {
+      "time": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "scale": "0.96",
+      "layout": [
+        360,
+        1249,
+        180,
+        180
+      ],
+      "clip": {
+        "x": 359.1000061035156,
+        "y": 1248.6937561035156,
+        "width": 180.80001831054688,
+        "height": 180.79998779296875,
+        "scale": 2
+      }
+    },
+    {
+      "time": 2400,
+      "transform": "matrix(0.309017, 0.951057, -0.951057, 0.309017, 0, 0)",
+      "scale": "1",
+      "layout": [
+        360,
+        1249,
+        180,
+        180
+      ],
+      "clip": {
+        "x": 332.0933837890625,
+        "y": 1221.6871337890625,
+        "width": 234.813232421875,
+        "height": 234.813232421875,
+        "scale": 2
+      }
+    },
+    {
+      "time": 3000,
+      "transform": "matrix(0, 1, -1, 0, 0, 0)",
+      "scale": "0.994834",
+      "layout": [
+        360,
+        1249,
+        180,
+        180
+      ],
+      "clip": {
+        "x": 355.9649963378906,
+        "y": 1245.5587310791016,
+        "width": 187.07003784179688,
+        "height": 187.07005310058594,
+        "scale": 2
+      }
+    }
+  ],
+  "pauseVerified": {
+    "before": [
+      {
+        "size": 180,
+        "paused": "true",
+        "layout": [
+          360,
+          1249,
+          180,
+          180
+        ],
+        "animations": [
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          },
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          }
+        ]
+      },
+      {
+        "size": 96,
+        "paused": "true",
+        "layout": [
+          552,
+          1291,
+          96,
+          96
+        ],
+        "animations": [
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          },
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          }
+        ]
+      },
+      {
+        "size": 32,
+        "paused": "true",
+        "layout": [
+          683,
+          1323,
+          32,
+          32
+        ],
+        "animations": [
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          },
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          }
+        ]
+      }
+    ],
+    "after": [
+      {
+        "size": 180,
+        "paused": "true",
+        "layout": [
+          360,
+          1249,
+          180,
+          180
+        ],
+        "animations": [
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          },
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          }
+        ]
+      },
+      {
+        "size": 96,
+        "paused": "true",
+        "layout": [
+          552,
+          1291,
+          96,
+          96
+        ],
+        "animations": [
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          },
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          }
+        ]
+      },
+      {
+        "size": 32,
+        "paused": "true",
+        "layout": [
+          683,
+          1323,
+          32,
+          32
+        ],
+        "animations": [
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          },
+          {
+            "time": 516.9350000080439,
+            "state": "paused",
+            "pending": false
+          }
+        ]
+      }
+    ]
+  },
+  "resumeVerified": {
+    "before": [
+      533.5580000060016,
+      533.5580000060016
+    ],
+    "after": [
+      783.5480000060015,
+      783.5480000060015
+    ],
+    "states": [
+      "running",
+      "running"
+    ]
+  },
+  "reduced": [
+    {
+      "mode": "static",
+      "size": 32,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 64,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 96,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 180,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 180,
+      "animations": 0,
+      "transform": "none",
+      "scale": "1",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 96,
+      "animations": 0,
+      "transform": "none",
+      "scale": "1",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 32,
+      "animations": 0,
+      "transform": "none",
+      "scale": "1",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    }
+  ],
+  "forced": [
+    {
+      "mode": "static",
+      "size": 32,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 64,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 96,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 180,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 180,
+      "animations": 0,
+      "transform": "none",
+      "scale": "1",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 96,
+      "animations": 0,
+      "transform": "none",
+      "scale": "1",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 32,
+      "animations": 0,
+      "transform": "none",
+      "scale": "1",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    }
+  ],
+  "print": [
+    {
+      "mode": "static",
+      "size": 32,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 64,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 96,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 180,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 180,
+      "animations": 0,
+      "transform": "none",
+      "scale": "1",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 96,
+      "animations": 0,
+      "transform": "none",
+      "scale": "1",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 32,
+      "animations": 0,
+      "transform": "none",
+      "scale": "1",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    }
+  ],
+  "restored": [
+    {
+      "mode": "static",
+      "size": 32,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 64,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 96,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "static",
+      "size": 180,
+      "animations": 0,
+      "transform": "none",
+      "scale": "none",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 180,
+      "animations": 2,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "scale": "0.96",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 96,
+      "animations": 2,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "scale": "0.96",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    },
+    {
+      "mode": "orbit",
+      "size": 32,
+      "animations": 2,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "scale": "0.96",
+      "src": "/agent-hub/assets/brand/agent-hub-mark.png"
+    }
+  ],
+  "thinking": {
+    "mode": "static",
+    "animations": 0,
+    "size": 32
+  }
+}

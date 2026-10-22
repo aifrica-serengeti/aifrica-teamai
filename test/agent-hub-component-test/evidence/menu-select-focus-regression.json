@@ -1,0 +1,172 @@
+{
+  "opened": {
+    "focus": "combobox",
+    "descendant": null,
+    "options": [
+      {
+        "label": "매시간",
+        "selected": "true",
+        "active": "false",
+        "hover": false,
+        "outline": "none",
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+      },
+      {
+        "label": "매일",
+        "selected": "false",
+        "active": "false",
+        "hover": false,
+        "outline": "none",
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+      },
+      {
+        "label": "매주",
+        "selected": "false",
+        "active": "false",
+        "hover": false,
+        "outline": "none",
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+      }
+    ]
+  },
+  "afterHover": {
+    "focus": "combobox",
+    "descendant": null,
+    "options": [
+      {
+        "label": "매시간",
+        "selected": "true",
+        "active": "false",
+        "hover": false,
+        "outline": "none",
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+      },
+      {
+        "label": "매일",
+        "selected": "false",
+        "active": "false",
+        "hover": false,
+        "outline": "none",
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+      },
+      {
+        "label": "매주",
+        "selected": "false",
+        "active": "false",
+        "hover": false,
+        "outline": "none",
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+      }
+    ]
+  },
+  "keyboard": {
+    "focus": "combobox",
+    "descendant": "_r_1h_-options-0",
+    "options": [
+      {
+        "label": "매시간",
+        "selected": "true",
+        "active": "true",
+        "hover": false,
+        "outline": "none",
+        "shadow": "rgb(37, 99, 235) 0px 0px 0px 2px inset"
+      },
+      {
+        "label": "매일",
+        "selected": "false",
+        "active": "false",
+        "hover": false,
+        "outline": "none",
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+      },
+      {
+        "label": "매주",
+        "selected": "false",
+        "active": "false",
+        "hover": false,
+        "outline": "none",
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset"
+      }
+    ]
+  },
+  "closed": {
+    "dialogOpen": true,
+    "expanded": "false",
+    "focus": "빈도"
+  },
+  "enterOpen": {
+    "descendant": "_r_1h_-options-0",
+    "active": [
+      "매시간"
+    ],
+    "selected": [
+      "매시간"
+    ]
+  },
+  "end": {
+    "descendant": "_r_1h_-options-2",
+    "active": [
+      "매주"
+    ],
+    "selected": [
+      "매시간"
+    ]
+  },
+  "pointerAfterKeyboard": {
+    "descendant": null,
+    "active": [],
+    "selected": [
+      "매시간"
+    ]
+  },
+  "home": {
+    "descendant": "_r_1h_-options-0",
+    "active": [
+      "매시간"
+    ],
+    "selected": [
+      "매시간"
+    ]
+  },
+  "keyboardSelect": {
+    "value": "매일",
+    "expanded": "false",
+    "dialogOpen": true
+  },
+  "spaceOpen": {
+    "descendant": "_r_1h_-options-1",
+    "active": [
+      "매일"
+    ],
+    "selected": [
+      "매일"
+    ]
+  },
+  "menuFocusedHover": {
+    "focusVisible": true,
+    "hover": true,
+    "outlineStyle": "none",
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 2px inset",
+    "background": "rgb(248, 248, 248)"
+  },
+  "menuKeyboardRingRestored": {
+    "focusVisible": true,
+    "hover": false,
+    "outlineStyle": "none",
+    "outlineOffset": "3px",
+    "shadow": "rgb(37, 99, 235) 0px 0px 0px 2px inset",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  "forcedKeyboard": {
+    "outlineStyle": "solid",
+    "width": "2px",
+    "offset": "-2px"
+  },
+  "forcedHover": {
+    "outlineStyle": "none"
+  },
+  "reduced": {
+    "transition": "0s",
+    "outlineStyle": "none"
+  }
+}

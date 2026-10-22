@@ -1,0 +1,380 @@
+{
+  "frames": [
+    {
+      "name": "검색",
+      "before": {
+        "x": 356.5,
+        "y": 622.09375,
+        "width": 28,
+        "height": 28
+      },
+      "sameNode": true,
+      "duration": 200,
+      "mask": "url(\"http://127.0.0.1:5174/agent-hub/assets/snb/nav-search-28.svg\")",
+      "samples": [
+        {
+          "time": 0,
+          "color": "rgb(117, 117, 117)",
+          "paint": "rgb(117, 117, 117)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 622.09375,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "time": 100,
+          "color": "rgb(70, 127, 221)",
+          "paint": "rgb(70, 127, 221)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 622.09375,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "time": 200,
+          "color": "rgb(59, 130, 246)",
+          "paint": "rgb(59, 130, 246)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 622.09375,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "name": "에이전트",
+      "before": {
+        "x": 356.5,
+        "y": 682.09375,
+        "width": 28,
+        "height": 28
+      },
+      "sameNode": true,
+      "duration": 200,
+      "mask": "url(\"http://127.0.0.1:5174/agent-hub/assets/snb/nav-book-28.svg\")",
+      "samples": [
+        {
+          "time": 0,
+          "color": "rgb(117, 117, 117)",
+          "paint": "rgb(117, 117, 117)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 682.09375,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "time": 100,
+          "color": "rgb(70, 127, 221)",
+          "paint": "rgb(70, 127, 221)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 682.09375,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "time": 200,
+          "color": "rgb(59, 130, 246)",
+          "paint": "rgb(59, 130, 246)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 682.09375,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "name": "예약 작업",
+      "before": {
+        "x": 356.5,
+        "y": 742.09375,
+        "width": 28,
+        "height": 28
+      },
+      "sameNode": true,
+      "duration": 200,
+      "mask": "url(\"http://127.0.0.1:5174/agent-hub/assets/snb/nav-clock-28.svg\")",
+      "samples": [
+        {
+          "time": 0,
+          "color": "rgb(117, 117, 117)",
+          "paint": "rgb(117, 117, 117)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 742.09375,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "time": 100,
+          "color": "rgb(70, 127, 221)",
+          "paint": "rgb(70, 127, 221)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 742.09375,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "time": 200,
+          "color": "rgb(59, 130, 246)",
+          "paint": "rgb(59, 130, 246)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 742.09375,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "name": "홈",
+      "before": {
+        "x": 356.5,
+        "y": 562.09375,
+        "width": 28,
+        "height": 28
+      },
+      "sameNode": true,
+      "duration": 175.2354600051143,
+      "mask": "url(\"http://127.0.0.1:5174/agent-hub/assets/snb/nav-home-28.svg\")",
+      "samples": [
+        {
+          "time": 0,
+          "color": "rgb(110, 119, 133)",
+          "paint": "rgb(110, 119, 133)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 562.09375,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "time": 100,
+          "color": "rgb(66, 128, 231)",
+          "paint": "rgb(66, 128, 231)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 562.09375,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "time": 200,
+          "color": "rgb(59, 130, 246)",
+          "paint": "rgb(59, 130, 246)",
+          "opacity": "1",
+          "rect": {
+            "x": 356.5,
+            "y": 562.09375,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "title": "고정됨",
+      "gap": 2
+    },
+    {
+      "title": "프로젝트",
+      "gap": 2
+    },
+    {
+      "title": "채팅",
+      "gap": 2
+    }
+  ],
+  "project": {
+    "row": "rgb(248, 248, 248)",
+    "wrapper": {
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "none",
+      "width": "20px"
+    },
+    "button": "rgba(0, 0, 0, 0)",
+    "slot": "20px",
+    "rowRect": {
+      "x": 420.5,
+      "y": 885.09375,
+      "width": 244,
+      "height": 32
+    },
+    "mainRect": {
+      "x": 428.5,
+      "y": 891.09375,
+      "width": 228,
+      "height": 20
+    },
+    "moreRect": {
+      "x": 644.5,
+      "y": 891.09375,
+      "width": 20,
+      "height": 20
+    }
+  },
+  "wheel": {
+    "top": 211,
+    "max": 491,
+    "headerY": 556.09375,
+    "native": "none"
+  },
+  "end": {
+    "top": 491,
+    "max": 491,
+    "thumbBottom": 936.0900268554688,
+    "trackBottom": 936.09375,
+    "opacity": "1",
+    "headerY": 469.09375
+  },
+  "lastFocus": {
+    "label": "새로운 대화 12",
+    "visible": true,
+    "top": 491,
+    "trackOpacity": "1"
+  },
+  "pageDown": {
+    "topY": 24,
+    "scroll": 341
+  },
+  "fixedHeader": {
+    "before": {
+      "topY": 24,
+      "scroll": 0
+    },
+    "after": {
+      "topY": 24,
+      "scroll": 341
+    }
+  },
+  "dragging": {
+    "dragging": "true",
+    "opacity": "1",
+    "scroll": 491,
+    "max": 491
+  },
+  "dragEnd": "false",
+  "reduced": {
+    "color": "rgb(59, 130, 246)",
+    "transition": "0s",
+    "animations": 0,
+    "trackTransition": "0s"
+  },
+  "forced": {
+    "glyph": "rgb(59, 130, 246)",
+    "adjust": "none",
+    "outline": "solid",
+    "thumb": "rgb(0, 0, 0)"
+  },
+  "rapid": [
+    {
+      "label": "홈",
+      "selected": "true",
+      "color": "rgb(59, 130, 246)",
+      "animations": 0
+    },
+    {
+      "label": "검색",
+      "selected": "false",
+      "color": "rgb(117, 117, 117)",
+      "animations": 0
+    },
+    {
+      "label": "에이전트",
+      "selected": "false",
+      "color": "rgb(117, 117, 117)",
+      "animations": 0
+    },
+    {
+      "label": "예약 작업",
+      "selected": "false",
+      "color": "rgb(117, 117, 117)",
+      "animations": 0
+    }
+  ],
+  "forcedFinal": [
+    {
+      "selected": "true",
+      "color": "rgb(255, 255, 255)",
+      "paint": "rgb(255, 255, 255)",
+      "outline": "solid"
+    },
+    {
+      "selected": "false",
+      "color": "rgb(255, 255, 255)",
+      "paint": "rgb(255, 255, 255)",
+      "outline": "none"
+    },
+    {
+      "selected": "false",
+      "color": "rgb(255, 255, 255)",
+      "paint": "rgb(255, 255, 255)",
+      "outline": "none"
+    },
+    {
+      "selected": "false",
+      "color": "rgb(255, 255, 255)",
+      "paint": "rgb(255, 255, 255)",
+      "outline": "none"
+    }
+  ],
+  "resize": {
+    "before": {
+      "client": 381,
+      "scroll": 872,
+      "track": 375,
+      "thumb": 163.84375,
+      "overflow": "true"
+    },
+    "smaller": {
+      "client": 301,
+      "scroll": 872,
+      "track": 295,
+      "thumb": 101.828125,
+      "overflow": "true"
+    },
+    "restored": {
+      "client": 381,
+      "scroll": 872,
+      "track": 375,
+      "thumb": 163.84375,
+      "overflow": "true"
+    }
+  },
+  "coarse": {
+    "matches": false,
+    "opacity": "0",
+    "verified": false,
+    "note": "This CDP media override did not match pointer:coarse, so it does not validate the coarse-pointer fallback. The CSS fallback was reviewed separately."
+  }
+}

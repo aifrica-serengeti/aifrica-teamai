@@ -1,0 +1,34 @@
+{
+  "baseline": {
+    "mode": "shimmer",
+    "shimmer": "ah-thinking-shimmer",
+    "halo": "ah-session-active-halo"
+  },
+  "forced": {
+    "forced": true,
+    "reduced": false,
+    "print": false,
+    "shimmer": "none",
+    "shimmerDisplay": "none",
+    "halo": "none",
+    "haloDisplay": "none"
+  },
+  "reduced": {
+    "forced": false,
+    "reduced": true,
+    "print": false,
+    "shimmer": "none",
+    "shimmerDisplay": "none",
+    "halo": "none",
+    "haloDisplay": "none"
+  },
+  "print": {
+    "forced": false,
+    "reduced": false,
+    "print": true,
+    "shimmer": "none",
+    "shimmerDisplay": "none",
+    "halo": "none",
+    "haloDisplay": "none"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "reopen": {
+    "open": true,
+    "inert": false,
+    "motion": "open",
+    "overflow": "hidden"
+  },
+  "reduced": {
+    "open": false,
+    "overflow": ""
+  },
+  "unmount": {
+    "dialogs": 0,
+    "overflow": "",
+    "group": "conversation"
+  }
+}

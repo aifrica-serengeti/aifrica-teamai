@@ -1,0 +1,107 @@
+{
+  "frames": [
+    {
+      "time": 0,
+      "haloOpacity": "0.6",
+      "haloTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "centerClip": "circle(6px at 50% 50%)",
+      "box": [
+        20,
+        20
+      ],
+      "imageBox": [
+        0,
+        0,
+        20,
+        20
+      ],
+      "clip": {
+        "x": 329.5,
+        "y": 3292.875,
+        "width": 32,
+        "height": 32,
+        "scale": 4
+      }
+    },
+    {
+      "time": 800,
+      "haloOpacity": "0.189214",
+      "haloTransform": "matrix(1.41079, 0, 0, 1.41079, 0, 0)",
+      "centerClip": "circle(6px at 50% 50%)",
+      "box": [
+        20,
+        20
+      ],
+      "imageBox": [
+        0,
+        0,
+        20,
+        20
+      ],
+      "clip": {
+        "x": 329.5,
+        "y": 3292.875,
+        "width": 32,
+        "height": 32,
+        "scale": 4
+      }
+    },
+    {
+      "time": 1599,
+      "haloOpacity": "4.42572e-07",
+      "haloTransform": "matrix(1.6, 0, 0, 1.6, 0, 0)",
+      "centerClip": "circle(6px at 50% 50%)",
+      "box": [
+        20,
+        20
+      ],
+      "imageBox": [
+        0,
+        0,
+        20,
+        20
+      ],
+      "clip": {
+        "x": 329.5,
+        "y": 3292.875,
+        "width": 32,
+        "height": 32,
+        "scale": 4
+      }
+    }
+  ],
+  "otherStates": [
+    {
+      "status": "done",
+      "centerClip": "none",
+      "animations": 0,
+      "haloContent": "none"
+    },
+    {
+      "status": "pending",
+      "centerClip": "none",
+      "animations": 0,
+      "haloContent": "none"
+    }
+  ],
+  "media": [
+    {
+      "mode": "reduce",
+      "centerClip": "circle(6px at 50% 50%)",
+      "haloDisplay": "none",
+      "animations": 0
+    },
+    {
+      "mode": "forced",
+      "centerClip": "circle(6px at 50% 50%)",
+      "haloDisplay": "none",
+      "animations": 0
+    },
+    {
+      "mode": "print",
+      "centerClip": "circle(6px at 50% 50%)",
+      "haloDisplay": "none",
+      "animations": 0
+    }
+  ]
+}

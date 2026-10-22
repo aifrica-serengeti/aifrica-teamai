@@ -1,0 +1,44 @@
+{
+  "session": {
+    "top": 62,
+    "height": 558,
+    "scrollHeight": 932
+  },
+  "headerBefore": {
+    "x": 329.5,
+    "y": 166.875,
+    "width": 540,
+    "height": 34,
+    "top": 166.875,
+    "right": 869.5,
+    "bottom": 200.875,
+    "left": 329.5
+  },
+  "viewer": {
+    "top": 0,
+    "height": 493,
+    "scrollHeight": 1483,
+    "header": {
+      "x": 329.5,
+      "y": 166.875,
+      "width": 540,
+      "height": 34,
+      "top": 166.875,
+      "right": 869.5,
+      "bottom": 200.875,
+      "left": 329.5
+    },
+    "lastLinkVisible": false
+  },
+  "reduced": {
+    "shimmer": "none",
+    "display": "none",
+    "halo": "none"
+  },
+  "forced": {
+    "shimmer": "none",
+    "display": "none",
+    "text": "rgb(255, 255, 255)",
+    "opacity": "1"
+  }
+}

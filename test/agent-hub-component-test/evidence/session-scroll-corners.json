@@ -1,0 +1,29 @@
+{
+  "before": {
+    "panelHeight": 560,
+    "viewportHeight": 534,
+    "trackHeight": 528,
+    "topInset": 16,
+    "bottomInset": 16,
+    "drag": {
+      "x": 651.5,
+      "y": 361.1328125,
+      "travel": 237.484375
+    }
+  },
+  "after": {
+    "scrollTop": 374,
+    "max": 374,
+    "thumbBottomInset": 16.00421142578125
+  },
+  "keyboard": {
+    "pageDown": 369,
+    "lastFocused": true,
+    "lastVisible": true,
+    "finalScroll": 374
+  },
+  "natural": {
+    "filled": 934,
+    "empty": 154
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "inline": {
+    "initial": "true",
+    "afterEnter": "false",
+    "afterSpace": "true",
+    "expanded": "false",
+    "focusRestored": true,
+    "inert": true,
+    "ariaHidden": "true"
+  },
+  "popup": {
+    "initial": "true",
+    "keyboardToggle": true,
+    "focus": {
+      "label": "분석 결과.xlsx",
+      "outline": "none",
+      "shadow": "rgb(37, 99, 235) 0px 0px 0px 2px inset"
+    },
+    "hover": {
+      "mid": "rgb(235, 243, 255)",
+      "transition": "background-color, color, box-shadow"
+    },
+    "scroll": {
+      "beforeScroll": {
+        "headerY": 148.09375,
+        "headerBottom": 211.09375,
+        "client": 297,
+        "scrollHeight": 420
+      },
+      "afterScroll": {
+        "headerY": 148.09375,
+        "headerBottom": 211.09375,
+        "scrollTop": 123,
+        "focused": "참고 자료 9.docx",
+        "lastVisible": true
+      }
+    }
+  }
+}

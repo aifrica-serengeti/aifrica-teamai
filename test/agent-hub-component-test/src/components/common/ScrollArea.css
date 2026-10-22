@@ -1,0 +1,115 @@
+.common-scroll-area {
+  --scroll-thumb-fill: #aaa;
+  --scroll-thumb-hover: #999;
+  --scroll-gutter: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+.common-scroll-viewport {
+  flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  max-height: inherit;
+  overflow: auto;
+  scrollbar-width: none;
+  overscroll-behavior: contain;
+}
+.common-scroll-viewport::-webkit-scrollbar {
+  display: none;
+}
+.common-scroll-area[data-orientation="vertical"] > .common-scroll-viewport {
+  overflow-x: hidden;
+  padding-right: var(--scroll-gutter);
+}
+.common-scroll-area[data-orientation="horizontal"] > .common-scroll-viewport {
+  overflow-y: hidden;
+  padding-bottom: var(--scroll-gutter);
+}
+.common-scroll-area[data-orientation="both"] > .common-scroll-viewport {
+  padding-right: var(--scroll-gutter);
+  padding-bottom: var(--scroll-gutter);
+}
+.common-scroll-content {
+  min-width: 100%;
+  display: flow-root;
+}
+.common-scroll-track {
+  position: absolute;
+  z-index: 1;
+  touch-action: none;
+  user-select: none;
+  transition: opacity 200ms ease;
+}
+.common-scroll-area[data-visibility="hover"] > .common-scroll-track {
+  opacity: 0;
+  pointer-events: none;
+}
+.common-scroll-area[data-visibility="hover"]:hover > .common-scroll-track,
+.common-scroll-area[data-visibility="hover"]:focus-within
+  > .common-scroll-track,
+.common-scroll-area[data-visibility="hover"][data-dragging="true"]
+  > .common-scroll-track {
+  opacity: 1;
+  pointer-events: auto;
+}
+.common-scroll-track-y {
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  width: 4px;
+}
+.common-scroll-track-x {
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  height: 4px;
+}
+.common-scroll-area[data-overflow-y="true"] > .common-scroll-track-x {
+  right: 14px;
+}
+.common-scroll-thumb {
+  position: absolute;
+  background: var(--scroll-thumb-fill);
+  border-radius: 9999px;
+  transition: background-color 200ms ease;
+  touch-action: none;
+}
+.common-scroll-track-y > .common-scroll-thumb {
+  width: 4px;
+  top: 0;
+  left: 0;
+}
+.common-scroll-track-x > .common-scroll-thumb {
+  height: 4px;
+  top: 0;
+  left: 0;
+}
+.common-scroll-thumb:hover {
+  background: var(--scroll-thumb-hover);
+}
+@media (prefers-reduced-motion: reduce) {
+  .common-scroll-track,
+  .common-scroll-thumb {
+    transition: none;
+  }
+}
+@media (hover: none), (pointer: coarse) {
+  .common-scroll-area[data-visibility="hover"] > .common-scroll-track {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+@media (forced-colors: active) {
+  .common-scroll-thumb {
+    background: ButtonText;
+  }
+}
+
+/* Inset indicators stay visible at the first/last row without changing measured row positions. */
+.common-scroll-area .common-scroll-viewport :focus-visible {
+  outline-offset: -2px;
+}
