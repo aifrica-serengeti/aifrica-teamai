@@ -11,7 +11,7 @@
    ├─ 고정됨 / 프로젝트 / 채팅
    │  ├─ AgentHubSNBSectionHeader
    │  └─ AgentHubSNBItem:1단계·2단계
-   └─ 실제 viewport와 하단 fade 연결: 제품에서 구현
+   └─ 실제 viewport·상하 조건부 fade·콘텐츠 끝24px: Panel 채택 계약
 ```
 
 레일과 패널은 Figma에서 서로 다른 COMPONENT입니다. 보드에는 이 둘 외에도 아이콘·행·헤더의 상태표가 함께 놓여 있습니다.

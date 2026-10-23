@@ -13,3 +13,9 @@
 - 추가 disabled는 native disabled와 handler guard를 함께 적용합니다. 비활성 색만 바꾸거나 pointer만 막고 keyboard 활성화를 남기지 않습니다.
 - 긴 제목·meta·큰 글자·번역·좁은 폭에서 전체 정보·대비·조작 영역을 확인합니다.36px 샘플만으로 모든 타깃 크기를 검증했다고 선언하지 않습니다.
 - 행마다 live region을 만들지 않습니다. 실제 선택·요청 결과 안내가 필요하면 부모의 한 owner가 관리합니다.
+
+
+긴 제목 이동에서도 전체 원문은 접근성 이름에 한 번 남기고 제목에 별도 Tab 정지점·live region을 만들지 않습니다.
+키보드 focus는 hover와 같은 이동을 제공하며 전체 원문을 접근성 이름에 유지하고, 제목과 상위 행의 title 속성은 제거합니다.
+reduced-motion·forced-colors·print에서는 이동·mask를 제거한 정적 시작 표시를 사용합니다. 고정 높이 행에서 자동줄바꿈을 강제하지 않습니다.
+원문 접근과 touch·disabled·focus의 검증은 [긴 제목 계약](../../title-overflow.md)을 따릅니다.

@@ -20,3 +20,8 @@
 2026-10-21에 Figma [scroll-bar](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3155-20473)의 Light 단일 샘플을 확인했습니다.
 11×180px 안의4×160px thumb는 정적 도형입니다. 실제 스크롤 범위·노출 시점·hover/pressed/focus·dark·가로 방향을 측정한 것은 아닙니다.
 기존 Menu·Picker·Flyout의 scrollbar source나 제품 구현을 이 원본으로 일괄 교체하지 않습니다.
+
+
+2026-10-23 사용자 채택으로 SNB는 별도27px gutter·추가 수직 track 끝 여백24px를 사용합니다.
+엔진의 선택적 `verticalTrackPaddingEnd` 기본0과 표시·drag 계산의 일치는 [구현 안내](./implementation.md)를 따릅니다.
+원본11px 측정이나 다른 사용처의 기본값은 변경하지 않습니다.

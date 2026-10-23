@@ -40,3 +40,9 @@ preferred key5개와 실제 재사용 source를 보존하되 모든 icon×state�
 
 이 구조에는 Flyout·Menu·Dropdown·Checkbox·Link 인스턴스가 없습니다.
 selected나 clickable한 모습만으로 Flyout 자동 열기·새 연결·컨텍스트 제거를 추가하지 않습니다.
+
+## 현재 채택: 대표 value viewport
+
+value 원문 한 개를 비상호작용 viewport 안에 두고 [공용 긴 제목 표시](../../title-overflow.md)를 조합합니다.
+기존 action host가 hover·focus·활성화를 계속 소유하고 value에 별도 button·tabIndex·복제 문자열을 만들지 않습니다.
+icon·label-group66px·count는 고정하며 이동 대상은 value뿐입니다. 이는 사용자 채택 확장이고 원본 ENDING/maxLines1 관찰값은 보존합니다.

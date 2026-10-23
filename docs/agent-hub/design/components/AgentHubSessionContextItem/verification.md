@@ -18,3 +18,13 @@
 - 추가 focus/disabled/loading/read-only/dark/mobile·교차 상태는 별도 채택 범위로 남깁니다.
 - [구현 안내](./implementation.md)와 제품 lint/typecheck/test/build를 마친 뒤 실제 source/public export만 로컬 mapping에 기록합니다.
   검증 전 `unmapped`/`draft`를 유지합니다.
+
+## 긴 대표 value 표시 회귀
+
+- 짧은/긴/빈 value, 한국어·영문·확장자, 큰 count·selected·좁은 폭·value 교체·resize·폰트 로드 후 실제 overflow를 확인합니다.
+- [현재 채택](../../title-overflow.md)의36px/s linear·대기100ms·복귀200ms ease·흐림24px를 확인합니다. 짧거나 긴 overflow 모두 같은 속도이며 재진입에도 남은 거리로 시간을 계산하고 최소 시간을 두지 않습니다.
+- 기본 오른쪽 흐림·이동 중 양끝·끝의 마지막 글자 표시를 확인하고 icon·label66px·count·행·focus ring 좌표가 고정되는지 비교합니다.
+- 행의 hover와 keyboard focus가 같은 value 이동을 제공하고 별도 Tab 정지점·중복 원문·title 기본 툴팁이 생기지 않아야 합니다.
+- 빠른 재진입·focus 중 pointer 이탈·disabled·unmount·reduced-motion 변경에서 잔상·지연 완료·남은 listener가 없어야 합니다. forced-colors·print에서는 이동과 mask를 제거합니다.
+- click·Enter·Space 활성화가 한 번만 발생하고 count·선택·컨텍스트 popup·focus 복귀·Panel scroll과 충돌하지 않아야 합니다.
+- 원본 ENDING/maxLines1과 신규 채택값·실제 브라우저 결과를 구분하며 공개 props와 공유 unmapped/draft 상태를 바꾸지 않습니다.

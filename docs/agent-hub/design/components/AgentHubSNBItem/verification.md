@@ -25,5 +25,14 @@
 - 현재 채택한 runtime은 more wrapper20×20/transparent/padding0·right2이며 main의 padding-right20은 more가 있을 때 항상 유지합니다.
   행 끝↔more host 오른쪽이2px인지 depth1/2·hover·선택·focus-within에서 측정하고, 노출 전후 행·제목 위치가 같아야 합니다.
   hover·focus·selected·pressed 조합에서 F8/F4 사각형 불일치가 없고, 제목 너비·이웃 위치가 움직이지 않는지 확인합니다.
-- 버튼 자체 hover #EEE·pressed #DDD/200ms, 행 fill transparent/F8/F4, 긴 제목 말줄임·focus 가시성을 각각 확인합니다.
+- 버튼 자체 hover #EEE·pressed #DDD/200ms, 행 fill transparent/F8/F4, 긴 제목 끝 흐림·이동·focus 가시성을 각각 확인합니다.
   more를 누를 때 행의 선택/펼침이 중복 실행되지 않고 more가 없는 행에는 공간·Tab target이 없는지 검사합니다.
+
+
+## 긴 제목 표시 회귀
+
+- 긴/짧은/빈 제목에서 실제 폭을 기준으로 흐림·이동을 구분하고, 원문과 접근성 이름은 자르지 않았는지 확인합니다.
+- hover·focus 진입/이탈, 중간 프레임·끝 글자와 확장자, 빠른 재진입·제목 교체·resize·폰트 로드 후 위치를 검증합니다.
+- 아이콘·meta·형제 more·focus ring·행 x/폭/높이가 고정이고 가로 스크롤이 생기지 않아야 합니다.
+- 주 동작과 보조 명령은 한 번만 실행되고, disabled·reduced-motion·forced-colors·print·unmount에서 이전 모션/관찰자가 남지 않아야 합니다.
+- [공유 검증 계약](../../title-overflow.md)의 신규 제안값과 실제 브라우저 결과를 구분하며 public props·export를 바꾸지 않습니다.

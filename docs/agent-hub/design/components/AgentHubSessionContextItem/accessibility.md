@@ -13,3 +13,10 @@
 - 추가 disabled는 native 속성과 handler guard를 함께 연결하며 pointer 차단만으로 keyboard 활성화를 남기지 않습니다.
 - 긴 그룹명·value·count·번역·확대·좁은 폭에서 전체 정보와 조작이 유지되는지 검사합니다.
   32px 행과 Light 색상만으로 타깃 크기·대비·완전한 keyboard 지원을 검증했다고 선언하지 않습니다.
+
+## 현재 채택: 대표 value 이동
+
+전체 value 원문은 기존 native control의 접근성 이름에 한 번 남깁니다. 이동을 위해 별도 Tab 정지점·live region·복제 텍스트를 추가하지 않습니다.
+value와 상위 행의 title 기반 기본 툴팁을 제거하고 원문 접근을 툴팁에 의존하지 않습니다. 기존 host의 keyboard focus는 hover와 같은 표시를 제공합니다.
+disabled에서는 이동을 시작하지 않습니다. reduced-motion·forced-colors·print에서는 이동과 mask를 제거하고 정적인 시작 표시와 원문 이름을 유지합니다.
+icon·label·count·focus 표시와 단일 활성화 의미를 보존하며 [공유 대안과 취소 계약](../../title-overflow.md)을 따릅니다.

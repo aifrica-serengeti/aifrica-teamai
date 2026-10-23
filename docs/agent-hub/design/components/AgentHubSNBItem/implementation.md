@@ -76,10 +76,18 @@ more는 같은 기록의16px/#757575/선1을 연결하고 기존 ghost20 adapter
 leading=false이면 glyph와 gap8을 함께 없애고 2depth에는 없는 glyph를 추가하지 않습니다.
 more가 없는 branch에서는 예약 공간/제어/Tab target을 제거하되 Panel의 실제 hidden-more 예외와 혼동하지 않습니다.
 hover 전용 동작은 focus-within·touch 등의 접근 가능한 정책을 제품 확장으로 검증합니다.
-long title의 clipping/ellipsis·우측 공간 예약·줄바꿈은 원본에 없는 제품 정책으로 구분하고 전체 이름·control 접근을 보존합니다.
+긴 제목은 [현재 채택](../../title-overflow.md)의 끝 흐림·hover/focus 이동을 조합합니다. 기존 ellipsis는 이 채택으로 대체하고 전체 이름·control 접근을 보존합니다.
 제어는 hover·focus-within에서 노출하고 focus된 버튼을 숨기지 않습니다. 숨김 중 opacity만0으로 두어 Tab target을 잃지 않으며,
 포인터 hit 여부와 키보드/touch의 실제 접근을 검증합니다. reduced-motion에서는 행·버튼·노출 전환을 즉시 반영합니다.
 
 Panel의 content255/row256와 clip/overflow NONE은 스크롤 실행의 증거가 아닙니다.
 목록 마지막 항목·긴 내용·resize·focus 가시성을 실제 native viewport와 함께 검증합니다.
 [검증](./verification.md)과 실제 제품 render/input·검사를 마친 뒤 source/public export·asset/token adapter를 기록하며 unmapped/draft를 유지합니다.
+
+
+## 긴 제목 helper 연결
+
+기존 native main host 안의 제목 span만 재사용 helper(예: `OverflowText`)로 교체합니다. helper는 원문 span을 한 개만 갖고 closest native button/link의 상호작용에 연결합니다.
+현재 `title`·선택·onActivate·more·triggerRef 등 공개 입력은 그대로입니다. 새 페이지 상태나 항목별 타이머를 소비처에 복제하지 않습니다.
+모든 `.main span`에 ellipsis·overflow를 주는 selector를 제거하고 전용 제목 viewport class에만 flex/min-width0를 연결합니다.
+more의 상시20px 예약·right2px·depth2 left36과 leading16/gap8은 유지합니다. [공유 수명·검증](../../title-overflow.md)을 확인합니다.

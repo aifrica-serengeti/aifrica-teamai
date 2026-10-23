@@ -98,7 +98,7 @@ literal은 Light 실측 비교값이며 제품 token에 연결합니다. 폭은 
   min-width: 0;
   overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis;
+  text-overflow: clip;
   font: 400 14px/20px Pretendard, sans-serif;
 }
 .hub-session-item-meta {
@@ -123,3 +123,12 @@ file-text/schedule의 source20·표시16·선1.25·#757575를 보존하고 임�
 
 [검증 항목](./verification.md)과 제품 검사를 마친 뒤 source/public export·지원 상태·실제 결과를 로컬 mapping에 기록합니다.
 그 전에는 `unmapped`/`draft`를 유지하며 원본 제품을 수정하거나 문서 예시를 실제 구현 증거로 취급하지 않습니다.
+
+
+## 6. 긴 제목 helper 연결
+
+위 title viewport 안에 [긴 제목 표시](../../title-overflow.md)의 원문 레이어와 공용 helper를 연결합니다.
+소비 구현에서는 기존 title span만 재사용 helper로 교체하고 disabled를 전달합니다. 공용 Button wrapper를 새 control로 바꾸지 않습니다.
+icon-box28·glyph16·content gap4와 meta의 HUG 폭은 고정이며 title만 남은 폭을 사용합니다. meta=true/false 모두 실제 제목 가용 폭을 측정합니다.
+`display:contents`를 사용하는 Button wrapper selector가 helper viewport까지 지우지 않아야 합니다. 원본 ENDING/maxLines1은 위 실측에 보존하고 runtime ellipsis는 이 채택으로 대체합니다.
+기존 공개 props·source/export·직접 의존 계약은 유지하며 별도의 Agent Hub 제목 컴포넌트 ID나 스킬을 등록하지 않습니다.

@@ -134,3 +134,25 @@ SNB를 연결하는 엔진의 선택적 `visibility:"always"|"hover"`는 runtime
 SNB만 hover를 선택합니다. 이 부분 구현을 공용 baseline의 hover/always/scroll/auto 전체 API 완료로 표시하지 않습니다.
 hover는 영역 hover·focus-within·drag 중 노출하고 coarse pointer에서는 상시 노출합니다. SNB 패널 hover도 같은 track 표시 조건에 연결합니다.
 노출 opacity는200ms ease이며 reduce에서는 즉시 적용합니다. 숨김 중에도 실제 viewport와 gutter 공간을 제거하지 않습니다.
+
+
+## 6. 선택적 수직 track 끝 여백
+
+현재 부분 API에 `verticalTrackPaddingEnd?: number`를 연결합니다. 기본0이고 음수·NaN·무한대는0으로 정규화합니다.
+SNB는24를 전달하며 엔진이 같은 정규화 값을 아래 두 경로에 사용합니다.
+
+```text
+수직 track top = 3px
+수직 track bottom = 3px + verticalTrackPaddingEnd
+track = max(0, clientHeight − 6 − verticalTrackPaddingEnd)
+thumbSize = min(track, max(24, track × clientHeight / scrollHeight))
+travel = max(0, track − thumbSize)
+thumbOffset = scrollTop / (scrollHeight − clientHeight) × travel
+scrollPerTrackPixel = (scrollHeight − clientHeight) / max(1, travel)
+```
+
+native viewport·content padding·scroll range는 바꾸지 않으며 가로축은 기존 계산을 유지합니다.
+기본0에서는 기존 CSS inset override를 덮는 inline style을 만들지 않습니다. 같은 엔진의 현재 props와 측정값으로 계산하므로 별도 listener·observer·상태를 추가하지 않습니다.
+SNB는 style/variant 경로로 gutter27px와 track right2px를 연결하고 목록 영역 margin-right−16px로 행 폭을 보존합니다.
+패널 border1px를 포함한 오른쪽 경계↔thumb 끝은3px입니다. 그 외 사용처는 기존11px gutter를 유지합니다.
+이 부분 API 추가는 호환 변경이며 baseline 전체 ScrollArea API나 Figma 속성으로 기록하지 않습니다.

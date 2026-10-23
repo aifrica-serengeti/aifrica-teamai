@@ -19,3 +19,12 @@ icon·label·value·count 각각이나 wrapper에 같은 callback을 중복 등�
 추가 disabled/loading/read-only는 제품 정책이며 실제 변경 guard와 연결합니다.
 새 시각·Spinner·상태 알림·자동 닫힘을 네 variant에서 확인한 기능으로 추가하지 않습니다.
 이 행이 파일 조회·볼륨 권한·도구 실행·스킬 설치·API URL·debounce를 소유하지 않습니다.
+
+## 현재 채택: 긴 대표 value hover/focus 이동
+
+실제 value가 가용 폭을 넘칠 때만 오른쪽 끝을 흐리게 하고, 기존 native 주 동작의 hover·focus에서 value만 이동해 숨은 끝을 보여줍니다.
+대기100ms·속도36px/s linear·이탈 복귀200ms ease·흐림24px는 신규 제안값입니다. 원본 prototype 동작 실측이 아닙니다.
+짧거나 긴 overflow 모두 같은 속도로 이동합니다. 최소 시간 없이 현재 위치부터 남은 거리로 시간을 계산하며 재진입에도 적용합니다. 남은 거리가0이면 즉시 끝 상태를 유지합니다.
+끝에서는 오른쪽 흐림을 해제하고 머무르며 반복 재생하지 않습니다. icon·label66px·count·행의 좌표와 기존 click·선택·popup 소유권은 유지합니다.
+[긴 제목 채택 계약](../../title-overflow.md)의 단일 helper를 재사용하고 disabled에서는 자동 이동하지 않습니다.
+빠른 이탈/재진입·value 변경·resize·unmount·동작 줄이기 변경은 이전 완료를 취소하며 title 기반 기본 툴팁을 표시하지 않습니다.

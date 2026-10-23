@@ -18,3 +18,12 @@
 - 추가 focus/disabled/loading/dark/mobile·교차 상태를 원본 확인값으로 표시하지 않습니다.
 - [구현 안내](./implementation.md)와 제품 lint/typecheck/test/build를 마친 뒤 실제 source/public export를 로컬 mapping에 기록합니다.
   검증 전 `unmapped`/`draft`를 유지하고 문서 수신만으로 구현 완료를 선언하지 않습니다.
+
+
+## 긴 제목 표시 회귀
+
+- 긴/짧은/빈 제목에서 실제 폭을 기준으로 흐림·이동을 구분하고, 원문과 접근성 이름은 자르지 않았는지 확인합니다.
+- hover·focus 진입/이탈, 중간 프레임·끝 글자와 확장자, 빠른 재진입·제목 교체·resize·폰트 로드 후 위치를 검증합니다.
+- 아이콘·meta·형제 more·focus ring·행 x/폭/높이가 고정이고 가로 스크롤이 생기지 않아야 합니다.
+- 주 동작과 보조 명령은 한 번만 실행되고, disabled·reduced-motion·forced-colors·print·unmount에서 이전 모션/관찰자가 남지 않아야 합니다.
+- [공유 검증 계약](../../title-overflow.md)의 신규 제안값과 실제 브라우저 결과를 구분하며 public props·export를 바꾸지 않습니다.

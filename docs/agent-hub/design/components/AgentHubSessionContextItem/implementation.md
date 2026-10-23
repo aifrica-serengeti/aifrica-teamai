@@ -34,7 +34,7 @@ icon union은 현재 관찰한 source 범위이며 preferred key 전체와 모�
 button type=button, 실제 disabled, 선택 표시
 ├─ content
 │  ├─ label-group66: 장식 icon16 + label
-│  └─ value 평문
+│  └─ value viewport: 공용 긴 제목 helper 안에 평문 원문 한 개
 └─ countText 평문
 ```
 
@@ -100,13 +100,14 @@ literal은 Light 비교값이며 제품 token에 연결합니다. 폭은 부모�
   color: #1c1c1c;
   overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis;
+  text-overflow: clip;
 }
 .hub-session-context-count { flex: 0 0 auto; color: #757575; white-space: nowrap; }
 ```
 
 data-selected는 false일 때 속성을 제거합니다. 선택 배경 우선은 **제안 우선순위**이며 교차 상태 실측이 아닙니다.
 focus token과 추가 disabled 시각은 제품에서 채택합니다. 다른 primitive는 aria-disabled/data-disabled와 실제 실행 guard도 연결합니다.
+value의 `text-overflow: clip`은 아래 사용자 채택 helper를 위한 제품 표현이며 원본 ENDING 실측을 수정한 값이 아닙니다.
 긴 그룹명이66px를 넘으면 원본 clipping을 내용 삭제 정책으로 복사하지 않습니다.
 제품이 컬럼 폭·줄바꿈·높이·전체 정보 접근 방법을 명시해 검증하며 현재 샘플의 지원 범위와 구분합니다.
 
@@ -120,3 +121,14 @@ file-text/folder의 source20·표시16·선1.25와 native16의 선1·#757575를 
 
 [검증 항목](./verification.md)과 제품 lint/typecheck/test/build·접근성·문구·실제 활성화를 확인한 뒤 로컬 mapping을 기록합니다.
 source/export는 확인 전 `unmapped`, 공유 채택 설정은 `draft`이며 원본 제품은 수정하지 않습니다.
+
+## 6. 대표 value에 같은 긴 제목 helper를 연결합니다
+
+기존 value span을 [공용 긴 제목 helper](../../title-overflow.md)의 viewport·원문 레이어 조합으로 대체합니다.
+SNB·SessionItem과 같은 helper를 재사용하고 행별 타이머·observer·마퀴 엔진을 복제하지 않습니다.
+native host의 hover/focus에서 value만36px/s linear로 이동하며 대기100ms·복귀200ms ease·흐림24px를 연결합니다.
+현재 위치부터 남은 거리로 시간을 계산하고 최소 시간을 두지 않습니다. 끝에서는 오른쪽 흐림을 해제하고 머뭅니다.
+icon·label-group66px·count는 형제 고정 영역에 남기고 value에 button·tabIndex·선택 상태·후속 popup 상태를 추가하지 않습니다.
+title 기반 기본 툴팁을 만드는 value와 상위 행의 title 속성을 제거하되 전체 label·value·count의 접근성 이름과 단일 활성화 경로는 보존합니다.
+disabled·reduced-motion·forced-colors·print, 빠른 재진입·value 변경·resize·unmount의 취소·cleanup은 공유 계약을 따릅니다.
+이 recipe는 실제 소비 source/export의 구현 증거가 아니며 검증 후 제품의 로컬 mapping만 갱신합니다.

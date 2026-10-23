@@ -19,3 +19,12 @@ native Enter/Space와 별도 keydown·wrapper·SVG click에서 같은 callback�
 disabled/loading을 제품이 추가하면 실제 활성화를 guard하고 요청 owner의 중복 방지와 연결합니다.
 네 state에 비활성·loading 시각이 있다고 주장하거나 임의 Spinner를 붙이지 않습니다.
 목록이 바뀌거나 선택이 갱신됐다는 이유로 기존 대화·draft·첨부·context를 초기화하지 않습니다.
+
+
+## 현재 채택: 긴 제목 hover/focus 이동
+
+실측 폭이 넘칠 때만 오른쪽 끝을 흐리게 하고, 기존 native 주 동작의 hover·focus에서 글자만 이동해 숨은 끝을 보여줍니다.
+대기100ms·속도36px/s linear·이탈 복귀200ms ease·흐림24px는 신규 제안값입니다. 원본 prototype 동작 실측이 아닙니다.
+짧거나 긴 overflow 모두 같은 속도로 이동합니다. 최소 시간 없이 현재 위치부터 남은 거리로 이동 시간을 계산하고, 재진입 때도 같은 계산을 적용합니다. 남은 거리가0이면 즉시 끝 상태를 유지합니다.
+끝에서는 오른쪽 흐림을 해제하고 머무르며 반복 재생하지 않습니다. 빠른 이탈/재진입·제목 변경·resize·설정 변경은 이전 완료를 취소합니다.
+[긴 제목 채택 계약](../../title-overflow.md)의 단일 helper를 재사용하고 disabled에서 자동 이동하지 않습니다.

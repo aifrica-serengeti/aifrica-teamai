@@ -38,3 +38,10 @@ Panel은 제목·glyph swap·leading/trailing Boolean과 paint를 추가 overrid
 내부 more INSTANCE는 visible=false입니다. gradient FRAME은 남아 있습니다. 이를 selected 원본 재사용이나 subtree 부재로 기록하지 않습니다.
 실제 leaf/current·펼침·항목 action 의미는 Panel/제품이 정하며 이 혼합 시각만으로 의미를 확정하지 않습니다.
 Panel에서 사용할 때는 [실제 Panel 조합](../AgentHubSNBPanel/definition.md)을 다시 확인해 이 override와 숨김을 보존합니다.
+
+
+## 현재 채택: 긴 제목 viewport
+
+제목 원문 한 개를 비상호작용 viewport 안에 두고 [공용 긴 제목 표시](../../title-overflow.md)를 조합합니다.
+상위 native 주 동작이 hover·focus·활성화를 소유하며 제목에 버튼이나 Tab 정지점을 추가하지 않습니다.
+선택·expanded·업무 요청·파일/예약 데이터는 기존 owner에 남습니다.

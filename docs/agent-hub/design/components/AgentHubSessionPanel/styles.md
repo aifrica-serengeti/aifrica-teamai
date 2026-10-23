@@ -72,3 +72,12 @@ radius16의 곡면과 thumb가 겹치지 않도록 이번 요청으로 채택한
 - 실제 viewport 높이는 패널 높이에서 border2와 shell24를 뺀 값입니다. `maxHeight`도 같은26px를 차감합니다. 패널560px일 때 viewport534px, track528px입니다.
 - content의 py4와 고정 shell12의 합계는 기존 py16입니다. 첫·마지막 행의 정적 배치와 제한 없는 HUG 높이, 좌우 폭은 바꾸지 않습니다.
 - track의 CSS top/bottom만16px로 덮어써 엔진이 계산하는 길이와 어긋나게 만들지 않습니다. 패널 외곽·안쪽 scroll viewport에 추가 radius나 여백을 중복 적용하지 않습니다.
+
+### 사용자 채택: 첫 진입의 최종 폭과 shadow paint 여유
+
+대화 화면의 main을 inline-size query container로 삼고 Session 내용의 폭을 `min(320px, max(0px, calc(100cqw - 4px)))`로 정합니다.
+이 값은 열리는 중간 shell 폭이 아닌 main의 최종 가용 폭을 참조합니다. 일반 폭에서는320px, 아주 좁은 main에서는 오른쪽4px를 제외한 폭을 사용합니다.
+바깥 reveal shell만0→324px를250ms ease로 전환하며 내용의150ms ease/6px 진입·퇴장은 별도로 유지합니다.
+shell의 `overflow:clip`은 유지하고 `overflow-clip-margin:8px`로 Mid shadow를 그릴 여유를 둡니다.8px는 새 runtime paint 여유이며 border·padding·grid 예약 폭을 늘리지 않습니다.
+내용의 HUG와 기존 height/maxHeight·scroll 정책은 유지합니다. 원본 empty154/filled934px를 고정 height로 지정하거나 첫 진입 보정을 위한 측정 timer·별도 state를 추가하지 않습니다.
+이는 제품 조립 채택이며 원본320px·HUG·Mid shadow 수치와 측정 JSON은 바꾸지 않습니다.

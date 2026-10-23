@@ -179,6 +179,9 @@ empty154/filled934px는 HUG 샘플이며 실제 가용 높이의 scroll/focus를
 Header ghost24 원본/기록 toggle actual16·glyph16과 Divider actual17×4를 구분하고,
 hover 검정5%/pressed10%·selected#EBF3FF의 실제 alias와17개 정확한 SVG를 보존한다.
 active 원형을 Spinner·단계 이동으로 바꾸거나 Menu/Tree/Checkbox·CardAccordion의 역할과 모션을 자동 채택하지 않는다.
+대화 shell에서 Session 내용은 첫 프레임부터 최종 가용 폭(일반320px, 아주 좁으면 main 폭−4px)으로 배치하고 바깥 shell만 reveal한다. inline-size query container와 `min(320px, max(0px, calc(100cqw - 4px)))`는 제품 조립 채택이다.
+폭 전환250ms ease는 신규 제안, 내용 presence150ms ease/6px는 popup 모션의 명시적 계승이며 Figma Session 모션 실측이 아니다. `overflow:clip`의8px clip margin은 Mid shadow를 위한 runtime paint 여유이고 layout padding·예약 폭을 바꾸지 않는다.
+empty154px를 고정 height로 만들거나 별도 측정 timer·높이 보정 state를 추가하지 않는다. 자연 HUG·기존 height/maxHeight·scroll과 Panel/Disclosure/ScrollArea 공개 계약·부모 상태 소유권을 유지한다.
 
 
 OutputViewer는 title/type·표시 Boolean3개·native content SLOT을 가진 신규 전용 패널이다.
@@ -232,6 +235,9 @@ route/current leaf·rail 선택·section/project 펼침·hover/pressed·더보�
 링크·action·disclosure·더보기는 native 의미와 형제 host를 유지하고 전체 목록에 Menu/Tree 역할을 자동 적용하지 않는다.
 source hovered+selected fill의 pinned 행·실제256/255px 폭·현재 clip/NONE과 raw gradient를 보존하고 runtime adapter와 구분한다.
 실제 viewport와 끝 항목/focus 접근·hover 외 명령 노출·접힌 subtree 제외를 구현하며 제공되지 않은 dark/mobile/접힘/요청 상태는 별도 검증한다.
+목록 경계는3016:108416의 하단53px white fade를 대조하고 상단 반전을 사용자 채택으로 추가한다.
+공용 엔진의 canScrollUp/Down으로 각각 표시하며, 하단24px는 콘텐츠 끝에만 둔다. 장식은 목록 영역 밖 고정 overlay로 SNB 전용 gutter27px를 제외하고 keyboard focus·forced-colors·print를 가리지 않는다.
+SNB만 목록 영역 margin-right−16px·gutter27px·track right2px를 연결해 행 폭244px·행↔thumb21px·패널 오른쪽 경계↔thumb 끝3px를 유지한다. 이는 사용자 이미지에 따른 runtime 채택이다. 수직 track의 추가 끝 여백24px는 표시·drag 계산에 함께 적용해 하단 빈 영역을 피하며 기본 공용 gutter11px·다른 사용처는 유지한다.
 정확한 SVG31개와54개 glyph slot은 `agent-hub/design/references/snb.assets.json`을 따르고 static source나 실제 paint를 임의 치환하지 않는다.
 실제 제품 source/export는 검증 후 로컬에 기록한다. 공용 off에는 이 catalog와 공용 절차를 강제하지 않는다.
 

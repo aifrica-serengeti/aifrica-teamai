@@ -1153,7 +1153,9 @@
       "aliases": [
         "AgentHubSNBPanel",
         "snb-panel",
-        "Agent Hub 프로젝트·채팅 패널"
+        "Agent Hub 프로젝트·채팅 패널",
+        "SNB 상하 스크롤 경계 흐림",
+        "snb-scroll-edges"
       ],
       "category": "navigation",
       "layer": "component",

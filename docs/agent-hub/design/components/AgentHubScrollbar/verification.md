@@ -37,3 +37,10 @@
 채택 adapter는 공용 엔진과 단일 native viewport를 사용하는지, ref의 scrollTo/ensureVisible이 그 viewport만 조작하는지 확인합니다.
 height/maxHeight 변경·가로/세로/both·내용 추가/삭제·반복 mount/unmount에서 observer·pointer capture·listener가 남지 않아야 합니다.
 기본 fill과 hover fallback은 이 adapter에서만 #DDD로 유지하며 다른 사용처의 gutter·색상을 전역 변경하지 않습니다.
+
+
+- 선택적 `verticalTrackPaddingEnd=24`에서 실제 track bottom27px와 계산 track 길이가 일치하고, thumb가 끝 여백을 침범하지 않는지 확인합니다.
+- top/mid/end의 thumb 끝·drag 환산·track 클릭으로 실제 scroll range의 양 끝에 도달하는지 검사합니다. 콘텐츠 높이와 마지막 항목은 유지되어야 합니다.
+- 기본0·음수·NaN·Infinity·작은 viewport에서 음수/NaN·기존 CSS override 제거·DOM에 옵션 속성 유출이 없어야 합니다.
+- SNB만 gutter27px/track right2px/목록 영역 margin-right−16px를 사용하며, 패널 오른쪽 경계↔thumb 끝3px와 행 폭244px가 유지되는지 확인합니다.
+  나머지 사용처의 기본11px·가로축 기하·공개 handle·focus는 유지되어야 합니다.

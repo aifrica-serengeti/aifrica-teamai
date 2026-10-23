@@ -55,8 +55,45 @@ dark·큰 글자·긴 번역·좁은 높이·모션·다른 상태는 별도 제
 
 ## 현재 채택: 공용 엔진 기반 목록 스크롤
 
-top73·바깥 px16/py24·gap16·오른쪽 선은 유지하며, 남은 높이의 목록에 [AgentHubScrollbar](../AgentHubScrollbar/styles.md)를 연결합니다.
-thumb4px/gutter11px/inset3px/radius9999/불투명 #DDD를 사용하고 native thin scrollbar는 숨깁니다.
+top73·바깥 px16·위 padding24·gap16·오른쪽 선은 유지하며, 남은 높이의 목록에 [AgentHubScrollbar](../AgentHubScrollbar/styles.md)를 연결합니다.
+원본 아래 padding24는 아래2026-10-23 채택에 따라 스크롤 콘텐츠 끝으로 옮깁니다.
+thumb4px/radius9999/불투명 #DDD를 사용하며 SNB만 gutter27px·track 하단27px를 채택하고 native thin scrollbar는 숨깁니다.
 실제 viewport 한 곳만 scroll owner이며 목록만 이동하고 top 영역은 고정됩니다. gutter 공간은 항상 예약하여 노출에 따라 행 폭이 움직이지 않게 합니다.
 노출은 패널 hover·스크롤 영역 focus-within·thumb drag 중에200ms opacity로 표시합니다. coarse pointer에서는 상시 노출합니다.
 overflow가 없으면 thumb를 만들지 않습니다. 이는 사용자 요청과 공용 기능을 연결한 runtime 채택이며 원본의 정적 fade/clip을 수정한 실측이 아닙니다.
+
+## 2026-10-23 채택: 경계 흐림과 스크롤 끝 여백
+
+[화면 인스턴스3016:108416](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3016-108416)의
+288×1033·top y24/73·list y113/964·하단 fade x−6/y980/303×53은 위 원본과 같습니다.
+원본은 하단 장식 한 개이며 상단 장식·실제 overflow 반응·타이밍은 제공하지 않습니다.
+
+| 현재 구현에 적용할 값 | 근거 |
+| --- | --- |
+| 위·좌우 padding24/16·top73·gap16·목록 시작 y113 유지 | Figma 대조 |
+| 하단24px를 바깥 고정 padding에서 스크롤 콘텐츠 끝 padding으로 이동 | 끝 행 접근과 중간 경계 처리를 위한 사용자 채택 |
+| 하단 흐림 높이53px·white alpha약.53304→1 | Figma bounds와 기존 수학적 CSS adapter |
+| 상단 흐림 높이53px·white1→약.53304 | 하단 표현을 반전한 이번 사용자 채택 |
+| 흐림 폭은 목록 영역에서 오른쪽 gutter27px 제외 | thumb 조작을 보존하는 runtime 채택. 원본303px의 단순 복제가 아님 |
+| opacity200ms ease·동작 줄이기에서 즉시 | 공용 상태 전환 계승. Figma 모션 실측이 아님 |
+
+1033px fixture에서는 viewport가 y113부터 바닥1033까지920px를 사용하고,
+스크롤 콘텐츠는 list964 + 끝 padding24 =988px입니다. 이동 범위는 기존과 같은68px입니다.
+끝에 도달하면 마지막 행 아래24px가 드러납니다. 바깥에24px를 다시 더하거나 viewport 높이에서53px를 빼지 않습니다.
+흐림은 relative 목록 영역의 top0/bottom0에 절대 배치하고 pointer-events:none·장식으로 처리합니다.
+실제 backdrop blur로 글자·thumb를 흐리게 하지 않으며, white gradient로 경계에서 자연스럽게 가립니다.
+
+## 추가 채택: thumb 끝 위치와 콘텐츠 간격
+
+하단24px 빈 공간까지 thumb가 내려가지 않도록 수직 track의 끝은 viewport 하단에서27px 위에 둡니다.
+기존 기본 inset3px + 추가 여백24px이며, 콘텐츠의 실제 viewport·scroll range·끝 padding24px는 그대로 유지합니다.
+track의 표시 길이뿐 아니라 thumb 크기·이동량·drag 환산도 같은24px를 제외해 계산합니다.
+CSS bottom만 늘리고 기존 `clientHeight−6` 계산을 남기는 방식이나 마지막 thumb를 clipping하는 방식은 사용하지 않습니다.
+
+SNB에서만 gutter27px·track right2px·목록 영역의 오른쪽 margin−16px를 채택합니다.
+288px 패널의 영역 폭은271px이고 행 폭은244px로 유지합니다. 행 오른쪽과 thumb 사이 간격은21px이며,
+thumb 오른쪽 끝과 패널 외곽 경계는3px입니다. 패널의 오른쪽 border1px와 track right2px를 함께 계산한 값입니다.
+이전 SNB 채택인 gutter19px·margin−8px·track right4px보다 thumb가 오른쪽10px 이동하며, 기본 gutter11px 배치보다18px 이동합니다.
+새 채팅·Divider·항목·더보기의 원래 폭과 x좌표는 바꾸지 않습니다. 흐림도27px gutter를 제외해 기존 행 경계에서 끝납니다.
+이는 이번 사용자 이미지에 따른 runtime 보완이며 Figma 원본 root padding16px·목록255px·측정 JSON이나 공용 기본 gutter11px를 변경한 기록이 아닙니다.
+다른 Picker·Flyout·Session·Viewer의 gutter와 기본 track inset은 유지합니다.

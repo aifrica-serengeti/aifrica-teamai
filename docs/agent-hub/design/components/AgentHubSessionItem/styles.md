@@ -47,3 +47,11 @@ source 크기나20→16 배율만으로 선 두께·색을 다시 계산하지 �
 
 294px는 standalone/현재 Panel 샘플입니다. 긴 제목·meta·번역·좁은 폭의 배치와
 focus·disabled·loading·dark·mobile·전체 icon×state 조합은 제품에서 추가 채택·검증합니다.
+
+
+## 현재 채택: 말줄임표 대신 끝 흐림
+
+원본 글꼴·색상·높이·glyph·padding과 선택 배경은 유지합니다. 제목만 한 줄 viewport와 원문 레이어로 나눕니다.
+`…`를 추가하거나 원문을 자르지 않고, 실제 넘침에서만 오른쪽24px mask를 적용합니다. 이동 중 양끝, 끝에서는 왼쪽만 흐립니다.
+mask와 transform은 제목에만 적용해 행 배경·focus ring·아이콘·형제 조작을 가리지 않습니다.
+이는 [사용자 채택](../../title-overflow.md)이며 위 Figma 측정값을 덮어쓰지 않습니다.

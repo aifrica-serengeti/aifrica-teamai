@@ -24,6 +24,7 @@
 | background / border / shadow / text / underline | 200ms ease | 공용 계승. `transition:all`로 크기나 layout을 흔들지 않습니다. disabled 기능 차단은 즉시입니다. |
 | PickerItem / MenuItem / FlyoutItem 행 배경 | background-color 200ms ease | 위 색상 전환의 적용 대상입니다. 실제 배경을 그리는 행 wrapper/content에 직접 지정해 hover 진입·이탈을 모두 보간합니다. 자식 버튼이나 부모 popup의 transition만으로 대신하지 않습니다. 기존 상태색·선택 우선순위·행 크기는 유지하고 disabled에서는 hover를 차단합니다. |
 | SNB rail glyph | color 200ms ease | 원본 neutral28px SVG의 alpha mask 한 층에 currentColor를 연결합니다. #757575↔#3B82F6를 보간하며 도형 불투명도·geometry·mask URL은 고정합니다. 이전 두 레이어 opacity 교차 채택을 대체합니다. |
+| SNB·SessionItem 긴 제목·SessionContextItem 대표 값 | 끝 흐림24px·hover/focus 대기100ms·36px/s linear·복귀200ms ease | [사용자 채택과 신규 제안](./title-overflow.md). 짧거나 긴 overflow 모두 같은 속도이며 현재 위치부터 남은 거리로 시간을 계산합니다. 최소 시간 없이 끝에서는 머물고 glyph·label·count·meta·more·행은 고정합니다. Figma 실측이 아닙니다. |
 | Menu / Flyout / 단일 Select popup | 150ms ease | 공용 계승. 닫힌 동안 inert, 재열기 때 이전 종료를 취소합니다. |
 | Accordion 본문 높이 | 250ms ease | 공용 timing 계승. leading gap도 본문 내부에 두어 함께 접습니다. |
 | disclosure glyph | 200ms ease, open0°↔closed−90° | down glyph만 회전합니다. hit area/focus ring은 고정합니다. |
@@ -87,10 +88,16 @@ thumb 위치·길이는 실제 scrollTop/Height/clientHeight 비율로 측정하
 - 검색 Picker: Search와 Footer 고정, 결과만 scroll. 추천형과 다른 row32/36 구성을 보존합니다.
 - Flyout: Header 내용54 p8 뒤 고정 seam9(4+선1#DDD+4)를 Header가 소유합니다. standalone withDivider:false는54, shell true는63으로 y5..68, body y68..365/297, Footer y365..398/33을 유지합니다. content에 divider를 중복하지 않고 body만 scroll합니다. standalone Footer29는 별도입니다. 폴더는 optional parent disclosure로 본문250ms·glyph200ms를 계승하며 평면 목록에는 owner가 필요 없습니다.
 - Session: optional height/maxHeight가 있을 때만 내부 viewport를 제한하고 HUG 기본 배치를 유지합니다. 제한 모드에서 shell py12+content py4로 기존 총여백을 보존하며 track 시작·끝을 외곽16px 안쪽의 직선 구간에 맞춥니다. 내부 viewport 높이는 shell의 padding24+border2를 제외하고 기존 엔진 inset3px·thumb 측정/drag 수식은 유지합니다.
+  대화 화면의 Session 내용은 inline-size main 기준 `min(320px, max(0px, calc(100cqw - 4px)))`로 첫 프레임부터 배치하고 바깥 shell만0→324px로 reveal합니다. 배치 전환250ms ease는 신규 제품 제안, 내용 presence150ms ease/6px는 popup timing의 명시적 계승입니다.
+  reveal shell의 overflow clip은 유지하며8px clip margin으로 Mid shadow paint를 보존합니다.8px는 layout padding이 아닌 runtime 여유이고 empty 높이는 고정하지 않습니다. Panel·Disclosure·ScrollArea API와 기존 HUG/maxHeight·scroll owner를 유지합니다.
 - OutputViewer: 기존 body viewport를 교체하며 header34는 고정, 넓은 산출물은 both축을 지원합니다.
 - SNB: top action·Divider는 고정하고 목록만 AgentHubScrollbar/공용 엔진으로 이동합니다. native thin scrollbar를 추가하지 않습니다.
+  3016:108416의 하단53px fade를 기준으로, 숨은 내용이 있는 방향에만 상하 장식을 표시합니다. 상단 반전·조건부 표시는 사용자 채택이며 모션 실측이 아닙니다.
+  하단24px는 콘텐츠 끝에 한 번 두고 SNB 전용 gutter27px는 가리지 않습니다. opacity200ms ease는 공용 계승이며 reduced-motion에서 생략하고, focus-visible·forced-colors·print에서는 장식을 숨깁니다.
   visibility hover로 패널 hover·viewport focus-within·drag에서200ms opacity로 노출하고 coarse pointer에서는 상시 표시합니다.
-  gutter11px 공간을 항상 예약하며 reduce에서는 즉시 반영합니다. 기존 다른 소비자의 기본 always는 유지합니다.
+  SNB 전용 gutter27px 공간을 항상 예약하며 reduce에서는 즉시 반영합니다. 기존 다른 소비자의 기본 always는 유지합니다.
+  목록 영역 margin-right−16px·track right2px를 연결해 행 폭244px·행↔thumb21px·패널 오른쪽 경계↔thumb 끝3px를 유지합니다.
+  이는 사용자 이미지에 따른 제품 채택입니다. 수직 track 끝은 기본3+추가24=27px 위에 두며 native scroll range를 줄이거나 CSS만 잘라내지 않습니다.
 - Agent Finder Dialog: 바깥 body는 비스크롤 layout, header·rail은 고정입니다. 오른쪽 Search와 결과 콘텐츠만 함께 AgentHubScrollbar의 실제 viewport에서 이동합니다.
   안쪽 content의 native overflow를 남기고 바깥 Dialog만 skin으로 감싸지 않습니다. 마지막 카드까지 같은 엔진으로 접근하며 thumb4/gutter11/inset3/r9999/#DDD를 연결합니다.
 

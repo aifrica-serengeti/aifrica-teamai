@@ -49,3 +49,12 @@ height/maxHeight는 제품 shell 입력입니다. 기본 제한 없음과560px �
 제한한 패널의 track은 [곡면 회피 조립](./styles.md#사용자-채택-둥근-모서리를-피하는-scroll-track)으로 위아래16px 안쪽에서만 이동합니다.
 고정 shell의12px와 content의4px를 분리하므로 스크롤 중에도 track이 곡면에 진입하지 않습니다.
 wheel·키보드·track 클릭·thumb drag는 같은 실제 viewport 범위를 사용하며 마지막 항목과 focus의 접근 범위를 줄이지 않습니다.
+
+### 대화 화면 첫 진입과 그림자 보존
+
+제품의 대화 shell은 Session 내용과 바깥 reveal의 폭을 분리합니다. 내용은 첫 프레임부터 최종 가용 폭으로 배치하고, 바깥 shell만0→324px로 전환합니다.
+일반 가용 폭에서는 내용320px를 유지하며, 더 좁은 main에서는 main 폭에서 오른쪽4px를 뺀 폭까지만 사용합니다. reveal의 중간 폭 때문에 빈 안내가 여러 줄이 됐다가 줄어드는 동작을 만들지 않습니다.
+내용의 높이는 계속 HUG이며 기존 height/maxHeight·내부 scroll 계약을 유지합니다. empty154px는 원본 샘플이고 고정 높이·별도 측정 timer·업무 state를 추가할 근거가 아닙니다.
+바깥 shell의 `overflow:clip`과8px `overflow-clip-margin`으로 reveal을 유지하면서 Mid shadow가 왼쪽에서 잘리지 않게 합니다.8px는 layout padding이 아닌 새 runtime paint 여유입니다.
+폭 전환250ms ease는 신규 제품 제안값이며 내용의 진입·퇴장150ms ease/6px는 기존 popup 모션의 명시적 채택입니다. Figma의 Session 모션 실측으로 기록하지 않습니다.
+열림·퇴장 presence·focus는 기존 부모 owner에 두고 공용 Disclosure·ScrollArea·Panel API나 section expanded 소유권을 변경하지 않습니다.

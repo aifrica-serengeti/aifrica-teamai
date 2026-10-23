@@ -39,3 +39,12 @@ selected·hover·focus·disabled가 겹칠 때의 우선순위는 제품에서 �
 자체 hover/pressed에서만 #EEE/#DDD를200ms로 표시합니다. 이2px는 원본 right0을 대체하는 runtime 채택값입니다.
 selected·행 hover만으로 버튼 주변에 별도 F8 면을 남기지 않습니다. 원본 특수 pinned override는 실측 기록으로 구분합니다.
 main과 more의 형제 native host·한 callback·focus-within/touch 접근 경로를 유지하고 more 클릭이 프로젝트 펼침을 함께 실행하지 않게 합니다.
+
+
+## 현재 채택: 긴 제목 hover/focus 이동
+
+실측 폭이 넘칠 때만 오른쪽 끝을 흐리게 하고, 기존 native 주 동작의 hover·focus에서 글자만 이동해 숨은 끝을 보여줍니다.
+대기100ms·속도36px/s linear·이탈 복귀200ms ease·흐림24px는 신규 제안값입니다. 원본 prototype 동작 실측이 아닙니다.
+짧거나 긴 overflow 모두 같은 속도로 이동합니다. 최소 시간 없이 현재 위치부터 남은 거리로 이동 시간을 계산하고, 재진입 때도 같은 계산을 적용합니다. 남은 거리가0이면 즉시 끝 상태를 유지합니다.
+끝에서는 오른쪽 흐림을 해제하고 머무르며 반복 재생하지 않습니다. 빠른 이탈/재진입·제목 변경·resize·설정 변경은 이전 완료를 취소합니다.
+[긴 제목 채택 계약](../../title-overflow.md)의 단일 helper를 재사용하고 disabled에서 자동 이동하지 않습니다.

@@ -28,3 +28,7 @@ hover/pressed·드래그 중·비활성·focus·숨김/표시 전환·dark·가�
 
 공용을 켠 UI 작업에서만 `DOCS_ROOT/frontend/design/components/Scrollbar/definition.md`를 함께 읽습니다.
 원본 serengeti-cmp의 구현은 비교 근거이며 이를 수정하거나 Agent Hub의 source/public export로 자동 매핑하지 않습니다.
+
+
+상위 패널의 빈 공간을 피해야 하면 같은 엔진의 선택적 추가 track 끝 여백을 사용합니다.
+콘텐츠 padding·native viewport 크기·실제 scroll range와 별개이며, 별도 thumb나 측정 엔진을 만드는 계약이 아닙니다.

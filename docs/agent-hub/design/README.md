@@ -64,7 +64,7 @@ Agent Hub 원본에서 확인한56종과 공용 폼 adapter3종, Elevation found
 | [AgentHubNavRail](./components/AgentHubNavRail/README.md) | 68px 레일·상단4목적지·설정32·계정28 | 전용 glyph·실제 settings20·FRAME avatar |
 | [AgentHubSNBSectionHeader](./components/AgentHubSNBSectionHeader/README.md) | 20px·font12/16·hover 보조 조작 | enabled/hovered2종·toggle FRAME/ghost20 구분 |
 | [AgentHubSNBItem](./components/AgentHubSNBItem/README.md) | 32px/r6·1/2단계·들여쓰기·more gradient | 8상태·pressed/selected 같은 색의 다른 의미 |
-| [AgentHubSNBPanel](./components/AgentHubSNBPanel/README.md) | 288px·새 채팅·고정/프로젝트/채팅·fade | 255/256폭·특수 선택 override·실제 viewport 보완 |
+| [AgentHubSNBPanel](./components/AgentHubSNBPanel/README.md) | 288px·새 채팅·고정/프로젝트/채팅·상하 경계 fade | 255/256폭·특수 선택 override·실제 viewport·끝24px 보완 |
 | [AgentHubSNB](./components/AgentHubSNB/README.md) | 전용 레일과 패널의 신규 제품 조합 | CMP와 분리한 route/intent/expanded owner·구현 recipe |
 
 | [AgentHubGlobalHeader](./components/AgentHubGlobalHeader/README.md) | 신규43px 전역 헤더·blue-gray·혼합 Poppins 로고·바로가기24/알림32 | 숨김3영역·실제 FRAME·정확한 SVG3개·제품 동작 연결 |
@@ -86,6 +86,8 @@ Card 자체의 시각을 덮어쓰지 않고 실제 인스턴스 재사용과 �
 
 [SNB 시작하기](./snb.md)에서 전체 조합과6개 하위 계약의 읽는 순서를 확인합니다.
 SNB 보드의 전시용 frame/제목/40px 공백은 제품 shell에 복사하지 않습니다.
+[긴 제목 표시](./title-overflow.md)는 SNB1·2depth, Session 예약·출력 제목과 컨텍스트 대표 value의 끝 흐림·hover/focus 이동을 연결합니다.
+원본의 HUG·ENDING 기록과 신규 모션 제안값을 구분하고 가까운 공용 텍스트 helper 한 곳을 재사용합니다.
 
 [Global Header 시작하기](./global-header.md)에서 전용 헤더의 구조와 제품 연결 범위를 확인합니다.
 페이지 제목용 PageHeader나 CMP GlobalHeaderV1/V2의 기능·치수를 자동 상속하지 않습니다.

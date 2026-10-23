@@ -50,3 +50,12 @@ dark 값이나 hover 색상을 이 단일 Light paint에서 유추하지 않습�
 
 원본에는 hover/pressed/focus·dark·노출 timing·모션이 없습니다. 기존 상호작용과 접근성을 지우지 말고,
 제품이 채택한 기대값·적용 범위를 따로 기록해 검증합니다.
+
+
+## 사용처 채택: SNB track 끝과 가로 간격
+
+기본 gutter11px·두께4px·inset3px·불투명 #DDD는 그대로입니다.
+SNB만 gutter27px·track right2px·목록 영역 margin-right−16px·추가 track 끝 여백24px를 사용합니다.
+288px 패널에서 행 폭244px를 유지하며 행↔thumb21px·패널 오른쪽 경계↔thumb 끝3px·track bottom27px를 확보합니다.
+이는 사용자 요청 채택이며 원본 static scrollbar나 다른 컴포넌트의 기본값을 변경하지 않습니다.
+track의 CSS 높이와 thumb 계산의 유효 track 길이는 같아야 합니다. 긴 thumb를 bottom 밖에서 clip하는 방식으로 대신하지 않습니다.

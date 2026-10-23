@@ -23,6 +23,24 @@
 - 실제 제품 lint/typecheck/test/build·render/input 검증 뒤 source/public export를 로컬 mapping에 기록하고 그 전에는 unmapped/draft를 유지합니다.
   공용 off 조건을 지키고 serengeti 원본·CMP SNB·기존 Agent Hub 계약이나 Git은 수정하지 않습니다.
 - 현재 채택에서는 AgentHubScrollbar/공용 ScrollArea 엔진 한 곳인지 확인하고 native thin/OS scrollbar 중복이 없는지 검사합니다.
-  thumb4px·gutter11px·inset3px·radius9999·불투명 #DDD, 패널 hover/focus-within/drag/coarse pointer 노출과 reduced-motion 즉시 반영을 검증합니다.
+  thumb4px·gutter27px·상단inset3px/하단27px·radius9999·불투명 #DDD, 패널 hover/focus-within/drag/coarse pointer 노출과 reduced-motion 즉시 반영을 검증합니다.
 - 숨김↔노출에서 viewport/행 폭·top 좌표가 고정되는지, wheel·PageDown·drag·resize·프로젝트 확장 후 마지막 항목과 focus가 보이는지 확인합니다.
   drag 중 포인터가 패널을 벗어나도 종료까지 thumb가 유지되고 취소/unmount 뒤 남은 capture·observer가 없는지 검사합니다.
+
+## 상하 경계 흐림 회귀 검사
+
+- 3016:108416의53px 하단 표현과 사용자 요청의 반전된53px 상단 표현을 구분합니다. 원본 JSON의 정적 하단만을 상하 모션 실측으로 바꾸지 않습니다.
+- overflow 없음·빈 목록에서는 둘 다 숨고, 맨 위에서는 하단만, 중간에서는 둘 다, 끝에서는 상단만 나타나는지 확인합니다.
+- 공용 엔진의 같은 metrics callback으로 반응하는지 확인합니다. 독립 scroll listener·관측자·추가 overflow host를 넣지 않습니다.
+- 장식은 viewport 밖 고정 영역이며 스크롤해도 경계 좌표가 움직이지 않아야 합니다. 새 채팅·Divider의 위치도 고정입니다.
+- 1033px fixture의 viewport920/list964+padding24/이동 범위68을 확인합니다. 마지막 행 아래24px가 보이고, padding 중복·추가53px 빈 공간이 없어야 합니다.
+- opacity 전환 중 행 폭·높이·thumb gutter27px·scrollTop이 유지되고 장식이 thumb나 항목 클릭을 가로막지 않아야 합니다.
+- wheel·touch·keyboard·drag·resize·목록 교체·프로젝트 접기/펼치기 후 표시를 갱신합니다. 경계1px 오차로 장식이 남거나 깜빡이지 않는지 확인합니다.
+- Tab으로 viewport와 첫/마지막 행·보조 버튼에 접근하면 양쪽 장식이 숨고 focus ring·제목이 보여야 합니다. hover만으로 장식을 제거할 필요는 없습니다.
+- reduced-motion에서200ms opacity 전환을 생략하고 forced-colors·print에서는 장식을 제거합니다. 실제 브라우저에서 위치·gradient·focus·thumb 조작을 검증합니다.
+- 호환 변경 범위는 SNBPanel 내부 조합입니다. 기존 공개 props·export·데이터/선택/펼침 owner와 공용 off 동작은 유지합니다.
+- 맨 아래 thumb의 끝이 viewport 하단보다27px 위에 있고 마지막 행 아래24px 빈 영역에 침범하지 않는지 확인합니다. native scrollTop 최대값은 유지되어야 합니다.
+- 288px 패널에서 영역 폭271·행244·gutter27·margin-right−16·track right2·행↔thumb21px·패널 오른쪽 경계↔thumb 끝3px를 확인합니다.
+  이전 SNB 채택보다 thumb만10px 오른쪽으로 이동하고, 기존 행과 새 채팅의 x/폭은 유지되어야 합니다.
+- 같은 짧아진 track 길이로 thumb 크기·offset·drag 비율을 계산하는지, top/mid/end·track 클릭·끝까지 drag에서 실제 scroll range와 맞는지 검사합니다.
+- viewport가27px보다 짧거나 잘못된 추가 여백값이 전달돼도 NaN·음수 길이·thumb overflow가 없어야 합니다. 기본0을 쓰는 다른 소비자의 기하는 유지합니다.

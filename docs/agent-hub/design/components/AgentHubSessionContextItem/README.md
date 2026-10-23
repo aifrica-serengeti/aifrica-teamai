@@ -22,3 +22,7 @@ Button은 단일 활성화·keyboard·focus 의미를 채택하는 기준이며 
 2026-10-21에 Figma [session/context-item](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2987-22151)의
 default/hovered/pressed/selected 네 상태와 실제 Panel의 다섯 그룹을 확인했습니다.
 이 행이 Flyout을 여는 trigger이거나 실제 연결·해제·권한 API까지 구현된 것으로 판단하지 않습니다.
+
+2026-10-23 사용자 요청으로 긴 대표 value는 말줄임표 대신 끝 흐림과 hover/focus 이동을 사용합니다.
+[긴 제목 채택 계약](../../title-overflow.md)의 공용 helper·신규 제안값·접근성·취소 수명을 따릅니다.
+icon·고정66px label-group·count와 단일 활성화 경로를 유지하며 원본 ENDING/maxLines1 실측·공개 props·공유 unmapped/draft 상태를 바꾸지 않습니다.

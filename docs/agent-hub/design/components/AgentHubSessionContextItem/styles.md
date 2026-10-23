@@ -44,3 +44,10 @@ file-text와 folder는 native20 source·표시16·선1.25px·#757575, book-open/
 282px·value188px·count8px는 현재 샘플입니다. 실제 큰 count와 긴 label/value·번역에서는 전체 정보·고정 컬럼·ellipsis 정책을 제품에서 검증합니다.
 66px clipping metadata를 임의의 긴 그룹명을 삭제하는 정책으로 쓰지 않습니다.
 focus·disabled·loading·dark·mobile·선택과 hover/pressed의 교차 시각은 미검증입니다.
+
+## 현재 채택: 대표 value 끝 흐림과 이동
+
+위 원본 value ENDING/maxLines1은 보존하고, 제품 표시는 [사용자 채택](../../title-overflow.md)으로 대체합니다.
+value viewport만 flex1/min-width0·한 줄·overflow clip으로 두고 `…`를 추가하거나 원문을 자르지 않습니다.
+실제 넘침에서만 오른쪽24px mask를 적용하며 이동 중 양끝, 끝에서는 왼쪽만 흐립니다.
+icon16·label-group66px·content gap8·root gap4·count와32px 행은 고정합니다. mask·transform은 value 글자에만 적용하고 행 배경·focus ring을 자르지 않습니다.

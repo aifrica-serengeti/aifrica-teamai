@@ -22,3 +22,7 @@ Button은 단일 활성화·keyboard·focus 의미를 참고하는 기준이며 
 2026-10-21에 Figma [session/item](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2986-22114)의
 default/hovered/pressed/selected 네 상태와 실제 Panel의 예약·출력 인스턴스를 확인했습니다.
 파일 열기·다운로드·예약 편집·요청·추가 상태의 앱 동작까지 검증한 것은 아닙니다.
+
+
+2026-10-23 사용자 요청으로 긴 제목은 말줄임표 대신 끝 흐림과 hover/focus 이동을 사용합니다.
+[긴 제목 채택 계약](../../title-overflow.md)의 공용 helper·신규 제안값·접근성·취소 수명을 따르며 원본 실측과 공개 props는 유지합니다.

@@ -43,3 +43,10 @@ code는 HTML·Python 샘플 두 행에 사용됐습니다. 확장자만으로 �
 
 이 행에는 Menu·Checkbox·Link·Tree·예약 편집기·다운로드 Button 인스턴스가 없습니다.
 선택 표시와 예약/출력 활성화의 실제 의미는 제품이 정합니다.
+
+
+## 현재 채택: 긴 제목 viewport
+
+제목 원문 한 개를 비상호작용 viewport 안에 두고 [공용 긴 제목 표시](../../title-overflow.md)를 조합합니다.
+상위 native 주 동작이 hover·focus·활성화를 소유하며 제목에 버튼이나 Tab 정지점을 추가하지 않습니다.
+선택·expanded·업무 요청·파일/예약 데이터는 기존 owner에 남습니다.

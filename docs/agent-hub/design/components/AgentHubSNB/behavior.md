@@ -24,8 +24,11 @@ router의 현재 항목과 ancestor의 펼침을 동기화할 때 읽던 스크�
 Figma의 반복 label 수를 page size나 총 개수로 사용하지 않습니다. load/error/empty UI가 필요하면 제품 기준으로 추가하고 별도 검증합니다.
 
 Panel의 정적 clipping과 fade를 실제 스크롤로 취급하지 않습니다.
-native viewport가 scroll 위치·크기를 소유하고 끝 항목·포커스를 드러냅니다. 하단 fade는 더 읽을 내용이 있을 때 표시하며 입력을 가로막지 않습니다.
+native viewport가 scroll 위치·크기를 소유하고 끝 항목·포커스를 드러냅니다. 상하 fade는 해당 방향에 숨은 내용이 있을 때 각각 표시하며 입력을 가로막지 않습니다.
 레이아웃·데이터·폰트가 바뀌었을 때 측정과 fade를 갱신하고 새 데이터마다 상단으로 강제 이동하지 않습니다.
+현재 채택에서는 하단24px를 목록 콘텐츠 끝에 두고, 상하53px 장식은 목록 영역에 고정합니다.
+고정 top·레일·제품 footer·thumb gutter27px를 덮지 않으며 keyboard focus에서는 장식을 숨깁니다.
+하단 Figma 표현과 사용자 요청의 상단 반전·실제 표시 조건은 [Panel 계약](../AgentHubSNBPanel/behavior.md)에서 구분합니다.
 
 전체 SNB 접힘·rail-only 모드·모바일 drawer·검색 overlay·animation·저장 위치는 제공되지 않았습니다.
 채택한다면 제품 제안으로 범위와 focus/복귀·스크롤 정책을 기록합니다. CMP의 지연 시간이나 같은 API 이름을 자동으로 가져오지 않습니다.

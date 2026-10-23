@@ -32,7 +32,11 @@ Agent Hub SNB는 전용 레일과 프로젝트·채팅 패널을 조합하는 �
 - 레일 glyph는 원본28px alpha mask 한 층의 색을 #757575↔#3B82F6/200ms ease로 전환합니다. host 배경만 전환하거나 SVG src만 교체하지 않습니다.
 - 섹션 제목과20px 접기 버튼 사이만2px 띄웁니다. 원본 gap0과 runtime 채택을 구분합니다.
 - 목록은 공용 엔진 기반 AgentHubScrollbar를 사용합니다. top은 고정하고 목록만 스크롤하며 패널 hover·focus-within·drag에서4px/#DDD thumb를 표시합니다.
-  coarse pointer에서는 상시 노출하며 native scrollbar를 중복 표시하지 않습니다. gutter11px는 항상 예약합니다.
+  coarse pointer에서는 상시 노출하며 native scrollbar를 중복 표시하지 않습니다. gutter27px는 항상 예약합니다.
+  목록 영역만 오른쪽16px 늘리고 track right2px를 연결해 행 폭244px·행↔thumb21px·패널 오른쪽 경계↔thumb 끝3px를 유지합니다.
+  track 끝에는 추가24px를 적용해 하단 빈 여백을 피하며 표시와 drag가 같은 길이를 사용합니다. 이 가로 배치는 사용자 이미지에 따른 제품 채택입니다.
+- 실제로 가려진 내용이 있는 방향에만53px 경계 흐림을 표시합니다. 맨 위는 하단만, 중간은 양쪽, 끝은 상단만, overflow가 없으면 둘 다 숨깁니다.
+  하단은3016:108416의 원본 표현을 대조하고 상단 반전은 사용자 확장으로 기록합니다. 끝24px는 scroll content 안에 한 번 두며 focus-visible·고대비·인쇄에서는 장식을 가리지 않게 처리합니다.
 - 일반 행의 더보기는 투명한20px wrapper·right2px을 사용하고 main의 오른쪽20px를 항상 예약합니다. 버튼 자체 hover/pressed만 #EEE/#DDD로200ms 전환합니다.
   원본36px gradient와 특수 pinned override를 일반 프로젝트 runtime의 다른 색 사각형 배경으로 복제하지 않습니다.
 

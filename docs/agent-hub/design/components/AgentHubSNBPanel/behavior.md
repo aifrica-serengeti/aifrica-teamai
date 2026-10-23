@@ -40,5 +40,35 @@ CMP 메뉴 API·ACL·SNB props·collapsed rail·모바일·전체 shell 테마�
 원본에 없던 실제 viewport는 [AgentHubScrollbar](../AgentHubScrollbar/behavior.md)의 공용 엔진 한 곳을 사용합니다.
 별도 `overflow:auto` 컨테이너나 native thin scrollbar를 더하지 않습니다. top의 새 채팅·Divider는 고정하고 목록만 스크롤합니다.
 SNB는 `visibility:"hover"`를 선택하며 패널 hover·viewport focus-within·drag 중에 thumb를 노출하고 coarse pointer에서도 접근 가능하게 유지합니다.
-visibility의 opacity가0이어도 native wheel·touch·keyboard·focus 노출 기능은 유지하며 gutter11px 공간은 고정합니다.
+visibility의 opacity가0이어도 native wheel·touch·keyboard·focus 노출 기능은 유지하며 gutter27px 공간은 고정합니다.
 reduced-motion에서는 노출 전환을 즉시 완료합니다. 목록 확장·resize 후 측정과 drag의 종료·취소·unmount 정리를 같은 엔진이 소유합니다.
+
+## 현재 채택: 상하 경계 흐림과 끝 여백
+
+공용 엔진이 전달하는 `canScrollUp`·`canScrollDown`을 각각 사용합니다. 아직 측정하지 않았으면 둘 다 false로 시작합니다.
+동등한 엔진에서는 overflow가1px보다 크고 `scrollTop > 0`일 때 상단,
+`scrollTop + clientHeight < scrollHeight - 1`일 때 하단을 표시합니다. 별도 window scroll listener·ResizeObserver·thumb 엔진을 만들지 않습니다.
+
+| 위치 | 상단 흐림 | 하단 흐림 |
+| --- | --- | --- |
+| overflow 없음·빈 목록 | 숨김 | 숨김 |
+| 맨 위 | 숨김 | 아래 내용이 있으면 표시 |
+| 중간 | 표시 | 표시 |
+| 맨 아래 | 위 내용이 있으면 표시 | 숨김 |
+
+흐림은 목록 영역에 고정하고 스크롤과 함께 이동시키지 않습니다. 새 채팅·Divider·레일·별도 제품 footer는 가리지 않습니다.
+원본 하단24px 여백은 viewport 밖에 고정해 두지 않고 콘텐츠 끝에 한 번 둡니다.
+따라서 중간에는 경계까지 목록이 이어지며, 끝에 도달하면 마지막 행 아래24px와 읽을 수 있는 전체 행이 나타납니다.
+53px 흐림 높이를 끝 여백에 더하거나 하단 padding을 두 번 적용하지 않습니다.
+
+wheel·touch·keyboard·thumb drag·크기 변경·섹션 접기/펼치기·목록 교체 후에도 같은 측정값으로 갱신합니다.
+흐림의 유무가 viewport 높이·행 폭·읽던 위치·선택을 바꾸지 않게 합니다.
+장식 opacity는 공용 색상 전환과 같은200ms ease를 채택하고, reduced-motion에서는 즉시 반영합니다.
+목록 viewport 또는 내부 조작이 `:focus-visible`일 때는 양쪽 장식을 숨겨 글자와 focus ring을 드러냅니다.
+forced-colors·print에서는 장식을 제거합니다. 이는 Figma에 없는 runtime 접근성·사용자 채택이며 prototype 동작 실측이 아닙니다.
+
+수직 track의 추가 끝 여백24px는 콘텐츠 padding을 더하는 값이 아닙니다.
+공용 엔진의 선택적 `verticalTrackPaddingEnd=24` 또는 검증한 동등 기능으로 표시와 drag 길이를 함께 줄입니다.
+끝 thumb는 하단 빈24px 영역에 들어가지 않으면서 native viewport는 끝까지 이동하고 마지막 행 아래24px를 보여줍니다.
+SNB의27px gutter는 항상 예약하며, 기존 행 폭을 보존한 채 행과 thumb 사이를21px 띄웁니다.
+thumb 오른쪽 끝은 패널 외곽에서3px 안쪽이며, 목록 영역의 margin-right−16px와 track right2px를 함께 적용합니다.

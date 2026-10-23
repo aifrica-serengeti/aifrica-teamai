@@ -41,3 +41,12 @@
 - 끝 항목·키보드 focus·wheel/drag/resize·동적 추가에 따른 thumb 재측정과 외부 페이지 위치 보존을 확인합니다.
 - 접기 중 inert/aria-hidden·trigger focus 복귀·최종 unmount, 빠른 재토글·본문 높이 변경·reduced-motion 즉시 완료를 확인합니다.
 - 원본 참조 JSON은 정적 실측으로 보존하고 이번 채택값·제품 실행 결과를 따로 기록합니다.
+
+## 대화 shell의 첫 열기와 shadow 회귀
+
+- 새로고침 뒤 empty 패널을 처음 열고 중간·최종 프레임을 비교합니다. 내용은 처음부터 최종 가용 폭을 사용하며 바깥 reveal의 폭 때문에 안내문 줄 수나 자연 높이가 커졌다 줄어들지 않아야 합니다.
+- 일반 main에서 내용320px, 아주 좁은 main에서는 `max(0px, main 폭 - 4px)`까지 제한되는지 확인합니다. empty154px를 고정 기대 높이로 쓰지 않고 실제 문구·가용 폭·HUG와 기존 maxHeight를 기준으로 검사합니다.
+- Session의 왼쪽·위아래 Mid shadow가 reveal shell에서 잘리지 않는지 중간·최종 프레임에서 확인합니다.8px clip margin이 paint 여유만 늘리고 content padding·패널 좌표·grid 예약 폭·scroll viewport 크기를 바꾸지 않아야 합니다.
+- filled·empty·Session→Viewer 전환, 빠른 열기/닫기·재열기·resize·reduced-motion에서 기존250ms 배치 전환·150ms 내용 presence와 focus 복귀가 유지되는지 확인합니다.
+- 공용 Disclosure·ScrollArea·Panel API와 section/history expanded 소유권을 바꾸지 않고 별도 측정 timer·높이 보정 state가 생기지 않았는지 확인합니다.
+- width/reveal·8px paint 여유는 제품 채택, timing250ms는 신규 제안,150ms popup timing은 명시적 계승으로 기록하며 원본 HUG·shadow 실측과 혼동하지 않습니다.

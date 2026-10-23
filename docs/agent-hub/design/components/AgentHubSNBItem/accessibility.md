@@ -22,3 +22,9 @@
 공용을 켠 UI 작업에서만 `DOCS_ROOT/frontend/design/components/Link/accessibility.md`와
 `DOCS_ROOT/frontend/design/components/Button/accessibility.md`의 관련 의미를 적용합니다.
 Tree/Menu를 실제 채택하려면 별도의 전체 의미·keyboard 계약과 제품 검증이 필요합니다.
+
+
+긴 제목 이동에서도 전체 원문은 접근성 이름에 한 번 남기고 제목에 별도 Tab 정지점·live region을 만들지 않습니다.
+키보드 focus는 hover와 같은 이동을 제공하며 전체 원문을 접근성 이름에 유지하고, 제목과 상위 행의 title 속성은 제거합니다.
+reduced-motion·forced-colors·print에서는 이동·mask를 제거한 정적 시작 표시를 사용합니다. 고정 높이 행에서 자동줄바꿈을 강제하지 않습니다.
+원문 접근과 touch·disabled·focus의 검증은 [긴 제목 계약](../../title-overflow.md)을 따릅니다.

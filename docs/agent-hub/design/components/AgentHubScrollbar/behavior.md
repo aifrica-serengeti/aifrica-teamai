@@ -28,3 +28,9 @@ render·파생 상태가 바뀔 때마다 읽던 위치를 초기화하지 않�
 공용의200ms opacity/background 전환은 기능 비교 baseline입니다. 이 원본의 모션으로 기록하지 않습니다.
 실제 채택한 reduced-motion 처리를 제품에서 확인하며 숨김 opacity만으로 viewport 기능이나 키보드 접근을 제거하지 않습니다.
 기존 Menu·Picker·Flyout의 원본 source·gutter·viewport 보정은 각 계약을 유지하고 이 시각 확장을 자동 전파하지 않습니다.
+
+
+현재 부분 API의 선택적 `verticalTrackPaddingEnd`는 기본0이며 수직 track의 기존 trailing inset3px에만 더합니다.
+표시 길이·thumb 크기/offset·drag/track 클릭 환산에 같은 유한한 비음수 값을 사용하고 native viewport·스크롤 범위는 바꾸지 않습니다.
+음수·NaN·무한대는0으로 처리하고 짧은 track는0 이상으로 제한합니다. 기본0일 때 기존 소비자의 CSS inset override도 보존합니다.
+SNB만24를 전달하며27px gutter를 채택합니다. 다른 사용처의11px gutter·기존 inset·가로축 계산은 유지합니다.

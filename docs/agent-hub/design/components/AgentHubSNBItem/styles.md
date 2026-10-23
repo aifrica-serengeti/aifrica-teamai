@@ -68,3 +68,11 @@ more가 없으면 예약 공간·조작·Tab target을 만들지 않습니다. w
 20px/r4 버튼만 자체 hover #EEE·pressed #DDD를 `background-color 200ms ease`로 전환합니다.
 행 fill transparent/F8/F4와 selected 우선순위는 유지합니다. 원본의 숨긴 more를 임의로 노출하지 않으며,
 특수 pinned의 source·gradient 기록도 덮어쓰지 않습니다. 이 보완은 runtime 채택값이며 원본 gradient 실측 변경이 아닙니다.
+
+
+## 현재 채택: 말줄임표 대신 끝 흐림
+
+원본 글꼴·색상·높이·glyph·padding과 선택 배경은 유지합니다. 제목만 한 줄 viewport와 원문 레이어로 나눕니다.
+`…`를 추가하거나 원문을 자르지 않고, 실제 넘침에서만 오른쪽24px mask를 적용합니다. 이동 중 양끝, 끝에서는 왼쪽만 흐립니다.
+mask와 transform은 제목에만 적용해 행 배경·focus ring·아이콘·형제 조작을 가리지 않습니다.
+이는 [사용자 채택](../../title-overflow.md)이며 위 Figma 측정값을 덮어쓰지 않습니다.

@@ -26,3 +26,6 @@ empty/filled 두 상태와 다섯 하위 set을 포함한 **19개 variant**를 �
 직접 조합에는 [AgentHubScrollbar](../AgentHubScrollbar/README.md)를 추가합니다. 무제한 높이에서는 기존 HUG934/154px를 유지하고,
 제품이 height/maxHeight를 공급할 때만 내부에서 스크롤합니다.560px는 소비 데모의 제안 제한값입니다.
 스크롤 track은 [곡면 회피 조립](./styles.md#사용자-채택-둥근-모서리를-피하는-scroll-track)으로 패널 위아래16px 안쪽을 사용하며 원본 py16/HUG 배치는 유지합니다.
+
+대화 화면에서 패널을 여는 제품 조립은 [최종 폭과 shadow 여유](./styles.md#사용자-채택-첫-진입의-최종-폭과-shadow-paint-여유)를 적용합니다.
+내용은 처음부터 최종 가용 폭으로 배치하고 바깥 reveal만 전환합니다.8px는 그림자의 paint 여유이며 layout padding이나 empty 고정 높이가 아닙니다.

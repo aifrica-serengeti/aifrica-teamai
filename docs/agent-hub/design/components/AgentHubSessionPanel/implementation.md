@@ -195,3 +195,24 @@ ScrollArea의 기본 track inset3px에 border1+shell12가 더해져 track은 패
 기존 외부 Gallery viewport는 제거하고 원본 row의 폭·glyph·padding은 줄이지 않습니다.560px는 데모 선택이며 Figma 패널 높이로 기록하지 않습니다.
 본문은 공통 measured-height disclosure로 감싸고 body 안에 선행 gap4/8을 포함합니다. closing presence만 내부에서 관리하며 expanded를 별도 업무 state로 복제하지 않습니다.
 Header toggle ref를 disclosure에 전달하고 close 시작 시 내부 focus를 복귀시킵니다. 동적 측정과 빠른 반전·취소·reduce의 cleanup을 검증합니다.
+
+## 7. 대화 shell의 reveal과 내용 폭을 분리합니다
+
+다음은 첫 열기에서 빈 안내의 줄바꿈·높이가 흔들리지 않도록 하는 **제품 조립 recipe**이며 Panel 공개 API가 아닙니다.
+중간 reveal shell을 내용의 폭 기준으로 삼지 않고, 최종 가용 폭을 제공하는 대화 main을 query container로 사용합니다.
+
+```css
+.hub-chat-view { container-type: inline-size; }
+.hub-chat-session-surface {
+  width: min(320px, max(0px, calc(100cqw - 4px)));
+}
+.hub-chat-side {
+  overflow: clip;
+  overflow-clip-margin: 8px;
+}
+```
+
+일반 main에서는 내용320px를 첫 프레임부터 유지하고 아주 좁으면 main 폭에서4px를 제외합니다. 바깥 shell의 기존0→324px 폭 전환250ms ease와 내용 presence150ms ease/6px는 유지합니다.
+8px clip margin은 Mid shadow의 paint 여유이며 layout padding·예약 폭·내부 scroll 크기를 변경하지 않습니다. shadow 자체를 다른 효과로 교체하지 않습니다.
+내용 높이는 자연 HUG로 두고 기존 height/maxHeight 제한에서만 스크롤합니다. 원본154px를 empty 고정 높이로 넣거나 별도 측정 timer·state를 추가하지 않습니다.
+공용 Disclosure·ScrollArea·SessionPanel API와 부모의 열림·expanded·focus 소유권은 유지하고, 새로고침 후 첫 열기·빠른 반전·좁은 main·reduced-motion을 실제 화면에서 확인합니다.

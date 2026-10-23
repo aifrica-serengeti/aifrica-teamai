@@ -22,3 +22,10 @@
 전체 제품 SNB와 rail 조합은 [별도 계약](../AgentHubSNB/README.md)을 따릅니다. 보드 전시 간격·모서리·폭은 앱 shell 규격이 아닙니다.
 
 현재 채택 동작은 [상태·모션·스크롤 계약](../../motion.md)을 함께 읽습니다. 정적 Figma 관찰과 계승 동작을 구분합니다.
+
+2026-10-23에 화면 인스턴스 [SNB `3016:108416`](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3016-108416)의
+288×1033·list y113·하단 fade53px를 다시 확인했습니다. 현재 구현에서는 공용 ScrollArea의 실제 측정으로
+상하 경계 흐림을 각각 제어하고, 하단24px 여백을 스크롤 콘텐츠 끝에 둡니다.
+하단 표현은 원본 대조, 상단 반전 표현과 표시 조건은 이번 사용자 채택입니다. 원본 JSON·공개 props·의존성은 유지합니다.
+추가 사용자 보완으로 SNB만 gutter27px·행↔thumb 간격21px·패널 오른쪽 경계↔thumb 끝3px·track 하단27px를 사용합니다.
+공용 엔진의 추가 끝 여백24px를 표시와 drag에 함께 적용하며, 콘텐츠·끝 여백24px·다른 소비자의 기본 gutter11px는 유지합니다.
