@@ -8,6 +8,11 @@
   필요한 경우 제품의 전체 문구 확인 방법을 연결합니다. 보조 value는 의미가 필요할 때 설명으로 연결하되 같은 문구를 중복 읽지 않습니다.
 - edit·check·chevron이 label과 의미가 겹치면 장식 SVG로 숨기고 외부 `img`이면 빈 alt를 사용합니다.
   check를 의미 있는 선택 표시로 채택하는 경우에는 glyph만 바꾸지 말고 실제 선택 상태와 menuitemcheckbox/radio 등의 의미를 제품에서 검증합니다.
+- optional `checked`를 true 또는 false로 명시한 명령은 단일 host의 `menuitemcheckbox`·`aria-checked`에 연결하고,
+  생략한 명령은 기존 역할·속성을 유지합니다. `role="option"`은 기존 `aria-selected`를 사용하고 `aria-checked`를 추가하지 않습니다.
+  `showCheck`는 계속 장식이며 [부모 Menu의 접근성·focus 계약](../AgentHubMenu/accessibility.md)에 따라 두 명령 역할을 탐색합니다.
+- optional `icon`도 `aria-hidden="true"` 장식으로 연결하고 외부 `img`는 빈 alt를 사용합니다. label은 계속 필수이며
+  접근성 이름을 제공합니다. glyph를 별도 focus target으로 만들지 않고 [부모 Menu 접근성](../AgentHubMenu/accessibility.md)을 유지합니다.
 - header는 명령이 아닌 그룹의 설명이며 divider는 비상호작용 separator입니다. header/line을 command host 안에 넣거나 Tab 대상으로 만들지 않습니다.
   false branch는 실제 읽기 트리에서도 생략합니다. 자식의 visible=true만으로 숨김 조상을 무시하지 않습니다.
 - disabled는 primitive 속성·실제 pointer/keyboard 실행·handler guard에 적용합니다. `aria-disabled`나 회색 paint만으로 차단을 대신하지 않습니다.

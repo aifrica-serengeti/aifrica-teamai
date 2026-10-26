@@ -4,6 +4,10 @@
 이 확장은 별도 id로 선택 의미를 정의합니다. 기존 공용 Chip·AgentHubAgentTypeChip을 클릭 가능한 span으로 바꾸거나
 업무 유형4종의 색상·폭을 여기에 상속하지 않습니다.
 
+예약 목록의 전체·오늘·내일·이번 주는 이 선택형 FilterChip의 md32 조합입니다.
+활성·어시스턴트처럼 이미 적용한 조건과 독립 해제 button은 [예약 도구 모음](../../schedules.md)의 정보 표시용 Chip recipe로
+분리합니다. label 본체를 toggle로 만들거나 이 FilterChip에 제거 API가 있는 것처럼 기록하지 않습니다.
+
 | 속성 | 실제 Figma 정의와 관찰 |
 | --- | --- |
 | size | sm28 / md32 / lg36px. 정의의 기본값은 **sm** |

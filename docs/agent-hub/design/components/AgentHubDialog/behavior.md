@@ -58,3 +58,10 @@ Dialog는 기존 소비 제품의 단일 modal 엔진에 공용200ms ease / opac
 빠른 재열기는 이전 완료 처리를 취소하고 reduced-motion 변경 시 즉시 현재 상태로 완료합니다.
 X32/r4/glyph24에 IconButton hover/pressed/focus 동작을 연결합니다.
 폼은 AgentHubInput·AgentHubTextarea·AgentHubSelect를 조합하고 직접 임시 control을 생성하지 않습니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+저장·삭제가 취소 불가능한 제품은 `dismissDisabled`를 pending과 연결해 X·뒤로가기의 native disabled,
+Escape·실제 backdrop 클릭을 같은 정책으로 차단합니다. Footer의 취소는 독립 `cancelDisabled`와 함께 연결합니다.
+잠금 해제는 진입 모션을 다시 시작하지 않으며 부모의 프로그램상 닫힘·route 이동은 차단하지 않습니다.
+확인 버튼만 disabled인 기본 폼에서는 취소·닫기를 그대로 허용합니다.

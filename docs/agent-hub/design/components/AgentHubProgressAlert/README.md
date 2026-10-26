@@ -20,3 +20,9 @@
 2026-10-21에 Figma [progress-alert](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3016-102212)의
 Light mode 단일 COMPONENT를 확인했습니다. 이름과 달리 진행률 bar·Spinner·취소·닫기·자동 Toast가 있는 시안은 아닙니다.
 재시도 요청·편집·진행 상태의 실제 앱 동작과 다크·좁은 화면의 배치는 별도 검증이 필요합니다.
+
+## 제품 호환 확장
+
+예약 완료 안내에서도 같은 표면·제목·Button28을 재사용할 수 있도록 선택적 `icon`과 개별 동작 생략을 제품이 채택했습니다.
+기본 icon은 기존 circle-alert20이며 실제 callback을 제공한 버튼만 표시합니다. 둘 다 생략하면 빈 동작 그룹도 만들지 않습니다.
+이 범위는 [구현 연결](./implementation.md)의 제품 API이며 위 Figma 원본의 두 버튼·빈 root properties 기록을 변경하지 않습니다.

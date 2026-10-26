@@ -15,6 +15,10 @@ check Boolean은 glyph 표시입니다. persistent selection 또는 체크·라�
 실제 값 owner와 menuitemcheckbox/menuitemradio 의미·키보드·공지·닫힘 정책을 별도로 연결합니다.
 단순히 공용 selected flag나 check 그림만 추가해 구현됐다고 판단하지 않습니다.
 
+제품이 `checked?: boolean`을 채택하면 호출자가 실제 선택 값을 소유하고 기존 `onSelect` 한 경로에서 갱신합니다.
+해제 가능한 단일 상태 필터와 다중 유형 필터도 이 값으로 연결하며, 항목이 자체 값을 토글하거나 radio 의미를 추론하지 않습니다.
+`checked`는 `showCheck`를 자동 변경하지 않고 기존 disabled·한 번 실행·닫힘·focus·motion 계약을 유지합니다.
+
 ## 제목·구분선·하위 메뉴
 
 section header와 divider는 실행 명령이 아닙니다. focus 순서와 선택 이벤트에서 제외합니다.
@@ -28,3 +32,15 @@ chevron은 Figma 설명상 서브메뉴 표현입니다. 켜서 사용하는 제
 value 문구는 현재 숨김 표시 예시이며 자동 단축키 등록이나 실행 대상 값이 아닙니다.
 아이콘은 별도의 클릭 target으로 만들지 않고 해당 명령의 장식으로 연결합니다.
 현재 true 조합·실행·서브메뉴·스크롤 상태는 정적 원본에서 검증되지 않았습니다.
+
+제품이 채택한 `icon?: string`은 leading glyph 선택만 소유합니다. 명시한 `icon`이 있으면 `showIcon` 값과 무관하게
+그 glyph를 표시하고, 없으면 `showIcon=true`일 때 기존 edit를 표시합니다. 두 옵션을 생략하면 leading glyph는 없습니다.
+play·edit·link·trash를 지정해도 실제 실행·편집·공유·삭제 명령은 기존 label과 `onSelect`가 연결하며,
+glyph가 권한·현재 선택·checked·submenu 유무·닫힘 정책을 결정하지 않습니다.
+새 adapter는 기존 한 번의 명령 실행·disabled 차단·focus 이동·role·motion을 유지합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+내장 trigger와 외부 `anchorRef` 모두 ↓로 첫 활성 명령, ↑로 마지막 활성 명령에 진입합니다.
+첫 행 focus의 예약 프레임 전 Escape도 메뉴만 닫고 anchor로 복귀하며 상위 Dialog를 닫지 않습니다.
+같은 구간의 Tab은 메뉴 진입 예약을 취소하고 브라우저의 정상 이동을 보존합니다. menu 내부 Tab은 기존 roving 종료 정책을 따릅니다.

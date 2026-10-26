@@ -18,3 +18,16 @@
 공용을 켠 UI 작업에서는 `DOCS_ROOT/frontend/design/components/Card/accessibility.md`와
 `DOCS_ROOT/frontend/design/components/Button/accessibility.md`의 관련 의미를 적용합니다.
 run-status를 별도 button·progressbar로 바꾸거나 root에 menu/listbox 패턴을 자동 도입하지 않습니다.
+
+## 제품 채택 전체 표면과 trailing action
+
+- 전체 표면을 눌러 여는 경우에도 주 명령 native button은 하나만 둡니다. CSS hit area를 확장하고
+  root에 `role=button`·`tabIndex`·별도 Enter/Space handler를 더하지 않습니다. focus-visible은 실제 카드 외곽을 식별할 수 있어야 합니다.
+- 주 명령에 별도 `aria-label`로 목적 이름을 제공하면 유형·주기 메타를 고유 ID와 `aria-describedby`로 연결해 설명을 보존합니다.
+  명령 이름이 자식 텍스트를 대신하더라도 화면에 보이는 예약 문맥이 보조기기에서 사라지지 않아야 합니다.
+- 더보기24px·중지/재개는 주 명령과 형제인 독립 button입니다. 중첩 button·투명한 전체 표면 button 위에 가려진 조작·중복 callback을 만들지 않습니다.
+  Tab 순서와 이름으로 조회/편집·더보기·중지/재개를 구분하고, Enter/Space에서 각 의도가 한 번만 실행되는지 확인합니다.
+- `trailingAction` 호출자는 실제 disabled와 목적 이름을 공급합니다. 메뉴 trigger이면 `aria-haspopup`·`aria-expanded`를
+  실제 Menu 열림과 연결하며 hover가 끝나도 메뉴 열림/keyboard focus 동안 버튼이 사라지지 않게 합니다.
+- `completed`는 읽을 수 있는 완료 문구로 제공하고 없는 pause/play button의 이름·빈 Tab stop을 남기지 않습니다.
+  completed 자체를 `aria-disabled`로 해석하지 않으며 실제 disabled가 있을 때만 입력을 차단합니다.

@@ -34,3 +34,8 @@ leading/trailing plus20 인스턴스는 각 버튼에 두 개씩 총4개 있으�
 root에 TEXT·SLOT이나 Dialog 인스턴스는 없습니다. 실제 제품은 Dialog의 기존 footer 입력과 이 두 Button의 시각을 연결합니다.
 cancel=false·긴 번역·요청 중·disabled·focus·hover/pressed·dark·좁은 화면·전체 Dialog 시안은 별도 검증 범위입니다.
 하위 Button 자체의 알려진 상태와 이 footer 조합의 검증 범위를 구분합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+확인된 제품 adapter의 `cancelDisabled?: boolean` 기본값은 false입니다. 기존 `disabled`는 확인만 차단하고
+취소의 표시 여부·요청 취소 기능을 바꾸지 않습니다. 두 값 모두 원본의 `cancel#3151:0`과 별개인 제품 호환 입력입니다.

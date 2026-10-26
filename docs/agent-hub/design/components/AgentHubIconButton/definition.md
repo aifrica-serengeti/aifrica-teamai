@@ -20,3 +20,8 @@ Figma의 `type`은 HTML button의 `type`과 구분하고, 기본 HTML type은 `b
 
 컨테이너는 고정 정사각형이고 glyph를 가로·세로 중앙 정렬합니다.
 tooltip이 필요하면 호출부가 기존 Tooltip을 조합합니다. API·라우팅·비동기 상태를 아이콘 버튼 안에 숨기지 않습니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+소비 제품에서 확인한 `iconSize?: 16 | 20 | 24`는 hit area와 독립된 glyph override입니다.
+생략 시 size32→glyph20, 나머지 기존 size→glyph16을 유지합니다. Figma 원본의 새 variant나 모든 size×glyph 조합 승인이 아닙니다.

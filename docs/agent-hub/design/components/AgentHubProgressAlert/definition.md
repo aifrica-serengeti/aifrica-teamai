@@ -44,3 +44,12 @@ root의 상태 모델로 바꾸지 않습니다.
 Notification의 accent bar·Toast 스택·자동 닫기, Status의 상태 enum, Spinner의 회전,
 AsyncContentState의 조회 overlay·최소 노출 timer를 자동 상속하지 않습니다.
 이 시안에는 진행률·남은 시간·실행 취소·dismiss·요청 성공/실패의 전체 상태 모델이 없습니다.
+
+## 제품이 채택한 단일 동작·아이콘 연결
+
+`icon?: string`은 현재 제품의 AgentHubIcon manifest/자산 해석 계약을 통해20px 안내 glyph를 지정하는 호환 확장입니다.
+생략하면 원래 circle-alert20을 유지합니다. 예약 완료 안내의 schedule20 교체를 새 Figma INSTANCE_SWAP 속성으로 기록하지 않습니다.
+
+`onRetry`·`onEditPrompt`는 제품 API에서 각각 선택적으로 제공할 수 있습니다. 두 callback이 있으면 기존 순서·문구·시각을
+유지하고 하나만 있으면 해당 버튼만, 둘 다 없으면 안내 그룹만 출력합니다. 표시 label만으로 동작 없는 버튼이나 빈 그룹을 만들지 않습니다.
+예약명·편집 대상·요청 상태는 제품 owner가 계속 관리하며 이 표시 API에 예약 도메인 상태를 추가하지 않습니다.

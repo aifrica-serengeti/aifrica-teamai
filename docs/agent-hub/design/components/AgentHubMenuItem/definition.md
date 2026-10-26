@@ -43,3 +43,10 @@ leading edit는 `3018:24803`, check는 `3074:98929`, chevron-right는 `2842:3891
 
 icon-swap에는 preferred component key62개가 기록돼 있습니다. 이 목록은62개 도형의 크기·상태색·모든 조합을 검증했다는 뜻이 아닙니다.
 이번 여덟 구성의 실제 기본 원본은 edit/16이며, 다른 swap을 제품에서 채택할 때 원본·자산·paint를 따로 확인합니다.
+
+제품의 optional `icon?: string`은 위 Figma Boolean·INSTANCE_SWAP과 별개인 runtime glyph adapter입니다.
+소비 제품에서 확인한 AgentHubIcon manifest 이름 또는 기존16px 자산 경로를 연결하고, 원본 edit16의 실측 범위는 유지합니다.
+지원 값·`showIcon` fallback·우선순위는 [부모 Menu의 채택 계약](../AgentHubMenu/implementation.md#제품-채택-optional-glyph-adapter)을 따릅니다.
+
+optional `checked?: boolean`도 제품이 채택한 runtime 의미 값입니다. Figma의 check Boolean·제품의 `showCheck` 장식 표시와
+구분하고 [부모 Menu의 체크 의미 계약](../AgentHubMenu/implementation.md#제품-채택-checked-의미-adapter)에 연결합니다.

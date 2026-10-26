@@ -23,10 +23,30 @@ disabled는 두 status에서 모두 실제 명령을 차단하며 paused와 같�
 목록 갱신으로 카드가 사라지면 owner가 가까운 유효 위치를 정하고, 상태 변경마다 페이지 첫 항목으로 focus를 보내지 않습니다.
 자동 polling·실행 timer·재시도·toast·progressbar·전환 모션은 이 원본에 없으므로 자동 추가하지 않습니다.
 
+## 제품 채택 전체 카드 활성화와 완료 상태
+
+`onActivate`를 제공하면 기존 제목 button의 pseudo-element hit area를 카드 표면까지 확장할 수 있습니다.
+제목·메타·여백·읽기용 상태를 누르면 같은 주 명령을 한 번 호출합니다. root의 click/keydown에 같은 callback을 추가하지 않습니다.
+더보기·메뉴 명령·중지/재개는 주 명령 button 바깥의 형제 control로 두고 각 명령만 실행합니다.
+단순히 모든 root click을 가로채거나 모든 자식에서 전파를 중단하는 방식으로 실행 경계를 대신하지 않습니다.
+
+`trailingAction`의 메뉴 열림·실행·편집·공유·삭제는 제품 owner가 관리합니다. 더보기 클릭은 메뉴만 열고,
+‘지금 실행’이나 중지/재개가 조회·편집 Dialog를 함께 열지 않아야 합니다. 메뉴 닫힘과 focus 복귀는 기존 Menu 계약을 유지합니다.
+
+`completed`는 원본 active/paused 외의 제품 업무 상태입니다. 읽기용 완료 문구를 같은 footer 공간에 표시하고
+중지/재개 control은 생략합니다. 완료 카드도 `onActivate`가 있고 disabled가 아니면 조회·편집을 열 수 있습니다.
+disabled일 때는 카드 주 명령과 제품이 공급한 trailing action 모두 실제 native 입력을 차단합니다.
+
+하단 중지/재개는 기존 `AgentHubIconButton`24px에 상태별 원본 glyph·disabled·단일 요청을 연결합니다.
+공용 버튼이 hover/pressed·focus-visible·색상 전환을 소유하고, 카드 owner는 주 명령과 겹치지 않는 hit layer만 공급합니다.
+상단 더보기는 노출 opacity150ms와 공용 색상200ms를 함께 유지해 opacity 전용 shorthand가 색상 전환을 지우지 않게 합니다.
+이 버튼 조합은 제품 채택이며 원본 toggle FRAME의 독립 hover/pressed를 Figma에서 측정했다는 증거로 쓰지 않습니다.
+
 
 ## 공용 색상 모션
 
 공용을 채택한 경우 [Card 모션 적용](../../cards.md#공용-색상-모션-계승)과 [공용 모션](../../motion.md)을 따릅니다.
 root의 background-color·border-color·box-shadow·color와 해당 텍스트 color는200ms ease로 전환합니다.
-이 값은 공용 계승 계약이며 Figma 정적 시안의 motion 실측값이 아닙니다. 원본에 없는 상태·표면은 새로 만들지 않습니다.
+이 값은 공용 계승 계약이며 Figma 정적 시안의 motion 실측값이 아닙니다. 원본에 없는 상태·표면을 자동 추정하지 않고
+공용 버튼에서 채택한 추가 조작 표면은 위 제품 조합과 구분해 기록합니다.
 disabled 입력은 즉시 차단하고 이 계약의 paint·opacity·정확한 SVG를 유지합니다. reduced motion에서는 전환을 해제합니다.

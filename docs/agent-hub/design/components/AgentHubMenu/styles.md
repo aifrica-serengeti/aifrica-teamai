@@ -35,6 +35,15 @@ value와 chevron은 두 intent 모두#757575이고 disabled일 때만 해당 항
 자식 글자나 선의 visible=true만으로 숨김 조상을 무시해 표시하지 않습니다.
 옵션을 켜면 HUG 높이와 실제 흐름으로 다시 배치하고 숨김 상태의 저장 좌표에 절대 배치하지 않습니다.
 
+제품이 채택한 optional `icon`은 기존 leading 위치에16×16px box·gap8px로 연결합니다.
+manifest의 단색 glyph는 label과 같은 main 색상 역할을 사용하며 default #1C1C1C·destructive #D00A0A·disabled #AAAAAA를 따릅니다.
+기존 자산 경로는 제품에서 해당 glyph의 크기와 상태별 paint를 확인합니다. 외부 SVG의 stroke가 부모 color를 자동 상속한다고 가정하지 않습니다.
+이 adapter 때문에 행28px·padding·check/value/chevron의 배치나 색상, focus·배경 전환·popup motion을 바꾸지 않습니다.
+`icon`이 없으면 기존 `showIcon` edit fallback을 따르고, 둘 다 없으면 leading slot을 DOM과 레이아웃에서 생략합니다.
+
+optional `checked`는 의미 값이며 새 selected 배경·글자색·크기·motion을 추가하지 않습니다.
+check glyph의 출력과 기존 paint는 `showCheck`가 소유하고 실제 체크 의미와 분리합니다.
+
 ## 스크롤·focus
 
 숨김 scrollbar wrapper11×318, thumb4×28/radius-full/#DDD는 그려진 값입니다.

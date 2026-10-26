@@ -28,3 +28,9 @@ Body만 스크롤하고 footer를 안정적으로 노출하는 기존 레이아�
 숨김 plus와 존재하지 않는40px keycap은 action·단축키가 아닙니다. Escape/Enter 전역 handler를 footer에서 자동 등록하지 않습니다.
 단축키가 필요하면 해당 command와 Dialog의 실제 keyboard owner가 한 번 처리하고 입력·IME·다른 팝업과의 충돌을 검증합니다.
 ProgressAlert의 재시도·Picker의 키 안내·Flyout의 설명 표시는 이 취소/결과 action과 다른 계약입니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+확인만 disabled인 초기/변경 없음 폼은 취소를 계속 허용합니다. 취소할 수 없는 저장·삭제 중에는 제품 owner가
+확인 `disabled`와 취소 `cancelDisabled`, Dialog의 `dismissDisabled`를 함께 제어합니다.
+Footer 내부에 별도 pending을 만들거나 취소 숨김을 잠금으로 재해석하지 않습니다.

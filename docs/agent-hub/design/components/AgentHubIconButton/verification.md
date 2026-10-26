@@ -11,3 +11,8 @@ Figma 33개 variant의 geometry·색상·원본 glyph·변수 alias를 확인했
 - active와 pressed의 의미를 분리하고 실제 toggle/팝업 동작이 있을 때만 해당 상태를 연결합니다.
 - label·Tab·Enter/Space·focus·disabled·Tooltip·zoom·타깃 크기와 호출부의 중복 실행 방지를 검증합니다.
 - dark/focus/loading 시각 규격은 제품에서 별도로 확인하고 실제 source/export만 로컬 mapping에 기록합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+size32에서 생략한 glyph20과 명시한 glyph24를 함께 검사하고 기존24/20 hit area·glyph16 기본값을 보존합니다.
+Dialog의32/r4/24 조합과 공용 hover/pressed·색상200ms·동작 줄이기·native disabled 회귀를 확인합니다.

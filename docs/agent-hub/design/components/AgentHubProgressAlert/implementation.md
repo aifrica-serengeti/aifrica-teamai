@@ -23,10 +23,11 @@ Notification의 전역 스택·자동 닫기나 AsyncContentState의 조회 life
 ```ts
 export type AgentHubProgressAlertProps = {
   title: string;
-  retryLabel: string;
-  editLabel: string;
-  onRetry: () => void;
-  onEditPrompt: () => void;
+  icon?: string;
+  retryLabel?: string;
+  editLabel?: string;
+  onRetry?: () => void;
+  onEditPrompt?: () => void;
   retryDisabled?: boolean;
   editDisabled?: boolean;
 };
@@ -35,6 +36,11 @@ export type AgentHubProgressAlertProps = {
 문구는 제품 locale에서 전달합니다. Figma의 root properties가 비어 있으므로 이 타입을 기존 Figma API로 기록하지 않습니다.
 `retryDisabled`와 `editDisabled`는 독립적인 조작 조건입니다. 요청 중이라는 이유로 두 동작을 모두 막을지 제품이 결정합니다.
 pending·대상 response/request ID·idempotency key·재시도 결과·draft는 이 표시 타입 안에서 새로 복제하지 않습니다.
+
+`icon`과 선택적 callback은 예약 완료 안내의 재사용을 위해 제품이 채택한 호환 확장입니다.
+icon 생략 시 circle-alert20, label 생략 시 기존 ‘다시시도’·‘프롬프트 편집’을 유지합니다. callback이 있는 버튼만 렌더하고
+둘 다 없으면 빈 action wrapper를 만들지 않습니다. 단일 편집 안내는 `icon="schedule"`, `editLabel="작업 편집"`,
+`onEditPrompt` 한 개를 공급합니다. 기존 두 callback 호출부의 동작은 변경하지 않습니다.
 
 `onRetry`는 요청 owner의 단일 명령에 연결합니다. owner가 재진입을 차단하고 대상·권한·요청 결과를 검증하며,
 비동기 오류와 이전 요청의 늦은 응답도 처리합니다. native disabled만으로 서버 요청의 중복 방지가 끝났다고 간주하지 않습니다.
@@ -47,9 +53,9 @@ pending·대상 response/request ID·idempotency key·재시도 결과·draft는
 ├─ 안내 그룹
 │  ├─ 장식 circle-alert20
 │  └─ 제목 평문
-└─ 동작 그룹
-   ├─ AgentHubButton tertiary·28, type=button, 재시도 한 경로
-   └─ AgentHubButton tertiary·28, type=button, 프롬프트 편집 한 경로
+└─ 하나 이상의 callback을 제공할 때 동작 그룹
+   ├─ onRetry가 있으면 AgentHubButton tertiary·28, type=button, 재시도 한 경로
+   └─ onEditPrompt가 있으면 AgentHubButton tertiary·28, type=button, 편집 한 경로
 ```
 
 기존 버튼 adapter의 공개 API에 두 callback과 실제 disabled를 연결합니다. wrapper에 같은 click을 다시 연결하지 않습니다.

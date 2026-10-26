@@ -17,3 +17,8 @@ Tooltip과 접근성 이름은 호출 동작에 맞춰 안정적으로 유지합
 2026-10-21 [모션 채택 계약](../../motion.md)은 background-color·border-color·color를200ms ease로 연결합니다.
 active의 의미나 크기·glyph를 바꾸지 않고 눌림 scale·회전·loading 모션을 새로 만들지 않습니다.
 reduced-motion에서는 전환만 즉시 완료하며 native focus·키보드·disabled 차단은 유지합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+제품 호환 `iconSize`는 실제 Icon에만 전달하고 DOM 속성으로 spread하지 않습니다. glyph override로 hit area·활성화·요청 상태를 바꾸지 않습니다.
+Dialog 조합은 size32/iconSize24와 recipe r4를 사용하며 기존 기본 size32의 glyph20을 유지합니다.

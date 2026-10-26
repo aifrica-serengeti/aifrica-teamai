@@ -15,6 +15,11 @@
   header28·divider9·전체65px는 branch를 켠 계산과 실제 기본28px 실측을 구분합니다.
 - 실제 기본 원본 edit16 `3018:24803`, check16 `3074:98929`, chevron-right16 `2842:38917`과 기존 자산을 대조합니다.
   Vector1px·round와 역할별 색상을 유지하고, icon-swap preferred62개를 모두 검증한 것으로 기록하지 않습니다.
+- optional `icon` 채택 시 [부모 Menu의 glyph 회귀 기준](../AgentHubMenu/verification.md)을 적용합니다.
+  play/edit/link/trash16·명시 glyph 우선·기존 edit fallback·leading 없는 출력과 check/value/submenu·접근성·focus·motion의 유지를 확인합니다.
+  Figma Boolean·기본 edit16 기록과 runtime adapter를 구분하며 검증 결과는 소비 제품 로컬 mapping에 남깁니다.
+- optional `checked`의 true/false·생략과 `showCheck`의 양방향 교차 조합, 실제 선택·해제 및 focus 이동을
+  [부모 Menu 검증](../AgentHubMenu/verification.md)과 비교합니다. option은 기존 `aria-selected`와 역할을 유지해야 합니다.
 - 실제 primitive의 `onSelect` 한 경로·disabled guard·keyboard/focus·닫힘과 복귀·전체 이름 보존을 제품에서 확인합니다.
   header/divider와 glyph가 명령을 중복 실행하지 않아야 합니다.
 - pressed를 selected·checked·요청 성공으로 바꾸거나 check를 독립 Checkbox/토글로 만들지 않습니다.

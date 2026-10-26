@@ -18,3 +18,7 @@
   disabled 색상만 적용한 채 요청 callback을 남겨두지 않습니다.
 
 실측은 Light mode의 시각 계약입니다. 실제 앱의 대비·focus·키보드·live 안내가 통과했다는 보증은 아닙니다.
+
+제품이 하나의 동작만 제공하면 실제로 보이는 native button만 Tab 순서에 포함하고, 없는 동작의 빈 이름·숨은 focus target을
+남기지 않습니다. 동작이 없으면 root·제목·아이콘을 대신 button으로 만들지 않습니다. 교체한 glyph도 제목과 함께 읽히지 않는
+장식이며 안내 의미는 전체 title이 전달합니다. 예약 완료를 알리는 경우도 기존 transcript와 한 곳에서만 안내하고 자동 focus는 추가하지 않습니다.

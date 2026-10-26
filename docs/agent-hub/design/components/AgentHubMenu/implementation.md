@@ -25,6 +25,10 @@ type AgentHubMenuEntry = {
   disabled?: boolean;
   sectionLabel?: string;
   dividerAfter?: boolean;
+  icon?: string;
+  showIcon?: boolean;
+  showCheck?: boolean;
+  checked?: boolean;
   onSelect: () => void;
 };
 
@@ -37,6 +41,46 @@ type AgentHubMenuContentProps = {
 label·명령·권한·하위 메뉴·로딩/오류는 실제 제품 데이터로 연결합니다.
 value 표시·icon/check·submenu 제안 API는 [MenuItem 구현 안내](../AgentHubMenuItem/implementation.md)와 함께 설계합니다.
 `scrollable`은 제품의 실제 viewport 설정이며 원본의 scrollbar 그림 표시와 같은 구현이라고 가정하지 않습니다.
+
+### 제품 채택 optional glyph adapter
+
+`icon?: string`은 예약 메뉴의 실행·편집·공유·삭제 glyph를 구분하기 위해 제품이 채택한 호환 확장입니다.
+MenuItem 원본의 `icon` 표시 Boolean·`icon-swap` INSTANCE_SWAP을 새 문자열 Figma API로 해석하지 않습니다.
+위 조립 예시에 추가한 `icon`과 기존 `showIcon`의 의미는 다음과 같습니다.
+
+| 입력 | leading glyph |
+| --- | --- |
+| 비어 있지 않은 `icon` 지정 | AgentHubIcon manifest 이름 또는 기존 자산 경로의16px glyph, `showIcon`보다 우선 |
+| `icon` 없음·`showIcon=true` | 기존 상태별 edit16 fallback |
+| `icon` 없음·`showIcon` 생략 또는 false | glyph·빈 leading 슬롯·해당 gap 없음 |
+
+값은 현재 소비 제품의 AgentHubIcon manifest와 자산 해석 경계에서 확인합니다. 기존 자산 경로도 AgentHubIcon이
+인식하는 경로 형식과16px 자산인지 확인합니다. 임의 아이콘 이름·외부 URL·새 자산을
+이 API가 보장한다고 가정하지 않습니다. `label`은 계속 필수 문자열이며 glyph는 `aria-hidden` 장식입니다.
+기존 MenuItem 제안이 모델링한 기본 edit/16은 원본 확인 범위이고, 이 adapter는 제품이 채택한 추가 glyph 선택 범위입니다.
+
+```ts
+const entries: AgentHubMenuEntry[] = [
+  { id: 'run', label: '지금 실행', icon: 'play', onSelect: runNow },
+  { id: 'edit', label: '편집', icon: 'edit', onSelect: editSchedule },
+  { id: 'share', label: '공유', icon: 'link', onSelect: shareSchedule },
+  { id: 'delete', label: '삭제', icon: 'trash', intent: 'destructive', onSelect: deleteSchedule },
+];
+```
+
+예시 callback은 제품 명령 owner에 연결합니다. glyph 선택으로 새 click/keydown handler·선택 상태·focus owner를 만들지 않습니다.
+leading glyph만 바꾸고 기존 check·value·실제 submenu 출력과 menu/menuitem 역할·motion을 유지합니다.
+소비 제품의 실제 `AgentHubMenuEntry`·`AgentHubMenuItem` source와 public export를 확인한 뒤 로컬 mapping에
+지원 API·회귀 검증을 기록하며, 다른 제품의 구현 여부나 공유 registry의 `unmapped`를 자동 변경하지 않습니다.
+
+### 제품 채택 checked 의미 adapter
+
+`checked?: boolean`은 예약 도구 모음의 해제 가능한 단일 상태·다중 유형 필터를 위해 제품이 채택한 runtime 의미 값입니다.
+Figma check Boolean을 공개 상태 API로 해석하지 않습니다. 명시한 true와 false 모두 `menuitemcheckbox`·`aria-checked`에 연결하고,
+생략하면 기존 명령 역할·속성을 유지합니다. `role="option"` adapter에서는 기존 `aria-selected`가 우선하고 `aria-checked`를 출력하지 않습니다.
+호출자가 `onSelect`로 실제 값을 갱신하며 `showCheck`는 장식 glyph만 제어합니다. `checked`가 자동으로 glyph를 켜거나 값을 토글하지 않습니다.
+행의 기존 실행·닫힘·disabled·focus·motion을 유지하고 pointer/keyboard target 탐색에 `menuitemcheckbox`도 포함합니다.
+source·public export·제품 검증 근거는 glyph adapter와 같은 절차로 로컬 mapping에 기록합니다.
 
 한 item의 Figma 세로 wrapper를 하나의 interactive menuitem으로 복사하지 않습니다.
 sectionLabel은 실제 Group/Label, content는 Item 또는 SubTrigger, dividerAfter는 Separator로 나누어 조립합니다.
@@ -96,3 +140,9 @@ leading/check와 chevron의 색이 다를 수 있으므로 destructive 전체에
 
 [검증 항목](./verification.md)을 실제 제품에서 실행하고 source/export·지원 옵션·테스트 근거를 mapping에 기록합니다.
 공유 채택 설정은 draft, 미확인 제품 구현은 unmapped를 유지합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+외부 anchor의 키보드 진입도 공용 Menu owner가 연결합니다. 호출부가 ArrowDown/Up handler를 복사하지 않습니다.
+조건부 교체 anchor는 commit 후 연결을 갱신하고 unmount에서 listener·지연 focus를 해제합니다.
+anchor native 이벤트와 내부 trigger React 이벤트는 같은 키 처리 함수를 사용하며 command를 중복 실행하지 않습니다.

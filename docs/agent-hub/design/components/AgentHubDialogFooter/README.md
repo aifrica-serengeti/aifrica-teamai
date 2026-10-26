@@ -20,3 +20,8 @@
 2026-10-21에 Figma [dialog/footer](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3151-20373)의
 Light 단일 COMPONENT를 확인했습니다.580×88px 샘플과 cancel 표시 Boolean이 있으며 실제 요청·닫힘·단축키는 포함하지 않습니다.
 ProgressAlert·PickerFooter·FlyoutFooter는 다른 의미와 source를 가진 계약이므로 이 footer로 일괄 교체하지 않습니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+예약 페이지의 취소 불가능한 요청은 제품 호환 입력 `cancelDisabled`로 취소 Button의 native disabled를 연결합니다.
+기존 `disabled`는 확인 버튼만 차단합니다. 두 값은 Figma의 cancel 노출 Boolean과 구분합니다.

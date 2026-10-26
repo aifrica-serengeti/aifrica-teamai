@@ -8,6 +8,10 @@ Agent Hub 명령 메뉴의 한 항목을 표현하는 계약입니다. 적용 �
 공용을 켠 UI 작업에서만 `DOCS_ROOT/frontend/design/components/Menu/README.md`의 명령·키보드·비활성 계약을 함께 적용합니다.
 공용 시각 값을 그대로 상속한다는 뜻은 아닙니다. 실제 제품 source/export는 `unmapped`, 공유 채택 설정은 `draft`입니다.
 
+제품이 채택한 optional `icon?: string`은 명령별16px glyph를 선택하며 기존 `showIcon`의 edit fallback을 유지합니다.
+Figma 표시 Boolean과 구분하고 [부모 Menu의 glyph adapter](../AgentHubMenu/implementation.md#제품-채택-optional-glyph-adapter)를 함께 적용합니다.
+체크형 필터의 실제 값은 [optional `checked` 의미 adapter](../AgentHubMenu/implementation.md#제품-채택-checked-의미-adapter)로 별도 연결합니다.
+
 - [정의와 표시 속성](./definition.md)
 - [크기·상태별 색상](./styles.md)
 - [명령과 상태 소유권](./behavior.md)

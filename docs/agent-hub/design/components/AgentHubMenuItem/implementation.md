@@ -27,10 +27,11 @@ export type AgentHubMenuItemProps = {
   intent?: "default" | "destructive";
   disabled?: boolean;
   showIcon?: boolean;
-  iconName?: "edit";
+  icon?: string;
   showValue?: boolean;
   valueText?: string;
   showCheck?: boolean;
+  checked?: boolean;
   showChevron?: boolean;
   showSectionHeader?: boolean;
   sectionLabel?: string;
@@ -41,11 +42,17 @@ export type AgentHubMenuItemProps = {
 
 표시 Boolean은 기본 false로 연결합니다. `label`과 `sectionLabel`은 실제 TEXT property에 대응하지만,
 `valueText`는 제품이 보조 문구를 받기 위한 제안입니다. Figma의 `value`는 Boolean이며 문자열 prop으로 자동 변환하지 않습니다.
-제안은 실제 기본 원본 edit/16만 모델링합니다. preferred key62개를 제품의 검증된 icon 이름/API로 그대로 복사하지 않습니다.
-다른 swap은 정확한 source·자산·크기·state paint를 추가 검증한 뒤 연결합니다.
+실측으로 확인한 기본 원본은 edit/16입니다. preferred key62개를 제품의 검증된 icon 이름/API로 그대로 복사하지 않습니다.
+`icon?: string`은 제품이 채택한 optional glyph adapter이며 Figma 표시 Boolean이나 문자열 API 실측값이 아닙니다.
+비어 있지 않은 `icon`을 우선하고, 없으면 기존 `showIcon=true`의 edit16 fallback을 유지합니다. 둘 다 없으면 leading 슬롯을 생략합니다.
+지원하는 manifest 이름·기존16px 자산 경로와 예약 메뉴 예시는 [부모 Menu 구현 계약](../AgentHubMenu/implementation.md#제품-채택-optional-glyph-adapter)을 따릅니다.
+실제 제품의 props·public export와 state paint를 검증한 뒤 로컬 mapping에 기록합니다.
 
 `intent`는 시각적 명령 종류이며 HTML type이나 삭제 실행 정책이 아닙니다. 명령 ID·권한·confirmation·요청·중복 실행 방지·
 성공/실패는 제품 owner가 소유합니다. showCheck는 glyph 표시이며 지속 선택·체크형 상태는 별도 의미 계약이 필요합니다.
+optional `checked`는 그 의미를 제품이 채택한 경우의 실제 Boolean 값입니다. true/false 명시·생략·option 우선순위와
+호출자의 값 갱신은 [부모 Menu의 checked adapter](../AgentHubMenu/implementation.md#제품-채택-checked-의미-adapter)를 따릅니다.
+`showCheck`를 자동 변경하지 않으며 기존 실행·disabled·focus 탐색을 유지합니다.
 
 ## 3. 메뉴 primitive의 한 실행 경로에 연결합니다
 
@@ -171,7 +178,8 @@ default의 #757575 파일을 함께 사용합니다. 이 파일들도 현재 숨
 
 제품의 inline SVG/semantic adapter에서 각 역할의 stroke를 연결합니다. 외부 SVG를 `img`로 불러온 뒤 부모 CSS color만 바꾸면
 내부 stroke도 자동으로 바뀐다고 가정하지 않습니다. [자산 안내](../../assets.md)에 따라 제품 소유 경로를 사용하고 임시 Figma URL을 runtime에 두지 않습니다.
-slot이 false면 자산 파일을 연결할 수 있다는 이유로 실제 아이콘을 렌더하지 않습니다.
+Figma 표시 Boolean에만 연결한 slot은 false일 때 자산 파일을 연결할 수 있다는 이유로 렌더하지 않습니다.
+제품의 leading glyph는 위 `icon` 우선순위로 연결하며, `icon`이 없고 `showIcon`이 false 또는 생략이면 DOM과 해당 gap을 제거합니다.
 
 [검증 항목](./verification.md)과 소비 저장소의 lint/typecheck/test/build를 실행합니다.
 명령 한 번·disabled·keyboard/focus·전체 label·표시 branch·역할별 paint·제품이 채택한 submenu/체크 의미를 확인한 후 mapping을 갱신합니다.

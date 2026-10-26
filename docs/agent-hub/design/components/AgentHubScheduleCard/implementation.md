@@ -10,17 +10,20 @@ root의 background-color/border-color/box-shadow/color와 텍스트 color에200m
 pseudo border·상태 표면은 변하는 속성만 지정합니다. reduced motion을 명시적으로 해제하며 geometry·SVG src에는 새 모션을 만들지 않습니다.
 
 ```ts
+import type { ReactNode } from "react";
+
 export type AgentHubScheduleCardProps = {
   scheduleId: string;
   title: string;
   metaPrimary: string;
   metaSecondary: string;
-  status: "active" | "paused";
+  status: "active" | "paused" | "completed";
   statusText: string;
   selected: boolean;
   disabled: boolean;
   pauseLabel: string;
   resumeLabel: string;
+  trailingAction?: ReactNode;
   onActivate?: (scheduleId: string) => void;
   onRequestStatusChange: (scheduleId: string, nextStatus: "active" | "paused") => void;
 };
@@ -30,28 +33,52 @@ export type AgentHubScheduleCardProps = {
 onRequestStatusChange는 해당 예약의 다음 상태를 요청하는 제안이며 성공 전에 내부 status를 별도로 토글하지 않습니다.
 권한·동시 요청 차단·실패 복구·낙관적 반영 정책은 제품 owner가 구현하고 검증합니다.
 원본의 두 VARIANT 외에 이 TEXT·callback props가 Figma에 있다고 주장하지 않습니다.
+위 제안의 `completed`와 `trailingAction`은 예약 페이지에서 채택한 추가 범위입니다.
+기존 active/paused 호출부와 다음 상태 callback을 보존하며 완료에서 없는 pause/play 자산을 조합하지 않습니다.
 
 ```text
 비대화형 Card root
-├─ header: 일반 info 또는 onActivate용 단일 native control
-│  ├─ title
-│  └─ metaPrimary + 장식‘·’ + metaSecondary
+├─ header row
+│  ├─ 일반 info 또는 onActivate용 단일 native control
+│  │  ├─ title
+│  │  └─ metaPrimary + 장식‘·’ + metaSecondary
+│  └─ 선택적 trailingAction: 형제 독립 button24
 └─ footer
-   ├─ 읽기용 run-status: 장식 glyph14 + statusText
-   └─ 독립 native button24: status별 장식 glyph16
+   ├─ 읽기용 run-status: active/paused 장식 glyph14 + statusText, completed 일반 텍스트
+   └─ active/paused일 때만 독립 native button24: status별 장식 glyph16
 ```
 
-toggle은 실제 FRAME의 시각에 native button 의미를 연결합니다. AgentHubIconButton source 재사용으로 기록하지 않습니다.
+toggle은 실제 FRAME의 시각에 native button 의미를 연결합니다. Figma의 toggle 원본을 AgentHubIconButton INSTANCE 재사용으로 기록하지 않습니다.
 Card interactive button 안에 toggle을 넣지 않고 header control과 toggle을 형제로 둡니다.
 toggle click은 disabled guard 후 `status === "active" ? "paused" : "active"`를 한 번만 요청합니다.
 native Enter/Space에 별도 keydown·glyph/root callback을 더하지 않습니다. header 활성화는 별도 의도이며 toggle과 함께 실행하지 않습니다.
 실제 FRAME만으로 독립 hover/pressed·모션을 확인했다고 주장하지 않습니다.
+
+제품 구현에서는 기존 [AgentHubIconButton](../AgentHubIconButton/README.md)의24px 조합을 재사용할 수 있습니다. `icon`에 `agentHubImage`로 해석한
+원본 pause/play·disabled control16 SVG를 전달해 glyph의 정확한 선·paint를 유지합니다.
+버튼의 hover 검정5%·pressed10%, focus-visible과 background-color·border-color·color200ms는 공용 구현에 맡깁니다.
+카드 전용 control CSS는 position·z-index·flex만 두고 공용 버튼의 표면·focus·transition을 덮지 않습니다.
+더보기의 노출150ms opacity를 별도 채택한 경우에도 기존200ms 색상 속성들과 함께 선언하고 reduced motion에서 모두 해제합니다.
+
+### 제품의 카드 전체 activation 조합
+
+주 명령 button의 `::after`를 relative card의 `inset:0`까지 확장하면 padding·footer의 읽기용 영역도
+같은 native click 경로를 사용합니다. 주 명령의 제목·메타는 정상 흐름으로 유지하고 전체 overlay용 별도 button을 만들지 않습니다.
+header trailing action과 footer 상태 변경 button만 더 높은 hit layer에 둡니다. footer 전체에 높은 layer를 주면
+읽기용 상태와 빈 공간이 overlay를 막을 수 있으므로 실제 독립 control에만 적용합니다.
+root의 onClick·keydown으로 같은 명령을 재호출하거나 button 안에 trailing action을 넣지 않습니다.
+
+trailing action이 있으면 header는 남은 폭을 쓰는 info와24px action을8px 간격으로 배치합니다.
+카드 padding16 안에 두어 제목 줄과 top/right가 맞고, 별도 모서리 absolute offset으로 padding을 침범하지 않게 합니다.
+completed도 같은 카드·제목·메타·footer24 공간을 쓰며 statusText만 일반 보조 텍스트로 표시합니다.
+확장한 hit area의 focus 외곽·disabled 차단·메뉴 portal click 분리·터치 조작을 실제 제품에서 검증합니다.
 
 다음 width100%는 부모가 폭을 공급한다는 뜻이며 reference host만324px로 둡니다.
 긴 문구·번역·반응형 변경은 실제 데이터로 검증하는 제품 확장입니다.
 
 ```css
 .hub-schedule-card {
+  position: relative;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -74,8 +101,12 @@ native Enter/Space에 별도 keydown·glyph/root callback을 더하지 않습니
   box-shadow: 0 0 1px 0 rgb(9 30 66 / 31%), 0 4px 6px 0 rgb(9 30 66 / 15%);
 }
 .hub-schedule-card[data-selected]:not([data-disabled]) { background: #ebf3ff; border-color: #3b82f6; }
-.hub-schedule-header { display: flex; align-items: center; gap: 12px; width: 100%; min-width: 0; }
-.hub-schedule-info { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 4px; }
+.hub-schedule-heading { display: flex; align-items: flex-start; gap: 8px; width: 100%; min-width: 0; }
+.hub-schedule-action { position: relative; z-index: 1; display: inline-flex; flex: 0 0 24px; width: 24px; height: 24px; }
+.hub-schedule-header { display: flex; align-items: center; flex: 1; gap: 12px; min-width: 0; }
+button.hub-schedule-header::after { content: ""; position: absolute; inset: 0; z-index: 0; border-radius: 24px; }
+button.hub-schedule-header:disabled::after { pointer-events: none; }
+.hub-schedule-info { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; flex: 1; min-width: 0; gap: 4px; }
 .hub-schedule-title { margin: 0; color: #1c1c1c; font: 600 16px/24px Pretendard, sans-serif; white-space: nowrap; }
 .hub-schedule-meta-row { display: flex; align-items: center; gap: 4px; border-radius: 6px; color: #757575; font: 400 12px/16px Pretendard, sans-serif; }
 .hub-schedule-meta-row > * { margin: 0; white-space: nowrap; }
@@ -93,22 +124,14 @@ native Enter/Space에 별도 keydown·glyph/root callback을 더하지 않습니
   white-space: nowrap;
 }
 .hub-schedule-card[data-status="paused"] .hub-schedule-run-status { background: #f4f4f4; color: #757575; }
+.hub-schedule-card[data-status="completed"] .hub-schedule-run-status { background: transparent; color: #757575; padding-inline: 0; }
 .hub-schedule-run-icon { display: block; flex: 0 0 14px; width: 14px; height: 14px; }
 .hub-schedule-run-label { margin: 0; }
 .hub-schedule-toggle {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  z-index: 1;
   flex: 0 0 24px;
-  width: 24px;
-  height: 24px;
-  padding: 0;
-  border: 0;
-  border-radius: 4px;
-  background: transparent;
 }
-.hub-schedule-toggle-icon { display: block; width: 16px; height: 16px; }
 .hub-schedule-card[data-disabled] .hub-schedule-title,
 .hub-schedule-card[data-disabled] .hub-schedule-meta-row,
 .hub-schedule-card[data-disabled] .hub-schedule-run-status { color: #aaa; }

@@ -11,3 +11,8 @@ Figma 네 상태의 geometry·glyph source·상태색을 확인한 참조 계약
 - label·keyboard·focus-visible·disabled·폼 type·중복 요청 방지를 제품 동작과 대조합니다.
 - 긴 label·번역·zoom·타깃 크기와 미제공 dark/focus/loading 정책을 제품에서 확인합니다.
 - 검증한 source/export만 로컬 mapping에 기록합니다. 문서 배포와 실제 구현 완료를 구분합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+ref.current가 실제 button인지, focus 복귀·키보드·disabled·배경200ms 전환을 검사합니다.
+recipe 조합이 공용 transition을 덮어쓰지 않고 동작 줄이기에서 즉시 최종 상태를 표시하는지 확인합니다.

@@ -15,3 +15,8 @@ Figma의 속성은 `state` 네 가지이며 다른 크기나 primary/negative �
 제품 API는 실제 label·action·disabled와 필요한 기존 slot에 맞춰 연결합니다.
 Figma의 state 기본값 enabled나 정적 `text` 노드를 검증된 앱 props로 취급하지 않습니다.
 공용 TextButton의 나머지 크기·slot을 이 노드의 확인된 지원 범위에 자동 추가하지 않습니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+확인한 제품 타입은 기존 native button 속성에 `ref`를 전달할 수 있는 `NativeButtonProps`를 사용합니다.
+새로운 시각 variant를 추가하는 API가 아니며 label·glyph·24px geometry는 유지합니다.

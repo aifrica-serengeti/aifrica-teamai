@@ -12,15 +12,21 @@ disabled에서 hover/pressed 색상이나 요청이 다시 활성화되지 않�
 hovered/pressed는 순간 상호작용이며 지속 선택·요청 성공·저장 완료가 아닙니다.
 check Boolean은 표시 속성이므로 그 자체로 선택 토글·`aria-pressed`·checked state를 만들지 않습니다.
 현재 값 표시·체크형 명령·radio/checkbox menu 의미가 필요한 제품은 실제 상태와 해당 primitive를 따로 채택해 검증합니다.
+제품이 채택한 optional `checked`는 호출자의 실제 선택 값이며 `showCheck`와 독립입니다. 기존 `onSelect` 한 경로로 값을
+갱신하고 항목이 자체 토글·radio 의미·추가 실행 경로를 만들지 않습니다. 생략 시 기존 명령 동작은 유지합니다.
 
 chevron을 표시한다고 submenu가 자동으로 열리는 것은 아닙니다. 실제 하위 메뉴가 있으면 부모의 SubTrigger/SubContent·
 열림·keyboard·focus·collision 계약에 연결합니다. chevron·edit·check 각각에 별도 클릭 대상이나 Tab 정지점을 만들지 않습니다.
 value는 보조 표시이며 form value·실제 선택 값·검색어를 소유하지 않습니다.
 
+제품이 채택한 `icon`은 leading 장식 선택만 소유합니다. 비어 있지 않은 값이 `showIcon`보다 우선하며,
+없으면 기존 `showIcon=true`의 edit fallback을 사용합니다. glyph 선택은 명령·disabled·선택·submenu·focus·role을 바꾸지 않습니다.
+
 ## header·divider와 추가 조합
 
 header와 divider를 켜면 명령 영역과 구분해 렌더합니다. header 클릭이나 구분선 선택이 명령을 실행하지 않게 합니다.
-Boolean false일 때 branch 전체를 생략하고 자식 텍스트·Vector가 저장돼 있다는 이유로 노출하지 않습니다.
+Figma 표시 Boolean에만 연결한 branch는 false일 때 전체를 생략하고 자식 텍스트·Vector가 저장돼 있다는 이유로 노출하지 않습니다.
+leading glyph는 위 제품 adapter를 따르며 `icon`이 없고 `showIcon`도 false 또는 생략이면 슬롯과 해당 gap을 생략합니다.
 label과 section label은 실제 property에 연결하되, ‘label’·‘section-title’·‘value’를 제품 데이터로 고정하지 않습니다.
 
 새 icon-swap·표시 slot 조합·submenu·check 의미·loading·read-only가 필요하면 제품 요구와 채택 범위를 먼저 기록합니다.

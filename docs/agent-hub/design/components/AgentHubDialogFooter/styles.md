@@ -58,3 +58,8 @@ label·그림자·radius·전체 Dialog 폭을 같은 크기 이름으로 일괄
 모든 실제 binding은 [변수 기록](../../references/dialog-footer.variables.figma.json)에 보존합니다.
 숨김 plus20의 paint·선1.25px는 출처 metadata이며 이 footer의 보이는 아이콘 규격이나 새 자산 요구가 아닙니다.
 hover/pressed·disabled·focus·loading·negative·dark·취소 숨김 조합·긴 문구·반응형은 별도 채택·검증 범위입니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+취소 잠금의 시각과 hover/pressed 차단은 기존 tertiary40 Button의 disabled 상태를 재사용합니다.
+Footer에 일괄 opacity·pointer-events를 적용하거나 확인 disabled로 취소 색상까지 바꾸지 않습니다.

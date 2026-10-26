@@ -30,3 +30,8 @@
 
 이 검증은 단일 Light footer와 실제 Button 재사용을 출발점으로 합니다.
 정적 geometry·원본 존재는 실제 제품의 비동기 요청·form 제출·접근성·닫힘 완료를 증명하지 않습니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+기존 확인 disabled 시에도 취소가 동작하는 회귀, cancelDisabled 기본 false 및 true에서 native 차단,
+확인 한 번 실행·form submit·Dialog dismiss 잠금 연계를 확인합니다. 이 확장을 Figma cancel 노출 API로 기록하지 않습니다.

@@ -16,3 +16,8 @@
 
 2026-10-20에 Figma [text-button](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2427-25177)의
 enabled·hovered·pressed·disabled 네 상태를 확인했습니다. 새로운 UI 구현이나 실제 앱 검증을 뜻하지 않습니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+예약의 고급·날짜 trigger는 기존 TextButton의 hover/pressed·색상200ms를 재사용합니다.
+제품 adapter는 native button props와 ref를 전달해 펼침·popup의 focus 복귀를 연결합니다.

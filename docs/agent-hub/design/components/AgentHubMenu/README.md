@@ -7,6 +7,11 @@
 패널 radius12, 항목의 왼쪽16/오른쪽12px 여백, 항목별 선택적인 제목·구분선과 destructive 색상을 추가합니다.
 실제 source/export는 `unmapped`입니다. 이 문서는 소비 제품의 실행 코드나 이미 구현된 variant를 뜻하지 않습니다.
 
+예약 메뉴처럼 명령마다 다른 glyph가 필요하면 [제품 채택 optional glyph adapter](./implementation.md#제품-채택-optional-glyph-adapter)를 연결합니다.
+`icon?: string`은16px AgentHubIcon manifest 이름 또는 기존 자산 경로를 받으며, 기존 `showIcon`의 edit fallback을 유지합니다.
+이 추가 필드는 Figma의 표시 Boolean이나 공개 API 실측값이 아닙니다. label은 계속 필수이고 아이콘은 명령의 장식입니다.
+제품이 체크형 필터를 채택하면 [optional `checked` 의미 adapter](./implementation.md#제품-채택-checked-의미-adapter)로 실제 선택 값을 전달합니다.
+
 ## 문서와 조합
 
 - [구조·공용 대비 차이](./definition.md)

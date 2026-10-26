@@ -15,3 +15,8 @@ hovered/pressed를 제품의 hover/누르는 순간에 연결하되 disabled에�
 2026-10-21 [모션 채택 계약](../../motion.md)은 배경·글자색의200ms ease를 명시적으로 적용합니다.
 화살표를 이동·회전하거나 밑줄을 추가하지 않고 padding4·gap2·높이24px를 유지합니다.
 reduced-motion에서는 즉시 최종 색상을 표시하며 버튼의 focus·키보드·disabled 의미를 유지합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+button ref를 실제 host로 전달해 날짜 popup 닫힘과 Disclosure 접기 후 동일 trigger에 focus할 수 있게 합니다.
+공용 hover/pressed를 raw button CSS로 복제하지 않고 recipe는 간격·chevron 회전만 조정합니다.

@@ -97,6 +97,10 @@ Figma 원본 이름은 chat-header이며 차트 renderer·차트 toolbar나 전�
 
 [Dialog 시작하기](./dialog.md)에서 공용 Dialog와의 차이, 예약 편집 폼과 에이전트 찾기의 두 구성을 확인합니다.
 
+[예약 작업 도구 모음](./schedules.md)에서 날짜 선택형 FilterChip과 적용 조건 표시용 Chip의 역할,
+부분 neutral28 recipe와 정렬 글꼴·구분선 간격을 구분해 연결합니다. 같은 문서에서 테이블 정렬·행 전체 편집·
+공용 Status의 부분 채택과 hover 모션을 확인합니다.
+
 [생각 중 진행 표시](./chat-progress.md)에서 Header 흐름과 ThinkingStatus의 실측·제안값을 구분해 연결합니다.
 
 ## 공용을 그대로 사용하는 컴포넌트
@@ -136,6 +140,11 @@ Raised/Mid/Overlay/Overflow는 navy 두 겹 그림자이며, 기존 Calendar·Sw
    호환 구현이 없으면 솔루션 컴포넌트와 public export를 새로 개발할 수 있습니다. 문서 수신 자체가 코드 생성을 뜻하지 않습니다.
 4. 제품 `.aifrica/frontend.json`의 `components`에 실제 source와 public export를 기록합니다.
    문서·이미지를 받았다는 이유만으로 `implemented`로 바꾸지 않습니다.
+
+각 공개 컴포넌트는 자신의 import 경로만으로 필요한 스타일을 포함해야 합니다. 카드의 보조 설명을 숨기는 CSS가
+Picker 같은 다른 컴포넌트의 우연한 로드에 의존하지 않게 합니다. 같은 접근성 utility는 가장 가까운 공용 owner에 두고
+실제 소비자가 명시적으로 import합니다. 조합부에서 native button에 사설 IconButton 클래스만 붙이지 않고 실제 버튼을
+재사용해 hit area·glyph·ref·ARIA·hover/pressed/focus와 스타일 수명을 함께 유지합니다.
 
 TeamAI는 이 폴더를 `.teamai/docs/agent-hub/design/`로 전달합니다. 자산이 제품의 `src`나 `public`에
 자동 설치되거나 화면이 자동 변경되지는 않습니다. 적용할 때 Figma MCP에 다시 연결할 필요는 없습니다.

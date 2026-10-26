@@ -47,3 +47,9 @@ Rail의 필터/이동 의미를 제품 데이터에 맞춰 정하고 선택을 �
 200% zoom·협소 viewport·긴 문구에서도 제목·닫기·footer·마지막 카드·focus ring을 잘라내지 않습니다.
 Figma의 고정 크기·clipping을 그대로 복사해 접근을 막지 않고 제품의 반응형 adapter를 검증합니다.
 reduced motion은 실제 소비 구현에서 확인하며 source에 없는 전역 reset을 제공된 기능으로 기록하지 않습니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+pending 잠금은 X·뒤로가기의 native disabled로 보조 기술과 키보드에 전달합니다. `aria-busy`는 실제 요청 owner가 따로
+정하며 dismiss 잠금과 자동 등치하지 않습니다. Escape·backdrop도 같은 정책을 지켜 시각적 disabled만 남기지 않습니다.
+삭제 후 원 trigger가 unmount되면 목록 owner가 살아 있는 인접 작업 또는 빈 목록의 생성 CTA로 focus를 복귀시킵니다.

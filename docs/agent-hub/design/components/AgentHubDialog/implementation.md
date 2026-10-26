@@ -200,3 +200,11 @@ registry 의존성은 두 recipe 및 공용 참조의 합집합입니다. 모두
 fixture의commonAdapters는 필요한 control/단일선택/스크롤 부분범위이며 공용51종 전체 구현 증거가 아닙니다.
 
 테스트 앱은 기존 body viewport를 공용 ScrollArea로 교체하고 Header/Footer를 고정합니다. body의 px24 안에 thumb가 들어가도록 viewport 추가 gutter를 중복 적용하지 않습니다. legacy r8 관찰값은 보존하되 runtime thumb는 AH4px/r9999 채택값입니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+header에 raw button과 공용 class만 붙이는 대신 실제 `AgentHubIconButton`을 조합합니다.
+기존 glyph24를 위해 좁은 optional `iconSize`를 사용하고 기본 size32의 glyph20은 바꾸지 않습니다.
+`dismissDisabled`는 사용자 dismiss callback만 guard하며 native cancel은 항상 preventDefault한 뒤 같은 정책을 적용합니다.
+Dialog의 open/exit effect는 잠금값 변경으로 재등록하지 않고, Footer의 `cancelDisabled`도 명시적으로 전달합니다.
+삭제로 원 trigger가 사라질 때의 대체 focus는 목록 owner가 native close 완료 후 처리합니다.

@@ -16,3 +16,8 @@
 
 2026-10-20에 Figma [icon-button](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2427-25105)을 확인했습니다.
 32px 원형 첨부 버튼은 [AgentHubAttachIconButton](../AgentHubAttachIconButton/README.md)에서 관리합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+Dialog의 legacy glyph24를 보존하는 제품 조합은 optional `iconSize`를 사용할 수 있습니다.
+Figma size matrix와 다른 호환 확장이며 기존 size별 기본 glyph·hit area는 유지합니다.

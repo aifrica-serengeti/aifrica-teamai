@@ -4,6 +4,9 @@
 28/32/36px 크기와 독립적인 선택·hover·pressed·disabled 표현, 선택적 아이콘·count를 추가합니다.
 공용의 정보 표시용 Chip이나 기존 에이전트 유형 Chip의 본체 동작을 바꾸지 않습니다.
 
+예약 목록의 날짜 프리셋은 이 선택형 계약을 쓰고, 적용 조건 label과 독립 X는 정보 표시용 Chip으로 조합합니다.
+[예약 작업 도구 모음](../../schedules.md)의 neutral28 recipe와 구분하며 이 FilterChip의 공개 API·크기를 바꾸지 않습니다.
+
 적용 조건은 [상위 안내](../../README.md)를 따릅니다. 공용을 켠 UI 작업에서는
 `DOCS_ROOT/frontend/design/components/Chip/README.md`도 읽고, 현재 제품의 호환 가능한 Chip·조작 primitive를 확장·조합합니다.
 직접 의존 계약은 `Chip`, [AgentHubIcon](../AgentHubIcon/README.md)입니다. 실제 제품 source/export는 아직 `unmapped`입니다.

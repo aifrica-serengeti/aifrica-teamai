@@ -37,6 +37,11 @@ value와 아이콘의 표는 **숨김 노드에 저장된 paint**입니다. 현�
 destructive도 hover/pressed 배경은 중립색이며 value/chevron까지 빨갛게 만들지 않습니다.
 disabled를 전체 opacity로 처리하지 않습니다. 숨김 header label은 모든 상태에서 #1C1C1C, divider 선은 #DDDDDD로 남아 있습니다.
 
+제품의 optional `icon`은 같은 leading16px box·gap8에 연결합니다. manifest 단색 glyph는 label의 main 색상을 따르고,
+기존 자산 경로는 해당 상태의 paint를 확인합니다. `showIcon` edit fallback·check/value/chevron·행 크기·motion은 유지하며
+[부모 Menu 스타일](../AgentHubMenu/styles.md#항목과-표시-옵션)의 adapter 범위를 적용합니다.
+optional `checked`는 의미만 연결하며 새 selected paint를 추가하지 않습니다. check glyph는 기존 `showCheck` 출력·paint를 유지합니다.
+
 ## 선택 slot과 계산 범위
 
 - edit·check·chevron은16px box·실제 Vector 선1px·round cap/join입니다. edit 인스턴스 root에 저장된0.8px만 보고 Vector의 실제1px 선을 바꾸지 않습니다.

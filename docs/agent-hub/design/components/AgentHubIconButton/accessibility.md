@@ -9,3 +9,8 @@
 
 Tooltip이 필요하면 공용 Tooltip을 한 번 조합하고 버튼 안에 중복 portal/trigger를 만들지 않습니다.
 원본 색상을 보존한 참조 문서이며 실제 제품의 접근성 통과를 뜻하지 않습니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+glyph override로 button의 hit area·접근 가능한 이름·장식 아이콘의 aria-hidden·focus 순서를 바꾸지 않습니다.
+24px glyph를 위해 버튼 자체를 축소하거나 아이콘을 독립 Tab stop으로 만들지 않습니다.

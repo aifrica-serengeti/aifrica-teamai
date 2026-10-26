@@ -42,3 +42,20 @@ row 이름은 row-1/2/3/5…12지만 실제 자식은11개입니다. 빠진 이�
 별도 legacy header/divider 행의 구현을 강제하거나 중복 separator를 만들지 않습니다.
 아이콘 swap 목록, check 표시, chevron만으로 실제 권한·단축키 등록·checked 값·하위 메뉴 데이터가 정해지지 않습니다.
 원본에는 trigger, 실제 명령, menu open/close 상태, 포털 위치·sideOffset·collision·다크 모드가 정의되지 않았습니다.
+
+## 제품 채택 optional glyph adapter
+
+예약 메뉴 [2978:59542](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2978-59542)와
+[2978:62200](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2978-62200)의 실행·편집·공유·삭제를
+구분하기 위해 제품이 `AgentHubMenuEntry.icon?: string`을 채택합니다. 각각 play·edit·link·trash의16px glyph를 연결합니다.
+`showIcon` 하나로 모든 명령을 edit로 표시하던 조립을 호환 확장하는 범위이며, 기존 자산 목록·실측 snapshot을 바꾸지 않습니다.
+
+이 `icon`은 제품의 glyph 선택 adapter입니다. MenuItem 원본의 `icon` Boolean, `icon-swap` INSTANCE_SWAP이나
+Menu root의 `Scroll bar` Boolean이 문자열 공개 API를 제공했다는 뜻이 아닙니다. 값은 소비 제품에서 확인한
+AgentHubIcon manifest 이름 또는 기존 자산 경로이고, label을 대신하거나 별도 동작을 만들지 않습니다.
+명시한 `icon`을 우선하며 `icon`이 없고 `showIcon=true`이면 기존 edit glyph를 유지합니다.
+둘 다 없으면 leading glyph·빈 슬롯·그 슬롯의 gap을 만들지 않습니다. 명령·선택·focus·메뉴 역할·motion 계약은 유지합니다.
+
+제품이 채택한 `checked?: boolean`은 필터의 실제 선택 값을 전달하는 별도 의미 adapter입니다.
+Figma의 check Boolean은 계속 glyph 표시만 뜻합니다. `checked`를 명시할 때만 체크 메뉴 의미를 연결하며,
+생략한 기존 명령과 Select의 option 의미는 보존합니다. 상태 값은 제품이 소유하고 새 선택 palette는 추가하지 않습니다.

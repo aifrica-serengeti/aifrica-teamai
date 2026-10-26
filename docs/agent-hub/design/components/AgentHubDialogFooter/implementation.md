@@ -133,3 +133,9 @@ cancel 숨김을 dismiss 잠금이나 전체 footer disabled로 사용하지 않
 원본의 NO_WRAP을 좁은 화면 잘림으로 복사하지 않고, wrap/세로 배치가 필요하면 제품 제안으로 명시해 검증합니다.
 전체 Dialog 테마·shell width·취소 정책을 footer 하나로 변경하지 않습니다.
 [검증](./verification.md)을 마친 뒤 실제 source·export와 적용 범위만 로컬에 기록합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+제품 호환 `cancelDisabled=false`를 취소 `AgentHubButton`의 native disabled에 전달합니다.
+기존 `disabled`는 확인만 제어하는 의미를 유지하고, Dialog 닫기 정책과 취소 가능 여부는 호출자가 명시적으로 연결합니다.
+button click과 form submit의 기존 한 번 실행 경로는 변경하지 않습니다.

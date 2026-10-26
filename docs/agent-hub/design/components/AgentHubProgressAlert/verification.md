@@ -24,3 +24,13 @@
 - 재시도/편집 요청 상태·추가 loading/disabled 조합·응답 stream·dark·반응형 완성 배치는 미검증 범위로 남깁니다.
 - [구현 안내](./implementation.md)에 따라 실제 source/public export와 제품 검증 결과를 로컬 mapping에 기록합니다.
   문서·자산 수신만으로 `implemented`를 선언하지 않습니다.
+
+## 제품 호환 변형 회귀
+
+- 두 callback의 기존 순서·기본 label·circle-alert20과 각 단일 callback의 버튼 하나 표시를 검증합니다.
+  두 callback이 없으면 버튼·빈 action wrapper가 없어야 하며 label만으로 동작 없는 버튼을 만들지 않습니다.
+- `icon="schedule"` 등 실제 manifest glyph 교체 시20px 크기·장식 의미를 유지하고, 생략하면 정확한 원래 circle-alert 자산을 사용합니다.
+- 단일 편집·재시도와 독립 disabled가 callback을 한 번만 호출/차단하는지 확인합니다. 공용 Button28의 hover·pressed·focus를 유지합니다.
+- 예약 완료 안내 두 사용처가 같은 ProgressAlert 표면·제목14/20·icon20·편집 Button28을 재사용하고 별도 bar를 복제하지 않는지 검사합니다.
+  긴 예약명·좁은 화면에서도 glyph와 버튼이 축소되거나 제목이 잘리지 않아야 합니다.
+- 이 지원 API를 Figma root의 추가 속성·상태로 기록하지 않고 원래 두 버튼 시안·자산·`unmapped`/`draft`를 유지합니다.

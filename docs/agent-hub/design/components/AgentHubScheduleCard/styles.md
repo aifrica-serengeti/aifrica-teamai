@@ -29,7 +29,7 @@ ellipsis metadata가 있어도 긴 문구의 실제 폭 제한이 검증된 것�
 
 Mid는 `0 0 1px 0 rgba(9,30,66,.31)` + `0 4px 6px 0 rgba(9,30,66,.15)`입니다.
 selected에 공용 Card의 inset1px를 더하지 않고 ThumbnailCard의 Overflow를 복사하지 않습니다.
-hover/pressed는 불투명 F8/F4이며 Session 행의 검정5%/10% overlay로 바꾸지 않습니다.
+root의 hover/pressed는 불투명 F8/F4이며 Session 행의 검정5%/10% overlay로 바꾸지 않습니다.
 
 | status | run-status | status glyph14 / label | toggle glyph16 |
 | --- | --- | --- | --- |
@@ -47,3 +47,29 @@ active #EEE/paused #F4 run-status 표면·카드 border·opacity1은 유지합�
 
 긴 제목·meta·상태 문구·번역·좁은 폭·focus·toggle의 독립 hover/pressed·요청 중 상태·dark·모션은 추가 제품 검증 범위입니다.
 5state×2status가 이들의 모든 교차 상태를 검증한 것은 아닙니다.
+
+## 제품 채택 완료·더보기 배치
+
+완료 카드도 같은 padding16·radius24·제목16/24·메타12/16과 footer24px 공간을 사용합니다.
+별도의 ghost Button 제목·별도 article recipe로 갈라 제목 높이·색상·간격·hover 표면이 달라지지 않게 합니다.
+완료 상태는 일반 보조 텍스트로 표시하며 active/paused의 상태 glyph·chip 표면이나 pause/play button을 만들지 않습니다.
+이 completed paint는 제품 채택값이며 원본의 세 번째 status 실측값이 아닙니다.
+
+trailing action은 header의 첫24px 줄에 맞추고 콘텐츠 오른쪽 끝에 배치합니다.
+외곽선 안쪽 padding16을 유지하며 제목과 action 사이8px를 확보합니다. 카드 모서리 padding 영역에
+별도로 `top:10px/right:8px`를 두거나 제목 위로 겹치게 하지 않습니다. 폭이 줄어도 action24×24는 줄이지 않고 제목만 줄입니다.
+
+주 명령의 stretched hit area는 카드 안으로 제한하고 원래 title/meta/footer 배치를 바꾸지 않습니다.
+독립 action·footer button은 그 위의 hit layer에 두되 읽기용 footer 영역 전체를 가려 빈 곳의 주 명령을 막지 않습니다.
+hover로 표시하는 더보기는 keyboard focus·메뉴 열림에서도 유지하고 터치 환경에서는 접근 가능한 표시 정책을 적용합니다.
+
+## 제품 채택 독립 아이콘 버튼
+
+하단 중지/재개는 실제 `AgentHubIconButton size=24`로 조합해 공용 ghost button의 hover 검정5%·pressed10%,
+background-color·border-color·color의200ms ease와 focus-visible을 재사용합니다. glyph는 기존 pause/play 및
+disabled16px 원본 SVG를 그대로 연결합니다. 카드 전용 스타일은 독립 hit layer를 위한 position·z-index·flex만 맡고
+버튼 표면·focus·색상 전환을 다시 만들지 않습니다. 이는 제품 조합이며 Figma toggle FRAME이 IconButton INSTANCE였다는 뜻이 아닙니다.
+
+상단 더보기의 기존 노출150ms opacity 전환은 공용 버튼의200ms 색상 전환과 함께 선언합니다.
+`transition: opacity 150ms ease`만 쓰면 공용 transition을 덮으므로 background-color·border-color·color도 포함합니다.
+카드 전체 hover와 버튼 자체 hover를 구분하고, 동작 줄이기에서는 opacity·색상 전환을 모두 해제합니다.

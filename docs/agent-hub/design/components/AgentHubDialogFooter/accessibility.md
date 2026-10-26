@@ -26,3 +26,8 @@
   필요한 경우 실제 근거와 적용 범위를 기록하며 단일 Light footer를 그 검증 결과로 취급하지 않습니다.
 
 footer 자체가 새 모달이나 form을 만들지 않습니다. 기존 Dialog·form·Button의 한 owner를 사용하고 실제 keyboard·포인터·스크린리더 결과를 제품에서 확인합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+`disabled=true, cancelDisabled=false`에서 취소는 Tab·Enter/Space로 계속 접근할 수 있어야 합니다.
+`cancelDisabled=true`에서는 실제 native disabled로 실행을 막고 단순 시각·aria-disabled만 적용하지 않습니다.

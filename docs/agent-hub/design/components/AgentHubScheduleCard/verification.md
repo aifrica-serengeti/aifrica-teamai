@@ -22,4 +22,24 @@
 
 - [공용 색상 모션](../../cards.md#공용-색상-모션-계승)의 root/텍스트에200ms ease와 property별 transition이 연결되는지 확인합니다.
   hover/pressed/disabled 진입·해제 뒤 시각값과 입력 차단을 검사하고, reduced motion에서 transition:none인지 확인합니다.
-  원본 미제공 상태의 paint·전체 opacity0.4·SVG crossfade·geometry 전환을 새로 추가하지 않습니다.
+  원본 미제공 상태의 paint를 실측값으로 기록하지 않으며 전체 opacity0.4·SVG crossfade·geometry 전환을 새로 추가하지 않습니다.
+
+## 제품 채택 완료·전체 카드·더보기 검증
+
+- completed는 제품 확장으로 분리하고 원본10종·자산 목록을 세 번째 status로 늘리지 않습니다.
+  active/paused/completed의 제목16/24·메타12/16·padding16·radius24·footer24 공간이 같고 완료 전용 ghost 제목 배치가 없는지 비교합니다.
+- 완료 문구는 읽을 수 있는 일반 텍스트이며 pause/play·누락 자산 요청·빈 Tab stop이 없는지 확인합니다.
+  완료 상태와 disabled를 구분하고 완료 카드의 주 명령이 동작하는지 확인합니다.
+- trailing action24×24의 top/right가 카드 콘텐츠 padding16에 맞고 제목과8px 간격이 있는지 실제 render로 측정합니다.
+  긴 제목·좁은 폭에서 버튼과 겹치지 않고 hover/focus/메뉴 열림/터치에서 조작 가능한지 확인합니다.
+- 제목뿐 아니라 카드 여백·메타·읽기용 상태·footer 빈 공간에서 주 명령이 정확히 한 번 실행되는지 실제 hit test로 확인합니다.
+  root의 중복 handler·추가 Tab stop·중첩 button이 없는지 검사합니다.
+- 더보기는 메뉴만 열고 지금 실행·편집·공유·삭제·중지/재개는 해당 명령만 실행하는지 검증합니다.
+  메뉴 portal 선택과 native Enter/Space도 주 명령을 동반 호출하지 않아야 합니다.
+- disabled에서 주 명령·중지/재개·제품 trailing action 입력을 모두 차단하는지 확인합니다.
+  CSS pseudo-element hit area와 padding 배치는 jsdom만으로 보증하지 않고 실제 브라우저에서도 검사합니다.
+- 하단 조작이 실제 `AgentHubIconButton size=24`를 재사용하고 원본 pause/play·disabled SVG16px를 유지하는지 확인합니다.
+  자체 raw FRAME button·표면 CSS로 공용 hover 검정5%·pressed10%·focus-visible을 누락하지 않아야 합니다.
+- 상단 더보기의 opacity150ms와 background-color·border-color·color200ms가 함께 남는지 실제 computed style로 확인합니다.
+  하단 버튼도 같은200ms 색상 전환을 유지하고 동작 줄이기에서 두 버튼의 노출·색상 transition이 해제되는지 검사합니다.
+  이 hover/pressed·모션은 제품이 채택한 공용 버튼 계약이며 원본 FRAME의 새로운 Figma 실측값으로 기록하지 않습니다.

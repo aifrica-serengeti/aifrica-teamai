@@ -26,4 +26,30 @@
 6. 협소 viewport·긴 라벨·옵션이 많은 메뉴에서 collision·실제 스크롤·마지막 focus 항목·표시 자산을 확인합니다.
 7. lint/typecheck/test/build와 시각·키보드 검증 결과, 실제 source/export를 제품 로컬 mapping에 기록합니다.
 
+제품이 optional `icon` adapter를 채택하면 다음 회귀를 추가로 확인합니다.
+
+| 입력·상태 | 기대 결과 |
+| --- | --- |
+| 실행·편집·공유·삭제 | play·edit·link·trash16px가 각각 출력되고 label·명령 한 번 실행을 유지 |
+| `icon` + `showIcon=true` 또는 false | 명시 glyph 한 개만 출력, edit 중복 없음 |
+| `icon` 없음·`showIcon=true` | 기존 default/destructive/disabled edit16 자산·paint 유지 |
+| `icon` 없음·`showIcon` 생략 또는 false | leading glyph·빈 슬롯·추가 gap 없음, label 필수 유지 |
+| 기존 자산 경로 입력 | 소비 제품의 자산 해석 경계·16px 출력·상태별 paint 확인 |
+| check·value·실제 submenu 조합 | 기존 check/보조 문구/chevron 출력·role·선택 owner·focus·키보드 이동 유지 |
+| 접근성·motion | glyph는 aria-hidden·img alt 빈 값, label의 전체 접근성 이름·기존 focus·배경 전환·popup motion 유지 |
+
+Figma 예약 메뉴2978:59542/2978:62200의 glyph 구분과 제품이 채택한 문자열 adapter를 구분해 근거를 기록합니다.
+기존 menu 자산 목록·실측 snapshot은 보존하고 실제 source/export·지원 범위·테스트 결과는 해당 제품 로컬 mapping에서 확인합니다.
+
+optional `checked` 채택 시 true/false 각각의 `menuitemcheckbox`·`aria-checked`와 생략 시 기존 `menuitem`·속성 부재를 비교합니다.
+`checked=true/showCheck=false`와 `checked=false/showCheck=true`도 비교해 실제 의미와 장식 표시가 독립적인지 확인합니다.
+호출자의 선택·해제 갱신과 한 번 실행·disabled 차단·닫힘 및 양방향 pointer/keyboard focus 이동을 검증합니다.
+`role="option"`은 `checked` 전달 여부와 무관하게 기존 option·`aria-selected`를 유지하고 `aria-checked`를 출력하지 않아야 합니다.
+
 문서 수신·asset 보존·정적 검사만으로 implemented·실행 일치·다크 모드 지원을 선언하지 않습니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+내장·외부 trigger의 ↓첫/↑마지막 활성 항목, disabled 건너뜀, 첫 RAF 전 Escape·Tab,
+상위 Dialog 보존·trigger 복귀·다음 control focus 비간섭과 명령 한 번 실행을 검증합니다.
+외부 anchor 교체·unmount 때 listener와 이전 진입 예약도 정리되어야 합니다.

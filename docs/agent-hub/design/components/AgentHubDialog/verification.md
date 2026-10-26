@@ -72,3 +72,10 @@
 진입/퇴장 중간 opacity·scale, 닫힘 완료 후 trigger focus, 닫는 중 재열기와 reduced-motion 변경을 확인합니다.
 폼3종의label·오류·필수값·read-only/disabled·IME·단일선택 취소/Escape/focus를 검사합니다.
 전용 이름을 지정하지 않은 예약 Dialog 요청도 공용 registry fallback 탐색으로 이어져야 합니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+제품의 `dismissDisabled` 기본 false·true→false 전환, X/뒤로가기의 native disabled·Escape/backdrop 차단을 검사합니다.
+잠금 중 부모가 `open=false`로 바꿀 수 있고 기존 exit200ms·focus 복귀·빠른 재열기가 유지되어야 합니다.
+header의 공용 IconButton 사용과32/r4/glyph24, 공용 size32 기본 glyph20 유지·hover 색상200ms를 비교합니다.
+삭제 실패에서는 Dialog와 draft를 유지하고 성공 후 원 trigger가 제거되면 인접 작업/생성 CTA로 실제 close 이후 복귀하는지 검사합니다.

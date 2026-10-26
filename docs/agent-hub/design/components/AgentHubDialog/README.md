@@ -41,3 +41,9 @@ Footer는 조합 계약을 참고하며 실제 예약 편집 footer는 FRAME입�
 현재 채택 동작은 [상태·모션·스크롤 계약](../../motion.md)을 함께 읽습니다. 정적 Figma 관찰과 계승 동작을 구분합니다.
 
 직접 의존 graph는 두 recipe의 합집합입니다. 예약 요청에 Finder 기능까지 생성하지 않고 [recipe 범위](./implementation.md)의 선택 절차를 따릅니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+예약 페이지의 제품 채택에서는 header의 X·뒤로가기를 기존 `AgentHubIconButton`으로 조합합니다.
+32px hit area·r4·glyph24를 보존하고 공용 상태 전환을 재사용합니다. `dismissDisabled`는 아래 제품 호환 확장이며
+Figma의 공개 속성이나 공유 source 매핑을 새로 선언하지 않습니다.

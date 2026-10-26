@@ -70,3 +70,9 @@ Search는 우측 inset16, 카드 행은24입니다. 실제 fixed1064와 rows1056
 카드 설명은40px 최대 높이를 가진 표본이며 제한 없는 HUG나 새 maxLines2로 기록하지 않습니다.
 fade는 실제 gradient paint입니다. 생성 코드의 PNG처럼 런타임 이미지를 요구하지 않습니다.
 장식 fade와 scrollbar160/180은 정적 실측이며 실제 scroll 가능 여부·thumb 비율·끝 지점 공식이 아닙니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+header의 X·뒤로가기는 공용 IconButton의 hover 검정5%·pressed10%와 background-color·border-color·color200ms ease를
+재사용합니다. recipe override는32px hit area·r4·glyph24 geometry만 소유합니다. 직접 background-only transition을 덮어쓰지 않습니다.
+이것은 현재 제품의 상태 채택이며 legacy 원본 identity·paint 기록을 대체하지 않습니다. 동작 줄이기에서는 전환을 해제합니다.

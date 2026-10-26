@@ -30,3 +30,13 @@ Spinner·loading label·새 전환 효과는 추가 근거 없이 붙이지 않�
 
 진행률 bar·퍼센트·남은 시간·취소·닫기·자동 닫기·Toast 등록·HTTP 오류 자동 발행은 제공하지 않습니다.
 이 표시 컴포넌트가 API URL·stream 수명·abort·retry timer·상태 저장을 소유하지 않습니다.
+
+## 제품의 선택적 동작
+
+callback을 전달한 동작만 렌더하고 한 동작의 disabled 조건은 해당 버튼에만 적용합니다. 없는 동작의 label이나
+disabled Boolean만으로 빈 버튼을 만들지 않습니다. 두 callback이 없으면 동작 그룹도 생략합니다.
+기존 두 callback 호출부의 순서·기본 label·실행 경로는 유지합니다.
+
+예약 완료 안내는 제품이 title·schedule glyph·‘작업 편집’ label과 단일 편집 callback을 연결해 조합합니다.
+편집은 예약 편집 owner를 열며 예약 재실행·등록·재시도를 함께 호출하지 않습니다. 원래 중단 안내의 성공 상태 enum을
+새로 만든 것이 아니며 생성·성공·안내 제거·focus 수명은 해당 페이지가 소유합니다.

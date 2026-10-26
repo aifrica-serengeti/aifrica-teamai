@@ -37,3 +37,9 @@ Finder header의 `Show icon-button=false`는 뒤로 가기만 숨깁니다. 실�
 두 root의 공통 r16·blue-gray 표면을 다른 Dialog, Header, Footer에 전역 적용하지 않습니다.
 실제 제품에 호환 구현이 없으면 [구현 순서](./implementation.md)에 따라 가장 좁은 기능 범위에서 전용 조합 export를 개발합니다.
 문서 예제나 읽기 전용 CMP source는 Agent Hub 구현 완료의 증거가 아닙니다.
+
+## 2026-10-26 예약 페이지 점검 보강
+
+소비 제품에서 확인한 optional `dismissDisabled: boolean = false`는 사용자 닫기와 뒤로가기를 잠그는 호환 입력입니다.
+Dialog가 요청 상태를 소유하지 않으며 부모의 `open=false` 갱신은 여전히 허용합니다. 이는 FRAME 원본의 props가 아닙니다.
+header는 `AgentHubIconButton size=32/iconSize=24`를 조합하고 r4만 recipe에서 맞춥니다.
