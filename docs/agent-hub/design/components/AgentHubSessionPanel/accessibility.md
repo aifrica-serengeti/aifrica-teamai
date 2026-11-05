@@ -7,7 +7,8 @@
 - 펼침은 native button의 `aria-expanded`와 `aria-controls`를 실제 패널 ID에 연결합니다.
   + button은 ‘출력 추가’·‘컨텍스트 추가’처럼 각각 이름을 제공하고 heading/펼침 button과 형제로 둡니다.
 - 숨긴 toggle/count/action은 DOM에서 제외하거나 접근성과 focus에서도 숨깁니다.
-  empty에서는 두 + action이 남아야 합니다. 제목만으로 빈 섹션에 가짜 펼침 조작을 만들지 않습니다.
+  empty에서는 두 + action이 남아야 합니다. no-runtime에서는 환경 헤더·안내만 표시하므로
+  숨긴 toggle/count/+를 가짜 조작이나 Tab 정지로 남기지 않습니다. 제목만으로 빈 섹션에 가짜 펼침 조작을 만들지 않습니다.
 - 기록·출력·컨텍스트는 실제 의미에 맞는 목록과 개별 control을 사용합니다. 단순 목록을 tree/menu/listbox로 선언하지 않습니다.
   별도의 복합 패턴이 필요한 제품은 실제 keyboard·focus manager와 role 전체를 함께 구현합니다.
 - 현재 보고 있는 실행에는 채택한 탐색 패턴에 맞게 `aria-current` 등 현재 상태를 제공합니다.

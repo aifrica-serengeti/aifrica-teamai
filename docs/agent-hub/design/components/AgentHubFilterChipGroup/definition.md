@@ -7,7 +7,7 @@ Figma component set `3099:25232`의 `layout`은 `hug`, `wrap`, `scroll` 3종이�
 | layout | node | description의 용도 | 확인한 구성 |
 | --- | --- | --- | --- |
 | hug | `3099:25138` | 칩 개수만큼 늘어나는 한 줄 | HUG 폭, 6개 칩 |
-| wrap | `3099:25169` | 필터 패널·모달의 고정 폭 줄바꿈 | 고정 폭 280px, 4개+2개 배치 |
+| wrap | `3099:25169` | 필터 패널·모달의 고정 폭 줄바꿈 | 고정 폭280px, 최초 snapshot의4개+2개 배치 |
 | scroll | `3099:25200` | 좁은 툴바·모바일의 가로 스크롤과 우측 fade | 고정 폭 280px, clipping과 absolute fade |
 
 각 그룹의 칩 6개는 모두 `md`, `enabled`이며 첫 번째만 selected입니다. 모든 예시 라벨은 “전체”이고
@@ -32,3 +32,5 @@ count의 숨겨진 예시 값 `3`도 실제 필터 결과 수가 아닙니다.
 직접 의존 계약은 `AgentHubFilterChip`입니다. 칩별 색상·radius·아이콘·count·disabled는 그 계약에 위임합니다.
 공용 Chip은 정보 표시용이며, 이 그룹의 선택·토글 의미는 FilterChip 확장이 소유합니다.
 칩의 id·선택 방식·라벨·count·실제 필터 조건·결과 갱신은 consuming repository의 페이지 계약에 연결합니다.
+
+현재 metadata에서는 hug 외곽만344→334px로 바뀌었습니다. 현 그룹의 중첩18개 전체 인스턴스를 다시 확인한 것은 아니므로 아래 원본·override 설명은 최초 추출 범위로 읽습니다. 최신 내부 줄별 개수를 고정하지 않습니다.

@@ -1,6 +1,6 @@
 # AgentHubScrollbar — 실제 스크롤과 표시 상태
 
-원본은 정적 thumb 하나이며 현재 위치·전체 콘텐츠 길이·끝 도달·자동 스크롤을 나타내는 동작 계약이 아닙니다.
+원본은 방향별 정적 thumb 비교 샘플이며 현재 위치·전체 콘텐츠 길이·끝 도달·자동 스크롤을 나타내는 동작 계약이 아닙니다.
 실제 스크롤 컨테이너가 `scrollTop`/`scrollLeft`, viewport/content 크기, native overflow와 스크롤 이벤트를 소유합니다.
 thumb는 그 측정값의 시각적 표현으로 연결하고 독립된 가짜 스크롤 상태를 만들지 않습니다.
 
@@ -9,7 +9,7 @@ thumb는 그 측정값의 시각적 표현으로 연결하고 독립된 가짜 �
 - 기존 `type`은 hover(기본)·always·scroll·auto이고, scroll/auto는 스크롤 종료800ms 뒤 표시 조건을 해제합니다.
   이 기능은 공용/CMP baseline이며 Agent Hub Figma에서 네 가지 표시 화면을 확인했다는 뜻이 아닙니다.
 - 기존 방향은 vertical·horizontal·both이며 실제 viewport의 허용 축과 thumb 렌더 축을 맞춥니다.
-  Agent Hub의 단일 세로 샘플로 가로/양방향 시각까지 검증됐다고 선언하지 않습니다.
+  Agent Hub에서 세로·가로의 정적 시각을 확인했어도 양방향 조합·실제 입력까지 검증됐다고 선언하지 않습니다.
 - 콘텐츠가 viewport를 넘지 않으면 불필요한 thumb를 만들지 않습니다. 샘플160px를 계속 표시하거나 내용과 무관하게 고정하지 않습니다.
 - thumb는 native viewport의 형제인 overlay로 배치해 내용과 함께 이동하거나 사라지지 않게 합니다.
   드래그는 같은 viewport를 한 경로에서 갱신하고 Pointer capture의 종료·취소·정리를 유지합니다.

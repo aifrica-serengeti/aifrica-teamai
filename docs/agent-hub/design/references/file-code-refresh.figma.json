@@ -1,0 +1,999 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "figma-reference",
+  "verifiedAt": "2026-11-05",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "boardNodeId": "3074:101330",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3074-101330",
+    "captureMethods": [
+      "get_metadata(board)",
+      "get_design_context(component references)",
+      "get_screenshot(select components)"
+    ]
+  },
+  "assurance": {
+    "runtimeVerified": false,
+    "implementation": {
+      "status": "unmapped",
+      "source": null,
+      "export": null
+    },
+    "adoptionStatus": "draft",
+    "nativeComponentPropertyDefinitionsCaptured": false,
+    "nativePropertyIdsCaptured": false,
+    "nativePropertyBindingsCaptured": false,
+    "nativeVariableIdsCaptured": false,
+    "nativeEffectsCaptured": false,
+    "generatedPropsArePublicApi": false,
+    "sampleBoundsAreRequiredApi": false,
+    "screenshotDirectlyReviewedNodeIds": [
+      "3684:20432",
+      "3713:24469",
+      "4056:17947",
+      "3746:96091"
+    ],
+    "captureLimit": "추가 screenshot 호출이 도구의 rate limit에 도달했으므로 나머지는 확보한 생성 context와 board 메타데이터로 대조함"
+  },
+  "notes": [
+    "Component-set boardBounds are variant presentation board bounds, not component dimensions.",
+    "Variant sample width/height from board metadata; geometry and token paths from generated design context, not native plugin property inspection.",
+    "Product API, focus management, scroll measurements and source mapping belong to consuming repository.",
+    "Asset files are actual captured SVG/PNG references; no ephemeral local server URL is retained."
+  ],
+  "components": [
+    {
+      "id": "AgentHubCodeLine",
+      "nodeId": "3684:20432",
+      "sourceName": "code-line",
+      "kind": "component-set",
+      "componentSetBoardBounds": {
+        "width": 834,
+        "height": 278
+      },
+      "observedVariantCount": 9,
+      "variants": [
+        {
+          "id": "3689:20318",
+          "name": "indent=0, state=empty",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "id": "3684:20396",
+          "name": "indent=0, state=enabled",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "id": "3684:20402",
+          "name": "indent=1, state=enabled",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "id": "3684:20410",
+          "name": "indent=2, state=enabled",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "id": "3684:20420",
+          "name": "indent=3, state=enabled",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "id": "3686:20603",
+          "name": "indent=0, state=current",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "id": "3686:20615",
+          "name": "indent=1, state=current",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "id": "3686:20631",
+          "name": "indent=2, state=current",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "id": "3686:20651",
+          "name": "indent=3, state=current",
+          "width": 800,
+          "height": 20
+        }
+      ],
+      "generatedInput": {
+        "code": "string",
+        "number": "string",
+        "placeholder": "string",
+        "fold": "boolean",
+        "indent": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "state": [
+          "enabled",
+          "current",
+          "empty"
+        ]
+      },
+      "geometry": {
+        "rowHeight": 20,
+        "comparisonWidth": 800,
+        "gutter": {
+          "width": 68,
+          "height": 20,
+          "paddingLeft": 20,
+          "paddingRight": 2,
+          "gap": 4
+        },
+        "lineNumberWidth": 26,
+        "foldGlyph": 16,
+        "indentStep": 16.8,
+        "contentFill": true,
+        "contentClip": true,
+        "currentFillOwner": "content-only",
+        "cursor": {
+          "width": 1,
+          "height": 18
+        },
+        "emptyGap": 4
+      },
+      "typography": {
+        "family": "JetBrains Mono",
+        "code": {
+          "style": "Light",
+          "weight": 300,
+          "size": 13,
+          "lineHeight": 20
+        },
+        "number": {
+          "style": "Light",
+          "weight": 300,
+          "size": 13,
+          "lineHeight": 20
+        },
+        "placeholder": {
+          "style": "Regular",
+          "weight": 400,
+          "size": 13,
+          "lineHeight": 20,
+          "opacity": 0.6
+        }
+      },
+      "generatedTokenReferences": {
+        "color/code/guide": "#EEEEEE",
+        "color/code/line-fill-current": "rgba(0,0,0,0.05)",
+        "color/code/line-number": "#555555",
+        "color/code/line-number-current": "#1C1C1C",
+        "color/code/text": "#1C1C1C",
+        "color/code/cursor": "#1C1C1C",
+        "color/code/placeholder": "#555555"
+      },
+      "description": "코드 에디터 한 줄. indent = 들여쓰기 단계, state = empty(처음 시작)/enabled(기본)/current(선택된 줄, 코드 영역에만 배경), fold = 접기 화살표. 가이드선은 indent-guide 인스턴스라 줄마다 active로 바꿀 수 있음.",
+      "limits": [
+        "empty observed at indent0 only; no full3x4 matrix",
+        "fold means visibility, not expanded-state proof",
+        "No editing/parser/IME/folding runtime proven",
+        "Standalone13px; FileViewer instance override12px"
+      ],
+      "assetBindings": [
+        {
+          "generatedConstant": "imgFold",
+          "sourceAsset": "5e1161a49db0401f24dc173bbf7e3a25dccaaeab.svg",
+          "path": "assets/refresh-20261105/5e1161a49db0401f24dc173bbf7e3a25dccaaeab.svg",
+          "sha256": "4bc8f149a8e9f6912122cf30b340b7cef258876384739f08422f7263fd633ef7",
+          "bytes": 295
+        }
+      ]
+    },
+    {
+      "id": "AgentHubIndentGuide",
+      "nodeId": "3686:20585",
+      "sourceName": "indent-guide",
+      "kind": "component-set",
+      "componentSetBoardBounds": {
+        "width": 83.5999984741211,
+        "height": 54
+      },
+      "observedVariantCount": 2,
+      "variants": [
+        {
+          "id": "3686:20581",
+          "name": "state=default",
+          "width": 16.799999237060547,
+          "height": 20
+        },
+        {
+          "id": "3686:20583",
+          "name": "state=active",
+          "width": 16.799999237060547,
+          "height": 20
+        }
+      ],
+      "generatedInput": {
+        "state": [
+          "default",
+          "active"
+        ]
+      },
+      "geometry": {
+        "width": 16.8,
+        "height": 20,
+        "line": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 1
+        }
+      },
+      "generatedTokenReferences": {
+        "color/code/guide": "#EEEEEE",
+        "color/border/default": "#DDDDDD"
+      },
+      "description": "들여쓰기 세로 가이드선. active = 커서가 있는 블록의 선(진하게).",
+      "limits": [
+        "active line is #DDDDDD, not code text #1C1C1C",
+        "Decorative; no input state or separator semantics"
+      ],
+      "assetBindings": []
+    },
+    {
+      "id": "AgentHubFileTab",
+      "nodeId": "4056:17720",
+      "sourceName": "file-tab",
+      "kind": "component-set",
+      "componentSetBoardBounds": {
+        "width": 200,
+        "height": 64
+      },
+      "observedVariantCount": 2,
+      "variants": [
+        {
+          "id": "4056:17709",
+          "name": "state=default",
+          "width": 70,
+          "height": 24
+        },
+        {
+          "id": "4056:17716",
+          "name": "state=active",
+          "width": 70,
+          "height": 24
+        }
+      ],
+      "generatedInput": {
+        "label": "string",
+        "state": [
+          "default",
+          "active"
+        ]
+      },
+      "geometry": {
+        "height": 24,
+        "sampleWidth": 70,
+        "widthMeaning": "label-HUG sample",
+        "paddingLeft": 8,
+        "paddingRight": 4,
+        "gap": 4,
+        "radius": 4,
+        "closeTarget": 24,
+        "glyph": 16
+      },
+      "typography": {
+        "family": "Pretendard",
+        "style": "Regular",
+        "weight": 400,
+        "size": 14,
+        "lineHeight": 20,
+        "noWrap": true
+      },
+      "generatedTokenReferences": {
+        "radius/control-sm": 4,
+        "color/text/default": "#1C1C1C",
+        "color/button/opacity-active": "rgba(0,0,0,0.1)"
+      },
+      "description": "파일 패널 헤더의 파일 탭. 현재 열린 파일은 state=active.",
+      "limits": [
+        "No44px commonTab geometry override outside AH",
+        "Native tab/close keyboard DOM not present in static generated divs",
+        "active is selected file, not pointer pressed"
+      ],
+      "assetBindings": [
+        {
+          "generatedConstant": "imgIcon",
+          "sourceAsset": "69378c611830169616b9ffd14c21cdaad1180956.svg",
+          "path": "assets/refresh-20261105/69378c611830169616b9ffd14c21cdaad1180956.svg",
+          "sha256": "9f4a3cc1ff2b47f7220b9f3d9d719dc741b86ec228654d6596c78dd7f62febe5",
+          "bytes": 392
+        }
+      ]
+    },
+    {
+      "id": "AgentHubFileHeader",
+      "nodeId": "4056:17947",
+      "sourceName": "file-header",
+      "kind": "component-set",
+      "componentSetBoardBounds": {
+        "width": 950,
+        "height": 224
+      },
+      "observedVariantCount": 3,
+      "variants": [
+        {
+          "id": "4056:17730",
+          "name": "content=empty",
+          "width": 910,
+          "height": 48
+        },
+        {
+          "id": "4056:17773",
+          "name": "content=tabs",
+          "width": 910,
+          "height": 48
+        },
+        {
+          "id": "4056:17868",
+          "name": "content=tabs-overflow",
+          "width": 480,
+          "height": 48
+        }
+      ],
+      "generatedInput": {
+        "content": [
+          "empty",
+          "tabs",
+          "tabs-overflow"
+        ],
+        "label": "string",
+        "pause": {
+          "type": "boolean",
+          "generatedDefault": false
+        }
+      },
+      "geometry": {
+        "height": 48,
+        "paddingInline": 16,
+        "border": {
+          "left": 1,
+          "bottom": 1
+        },
+        "sampleWidths": [
+          910,
+          480
+        ],
+        "tabsGap": 8,
+        "actionsGap": 4,
+        "actionTarget": 24,
+        "glyph": 16,
+        "radius": 4,
+        "overflowGroupGap": 24,
+        "overflowTabs": {
+          "fill": true,
+          "minWidth": 0,
+          "justify": "end",
+          "clip": true
+        },
+        "fade": {
+          "sourceDisplay": {
+            "width": 53,
+            "height": 48
+          },
+          "rotateDegrees": 90,
+          "wrapper": {
+            "width": 48,
+            "height": 53,
+            "left": -1,
+            "top": -3
+          }
+        }
+      },
+      "typography": {
+        "emptyTitle": {
+          "family": "Pretendard",
+          "style": "Regular",
+          "weight": 400,
+          "size": 16,
+          "lineHeight": 24
+        }
+      },
+      "generatedCssEffects": {
+        "backdropBlurPx": 5.75,
+        "nativeEffectRadiusCaptured": false
+      },
+      "generatedTokenReferences": {
+        "color/surface/default": "#FFFFFF",
+        "color/border/default": "#DDDDDD",
+        "color/button/opacity-active": "rgba(0,0,0,0.1)",
+        "color/button/opacity-pressed": "rgba(0,0,0,0.1)",
+        "radius/control-sm": 4
+      },
+      "description": "파일 패널 상단 헤더. 탭이 없으면 content=empty, 파일을 열면 content=tabs, 탭이 패널 너비를 넘으면 content=tabs-overflow. 쓰지 않는 tab-n은 인스턴스에서 숨김.",
+      "limits": [
+        "Five sample tabs is not maxCount or required API",
+        "910/480 widths are samples; overflow should be measured",
+        "pause boolean is visibility, not completed/stopped-state proof",
+        "Distinct from OutputViewer34px header",
+        "No native property IDs or complete visibility binding capture"
+      ],
+      "assetBindings": [
+        {
+          "generatedConstant": "imgIcon",
+          "sourceAsset": "69378c611830169616b9ffd14c21cdaad1180956.svg",
+          "path": "assets/refresh-20261105/69378c611830169616b9ffd14c21cdaad1180956.svg",
+          "sha256": "9f4a3cc1ff2b47f7220b9f3d9d719dc741b86ec228654d6596c78dd7f62febe5",
+          "bytes": 392
+        },
+        {
+          "generatedConstant": "imgContentFade",
+          "sourceAsset": "fef1d15863468ea650dd6d6b8e781a486a7fdc25.png",
+          "path": "assets/refresh-20261105/fef1d15863468ea650dd6d6b8e781a486a7fdc25.png",
+          "sha256": "1a09816ff4c57ec09bb346cb94f01a366c06e265cca72a421a72101854a63141",
+          "bytes": 1037
+        },
+        {
+          "generatedConstant": "imgIconPlus24",
+          "sourceAsset": "48a30aff7c47a4383ecacc6233dec07caa2f7c24.svg",
+          "path": "assets/refresh-20261105/48a30aff7c47a4383ecacc6233dec07caa2f7c24.svg",
+          "sha256": "fafbe39a6371ca17ac768cf5e9af7f659f154b7738202e1c2f481ff787ff63d7",
+          "bytes": 784
+        },
+        {
+          "generatedConstant": "imgIcon1",
+          "sourceAsset": "79a99dde6cb2d9b65bc13b2174adb95b23a797c5.svg",
+          "path": "assets/refresh-20261105/79a99dde6cb2d9b65bc13b2174adb95b23a797c5.svg",
+          "sha256": "2f8ac438df1df8d28ac4193550ef4cd478f0479d4d176b713113d37a5766f30f",
+          "bytes": 848
+        },
+        {
+          "generatedConstant": "imgIcon2",
+          "sourceAsset": "3be16bb4ec60c7993d67578d38bf907c05139b23.svg",
+          "path": "assets/refresh-20261105/3be16bb4ec60c7993d67578d38bf907c05139b23.svg",
+          "sha256": "f6552fc1abfa64987a9eb9c489d2ef3bdb6c7d3744ce8e829353a365608877ce",
+          "bytes": 1112
+        },
+        {
+          "generatedConstant": "imgIcon3",
+          "sourceAsset": "3d403f8be706a570f70def6f8f40792a7293c8d7.svg",
+          "path": "assets/refresh-20261105/3d403f8be706a570f70def6f8f40792a7293c8d7.svg",
+          "sha256": "b4d5765bb92a2e8698e2b4d9d9cda1122e5cb52869c3f88cdbdac1e067044890",
+          "bytes": 626
+        },
+        {
+          "generatedConstant": "imgIcon",
+          "sourceAsset": "69378c611830169616b9ffd14c21cdaad1180956.svg",
+          "path": "assets/refresh-20261105/69378c611830169616b9ffd14c21cdaad1180956.svg",
+          "sha256": "9f4a3cc1ff2b47f7220b9f3d9d719dc741b86ec228654d6596c78dd7f62febe5",
+          "bytes": 392
+        },
+        {
+          "generatedConstant": "imgIcon4",
+          "sourceAsset": "fbca48065be5f50b343fe7c8c2a55fd4481698c2.svg",
+          "path": "assets/refresh-20261105/fbca48065be5f50b343fe7c8c2a55fd4481698c2.svg",
+          "sha256": "6d61f6c8808fab14f00df5654ce60edfb472809c6be7c0436a29644a393bee1d",
+          "bytes": 295
+        }
+      ]
+    },
+    {
+      "id": "AgentHubFileTreeEntry",
+      "nodeId": "3713:24469",
+      "sourceName": "file-tree-entry-guide",
+      "kind": "component-set",
+      "componentSetBoardBounds": {
+        "width": 1080,
+        "height": 296
+      },
+      "observedVariantCount": 24,
+      "variants": [
+        {
+          "id": "3713:24199",
+          "name": "Level=1, State=default",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24209",
+          "name": "Level=1, State=hover",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3711:54089",
+          "name": "Level=1, State=pressed",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24219",
+          "name": "Level=1, State=selected",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24229",
+          "name": "Level=2, State=default",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24241",
+          "name": "Level=2, State=hover",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3711:54096",
+          "name": "Level=2, State=pressed",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24253",
+          "name": "Level=2, State=selected",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24265",
+          "name": "Level=3, State=default",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24279",
+          "name": "Level=3, State=hover",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3711:54106",
+          "name": "Level=3, State=pressed",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24293",
+          "name": "Level=3, State=selected",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24307",
+          "name": "Level=4, State=default",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24323",
+          "name": "Level=4, State=hover",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3711:54118",
+          "name": "Level=4, State=pressed",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24339",
+          "name": "Level=4, State=selected",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24355",
+          "name": "Level=5, State=default",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24373",
+          "name": "Level=5, State=hover",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3711:54132",
+          "name": "Level=5, State=pressed",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24391",
+          "name": "Level=5, State=selected",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24409",
+          "name": "Level=6, State=default",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24429",
+          "name": "Level=6, State=hover",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3711:54148",
+          "name": "Level=6, State=pressed",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "id": "3713:24449",
+          "name": "Level=6, State=selected",
+          "width": 240,
+          "height": 28
+        }
+      ],
+      "generatedInput": {
+        "label": "string",
+        "level": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "state": [
+          "default",
+          "hover",
+          "pressed",
+          "selected"
+        ],
+        "showChevron": "boolean",
+        "chevronIcon": "generated ReactNode override",
+        "contentIcon": "generated ReactNode override"
+      },
+      "geometry": {
+        "height": 28,
+        "comparisonWidth": 240,
+        "paddingInline": 4,
+        "background": {
+          "height": 24,
+          "topBottomSpace": 2,
+          "left": 0,
+          "right": 0,
+          "radius": 4
+        },
+        "ancestorGuides": {
+          "count": "level-1",
+          "slotWidth": 20,
+          "lineLeft": 12,
+          "lineWidth": 1,
+          "fullHeight": true
+        },
+        "chevron": {
+          "target": 24,
+          "glyph": 16,
+          "opacity": 0.8,
+          "slot": 24,
+          "slotRetainedWhenGlyphHidden": true,
+          "showChevronControls": "inner16px glyph visibility only; the24px layout slot remains",
+          "emptyLeafSlotInteractive": false,
+          "evidence": {
+            "standaloneDefaultSlotNodeId": "3713:24202",
+            "nestedLeafRowNodeId": "3746:62879",
+            "nestedEmptySlotNodeId": "I3746:62879;3713:24272",
+            "capture": "hub-figma-file-tree-20261105.txt",
+            "generatedReference": "<div className=\"content-stretch flex items-center justify-center opacity-80 relative shrink-0 size-[24px]\" data-node-id=\"I3746:62879;3713:24272\" data-name=\"chevron\" />"
+          }
+        },
+        "content": {
+          "paddingLeft": 4,
+          "gap": 8,
+          "glyph": 16,
+          "fill": true
+        },
+        "requiredParentRowGap": 0
+      },
+      "typography": {
+        "family": "Pretendard",
+        "style": "Regular",
+        "weight": 400,
+        "size": 14,
+        "lineHeight": 20,
+        "noWrap": true,
+        "overflow": "ellipsis"
+      },
+      "generatedTokenReferences": {
+        "color/border/default-subtle": "#EEEEEE",
+        "color/text/default": "#1C1C1C",
+        "color/action/default-selected": "#EBF3FF"
+      },
+      "stateFills": {
+        "default": "transparent",
+        "hover": "rgba(0,0,0,0.05)",
+        "pressed": "rgba(0,0,0,0.1)",
+        "selected": "#EBF3FF"
+      },
+      "description": "파일 트리 행. Level = 트리 깊이(1~6), 깊이-1개의 guide-slot이 조상 폴더 chevron 중심(slot 왼쪽12px)에1px guide-line을 그림. 행 높이28 (=24 row-bg + 위아래2px), 부모 gap0으로 쌓아야 선 이어짐.",
+      "limits": [
+        "All24 Level1..6 x4 states observed",
+        "Chevron sample orientation does not imply hover expands node",
+        "No checkbox, trailing-menu or disabled variant observed",
+        "Generated slot-like props do not prove native INSTANCE_SWAP/SLOT ID/binding"
+      ],
+      "assetBindings": [
+        {
+          "generatedConstant": "imgIconChevronDown16",
+          "sourceAsset": "49bba82016793dae9673fd7cf3e54a95fe825943.svg",
+          "path": "assets/flyout/chevron-down-16.svg",
+          "sha256": "f942bc343ce32a24e9ab0ac4fe13bfcb81f3df0116d7773157170ed0af3c6284",
+          "bytes": 311
+        },
+        {
+          "generatedConstant": "imgIcon",
+          "sourceAsset": "0c80b658c803b9bb3d57bc84278a779b22e15056.svg",
+          "path": "assets/refresh-20261105/0c80b658c803b9bb3d57bc84278a779b22e15056.svg",
+          "sha256": "485517defbfe31e6be13bc1d59b1e37fbe54bc14c044ec5dbb24b266eb003c66",
+          "bytes": 295
+        },
+        {
+          "generatedConstant": "imgIcon1",
+          "sourceAsset": "0786e95cebc20c5965b88e8db49b0c1da7dfefd0.svg",
+          "path": "assets/refresh-20261105/0786e95cebc20c5965b88e8db49b0c1da7dfefd0.svg",
+          "sha256": "997708319b16271295049b629fd99993a6694e57c7c3b5da5dfa99521b0bfa3b",
+          "bytes": 875
+        }
+      ]
+    },
+    {
+      "id": "AgentHubFileTree",
+      "nodeId": "3746:99265",
+      "sourceName": "file-tree",
+      "kind": "component",
+      "componentSampleBounds": {
+        "width": 400,
+        "height": 991
+      },
+      "observedVariantCount": 0,
+      "variants": [],
+      "generatedInput": {
+        "className": "generated styling hook only"
+      },
+      "geometry": {
+        "sampleWidth": 400,
+        "sampleHeight": 991,
+        "padding": 8,
+        "gapBetweenSearchAndRows": 8,
+        "border": {
+          "left": 1,
+          "bottom": 1
+        },
+        "clip": true,
+        "search": {
+          "height": 32,
+          "radius": 6,
+          "paddingInline": 8,
+          "border": 1,
+          "glyph": 16
+        },
+        "rows": {
+          "sampleCount": 31,
+          "height": 28,
+          "gap": 0
+        }
+      },
+      "typography": {
+        "search": {
+          "family": "Pretendard",
+          "style": "Regular",
+          "weight": 400,
+          "size": 14,
+          "lineHeight": 20
+        }
+      },
+      "generatedTokenReferences": {
+        "color/surface/blue-gray": "#F6F7F9",
+        "color/border/default": "#DDDDDD",
+        "color/form/default/surface/active": "#FFFFFF",
+        "color/form/default/placeholder/active": "#8F8F8F",
+        "radius/control-md": 6
+      },
+      "sourceHints": {
+        "searchComponentSourceId": "2304:19748",
+        "searchInstanceLayerId": "3746:62874",
+        "searchGlyphLayerId": "3018:24956"
+      },
+      "limits": [
+        "Single populated component, not empty/loading/error matrix",
+        "31rows and400x991 sample are not public API limits",
+        "Static clipping does not prove functional viewport",
+        "Product owns query/nodes/expanded/selection/fetching"
+      ],
+      "assetBindings": [
+        {
+          "generatedConstant": "imgIconSearch16",
+          "sourceAsset": "a6967415ae808062381038b2bca5f3e6a9f73049.svg",
+          "path": "assets/refresh-20261105/a6967415ae808062381038b2bca5f3e6a9f73049.svg",
+          "sha256": "3562575a5f4185e404d964aedbf13a151b5d1c15bef130a79c53dd4492febd9d",
+          "bytes": 587
+        },
+        {
+          "generatedConstant": "imgIcon",
+          "sourceAsset": "0c80b658c803b9bb3d57bc84278a779b22e15056.svg",
+          "path": "assets/refresh-20261105/0c80b658c803b9bb3d57bc84278a779b22e15056.svg",
+          "sha256": "485517defbfe31e6be13bc1d59b1e37fbe54bc14c044ec5dbb24b266eb003c66",
+          "bytes": 295
+        },
+        {
+          "generatedConstant": "imgIcon1",
+          "sourceAsset": "0786e95cebc20c5965b88e8db49b0c1da7dfefd0.svg",
+          "path": "assets/refresh-20261105/0786e95cebc20c5965b88e8db49b0c1da7dfefd0.svg",
+          "sha256": "997708319b16271295049b629fd99993a6694e57c7c3b5da5dfa99521b0bfa3b",
+          "bytes": 875
+        },
+        {
+          "generatedConstant": "imgIcon2",
+          "sourceAsset": "5899e49553e51e524d7f36c9710d821c15e84c9a.svg",
+          "path": "assets/refresh-20261105/5899e49553e51e524d7f36c9710d821c15e84c9a.svg",
+          "sha256": "648955594ed8cdf0c8b6e63726eaf2f1b923fb85211b6cd76065d101fece4dd1",
+          "bytes": 1034
+        },
+        {
+          "generatedConstant": "imgIcon3",
+          "sourceAsset": "bc1f9611268f4e6215fb8dfdc56d6b7735ac6a92.svg",
+          "path": "assets/refresh-20261105/bc1f9611268f4e6215fb8dfdc56d6b7735ac6a92.svg",
+          "sha256": "9ee6d65a1319389c67abddf59217a9a0a2bdb4624fdbc2d60b7e143218382b86",
+          "bytes": 957
+        }
+      ]
+    },
+    {
+      "id": "AgentHubFileViewer",
+      "nodeId": "3746:96091",
+      "sourceName": "file-viewer",
+      "kind": "component",
+      "componentSampleBounds": {
+        "width": 407,
+        "height": 1022
+      },
+      "observedVariantCount": 0,
+      "variants": [],
+      "generatedInput": {
+        "className": "generated styling hook only"
+      },
+      "geometry": {
+        "sampleWidth": 407,
+        "sampleHeight": 1022,
+        "path": {
+          "height": 42,
+          "padding": 8,
+          "border": {
+            "left": 1,
+            "bottom": 1
+          }
+        },
+        "codeBlock": {
+          "sampleHeight": 980,
+          "paddingTop": 10,
+          "paddingBottom": 8,
+          "borderLeft": 1
+        },
+        "codeRows": {
+          "sampleCount": 50,
+          "lineHeight": 20,
+          "gutterWidth": 68,
+          "numberWidth": 26,
+          "indentStep": 16.8
+        },
+        "actions": {
+          "top": 8,
+          "right": 8,
+          "gap": 4,
+          "target": 24,
+          "glyph": 16,
+          "radius": 4,
+          "containerRadius": 8
+        },
+        "scrollbarStatic": {
+          "width": 11,
+          "height": 180,
+          "right": 0,
+          "top": 0,
+          "thumb": {
+            "width": 4,
+            "left": 3,
+            "radius": 8,
+            "topPercent": 1.67,
+            "bottomPercent": 9.44
+          }
+        },
+        "scrollCorner": {
+          "width": 16,
+          "height": 16,
+          "right": 4,
+          "bottom": 4,
+          "generatedVectorPresent": false
+        }
+      },
+      "typography": {
+        "path": {
+          "family": "Pretendard",
+          "style": "Regular",
+          "weight": 400,
+          "size": 14,
+          "lineHeight": 20
+        },
+        "codeAndNumber": {
+          "family": "JetBrains Mono",
+          "style": "Light",
+          "weight": 300,
+          "size": 12,
+          "lineHeight": 20,
+          "instanceOverrideOfStandalone13": true
+        }
+      },
+      "generatedTokenReferences": {
+        "color/surface/default": "#FFFFFF",
+        "color/border/default": "#DDDDDD",
+        "color/text/default-subtler": "#757575",
+        "color/code/line-number": "#555555",
+        "color/code/text": "#1C1C1C",
+        "color/scroll/default": "#DDDDDD",
+        "color/action/primary-inverse": "#FFFFFF"
+      },
+      "generatedCssEffects": {
+        "pathBackdropBlurPx": 5.75,
+        "actionsBackdropBlurPx": 10,
+        "nativeEffectRadiusCaptured": false
+      },
+      "staticSyntaxSpanColors": [
+        "#CF222E",
+        "#8250DF",
+        "#0550AE",
+        "#0A3069"
+      ],
+      "sourceHints": {
+        "pathLayerId": "3711:56637",
+        "codeBlockLayerId": "3711:56641",
+        "copyButtonLayerId": "3711:56694",
+        "maximizeButtonLayerId": "3711:56695",
+        "scrollbarLayerId": "3711:56692",
+        "scrollCornerLayerId": "3711:56696",
+        "roundedCornerNestedLayerId": "I3711:56696;10412:2209"
+      },
+      "limits": [
+        "No native code editor, parser, runtime renderer or backend proved",
+        "Syntax colors are static span output; semantic token IDs not captured",
+        "Path is plain slash-separated string, not clickable Breadcrumb",
+        "50x20 rows exceed980px code box pluspadding; runtime requires real viewport",
+        "Static180px track and thumb ratios are not runtime scroll metrics",
+        "RoundedCorner node is empty in generated context; no vector inferred",
+        "StandaloneCodeLine13px vs viewer12px retained"
+      ],
+      "assetBindings": [
+        {
+          "generatedConstant": "imgIcon",
+          "sourceAsset": "2bd023d6b71ab0b6290becfc1b43c31730ebd60b.svg",
+          "path": "assets/refresh-20261105/2bd023d6b71ab0b6290becfc1b43c31730ebd60b.svg",
+          "sha256": "eeaf221e309d681f360a90153982cd18e098f871589b2b62b124b326dce17fd2",
+          "bytes": 785
+        },
+        {
+          "generatedConstant": "imgIcon1",
+          "sourceAsset": "5c184c99a64d93af270a88f1628e4d062772c24f.svg",
+          "path": "assets/refresh-20261105/5c184c99a64d93af270a88f1628e4d062772c24f.svg",
+          "sha256": "715ed3e0c73b033bd9dcd79ee8f1f65128bd9673d2da568b1f485bff936490ef",
+          "bytes": 626
+        }
+      ]
+    }
+  ]
+}

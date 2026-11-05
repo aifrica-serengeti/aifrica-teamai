@@ -12,7 +12,11 @@
 - [상태·동작·단축키](./behavior.md)
 - [접근성](./accessibility.md)
 - [검증](./verification.md)
-- [44종 Figma 실측 기록](../../references/button.figma.json), [변수와 alias](../../references/variables.figma.json)
+- [과거 44종 Figma 실측 기록](../../references/button.figma.json), [2026-11-05 갱신 근거](../../references/existing-components-refresh.figma.json), [변수와 alias](../../references/variables.figma.json)
 
 출처는 Figma [button](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3025-25029)입니다.
 2026-10-20의 Light mode 44개 variant를 확인했습니다. 전체 앱 테마나 다크 모드의 확인을 뜻하지 않습니다.
+
+2026-11-05 보드와 전체 생성 context에서는 primary24·ghost32의 4상태씩이 추가된 **52개 variant**를 확인했습니다.
+과거44종 JSON은 보존하고 추가8종의 source·치수·생성 context를 별도 갱신 근거에 기록합니다.
+HTML 동작·currentColor 채택·200ms 색상 전환 계약은 유지하며 앱 구현 완료로 표시하지 않습니다.

@@ -1,0 +1,1237 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "capturedAt": "2026-11-05",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "boardNodeId": "3074:101330",
+    "methods": [
+      "보드 metadata",
+      "get_design_context 생성 context",
+      "get_variable_defs 해결값",
+      "FileCard·ActionBar48 스크린샷 대조"
+    ],
+    "limitations": [
+      "네이티브 컴포넌트 속성 API/variable ID/alias graph는 제공되지 않음",
+      "generated context의 layout 번역을 native 렌더링 수치와 구분함",
+      "Figma prototype timing·keyboard·ARIA·실제 제품 구현은 미검증"
+    ],
+    "assetPathBase": "docs/agent-hub/design",
+    "assetIdentifierNote": "sourceAsset은 원본 export 파일명이며 sha256과 다름. designRelativePath는 이 저장소 design root 기준 자료 경로이고 제품 구현 source 경로가 아님.",
+    "implementation": {
+      "status": "unmapped",
+      "source": null,
+      "export": null
+    },
+    "adoptionStatus": "draft"
+  },
+  "fileCard": {
+    "setNodeId": "3624:24877",
+    "generatedProperties": {
+      "type": [
+        "spreadsheet",
+        "document",
+        "pdf",
+        "presentation",
+        "image",
+        "code",
+        "zip"
+      ],
+      "state": [
+        "enabled",
+        "hovered",
+        "selected"
+      ],
+      "title": "Cheetah_Agent Hub_IA.xlsx",
+      "meta": "1일 전",
+      "showMeta": true
+    },
+    "descriptionDiscrepancies": [
+      "설명에는5유형만 열거되어 있으나 code/zip를 포함한21개 관찰 variant는7유형",
+      "설명의 default와 달리 실제 생성 state는 enabled"
+    ],
+    "variants": [
+      {
+        "nodeId": "3624:24508",
+        "type": "spreadsheet",
+        "state": "enabled",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24509",
+        "type": "spreadsheet",
+        "state": "hovered",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24538",
+        "type": "spreadsheet",
+        "state": "selected",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24604",
+        "type": "document",
+        "state": "enabled",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24605",
+        "type": "document",
+        "state": "hovered",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24636",
+        "type": "document",
+        "state": "selected",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24696",
+        "type": "pdf",
+        "state": "enabled",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24697",
+        "type": "pdf",
+        "state": "hovered",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24720",
+        "type": "pdf",
+        "state": "selected",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24776",
+        "type": "presentation",
+        "state": "enabled",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24777",
+        "type": "presentation",
+        "state": "hovered",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24804",
+        "type": "presentation",
+        "state": "selected",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3626:25280",
+        "type": "code",
+        "state": "enabled",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3626:25296",
+        "type": "code",
+        "state": "hovered",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3626:25312",
+        "type": "code",
+        "state": "selected",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3626:25426",
+        "type": "zip",
+        "state": "enabled",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3626:25442",
+        "type": "zip",
+        "state": "hovered",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3626:25458",
+        "type": "zip",
+        "state": "selected",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24857",
+        "type": "image",
+        "state": "enabled",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24858",
+        "type": "image",
+        "state": "hovered",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "nodeId": "3624:24869",
+        "type": "image",
+        "state": "selected",
+        "width": 256,
+        "height": 256
+      }
+    ],
+    "geometry": {
+      "root": {
+        "width": 256,
+        "height": 256,
+        "clipsExternalSelectionRing": false
+      },
+      "surface": {
+        "inset": 0,
+        "borderWidth": 1,
+        "borderColor": "#DDDDDD",
+        "radius": 24,
+        "padding": 16,
+        "gap": 16,
+        "background": "#FFFFFF",
+        "overflow": "clip",
+        "shadow": "none"
+      },
+      "header": {
+        "gap": 12,
+        "tile": {
+          "width": 32,
+          "height": 32,
+          "borderWidth": 1,
+          "borderColor": "#DDDDDD",
+          "radius": 6,
+          "background": "#FFFFFF"
+        },
+        "glyph": {
+          "width": 20,
+          "height": 20
+        },
+        "detailsGap": 4,
+        "alignItems": "center",
+        "detailsJustifyContent": "center"
+      },
+      "title": {
+        "fontFamily": "Pretendard",
+        "fontWeight": 600,
+        "fontSize": 16,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "color": "#1C1C1C",
+        "maxLines": 1,
+        "overflow": "ENDING"
+      },
+      "meta": {
+        "fontFamily": "Pretendard",
+        "fontWeight": 400,
+        "fontSize": 12,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "color": "#757575",
+        "maxLines": 1
+      },
+      "preview": {
+        "fillRemainingHeight": true,
+        "radius": 12,
+        "background": "#F8F8F8",
+        "glyphWidth": 56,
+        "glyphHeight": 56,
+        "overflow": "clip",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "more": {
+        "width": 32,
+        "height": 32,
+        "top": 16,
+        "right": 16,
+        "radius": 6,
+        "background": "#000000CC",
+        "glyphWidth": 20,
+        "glyphHeight": 20
+      },
+      "checkbox": {
+        "width": 20,
+        "height": 20,
+        "bottom": 16,
+        "right": 16,
+        "unchecked": {
+          "background": "#FFFFFF",
+          "borderColor": "#1C1C1C",
+          "borderWidth": 1,
+          "radius": 5
+        }
+      },
+      "selectionRing": {
+        "placement": "surface 외부 root 형제 레이어",
+        "inset": -3,
+        "borderWidth": 2,
+        "borderColor": "#3B82F6",
+        "radius": 26
+      },
+      "image": {
+        "fillEntireSurface": true,
+        "hasHeader": false,
+        "hasMeta": false,
+        "hasPreviewGlyph": false,
+        "position": "absolute",
+        "inset": 0,
+        "width": "100%",
+        "height": "100%",
+        "objectFit": "cover",
+        "nativeObjectPositionCollected": false
+      }
+    },
+    "states": {
+      "enabled": {
+        "hoverDim": false,
+        "more": false,
+        "checkbox": false,
+        "selectionRing": false
+      },
+      "hovered": {
+        "hoverDim": {
+          "color": "#000000",
+          "opacity": 0.05,
+          "clipOwner": "card"
+        },
+        "more": true,
+        "checkbox": "unchecked",
+        "selectionRing": false
+      },
+      "selected": {
+        "hoverDim": false,
+        "more": false,
+        "checkbox": "checked",
+        "selectionRing": true
+      }
+    },
+    "generatedTranslationCautions": [
+      "header tile 생성 padding8.889만으로32px 타일/20px glyph를 재현하지 않음",
+      "hover dim 생성 inset-13은 카드 내부에서 clip",
+      "내부 폭222/224px는 이번 metadata로 확정하지 않음"
+    ],
+    "resolvedVariables": {
+      "var(--icon-stroke-20)": "1.25",
+      "color/element/default": "#ffffff",
+      "color/border/default": "#dddddd",
+      "color/text/default": "#1c1c1c",
+      "Title/Title1": "Font(family: \"Pretendard\", style: SemiBold, size: 16, weight: 600, lineHeight: 24, letterSpacing: 0)",
+      "color/text/default-subtler": "#757575",
+      "Body/Body3": "Font(family: \"Pretendard\", style: Regular, size: 12, weight: 400, lineHeight: 16, letterSpacing: 0)",
+      "gray/100": "#f4f4f4",
+      "color/surface/default-subtle": "#f8f8f8",
+      "color/surface/default": "#ffffff",
+      "color/action/opacity-hovered": "#0000000d",
+      "var(--icon-stroke-24)": "1.25",
+      "color/icon/default-static": "#ffffff",
+      "radius/control-md": "6",
+      "alpha/800": "#000000cc",
+      "color/border/bolder": "#1c1c1c",
+      "color/element/primary": "#3b82f6",
+      "color/element/on-primary": "#ffffff",
+      "color/border/primary": "#3b82f6"
+    },
+    "assetSlots": [
+      {
+        "slot": "spreadsheet.header",
+        "sourceAsset": "85c1518c351417bf78ead1bd025f870c5b88cc4a.svg",
+        "designRelativePath": "assets/refresh-20261105/85c1518c351417bf78ead1bd025f870c5b88cc4a.svg",
+        "sha256": "fcab5cc7ed18f49fa76d6f9db03be092954beeb910ce37c7397ee3bcc633a980",
+        "bytes": 868,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "spreadsheet.preview",
+        "sourceAsset": "c0c83bbd2e5e0a288cdf9be4aae09a4ac5765b74.svg",
+        "designRelativePath": "assets/refresh-20261105/c0c83bbd2e5e0a288cdf9be4aae09a4ac5765b74.svg",
+        "sha256": "89f314c49abe687ea883c8ca096dde9a2c1bb514090dec82660b3aa4263fefbe",
+        "bytes": 831,
+        "displaySizePx": [
+          56,
+          56
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "document.header",
+        "sourceAsset": "c4f1e02ed1b12f79fe3b4684f4d20b6f005d74c7.svg",
+        "designRelativePath": "assets/refresh-20261105/c4f1e02ed1b12f79fe3b4684f4d20b6f005d74c7.svg",
+        "sha256": "17e1dee000311436eefb1d828842afcb229cc15f593e4e12ad002e62ce40a433",
+        "bytes": 1469,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "document.preview",
+        "sourceAsset": "d01015218c86c16fb9efea1321497045606e38a3.svg",
+        "designRelativePath": "assets/refresh-20261105/d01015218c86c16fb9efea1321497045606e38a3.svg",
+        "sha256": "689ff0c533d195d617cce51a2177cd83945a5aa791439949815a9afb461771d8",
+        "bytes": 1474,
+        "displaySizePx": [
+          56,
+          56
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "pdf.header",
+        "sourceAsset": "41e903a631517f49c376a70acd932f2ef321d599.svg",
+        "designRelativePath": "assets/refresh-20261105/41e903a631517f49c376a70acd932f2ef321d599.svg",
+        "sha256": "8bcd21e3ead07d0e1f5cdcb85888f11517f387e7c3e7a956e21de007b68e2647",
+        "bytes": 1706,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "pdf.preview",
+        "sourceAsset": "f498313df0a506a3781cb6f3a62ce813f145fef4.svg",
+        "designRelativePath": "assets/refresh-20261105/f498313df0a506a3781cb6f3a62ce813f145fef4.svg",
+        "sha256": "bd4a57746490055828d1dcd4f1c55a18cedc7d058111d095d84e8662a537b343",
+        "bytes": 1723,
+        "displaySizePx": [
+          56,
+          56
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "presentation.header",
+        "sourceAsset": "ed7be4a16ffd7f1e607d0abed5e3eaa8e8c19aab.svg",
+        "designRelativePath": "assets/refresh-20261105/ed7be4a16ffd7f1e607d0abed5e3eaa8e8c19aab.svg",
+        "sha256": "2c6bf6f32c47fd64ddb8ed8dbb0e60f6000f1f1341edf3c3d5edef427d126e87",
+        "bytes": 800,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "presentation.preview",
+        "sourceAsset": "aee2bffda4d0fd56c63b9e5bc2820b4906d8a8b9.svg",
+        "designRelativePath": "assets/refresh-20261105/aee2bffda4d0fd56c63b9e5bc2820b4906d8a8b9.svg",
+        "sha256": "7910c30a80eb5615b366996fca1e2b165a70c3565419df4c05e86b2abb9ac516",
+        "bytes": 787,
+        "displaySizePx": [
+          56,
+          56
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "code.header",
+        "sourceAsset": "bfedebed6e99a09bd1ee25d2c552d5dac1959d71.svg",
+        "designRelativePath": "assets/refresh-20261105/bfedebed6e99a09bd1ee25d2c552d5dac1959d71.svg",
+        "sha256": "edaa743f0210c3c98424f144b13fc252e9afc065938bc97d0e4b40cf0722c03d",
+        "bytes": 641,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "code.preview",
+        "sourceAsset": "371ddc5b5f7d8512f1f728e09560541d01012d60.svg",
+        "designRelativePath": "assets/refresh-20261105/371ddc5b5f7d8512f1f728e09560541d01012d60.svg",
+        "sha256": "aa21b7f6f5f86bb4cec49da8331ffe160f0826174aa19074062ced5ec3c066fd",
+        "bytes": 636,
+        "displaySizePx": [
+          56,
+          56
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "zip.header",
+        "sourceAsset": "6f51f71adc04671b28b8e9eaceb4683ba5dc9ace.svg",
+        "designRelativePath": "assets/refresh-20261105/6f51f71adc04671b28b8e9eaceb4683ba5dc9ace.svg",
+        "sha256": "56563931842c7b011d6fb3d7eb6fff00dea37a8261c23694ce6ee0b860245c3d",
+        "bytes": 1478,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "zip.preview",
+        "sourceAsset": "8bc5676dd8faabf38a9ab8a18e801920bee9c248.svg",
+        "designRelativePath": "assets/refresh-20261105/8bc5676dd8faabf38a9ab8a18e801920bee9c248.svg",
+        "sha256": "48ac74efafeb89b00e26b0e0b580f5581cb8888271e28c763346604b39936993",
+        "bytes": 1465,
+        "displaySizePx": [
+          56,
+          56
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "hovered.more",
+        "sourceAsset": "9226eff7ceb8c4f167ce4b0f7ed5daaa63e14420.svg",
+        "designRelativePath": "assets/refresh-20261105/9226eff7ceb8c4f167ce4b0f7ed5daaa63e14420.svg",
+        "sha256": "f852bf33737dff3efde3551592b01a6353a3c495f91217b1d4ea158a30d7c623",
+        "bytes": 1162,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "selected.checkbox",
+        "sourceAsset": "38dbaf180284bd5edd5a42f5638f1ff93ef59f13.svg",
+        "designRelativePath": "assets/refresh-20261105/38dbaf180284bd5edd5a42f5638f1ff93ef59f13.svg",
+        "sha256": "d71e8da5ec6da24891d5422ec7f1dc46ab2f6973546206f1dbad3629891abcff",
+        "bytes": 524,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "image.referenceFixture",
+        "sourceAsset": "d30d94b9f064ef18b1f7cc5d51819557cf553360.png",
+        "designRelativePath": "assets/refresh-20261105/d30d94b9f064ef18b1f7cc5d51819557cf553360.png",
+        "sha256": "1de1b4ffc4e2a03d0068d5887c48679c4ae58d1b75814c30b849f366bd195fe5",
+        "bytes": 2355978,
+        "displaySizePx": [
+          256,
+          256
+        ],
+        "originalRootTag": null
+      }
+    ],
+    "unobserved": [
+      "disabled",
+      "focus",
+      "pressed",
+      "selected+hover",
+      "dark",
+      "loading/error",
+      "가변 부모 폭",
+      "실제 파일 API/메뉴"
+    ],
+    "imageAndAlignmentEvidence": {
+      "capture": "hub-figma-file-card-20261105.txt",
+      "headerContentNodeId": "3624:24481",
+      "headerContentClass": "flex gap-[12px] items-center",
+      "detailsNodeId": "3624:24484",
+      "detailsClass": "flex flex-col gap-[4px] items-start justify-center",
+      "previewNodeId": "3624:24488",
+      "previewClass": "flex items-center justify-center",
+      "imageClass": "absolute inset-0 object-cover pointer-events-none rounded-[24px] size-full",
+      "scope": "FileCard generated context; independent Thumbnail has no actual image paint or observed object-fit. Native object-position/focal point was not collected."
+    }
+  },
+  "thumbnail": {
+    "setNodeId": "3475:22919",
+    "generatedProperties": {
+      "ratio": [
+        "4:3",
+        "1:1",
+        "16:9"
+      ]
+    },
+    "variants": [
+      {
+        "nodeId": "3475:22916",
+        "ratio": "4:3",
+        "width": 322,
+        "height": 241.5,
+        "imageNodeId": "3475:22941"
+      },
+      {
+        "nodeId": "3475:22917",
+        "ratio": "1:1",
+        "width": 322,
+        "height": 322,
+        "imageNodeId": "3475:22942"
+      },
+      {
+        "nodeId": "3475:22918",
+        "ratio": "16:9",
+        "width": 322,
+        "height": 181.125,
+        "imageNodeId": "3475:22943"
+      }
+    ],
+    "geometry": {
+      "layout": "column",
+      "horizontalAlign": "MIN",
+      "padding": 0,
+      "gap": 0,
+      "overflow": "clip",
+      "imageWidth": "FILL",
+      "background": "#F4F4F4",
+      "border": "none observed",
+      "radius": "none observed",
+      "shadow": "none observed"
+    },
+    "imageAssetObserved": false,
+    "descriptionIntent": "image Fill을 실제 이미지로 교체. CSS object-fit:fill을 확정하는 뜻은 아님.",
+    "resolvedVariables": {
+      "color/surface/default-subtler": "#f4f4f4"
+    },
+    "unobserved": [
+      "실제 사진 paint",
+      "object-fit/crop/position",
+      "loading/error",
+      "hover/selected/disabled/focus",
+      "dark",
+      "제품 구현"
+    ]
+  },
+  "actionBar": {
+    "setNodeId": "3610:24772",
+    "generatedProperties": {
+      "size": [
+        "48",
+        "40"
+      ],
+      "count": "2개 선택됨",
+      "showCount": true,
+      "action1": true,
+      "action2": true,
+      "action3": true,
+      "action4": false,
+      "action5": false,
+      "actionDanger": true,
+      "divider": true,
+      "more": false,
+      "close": true
+    },
+    "variants": [
+      {
+        "nodeId": "3610:24484",
+        "size": 48,
+        "width": 656,
+        "height": 48,
+        "paddingLeft": 20,
+        "paddingRight": 12,
+        "countActionsGap": 24,
+        "actionSize": 32,
+        "iconActionSize": 32
+      },
+      {
+        "nodeId": "3610:24500",
+        "size": 40,
+        "width": 538,
+        "height": 40,
+        "paddingLeft": 16,
+        "paddingRight": 8,
+        "countActionsGap": 16,
+        "actionSize": 28,
+        "iconActionSize": 32
+      }
+    ],
+    "geometry": {
+      "background": "#1C1C1C",
+      "radius": 8,
+      "border": "none observed",
+      "actionsGap": 8,
+      "mainGap": 4,
+      "primaryActionsGap": 4,
+      "count": {
+        "fontFamily": "Pretendard",
+        "fontWeight": 600,
+        "fontSize": 14,
+        "lineHeight": 20,
+        "letterSpacing": 0,
+        "color": "#FFFFFF",
+        "sourceVariable": "color/text/defult-inverse"
+      },
+      "divider": {
+        "height": 16,
+        "horizontalPadding": 8,
+        "lineWidth": 1,
+        "color": "#555555"
+      },
+      "shadow": [
+        {
+          "type": "DROP_SHADOW",
+          "color": "#091E424F",
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "radius": 1,
+          "spread": 0
+        },
+        {
+          "type": "DROP_SHADOW",
+          "color": "#091E4226",
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "radius": 6,
+          "spread": 0
+        }
+      ]
+    },
+    "descriptionOnlyIntent": {
+      "width": [
+        "hug",
+        "fill960"
+      ],
+      "fillCloseAlignment": "right",
+      "more": "폭이 부족할 때 overflow 명령",
+      "close": "선택 해제"
+    },
+    "descriptionDiscrepancies": [
+      "action/icon-action 설명은state5종이라 하나 실제 matrix는4상태",
+      "width/hug/fill960은설명에만 있고 별도 property/variant 미확인"
+    ],
+    "resolvedVariables": {
+      "color/text/defult-inverse": "#ffffff",
+      "Title/Title2": "Font(family: \"Pretendard\", style: SemiBold, size: 14, weight: 600, lineHeight: 20, letterSpacing: 0)",
+      "var(--icon-stroke-16)": "1.25",
+      "color/icon/default-static": "#ffffff",
+      "color/text/default-static": "#ffffff",
+      "radius/control-md": "6",
+      "color/text/disabled-bold": "#8f8f8f",
+      "color/border/default-inverse": "#555555",
+      "var(--icon-stroke-24)": "1.25",
+      "radius/surface-xs": "8",
+      "color/surface/default-inverse": "#1c1c1c",
+      "Mid": "Effect(type: DROP_SHADOW, color: #091E424F, offset: (0, 0), radius: 1, spread: 0); Effect(type: DROP_SHADOW, color: #091E4226, offset: (0, 4), radius: 6, spread: 0)"
+    },
+    "parts": {
+      "action": {
+        "setNodeId": "3621:24690",
+        "publicRegistryEntry": false,
+        "variants": [
+          {
+            "nodeId": "3621:24657",
+            "state": "enabled",
+            "size": 32,
+            "sampleWidth": 88,
+            "height": 32
+          },
+          {
+            "nodeId": "3621:24658",
+            "state": "hovered",
+            "size": 32,
+            "sampleWidth": 88,
+            "height": 32
+          },
+          {
+            "nodeId": "3621:24662",
+            "state": "pressed",
+            "size": 32,
+            "sampleWidth": 88,
+            "height": 32
+          },
+          {
+            "nodeId": "3621:24670",
+            "state": "disabled",
+            "size": 32,
+            "sampleWidth": 88,
+            "height": 32
+          },
+          {
+            "nodeId": "3621:24646",
+            "state": "enabled",
+            "size": 28,
+            "sampleWidth": 67,
+            "height": 28
+          },
+          {
+            "nodeId": "3621:24674",
+            "state": "hovered",
+            "size": 28,
+            "sampleWidth": 67,
+            "height": 28
+          },
+          {
+            "nodeId": "3621:24678",
+            "state": "pressed",
+            "size": 28,
+            "sampleWidth": 67,
+            "height": 28
+          },
+          {
+            "nodeId": "3621:24686",
+            "state": "disabled",
+            "size": 28,
+            "sampleWidth": 67,
+            "height": 28
+          }
+        ],
+        "sizes": {
+          "28": {
+            "height": 28,
+            "paddingX": 8,
+            "generatedPaddingY": 6,
+            "radius": 4,
+            "gap": 4,
+            "glyphSize": 16,
+            "glyphStroke": 1,
+            "fontFamily": "Pretendard",
+            "fontWeight": 600,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "glyphStrokeEvidence": "Exact SVG path omits stroke-width; SVG default is1. Resolved context variable1.25 is not an exported stroke measurement."
+          },
+          "32": {
+            "height": 32,
+            "paddingX": 16,
+            "generatedPaddingY": 4,
+            "radius": 6,
+            "gap": 4,
+            "glyphSize": 16,
+            "glyphStroke": 1,
+            "fontFamily": "Pretendard",
+            "fontWeight": 600,
+            "fontSize": 14,
+            "lineHeight": 20,
+            "glyphStrokeEvidence": "Exact SVG path omits stroke-width; SVG default is1. Resolved context variable1.25 is not an exported stroke measurement."
+          }
+        },
+        "states": {
+          "enabled": {
+            "background": "transparent",
+            "label": "#FFFFFF",
+            "glyph": "#FFFFFF"
+          },
+          "hovered": {
+            "background": "#333333",
+            "label": "#FFFFFF",
+            "glyph": "#FFFFFF"
+          },
+          "pressed": {
+            "background": "#333333",
+            "label": "#FFFFFF",
+            "glyph": "#FFFFFF"
+          },
+          "disabled": {
+            "background": "transparent",
+            "label": "#8F8F8F",
+            "glyph": "#AAAAAA"
+          }
+        },
+        "generatedTranslationCautions": [
+          "size32 native metadata의높이32와생성padding4+line20의합28이다름.관찰높이32와중앙정렬유지",
+          "샘플Label폭88/67은텍스트HUG이며고정버튼폭아님",
+          "Resolved context stroke variables show1.25, but the supplied16px SVG paths omit stroke-width and render at SVG default1. Keep exact exported geometry."
+        ],
+        "resolvedVariables": {
+          "var(--icon-stroke-16)": "1.25",
+          "color/icon/default-static": "#ffffff",
+          "color/text/default-static": "#ffffff",
+          "Title/Title2": "Font(family: \"Pretendard\", style: SemiBold, size: 14, weight: 600, lineHeight: 20, letterSpacing: 0)",
+          "radius/control-md": "6",
+          "var(--icon-stroke-20)": "1.25",
+          "Title/Title3": "Font(family: \"Pretendard\", style: SemiBold, size: 12, weight: 600, lineHeight: 16, letterSpacing: 0)",
+          "radius/control-sm": "4",
+          "color/action/default-inverse-hovered": "#333333",
+          "color/action/default-inverse-pressed": "#333333",
+          "color/icon/disabled": "#aaaaaa",
+          "color/text/disabled-bold": "#8f8f8f"
+        }
+      },
+      "iconAction": {
+        "setNodeId": "3621:24737",
+        "publicRegistryEntry": false,
+        "variants": [
+          {
+            "nodeId": "3621:24720",
+            "state": "enabled",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "nodeId": "3621:24721",
+            "state": "hovered",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "nodeId": "3621:24725",
+            "state": "pressed",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "nodeId": "3621:24733",
+            "state": "disabled",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "geometry": {
+          "width": 32,
+          "height": 32,
+          "radius": 6,
+          "glyphSize": 20,
+          "sourceStrokeVariable": "var(--icon-stroke-24)",
+          "resolvedGlyphStroke": 1.25
+        },
+        "states": {
+          "enabled": {
+            "background": "transparent",
+            "glyph": "#FFFFFF"
+          },
+          "hovered": {
+            "background": "#333333",
+            "glyph": "#FFFFFF"
+          },
+          "pressed": {
+            "background": "#333333",
+            "glyph": "#FFFFFF"
+          },
+          "disabled": {
+            "background": "transparent",
+            "glyph": "#AAAAAA"
+          }
+        },
+        "resolvedVariables": {
+          "var(--icon-stroke-24)": "1.25",
+          "color/icon/default-static": "#ffffff",
+          "radius/control-md": "6",
+          "color/action/default-inverse-hovered": "#333333",
+          "color/action/default-inverse-pressed": "#333333",
+          "color/icon/disabled": "#aaaaaa"
+        }
+      }
+    },
+    "assetSlots": [
+      {
+        "slot": "action.size32.enabledLeading",
+        "sourceAsset": "57235158f15ffb3a2085ef36fd3e8822214f5744.svg",
+        "designRelativePath": "assets/refresh-20261105/57235158f15ffb3a2085ef36fd3e8822214f5744.svg",
+        "sha256": "ac4434bc574a43a062d99d4ce20715a3c5afc3623d9ac0da516d7f861eca0a2a",
+        "bytes": 1138,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "action.size28.enabledLeading",
+        "sourceAsset": "9b02018ab222a1d74f6723365312ca1dab877a5f.svg",
+        "designRelativePath": "assets/refresh-20261105/9b02018ab222a1d74f6723365312ca1dab877a5f.svg",
+        "sha256": "8009a44f29a47a0e54b0f376054ae262f09cb8f9db5e442809ce39a0510d9eaa",
+        "bytes": 1138,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "action.size32.disabledLeading",
+        "sourceAsset": "ae49d040702801dec80e1dd1c948d2d23158e371.svg",
+        "designRelativePath": "assets/refresh-20261105/ae49d040702801dec80e1dd1c948d2d23158e371.svg",
+        "sha256": "26b4661d38edd21ec81ec8e90f8a0c9ce701fad38e813d03124bdec471446603",
+        "bytes": 1140,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "action.size28.disabledLeading",
+        "sourceAsset": "c211964d7d953b0fb37937482ce54564b6ad1b19.svg",
+        "designRelativePath": "assets/refresh-20261105/c211964d7d953b0fb37937482ce54564b6ad1b19.svg",
+        "sha256": "e9de8a537246769aed0c939076731a25b747bc90c478de5b98394503a7208c11",
+        "bytes": 1140,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "iconAction.enabled",
+        "sourceAsset": "06786279de90f212186b184c746994b625cbc1a2.svg",
+        "designRelativePath": "assets/refresh-20261105/06786279de90f212186b184c746994b625cbc1a2.svg",
+        "sha256": "b90d44a3cc4de6b4b5e2f43de895a73b1ff90a808ab9a60b58b1a64ad96604bc",
+        "bytes": 428,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "iconAction.disabled",
+        "sourceAsset": "b3903dd026d4123485aea511c57db17b968322a1.svg",
+        "designRelativePath": "assets/refresh-20261105/b3903dd026d4123485aea511c57db17b968322a1.svg",
+        "sha256": "7f9de8c08e2c1d8f1766190d9000291e53017c58a1d9065c3ce2fc08dd71bd86",
+        "bytes": 432,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+      },
+      {
+        "slot": "composedSample.size48.action1",
+        "sourceAsset": "c7c39865aeda6b994ca888f4f24bbc215a4c5748.svg",
+        "designRelativePath": "assets/refresh-20261105/c7c39865aeda6b994ca888f4f24bbc215a4c5748.svg",
+        "sha256": "a211fe94e5f4f7517f7a4c18e0a21b6e80fa243b50de0966cc71dd5d32d4cd64",
+        "bytes": 1138,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": false
+      },
+      {
+        "slot": "composedSample.size48.action2.disabled",
+        "sourceAsset": "e0eb25463426c08046bbb0b4fb63c2046b5ee0cd.svg",
+        "designRelativePath": "assets/refresh-20261105/e0eb25463426c08046bbb0b4fb63c2046b5ee0cd.svg",
+        "sha256": "cfad2b5a6f4643edce1de0faac95eeb22e86fc1dc8ce05ca83ac1d9d61462a62",
+        "bytes": 1457,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": false
+      },
+      {
+        "slot": "composedSample.size48.action3/4/5",
+        "sourceAsset": "494f02b79fc3cb529addd8bf11fa7e0c4fc6933f.svg",
+        "designRelativePath": "assets/refresh-20261105/494f02b79fc3cb529addd8bf11fa7e0c4fc6933f.svg",
+        "sha256": "6edab9bf64aa1b6176b0b7179c2f1c3701b95c3325e48415e474cc1d50a5cfa4",
+        "bytes": 527,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": false
+      },
+      {
+        "slot": "composedSample.size48.more",
+        "sourceAsset": "cb9f6dbd50fae166782b9ff6b772fe788a99b1eb.svg",
+        "designRelativePath": "assets/refresh-20261105/cb9f6dbd50fae166782b9ff6b772fe788a99b1eb.svg",
+        "sha256": "e2e816f0aad59e4355ece2e7f60d6ce68df49672d8918881767c238c9333c826",
+        "bytes": 1170,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": false
+      },
+      {
+        "slot": "composedSample.size48.actionDanger",
+        "sourceAsset": "4b97b626e8fcef42c41a253a4293f4a19f774fcd.svg",
+        "designRelativePath": "assets/refresh-20261105/4b97b626e8fcef42c41a253a4293f4a19f774fcd.svg",
+        "sha256": "f02b90ab684f6e9ad34a15bd7efe9e9c0992f76d96d4801bfd83a7ba26aeb46c",
+        "bytes": 1139,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": false
+      },
+      {
+        "slot": "composedSample.size48/40.close",
+        "sourceAsset": "06786279de90f212186b184c746994b625cbc1a2.svg",
+        "designRelativePath": "assets/refresh-20261105/06786279de90f212186b184c746994b625cbc1a2.svg",
+        "sha256": "b90d44a3cc4de6b4b5e2f43de895a73b1ff90a808ab9a60b58b1a64ad96604bc",
+        "bytes": 428,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": false
+      },
+      {
+        "slot": "composedSample.size40.action1",
+        "sourceAsset": "28983b24589c0f92b5f62b4bcafb629562f905eb.svg",
+        "designRelativePath": "assets/refresh-20261105/28983b24589c0f92b5f62b4bcafb629562f905eb.svg",
+        "sha256": "6aa74b37cf7639c7e11f1e259230d526deda9618ff4121ddc84fd065c4fdf6e1",
+        "bytes": 1138,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": false
+      },
+      {
+        "slot": "composedSample.size40.action2.disabled",
+        "sourceAsset": "1cf49ddc94fe99ba5ad8bc421bd4f7caeb2fc4f3.svg",
+        "designRelativePath": "assets/refresh-20261105/1cf49ddc94fe99ba5ad8bc421bd4f7caeb2fc4f3.svg",
+        "sha256": "e5805633fe52667051b8616f7e7cb4e465983ac01d0c6274329e73bbbe0ed1ce",
+        "bytes": 1457,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": false
+      },
+      {
+        "slot": "composedSample.size40.action3/4/5",
+        "sourceAsset": "29ce528edd88530a0230e2c0627efbc531920ca9.svg",
+        "designRelativePath": "assets/refresh-20261105/494f02b79fc3cb529addd8bf11fa7e0c4fc6933f.svg",
+        "sha256": "6edab9bf64aa1b6176b0b7179c2f1c3701b95c3325e48415e474cc1d50a5cfa4",
+        "bytes": 527,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": true
+      },
+      {
+        "slot": "composedSample.size40.more",
+        "sourceAsset": "e575531c66b41724a0c9a3d0fd68f68432dac213.svg",
+        "designRelativePath": "assets/refresh-20261105/9226eff7ceb8c4f167ce4b0f7ed5daaa63e14420.svg",
+        "sha256": "f852bf33737dff3efde3551592b01a6353a3c495f91217b1d4ea158a30d7c623",
+        "bytes": 1162,
+        "displaySizePx": [
+          20,
+          20
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": true
+      },
+      {
+        "slot": "composedSample.size40.actionDanger",
+        "sourceAsset": "856fffa320fbfde32db133f4ce345e1ba23d583d.svg",
+        "designRelativePath": "assets/refresh-20261105/4b97b626e8fcef42c41a253a4293f4a19f774fcd.svg",
+        "sha256": "f02b90ab684f6e9ad34a15bd7efe9e9c0992f76d96d4801bfd83a7ba26aeb46c",
+        "bytes": 1139,
+        "displaySizePx": [
+          16,
+          16
+        ],
+        "originalRootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+        "reusedExactAsset": true
+      }
+    ],
+    "unobserved": [
+      "width property/追加variant",
+      "focus/active toggle",
+      "dark",
+      "prototype timing",
+      "fixed/sticky 화면 배치",
+      "실제API/메뉴"
+    ],
+    "generatedLayout": {
+      "direction": "row",
+      "crossAxisAlignment": "center",
+      "mainAxisJustification": "not specified in generated context"
+    },
+    "composedPaintOverrides": [
+      {
+        "nodeId": "3610:24436",
+        "slot": "size48.action2.disabled",
+        "sourceAsset": "e0eb25463426c08046bbb0b4fb63c2046b5ee0cd.svg",
+        "glyphStroke": 1,
+        "glyphColor": "#8F8F8F",
+        "standaloneDisabledGlyph": "#AAAAAA"
+      },
+      {
+        "nodeId": "3610:24507",
+        "slot": "size40.action2.disabled",
+        "sourceAsset": "1cf49ddc94fe99ba5ad8bc421bd4f7caeb2fc4f3.svg",
+        "glyphStroke": 1,
+        "glyphColor": "#8F8F8F",
+        "standaloneDisabledGlyph": "#AAAAAA"
+      },
+      {
+        "nodeId": "3610:24438",
+        "slot": "size48.more",
+        "sourceAsset": "cb9f6dbd50fae166782b9ff6b772fe788a99b1eb.svg",
+        "defaultVisible": false,
+        "glyphStroke": 1.25,
+        "pathFills": [
+          "#1C1C1C",
+          "#1C1C1C",
+          "#1C1C1C"
+        ],
+        "pathStrokes": [
+          "white",
+          "white",
+          "#1C1C1C"
+        ]
+      },
+      {
+        "nodeId": "3610:24511",
+        "slot": "size40.more",
+        "sourceAsset": "e575531c66b41724a0c9a3d0fd68f68432dac213.svg",
+        "defaultVisible": false,
+        "glyphStroke": 1.25,
+        "pathFills": [
+          "white",
+          "white",
+          "white"
+        ],
+        "pathStrokes": [
+          "white",
+          "white",
+          "white"
+        ]
+      }
+    ]
+  },
+  "inheritedObligations": {
+    "card": "실행·선택·독립 control 의미와 focus/keyboard는 공용 Card 계약 유지",
+    "actionBar": "외부 선택 owner·native button·disabled·focus·메뉴·실행 횟수는 공용 ActionBar 계약 유지",
+    "motion": "공용 색상200ms ease 계승.새Figma timing발견아님.각element별적용/reduced motion즉시완료"
+  },
+  "comparison": {
+    "publicContractsAdded": [
+      "AgentHubFileCard",
+      "AgentHubThumbnail",
+      "AgentHubActionBar"
+    ],
+    "compoundPartsKeptInternal": [
+      "action-bar/action",
+      "action-bar/icon-action"
+    ],
+    "fileCardVsExisting": "Card 의미 유지. ThumbnailCard/DataCard/FileItem/ItemCard geometry와합치지않음.20/56px glyph는기존44px FileIcon과별도.",
+    "thumbnailVsExisting": "ThumbnailCard 내부와4:3값은같지만독립Thumbnail에는parent border/radius/shadow/하단선을추가하지않음.",
+    "actionBarVsCommon": "일괄선택의미유지.외곽r8/h48·40/count-only leading/16pxglyph/특화inverse부품색상차이만AH확장.",
+    "observedVariantTotal": 38
+  }
+}

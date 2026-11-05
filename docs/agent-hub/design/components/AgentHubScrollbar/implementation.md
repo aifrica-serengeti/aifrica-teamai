@@ -1,7 +1,7 @@
 # AgentHubScrollbar — 기존 구현 연결과 새 구현
 
 아래는 **제품 adapter 제안과 구현 recipe**입니다. 실제 Agent Hub source/export나 Figma 공개 API가 아닙니다.
-원본은 `3155:20473`의 정적 gutter와 thumb이며, 완성 ScrollArea 또는 native SLOT이 아닙니다.
+원본은 세로 `3155:20473`·가로 `3679:88872`의 정적 gutter와 thumb이며, 완성 ScrollArea 또는 native SLOT이 아닙니다.
 공용을 켠 UI 작업에서만 `DOCS_ROOT/frontend/design/component-workflow.md`와
 `DOCS_ROOT/frontend/design/components/Scrollbar/implementation/README.md`를 함께 읽습니다.
 
@@ -69,7 +69,7 @@ wrapper 전체를11px로 줄이거나 원본 gutter에 없던 r8·선·배경·c
 
 이 CSS는 세로 LTR part의 교차축 x3와 표시 중인 기본 paint를 설명합니다. 기존 반대 inset이나 물리적 left/right·inline style이 남아
 오른쪽3px를 다시 적용하지 않도록 adapter에서 정리합니다.11px 안 x3·width4의 오른쪽 잔여는4px입니다.
-RTL·가로/양방향의 배치는 별도 제품 정책으로 확인합니다. 실제 `top`/`transform`·height·표시 여부·drag·focus는 기존 기능 adapter가 공급합니다.
+위 CSS는 세로용입니다. 추가 확인한 가로 part는 교차축 gutter 높이11px·thumb 높이4px·샘플 y3이며, 실제 x 이동·thumb 폭은 같은 엔진의 가로 측정값으로 연결합니다. 세로용 top/bottom/width4 규칙을 가로 part에 중복 적용하지 않습니다. RTL·동시에 두 축이 보이는 모서리 조합은 별도 제품 정책으로 확인합니다. 실제 `top`/`transform`·height·표시 여부·drag·focus는 기존 기능 adapter가 공급합니다.
 `opacity:1`을 항상 표시하라는 상태로 사용하지 않고 기존 노출 timing의 opacity 규칙과 연결합니다.
 hover 변수의 기본색 유지 fallback은 **제품 제안**입니다. Agent Hub hover가 측정됐다는 뜻이 아니며,
 기존 전역 `--scrollbar-thumb-hover`가 이 adapter에서 묵시적으로 #555/55%로 바꾸지 않도록 part selector와 token 범위를 확인합니다.

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "solution": "agent-hub",
   "extendsCommon": true,
-  "description": "Agent Hub 컴포넌트59종의 공용 대비 차이와 구성 계약. 폼 adapter3종을 포함하며 제품 구현은 로컬에서 확인한다.",
+  "description": "Agent Hub 컴포넌트74종의 공용 대비 차이와 구성 계약. 폼 adapter3종과2026-11-05 보드 갱신15종을 포함하며 제품 구현은 로컬에서 확인한다.",
   "components": [
     {
       "id": "AgentHubIcon",
@@ -1366,6 +1366,345 @@
         "AgentHubIcon",
         "AgentHubMenu",
         "AgentHubMenuItem",
+        "AgentHubScrollbar"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubRuntimeSelectItem",
+      "name": "Agent Hub Runtime Select Item",
+      "aliases": [
+        "AgentHubRuntimeSelectItem",
+        "runtime-select-item",
+        "런타임 목록 항목"
+      ],
+      "category": "selection",
+      "layer": "component",
+      "docs": "components/AgentHubRuntimeSelectItem/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "AgentHubSelect",
+        "AgentHubIcon"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubRuntimeSelect",
+      "name": "Agent Hub Runtime Select",
+      "aliases": [
+        "AgentHubRuntimeSelect",
+        "runtime-select",
+        "런타임 셀렉트"
+      ],
+      "category": "selection",
+      "layer": "composition",
+      "docs": "components/AgentHubRuntimeSelect/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "AgentHubSelect",
+        "AgentHubRuntimeSelectItem",
+        "AgentHubIcon"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubSNBRuntime",
+      "name": "Agent Hub SNB Runtime",
+      "aliases": [
+        "AgentHubSNBRuntime",
+        "snb-runtime",
+        "런타임 사이드바"
+      ],
+      "category": "navigation",
+      "layer": "composition",
+      "docs": "components/AgentHubSNBRuntime/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "AgentHubSNBSectionHeader",
+        "AgentHubSNBItem",
+        "AgentHubRuntimeSelect",
+        "AgentHubSegmentedControl",
+        "AgentHubButton",
+        "AgentHubIcon",
+        "Divider"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubSegmentedControl",
+      "name": "Agent Hub Segmented Control",
+      "aliases": [
+        "AgentHubSegmentedControl",
+        "segmented-control",
+        "segment-button",
+        "segmented-control/icon",
+        "segment-button/icon",
+        "segment-icon/chat"
+      ],
+      "category": "selection",
+      "layer": "component",
+      "docs": "components/AgentHubSegmentedControl/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "SegmentedControl",
+        "AgentHubIcon"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubSpinner",
+      "name": "Agent Hub Spinner",
+      "aliases": [
+        "AgentHubSpinner",
+        "Agent Hub spinner",
+        "Agent Hub loading indicator"
+      ],
+      "category": "feedback",
+      "layer": "primitive",
+      "docs": "components/AgentHubSpinner/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Spinner"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubFileCard",
+      "name": "Agent Hub File Card",
+      "aliases": [
+        "AgentHubFileCard",
+        "file-card",
+        "Agent Hub 파일 선택 카드"
+      ],
+      "category": "display",
+      "layer": "component",
+      "docs": "components/AgentHubFileCard/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Card",
+        "AgentHubCheckbox",
+        "IconButton"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubThumbnail",
+      "name": "Agent Hub Thumbnail",
+      "aliases": [
+        "AgentHubThumbnail",
+        "thumbnail",
+        "Agent Hub 비율 이미지"
+      ],
+      "category": "display",
+      "layer": "primitive",
+      "docs": "components/AgentHubThumbnail/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubActionBar",
+      "name": "Agent Hub Action Bar",
+      "aliases": [
+        "AgentHubActionBar",
+        "action-bar",
+        "Agent Hub 일괄 작업 바"
+      ],
+      "category": "action",
+      "layer": "component",
+      "docs": "components/AgentHubActionBar/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "ActionBar"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubCodeLine",
+      "name": "Agent Hub Code Line",
+      "aliases": [
+        "AgentHubCodeLine",
+        "code-line",
+        "Agent Hub Code Line"
+      ],
+      "category": "display",
+      "layer": "component",
+      "docs": "components/AgentHubCodeLine/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "AgentHubIndentGuide",
+        "AgentHubIcon"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubIndentGuide",
+      "name": "Agent Hub Indent Guide",
+      "aliases": [
+        "AgentHubIndentGuide",
+        "indent-guide",
+        "Agent Hub Indent Guide"
+      ],
+      "category": "display",
+      "layer": "primitive",
+      "docs": "components/AgentHubIndentGuide/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubFileTab",
+      "name": "Agent Hub File Tab",
+      "aliases": [
+        "AgentHubFileTab",
+        "file-tab",
+        "Agent Hub File Tab"
+      ],
+      "category": "navigation",
+      "layer": "component",
+      "docs": "components/AgentHubFileTab/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Tab",
+        "AgentHubIconButton",
+        "AgentHubIcon"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubFileHeader",
+      "name": "Agent Hub File Header",
+      "aliases": [
+        "AgentHubFileHeader",
+        "file-header",
+        "Agent Hub File Header"
+      ],
+      "category": "layout",
+      "layer": "component",
+      "docs": "components/AgentHubFileHeader/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "AgentHubFileTab",
+        "AgentHubIconButton",
+        "AgentHubIcon"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubFileTreeEntry",
+      "name": "Agent Hub File Tree Entry",
+      "aliases": [
+        "AgentHubFileTreeEntry",
+        "file-tree-entry-guide",
+        "Agent Hub File Tree Entry"
+      ],
+      "category": "navigation",
+      "layer": "component",
+      "docs": "components/AgentHubFileTreeEntry/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Tree",
+        "AgentHubIconButton",
+        "AgentHubIcon"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubFileTree",
+      "name": "Agent Hub File Tree",
+      "aliases": [
+        "AgentHubFileTree",
+        "file-tree",
+        "Agent Hub File Tree"
+      ],
+      "category": "navigation",
+      "layer": "component",
+      "docs": "components/AgentHubFileTree/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "Tree",
+        "AgentHubFileTreeEntry",
+        "AgentHubSearch",
+        "AgentHubScrollbar"
+      ],
+      "contractStatus": "solution-contract"
+    },
+    {
+      "id": "AgentHubFileViewer",
+      "name": "Agent Hub File Viewer",
+      "aliases": [
+        "AgentHubFileViewer",
+        "file-viewer",
+        "Agent Hub File Viewer"
+      ],
+      "category": "display",
+      "layer": "component",
+      "docs": "components/AgentHubFileViewer/README.md",
+      "implementation": {
+        "status": "unmapped",
+        "source": null,
+        "export": null
+      },
+      "dependencies": [
+        "AgentHubCodeLine",
+        "AgentHubIconButton",
+        "AgentHubIcon",
         "AgentHubScrollbar"
       ],
       "contractStatus": "solution-contract"

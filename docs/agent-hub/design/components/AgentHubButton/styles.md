@@ -1,6 +1,7 @@
 # AgentHubButton — 크기와 색상
 
-아래 값은 [44종 실측 기록](../../references/button.figma.json)의 Light mode 기준입니다.
+기존44종은 [과거 실측 기록](../../references/button.figma.json)의 Light mode 기준이며,
+새 primary24·ghost32는 [2026-11-05 metadata·생성 context](../../references/existing-components-refresh.figma.json)에서 확인했습니다.
 제품의 Button 전용 token/variant adapter에 연결하고 공용 Button이나 blue·accent palette 전체를 수정하지 않습니다.
 
 ## 크기와 border radius
@@ -12,6 +13,8 @@
 | primary·secondary·tertiary 40 | 8px (`radius/control-lg`) | 16 / 4px | 4px | 16 / 24px | 600 | 20px · 1.25px |
 | primary·secondary·tertiary 32 | 6px (`radius/control-md`) | 16 / 4px | 4px | 14 / 20px | 600 | 16px · 1px |
 | primary·secondary·tertiary 28 | 4px (`radius/control-sm`) | 8 / 4px | 4px | 14 / 20px | 600 | 16px · 1px |
+| primary 24 | 4px (`radius/control-sm`) | 8 / 2px | 4px | 12 / 16px | 600 | 16px box, 반환 SVG를 보존 |
+| ghost 32 | 6px (`radius/control-md`) | 16 / 4px | 4px | 14 / 20px | 600 | 16px box, 반환 SVG를 보존 |
 | ghost 28 | 4px (`radius/control-sm`) | 8 / 6px | 4px | 12 / 16px | 600 | 16px · 1px |
 | ghost 24 | 4px (`radius/control-sm`) | 4 / 2px | 4px | 14 / 20px | 400 | 16px · 1px |
 
@@ -76,3 +79,15 @@ focus·loading·dark 색상은 이 노드에 없습니다. 공용의 focus 표�
 32/28px의 기존 색상과 일치시키는 변경이고, 원본 `3025:24995`의 흰 아이콘이 잘못 추출됐다는 뜻이 아닙니다.
 새 구현은 크기별 흰색 강제 selector를 만들지 않고, 기존 구현의 해당 예외를 제거합니다.
 색상 전환·reduced motion은 [모션 채택 계약](../../motion.md)을 적용합니다.
+
+## 2026-11-05 추가 크기의 적용 경계
+
+primary24는 외곽 높이24px에 label12/16·좌우8/상하2·radius4·gap4를 사용합니다.
+예시181px 폭은 아이콘·label·keycap3개의 결과이며 고정 폭으로 사용하지 않습니다.
+기존 ghost24의 label14/20·400·좌우4px를 primary24에 재사용하지 않습니다.
+새 ghost32는 높이32·label14/20·600·좌우16/상하4·radius6·gap4이며 keycap 자식이 없습니다.
+두 크기 모두 icon box16px이며 원본 SVG의 선·도형을 그대로 연결합니다.
+
+새 primary24는 기존 primary 배경의4상태와 흰 label, ghost32는 투명/5%/10% overlay·활성 #1C1C1C/disabled #AAA를
+생성 context에서 확인했습니다. keycap은 primary24에만 기존 primary의 border #B9D5FF·text #DAE9FF 예시3개가 있습니다.
+기존 secondary40 pressed의 흰 아이콘 원본과 사용자 채택 currentColor의 구분은 그대로 유지합니다.

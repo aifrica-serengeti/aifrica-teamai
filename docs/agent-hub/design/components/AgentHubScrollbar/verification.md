@@ -3,8 +3,10 @@
 - SNB의 선택적 visibility hover는 hover/focus-within/drag·coarse pointer에서 노출되고 reduce에서는 즉시 반영되는지 확인합니다.
   기본 always를 사용하는 기존 Picker·Flyout·Session·Viewer의 표시를 바꾸지 않습니다. 두 모드 지원을 scroll/auto까지 완료한 것으로 기록하지 않습니다.
 
-- [실측](../../references/scrollbar.figma.json)의 단일 COMPONENT `3155:20473`, child RECTANGLE `3155:20472`와 빈 props/variant/reactions를 확인합니다.
-  INSTANCE·TEXT·SLOT·상태 enum·방향 enum이 제공됐다고 기록하지 않습니다.
+- [과거 실측](../../references/scrollbar.figma.json)의 단일 COMPONENT·빈 props/variant/reactions는 역사 기록으로 보존합니다.
+- [최신 갱신 근거](../../references/existing-components-refresh.figma.json)의 set `3679:88871`과 direction 두 variant를 대조합니다.
+  vertical `3155:20473` 11×180/thumb4×160, horizontal `3679:88872` 180×11/thumb160×4가 각각 x3/y3인지 확인합니다.
+  생성 context의 direction 입력을 native property getter 수집이나 실제 앱 API 검증으로 표시하지 않습니다.
 - root11×180/FIXED·HORIZONTAL/gap0·padding left0/right1/top1/bottom0, radius0·opacity1·clipping false·overflow NONE을 대조합니다.
   fills/strokes/effects가 없으므로 선·배경·그림자를 추가하지 않습니다.
 - thumb x3/y3·4×160/ABSOLUTE, radius9999·#DDD paint/node opacity1과 실제 stroke/effect 부재를 확인합니다.

@@ -23,7 +23,7 @@ glyph root에 저장된 소수 strokeWeight보다 실제 Vector의1px 선을 기
 
 heading/title-group에 원본 clipping이 있으나 긴 제목·큰 count·번역을 읽지 못하게 잘라내는 정책을 뜻하지 않습니다.
 toggle=false이면 버튼과 빈 slot을 없애고 남은 title/action 높이에 맞춰 HUG 흐름을 검증합니다.
-현재 empty 패널도 action24가 있어 전체 Header24px를 유지합니다.
+empty 패널은 action24가 있어 전체 Header24px를 유지합니다.2026-11-05 no-runtime 환경 헤더는 toggle/action/count를 모두 숨겨 title20px만 남습니다.24px min-height나 숨긴 버튼의 gap을 추가하지 않습니다.
 Header 전용 hover/focus/disabled·접기 모션은 측정하지 않았습니다. 필요한 컨트롤 상태는 실제 IconButton 계약과 제품에서 검증합니다.
 
 ## 사용자 채택: 간격과 회전

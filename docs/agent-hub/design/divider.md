@@ -1,6 +1,6 @@
 # Agent Hub Divider 재사용 확인
 
-확인한 가로 Divider는 공용과 시각 차이가 없습니다. 기존 Divider를 재사용하며 새 `AgentHubDivider`·스킬·필수 래퍼를 추가하지 않습니다.
+확인한 가로·세로 Divider는 공용과 시각 차이가 없습니다. 기존 Divider를 재사용하며 새 `AgentHubDivider`·스킬·필수 래퍼를 추가하지 않습니다.
 [상위 적용 조건](./README.md)에 따라 공용을 켠 UI 작업에서만 `DOCS_ROOT/frontend/design/components/Divider/README.md`와 관련 문서를 함께 읽습니다.
 `inheritCommon: false`이면 이 비교로 공용 계약이나 컴포넌트를 강제하지 않습니다.
 
@@ -30,7 +30,7 @@ root와 line에 `strokeWeight=1` metadata가 있어도 strokes는 비어 있습�
 색상 binding은 `VariableID:3081:106` → `VariableID:3077:20`입니다.
 [실측](./references/divider.figma.json)과 [변수 기록](./references/divider.variables.figma.json)에 원본을 보존합니다.
 props는 비어 있고 variant는 null·reactions는 비어 있으며 INSTANCE·TEXT·SLOT은 없습니다.
-가로 Light 한 샘플로 dark·세로 방향·모션·실제 제품 구현까지 확인했다고 기록하지 않습니다.
+위 상세 native 값은2026-10-21 가로 샘플의 기록입니다. 최신 세로 확인 범위는 아래에 구분하며, dark·모션·실제 제품 구현까지 확인했다고 기록하지 않습니다.
 
 ## 기존 조합은 그대로 연결해 주세요
 
@@ -50,3 +50,15 @@ Menu·Flyout의 구획선 FRAME, Breadcrumb의 문자/화살표와 OutputViewer�
 
 실제 consuming repository의 source/public export와 방향·크기·장식/의미·token·모션을 확인한 뒤 로컬 mapping에 기록합니다.
 그 전에는 `unmapped`와 공유 설정의 `draft`를 유지합니다. 비교용 문서나 CMP의 export 존재가 Agent Hub 구현 증거는 아닙니다.
+
+## 2026-11-05 세로 방향 추가 확인
+
+최신 보드의 divider set은 `3630:75445`입니다. 가로 source는 기존 `3155:20478`·168×17px이며,
+새 세로 source `3630:75446`은17×168px입니다. set ID를 가로 source ID로 기록하지 않습니다.
+[갱신 근거](./references/existing-components-refresh.figma.json)의 metadata는 source·외곽 치수를,
+생성 context는 direction=horizontal/vertical·가로 py8/세로 px8·두께1·#DDD를 확인하는 근거입니다.
+세로 line `3630:75447`은1×168px로, 부모의 좌우8px 여백 사이에 놓입니다.
+168px는 샘플 길이이고 실제 제품에서는 부모의 방향별 길이 계약을 유지합니다.
+
+기존 공용 Divider의 방향·장식/의미·비상호작용 계약으로 두 방향을 재사용합니다.
+새 AgentHubDivider ID·전용 스킬·필수 wrapper를 만들지 않고, 미수집 native flag를 과거 가로 원본에서 세로에 복사하지 않습니다.

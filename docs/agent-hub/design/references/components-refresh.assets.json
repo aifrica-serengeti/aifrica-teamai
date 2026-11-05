@@ -1,0 +1,2600 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "exact-figma-assets",
+  "capturedAt": "2026-11-05",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3074:101330"
+  },
+  "assets": [
+    {
+      "sourceAsset": "064a24be1e1b949492a061587dcea0c1a2e6fb7d.svg",
+      "path": "assets/refresh-20261105/064a24be1e1b949492a061587dcea0c1a2e6fb7d.svg",
+      "sha256": "75645f3604150fcee025e75eb62a2c04851c9b58a49561c972f4f23c3c902e61",
+      "bytes": 416,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgLeadingIcon"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-unselected-20261105.txt",
+          "constant": "imgLeadingIcon"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "06786279de90f212186b184c746994b625cbc1a2.svg",
+      "path": "assets/refresh-20261105/06786279de90f212186b184c746994b625cbc1a2.svg",
+      "sha256": "b90d44a3cc4de6b4b5e2f43de895a73b1ff90a808ab9a60b58b1a64ad96604bc",
+      "bytes": 428,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-icon-action-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgIcon1"
+        },
+        {
+          "capture": "hub-figma-action-bar-48-20261105.txt",
+          "constant": "imgIcon1"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "0786e95cebc20c5965b88e8db49b0c1da7dfefd0.svg",
+      "path": "assets/refresh-20261105/0786e95cebc20c5965b88e8db49b0c1da7dfefd0.svg",
+      "sha256": "997708319b16271295049b629fd99993a6694e57c7c3b5da5dfa99521b0bfa3b",
+      "bytes": 875,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-tree-20261105.txt",
+          "constant": "imgIcon1"
+        },
+        {
+          "capture": "hub-figma-file-tree-entry-20261105.txt",
+          "constant": "imgIcon1"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "08921dc61d687fa24024f8298b00c64b99f6c5bd.svg",
+      "path": "assets/refresh-20261105/08921dc61d687fa24024f8298b00c64b99f6c5bd.svg",
+      "sha256": "692a215199b58ef29e5366a54e2ce5e943438fb123678d75b2e33d9592d6edc3",
+      "bytes": 408,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-icon-button-20261105.txt",
+          "constant": "imgIcon8"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "0c80b658c803b9bb3d57bc84278a779b22e15056.svg",
+      "path": "assets/refresh-20261105/0c80b658c803b9bb3d57bc84278a779b22e15056.svg",
+      "sha256": "485517defbfe31e6be13bc1d59b1e37fbe54bc14c044ec5dbb24b266eb003c66",
+      "bytes": 295,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-tree-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-file-tree-entry-20261105.txt",
+          "constant": "imgIcon"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "100d62f7efe83dedfa2507175507440cfa1688a1.svg",
+      "path": "assets/refresh-20261105/100d62f7efe83dedfa2507175507440cfa1688a1.svg",
+      "sha256": "60f5dc145198e58ae959d1f82e3e7809dfffdd98eb9dcf7e53e438387f1780ba",
+      "bytes": 1695,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"12.9167\" height=\"17.9153\" viewBox=\"0 0 12.9167 17.9153\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-finder-section-title-20261105.txt",
+          "constant": "imgGroup1000006215"
+        }
+      ],
+      "nativeWidth": 12.9167,
+      "nativeHeight": 17.9153,
+      "viewBox": [
+        0,
+        0,
+        12.9167,
+        17.9153
+      ]
+    },
+    {
+      "sourceAsset": "11dd274a708824918c20cebb607545c1ba5e0603.svg",
+      "path": "assets/refresh-20261105/11dd274a708824918c20cebb607545c1ba5e0603.svg",
+      "sha256": "d62b1bde5055fbf2d61a67536e3e15ee48e309f1fb07467d83b8ecedb8e49b6e",
+      "bytes": 310,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-runtime-select-20261105.txt",
+          "constant": "imgIconChevronUp16"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIconChevronUp16"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-unselected-20261105.txt",
+          "constant": "imgIconChevronUp16"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "183b5e142904792d2d56bbd1f5c5f65a8addba0f.svg",
+      "path": "assets/refresh-20261105/183b5e142904792d2d56bbd1f5c5f65a8addba0f.svg",
+      "sha256": "89ef9fb6ebe5f1639ad89d6be6aa2d26457eaf64f0b1b8f1a301c5ef7e9808e7",
+      "bytes": 459,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon7"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "191efa7a1e2cd58f57b22b550605283898263799.svg",
+      "path": "assets/refresh-20261105/191efa7a1e2cd58f57b22b550605283898263799.svg",
+      "sha256": "47cdd962e67e80ff177b837be07f9489605d0207e6f3b84be43c6b1721510272",
+      "bytes": 1020,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-filter-chip-20261105.txt",
+          "constant": "imgLeadingIcon"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "1cf49ddc94fe99ba5ad8bc421bd4f7caeb2fc4f3.svg",
+      "path": "assets/refresh-20261105/1cf49ddc94fe99ba5ad8bc421bd4f7caeb2fc4f3.svg",
+      "sha256": "e5805633fe52667051b8616f7e7cb4e465983ac01d0c6274329e73bbbe0ed1ce",
+      "bytes": 1457,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgLeadingIcon5"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "1f0b0f80c0053aa76a12befa2b2e11c45f9ef7f6.svg",
+      "path": "assets/refresh-20261105/1f0b0f80c0053aa76a12befa2b2e11c45f9ef7f6.svg",
+      "sha256": "1a6a64edc351489cfc9f01cc2378e7fee231bcfd7779cdb2fb2613d999ad6f29",
+      "bytes": 413,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon4"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "255bc504eb86e8b854322d8313c493ce68e5c152.svg",
+      "path": "assets/snb/new-chat-plus-white-20.svg",
+      "sha256": "b07b89b307c02563aa44ae95f3c9bf3c34416fef9cddf13978d9b5cb501dbb92",
+      "bytes": 454,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "28983b24589c0f92b5f62b4bcafb629562f905eb.svg",
+      "path": "assets/refresh-20261105/28983b24589c0f92b5f62b4bcafb629562f905eb.svg",
+      "sha256": "6aa74b37cf7639c7e11f1e259230d526deda9618ff4121ddc84fd065c4fdf6e1",
+      "bytes": 1138,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgLeadingIcon4"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "29ce528edd88530a0230e2c0627efbc531920ca9.svg",
+      "path": "assets/refresh-20261105/494f02b79fc3cb529addd8bf11fa7e0c4fc6933f.svg",
+      "sha256": "6edab9bf64aa1b6176b0b7179c2f1c3701b95c3325e48415e474cc1d50a5cfa4",
+      "bytes": 527,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgLeadingIcon6"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "2bd023d6b71ab0b6290becfc1b43c31730ebd60b.svg",
+      "path": "assets/refresh-20261105/2bd023d6b71ab0b6290becfc1b43c31730ebd60b.svg",
+      "sha256": "eeaf221e309d681f360a90153982cd18e098f871589b2b62b124b326dce17fd2",
+      "bytes": 785,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-viewer-20261105.txt",
+          "constant": "imgIcon"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "2d098d887fe20c4591680ed0607272a3055f9636.svg",
+      "path": "assets/refresh-20261105/2d098d887fe20c4591680ed0607272a3055f9636.svg",
+      "sha256": "ecf6e49ae16d5481cb669e32d8d6f5a708bf4d2826233525c1889993aa0c724f",
+      "bytes": 304,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-filter-chip-20261105.txt",
+          "constant": "imgTrailingIcon1"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "3384d2220ae991b54c6f1e8fce49cb900c5a854f.svg",
+      "path": "assets/session/plus-16.svg",
+      "sha256": "5dc87654ac21b355a3e382298457e0b05f984e4dbe616389e72273fb026013d1",
+      "bytes": 408,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-icon-button-20261105.txt",
+          "constant": "imgIcon1"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "371ddc5b5f7d8512f1f728e09560541d01012d60.svg",
+      "path": "assets/refresh-20261105/371ddc5b5f7d8512f1f728e09560541d01012d60.svg",
+      "sha256": "aa21b7f6f5f86bb4cec49da8331ffe160f0826174aa19074062ced5ec3c066fd",
+      "bytes": 636,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgPreviewIcon4"
+        }
+      ],
+      "nativeWidth": 56,
+      "nativeHeight": 56,
+      "viewBox": [
+        0,
+        0,
+        56,
+        56
+      ]
+    },
+    {
+      "sourceAsset": "38dbaf180284bd5edd5a42f5638f1ff93ef59f13.svg",
+      "path": "assets/refresh-20261105/38dbaf180284bd5edd5a42f5638f1ff93ef59f13.svg",
+      "sha256": "d71e8da5ec6da24891d5422ec7f1dc46ab2f6973546206f1dbad3629891abcff",
+      "bytes": 524,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgCheckbox"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "3be16bb4ec60c7993d67578d38bf907c05139b23.svg",
+      "path": "assets/refresh-20261105/3be16bb4ec60c7993d67578d38bf907c05139b23.svg",
+      "sha256": "f6552fc1abfa64987a9eb9c489d2ef3bdb6c7d3744ce8e829353a365608877ce",
+      "bytes": 1112,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-header-20261105.txt",
+          "constant": "imgIcon2"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "3d403f8be706a570f70def6f8f40792a7293c8d7.svg",
+      "path": "assets/refresh-20261105/3d403f8be706a570f70def6f8f40792a7293c8d7.svg",
+      "sha256": "b4d5765bb92a2e8698e2b4d9d9cda1122e5cb52869c3f88cdbdac1e067044890",
+      "bytes": 626,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-header-20261105.txt",
+          "constant": "imgIcon3"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "3e5c83b2fc29920947418ecdceec55f67b42757e.svg",
+      "path": "assets/refresh-20261105/3e5c83b2fc29920947418ecdceec55f67b42757e.svg",
+      "sha256": "ce2bbf78775d9cf2f0ef070f1588d11d80b2ae2a125bc86bdd8ab6481e20c99f",
+      "bytes": 17279,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-spinner-20261105.txt",
+          "constant": "imgSizeMedium"
+        }
+      ],
+      "nativeWidth": 24,
+      "nativeHeight": 24,
+      "viewBox": [
+        0,
+        0,
+        24,
+        24
+      ]
+    },
+    {
+      "sourceAsset": "41e903a631517f49c376a70acd932f2ef321d599.svg",
+      "path": "assets/refresh-20261105/41e903a631517f49c376a70acd932f2ef321d599.svg",
+      "sha256": "8bcd21e3ead07d0e1f5cdcb85888f11517f387e7c3e7a956e21de007b68e2647",
+      "bytes": 1706,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgIcon3"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "45c9fd497ab71a10096ed449b01725d290da8ad8.svg",
+      "path": "assets/refresh-20261105/45c9fd497ab71a10096ed449b01725d290da8ad8.svg",
+      "sha256": "28c83db5635e0cb0e8ac086a8236619b8e9065fb0102e47d8cc5b28462625c2a",
+      "bytes": 1020,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-filter-chip-20261105.txt",
+          "constant": "imgLeadingIcon2"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "48a30aff7c47a4383ecacc6233dec07caa2f7c24.svg",
+      "path": "assets/refresh-20261105/48a30aff7c47a4383ecacc6233dec07caa2f7c24.svg",
+      "sha256": "fafbe39a6371ca17ac768cf5e9af7f659f154b7738202e1c2f481ff787ff63d7",
+      "bytes": 784,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-header-20261105.txt",
+          "constant": "imgIconPlus24"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "4937338ef72e8738d2535e917b632d3f383d715d.svg",
+      "path": "assets/refresh-20261105/4937338ef72e8738d2535e917b632d3f383d715d.svg",
+      "sha256": "15b6a4a562341c1f0b5a318775e3784f7861021cb5c305108aa51b97de95834a",
+      "bytes": 412,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon4"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "494f02b79fc3cb529addd8bf11fa7e0c4fc6933f.svg",
+      "path": "assets/refresh-20261105/494f02b79fc3cb529addd8bf11fa7e0c4fc6933f.svg",
+      "sha256": "6edab9bf64aa1b6176b0b7179c2f1c3701b95c3325e48415e474cc1d50a5cfa4",
+      "bytes": 527,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgLeadingIcon2"
+        },
+        {
+          "capture": "hub-figma-action-bar-48-20261105.txt",
+          "constant": "imgLeadingIcon2"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "49bba82016793dae9673fd7cf3e54a95fe825943.svg",
+      "path": "assets/flyout/chevron-down-16.svg",
+      "sha256": "f942bc343ce32a24e9ab0ac4fe13bfcb81f3df0116d7773157170ed0af3c6284",
+      "bytes": 311,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-tree-entry-20261105.txt",
+          "constant": "imgIconChevronDown16"
+        },
+        {
+          "capture": "hub-figma-runtime-select-20261105.txt",
+          "constant": "imgIconChevronDown16"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIconChevronDown16"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-unselected-20261105.txt",
+          "constant": "imgIconChevronDown16"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "4b97b626e8fcef42c41a253a4293f4a19f774fcd.svg",
+      "path": "assets/refresh-20261105/4b97b626e8fcef42c41a253a4293f4a19f774fcd.svg",
+      "sha256": "f02b90ab684f6e9ad34a15bd7efe9e9c0992f76d96d4801bfd83a7ba26aeb46c",
+      "bytes": 1139,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgLeadingIcon3"
+        },
+        {
+          "capture": "hub-figma-action-bar-48-20261105.txt",
+          "constant": "imgLeadingIcon3"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "4bac5cce825b0fd512c6d3faf5f2e5c8cf783515.svg",
+      "path": "assets/refresh-20261105/4bac5cce825b0fd512c6d3faf5f2e5c8cf783515.svg",
+      "sha256": "a1686f056bdc2156e8306aa5c0ec0d65653b9ab017619dd99e60056ea50755c4",
+      "bytes": 459,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon1"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "55fd2f86608d10f70c9bd8c57b250b1e63849146.svg",
+      "path": "assets/session/plus-16.svg",
+      "sha256": "5dc87654ac21b355a3e382298457e0b05f984e4dbe616389e72273fb026013d1",
+      "bytes": 408,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-icon-button-20261105.txt",
+          "constant": "imgIcon7"
+        },
+        {
+          "capture": "hub-figma-session-no-runtime-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-session-no-runtime-20261105.txt",
+          "constant": "imgIcon"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "57235158f15ffb3a2085ef36fd3e8822214f5744.svg",
+      "path": "assets/refresh-20261105/57235158f15ffb3a2085ef36fd3e8822214f5744.svg",
+      "sha256": "ac4434bc574a43a062d99d4ce20715a3c5afc3623d9ac0da516d7f861eca0a2a",
+      "bytes": 1138,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-action-20261105.txt",
+          "constant": "imgLeadingIcon"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "5899e49553e51e524d7f36c9710d821c15e84c9a.svg",
+      "path": "assets/refresh-20261105/5899e49553e51e524d7f36c9710d821c15e84c9a.svg",
+      "sha256": "648955594ed8cdf0c8b6e63726eaf2f1b923fb85211b6cd76065d101fece4dd1",
+      "bytes": 1034,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-tree-20261105.txt",
+          "constant": "imgIcon2"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "598252bd5a7f4c0bfd391bafaa2d333c9fe37c4b.svg",
+      "path": "assets/refresh-20261105/598252bd5a7f4c0bfd391bafaa2d333c9fe37c4b.svg",
+      "sha256": "75645f3604150fcee025e75eb62a2c04851c9b58a49561c972f4f23c3c902e61",
+      "bytes": 416,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon3"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "59fb4493d43228a647a5d32fd5038515fd2e0dc4.svg",
+      "path": "assets/refresh-20261105/59fb4493d43228a647a5d32fd5038515fd2e0dc4.svg",
+      "sha256": "6eebcc35f40850fb6e08b23c4fab05d2266c99ad94d509be9cd27379bd2c83a4",
+      "bytes": 458,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon1"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "5a5fccf4956819f6018d84d14a695815489a865d.svg",
+      "path": "assets/refresh-20261105/5a5fccf4956819f6018d84d14a695815489a865d.svg",
+      "sha256": "bcc69c0220d149a688d8a5d943f8bb7ba0e2c1b661135c3fcfd71e0f84b4b98e",
+      "bytes": 458,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon7"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "5c184c99a64d93af270a88f1628e4d062772c24f.svg",
+      "path": "assets/refresh-20261105/5c184c99a64d93af270a88f1628e4d062772c24f.svg",
+      "sha256": "715ed3e0c73b033bd9dcd79ee8f1f65128bd9673d2da568b1f485bff936490ef",
+      "bytes": 626,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-viewer-20261105.txt",
+          "constant": "imgIcon1"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "5e1161a49db0401f24dc173bbf7e3a25dccaaeab.svg",
+      "path": "assets/refresh-20261105/5e1161a49db0401f24dc173bbf7e3a25dccaaeab.svg",
+      "sha256": "4bc8f149a8e9f6912122cf30b340b7cef258876384739f08422f7263fd633ef7",
+      "bytes": 295,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-code-line-20261105.txt",
+          "constant": "imgFold"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "64afc2b064a6750f992119c5b22263fb1b0a8634.svg",
+      "path": "assets/refresh-20261105/64afc2b064a6750f992119c5b22263fb1b0a8634.svg",
+      "sha256": "ab4e0562a9e6da92bb486ccbeb64f1c69d21a9702f52516ffab7a0ee1f8494d7",
+      "bytes": 304,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-filter-chip-20261105.txt",
+          "constant": "imgTrailingIcon"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "69378c611830169616b9ffd14c21cdaad1180956.svg",
+      "path": "assets/refresh-20261105/69378c611830169616b9ffd14c21cdaad1180956.svg",
+      "sha256": "9f4a3cc1ff2b47f7220b9f3d9d719dc741b86ec228654d6596c78dd7f62febe5",
+      "bytes": 392,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-header-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-file-header-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-file-tab-20261105.txt",
+          "constant": "imgIcon"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "6f51f71adc04671b28b8e9eaceb4683ba5dc9ace.svg",
+      "path": "assets/refresh-20261105/6f51f71adc04671b28b8e9eaceb4683ba5dc9ace.svg",
+      "sha256": "56563931842c7b011d6fb3d7eb6fff00dea37a8261c23694ce6ee0b860245c3d",
+      "bytes": 1478,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgIcon6"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "74b51b1b3daca9e2c01e8cd87e63ef50a9b8488c.svg",
+      "path": "assets/snb/new-chat-plus-white-hidden-20.svg",
+      "sha256": "66a769c71295963fc52cebfb1485f637d50055789ad0c4220802130af08248ae",
+      "bytes": 455,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon5"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "79a99dde6cb2d9b65bc13b2174adb95b23a797c5.svg",
+      "path": "assets/refresh-20261105/79a99dde6cb2d9b65bc13b2174adb95b23a797c5.svg",
+      "sha256": "2f8ac438df1df8d28ac4193550ef4cd478f0479d4d176b713113d37a5766f30f",
+      "bytes": 848,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-header-20261105.txt",
+          "constant": "imgIcon1"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "7f6d36c90e7db08ddc22ebdaaf99d9477a3515ce.svg",
+      "path": "assets/refresh-20261105/7f6d36c90e7db08ddc22ebdaaf99d9477a3515ce.svg",
+      "sha256": "b2954a1f7b9163f8772f487f40e4931146bdf125c997348fee8b4e4671b04449",
+      "bytes": 1020,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-filter-chip-20261105.txt",
+          "constant": "imgLeadingIcon3"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "8054187c68491c4ace696f38813f06bf60d103b1.svg",
+      "path": "assets/refresh-20261105/8054187c68491c4ace696f38813f06bf60d103b1.svg",
+      "sha256": "1b7353fc0dd3b248cdc07165b3ff5cd0d18a19b029bca17ca925e812520cdc75",
+      "bytes": 416,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon10"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "856fffa320fbfde32db133f4ce345e1ba23d583d.svg",
+      "path": "assets/refresh-20261105/4b97b626e8fcef42c41a253a4293f4a19f774fcd.svg",
+      "sha256": "f02b90ab684f6e9ad34a15bd7efe9e9c0992f76d96d4801bfd83a7ba26aeb46c",
+      "bytes": 1139,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgLeadingIcon7"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "85c1518c351417bf78ead1bd025f870c5b88cc4a.svg",
+      "path": "assets/refresh-20261105/85c1518c351417bf78ead1bd025f870c5b88cc4a.svg",
+      "sha256": "fcab5cc7ed18f49fa76d6f9db03be092954beeb910ce37c7397ee3bcc633a980",
+      "bytes": 868,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgIcon"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "8819148c8ee31f5d6cc6dce50b5fcf0231d974f8.svg",
+      "path": "assets/snb/section-chevron-down-16.svg",
+      "sha256": "6782d46ae57998982af29b1301115781d726ff904d1a0eb1eb4c202a77ac3159",
+      "bytes": 311,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIconChevronDown17"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "8bc5676dd8faabf38a9ab8a18e801920bee9c248.svg",
+      "path": "assets/refresh-20261105/8bc5676dd8faabf38a9ab8a18e801920bee9c248.svg",
+      "sha256": "48ac74efafeb89b00e26b0e0b580f5581cb8888271e28c763346604b39936993",
+      "bytes": 1465,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgIcon7"
+        }
+      ],
+      "nativeWidth": 56,
+      "nativeHeight": 56,
+      "viewBox": [
+        0,
+        0,
+        56,
+        56
+      ]
+    },
+    {
+      "sourceAsset": "8d2ba30d86eb2288f21d3b5ef04957386e719a09.svg",
+      "path": "assets/snb/section-filter-16.svg",
+      "sha256": "5b90be9b9a440a25883d4df7f9eeb734435e7fef388ac2e0dbb82a0bf22896f7",
+      "bytes": 1012,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIcon2"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "9226eff7ceb8c4f167ce4b0f7ed5daaa63e14420.svg",
+      "path": "assets/refresh-20261105/9226eff7ceb8c4f167ce4b0f7ed5daaa63e14420.svg",
+      "sha256": "f852bf33737dff3efde3551592b01a6353a3c495f91217b1d4ea158a30d7c623",
+      "bytes": 1162,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgIcon1"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "941785ec114f760474212a85b63360fc86610742.svg",
+      "path": "assets/refresh-20261105/941785ec114f760474212a85b63360fc86610742.svg",
+      "sha256": "22e192fe6f21bb5480c90b7e6aa0d05c594f2f589ea01149c3437afe0d304e84",
+      "bytes": 1020,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-filter-chip-20261105.txt",
+          "constant": "imgLeadingIcon1"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "96659abe5ff1efc43a3aa203ef616642244855ef.svg",
+      "path": "assets/refresh-20261105/96659abe5ff1efc43a3aa203ef616642244855ef.svg",
+      "sha256": "692a215199b58ef29e5366a54e2ce5e943438fb123678d75b2e33d9592d6edc3",
+      "bytes": 408,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-icon-button-20261105.txt",
+          "constant": "imgIcon4"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "96e24eb61838c78bee98dc6a5dc3c03ca0a0ce91.svg",
+      "path": "assets/snb/new-chat-plus-white-20.svg",
+      "sha256": "b07b89b307c02563aa44ae95f3c9bf3c34416fef9cddf13978d9b5cb501dbb92",
+      "bytes": 454,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon5"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "97503e8f970dd78e4470d0cbe50629435095653b.svg",
+      "path": "assets/refresh-20261105/97503e8f970dd78e4470d0cbe50629435095653b.svg",
+      "sha256": "51ed542cdadce95abfbc7093b87425aeb007a645696e19db1698f717bbfcbafa",
+      "bytes": 416,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon9"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "9b02018ab222a1d74f6723365312ca1dab877a5f.svg",
+      "path": "assets/refresh-20261105/9b02018ab222a1d74f6723365312ca1dab877a5f.svg",
+      "sha256": "8009a44f29a47a0e54b0f376054ae262f09cb8f9db5e442809ce39a0510d9eaa",
+      "bytes": 1138,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-action-20261105.txt",
+          "constant": "imgLeadingIcon1"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "a05faf724797ff04fbf1378ed4157438a93a370b.svg",
+      "path": "assets/refresh-20261105/a05faf724797ff04fbf1378ed4157438a93a370b.svg",
+      "sha256": "1a6a64edc351489cfc9f01cc2378e7fee231bcfd7779cdb2fb2613d999ad6f29",
+      "bytes": 413,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon2"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "a496fa9a6d687388490f93d67d9354056dd1618e.svg",
+      "path": "assets/refresh-20261105/a496fa9a6d687388490f93d67d9354056dd1618e.svg",
+      "sha256": "49417f591e0863e3c48c3cbe94a9ffabe67c51ec704773773f3c4ef9a3d6f81c",
+      "bytes": 1150,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-segment-button-icon-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-segmented-control-icon-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIcon1"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIcon1"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-unselected-20261105.txt",
+          "constant": "imgIcon1"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-unselected-20261105.txt",
+          "constant": "imgIcon1"
+        }
+      ],
+      "nativeWidth": 18,
+      "nativeHeight": 18,
+      "viewBox": [
+        0,
+        0,
+        18,
+        18
+      ]
+    },
+    {
+      "sourceAsset": "a4f4a95e6f30533f260e437e4865ae174a9d30ae.svg",
+      "path": "assets/refresh-20261105/a4f4a95e6f30533f260e437e4865ae174a9d30ae.svg",
+      "sha256": "89f1eaea5ddd212518b902fb755415c747ab18a7728924988931ed3724ad41ee",
+      "bytes": 17246,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-spinner-20261105.txt",
+          "constant": "imgSizeTiny"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "a6967415ae808062381038b2bca5f3e6a9f73049.svg",
+      "path": "assets/refresh-20261105/a6967415ae808062381038b2bca5f3e6a9f73049.svg",
+      "sha256": "3562575a5f4185e404d964aedbf13a151b5d1c15bef130a79c53dd4492febd9d",
+      "bytes": 587,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-tree-20261105.txt",
+          "constant": "imgIconSearch16"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "aa7b3f1390c9bae2797bcd4ec553e42496511f6d.svg",
+      "path": "assets/refresh-20261105/aa7b3f1390c9bae2797bcd4ec553e42496511f6d.svg",
+      "sha256": "1f69c07151201ba70ba4f645eaff340b92fcc5c21d2530a56cec482ff0aad180",
+      "bytes": 450,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-icon-button-20261105.txt",
+          "constant": "imgIcon3"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "ab7a47c8fbc4587e280fb005c60a504fdc2b9189.svg",
+      "path": "assets/refresh-20261105/ab7a47c8fbc4587e280fb005c60a504fdc2b9189.svg",
+      "sha256": "40d73970ae1bcc0a52d8b7999a7cc41857cf1b73c515259f3f467cd355bb1c4b",
+      "bytes": 17301,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-spinner-20261105.txt",
+          "constant": "imgSizeSmall"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "ae28d276d7b73be915e4f8363e1e2c69ca190d0d.svg",
+      "path": "assets/refresh-20261105/ae28d276d7b73be915e4f8363e1e2c69ca190d0d.svg",
+      "sha256": "1ceede852c7927f3a0790e42a77cd779cc8add57ed8b8556f0aaceca609e2753",
+      "bytes": 304,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-filter-chip-20261105.txt",
+          "constant": "imgTrailingIcon2"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "ae49d040702801dec80e1dd1c948d2d23158e371.svg",
+      "path": "assets/refresh-20261105/ae49d040702801dec80e1dd1c948d2d23158e371.svg",
+      "sha256": "26b4661d38edd21ec81ec8e90f8a0c9ce701fad38e813d03124bdec471446603",
+      "bytes": 1140,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-action-20261105.txt",
+          "constant": "imgLeadingIcon2"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "aee2bffda4d0fd56c63b9e5bc2820b4906d8a8b9.svg",
+      "path": "assets/refresh-20261105/aee2bffda4d0fd56c63b9e5bc2820b4906d8a8b9.svg",
+      "sha256": "7910c30a80eb5615b366996fca1e2b165a70c3565419df4c05e86b2abb9ac516",
+      "bytes": 787,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgPreviewIcon3"
+        }
+      ],
+      "nativeWidth": 56,
+      "nativeHeight": 56,
+      "viewBox": [
+        0,
+        0,
+        56,
+        56
+      ]
+    },
+    {
+      "sourceAsset": "b3903dd026d4123485aea511c57db17b968322a1.svg",
+      "path": "assets/refresh-20261105/b3903dd026d4123485aea511c57db17b968322a1.svg",
+      "sha256": "7f9de8c08e2c1d8f1766190d9000291e53017c58a1d9065c3ce2fc08dd71bd86",
+      "bytes": 432,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-icon-action-20261105.txt",
+          "constant": "imgIcon1"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "bc1f9611268f4e6215fb8dfdc56d6b7735ac6a92.svg",
+      "path": "assets/refresh-20261105/bc1f9611268f4e6215fb8dfdc56d6b7735ac6a92.svg",
+      "sha256": "9ee6d65a1319389c67abddf59217a9a0a2bdb4624fdbc2d60b7e143218382b86",
+      "bytes": 957,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-tree-20261105.txt",
+          "constant": "imgIcon3"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "beda61733d5cb1343348eba63583c88e4664349d.svg",
+      "path": "assets/refresh-20261105/beda61733d5cb1343348eba63583c88e4664349d.svg",
+      "sha256": "e46a5d42a40360f46d32be991a9151faf22a1c4d64b9fc3015086c1121b32dc8",
+      "bytes": 417,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon9"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "bfedebed6e99a09bd1ee25d2c552d5dac1959d71.svg",
+      "path": "assets/refresh-20261105/bfedebed6e99a09bd1ee25d2c552d5dac1959d71.svg",
+      "sha256": "edaa743f0210c3c98424f144b13fc252e9afc065938bc97d0e4b40cf0722c03d",
+      "bytes": 641,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgIcon5"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "c03849e108ebf5da204bf38a087b61df49d32732.svg",
+      "path": "assets/refresh-20261105/c03849e108ebf5da204bf38a087b61df49d32732.svg",
+      "sha256": "15b6a4a562341c1f0b5a318775e3784f7861021cb5c305108aa51b97de95834a",
+      "bytes": 412,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon8"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "c0c83bbd2e5e0a288cdf9be4aae09a4ac5765b74.svg",
+      "path": "assets/refresh-20261105/c0c83bbd2e5e0a288cdf9be4aae09a4ac5765b74.svg",
+      "sha256": "89f314c49abe687ea883c8ca096dde9a2c1bb514090dec82660b3aa4263fefbe",
+      "bytes": 831,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgPreviewIcon"
+        }
+      ],
+      "nativeWidth": 56,
+      "nativeHeight": 56,
+      "viewBox": [
+        0,
+        0,
+        56,
+        56
+      ]
+    },
+    {
+      "sourceAsset": "c211964d7d953b0fb37937482ce54564b6ad1b19.svg",
+      "path": "assets/refresh-20261105/c211964d7d953b0fb37937482ce54564b6ad1b19.svg",
+      "sha256": "e9de8a537246769aed0c939076731a25b747bc90c478de5b98394503a7208c11",
+      "bytes": 1140,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-action-20261105.txt",
+          "constant": "imgLeadingIcon3"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "c4d6b8c7daefe78215e929b95c4b426bd77f2c9d.svg",
+      "path": "assets/refresh-20261105/c4d6b8c7daefe78215e929b95c4b426bd77f2c9d.svg",
+      "sha256": "473228074fc56ce80898dd9c374df6729ebd6e32c4195f40182bc6c7716de62e",
+      "bytes": 304,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-filter-chip-20261105.txt",
+          "constant": "imgTrailingIcon3"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "c4f1e02ed1b12f79fe3b4684f4d20b6f005d74c7.svg",
+      "path": "assets/refresh-20261105/c4f1e02ed1b12f79fe3b4684f4d20b6f005d74c7.svg",
+      "sha256": "17e1dee000311436eefb1d828842afcb229cc15f593e4e12ad002e62ce40a433",
+      "bytes": 1469,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgIcon2"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "c7c39865aeda6b994ca888f4f24bbc215a4c5748.svg",
+      "path": "assets/refresh-20261105/c7c39865aeda6b994ca888f4f24bbc215a4c5748.svg",
+      "sha256": "a211fe94e5f4f7517f7a4c18e0a21b6e80fa243b50de0966cc71dd5d32d4cd64",
+      "bytes": 1138,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgLeadingIcon"
+        },
+        {
+          "capture": "hub-figma-action-bar-48-20261105.txt",
+          "constant": "imgLeadingIcon"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "cb290306d79d5f8b689172cd3109c6492bbdbd3f.svg",
+      "path": "assets/refresh-20261105/cb290306d79d5f8b689172cd3109c6492bbdbd3f.svg",
+      "sha256": "75e6e2725cd2e11220ae838c0f0af6b84da587b1e8e3c3303f77f5dc4370c044",
+      "bytes": 326,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-runtime-select-20261105.txt",
+          "constant": "imgIconCheck16"
+        },
+        {
+          "capture": "hub-figma-runtime-select-item-20261105.txt",
+          "constant": "imgIconCheck16"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIconCheck16"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-unselected-20261105.txt",
+          "constant": "imgIconCheck16"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "cb9f6dbd50fae166782b9ff6b772fe788a99b1eb.svg",
+      "path": "assets/refresh-20261105/cb9f6dbd50fae166782b9ff6b772fe788a99b1eb.svg",
+      "sha256": "e2e816f0aad59e4355ece2e7f60d6ce68df49672d8918881767c238c9333c826",
+      "bytes": 1170,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-action-bar-48-20261105.txt",
+          "constant": "imgIcon"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "ccfff2810767fa1fa424235f218714c2fdea8db7.svg",
+      "path": "assets/refresh-20261105/ccfff2810767fa1fa424235f218714c2fdea8db7.svg",
+      "sha256": "15b6a4a562341c1f0b5a318775e3784f7861021cb5c305108aa51b97de95834a",
+      "bytes": 412,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon2"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "d01015218c86c16fb9efea1321497045606e38a3.svg",
+      "path": "assets/refresh-20261105/d01015218c86c16fb9efea1321497045606e38a3.svg",
+      "sha256": "689ff0c533d195d617cce51a2177cd83945a5aa791439949815a9afb461771d8",
+      "bytes": 1474,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgPreviewIcon1"
+        }
+      ],
+      "nativeWidth": 56,
+      "nativeHeight": 56,
+      "viewBox": [
+        0,
+        0,
+        56,
+        56
+      ]
+    },
+    {
+      "sourceAsset": "d0578b60a5585f3d0a105237677c6dd85340fd37.svg",
+      "path": "assets/refresh-20261105/d0578b60a5585f3d0a105237677c6dd85340fd37.svg",
+      "sha256": "8a29e5fef96d301e95f37698acd689d164fbd9a7d0d7aeeac388b2e7001fbe0f",
+      "bytes": 17293,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-spinner-20261105.txt",
+          "constant": "imgSizeXLarge"
+        }
+      ],
+      "nativeWidth": 48,
+      "nativeHeight": 48,
+      "viewBox": [
+        0,
+        0,
+        48,
+        48
+      ]
+    },
+    {
+      "sourceAsset": "d1e3eb915c99b390f16acf77fa5bd3e88f53ed79.svg",
+      "path": "assets/refresh-20261105/d1e3eb915c99b390f16acf77fa5bd3e88f53ed79.svg",
+      "sha256": "d69dca8598ff33e9f73684d91e21782c343854bba19e05f54e9dcb8bdf039d0b",
+      "bytes": 450,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-icon-button-20261105.txt",
+          "constant": "imgIcon2"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "d30d94b9f064ef18b1f7cc5d51819557cf553360.png",
+      "path": "assets/refresh-20261105/d30d94b9f064ef18b1f7cc5d51819557cf553360.png",
+      "sha256": "1de1b4ffc4e2a03d0068d5887c48679c4ae58d1b75814c30b849f366bd195fe5",
+      "bytes": 2355978,
+      "format": "png",
+      "reused": false,
+      "rootTag": null,
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgCard"
+        }
+      ],
+      "nativeWidth": 1672,
+      "nativeHeight": 941
+    },
+    {
+      "sourceAsset": "db99554124abe54ebd15c5db063e884bf3879f3b.svg",
+      "path": "assets/refresh-20261105/db99554124abe54ebd15c5db063e884bf3879f3b.svg",
+      "sha256": "3ff46b31c68a49c33aa03f3f2c4bf14b248598a9ef0877bb8b2446ed13ce27ab",
+      "bytes": 417,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon10"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "dd29f4e009dfdee4bab92e06b7f6e48695b8c115.svg",
+      "path": "assets/refresh-20261105/dd29f4e009dfdee4bab92e06b7f6e48695b8c115.svg",
+      "sha256": "d209508a6dce1c7366db9234725199021deb05f7810d9eebd56536da65efb104",
+      "bytes": 1218,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-runtime-select-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-runtime-select-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-runtime-select-item-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-unselected-20261105.txt",
+          "constant": "imgIcon"
+        },
+        {
+          "capture": "hub-figma-snb-runtime-unselected-20261105.txt",
+          "constant": "imgIcon"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "dd8a754a834a2a0a38069b4cc58bf316cf80cdd6.svg",
+      "path": "assets/session/chevron-down-16.svg",
+      "sha256": "1ca73cbbccb43d27ce07871ec30694205181d79ede1ed04f571338c331c51469",
+      "bytes": 311,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-session-no-runtime-20261105.txt",
+          "constant": "imgIconChevronDown16"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "e0eb25463426c08046bbb0b4fb63c2046b5ee0cd.svg",
+      "path": "assets/refresh-20261105/e0eb25463426c08046bbb0b4fb63c2046b5ee0cd.svg",
+      "sha256": "cfad2b5a6f4643edce1de0faac95eeb22e86fc1dc8ce05ca83ac1d9d61462a62",
+      "bytes": 1457,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgLeadingIcon1"
+        },
+        {
+          "capture": "hub-figma-action-bar-48-20261105.txt",
+          "constant": "imgLeadingIcon1"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "e1f564cf986cfb3e831c6098c825354bf910dce2.svg",
+      "path": "assets/refresh-20261105/e1f564cf986cfb3e831c6098c825354bf910dce2.svg",
+      "sha256": "701a8e81dc054e46fda93eb804ea52703228216d24f9a04cfdd012f253e2f111",
+      "bytes": 446,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-icon-button-20261105.txt",
+          "constant": "imgIcon5"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "e2082c429c1faca0e5a41022ead1643cecfa0aab.svg",
+      "path": "assets/refresh-20261105/e2082c429c1faca0e5a41022ead1643cecfa0aab.svg",
+      "sha256": "1ba8498d4b1c8c64e84684c0e4984b5d7f8a26e063c264a5beda973c5923ef08",
+      "bytes": 404,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-icon-button-20261105.txt",
+          "constant": "imgIcon6"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "e4fbb19ef7032aa015b18ca9f12412fa81dbde4c.svg",
+      "path": "assets/refresh-20261105/e4fbb19ef7032aa015b18ca9f12412fa81dbde4c.svg",
+      "sha256": "454a26da2ca2625ec0dbd25c1dd22f4232627d2bfe169dfeccb86944aa775005",
+      "bytes": 298,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgChevron"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "e575531c66b41724a0c9a3d0fd68f68432dac213.svg",
+      "path": "assets/refresh-20261105/9226eff7ceb8c4f167ce4b0f7ed5daaa63e14420.svg",
+      "sha256": "f852bf33737dff3efde3551592b01a6353a3c495f91217b1d4ea158a30d7c623",
+      "bytes": 1162,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-action-bar-40-20261105.txt",
+          "constant": "imgIcon2"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "e94b2b543524952f41dfd643cc310a83d69aee65.svg",
+      "path": "assets/refresh-20261105/e94b2b543524952f41dfd643cc310a83d69aee65.svg",
+      "sha256": "d69dca8598ff33e9f73684d91e21782c343854bba19e05f54e9dcb8bdf039d0b",
+      "bytes": 450,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-icon-button-20261105.txt",
+          "constant": "imgIcon"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "e9f99c9b4fbee6ae6c2e7380c09e70fe9b937e7c.svg",
+      "path": "assets/refresh-20261105/e9f99c9b4fbee6ae6c2e7380c09e70fe9b937e7c.svg",
+      "sha256": "526f869b610c52a1e0b3e38051b368f3d67724351ac13f70ed92140015ba4dc8",
+      "bytes": 417,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon3"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "ed7be4a16ffd7f1e607d0abed5e3eaa8e8c19aab.svg",
+      "path": "assets/refresh-20261105/ed7be4a16ffd7f1e607d0abed5e3eaa8e8c19aab.svg",
+      "sha256": "2c6bf6f32c47fd64ddb8ed8dbb0e60f6000f1f1341edf3c3d5edef427d126e87",
+      "bytes": 800,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgIcon4"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "ef361656099d69899a6b225ad0d585b4a5ea383f.svg",
+      "path": "assets/refresh-20261105/ef361656099d69899a6b225ad0d585b4a5ea383f.svg",
+      "sha256": "1a6a64edc351489cfc9f01cc2378e7fee231bcfd7779cdb2fb2613d999ad6f29",
+      "bytes": 413,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon8"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "ef53c02679b8b6ed0088faffa641394f25c6c5af.svg",
+      "path": "assets/snb/section-plus-16.svg",
+      "sha256": "e98fde72ad54ff44c3e44de5b89cd64b1654b55fa2994157c71dfbe523b52ca3",
+      "bytes": 408,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-snb-runtime-selected-20261105.txt",
+          "constant": "imgIcon3"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "f498313df0a506a3781cb6f3a62ce813f145fef4.svg",
+      "path": "assets/refresh-20261105/f498313df0a506a3781cb6f3a62ce813f145fef4.svg",
+      "sha256": "bd4a57746490055828d1dcd4f1c55a18cedc7d058111d095d84e8662a537b343",
+      "bytes": 1723,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-card-20261105.txt",
+          "constant": "imgPreviewIcon2"
+        }
+      ],
+      "nativeWidth": 56,
+      "nativeHeight": 56,
+      "viewBox": [
+        0,
+        0,
+        56,
+        56
+      ]
+    },
+    {
+      "sourceAsset": "f60ef6da0acd8ecbe4dd7baa6a93b9d83b4a3d0c.svg",
+      "path": "assets/refresh-20261105/f60ef6da0acd8ecbe4dd7baa6a93b9d83b4a3d0c.svg",
+      "sha256": "03c3f73664922171c357ba190e29e88993dd5d97315da54b2fd01601a6d0f5f8",
+      "bytes": 459,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon6"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "f845af811ac934e0711b23d5236a03e3dac3fef9.svg",
+      "path": "assets/refresh-20261105/f845af811ac934e0711b23d5236a03e3dac3fef9.svg",
+      "sha256": "d2fd99f93bfa4d1dfd4ce3c6e6ea919c50291f432dd4eb4d7e7525b0a831895d",
+      "bytes": 17282,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-spinner-20261105.txt",
+          "constant": "imgSizeLarge"
+        }
+      ],
+      "nativeWidth": 36,
+      "nativeHeight": 36,
+      "viewBox": [
+        0,
+        0,
+        36,
+        36
+      ]
+    },
+    {
+      "sourceAsset": "fb4c58cbeeec13108d87069af6880ea378ad64e2.svg",
+      "path": "assets/snb/new-chat-plus-white-hidden-20.svg",
+      "sha256": "66a769c71295963fc52cebfb1485f637d50055789ad0c4220802130af08248ae",
+      "bytes": 455,
+      "format": "svg",
+      "reused": true,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgTrailingIcon"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "fbca48065be5f50b343fe7c8c2a55fd4481698c2.svg",
+      "path": "assets/refresh-20261105/fbca48065be5f50b343fe7c8c2a55fd4481698c2.svg",
+      "sha256": "6d61f6c8808fab14f00df5654ce60edfb472809c6be7c0436a29644a393bee1d",
+      "bytes": 295,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-file-header-20261105.txt",
+          "constant": "imgIcon4"
+        }
+      ],
+      "nativeWidth": 16,
+      "nativeHeight": 16,
+      "viewBox": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "sourceAsset": "fc1ca4d0e80f1bb364ffab5a1987e1a9d9da0bec.svg",
+      "path": "assets/refresh-20261105/fc1ca4d0e80f1bb364ffab5a1987e1a9d9da0bec.svg",
+      "sha256": "04161eb1f32dd777c19ac4c5f7a51d58e4c669a02659a45c1eca4adb3d40d32b",
+      "bytes": 458,
+      "format": "svg",
+      "reused": false,
+      "rootTag": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+      "uses": [
+        {
+          "capture": "hub-figma-button-20261105.txt",
+          "constant": "imgLeadingIcon6"
+        }
+      ],
+      "nativeWidth": 20,
+      "nativeHeight": 20,
+      "viewBox": [
+        0,
+        0,
+        20,
+        20
+      ]
+    },
+    {
+      "sourceAsset": "fef1d15863468ea650dd6d6b8e781a486a7fdc25.png",
+      "path": "assets/refresh-20261105/fef1d15863468ea650dd6d6b8e781a486a7fdc25.png",
+      "sha256": "1a09816ff4c57ec09bb346cb94f01a366c06e265cca72a421a72101854a63141",
+      "bytes": 1037,
+      "format": "png",
+      "reused": false,
+      "rootTag": null,
+      "uses": [
+        {
+          "capture": "hub-figma-file-header-20261105.txt",
+          "constant": "imgContentFade"
+        }
+      ],
+      "nativeWidth": 53,
+      "nativeHeight": 48
+    }
+  ],
+  "captureSourceScope": "captureSources는 제공된 get_design_context의 조회 root를 식별합니다. uses.constant는 해당 응답의 자산 참조 이름이며 개별 glyph의 native source/instance/variable binding을 확인했다는 뜻이 아닙니다. capture basename은 감사 식별자이고 배포 파일 경로나 제품 import 경로가 아닙니다.",
+  "captureSources": {
+    "hub-figma-action-bar-40-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3610:24500",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3610-24500"
+    },
+    "hub-figma-action-bar-48-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3610:24484",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3610-24484"
+    },
+    "hub-figma-action-bar-action-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3621:24690",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3621-24690"
+    },
+    "hub-figma-action-bar-icon-action-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3621:24737",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3621-24737"
+    },
+    "hub-figma-button-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3025:25029",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3025-25029"
+    },
+    "hub-figma-code-line-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3684:20432",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3684-20432"
+    },
+    "hub-figma-file-card-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3624:24877",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3624-24877"
+    },
+    "hub-figma-file-header-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "4056:17947",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=4056-17947"
+    },
+    "hub-figma-file-tab-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "4056:17720",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=4056-17720"
+    },
+    "hub-figma-file-tree-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3746:99265",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3746-99265"
+    },
+    "hub-figma-file-tree-entry-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3713:24469",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3713-24469"
+    },
+    "hub-figma-file-viewer-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3746:96091",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3746-96091"
+    },
+    "hub-figma-filter-chip-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3092:25329",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3092-25329"
+    },
+    "hub-figma-finder-section-title-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3155:20479",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3155-20479"
+    },
+    "hub-figma-icon-button-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "2427:25105",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2427-25105"
+    },
+    "hub-figma-runtime-select-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "4004:27014",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=4004-27014"
+    },
+    "hub-figma-runtime-select-item-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "4004:26884",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=4004-26884"
+    },
+    "hub-figma-segment-button-icon-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "4028:27038",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=4028-27038"
+    },
+    "hub-figma-segmented-control-icon-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "4028:27039",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=4028-27039"
+    },
+    "hub-figma-session-no-runtime-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "4178:41895",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=4178-41895"
+    },
+    "hub-figma-snb-runtime-selected-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "4004:27231",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=4004-27231"
+    },
+    "hub-figma-snb-runtime-unselected-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "4004:27119",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=4004-27119"
+    },
+    "hub-figma-spinner-20261105.txt": {
+      "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+      "rootNodeId": "3801:98448",
+      "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3801-98448"
+    }
+  }
+}

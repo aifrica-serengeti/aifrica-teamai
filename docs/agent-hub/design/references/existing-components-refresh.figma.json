@@ -1,0 +1,1168 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "verifiedAt": "2026-11-05",
+  "status": "figma-metadata-and-generated-context-reference",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "boardNodeId": "3074:101330",
+    "metadataSha256": "95174f326d5add0f961cb43a521a10d77cfad5a03552aab2431c72c14f95c6c8"
+  },
+  "evidenceRules": {
+    "metadataConfirms": [
+      "source ID",
+      "source name and variant labels",
+      "outer frame dimensions",
+      "board placement; not runtime placement"
+    ],
+    "generatedContextConfirms": [
+      "reference code branches",
+      "explicit class/style values",
+      "text and visible conditional composition"
+    ],
+    "nativePropertiesRecollected": false,
+    "notInferred": [
+      "current strokesIncludedInLayout flag",
+      "native componentPropertyDefinitions getter",
+      "state motion",
+      "actual consuming repository source/export",
+      "runtime interaction or accessibility completion"
+    ],
+    "historicalSnapshotsModified": false
+  },
+  "components": [
+    {
+      "componentId": "AgentHubButton",
+      "correspondingBoardNodeId": "3025:25029",
+      "metadataRootTag": "frame",
+      "metadataRootName": "button",
+      "metadataVariants": [
+        {
+          "id": "3025:24940",
+          "name": "type=primary, size=40, state=enabled",
+          "x": 24,
+          "y": 24,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3025:24951",
+          "name": "type=primary, size=40, state=hovered",
+          "x": 164,
+          "y": 24,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3025:24962",
+          "name": "type=primary, size=40, state=pressed",
+          "x": 304,
+          "y": 24,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3025:24973",
+          "name": "type=secondary, size=40, state=enabled",
+          "x": 24,
+          "y": 88,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3025:24984",
+          "name": "type=secondary, size=40, state=hovered",
+          "x": 164,
+          "y": 88,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3025:24995",
+          "name": "type=secondary, size=40, state=pressed",
+          "x": 304,
+          "y": 88,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3025:25006",
+          "name": "type=tertiary, size=40, state=enabled",
+          "x": 24,
+          "y": 152,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3025:25017",
+          "name": "type=tertiary, size=40, state=hovered",
+          "x": 164,
+          "y": 152,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3025:25028",
+          "name": "type=tertiary, size=40, state=pressed",
+          "x": 304,
+          "y": 152,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3073:366",
+          "name": "type=primary, size=32, state=enabled",
+          "x": 24,
+          "y": 216,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3073:370",
+          "name": "type=primary, size=32, state=hovered",
+          "x": 171,
+          "y": 216,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3073:374",
+          "name": "type=primary, size=32, state=pressed",
+          "x": 311,
+          "y": 216,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3073:378",
+          "name": "type=secondary, size=32, state=enabled",
+          "x": 24,
+          "y": 272,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3073:382",
+          "name": "type=secondary, size=32, state=hovered",
+          "x": 171,
+          "y": 272,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3073:386",
+          "name": "type=secondary, size=32, state=pressed",
+          "x": 311,
+          "y": 272,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3073:390",
+          "name": "type=tertiary, size=32, state=enabled",
+          "x": 24,
+          "y": 328,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3073:394",
+          "name": "type=tertiary, size=32, state=hovered",
+          "x": 171,
+          "y": 328,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3073:398",
+          "name": "type=tertiary, size=32, state=pressed",
+          "x": 311,
+          "y": 328,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3109:60",
+          "name": "type=primary, size=28, state=enabled",
+          "x": 24,
+          "y": 456,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3109:74",
+          "name": "type=primary, size=28, state=hovered",
+          "x": 233,
+          "y": 456,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3109:88",
+          "name": "type=primary, size=28, state=pressed",
+          "x": 442,
+          "y": 456,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3109:102",
+          "name": "type=secondary, size=28, state=enabled",
+          "x": 24,
+          "y": 508,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3109:116",
+          "name": "type=secondary, size=28, state=hovered",
+          "x": 233,
+          "y": 508,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3109:130",
+          "name": "type=secondary, size=28, state=pressed",
+          "x": 442,
+          "y": 508,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3109:144",
+          "name": "type=tertiary, size=28, state=enabled",
+          "x": 24,
+          "y": 560,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3109:158",
+          "name": "type=tertiary, size=28, state=hovered",
+          "x": 233,
+          "y": 560,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3109:172",
+          "name": "type=tertiary, size=28, state=pressed",
+          "x": 442,
+          "y": 560,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3074:97439",
+          "name": "type=primary, size=40, state=disabled",
+          "x": 444,
+          "y": 24,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3114:114500",
+          "name": "type=secondary, size=40, state=disabled",
+          "x": 444,
+          "y": 88,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3114:114504",
+          "name": "type=tertiary, size=40, state=disabled",
+          "x": 444,
+          "y": 152,
+          "width": 116,
+          "height": 40
+        },
+        {
+          "id": "3114:114508",
+          "name": "type=primary, size=32, state=disabled",
+          "x": 458,
+          "y": 216,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3114:114512",
+          "name": "type=secondary, size=32, state=disabled",
+          "x": 458,
+          "y": 272,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3114:114516",
+          "name": "type=tertiary, size=32, state=disabled",
+          "x": 458,
+          "y": 328,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3114:114520",
+          "name": "type=primary, size=28, state=disabled",
+          "x": 651,
+          "y": 456,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3114:114528",
+          "name": "type=secondary, size=28, state=disabled",
+          "x": 651,
+          "y": 508,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3114:114536",
+          "name": "type=tertiary, size=28, state=disabled",
+          "x": 651,
+          "y": 560,
+          "width": 185,
+          "height": 28
+        },
+        {
+          "id": "3116:14",
+          "name": "type=ghost, size=28, state=enabled",
+          "x": 24,
+          "y": 612,
+          "width": 181,
+          "height": 28
+        },
+        {
+          "id": "3116:29",
+          "name": "type=ghost, size=28, state=hovered",
+          "x": 233,
+          "y": 612,
+          "width": 181,
+          "height": 28
+        },
+        {
+          "id": "3116:44",
+          "name": "type=ghost, size=28, state=pressed",
+          "x": 442,
+          "y": 612,
+          "width": 181,
+          "height": 28
+        },
+        {
+          "id": "3116:59",
+          "name": "type=ghost, size=28, state=disabled",
+          "x": 651,
+          "y": 612,
+          "width": 181,
+          "height": 28
+        },
+        {
+          "id": "3130:25694",
+          "name": "type=ghost, size=24, state=enabled",
+          "x": 24,
+          "y": 664,
+          "width": 176,
+          "height": 24
+        },
+        {
+          "id": "3130:25707",
+          "name": "type=ghost, size=24, state=hovered",
+          "x": 233,
+          "y": 664,
+          "width": 176,
+          "height": 24
+        },
+        {
+          "id": "3130:25720",
+          "name": "type=ghost, size=24, state=pressed",
+          "x": 442,
+          "y": 664,
+          "width": 176,
+          "height": 24
+        },
+        {
+          "id": "3130:25733",
+          "name": "type=ghost, size=24, state=disabled",
+          "x": 651,
+          "y": 664,
+          "width": 176,
+          "height": 24
+        },
+        {
+          "id": "3587:22784",
+          "name": "type=primary, size=24, state=enabled",
+          "x": 24,
+          "y": 716,
+          "width": 181,
+          "height": 24
+        },
+        {
+          "id": "3587:22792",
+          "name": "type=primary, size=24, state=hovered",
+          "x": 233,
+          "y": 716,
+          "width": 181,
+          "height": 24
+        },
+        {
+          "id": "3587:22800",
+          "name": "type=primary, size=24, state=pressed",
+          "x": 442,
+          "y": 716,
+          "width": 181,
+          "height": 24
+        },
+        {
+          "id": "3587:22808",
+          "name": "type=primary, size=24, state=disabled",
+          "x": 651,
+          "y": 716,
+          "width": 181,
+          "height": 24
+        },
+        {
+          "id": "3593:282",
+          "name": "type=ghost, size=32, state=enabled",
+          "x": 24,
+          "y": 384,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3593:286",
+          "name": "type=ghost, size=32, state=hovered",
+          "x": 171,
+          "y": 384,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3593:290",
+          "name": "type=ghost, size=32, state=pressed",
+          "x": 311,
+          "y": 384,
+          "width": 103,
+          "height": 32
+        },
+        {
+          "id": "3593:294",
+          "name": "type=ghost, size=32, state=disabled",
+          "x": 458,
+          "y": 384,
+          "width": 103,
+          "height": 32
+        }
+      ],
+      "contextEvidence": {
+        "captureFilename": "hub-figma-button-20261105.txt",
+        "captureSha256": "ef287e62d1cc25a0a6ba03731dcc394b1b5a98ae65d265a7f2febe518046ad66",
+        "captureBytes": 114822,
+        "generatedCode": "const imgLeadingIcon = \"http://localhost:3845/assets/255bc504eb86e8b854322d8313c493ce68e5c152.svg\";\nconst imgTrailingIcon = \"http://localhost:3845/assets/fb4c58cbeeec13108d87069af6880ea378ad64e2.svg\";\nconst imgLeadingIcon1 = \"http://localhost:3845/assets/59fb4493d43228a647a5d32fd5038515fd2e0dc4.svg\";\nconst imgTrailingIcon1 = \"http://localhost:3845/assets/4bac5cce825b0fd512c6d3faf5f2e5c8cf783515.svg\";\nconst imgLeadingIcon2 = \"http://localhost:3845/assets/ccfff2810767fa1fa424235f218714c2fdea8db7.svg\";\nconst imgTrailingIcon2 = \"http://localhost:3845/assets/a05faf724797ff04fbf1378ed4157438a93a370b.svg\";\nconst imgLeadingIcon3 = \"http://localhost:3845/assets/598252bd5a7f4c0bfd391bafaa2d333c9fe37c4b.svg\";\nconst imgTrailingIcon3 = \"http://localhost:3845/assets/e9f99c9b4fbee6ae6c2e7380c09e70fe9b937e7c.svg\";\nconst imgLeadingIcon4 = \"http://localhost:3845/assets/4937338ef72e8738d2535e917b632d3f383d715d.svg\";\nconst imgTrailingIcon4 = \"http://localhost:3845/assets/1f0b0f80c0053aa76a12befa2b2e11c45f9ef7f6.svg\";\nconst imgLeadingIcon5 = \"http://localhost:3845/assets/96e24eb61838c78bee98dc6a5dc3c03ca0a0ce91.svg\";\nconst imgTrailingIcon5 = \"http://localhost:3845/assets/74b51b1b3daca9e2c01e8cd87e63ef50a9b8488c.svg\";\nconst imgLeadingIcon6 = \"http://localhost:3845/assets/fc1ca4d0e80f1bb364ffab5a1987e1a9d9da0bec.svg\";\nconst imgTrailingIcon6 = \"http://localhost:3845/assets/f60ef6da0acd8ecbe4dd7baa6a93b9d83b4a3d0c.svg\";\nconst imgLeadingIcon7 = \"http://localhost:3845/assets/5a5fccf4956819f6018d84d14a695815489a865d.svg\";\nconst imgTrailingIcon7 = \"http://localhost:3845/assets/183b5e142904792d2d56bbd1f5c5f65a8addba0f.svg\";\nconst imgLeadingIcon8 = \"http://localhost:3845/assets/c03849e108ebf5da204bf38a087b61df49d32732.svg\";\nconst imgTrailingIcon8 = \"http://localhost:3845/assets/ef361656099d69899a6b225ad0d585b4a5ea383f.svg\";\nconst imgLeadingIcon9 = \"http://localhost:3845/assets/97503e8f970dd78e4470d0cbe50629435095653b.svg\";\nconst imgTrailingIcon9 = \"http://localhost:3845/assets/beda61733d5cb1343348eba63583c88e4664349d.svg\";\nconst imgLeadingIcon10 = \"http://localhost:3845/assets/8054187c68491c4ace696f38813f06bf60d103b1.svg\";\nconst imgTrailingIcon10 = \"http://localhost:3845/assets/db99554124abe54ebd15c5db063e884bf3879f3b.svg\";\ntype ButtonProps = {\n  className?: string;\n  keycap?: boolean;\n  label?: string;\n  leadingIcon?: boolean;\n  size?: \"40\" | \"32\" | \"28\" | \"24\";\n  state?: \"enabled\" | \"hovered\" | \"pressed\" | \"disabled\";\n  trailingIcon?: boolean;\n  type?: \"primary\" | \"secondary\" | \"tertiary\" | \"ghost\";\n};\n\nexport default function Button({ className, keycap = true, label = \"label\", leadingIcon = true, size = \"40\", state = \"enabled\", trailingIcon = true, type = \"primary\" }: ButtonProps) {\n  if (type === \"primary\" && size === \"40\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-hovered,#06f)] content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3025:24951\" data-name=\"type=primary, size=40, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24945\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3025:24943\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24948\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"40\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-pressed,#0056d6)] content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3025:24962\" data-name=\"type=primary, size=40, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24956\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3025:24954\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24959\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"40\" && state === \"enabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill,#cce0ff)] content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3025:24973\" data-name=\"type=secondary, size=40, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24967\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon1} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-secondary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3025:24965\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24970\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon1} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"40\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill-hovered,#99c2ff)] content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3025:24984\" data-name=\"type=secondary, size=40, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24978\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon1} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-secondary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3025:24976\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24981\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon1} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"40\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill-pressed,#66a3ff)] content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3025:24995\" data-name=\"type=secondary, size=40, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24989\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-secondary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3025:24987\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24992\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"40\" && state === \"enabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill,white)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3025:25006\" data-name=\"type=tertiary, size=40, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:25000\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon1} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3025:24998\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:25003\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon1} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"40\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill-hovered,#f8f8f8)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3025:25017\" data-name=\"type=tertiary, size=40, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:25011\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon1} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3025:25009\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:25014\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon1} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"40\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill-pressed,#f4f4f4)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3025:25028\" data-name=\"type=tertiary, size=40, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:25022\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon1} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3025:25020\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:25025\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon1} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"32\" && state === \"enabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill,#3b82f6)] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3073:366\" data-name=\"type=primary, size=32, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:367\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon2} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3073:368\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:369\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon2} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"32\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-hovered,#06f)] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3073:370\" data-name=\"type=primary, size=32, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:371\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon2} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3073:372\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:373\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon2} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"32\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-pressed,#0056d6)] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3073:374\" data-name=\"type=primary, size=32, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:375\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon2} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3073:376\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:377\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon2} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"32\" && state === \"enabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill,#cce0ff)] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3073:378\" data-name=\"type=secondary, size=32, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:379\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-secondary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3073:380\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:381\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"32\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill-hovered,#99c2ff)] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3073:382\" data-name=\"type=secondary, size=32, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:383\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-secondary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3073:384\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:385\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"32\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill-pressed,#66a3ff)] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3073:386\" data-name=\"type=secondary, size=32, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:387\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-secondary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3073:388\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:389\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"32\" && state === \"enabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill,white)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3073:390\" data-name=\"type=tertiary, size=32, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:391\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3073:392\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:393\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"32\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill-hovered,#f8f8f8)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3073:394\" data-name=\"type=tertiary, size=32, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:395\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3073:396\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:397\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"32\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill-pressed,#f4f4f4)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3073:398\" data-name=\"type=tertiary, size=32, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:399\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3073:400\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3073:401\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"28\" && state === \"enabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill,#3b82f6)] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3109:60\" data-name=\"type=primary, size=28, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:68\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon4} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3109:62\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3110:916\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:917\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3110:917;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:919\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3110:919;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:921\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3110:921;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:71\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon4} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"28\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-hovered,#06f)] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3109:74\" data-name=\"type=primary, size=28, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:82\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon4} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3109:76\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3110:923\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:924\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3110:924;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:926\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3110:926;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:928\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3110:928;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:85\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon4} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"28\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-pressed,#0056d6)] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3109:88\" data-name=\"type=primary, size=28, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:96\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon4} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3109:90\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3110:930\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:931\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3110:931;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:933\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3110:933;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:935\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3110:935;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:99\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon4} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"28\" && state === \"enabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill,#cce0ff)] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3109:102\" data-name=\"type=secondary, size=28, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:110\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-secondary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3109:104\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3110:937\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:938\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3110:938;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:940\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3110:940;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:942\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3110:942;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:113\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"28\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill-hovered,#99c2ff)] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3109:116\" data-name=\"type=secondary, size=28, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:124\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-secondary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3109:118\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3074:99038\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3074:99039\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3074:99039;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3074:99040\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3074:99040;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3074:99041\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3074:99041;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:127\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"28\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill-pressed,#66a3ff)] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3109:130\" data-name=\"type=secondary, size=28, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:138\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-secondary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3109:132\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3074:99062\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3074:99063\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3074:99063;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3074:99064\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3074:99064;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3074:99065\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3074:99065;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:141\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"28\" && state === \"enabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill,white)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3109:144\" data-name=\"type=tertiary, size=28, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:152\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3109:146\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3110:958\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:959\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3110:959;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:961\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3110:961;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:963\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3110:963;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:155\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"28\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill-hovered,#f8f8f8)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3109:158\" data-name=\"type=tertiary, size=28, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:166\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3109:160\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3110:965\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:966\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3110:966;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:968\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3110:968;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:970\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3110:970;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:169\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"28\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill-pressed,#f4f4f4)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3109:172\" data-name=\"type=tertiary, size=28, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:180\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3109:174\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3110:972\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:973\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3110:973;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:975\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3110:975;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3110:977\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3110:977;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3109:183\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"40\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-disabled,#99c2ff)] content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3074:97439\" data-name=\"type=primary, size=40, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3074:97440\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon5} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-primary-disabled,white)] whitespace-nowrap\" data-node-id=\"3074:97441\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3074:97442\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon5} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"40\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill-disabled,white)] content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3114:114500\" data-name=\"type=secondary, size=40, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3114:114501\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon6} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-secondary-disabled,#99c2ff)] whitespace-nowrap\" data-node-id=\"3114:114502\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3114:114503\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon6} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"40\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill-disabled,white)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3114:114504\" data-name=\"type=tertiary, size=40, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3114:114505\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon7} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-tertiary-disabled,#aaa)] whitespace-nowrap\" data-node-id=\"3114:114506\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3114:114507\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon7} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"32\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-disabled,#99c2ff)] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3114:114508\" data-name=\"type=primary, size=32, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114509\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon8} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-primary-disabled,white)] whitespace-nowrap\" data-node-id=\"3114:114510\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114511\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon8} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"32\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill-disabled,white)] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3114:114512\" data-name=\"type=secondary, size=32, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114513\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon9} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-secondary-disabled,#99c2ff)] whitespace-nowrap\" data-node-id=\"3114:114514\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114515\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon9} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"32\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill-disabled,white)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3114:114516\" data-name=\"type=tertiary, size=32, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114517\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon10} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary-disabled,#aaa)] whitespace-nowrap\" data-node-id=\"3114:114518\">\n          {label}\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114519\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon10} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"28\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-disabled,#99c2ff)] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3114:114520\" data-name=\"type=primary, size=28, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114521\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon8} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-primary-disabled,white)] whitespace-nowrap\" data-node-id=\"3114:114522\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3114:114523\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3114:114524\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3114:114524;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3114:114525\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3114:114525;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3114:114526\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3114:114526;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114527\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon8} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"secondary\" && size === \"28\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/secondary-fill-disabled,white)] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3114:114528\" data-name=\"type=secondary, size=28, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114529\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon9} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-secondary-disabled,#99c2ff)] whitespace-nowrap\" data-node-id=\"3114:114530\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3074:99054\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3074:99055\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3074:99055;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3074:99056\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3074:99056;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-secondary-border,#99c2ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3074:99057\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-secondary-text,#3b82f6)] text-center whitespace-nowrap\" data-node-id=\"I3074:99057;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114535\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon9} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"tertiary\" && size === \"28\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/tertiary-fill-disabled,white)] border border-[var(--color\\\\/button\\\\/tertiary-border,#ddd)] border-solid content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3114:114536\" data-name=\"type=tertiary, size=28, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114537\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon10} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary-disabled,#aaa)] whitespace-nowrap\" data-node-id=\"3114:114538\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3114:114539\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/disabled-subtler,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3114:114540\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-center whitespace-nowrap\" data-node-id=\"I3114:114540;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/disabled-subtler,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3114:114541\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-center whitespace-nowrap\" data-node-id=\"I3114:114541;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/disabled-subtler,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3114:114542\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-center whitespace-nowrap\" data-node-id=\"I3114:114542;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3114:114543\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon10} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"28\" && state === \"enabled\") {\n    return (\n      <div className={className || \"content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[6px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3116:14\" data-name=\"type=ghost, size=28, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3116:15\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3116:16\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3116:17\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:18\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3116:18;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:19\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3116:19;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:20\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3116:20;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3116:21\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"28\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/opacity-hovered,rgba(0,0,0,0.05))] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[6px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3116:29\" data-name=\"type=ghost, size=28, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3116:30\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3116:31\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3116:32\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:33\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3116:33;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:34\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3116:34;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:35\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3116:35;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3116:36\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"28\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/opacity-pressed,rgba(0,0,0,0.1))] content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[6px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3116:44\" data-name=\"type=ghost, size=28, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3116:45\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3116:46\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3116:47\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:48\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3116:48;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:49\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3116:49;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:50\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3116:50;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3116:51\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"28\" && state === \"disabled\") {\n    return (\n      <div className={className || \"content-stretch flex gap-[4px] h-[28px] items-center justify-center overflow-clip px-[8px] py-[6px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3116:59\" data-name=\"type=ghost, size=28, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3116:60\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon10} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/button\\/on-tertiary-disabled,#aaa)] whitespace-nowrap\" data-node-id=\"3116:61\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3116:62\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/disabled-subtler,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:63\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-center whitespace-nowrap\" data-node-id=\"I3116:63;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/disabled-subtler,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:64\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-center whitespace-nowrap\" data-node-id=\"I3116:64;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/disabled-subtler,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3116:65\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-center whitespace-nowrap\" data-node-id=\"I3116:65;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3116:66\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon10} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"24\" && state === \"enabled\") {\n    return (\n      <div className={className || \"content-stretch flex gap-[4px] h-[24px] items-center justify-center overflow-clip px-[4px] py-[2px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3130:25694\" data-name=\"type=ghost, size=24, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3130:25695\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3130:25704\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3130:25697\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25698\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3130:25698;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25699\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3130:25699;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25700\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3130:25700;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3130:25701\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"24\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/opacity-hovered,rgba(0,0,0,0.05))] content-stretch flex gap-[4px] h-[24px] items-center justify-center overflow-clip px-[4px] py-[2px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3130:25707\" data-name=\"type=ghost, size=24, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3130:25708\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3130:25717\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3130:25710\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25711\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3130:25711;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25712\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3130:25712;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25713\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3130:25713;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3130:25714\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"24\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/opacity-pressed,rgba(0,0,0,0.1))] content-stretch flex gap-[4px] h-[24px] items-center justify-center overflow-clip px-[4px] py-[2px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3130:25720\" data-name=\"type=ghost, size=24, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3130:25721\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3130:25730\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3130:25723\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25724\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3130:25724;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25725\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3130:25725;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/default,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25726\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-center whitespace-nowrap\" data-node-id=\"I3130:25726;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3130:25727\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"24\" && state === \"disabled\") {\n    return (\n      <div className={className || \"content-stretch flex gap-[4px] h-[24px] items-center justify-center overflow-clip px-[4px] py-[2px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3130:25733\" data-name=\"type=ghost, size=24, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3130:25734\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon10} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary-disabled,#aaa)] whitespace-nowrap\" data-node-id=\"3130:25743\">\n          {label}\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3130:25736\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/border\\/disabled-subtler,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25737\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-center whitespace-nowrap\" data-node-id=\"I3130:25737;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/disabled-subtler,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25738\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-center whitespace-nowrap\" data-node-id=\"I3130:25738;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/border\\/disabled-subtler,#ddd)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3130:25739\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-center whitespace-nowrap\" data-node-id=\"I3130:25739;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3130:25740\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon10} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"24\" && state === \"enabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill,#3b82f6)] content-stretch flex gap-[4px] h-[24px] items-center justify-center overflow-clip px-[8px] py-[2px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3587:22784\" data-name=\"type=primary, size=24, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3587:22785\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon4} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3587:22786\">\n          label\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3587:22787\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22788\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22788;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22789\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22789;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22790\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22790;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3587:22791\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon4} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"24\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-hovered,#06f)] content-stretch flex gap-[4px] h-[24px] items-center justify-center overflow-clip px-[8px] py-[2px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3587:22792\" data-name=\"type=primary, size=24, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3587:22793\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon4} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3587:22794\">\n          label\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3587:22795\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22796\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22796;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22797\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22797;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22798\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22798;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3587:22799\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon4} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"24\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-pressed,#0056d6)] content-stretch flex gap-[4px] h-[24px] items-center justify-center overflow-clip px-[8px] py-[2px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3587:22800\" data-name=\"type=primary, size=24, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3587:22801\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon4} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3587:22802\">\n          label\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3587:22803\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22804\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22804;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22805\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22805;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22806\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22806;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3587:22807\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon4} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"primary\" && size === \"24\" && state === \"disabled\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill-disabled,#99c2ff)] content-stretch flex gap-[4px] h-[24px] items-center justify-center overflow-clip px-[8px] py-[2px] relative rounded-[var(--radius\\\\/control-sm,4px)]\"} data-node-id=\"3587:22808\" data-name=\"type=primary, size=24, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3587:22809\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon8} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/button\\/on-primary-disabled,white)] whitespace-nowrap\" data-node-id=\"3587:22810\">\n          label\n        </p>\n        {keycap && (\n          <div className=\"content-stretch flex gap-[2px] items-center overflow-clip relative shrink-0\" data-node-id=\"3587:22811\" data-name=\"keycaps\">\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22812\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22812;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22813\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22813;2627:6195\">\n                Esc\n              </p>\n            </div>\n            <div className=\"border border-[var(--color\\/keycap\\/on-primary-border,#b9d5ff)] border-solid content-stretch flex flex-col items-center justify-center px-[4px] relative rounded-[4px] shrink-0\" data-node-id=\"3587:22814\" data-name=\"keycap\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/keycap\\/on-primary-text,#dae9ff)] text-center whitespace-nowrap\" data-node-id=\"I3587:22814;2627:6195\">\n                Esc\n              </p>\n            </div>\n          </div>\n        )}\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3587:22815\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon8} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"32\" && state === \"enabled\") {\n    return (\n      <div className={className || \"content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3593:282\" data-name=\"type=ghost, size=32, state=enabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3593:283\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3593:284\">\n          label\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3593:285\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"32\" && state === \"hovered\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/opacity-hovered,rgba(0,0,0,0.05))] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3593:286\" data-name=\"type=ghost, size=32, state=hovered\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3593:287\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3593:288\">\n          label\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3593:289\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"32\" && state === \"pressed\") {\n    return (\n      <div className={className || \"bg-[var(--color\\\\/button\\\\/opacity-pressed,rgba(0,0,0,0.1))] content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3593:290\" data-name=\"type=ghost, size=32, state=pressed\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3593:291\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary,#1c1c1c)] whitespace-nowrap\" data-node-id=\"3593:292\">\n          label\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3593:293\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  if (type === \"ghost\" && size === \"32\" && state === \"disabled\") {\n    return (\n      <div className={className || \"content-stretch flex gap-[4px] h-[32px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-md,6px)]\"} data-node-id=\"3593:294\" data-name=\"type=ghost, size=32, state=disabled\">\n        {leadingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3593:295\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon10} />\n          </div>\n        )}\n        <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/button\\/on-tertiary-disabled,#aaa)] whitespace-nowrap\" data-node-id=\"3593:296\">\n          label\n        </p>\n        {trailingIcon && (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3593:297\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon10} />\n          </div>\n        )}\n      </div>\n    );\n  }\n  return (\n    <div className={className || \"bg-[var(--color\\\\/button\\\\/primary-fill,#3b82f6)] content-stretch flex gap-[4px] h-[40px] items-center justify-center overflow-clip px-[16px] py-[4px] relative rounded-[var(--radius\\\\/control-lg,8px)]\"} data-node-id=\"3025:24940\" data-name=\"type=primary, size=40, state=enabled\">\n      {leadingIcon && (\n        <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24934\" data-name=\"leading-icon\">\n          <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon} />\n        </div>\n      )}\n      <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--color\\/button\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3025:24932\">\n        {label}\n      </p>\n      {trailingIcon && (\n        <div className=\"relative shrink-0 size-[20px]\" data-node-id=\"3025:24937\" data-name=\"trailing-icon\">\n          <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon} />\n        </div>\n      )}\n    </div>\n  );\n}"
+      },
+      "historicalSnapshot": {
+        "path": "references/button.figma.json",
+        "sha256": "cb350ef501ca41909651c3c2dba257c95f7941b79abfe2718abe1c635876637f"
+      },
+      "observations": {
+        "currentVariantCount": 52,
+        "historicalVariantCount": 44,
+        "addedSourceNodeIds": [
+          "3587:22784",
+          "3587:22792",
+          "3587:22800",
+          "3587:22808",
+          "3593:282",
+          "3593:286",
+          "3593:290",
+          "3593:294"
+        ],
+        "addedSizeRecipes": [
+          {
+            "type": "primary",
+            "size": 24,
+            "paddingX": 8,
+            "paddingY": 2,
+            "radius": 4,
+            "gap": 4,
+            "fontFamily": "Pretendard",
+            "fontWeight": 600,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "iconBox": 16,
+            "keycapExamples": 3,
+            "evidence": "generated-context; outer height and sample width from metadata"
+          },
+          {
+            "type": "ghost",
+            "size": 32,
+            "paddingX": 16,
+            "paddingY": 4,
+            "radius": 6,
+            "gap": 4,
+            "fontFamily": "Pretendard",
+            "fontWeight": 600,
+            "fontSize": 14,
+            "lineHeight": 20,
+            "iconBox": 16,
+            "keycapExamples": 0,
+            "evidence": "generated-context; outer height and sample width from metadata"
+          }
+        ],
+        "preservedProductAdoptions": [
+          "secondary40 pressed label/icon currentColor despite white icon historical source exception",
+          "200ms property-specific color transitions and reduced-motion completion"
+        ],
+        "unsupportedCombinations": [
+          "secondary24",
+          "tertiary24",
+          "ghost40",
+          "negative"
+        ]
+      }
+    },
+    {
+      "componentId": "AgentHubScrollbar",
+      "correspondingBoardNodeId": "3679:88871",
+      "metadataRootTag": "frame",
+      "metadataRootName": "scroll-bar",
+      "metadataVariants": [
+        {
+          "id": "3155:20473",
+          "name": "direction=vertical",
+          "x": 19,
+          "y": 13,
+          "width": 11,
+          "height": 180
+        },
+        {
+          "id": "3679:88872",
+          "name": "direction=horizontal",
+          "x": 58,
+          "y": 16,
+          "width": 180,
+          "height": 11
+        }
+      ],
+      "contextEvidence": {
+        "captureFilename": "hub-figma-scrollbar-20261105.txt",
+        "captureSha256": "2e0e1676fec5381112c8efeb281c4903e9fb14ce0302e18880f127a669c45584",
+        "captureBytes": 2068,
+        "generatedCode": "type ScrollBarProps = {\n  className?: string;\n  direction?: \"vertical\" | \"horizontal\";\n};\n\nexport default function ScrollBar({ className, direction = \"vertical\" }: ScrollBarProps) {\n  const isHorizontal = direction === \"horizontal\";\n  return (\n    <div className={className || `content-stretch flex items-start pr-px pt-px relative ${isHorizontal ? \"h-[11px] w-[180px]\" : \"h-[180px] w-[11px]\"}`} id={isHorizontal ? \"node-3679_88872\" : \"node-3155_20473\"}>\n      <div className={`${String.raw`absolute bg-[var(--color\\/scroll\\/default,#ddd)] left-[3px] rounded-[var(--radius\\/full,9999px)] top-[3px] `}${isHorizontal ? \"h-[4px] w-[160px]\" : \"h-[160px] w-[4px]\"}`} id={isHorizontal ? \"node-3679_88873\" : \"node-3155_20472\"} data-name=\"thumb\" />\n    </div>\n  );\n}"
+      },
+      "historicalSnapshot": {
+        "path": "references/scrollbar.figma.json",
+        "sha256": "6359c2d9c19a13cb84069118e50fe55888cedb8addfe02d20a370e80ad9e6c58"
+      },
+      "observations": {
+        "directions": [
+          {
+            "direction": "vertical",
+            "nodeId": "3155:20473",
+            "width": 11,
+            "height": 180,
+            "thumbNodeId": "3155:20472",
+            "thumb": {
+              "x": 3,
+              "y": 3,
+              "width": 4,
+              "height": 160
+            }
+          },
+          {
+            "direction": "horizontal",
+            "nodeId": "3679:88872",
+            "width": 180,
+            "height": 11,
+            "thumbNodeId": "3679:88873",
+            "thumb": {
+              "x": 3,
+              "y": 3,
+              "width": 160,
+              "height": 4
+            }
+          }
+        ],
+        "thumbPaintFromContext": {
+          "fill": "#DDDDDD",
+          "radius": 9999
+        },
+        "preservedProductAdoptions": [
+          "default gutter11",
+          "SNB gutter27",
+          "SNB additional vertical track padding end24"
+        ],
+        "runtimeOrientationApiChanged": false
+      }
+    },
+    {
+      "componentId": "Divider",
+      "correspondingBoardNodeId": "3630:75445",
+      "metadataRootTag": "frame",
+      "metadataRootName": "divider",
+      "metadataVariants": [
+        {
+          "id": "3155:20478",
+          "name": "direction=horizontal",
+          "x": 20,
+          "y": 20,
+          "width": 168,
+          "height": 17
+        },
+        {
+          "id": "3630:75446",
+          "name": "direction=vertical",
+          "x": 20,
+          "y": 57,
+          "width": 17,
+          "height": 168
+        }
+      ],
+      "contextEvidence": {
+        "captureFilename": "hub-figma-divider-20261105.txt",
+        "captureSha256": "37deb9765bd8ba1574a48dd9245cc0526ce12978255e97b3e5936758ec8f2797",
+        "captureBytes": 1980,
+        "generatedCode": "type DividerProps = {\n  className?: string;\n  direction?: \"horizontal\" | \"vertical\";\n};\n\nexport default function Divider({ className, direction = \"horizontal\" }: DividerProps) {\n  const isVertical = direction === \"vertical\";\n  return (\n    <div className={className || `content-stretch flex flex-col items-start relative ${isVertical ? \"px-[8px]\" : \"py-[8px] w-[168px]\"}`} id={isVertical ? \"node-3630_75446\" : \"node-3155_20478\"}>\n      <div className={`${String.raw`bg-[var(--color\\/border\\/default,#ddd)] relative shrink-0 `}${isVertical ? \"h-[168px] w-px\" : \"h-px w-full\"}`} id={isVertical ? \"node-3630_75447\" : \"node-3155_20477\"} data-name=\"line\" />\n    </div>\n  );\n}"
+      },
+      "historicalSnapshot": {
+        "path": "references/divider.figma.json",
+        "sha256": "6a6cf981f1976cd60e77978f1bc730ba3c99fc0250ae310ad8b8c4f36782832a"
+      },
+      "observations": {
+        "reuse": "common Divider; no AgentHubDivider registry ID needed",
+        "directions": [
+          {
+            "direction": "horizontal",
+            "nodeId": "3155:20478",
+            "width": 168,
+            "height": 17,
+            "paddingX": 0,
+            "paddingY": 8,
+            "lineNodeId": "3155:20477",
+            "lineWidth": 168,
+            "lineHeight": 1
+          },
+          {
+            "direction": "vertical",
+            "nodeId": "3630:75446",
+            "width": 17,
+            "height": 168,
+            "paddingX": 8,
+            "paddingY": 0,
+            "lineNodeId": "3630:75447",
+            "lineWidth": 1,
+            "lineHeight": 168
+          }
+        ],
+        "linePaintFromContext": "#DDDDDD",
+        "note": "3630:75445 is the board set, not the horizontal variant source."
+      }
+    },
+    {
+      "componentId": "AgentHubSessionPanel",
+      "correspondingBoardNodeId": "2975:69460",
+      "metadataRootTag": "frame",
+      "metadataRootName": "session-panel",
+      "metadataVariants": [
+        {
+          "id": "2975:69459",
+          "name": "state=filled",
+          "x": 378,
+          "y": 20,
+          "width": 320,
+          "height": 934
+        },
+        {
+          "id": "2975:69458",
+          "name": "state=empty",
+          "x": 20,
+          "y": 20,
+          "width": 320,
+          "height": 154
+        },
+        {
+          "id": "4178:41895",
+          "name": "state=no-runtime",
+          "x": 20,
+          "y": 194,
+          "width": 320,
+          "height": 78
+        }
+      ],
+      "contextEvidence": {
+        "captureFilename": "hub-figma-session-no-runtime-20261105.txt",
+        "captureSha256": "3bebf86cd9a378c82045389d6ebe5f1a255bee7ac7cbd13e83c8f3d872d8a674",
+        "captureBytes": 10465,
+        "generatedCode": "const imgIconChevronDown16 = \"http://localhost:3845/assets/dd8a754a834a2a0a38069b4cc58bf316cf80cdd6.svg\";\nconst imgIcon = \"http://localhost:3845/assets/55fd2f86608d10f70c9bd8c57b250b1e63849146.svg\";\nconst imgIcon = \"http://localhost:3845/assets/55fd2f86608d10f70c9bd8c57b250b1e63849146.svg\";\ntype SessionSectionHeaderProps = {\n  className?: string;\n  action?: boolean;\n  collapsed?: boolean;\n  count?: boolean;\n  count1?: string;\n  title?: string;\n  toggle?: boolean;\n};\n\nfunction SessionSectionHeader({ className, action = false, collapsed = false, count = false, count1 = \"5\", title = \"출력\", toggle = true }: SessionSectionHeaderProps) {\n  return (\n    <div className={className || \"content-stretch flex items-center justify-between relative w-[294px]\"} data-node-id=\"2986:22115\">\n      <div className=\"content-stretch flex items-center overflow-clip px-[4px] relative shrink-0\" data-node-id=\"2986:22116\" data-name=\"heading\">\n        <div className=\"[word-break:break-word] content-stretch flex gap-[8px] items-center leading-[20px] not-italic overflow-clip relative shrink-0 text-[14px] text-[color:var(--color\\/text\\/default,#1c1c1c)] whitespace-nowrap\" data-node-id=\"2986:22117\" data-name=\"title-group\">\n          <p className=\"font-['Pretendard:SemiBold'] relative shrink-0\" data-node-id=\"2986:22118\">\n            {title}\n          </p>\n          {count && (\n            <p className=\"font-['Pretendard:Regular'] relative shrink-0\" data-node-id=\"2986:22119\">\n              {count1}\n            </p>\n          )}\n        </div>\n        {toggle && (\n          <div className=\"content-stretch flex flex-col items-center justify-center relative rounded-[var(--radius\\/control-sm,4px)] shrink-0 size-[24px]\" data-node-id=\"2986:22120\" data-name=\"toggle\">\n            <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"I2986:22120;2427:25109\" data-name=\"icon\">\n              <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgIconChevronDown16} />\n            </div>\n          </div>\n        )}\n      </div>\n      {action && (\n        <div className=\"content-stretch flex flex-col items-center justify-center relative rounded-[var(--radius\\/control-sm,4px)] shrink-0 size-[24px]\" data-node-id=\"2986:22123\" data-name=\"action\">\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"I2986:22123;2427:25109\" data-name=\"icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgIcon} />\n          </div>\n        </div>\n      )}\n    </div>\n  );\n}\ntype SessionPanelProps = {\n  className?: string;\n  state?: \"empty\" | \"no-runtime\";\n};\n\nfunction SessionPanel({ className, state = \"empty\" }: SessionPanelProps) {\n  const isEmpty = state === \"empty\";\n  const isNoRuntime = state === \"no-runtime\";\n  return (\n    <div className={className || `${String.raw`bg-[var(--color\\/surface\\/blue-gray,#f6f7f9)] border border-[var(--color\\/border\\/default-subtle,#eee)] border-solid content-stretch drop-shadow-[0px_4px_3px_rgba(9,30,66,0.15),0px_0px_0.5px_rgba(9,30,66,0.31)] flex flex-col items-start px-[12px] py-[16px] relative rounded-[var(--radius\\/surface-md,16px)] w-[320px] `}${isNoRuntime ? \"\" : \"gap-[24px]\"}`} id={isNoRuntime ? \"node-4178_41895\" : \"node-2975_69458\"}>\n      {isEmpty && (\n        <>\n          <div className=\"content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full\" data-node-id=\"2975:38346\" data-name=\"output-section\">\n            <div className=\"content-stretch flex items-center justify-between relative shrink-0 w-full\" data-node-id=\"2975:68061\" data-name=\"section-header\">\n              <div className=\"content-stretch flex items-center overflow-clip px-[4px] relative shrink-0\" data-node-id=\"I2975:68061;2986:22116\" data-name=\"heading\">\n                <div className=\"content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0\" data-node-id=\"I2975:68061;2986:22117\" data-name=\"title-group\">\n                  <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/text\\/default,#1c1c1c)] whitespace-nowrap\" data-node-id=\"I2975:68061;2986:22118\">\n                    출력\n                  </p>\n                </div>\n              </div>\n              <div className=\"content-stretch flex flex-col items-center justify-center relative rounded-[var(--radius\\/control-sm,4px)] shrink-0 size-[24px]\" data-node-id=\"I2975:68061;2986:22123\" data-name=\"action\">\n                <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"I2975:68061;2986:22123;2427:25109\" data-name=\"icon\">\n                  <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgIcon} />\n                </div>\n              </div>\n            </div>\n            <div className=\"content-stretch flex items-center px-[4px] relative shrink-0 w-full\" data-node-id=\"2975:67211\" data-name=\"empty\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[20px] not-italic overflow-hidden relative shrink-0 text-[14px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-ellipsis whitespace-nowrap\" data-node-id=\"2975:38352\">{`출력물이 없습니다. `}</p>\n            </div>\n          </div>\n          <div className=\"content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full\" data-node-id=\"2975:38353\" data-name=\"context-section\">\n            <div className=\"content-stretch flex items-center justify-between relative shrink-0 w-full\" data-node-id=\"2988:22821\" data-name=\"section-header\">\n              <div className=\"content-stretch flex items-center overflow-clip px-[4px] relative shrink-0\" data-node-id=\"I2988:22821;2986:22116\" data-name=\"heading\">\n                <div className=\"content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0\" data-node-id=\"I2988:22821;2986:22117\" data-name=\"title-group\">\n                  <p className=\"[word-break:break-word] font-['Pretendard:SemiBold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--color\\/text\\/default,#1c1c1c)] whitespace-nowrap\" data-node-id=\"I2988:22821;2986:22118\">\n                    컨텍스트\n                  </p>\n                </div>\n              </div>\n              <div className=\"content-stretch flex flex-col items-center justify-center relative rounded-[var(--radius\\/control-sm,4px)] shrink-0 size-[24px]\" data-node-id=\"I2988:22821;2986:22123\" data-name=\"action\">\n                <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"I2988:22821;2986:22123;2427:25109\" data-name=\"icon\">\n                  <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgIcon} />\n                </div>\n              </div>\n            </div>\n            <div className=\"content-stretch flex items-center px-[4px] relative shrink-0 w-full\" data-node-id=\"2975:67212\" data-name=\"empty\">\n              <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[20px] not-italic overflow-hidden relative shrink-0 text-[14px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-ellipsis whitespace-nowrap\" data-node-id=\"2975:38359\">\n                업로드한 컨텍스트가 없습니다.\n              </p>\n            </div>\n          </div>\n        </>\n      )}\n      {isNoRuntime && (\n        <div className=\"content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full\" data-node-id=\"4178:41900\" data-name=\"environment-section\">\n          <SessionSectionHeader className=\"content-stretch flex items-center justify-between relative shrink-0 w-full\" count1=\"0\" title=\"환경\" toggle={false} />\n          <div className=\"content-stretch flex items-center px-[4px] relative shrink-0 w-full\" data-node-id=\"4178:41902\" data-name=\"empty\">\n            <p className=\"[word-break:break-word] font-['Pretendard:Regular'] leading-[20px] not-italic overflow-hidden relative shrink-0 text-[14px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-ellipsis whitespace-nowrap\" data-node-id=\"4178:41903\">\n              런타임을 선택하면 세션 정보가 표시됩니다.\n            </p>\n          </div>\n        </div>\n      )}\n    </div>\n  );\n}"
+      },
+      "historicalSnapshot": {
+        "path": "references/session.figma.json",
+        "sha256": "00ba5b39a0d2e71f0d8fa5ff9ce2e2363ca19e6a9bca095defba396638dd3c79"
+      },
+      "observations": {
+        "currentStates": [
+          "filled",
+          "empty",
+          "no-runtime"
+        ],
+        "newState": {
+          "nodeId": "4178:41895",
+          "state": "no-runtime",
+          "width": 320,
+          "height": 78,
+          "sectionNodeId": "4178:41900",
+          "sectionTitle": "환경",
+          "hintNodeId": "4178:41903",
+          "hintText": "런타임을 선택하면 세션 정보가 표시됩니다.",
+          "toggleVisible": false,
+          "actionVisible": false,
+          "countVisible": false,
+          "hiddenCountValue": "0"
+        },
+        "surfaceFromContext": {
+          "width": 320,
+          "paddingX": 12,
+          "paddingY": 16,
+          "radius": 16,
+          "fill": "#F6F7F9",
+          "borderColor": "#EEEEEE",
+          "borderWidth": 1,
+          "sectionGap": 4,
+          "hintFontSize": 14,
+          "hintLineHeight": 20,
+          "hintFontWeight": 400,
+          "hintColor": "#AAAAAA"
+        },
+        "preservedHistoricalStates": {
+          "empty": {
+            "width": 320,
+            "height": 154
+          },
+          "filled": {
+            "width": 320,
+            "height": 934
+          }
+        },
+        "note": "Generated context includes empty/no-runtime branches; metadata retains filled. Do not treat omitted generated branch as source deletion."
+      }
+    },
+    {
+      "componentId": "AgentHubFilterChip",
+      "correspondingBoardNodeId": "3092:25329",
+      "metadataRootTag": "frame",
+      "metadataRootName": "filter-chip",
+      "metadataVariants": [
+        {
+          "id": "3092:24999",
+          "name": "size=sm, selected=false, state=enabled",
+          "x": 24,
+          "y": 24,
+          "width": 45,
+          "height": 28
+        },
+        {
+          "id": "3092:25010",
+          "name": "size=sm, selected=false, state=hovered",
+          "x": 120,
+          "y": 24,
+          "width": 45,
+          "height": 28
+        },
+        {
+          "id": "3092:25021",
+          "name": "size=sm, selected=false, state=pressed",
+          "x": 216,
+          "y": 24,
+          "width": 45,
+          "height": 28
+        },
+        {
+          "id": "3092:25043",
+          "name": "size=sm, selected=false, state=disabled",
+          "x": 312,
+          "y": 24,
+          "width": 45,
+          "height": 28
+        },
+        {
+          "id": "3092:25054",
+          "name": "size=sm, selected=true, state=enabled",
+          "x": 24,
+          "y": 72,
+          "width": 45,
+          "height": 28
+        },
+        {
+          "id": "3092:25065",
+          "name": "size=sm, selected=true, state=hovered",
+          "x": 120,
+          "y": 72,
+          "width": 45,
+          "height": 28
+        },
+        {
+          "id": "3092:25076",
+          "name": "size=sm, selected=true, state=pressed",
+          "x": 216,
+          "y": 72,
+          "width": 45,
+          "height": 28
+        },
+        {
+          "id": "3092:25098",
+          "name": "size=sm, selected=true, state=disabled",
+          "x": 312,
+          "y": 72,
+          "width": 45,
+          "height": 28
+        },
+        {
+          "id": "3092:25109",
+          "name": "size=md, selected=false, state=enabled",
+          "x": 24,
+          "y": 120,
+          "width": 49,
+          "height": 32
+        },
+        {
+          "id": "3092:25120",
+          "name": "size=md, selected=false, state=hovered",
+          "x": 120,
+          "y": 120,
+          "width": 49,
+          "height": 32
+        },
+        {
+          "id": "3092:25131",
+          "name": "size=md, selected=false, state=pressed",
+          "x": 216,
+          "y": 120,
+          "width": 49,
+          "height": 32
+        },
+        {
+          "id": "3092:25153",
+          "name": "size=md, selected=false, state=disabled",
+          "x": 312,
+          "y": 120,
+          "width": 49,
+          "height": 32
+        },
+        {
+          "id": "3092:25164",
+          "name": "size=md, selected=true, state=enabled",
+          "x": 24,
+          "y": 172,
+          "width": 49,
+          "height": 32
+        },
+        {
+          "id": "3092:25175",
+          "name": "size=md, selected=true, state=hovered",
+          "x": 120,
+          "y": 172,
+          "width": 49,
+          "height": 32
+        },
+        {
+          "id": "3092:25186",
+          "name": "size=md, selected=true, state=pressed",
+          "x": 216,
+          "y": 172,
+          "width": 49,
+          "height": 32
+        },
+        {
+          "id": "3092:25208",
+          "name": "size=md, selected=true, state=disabled",
+          "x": 312,
+          "y": 172,
+          "width": 49,
+          "height": 32
+        },
+        {
+          "id": "3092:25219",
+          "name": "size=lg, selected=false, state=enabled",
+          "x": 24,
+          "y": 224,
+          "width": 53,
+          "height": 36
+        },
+        {
+          "id": "3092:25230",
+          "name": "size=lg, selected=false, state=hovered",
+          "x": 120,
+          "y": 224,
+          "width": 53,
+          "height": 36
+        },
+        {
+          "id": "3092:25241",
+          "name": "size=lg, selected=false, state=pressed",
+          "x": 216,
+          "y": 224,
+          "width": 53,
+          "height": 36
+        },
+        {
+          "id": "3092:25263",
+          "name": "size=lg, selected=false, state=disabled",
+          "x": 312,
+          "y": 224,
+          "width": 53,
+          "height": 36
+        },
+        {
+          "id": "3092:25274",
+          "name": "size=lg, selected=true, state=enabled",
+          "x": 24,
+          "y": 280,
+          "width": 53,
+          "height": 36
+        },
+        {
+          "id": "3092:25285",
+          "name": "size=lg, selected=true, state=hovered",
+          "x": 120,
+          "y": 280,
+          "width": 53,
+          "height": 36
+        },
+        {
+          "id": "3092:25296",
+          "name": "size=lg, selected=true, state=pressed",
+          "x": 216,
+          "y": 280,
+          "width": 53,
+          "height": 36
+        },
+        {
+          "id": "3092:25318",
+          "name": "size=lg, selected=true, state=disabled",
+          "x": 312,
+          "y": 280,
+          "width": 53,
+          "height": 36
+        }
+      ],
+      "contextEvidence": {
+        "captureFilename": "hub-figma-filter-chip-20261105.txt",
+        "captureSha256": "1bdaa31e3a1ff8b2f921d2e7654effd0360ca5b72a3c66cd3394e3661cba6d27",
+        "captureBytes": 23721,
+        "generatedCode": "const imgLeadingIcon = \"http://localhost:3845/assets/191efa7a1e2cd58f57b22b550605283898263799.svg\";\nconst imgTrailingIcon = \"http://localhost:3845/assets/64afc2b064a6750f992119c5b22263fb1b0a8634.svg\";\nconst imgLeadingIcon1 = \"http://localhost:3845/assets/941785ec114f760474212a85b63360fc86610742.svg\";\nconst imgTrailingIcon1 = \"http://localhost:3845/assets/2d098d887fe20c4591680ed0607272a3055f9636.svg\";\nconst imgLeadingIcon2 = \"http://localhost:3845/assets/45c9fd497ab71a10096ed449b01725d290da8ad8.svg\";\nconst imgTrailingIcon2 = \"http://localhost:3845/assets/ae28d276d7b73be915e4f8363e1e2c69ca190d0d.svg\";\nconst imgLeadingIcon3 = \"http://localhost:3845/assets/7f6d36c90e7db08ddc22ebdaaf99d9477a3515ce.svg\";\nconst imgTrailingIcon3 = \"http://localhost:3845/assets/c4d6b8c7daefe78215e929b95c4b426bd77f2c9d.svg\";\ntype FilterChipProps = {\n  className?: string;\n  count?: boolean;\n  countLabel?: string;\n  label?: string;\n  leadingIcon?: boolean;\n  leadingIconSwap?: React.ReactNode | null;\n  selected?: boolean;\n  size?: \"sm\" | \"md\" | \"lg\";\n  state?: \"enabled\" | \"hovered\" | \"pressed\" | \"disabled\";\n  trailingIcon?: boolean;\n  trailingIconSwap?: React.ReactNode | null;\n};\n\nexport default function FilterChip({ className, count = false, countLabel = \"3\", label = \"전체\", leadingIcon = false, leadingIconSwap = null, selected = false, size = \"sm\", state = \"enabled\", trailingIcon = false, trailingIconSwap = null }: FilterChipProps) {\n  const isDisabled = state === \"disabled\";\n  const isLgAndDisabled = size === \"lg\" && state === \"disabled\";\n  const isLgAndNotSelectedAndDisabled = size === \"lg\" && !selected && state === \"disabled\";\n  const isLgAndNotSelectedAndEnabled = size === \"lg\" && !selected && state === \"enabled\";\n  const isLgAndNotSelectedAndHovered = size === \"lg\" && !selected && state === \"hovered\";\n  const isLgAndNotSelectedAndPressed = size === \"lg\" && !selected && state === \"pressed\";\n  const isLgAndSelectedAndDisabled = size === \"lg\" && selected && state === \"disabled\";\n  const isLgAndSelectedAndEnabled = size === \"lg\" && selected && state === \"enabled\";\n  const isLgAndSelectedAndHovered = size === \"lg\" && selected && state === \"hovered\";\n  const isLgAndSelectedAndIsEnabledOrHoveredOrPressed = size === \"lg\" && selected && [\"enabled\", \"hovered\", \"pressed\"].includes(state);\n  const isLgAndSelectedAndPressed = size === \"lg\" && selected && state === \"pressed\";\n  const isMdAndDisabled = size === \"md\" && state === \"disabled\";\n  const isMdAndNotSelectedAndDisabled = size === \"md\" && !selected && state === \"disabled\";\n  const isMdAndNotSelectedAndEnabled = size === \"md\" && !selected && state === \"enabled\";\n  const isMdAndNotSelectedAndHovered = size === \"md\" && !selected && state === \"hovered\";\n  const isMdAndNotSelectedAndPressed = size === \"md\" && !selected && state === \"pressed\";\n  const isMdAndSelectedAndDisabled = size === \"md\" && selected && state === \"disabled\";\n  const isMdAndSelectedAndEnabled = size === \"md\" && selected && state === \"enabled\";\n  const isMdAndSelectedAndHovered = size === \"md\" && selected && state === \"hovered\";\n  const isMdAndSelectedAndIsEnabledOrHoveredOrPressed = size === \"md\" && selected && [\"enabled\", \"hovered\", \"pressed\"].includes(state);\n  const isMdAndSelectedAndPressed = size === \"md\" && selected && state === \"pressed\";\n  const isNotSelectedAndEnabled = !selected && state === \"enabled\";\n  const isNotSelectedAndIsHoveredOrPressed = !selected && [\"hovered\", \"pressed\"].includes(state);\n  const isSelectedAndIsEnabledOrHoveredOrPressed = selected && [\"enabled\", \"hovered\", \"pressed\"].includes(state);\n  const isSmAndDisabled = size === \"sm\" && state === \"disabled\";\n  const isSmAndNotSelectedAndDisabled = size === \"sm\" && !selected && state === \"disabled\";\n  const isSmAndNotSelectedAndHovered = size === \"sm\" && !selected && state === \"hovered\";\n  const isSmAndNotSelectedAndPressed = size === \"sm\" && !selected && state === \"pressed\";\n  const isSmAndSelectedAndDisabled = size === \"sm\" && selected && state === \"disabled\";\n  const isSmAndSelectedAndEnabled = size === \"sm\" && selected && state === \"enabled\";\n  const isSmAndSelectedAndHovered = size === \"sm\" && selected && state === \"hovered\";\n  const isSmAndSelectedAndIsEnabledOrHoveredOrPressed = size === \"sm\" && selected && [\"enabled\", \"hovered\", \"pressed\"].includes(state);\n  const isSmAndSelectedAndPressed = size === \"sm\" && selected && state === \"pressed\";\n  return (\n    <div className={className || `${String.raw`content-stretch flex items-center justify-center relative rounded-[var(--radius\\/full,9999px)] `}${isLgAndSelectedAndDisabled ? String.raw`bg-[var(--color\\/action\\/default-subtle,#f4f4f4)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[6px] px-[14px] py-[8px]` : isLgAndSelectedAndPressed ? String.raw`bg-[var(--color\\/action\\/default-selected-pressed,#99c2ff)] gap-[6px] px-[14px] py-[8px]` : isLgAndSelectedAndHovered ? String.raw`bg-[var(--color\\/action\\/default-selected-hovered,#cce0ff)] gap-[6px] px-[14px] py-[8px]` : isLgAndSelectedAndEnabled ? String.raw`bg-[var(--color\\/action\\/default-selected,#ebf3ff)] gap-[6px] px-[14px] py-[8px]` : isLgAndNotSelectedAndDisabled ? String.raw`bg-[var(--color\\/action\\/default-disabled,white)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[6px] px-[14px] py-[8px]` : isLgAndNotSelectedAndPressed ? String.raw`bg-[var(--color\\/action\\/default-pressed,#f4f4f4)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[6px] px-[14px] py-[8px]` : isLgAndNotSelectedAndHovered ? String.raw`bg-[var(--color\\/action\\/default-hovered,#f8f8f8)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[6px] px-[14px] py-[8px]` : isLgAndNotSelectedAndEnabled ? String.raw`bg-[var(--color\\/action\\/default,white)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[6px] px-[14px] py-[8px]` : isMdAndSelectedAndDisabled ? String.raw`bg-[var(--color\\/action\\/default-subtle,#f4f4f4)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[12px] py-[6px]` : isMdAndSelectedAndPressed ? String.raw`bg-[var(--color\\/action\\/default-selected-pressed,#99c2ff)] gap-[4px] px-[12px] py-[6px]` : isMdAndSelectedAndHovered ? String.raw`bg-[var(--color\\/action\\/default-selected-hovered,#cce0ff)] gap-[4px] px-[12px] py-[6px]` : isMdAndSelectedAndEnabled ? String.raw`bg-[var(--color\\/action\\/default-selected,#ebf3ff)] gap-[4px] px-[12px] py-[6px]` : isMdAndNotSelectedAndDisabled ? String.raw`bg-[var(--color\\/action\\/default-disabled,white)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[12px] py-[6px]` : isMdAndNotSelectedAndPressed ? String.raw`bg-[var(--color\\/action\\/default-pressed,#f4f4f4)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[12px] py-[6px]` : isMdAndNotSelectedAndHovered ? String.raw`bg-[var(--color\\/action\\/default-hovered,#f8f8f8)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[12px] py-[6px]` : isMdAndNotSelectedAndEnabled ? String.raw`bg-[var(--color\\/action\\/default,white)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[12px] py-[6px]` : isSmAndSelectedAndDisabled ? String.raw`bg-[var(--color\\/action\\/default-subtle,#f4f4f4)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[10px] py-[4px]` : isSmAndSelectedAndPressed ? String.raw`bg-[var(--color\\/action\\/default-selected-pressed,#99c2ff)] gap-[4px] px-[10px] py-[4px]` : isSmAndSelectedAndHovered ? String.raw`bg-[var(--color\\/action\\/default-selected-hovered,#cce0ff)] gap-[4px] px-[10px] py-[4px]` : isSmAndSelectedAndEnabled ? String.raw`bg-[var(--color\\/action\\/default-selected,#ebf3ff)] gap-[4px] px-[10px] py-[4px]` : isSmAndNotSelectedAndDisabled ? String.raw`bg-[var(--color\\/action\\/default-disabled,white)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[10px] py-[4px]` : isSmAndNotSelectedAndPressed ? String.raw`bg-[var(--color\\/action\\/default-pressed,#f4f4f4)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[10px] py-[4px]` : isSmAndNotSelectedAndHovered ? String.raw`bg-[var(--color\\/action\\/default-hovered,#f8f8f8)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[10px] py-[4px]` : String.raw`bg-[var(--color\\/action\\/default,white)] border border-[var(--color\\/border\\/default,#ddd)] border-solid gap-[4px] px-[10px] py-[4px]`}`} id={isLgAndSelectedAndDisabled ? \"node-3092_25318\" : isLgAndSelectedAndPressed ? \"node-3092_25296\" : isLgAndSelectedAndHovered ? \"node-3092_25285\" : isLgAndSelectedAndEnabled ? \"node-3092_25274\" : isLgAndNotSelectedAndDisabled ? \"node-3092_25263\" : isLgAndNotSelectedAndPressed ? \"node-3092_25241\" : isLgAndNotSelectedAndHovered ? \"node-3092_25230\" : isLgAndNotSelectedAndEnabled ? \"node-3092_25219\" : isMdAndSelectedAndDisabled ? \"node-3092_25208\" : isMdAndSelectedAndPressed ? \"node-3092_25186\" : isMdAndSelectedAndHovered ? \"node-3092_25175\" : isMdAndSelectedAndEnabled ? \"node-3092_25164\" : isMdAndNotSelectedAndDisabled ? \"node-3092_25153\" : isMdAndNotSelectedAndPressed ? \"node-3092_25131\" : isMdAndNotSelectedAndHovered ? \"node-3092_25120\" : isMdAndNotSelectedAndEnabled ? \"node-3092_25109\" : isSmAndSelectedAndDisabled ? \"node-3092_25098\" : isSmAndSelectedAndPressed ? \"node-3092_25076\" : isSmAndSelectedAndHovered ? \"node-3092_25065\" : isSmAndSelectedAndEnabled ? \"node-3092_25054\" : isSmAndNotSelectedAndDisabled ? \"node-3092_25043\" : isSmAndNotSelectedAndPressed ? \"node-3092_25021\" : isSmAndNotSelectedAndHovered ? \"node-3092_25010\" : \"node-3092_24999\"}>\n      {isSelectedAndIsEnabledOrHoveredOrPressed &&\n        leadingIcon &&\n        (leadingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25055\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon3} />\n          </div>\n        ))}\n      {isSelectedAndIsEnabledOrHoveredOrPressed && (\n        <p className=\"[word-break:break-word] flex-[1_0_0] font-['Pretendard:SemiBold'] leading-[20px] min-w-px not-italic overflow-hidden relative text-[14px] text-[color:var(--color\\/text\\/default,#1c1c1c)] text-ellipsis whitespace-nowrap\" data-node-id=\"3092:25060\">\n          {label}\n        </p>\n      )}\n      {isNotSelectedAndIsHoveredOrPressed &&\n        leadingIcon &&\n        (leadingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25011\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon1} />\n          </div>\n        ))}\n      {isNotSelectedAndIsHoveredOrPressed && (\n        <p className=\"[word-break:break-word] flex-[1_0_0] font-['Pretendard:SemiBold'] leading-[20px] min-w-px not-italic overflow-hidden relative text-[14px] text-[color:var(--color\\/text\\/default-subtle,#555)] text-ellipsis whitespace-nowrap\" data-node-id=\"3092:25016\">\n          {label}\n        </p>\n      )}\n      {isDisabled &&\n        leadingIcon &&\n        (leadingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25044\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon2} />\n          </div>\n        ))}\n      {isDisabled && (\n        <p className=\"[word-break:break-word] flex-[1_0_0] font-['Pretendard:SemiBold'] leading-[20px] min-w-px not-italic overflow-hidden relative text-[14px] text-[color:var(--color\\/text\\/disabled,#aaa)] text-ellipsis whitespace-nowrap\" data-node-id=\"3092:25049\">\n          {label}\n        </p>\n      )}\n      {isNotSelectedAndEnabled &&\n        leadingIcon &&\n        (leadingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25000\" data-name=\"leading-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLeadingIcon} />\n          </div>\n        ))}\n      {isNotSelectedAndEnabled && (\n        <p className=\"[word-break:break-word] flex-[1_0_0] font-['Pretendard:SemiBold'] leading-[20px] min-w-px not-italic overflow-hidden relative text-[14px] text-[color:var(--color\\/text\\/default-subtler,#757575)] text-ellipsis whitespace-nowrap\" data-node-id=\"3092:25005\">\n          {label}\n        </p>\n      )}\n      {size === \"sm\" && !selected && [\"enabled\", \"hovered\", \"pressed\"].includes(state) && count && (\n        <div className=\"bg-[var(--color\\/element\\/gray-subtle,#eee)] content-stretch flex h-[16px] items-center justify-center min-w-[16px] overflow-clip px-[5px] relative rounded-[var(--radius\\/full,9999px)] shrink-0\" data-node-id=\"3092:25006\" data-name=\"count\">\n          <p className=\"[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[10px] text-[color:var(--color\\/text\\/default-subtle,#555)] whitespace-nowrap\" data-node-id=\"3092:25007\">\n            {countLabel}\n          </p>\n        </div>\n      )}\n      {isSmAndSelectedAndIsEnabledOrHoveredOrPressed && count && (\n        <div className=\"bg-[var(--color\\/element\\/primary,#3b82f6)] content-stretch flex h-[16px] items-center justify-center min-w-[16px] overflow-clip px-[5px] relative rounded-[var(--radius\\/full,9999px)] shrink-0\" data-node-id=\"3092:25061\" data-name=\"count\">\n          <p className=\"[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[10px] text-[color:var(--color\\/text\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3092:25062\">\n            {countLabel}\n          </p>\n        </div>\n      )}\n      {isSmAndSelectedAndIsEnabledOrHoveredOrPressed &&\n        trailingIcon &&\n        (trailingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25063\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        ))}\n      {size === \"md\" && !selected && [\"enabled\", \"hovered\", \"pressed\"].includes(state) && count && (\n        <div className=\"bg-[var(--color\\/element\\/gray-subtle,#eee)] content-stretch flex h-[18px] items-center justify-center min-w-[18px] overflow-clip px-[5px] relative rounded-[var(--radius\\/full,9999px)] shrink-0\" data-node-id=\"3092:25116\" data-name=\"count\">\n          <p className=\"[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[18px] not-italic relative shrink-0 text-[11px] text-[color:var(--color\\/text\\/default-subtle,#555)] whitespace-nowrap\" data-node-id=\"3092:25117\">\n            {countLabel}\n          </p>\n        </div>\n      )}\n      {!selected &&\n        ((size === \"sm\" && state === \"hovered\") || (size === \"sm\" && state === \"pressed\") || (size === \"md\" && state === \"hovered\") || (size === \"md\" && state === \"pressed\")) &&\n        trailingIcon &&\n        (trailingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25019\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon1} />\n          </div>\n        ))}\n      {isMdAndSelectedAndIsEnabledOrHoveredOrPressed && count && (\n        <div className=\"bg-[var(--color\\/element\\/primary,#3b82f6)] content-stretch flex h-[18px] items-center justify-center min-w-[18px] overflow-clip px-[5px] relative rounded-[var(--radius\\/full,9999px)] shrink-0\" data-node-id=\"3092:25171\" data-name=\"count\">\n          <p className=\"[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[18px] not-italic relative shrink-0 text-[11px] text-[color:var(--color\\/text\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3092:25172\">\n            {countLabel}\n          </p>\n        </div>\n      )}\n      {isMdAndSelectedAndIsEnabledOrHoveredOrPressed &&\n        trailingIcon &&\n        (trailingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25173\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        ))}\n      {size === \"lg\" && !selected && [\"enabled\", \"hovered\", \"pressed\"].includes(state) && count && (\n        <div className=\"bg-[var(--color\\/element\\/gray-subtle,#eee)] content-stretch flex h-[20px] items-center justify-center min-w-[20px] overflow-clip px-[5px] relative rounded-[var(--radius\\/full,9999px)] shrink-0\" data-node-id=\"3092:25226\" data-name=\"count\">\n          <p className=\"[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[20px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/default-subtle,#555)] whitespace-nowrap\" data-node-id=\"3092:25227\">\n            {countLabel}\n          </p>\n        </div>\n      )}\n      {isNotSelectedAndEnabled &&\n        trailingIcon &&\n        (trailingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25008\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon} />\n          </div>\n        ))}\n      {isLgAndSelectedAndIsEnabledOrHoveredOrPressed && count && (\n        <div className=\"bg-[var(--color\\/element\\/primary,#3b82f6)] content-stretch flex h-[20px] items-center justify-center min-w-[20px] overflow-clip px-[5px] relative rounded-[var(--radius\\/full,9999px)] shrink-0\" data-node-id=\"3092:25281\" data-name=\"count\">\n          <p className=\"[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[20px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/on-primary,white)] whitespace-nowrap\" data-node-id=\"3092:25282\">\n            {countLabel}\n          </p>\n        </div>\n      )}\n      {isLgAndSelectedAndIsEnabledOrHoveredOrPressed &&\n        trailingIcon &&\n        (trailingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25283\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon3} />\n          </div>\n        ))}\n      {isSmAndDisabled && count && (\n        <div className=\"bg-[var(--color\\/element\\/disabled,#eee)] content-stretch flex h-[16px] items-center justify-center min-w-[16px] overflow-clip px-[5px] relative rounded-[var(--radius\\/full,9999px)] shrink-0\" data-node-id=\"3092:25050\" data-name=\"count\">\n          <p className=\"[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[10px] text-[color:var(--color\\/text\\/disabled,#aaa)] whitespace-nowrap\" data-node-id=\"3092:25051\">\n            {countLabel}\n          </p>\n        </div>\n      )}\n      {isSmAndDisabled &&\n        trailingIcon &&\n        (trailingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25052\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon2} />\n          </div>\n        ))}\n      {isMdAndDisabled && count && (\n        <div className=\"bg-[var(--color\\/element\\/disabled,#eee)] content-stretch flex h-[18px] items-center justify-center min-w-[18px] overflow-clip px-[5px] relative rounded-[var(--radius\\/full,9999px)] shrink-0\" data-node-id=\"3092:25160\" data-name=\"count\">\n          <p className=\"[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[18px] not-italic relative shrink-0 text-[11px] text-[color:var(--color\\/text\\/disabled,#aaa)] whitespace-nowrap\" data-node-id=\"3092:25161\">\n            {countLabel}\n          </p>\n        </div>\n      )}\n      {isMdAndDisabled &&\n        trailingIcon &&\n        (trailingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25162\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon2} />\n          </div>\n        ))}\n      {size === \"lg\" &&\n        !selected &&\n        [\"hovered\", \"pressed\"].includes(state) &&\n        trailingIcon &&\n        (trailingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25239\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon1} />\n          </div>\n        ))}\n      {isLgAndDisabled && count && (\n        <div className=\"bg-[var(--color\\/element\\/disabled,#eee)] content-stretch flex h-[20px] items-center justify-center min-w-[20px] overflow-clip px-[5px] relative rounded-[var(--radius\\/full,9999px)] shrink-0\" data-node-id=\"3092:25270\" data-name=\"count\">\n          <p className=\"[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[20px] not-italic relative shrink-0 text-[12px] text-[color:var(--color\\/text\\/disabled,#aaa)] whitespace-nowrap\" data-node-id=\"3092:25271\">\n            {countLabel}\n          </p>\n        </div>\n      )}\n      {isLgAndDisabled &&\n        trailingIcon &&\n        (trailingIconSwap || (\n          <div className=\"relative shrink-0 size-[16px]\" data-node-id=\"3092:25272\" data-name=\"trailing-icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTrailingIcon2} />\n          </div>\n        ))}\n    </div>\n  );\n}"
+      },
+      "historicalSnapshot": {
+        "path": "references/filter-chip.figma.json",
+        "sha256": "d51a3bff905c861f59da15a88448c2bf994c9ebde5302bfb6411a11c28406f98"
+      },
+      "observations": {
+        "currentVariantCount": 24,
+        "latestMetadataSizes": {
+          "sm": {
+            "width": 45,
+            "height": 28
+          },
+          "md": {
+            "width": 49,
+            "height": 32
+          },
+          "lg": {
+            "width": 53,
+            "height": 36
+          }
+        },
+        "allStatesHaveSameSampleWidthWithinEachSize": true,
+        "historicalUnselectedOrDisabledWidths": {
+          "sm": 47,
+          "md": 51,
+          "lg": 55
+        },
+        "generatedContextPadding": {
+          "sm": {
+            "x": 10,
+            "y": 4
+          },
+          "md": {
+            "x": 12,
+            "y": 6
+          },
+          "lg": {
+            "x": 14,
+            "y": 8
+          }
+        },
+        "currentNativeStrokesIncludedInLayout": {
+          "collected": false,
+          "value": null
+        },
+        "preservedProductAdoptions": [
+          "1px border space reserved in every state",
+          "selected non-disabled transparent border",
+          "height28/32/36",
+          "200ms parent and count color transitions"
+        ],
+        "note": "Do not sum generated border/padding with auto height or re-label historical native flag as current. Metadata sample widths are not fixed runtime widths.",
+        "optionalGlyphPaint": {
+          "captureRootNodeId": "3092:25329",
+          "source": "generated context conditional references and exact supplied SVG files",
+          "defaultVisible": false,
+          "displaySize": 16,
+          "exportStrokeWidth": 1,
+          "renderedSlotGeometryVerified": false,
+          "nativeVariableBindingsCollected": false,
+          "rows": [
+            {
+              "selected": false,
+              "states": [
+                "enabled"
+              ],
+              "glyphColor": "#757575",
+              "labelColor": "#757575",
+              "assets": [
+                {
+                  "slot": "leading",
+                  "sourceAsset": "191efa7a1e2cd58f57b22b550605283898263799.svg",
+                  "path": "assets/refresh-20261105/191efa7a1e2cd58f57b22b550605283898263799.svg"
+                },
+                {
+                  "slot": "trailing",
+                  "sourceAsset": "64afc2b064a6750f992119c5b22263fb1b0a8634.svg",
+                  "path": "assets/refresh-20261105/64afc2b064a6750f992119c5b22263fb1b0a8634.svg"
+                }
+              ]
+            },
+            {
+              "selected": false,
+              "states": [
+                "hovered",
+                "pressed"
+              ],
+              "glyphColor": "#555555",
+              "labelColor": "#555555",
+              "assets": [
+                {
+                  "slot": "leading",
+                  "sourceAsset": "941785ec114f760474212a85b63360fc86610742.svg",
+                  "path": "assets/refresh-20261105/941785ec114f760474212a85b63360fc86610742.svg"
+                },
+                {
+                  "slot": "trailing",
+                  "sourceAsset": "2d098d887fe20c4591680ed0607272a3055f9636.svg",
+                  "path": "assets/refresh-20261105/2d098d887fe20c4591680ed0607272a3055f9636.svg"
+                }
+              ]
+            },
+            {
+              "selected": null,
+              "states": [
+                "disabled"
+              ],
+              "glyphColor": "#AAAAAA",
+              "labelColor": "#AAAAAA",
+              "assets": [
+                {
+                  "slot": "leading",
+                  "sourceAsset": "45c9fd497ab71a10096ed449b01725d290da8ad8.svg",
+                  "path": "assets/refresh-20261105/45c9fd497ab71a10096ed449b01725d290da8ad8.svg"
+                },
+                {
+                  "slot": "trailing",
+                  "sourceAsset": "ae28d276d7b73be915e4f8363e1e2c69ca190d0d.svg",
+                  "path": "assets/refresh-20261105/ae28d276d7b73be915e4f8363e1e2c69ca190d0d.svg"
+                }
+              ]
+            },
+            {
+              "selected": true,
+              "states": [
+                "enabled",
+                "hovered",
+                "pressed"
+              ],
+              "glyphColor": "#3B82F6",
+              "labelColor": "#1C1C1C",
+              "assets": [
+                {
+                  "slot": "leading",
+                  "sourceAsset": "7f6d36c90e7db08ddc22ebdaaf99d9477a3515ce.svg",
+                  "path": "assets/refresh-20261105/7f6d36c90e7db08ddc22ebdaaf99d9477a3515ce.svg"
+                },
+                {
+                  "slot": "trailing",
+                  "sourceAsset": "c4d6b8c7daefe78215e929b95c4b426bd77f2c9d.svg",
+                  "path": "assets/refresh-20261105/c4d6b8c7daefe78215e929b95c4b426bd77f2c9d.svg"
+                }
+              ]
+            }
+          ],
+          "note": "Selected non-disabled glyphs are blue while the label is neutral black. Paint evidence does not prove native alias IDs or hidden-slot rendering geometry. Do not force all SVGs to label currentColor."
+        }
+      }
+    },
+    {
+      "componentId": "AgentHubFilterChipGroup",
+      "correspondingBoardNodeId": "3099:25232",
+      "metadataRootTag": "frame",
+      "metadataRootName": "filter-chip-group",
+      "metadataVariants": [
+        {
+          "id": "3099:25138",
+          "name": "layout=hug",
+          "width": 334,
+          "height": 32
+        },
+        {
+          "id": "3099:25169",
+          "name": "layout=wrap",
+          "width": 280,
+          "height": 72
+        },
+        {
+          "id": "3099:25200",
+          "name": "layout=scroll",
+          "width": 280,
+          "height": 32
+        }
+      ],
+      "historicalSnapshot": {
+        "path": "references/filter-chip-group.figma.json",
+        "sha256": "69b7646c7b47a95cc49f4e465e5906192f843f083db1037bdc3e016a5bcf8def"
+      },
+      "contextEvidence": {
+        "captured": false,
+        "reason": "Current comparison uses whole-board metadata and current FilterChip observations; current nested group context was not captured."
+      },
+      "observations": {
+        "historicalHugSample": [
+          344,
+          32
+        ],
+        "currentHugSample": [
+          334,
+          32
+        ],
+        "currentWrapSample": [
+          280,
+          72
+        ],
+        "currentScrollSample": [
+          280,
+          32
+        ],
+        "currentNestedInstanceDetailsCollected": false,
+        "currentWrapRowItemCounts": null,
+        "preservedProductAdoptions": [
+          "existing HUG/wrap/scroll engine",
+          "stable FilterChip border-space reservation",
+          "gap8"
+        ],
+        "note": "Metadata does not reveal current child widths, per-row counts or native bindings. Preserve historical nested snapshot and do not infer 5+1 wrapping from current standalone chip width."
+      }
+    }
+  ],
+  "verification": {
+    "runtimeVerified": false,
+    "implementationStatus": "unmapped",
+    "commonContractsChanged": false
+  }
+}

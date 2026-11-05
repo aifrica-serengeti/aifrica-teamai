@@ -4,16 +4,19 @@ Session 패널은 대화 입력·사용자 메시지와 별도로 예약 실행 
 공용 Card의 선택형 카드, Tree의 계층 탐색, Stepper의 단계 이동, Menu의 명령 목록으로 바꾸지 않습니다.
 공용의 시각을 복제해 맞추기보다 확인한 Session 하위 원본을 조합합니다.
 
-## 확인한 두 패널
+## 확인한 패널 상태
 
 | state | 원본 | 외곽 크기 | 표시 구성 |
 | --- | --- | --- | --- |
 | filled | `2975:69459` | 320×934, 세로 HUG | 예약 → 진행 상황 → 출력 → 컨텍스트 |
 | empty | `2975:69458` | 320×154, 세로 HUG | 출력·컨텍스트 빈 안내, 각 + action |
+| no-runtime | `4178:41895` | 320×78, metadata 크기 | 환경 헤더·런타임 선택 안내 |
 
-생성 context의 state 기본값은 empty입니다. 전체 `componentPropertyDefinitions` getter는 read-only 오류로
-미수집됐으므로 null로 보존했습니다. 실제 두 variant와 생성 props를 확인한 범위를 뜻하며 다른 속성이 없다는 주장은 아닙니다.
-set의718×974 캔버스는 두 패널을 전시하는 보드 크기입니다.
+과거 생성 context의 state 기본값은 empty이고, 전체 `componentPropertyDefinitions` getter는 read-only 오류로
+미수집돼 null로 보존했습니다. 2026-11-05 metadata에는 세 상태가 있고, 추가 context에는 empty/no-runtime의
+생성 분기가 있습니다. 이 context에 filled 분기가 생략됐다는 이유로 기존 filled를 제거하지 않습니다.
+현재 native property getter 전체를 다시 수집한 기록은 아닙니다.
+set의718×974 캔버스는 상태들을 전시하는 보드 크기이며 패널의 실제 surface 크기가 아닙니다.
 
 filled의 섹션은 다음 실제 조합입니다.
 
@@ -60,3 +63,10 @@ Header의 count/toggle/action Boolean과 count TEXT는 다른 속성입니다.
 Session은 ChatComposer의 편집 draft, UserMessage의 발송 내용, ProgressAlert의 재시도/편집 상태를 소유하지 않습니다.
 컨텍스트 행이 Flyout을 여는 실제 연결이나 메뉴·파일 선택 API는 이 여섯 노드에 없습니다.
 그 연결이 필요한 제품은 해당 컴포넌트와 별도 동작 계약을 채택하고 검증합니다.
+
+## 런타임 미선택 표시
+
+no-runtime은 environment-section 한 개로 구성합니다. SectionHeader title은 ‘환경’이고 toggle/action/count는
+표시하지 않습니다. 생성 호출의 count1="0"은 숨긴 slot의 값이므로 화면에 ‘환경 0’을 추가하지 않습니다.
+아래에는 ‘런타임을 선택하면 세션 정보가 표시됩니다.’라는 안내를 둡니다.
+Session 데이터가 비어 있는 empty와 달리 현재 런타임이 선택되지 않았다는 상태를 표시합니다.

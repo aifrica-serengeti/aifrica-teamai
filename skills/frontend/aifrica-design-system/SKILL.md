@@ -26,6 +26,10 @@ pressed와 별도 active를 구분하고, state5처럼 의미가 정의되지 �
 아이콘·로고 등 자산 작업에서는 선택 솔루션의 `design/README.md`와 `design/assets.md`가 있으면 읽고,
 `design/asset-manifest.json`의 해당 이름·크기·출처·파일을 확인한다. 원본 asset과 캔버스 배경을 구분하고
 솔루션이 확인한 도형·선 두께·색상·비율을 공용 예시나 유사한 라이브러리 아이콘으로 대체하지 않는다.
+날짜별 보드 갱신이 있으면 솔루션 진입점의 변경표·현재 observation을 과거 snapshot과 구분한다.
+metadata로 이름·치수가 같은 경우에도 paint·binding까지 동일하다고 단정하지 않는다. 신규 glyph의 exact export가
+없으면 유사 도형을 그리거나 기존 파일로 추정 매핑하지 않고 미확보 범위를 기록한다. 내부 compound part를 모두
+공개 registry id로 늘리지 않으며 공용과 일치하는 Divider 같은 역할은 기존 계약을 재사용한다.
 상세 manifest는 필요한 항목만 조회한다. 다른 솔루션 자산을 가져오거나 Figma MCP 재접속을 필수로 만들지 않는다.
 
 ## 결정 계약

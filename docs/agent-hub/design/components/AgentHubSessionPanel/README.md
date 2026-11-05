@@ -29,3 +29,8 @@ empty/filled 두 상태와 다섯 하위 set을 포함한 **19개 variant**를 �
 
 대화 화면에서 패널을 여는 제품 조립은 [최종 폭과 shadow 여유](./styles.md#사용자-채택-첫-진입의-최종-폭과-shadow-paint-여유)를 적용합니다.
 내용은 처음부터 최종 가용 폭으로 배치하고 바깥 reveal만 전환합니다.8px는 그림자의 paint 여유이며 layout padding이나 empty 고정 높이가 아닙니다.
+
+2026-11-05에는 별도 **no-runtime** 상태 `4178:41895`·320×78px가 추가됐습니다.
+[갱신 근거](../../references/existing-components-refresh.figma.json)의 ‘환경’ 헤더와
+‘런타임을 선택하면 세션 정보가 표시됩니다.’ 안내를 따릅니다. 기존 empty154px·filled934px는 보존하며
+런타임 미선택을 empty·요청 중·실패 상태와 합치지 않습니다.

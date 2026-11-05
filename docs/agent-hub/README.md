@@ -68,8 +68,8 @@ Dialog는 [시작 안내](./design/dialog.md)에서 공용과의 차이와 편�
 
 ## 읽는 순서
 
-[Divider 비교](./design/divider.md)에서 공용과 같은 가로 Light 시안을 확인할 수 있습니다.
-1px 선·#DDD·위아래8px 여백은 공용을 재사용하고 전용 컴포넌트를 중복 등록하지 않습니다.
+[Divider 비교](./design/divider.md)에서 공용과 같은 가로·세로 Light 시안을 확인할 수 있습니다.
+1px 선·#DDD·교차축 양쪽8px 여백은 공용을 재사용하고 전용 컴포넌트를 중복 등록하지 않습니다.
 
 1. [회사 공통 해석 계약](../common/resolution.md)에서 문서 root와 솔루션 선택을 확인한다.
 2. Frontend·UI 작업일 때 `DOCS_ROOT/frontend/README.md`와 작업별 공용 스킬을 선택한다.
@@ -97,3 +97,5 @@ TeamAI의 `frontend-common` 역할과 `agent-hub` 프로젝트는 서로 다른 
 `DOCS_ROOT/frontend/design/patterns/README.md`에서 유지하며 frontend 작업일 때 읽는다.
 
 고객·배포별 차이가 생기면 검증한 차이만 `profiles/<profile-id>/`에 추가한다. 현재 등록된 Agent Hub profile은 없다.
+
+[2026-11-05 컴포넌트 보드 갱신](./design/component-refresh.md)은 기존 변경점과 런타임·파일/코드·일괄 작업의15개 추가 계약을 안내합니다. 공용 의미는 유지하고 Hub 전용 시각·조합만 확장합니다.

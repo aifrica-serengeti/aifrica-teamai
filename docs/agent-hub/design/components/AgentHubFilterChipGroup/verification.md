@@ -1,15 +1,15 @@
 # AgentHubFilterChipGroup — 검증
 
-Figma hug·wrap·scroll 3종과 중첩 instance 18개, 우측 fade의 정적 구조를 확인했습니다.
+최초 snapshot의 Figma hug·wrap·scroll3종과 중첩 instance18개, 우측 fade의 정적 구조를 확인했습니다.
 브라우저의 필터 동작·스크롤·반응형 전환·실제 제품 source/export는 아직 미검증입니다.
 [조합 대조 결과](../../references/filter-chip-composition.json)는18개 모두 원본 variant·시각·라벨·숨김 override와 일치합니다.
-이는 label-only md/enabled 샘플의 Figma 검증이며 다른 상태나 실제 앱 통과를 뜻하지 않습니다.
+이는 최초 label-only md/enabled 샘플의 Figma 검증이며 다른 상태나 실제 앱 통과를 뜻하지 않습니다.
 
-- hug 344×32 HUG/HUG, wrap 280×72 FIXED/HUG, scroll 280×32 FIXED/HUG라는 원본 geometry를 대조합니다.
+- 최초 hug344×32·wrap280×72·scroll280×32와 최신 metadata의 hug334×32·wrap280×72·scroll280×32를 구분합니다.
   예시 폭·높이를 전체 제품의 고정값으로 만들지 않습니다.
 - 그룹 padding 0, 가로 gap 8, wrap 줄 간격 8, fill·border·shadow 없음과 정렬을 확인합니다.
 - 예시의 6칩·첫 선택·md·enabled·같은 “전체” 라벨·숨겨진 count를 제품의 필수 상태로 복사하지 않습니다.
-- selected 원본 `3092:25164`, unselected 원본 `3092:25109`와 각 중첩 instance가 연결되는지 확인합니다.
+- 최초 selected 원본 `3092:25164`, unselected 원본 `3092:25109`와 각 중첩 instance가 연결되는지 확인합니다.
 - scroll의 actual overflow가 NONE·clipping true인 관찰과 제품에서 추가한 실제 수평 overflow를 구분합니다.
 - fade node `3099:25231`의 우측 absolute 48×32, x232, white alpha0→1, transform과 visible 연결을 대조합니다.
   hug·wrap에는 fade가 없는지 확인합니다.
@@ -22,3 +22,5 @@ Figma hug·wrap·scroll 3종과 중첩 instance 18개, 우측 fade의 정적 구
   선택 전후 폭 유지, 끝 Chip·outline 노출과 필터 변경 뒤 읽던 scrollLeft 보존을 함께 검사합니다.
 - Light 이외 surface·dark·모션은 제품에서 검증하고 근거를 남깁니다. source/public export를 확인하기 전에는
   `unmapped`와 `draft`를 유지하며 정적 디자인 전달을 실제 구현 완료로 취급하지 않습니다.
+
+현재 내부 instance 치수·줄별 개수·fade 상세를 재확인한 것으로 주장하지 않습니다. 현재 FilterChip의 선 공간 예약과 동적 배치를 함께 검증하며, 오래된51px 비선택 폭을 제품 CSS에 고정하지 않습니다.

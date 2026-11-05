@@ -207,7 +207,7 @@ Scrollbar 작업은 `agent-hub/design/components/AgentHubScrollbar/`의7문서�
 공용 두께4px·radius9999·시작3px를 유지하고 이 원본의 불투명#DDD·11px 로컬 gutter를 연결한다.
 root의 실제fill/stroke/effect는 없고 thumb는absolute다. padding1이나 저장된strokeWeight1을 추가 선/위치로 해석하지 않는다.
 180px 영역·160px 길이·오른쪽4/아래17px 잔여는 샘플이며 viewport 축소나 고정 thumb·끝점공식으로 만들지 않는다.
-공용 native overflow·동적 비율/clamp·형제 overlay·중첩영역 독립성을 유지하고 hover/dark/가로형 시각은 별도 채택·검증한다.
+공용 native overflow·동적 비율/clamp·형제 overlay·중첩영역 독립성을 유지하고 hover/dark 시각은 별도 채택·검증한다. 가로180×11·thumb160×4는2026-11-05에 추가 확인했다.
 기존Menu/Picker의 다른 Scroll bar source2019:3708을 이3155:20473으로 일괄 교체하지 않는다.
 실제 제품의 wheel/touch/keyboard·drag·resize·focus/접근성을 검증한 뒤 source/export를 로컬에 매핑한다.
 공용off에서는 이extendsCommon catalog와 공용 지침을 강제하지 않는다.
@@ -215,7 +215,7 @@ root의 실제fill/stroke/effect는 없고 thumb는absolute다. padding1이나 �
 Divider3155:20478은 요청 보드3074:101330의 하위 원본이며 가로 Light의1px/#DDD/위아래8px/전체17px가 공용과 같다.
 공용을 켠 UI 작업에서는 `agent-hub/design/divider.md`의 비교 기록을 확인한 뒤 기존 `Divider`를 재사용한다.
 새 AgentHubDivider·같은 이름의 스킬·색상 override를 추가하지 않으며168px 샘플 폭이나 자식 하나의 gap10을 고정하지 않는다.
-세로형/dark/모션은 미확인이고 기존 Menu/Picker 등의 다른 Divider 원본과 크기를 일괄 교체하지 않는다.
+세로17×168·선1px·좌우8px는2026-11-05에 공용과 일치함을 확인했다. dark/모션은 미확인이고 기존 Menu/Picker 등의 다른 Divider 원본과 크기를 일괄 교체하지 않는다.
 공용을 끈 제품에는 이 재사용 안내나 공용 문서 존재를 강제하지 않는다.
 
 
@@ -282,3 +282,7 @@ Legacy header close32/r4/glyph24와 편집 Scroll bar2019:3708을 기존 AHIconB
 Header1800ms/linear/좌→우/infinite/지연0, 협소 폭 이동 규칙과 외부 elapsed1000ms 갱신은 Figma 실측이 아닌 제안값이다.
 default static과 show=false 우선을 유지하고 thinking track만clip한다. request key/phase/elapsed는 같은 제품 owner가 공급하고 종료·교체 때 observer를 정리한다.
 로고와 상태 텍스트는 정적이며 초마다 live announce하지 않는다. 기존 PNG를 재사용하고 source/export 미검증은unmapped/draft, 공용off에는이catalog를강제하지않는다.
+
+## 2026-11-05 보드 갱신
+
+`agent-hub/design/component-refresh.md`에서 기존 계약의 현재 변경과15종 추가 계약의 경계를 확인한다. 공용 SegmentedControl/Spinner/Select/Tree/ActionBar의 의미를 재사용하고 Hub 시각만 확장한다. 파일·코드·런타임 신규 조합은 전용 계약을 따르며, 기존 OutputViewer34px 헤더와 FileHeader48px를 합치지 않는다. 과거 snapshot을 보존하고 현재 observation·metadata·exact asset을 분리한다. 확보하지 못한 아이콘은 추정 매핑하지 않는다. 제품 source/export를 확인하기 전 공유설정은draft·구현은unmapped다.

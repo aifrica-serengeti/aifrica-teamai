@@ -21,3 +21,9 @@
 
 2026-10-20에 Figma [filter-chip](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3092-25329)의
 Light mode24개 variant와 숨겨진 선택 slot의 기록을 확인했습니다. 실제 앱·slot을 켠 모든 조합·focus·dark를 검증한 것은 아닙니다.
+
+2026-11-05 [갱신 근거](../../references/existing-components-refresh.figma.json)에서는 같은24개 source를 다시 대조했습니다.
+최신 ‘전체’ 샘플은 모든 상태의 폭이 sm45/md49/lg53px이며 높이28/32/36px입니다.
+과거 native flag·선 포함 폭 기록과 현재 생성 context의 padding을 분리하고, 제품이 채택한 선 공간 예약·색상 전환은 유지합니다.
+
+MCP 조건식과 exact SVG8개에서 확인한 [선택적 아이콘 상태색](./styles.md#2026-11-05-optional-glyph의-실제-상태색)은 label과 별도로 연결합니다. 선택 non-disabled의 glyph는 #3B82F6이고 label은 #1C1C1C입니다. 숨김 slot의 렌더링 배치 검증과 실제 반환 파일의 paint 확인을 구분합니다.

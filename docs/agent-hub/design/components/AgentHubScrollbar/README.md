@@ -17,8 +17,10 @@
 - [변수와 alias](../../references/scrollbar.variables.figma.json)
 - [공용·제품 source 비교](../../references/scrollbar-comparison.json)
 
-2026-10-21에 Figma [scroll-bar](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3155-20473)의 Light 단일 샘플을 확인했습니다.
-11×180px 안의4×160px thumb는 정적 도형입니다. 실제 스크롤 범위·노출 시점·hover/pressed/focus·dark·가로 방향을 측정한 것은 아닙니다.
+2026-10-21에는 세로 단일 샘플을 확인했고, 2026-11-05 [갱신 근거](../../references/existing-components-refresh.figma.json)에서는
+`3679:88871`의 direction=vertical(`3155:20473`)·horizontal(`3679:88872`) 두 variant를 확인했습니다.
+세로11×180 안의4×160 thumb와 가로180×11 안의160×4 thumb는 정적 도형입니다.
+실제 스크롤 범위·노출 시점·hover/pressed/focus·dark·양방향 조합을 측정한 것은 아닙니다.
 기존 Menu·Picker·Flyout의 scrollbar source나 제품 구현을 이 원본으로 일괄 교체하지 않습니다.
 
 

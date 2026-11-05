@@ -3,16 +3,18 @@
 `frontend-common` 묶음과 `agent-hub` 프로젝트를 함께 선택한 UI 작업에서 사용하는 확장입니다.
 `inheritCommon: false`이면 이 catalog와 공용 절차를 자동 적용하지 않고 제품 자체 지침을 따릅니다.
 
-Agent Hub 원본에서 확인한56종과 공용 폼 adapter3종, Elevation과 추가 토큰 foundation의 공용 대비 차이를 정리했습니다.
+Agent Hub 기존59종에 이번 보드 갱신15종을 추가한74종과 Elevation·추가 토큰 foundation의 공용 대비 차이를 정리했습니다.
 기존 제품에 호환되는 컴포넌트가 있으면 그 구현에 연결하면 됩니다. 별도 래퍼 생성을 강제하지 않습니다.
+
+[2026-11-05 보드 갱신](./component-refresh.md)에서 런타임 선택·세그먼트·Spinner·파일/코드 뷰·일괄 작업의15개 추가 계약과 기존 변경점을 먼저 확인할 수 있습니다.
 
 | 추가 계약 | 공용과 다른 점 | 제공 자료 |
 | --- | --- | --- |
-| [AgentHubIcon](./components/AgentHubIcon/README.md) | 16/20/24px별 실제 도형과 선 두께, Agent Hub용 이름 | SVG 206개, Figma 컴포넌트 208개 |
+| [AgentHubIcon](./components/AgentHubIcon/README.md) | 16/20/24px별 실제 도형과 선 두께, Agent Hub용 이름 | canonical SVG208개·역사 source210개, 최신 보드266개는 확인 범위 별도 |
 | [AgentHubFileIcon](./components/AgentHubFileIcon/README.md) | 파일 유형 6종의 색상·그라데이션·테두리를 포함한 44px 타일 | SVG 6개 |
 | [AgentHubBrandMark](./components/AgentHubBrandMark/README.md) | 메인 화면용 다색 마크, 180px 표시 기준·선택적 독립 wave | 기본 투명 PNG 원본 2048×2048·사용자 승인 복원 SVG |
 | [AgentHubAgentTypeChip](./components/AgentHubAgentTypeChip/README.md) | 에이전트 유형 4종의 색상·폭, 공용과 다른 글자색 | 4개 variant의 실측 기록 |
-| [AgentHubButton](./components/AgentHubButton/README.md) | 크기별 radius 8/6/4px, secondary 채움·ghost·keycap | 44개 variant의 상태별 실측 기록 |
+| [AgentHubButton](./components/AgentHubButton/README.md) | 크기별 radius 8/6/4px, secondary 채움·ghost·keycap | 52개 variant·primary24/ghost32 추가 관찰 |
 | [AgentHubIconButton](./components/AgentHubIconButton/README.md) | 32px radius6, 20px 버튼의 16px glyph, primary·active | 33개 variant의 상태별 실측 기록 |
 | [AgentHubAttachIconButton](./components/AgentHubAttachIconButton/README.md) | 32px 원형, radius9999, 24px glyph, 의미 미정 state5 | 5개 variant의 상태별 실측 기록 |
 | [AgentHubSwitch](./components/AgentHubSwitch/README.md) | 공용 medium geometry 유지, On #3B82F6·radius/full·테두리/패딩 매핑 | On/Off × enabled/disabled 4종 |
@@ -39,26 +41,20 @@ Agent Hub 원본에서 확인한56종과 공용 폼 adapter3종, Elevation과 �
 | [AgentHubFlyoutFooter](./components/AgentHubFlyoutFooter/README.md) | 안내문·top1·단독29/실제33px 차이 | 원본과 pb8/white/absolute override |
 | [AgentHubFlyoutItem](./components/AgentHubFlyoutItem/README.md) | 파일/폴더/child28px·12/16·들여쓰기·pressed/selected | 부분 matrix10종·정확한16px glyph |
 | [AgentHubFlyout](./components/AgentHubFlyout/README.md) | 새 내부 조합·r12·최대398 샘플·footer/viewport | 실제16행 중11표시·Menu와 같은150ms 모션 채택 |
-
 | [AgentHubSessionItem](./components/AgentHubSessionItem/README.md) | 예약/출력36px·white28 icon box·4상태 | title/meta·20px source→16px glyph |
 | [AgentHubSessionProgressStep](./components/AgentHubSessionProgressStep/README.md) | done/active/pending·20px indicator·마지막connector 숨김 | 정적 원형3종·Divider 실제17×4 |
 | [AgentHubSessionContextItem](./components/AgentHubSessionContextItem/README.md) | 32px·12/16·고정label66·value/count | 4상태·실제5유형의 override |
 | [AgentHubSessionSectionHeader](./components/AgentHubSessionSectionHeader/README.md) | title/count·독립toggle/+·24px | collapsed2종·정확한 chevron source |
 | [AgentHubSessionHistoryItem](./components/AgentHubSessionHistoryItem/README.md) | 실행 기록32px·px8/py6·선택/unread 분리 | 4상태·6px dot·실제 alias override |
-| [AgentHubSessionPanel](./components/AgentHubSessionPanel/README.md) | 전용320px/r16 패널·예약/기록/진행/자료 조합 | empty/filled·6원본19종·신규 개발 recipe |
-
+| [AgentHubSessionPanel](./components/AgentHubSessionPanel/README.md) | 전용320px/r16 패널·예약/기록/진행/자료 조합 | empty/filled/no-runtime·환경 안내78px 추가 |
 | [AgentHubOutputViewer](./components/AgentHubOutputViewer/README.md) | 신규 산출물 패널·34px header·상하16px corner·확대/닫기·본문 SLOT | 540×977 샘플·6속성·exact glyph·동작 연결 recipe |
-
 | [AgentHubFileItem](./components/AgentHubFileItem/README.md) | 가로 파일 행512×68/r12·44px 파일 타일·다운로드 | 실제 tertiary28·size Boolean·meta 음수 간격·button 미바인딩 구분 |
 | [AgentHubDataCard](./components/AgentHubDataCard/README.md) | 120px 정사각/r12/Raised·공용 PillSmall Chip20 | 3상태·실제 Chip source42→44폭·TEXT API 제안 |
 | [AgentHubThumbnailCard](./components/AgentHubThumbnailCard/README.md) | 324px/r24·내부4:3·Overflow/Mid·selected1px | 5상태·3Boolean·실제 image paint 없는 placeholder |
 | [AgentHubScheduleCard](./components/AgentHubScheduleCard/README.md) | 324×118/r24·예약 상태와 선택 분리·pause/play | 10조합·status14/control16·직접 FRAME24 |
 | [AgentHubItemCard](./components/AgentHubItemCard/README.md) | 324×146/r24·도구 로고/더보기/고정/대화 | 6상태·accent 투명선·실제 more20·pin 전체16 export·로고 예외 |
-
-| [AgentHubScrollbar](./components/AgentHubScrollbar/README.md) | 두께4/r9999 유지·불투명 #DDD·로컬 gutter11px | 세로 정적1종·native scroll/동적 thumb와 구분 |
-
+| [AgentHubScrollbar](./components/AgentHubScrollbar/README.md) | 두께4/r9999 유지·불투명 #DDD·로컬 gutter11px | 가로/세로2종·native scroll/동적 thumb와 구분 |
 | [AgentHubDialogFooter](./components/AgentHubDialogFooter/README.md) | 기존 AgentHubButton40·radius8·font16/24 조합 | p24/gap8 유지·cancel Boolean·기존 footer 슬롯의 패딩 중복 방지 |
-
 | [AgentHubNavIcon](./components/AgentHubNavIcon/README.md) | 전용28px 채움 glyph4종·실제 선택 blue | 일반16/20/24 아이콘 확대와 구분 |
 | [AgentHubNavItem](./components/AgentHubNavItem/README.md) | 52px/r8·clock4상태·검정 overlay와 선택 blue | glyph/state 전체 조합 미측정 구분 |
 | [AgentHubNavRail](./components/AgentHubNavRail/README.md) | 68px 레일·상단4목적지·설정32·계정28 | 전용 glyph·실제 settings20·FRAME avatar |
@@ -66,16 +62,12 @@ Agent Hub 원본에서 확인한56종과 공용 폼 adapter3종, Elevation과 �
 | [AgentHubSNBItem](./components/AgentHubSNBItem/README.md) | 32px/r6·1/2단계·들여쓰기·more gradient | 8상태·pressed/selected 같은 색의 다른 의미 |
 | [AgentHubSNBPanel](./components/AgentHubSNBPanel/README.md) | 288px·새 채팅·고정/프로젝트/채팅·상하 경계 fade | 255/256폭·특수 선택 override·실제 viewport·끝24px 보완 |
 | [AgentHubSNB](./components/AgentHubSNB/README.md) | 전용 레일과 패널의 신규 제품 조합 | CMP와 분리한 route/intent/expanded owner·구현 recipe |
-
 | [AgentHubGlobalHeader](./components/AgentHubGlobalHeader/README.md) | 신규43px 전역 헤더·blue-gray·혼합 Poppins 로고·바로가기24/알림32 | 숨김3영역·실제 FRAME·정확한 SVG3개·제품 동작 연결 |
-
 | [AgentHubChatHeader](./components/AgentHubChatHeader/README.md) | 48px 채팅 헤더·Breadcrumb·ghost24·기본 정적/선택적 생각 중 진행 표시 | 실제 하위 원본 재사용·표시 Boolean4개·border/blur와 제품 동작 구분 |
-
 | [AgentHubDialog](./components/AgentHubDialog/README.md) | radius16·blue-gray·24/32 제목·580px 편집/1296px 탐색 조합 | 공용 modal 의미·기존 하위 원본·legacy close/scrollbar 구분·2개 FRAME recipe |
-
 | [AgentHubThinkingStatus](./components/AgentHubThinkingStatus/README.md) | BrandMark32·gap8·5stop 정적 텍스트·경과시간 조합 | FRAME 실측·controlled 시간·접근성 대안·Header motion 제안과 분리 |
 
-[컴포넌트 registry](./component-registry.json)는 공용 51종에 위 59종을 추가합니다.
+[컴포넌트 registry](./component-registry.json)는 공용51종에 Agent Hub74종을 추가합니다. 이번15종의 선택 기준과 새 탐색 경로는 [컴포넌트 보드 갱신](./component-refresh.md)에서 확인합니다.
 공용 id를 덮어쓰지 않으며 CMP·PaaS에는 이 자산이나 계약을 추가하지 않습니다.
 실제 제품의 source/export는 아직 확인하지 않았으므로 모두 `unmapped`입니다.
 기존 `AgentHubChip` 별칭은 에이전트 유형4종을 가리킵니다. 새 Pill·Filter Chip과 구분해 선택하세요.
@@ -105,9 +97,9 @@ Figma 원본 이름은 chat-header이며 차트 renderer·차트 toolbar나 전�
 
 ## 공용을 그대로 사용하는 컴포넌트
 
-[Divider 비교](./divider.md)에서 확인한 가로 Light 시안은 공용의1px 선·#DDD·위아래8px 여백과 같습니다.
+[Divider 비교](./divider.md)에서 확인한 가로·세로 Light 시안은 공용의1px 선·#DDD·교차축 양쪽8px 여백과 같습니다.
 공용을 켠 UI 작업에서는 기존 `Divider`를 재사용합니다. 새 AgentHubDivider 계약이나 전용 스킬은 추가하지 않습니다.
-세로형·dark·모션은 이 시안의 확인 범위에 포함되지 않습니다.
+dark·모션은 이 시안의 확인 범위에 포함되지 않습니다.
 
 ## Foundation 확장
 
@@ -154,8 +146,10 @@ TeamAI는 이 폴더를 `.teamai/docs/agent-hub/design/`로 전달합니다. 자
 
 ## 확인한 범위
 
+2026-11-05의 현재 대조 범위와 기존 보드 이후 추가15종은 [보드 갱신 안내](./component-refresh.md)를 먼저 읽습니다. 아래는 이전 추출 시점의 기록입니다.
+
 2026-10-20~2026-10-21에 아래 원본·조립 화면59개 노드와 Elevation 보드의 구조·스타일 및 해당 원본 자산을 Figma MCP로 확인했습니다.
-컴포넌트 계약은59종이며, Picker는 item·footer 원본과 두 화면 recipe의4개 노드를3개 계약으로 연결합니다.
+당시 컴포넌트 계약은59종이며, Picker는 item·footer 원본과 두 화면 recipe의4개 노드를3개 계약으로 연결합니다.
 Divider는 공용과 일치하는 비교 자료로 기록하며 추가 계약 수에는 포함하지 않습니다.
 SNB는 실제 원본6개와 전체 보드의 제품 조합 recipe를7개 계약으로 연결합니다.
 생각 중 예시의 Header 인스턴스와 상태 FRAME은 같은 화면에서 추출했으며, Header를 확장하고 ThinkingStatus 한 계약을 추가합니다.
@@ -230,4 +224,4 @@ Figma 파일 제목의 ‘치타’는 출처 이름이며 별도 역할·프로
 [현재 채택 계약](./motion.md)은 Figma 실측, 공용 계승 동작, 사용자 변경, 신규 모션 제안을 구분합니다.
 [AgentHubInput](./components/AgentHubInput/README.md)·[AgentHubTextarea](./components/AgentHubTextarea/README.md)·
 [AgentHubSelect](./components/AgentHubSelect/README.md)는 공용 입력 계약을 사용하는 얇은 adapter3종입니다.
-기존56종에 추가해59종이며 실제 제품 구현은 계속 unmapped입니다.
+당시 기존56종에 폼 adapter3종을 추가해59종이었으며, 현재 보드 갱신 후74종입니다. 실제 제품 구현은 계속 unmapped입니다.

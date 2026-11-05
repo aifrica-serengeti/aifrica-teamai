@@ -5,7 +5,7 @@ Figma는 시각과 하위 인스턴스 조합을 제공합니다. 다음은 이�
 
 | 상태/동작 | 소유자 | 연결 원칙 |
 | --- | --- | --- |
-| empty/filled 표시 | 제품의 Session 데이터 owner | 빈 데이터와 요청 중/실패를 구분 |
+| no-runtime/empty/filled 표시 | 제품의 runtime 선택·Session 데이터 owner | 런타임 미선택·빈 데이터·요청 중/실패를 구분 |
 | 각 섹션 expanded | 패널 owner, section별 | section toggle만 해당 panel 표시를 변경 |
 | 기록 expanded | history owner | 예약 섹션 전체 펼침과 분리 |
 | 현재 실행 selected | 실행 조회 owner | 활성화된 실행의 자료를 조회하며 새 실행을 자동 시작하지 않음 |
@@ -16,7 +16,7 @@ Figma는 시각과 하위 인스턴스 조합을 제공합니다. 다음은 이�
 
 Figma empty는 출력·컨텍스트 빈 안내만 있는 완료된 빈 표시입니다. 네트워크 요청이 진행 중인 화면을
 무조건 empty로 보여 주지 않습니다. loading/error/retry/권한 없음이 필요하면 제품 계약으로 추가하고 근거를 기록합니다.
-예약·진행만 존재하거나 출력만 비어 있는 부분 조합은 두 패널 원본으로 전부 검증한 상태가 아닙니다.
+예약·진행만 존재하거나 출력만 비어 있는 부분 조합은 확인한 상태 원본으로 전부 검증한 조합이 아닙니다.
 
 SectionHeader의 toggle·+는 독립 형제 button으로 둡니다. 제목까지 펼침 trigger로 확장하는 경우
 같은 toggle 경로를 사용하고 trigger 안에 +를 중첩하지 않습니다. 기록 toggle도 별도 경로로 연결합니다.
@@ -58,3 +58,10 @@ wheel·키보드·track 클릭·thumb drag는 같은 실제 viewport 범위를 �
 바깥 shell의 `overflow:clip`과8px `overflow-clip-margin`으로 reveal을 유지하면서 Mid shadow가 왼쪽에서 잘리지 않게 합니다.8px는 layout padding이 아닌 새 runtime paint 여유입니다.
 폭 전환250ms ease는 신규 제품 제안값이며 내용의 진입·퇴장150ms ease/6px는 기존 popup 모션의 명시적 채택입니다. Figma의 Session 모션 실측으로 기록하지 않습니다.
 열림·퇴장 presence·focus는 기존 부모 owner에 두고 공용 Disclosure·ScrollArea·Panel API나 section expanded 소유권을 변경하지 않습니다.
+
+## no-runtime 전환 경계
+
+런타임 미선택이면 환경 안내를 표시하고 출력/컨텍스트의 + action을 임의로 남기지 않습니다.
+런타임을 선택한 뒤의 조회·loading/error·현재 실행 결정은 기존 제품 owner가 처리하며,
+선택 의도만으로 빈 결과나 성공 상태를 먼저 확정하지 않습니다. no-runtime은 실패나 권한 없음의 대체 화면이 아닙니다.
+세 상태의 교체에도 기존 패널 presence·최종 가용 폭·focus 소유권을 유지합니다.

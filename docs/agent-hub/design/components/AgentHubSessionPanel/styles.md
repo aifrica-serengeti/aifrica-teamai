@@ -81,3 +81,11 @@ radius16의 곡면과 thumb가 겹치지 않도록 이번 요청으로 채택한
 shell의 `overflow:clip`은 유지하고 `overflow-clip-margin:8px`로 Mid shadow를 그릴 여유를 둡니다.8px는 새 runtime paint 여유이며 border·padding·grid 예약 폭을 늘리지 않습니다.
 내용의 HUG와 기존 height/maxHeight·scroll 정책은 유지합니다. 원본 empty154/filled934px를 고정 height로 지정하거나 첫 진입 보정을 위한 측정 timer·별도 state를 추가하지 않습니다.
 이는 제품 조립 채택이며 원본320px·HUG·Mid shadow 수치와 측정 JSON은 바꾸지 않습니다.
+
+## 2026-11-05 no-runtime 표면
+
+최신 metadata의 외곽은320×78px입니다. 생성 context는 기존 blue-gray/#F6F7F9 표면·1px/#EEE 선·radius16·px12/py16·Mid를 유지합니다.
+환경 헤더는 Pretendard600·14/20·#1C1C1C, 안내는400·14/20·#AAA·좌우4px이고 섹션 gap4입니다.
+헤더에 toggle/action/count가 없어 헤더 텍스트20 + gap4 + 안내20의44px 내용이 됩니다.
+외곽78px는 현재 문구·폭의 샘플 결과이며 empty154/filled934와 함께 고정 runtime 높이로 사용하지 않습니다.
+세로 HUG와 첫 진입 최종 폭·shadow 여유·bounded viewport의 기존 제품 채택을 유지합니다.

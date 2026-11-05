@@ -1,9 +1,11 @@
 # AgentHubButton — 검증
 
-Figma의 44개 variant와 토큰 alias·원본 렌더링을 확인했습니다.
+과거44개 variant와 토큰 alias·원본 렌더링을 보존하며, 2026-11-05 metadata·생성 context에서 추가8개를 확인해 총52개 조합을 참조합니다.
 실제 Agent Hub 앱의 source/export·브라우저·상호작용은 아직 미검증입니다.
 
-- 지원 표의 44개 조합만 참조하고, 미제공 24px primary나 40px ghost를 확인된 규격으로 만들지 않습니다.
+- 지원 표의52개 조합과 추가8개 source ID를 대조하고, 미제공 secondary/tertiary24·ghost40을 확인된 규격으로 만들지 않습니다.
+- primary24의12/16·600·px8/py2/r4/icon16/keycap3, ghost32의14/20·600·px16/py4/r6/icon16/keycap없음을 각각 확인합니다.
+  primary24·ghost24의 높이가 같다는 이유로 글꼴·padding을 합치지 않습니다.
 - 40/32/28px radius 8/6/4와 ghost 24px radius 4, 크기별 font·icon·padding·gap을 확인합니다.
 - primary·secondary·tertiary의 4상태와 ghost의 투명/5%/10% overlay를 밝은 배경과 다른 surface에서 비교합니다.
 - tertiary만 1px 외곽선을 갖는지, secondary가 공용의 outline 스타일로 돌아가지 않는지 확인합니다.

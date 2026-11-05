@@ -8,7 +8,9 @@ sm/md/lg × selected2 × enabled/hovered/pressed/disabled4의 실제24종을 확
 - 미선택의 white→#F8F8F8→#F4F4F4, 라벨 #757575→#555555, border1 #DDDDDD를 비교합니다.
 - 선택의 #EBF3FF→#CCE0FF→#99C2FF·라벨 #1C1C1C·실제 border 없음과, 선택disabled의 #F4F4F4·#AAAAAA·border 복원을 확인합니다.
   미선택disabled는 white·#AAAAAA·border1입니다. selected와 순간 pressed를 합치지 않습니다.
-- Figma 관찰에서는 strokesIncludedInLayout=true와 내용 폭의2px 차이를 확인합니다. ‘전체’ 샘플은47/51/55px 대45/49/53px입니다.
+- 과거 Figma 실측은 strokesIncludedInLayout=true와 내용 폭2px 차이(47/51/55 대45/49/53)를 보존합니다.
+  최신 metadata의24종은 모든 상태45/49/53·높이28/32/36이며 현재 native strokesIncludedInLayout flag는 미수집임을 확인합니다.
+  생성 context의 py4/6/8을 native flag나 외곽 자동 높이 근거로 사용하지 않습니다.
   [2026-10-21 채택 구현](./styles.md)은 모든 상태에1px 공간을 예약하고 선택 non-disabled의 선을 투명하게 합니다.
   같은 라벨·count·아이콘에서 선택 전후 폭이 같고 인접 Chip이 움직이지 않는지 확인합니다. 샘플 폭은 고정하지 않습니다.
 - leading/trailing/count는 Booleanfalse로 숨겨져 있습니다. 부모가 숨긴 count-label의 visible=true를 실제 노출로 읽지 않습니다.
@@ -34,3 +36,5 @@ sm/md/lg × selected2 × enabled/hovered/pressed/disabled4의 실제24종을 확
   count 전용 hover·pressed 색이나 추가 Tab stop을 만들지 않습니다.
 - disabled count는 선택 여부와 무관하게 `#EEEEEE`/`#AAAAAA`이고 실제 조작은 즉시 차단됩니다.
   reduced-motion에서는 부모뿐 아니라 count 배지에도 진행 중인 색상 전환이 없어야 합니다.
+
+- optional leading/trailing의8개 exact SVG를 현재 조건식과 대조합니다. 미선택 enabled #757575, hovered/pressed #555555, 모든 disabled #AAAAAA, 선택 non-disabled #3B82F6인지 확인합니다. 선택 label #1C1C1C에 glyph를 currentColor로 묶어 검정으로 바꾸지 않습니다. 원본16px·선1px를 유지하고 slot을 실제 표시한 배치·클리핑은 제품에서 따로 검증합니다.

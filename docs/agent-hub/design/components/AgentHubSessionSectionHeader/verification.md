@@ -19,3 +19,7 @@
 - [사용자 채택](../../motion.md)의 title-group↔24px 박스 gap2와 title/count gap8을 따로 측정합니다.
 - 회전 시작/중간/종료에도 버튼 박스·focus ring이 고정이고 최종 down/right가 기존16px 자산과 같은지 확인합니다.
 -200ms 회전·250ms 본문과 빠른 연속 toggle, + action 분리, reduced-motion 즉시 전환을 검증합니다.
+
+## no-runtime 조합 회귀
+
+2026-11-05 추가한 SessionPanel no-runtime에서는 환경 title20px·안내20px·gap4px로44px 콘텐츠를 만듭니다. Header의 toggle/action/count가 모두 사라지고 숨긴 count 문자열0도 읽히지 않아야 합니다. empty의 action24px와 독립 원본 Header24px를 이 조합의 min-height로 강제하지 않습니다.

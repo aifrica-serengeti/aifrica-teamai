@@ -41,7 +41,7 @@ type SessionData = {
 };
 export type AgentHubSessionPanelProps = {
   accessibleName: string;
-  view: "empty" | "filled";
+  view: "no-runtime" | "empty" | "filled";
   data: SessionData;
   expanded: Readonly<Record<SessionSectionId, boolean>>;
   historyExpanded: boolean;
@@ -57,7 +57,9 @@ export type AgentHubSessionPanelProps = {
 };
 ```
 
-view는 측정한 두 비교용 구성을 고르는 제안입니다. 네트워크 상태 enum이 아닙니다.
+view는 확인한 세 비교용 구성을 고르는 제안입니다. 네트워크 상태 enum이 아닙니다.
+no-runtime은 런타임 미선택 owner가 공급하며 data의 목록을 렌더하지 않습니다. 이 상태만을 위해
+별도 가짜 SessionData 요청이나 loading/error 상태를 만들지 않습니다.
 empty는 두 자료 목록이 빈 데이터와 함께 사용하며, 제품 owner가 데이터와 view의 일관성을 관리합니다.
 filled에서 예약 부재·진행 부재·한쪽 자료만 빈 조합이 필요하면 미측정 확장으로 추가 검증합니다.
 countText는 포맷된 표시 문자열이고 실제 개수 계산/권한은 데이터 owner가 관리합니다.
@@ -70,6 +72,9 @@ run.unread=false로 바꾸거나 새 작업을 실행하는 동작을 패널 내
 
 ```text
 이름이 있는 aside 또는 section (Panel320 / r16 / Mid)
+├─ no-runtime일 때 환경 section만 표시 (gap4)
+│  ├─ SectionHeader: title=환경, toggle/action/count=false
+│  └─ ‘런타임을 선택하면 세션 정보가 표시됩니다.’
 ├─ filled일 때 예약 section
 │  ├─ SectionHeader: title=예약, toggle=true, action/count=false
 │  └─ items: gap8
@@ -81,10 +86,10 @@ run.unread=false로 바꾸거나 새 작업을 실행하는 동작을 패널 내
 ├─ filled일 때 진행 상황 section (gap8)
 │  ├─ SectionHeader: title=진행 상황, toggle=true
 │  └─ ol px4: ProgressStep들, 마지막connector=false
-├─ 출력 section (gap4)
+├─ empty/filled일 때 출력 section (gap4)
 │  ├─ SectionHeader: action=true, filled에서toggle/count=true
 │  └─ filled: Item 목록 / empty: ‘출력물이 없습니다.’
-└─ 컨텍스트 section (gap4)
+└─ empty/filled일 때 컨텍스트 section (gap4)
    ├─ SectionHeader: action=true, filled에서toggle=true/count=false
    └─ filled: left4 + white/r8/p4 ContextItem 목록
       empty: ‘업로드한 컨텍스트가 없습니다.’
@@ -93,7 +98,7 @@ run.unread=false로 바꾸거나 새 작업을 실행하는 동작을 패널 내
 Header의 toggle과 +, history toggle은 각각 native button 한 개로 연결합니다.
 Header를 다른 button 안에 넣지 않습니다. click에서 callback을 한 번 호출하고 Enter/Space는 native 동작을 사용합니다.
 하위 행도 label/glyph에 중복 handler를 두지 않습니다. 제품 action이 disabled라면 실제 host·handler 모두 차단하고
-추가 시각 정책은 제품 근거로 정합니다. 이 시안의19 variant에 disabled/focus 교차 상태는 없습니다.
+추가 시각 정책은 제품 근거로 정합니다. 과거19 variant와 추가 no-runtime에서 disabled/focus 교차 상태는 확인하지 않았습니다.
 
 expanded와 historyExpanded는 별도 값을 사용합니다. 펼친 영역에만 목록을 렌더하거나
 검증된 disclosure primitive로 focus/읽기 노출을 차단합니다. 사라질 영역에 focus가 있었다면 trigger로 복귀합니다.
@@ -166,7 +171,7 @@ history-toggle 크기 adapter는 실제 ghost/default/24 구현의 layout을16px
 제품 primitive의 검증된 size adapter에서 actual16/glyph16·radius4·paint#757575를 보존하고 native16 variant 지원을 주장하지 않습니다.
 glyph를 transform scale하지 않습니다. focus-visible과 hit area 확장은 제품 근거로 연결합니다.
 
-패널에 height934/154·overflow:hidden을 지정하지 않습니다. 목록은 실제 길이만큼 HUG하고
+패널에 height934/154/78·overflow:hidden을 지정하지 않습니다. 목록은 실제 길이만큼 HUG하고
 제품 shell이 제한한 높이에서는 실제 스크롤 영역을 제공해 모든 항목과 keyboard focus에 접근할 수 있게 합니다.
 history/content의 화면 가장자리 clip은 focus가 잘리지 않게 제품에서 조정·검증합니다.
 좁은 화면 폭/줄바꿈/추가 상태의 시각은 원본과 구분한 제품 확장으로 남깁니다.

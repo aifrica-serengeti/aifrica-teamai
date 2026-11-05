@@ -1,8 +1,8 @@
 # AgentHubFilterChipGroup — 크기와 배치
 
-## 그룹 geometry
+## 최초 추출 geometry와 현재 갱신
 
-| layout | 현재 frame | 폭 / 높이 정책 | wrap | 가로 / 줄 간격 | clipping / 실제 overflow |
+| layout | 2026-10-20 frame | 폭 / 높이 정책 | wrap | 가로 / 줄 간격 | clipping / 실제 overflow |
 | --- | --- | --- | --- | --- | --- |
 | hug | 344×32px | HUG / HUG | NO_WRAP | 8 / 0px | false / NONE |
 | wrap | 280×72px | FIXED / HUG | WRAP | 8 / 8px | false / NONE |
@@ -12,14 +12,22 @@
 그룹 자체 radius는 0, opacity는 1이고 fill·border·shadow가 없습니다.
 `strokeWeight: 1`만 보고 그룹에 border를 만들지 않습니다.
 
-344px은 예시 칩 6개와 gap의 합입니다. HUG를 고정 344px로 만들지 않습니다.
+과거344px은 당시 예시 칩6개와 gap의 합입니다. HUG를 고정 344px로 만들지 않습니다.
 280px은 wrap·scroll 원본 frame의 폭이며 제품 전체에 적용할 breakpoint나 최소 폭이 아닙니다.
-wrap의 현재 높이 72px은 32px 두 줄과 줄 간격 8px의 결과로, 칩 개수·라벨·가용 폭이 바뀌면 높이도 바뀝니다.
+과거 wrap 높이72px은 32px 두 줄과 줄 간격 8px의 결과로, 칩 개수·라벨·가용 폭이 바뀌면 높이도 바뀝니다.
 scroll의 칩은 shrink로 축소하거나 줄바꿈하지 않고 한 줄의 원래 폭을 유지합니다.
 
-예시의 선택 칩은 49×32px, 비선택 칩은 각각 51×32px입니다. 같은 라벨이어도 원본 border 유무로 폭이 다르므로
+최초 예시의 선택 칩은49×32px, 비선택 칩은 각각51×32px입니다. 같은 라벨이어도 원본 border 유무로 폭이 다르므로
 그룹에서 모든 칩 폭을 49px나 51px로 고정하지 않습니다. 칩의 상세 시각 값은
 [AgentHubFilterChip](../AgentHubFilterChip/styles.md)을 따릅니다.
+
+## 2026-11-05 metadata 갱신
+
+현재 hug source3099:25138의 외곽은 **334×32px**입니다. wrap3099:25169는280×72px, scroll3099:25200은280×32px로 metadata 외곽은 같습니다.
+[현재 관찰](../../references/existing-components-refresh.figma.json)의 FilterChip 샘플은 md의 모든 상태가49px이므로, 이전344px·선택49/미선택51 관계를 현재 그룹의 필수 geometry로 적용하지 않습니다.
+
+현재 그룹의 내부 instance 폭·줄별 개수·native layout flag·fade binding은 재수집하지 않았습니다. 과거4+2 배치를 현재도 같다고 단정하거나49px만으로5+1 배치라고 추정하지 않습니다. 실제 배치는 라벨·아이콘·count·가용 폭에 따라 기존 HUG/wrap 엔진이 계산합니다.
+제품 채택의 선 공간 예약·안정된 폭·gap8은 유지하며334px 역시 고정 runtime 폭이 아닙니다. 아래 fade와 내부 source 설명은 최초 snapshot의 상세 근거로 읽습니다.
 
 ## 우측 fade의 실제 구조
 

@@ -50,3 +50,11 @@
 - filled·empty·Session→Viewer 전환, 빠른 열기/닫기·재열기·resize·reduced-motion에서 기존250ms 배치 전환·150ms 내용 presence와 focus 복귀가 유지되는지 확인합니다.
 - 공용 Disclosure·ScrollArea·Panel API와 section/history expanded 소유권을 바꾸지 않고 별도 측정 timer·높이 보정 state가 생기지 않았는지 확인합니다.
 - width/reveal·8px paint 여유는 제품 채택, timing250ms는 신규 제안,150ms popup timing은 명시적 계승으로 기록하며 원본 HUG·shadow 실측과 혼동하지 않습니다.
+
+## 2026-11-05 추가 상태 대조
+
+- [갱신 근거](../../references/existing-components-refresh.figma.json)의 no-runtime `4178:41895`·320×78과 기존 empty320×154/filled320×934를 구분합니다.
+- 환경 헤더·안내 문구·gap4·px12/py16·radius16·#EEE 선·Mid를 대조하고 숨긴 count0·toggle·+를 노출하지 않습니다.
+- 런타임 미선택→선택 후 조회→빈 결과/filled·오류의 구분과 기존 데이터 owner·취소·focus를 소비 제품에서 검증합니다.
+- 새 context의 생성 분기만 보고 filled를 삭제하거나 no-runtime을 empty에 합치지 않습니다.
+- 첫 열기에서 샘플78px를 고정하지 않고 최종 가용 폭과 실제 문구의 자연 높이를 유지합니다.

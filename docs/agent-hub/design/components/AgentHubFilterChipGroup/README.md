@@ -19,3 +19,5 @@
 2026-10-20에 Figma [filter-chip-group](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3099-25232)
 3종을 확인했습니다. Figma description의 사용 의도와 실제 overflow·fade 노드를 구분해 기록했습니다.
 정적 디자인 참조이며 실제 제품의 선택 동작·스크롤·전체 테마를 검증한 것은 아닙니다.
+
+2026-11-05 metadata에서 hug 외곽334×32px를 추가 확인했습니다. 과거344px와 현재 수치·미수집 내부 배치를 [스타일](./styles.md)과 [현재 관찰](../../references/existing-components-refresh.figma.json)에 구분했습니다.

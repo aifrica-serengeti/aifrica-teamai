@@ -26,13 +26,14 @@
     }
   ],
   "exportMethod": {
-    "vectors": "Figma Plugin API exportAsync SVG_STRING, complete component bounds, unchanged paths/paints",
-    "logo": "Figma MCP raw uploaded image, SHA-1 matched to ImagePaint.imageHash; no tracing or background baked in"
+    "vectors": "Initial206 icons and6 file icons: Figma Plugin API exportAsync SVG_STRING, complete component bounds, unchanged paths/paints; subsequent icon additions follow per-entry exportMethod.",
+    "logo": "Figma MCP raw uploaded image, SHA-1 matched to ImagePaint.imageHash; no tracing or background baked in",
+    "iconRefresh": "2026-11-05: exact MCP-provided SVG exports added only for source-size glyphs; historical full-frame assets retained, comparison scope in iconRefresh.reference."
   },
   "counts": {
-    "figmaIconComponents": 208,
-    "iconNames": 72,
-    "iconAssets": 206,
+    "figmaIconComponents": 210,
+    "iconNames": 74,
+    "iconAssets": 208,
     "fileIconAssets": 6,
     "brandAssets": 1
   },
@@ -890,6 +891,27 @@
       "defaultColors": [
         "#1C1C1C"
       ]
+    },
+    {
+      "name": "chevron-up",
+      "size": 16,
+      "path": "assets/icons/chevron-up/16.svg",
+      "sha256": "d62b1bde5055fbf2d61a67536e3e15ee48e309f1fb07467d83b8ecedb8e49b6e",
+      "bytes": 310,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "3464:60457",
+          "name": "icon/chevron-up/16"
+        }
+      ],
+      "strokeWidths": [
+        1
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ],
+      "exportMethod": "Exact SVG bytes supplied by Figma MCP get_design_context; complete source-size viewBox verified"
     },
     {
       "name": "circle-alert",
@@ -3172,6 +3194,27 @@
       ]
     },
     {
+      "name": "refresh-cw",
+      "size": 24,
+      "path": "assets/icons/refresh-cw/24.svg",
+      "sha256": "c875d0a753177311a8a59b3b9a75eeba51df9c800a66d2e32f622d93e37694b3",
+      "bytes": 916,
+      "format": "svg",
+      "sources": [
+        {
+          "nodeId": "4093:235219",
+          "name": "icon/refresh-cw/24"
+        }
+      ],
+      "strokeWidths": [
+        1.5
+      ],
+      "defaultColors": [
+        "#1C1C1C"
+      ],
+      "exportMethod": "Exact SVG bytes supplied by Figma MCP get_design_context; complete source-size viewBox verified"
+    },
+    {
       "name": "retry",
       "size": 16,
       "path": "assets/icons/retry/16.svg",
@@ -4282,5 +4325,21 @@
     "path": "assets/brand/agent-hub-mark.png",
     "sha256": "8591d15fac29d9d6bf474ab34a1151528e257f4f72aff461359ede012c89537b",
     "bytes": 1508137
+  },
+  "iconRefresh": {
+    "verifiedAt": "2026-11-05",
+    "reference": "references/icons-refresh-2026-11-05.json",
+    "status": "partial-current-source-export-coverage",
+    "currentArchiveSources": 266,
+    "latestSourceExportsObserved": 147,
+    "retainedHistoricalSourceIdsAbsentFromCurrentArchive": [
+      "3178:46336",
+      "3178:46337"
+    ],
+    "newCanonicalSourceIds": [
+      "4093:235219",
+      "3464:60457"
+    ],
+    "note": "counts describes packaged canonical assets including preserved historical sources, not the current Figma archive count. No vector/stroke/paint values are inferred for metadata-only sources."
   }
 }

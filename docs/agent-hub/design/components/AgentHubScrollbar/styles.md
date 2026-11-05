@@ -1,6 +1,8 @@
 # AgentHubScrollbar — 치수·색상과 공용 비교
 
-[실측](../../references/scrollbar.figma.json)의 Light 단일 샘플입니다. 실제 viewport·thumb 길이는 제품의 스크롤 측정값으로 정합니다.
+아래 상세 표는 [2026-10-21 세로 실측](../../references/scrollbar.figma.json)입니다.
+2026-11-05의 방향 추가는 별도 [갱신 근거](../../references/existing-components-refresh.figma.json)에 구분합니다.
+실제 viewport·thumb 길이는 제품의 스크롤 측정값으로 정합니다.
 
 | 영역 | 실제 값 |
 | --- | --- |
@@ -59,3 +61,12 @@ SNB만 gutter27px·track right2px·목록 영역 margin-right−16px·추가 tra
 288px 패널에서 행 폭244px를 유지하며 행↔thumb21px·패널 오른쪽 경계↔thumb 끝3px·track bottom27px를 확보합니다.
 이는 사용자 요청 채택이며 원본 static scrollbar나 다른 컴포넌트의 기본값을 변경하지 않습니다.
 track의 CSS 높이와 thumb 계산의 유효 track 길이는 같아야 합니다. 긴 thumb를 bottom 밖에서 clip하는 방식으로 대신하지 않습니다.
+
+## 2026-11-05 가로 방향 확인
+
+`3679:88872`는180×11px이고, thumb `3679:88873`은 x3/y3·160×4px입니다.
+생성 context에서 세로와 같은 #DDD·radius9999·투명 gutter를 확인했습니다.
+가로의 오른쪽17px/아래4px 잔여 역시 정적 샘플의 차이이며 runtime endpoint 공식으로 사용하지 않습니다.
+기존 기본11px gutter와 SNB 전용27px gutter·추가 track 끝24px의 제품 채택을 변경하지 않습니다.
+현재 native padding·constraints·variant property definition 전체를 다시 수집한 것은 아니므로,
+과거 세로 상세 표의 flag를 새 가로 원본의 native 측정값으로 복사하지 않습니다.

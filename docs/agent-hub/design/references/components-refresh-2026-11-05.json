@@ -1,0 +1,3454 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "capturedAt": "2026-11-05",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3074:101330",
+    "width": 9822,
+    "height": 4711
+  },
+  "evidence": {
+    "metadata": "components-refresh-2026-11-05.metadata.xml",
+    "assetManifest": "components-refresh.assets.json",
+    "nativePropertyDefinitionsAvailable": false,
+    "nativeVariableBindingsAvailable": false,
+    "runtimeVerified": false
+  },
+  "families": [
+    {
+      "nodeId": "3207:23990",
+      "name": "Frame 1215955231",
+      "metadataTag": "frame",
+      "width": 100,
+      "height": 100,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-container"
+    },
+    {
+      "nodeId": "3074:134173",
+      "name": "dim",
+      "metadataTag": "symbol",
+      "width": 418,
+      "height": 241,
+      "children": [],
+      "review": "context-and-metadata",
+      "observedScope": "Dialog dim 조합",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3155:20479",
+      "name": "finder/section-title",
+      "metadataTag": "symbol",
+      "width": 64,
+      "height": 24,
+      "children": [],
+      "review": "context-and-metadata",
+      "observedScope": "Finder section title 조합",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3151:20373",
+      "name": "dialog/footer",
+      "metadataTag": "symbol",
+      "width": 580,
+      "height": 88,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3005:23146",
+      "name": "flyout/item",
+      "metadataTag": "frame",
+      "width": 312,
+      "height": 456,
+      "children": [
+        {
+          "nodeId": "3005:23096",
+          "name": "kind=item, state=default",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        },
+        {
+          "nodeId": "2975:76690",
+          "name": "kind=item, state=pressed",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        },
+        {
+          "nodeId": "2975:76698",
+          "name": "kind=item, state=selected",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        },
+        {
+          "nodeId": "3005:23104",
+          "name": "kind=item, state=hovered",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        },
+        {
+          "nodeId": "3005:23112",
+          "name": "kind=folder, state=default",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        },
+        {
+          "nodeId": "3005:23119",
+          "name": "kind=folder, state=hovered",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        },
+        {
+          "nodeId": "3005:23126",
+          "name": "kind=folder-open, state=default",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        },
+        {
+          "nodeId": "3005:23133",
+          "name": "kind=folder-open, state=hovered",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        },
+        {
+          "nodeId": "3005:23140",
+          "name": "kind=child, state=default",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        },
+        {
+          "nodeId": "3005:23143",
+          "name": "kind=child, state=hovered",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 28
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3005:23094",
+      "name": "flyout/footer",
+      "metadataTag": "symbol",
+      "width": 280,
+      "height": 29,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3005:23089",
+      "name": "flyout/header",
+      "metadataTag": "symbol",
+      "width": 280,
+      "height": 54,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3010:23522",
+      "name": "flyout",
+      "metadataTag": "symbol",
+      "width": 280,
+      "height": 398,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2627:62004",
+      "name": "picker/footer",
+      "metadataTag": "symbol",
+      "width": 768,
+      "height": 39,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2627:61977",
+      "name": "picker/item",
+      "metadataTag": "frame",
+      "width": 790,
+      "height": 212.00003051757812,
+      "children": [
+        {
+          "nodeId": "2627:61936",
+          "name": "kind=agent, state=enabled",
+          "metadataTag": "symbol",
+          "width": 758,
+          "height": 36
+        },
+        {
+          "nodeId": "2627:61946",
+          "name": "kind=agent, state=hovered",
+          "metadataTag": "symbol",
+          "width": 758,
+          "height": 36
+        },
+        {
+          "nodeId": "2627:61960",
+          "name": "kind=chat, state=enabled",
+          "metadataTag": "symbol",
+          "width": 758,
+          "height": 36.00001525878906
+        },
+        {
+          "nodeId": "2627:61974",
+          "name": "kind=chat, state=hovered",
+          "metadataTag": "symbol",
+          "width": 758,
+          "height": 36.00001525878906
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3135:16036",
+      "name": "menu",
+      "metadataTag": "symbol",
+      "width": 160,
+      "height": 318,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3135:16031",
+      "name": "menu/item",
+      "metadataTag": "frame",
+      "width": 720,
+      "height": 104,
+      "children": [
+        {
+          "nodeId": "3135:15951",
+          "name": "type=default, state=enabled",
+          "metadataTag": "symbol",
+          "width": 160,
+          "height": 28
+        },
+        {
+          "nodeId": "3135:15961",
+          "name": "type=default, state=hovered",
+          "metadataTag": "symbol",
+          "width": 160,
+          "height": 28
+        },
+        {
+          "nodeId": "3135:15971",
+          "name": "type=default, state=pressed",
+          "metadataTag": "symbol",
+          "width": 160,
+          "height": 28
+        },
+        {
+          "nodeId": "3135:15981",
+          "name": "type=default, state=disabled",
+          "metadataTag": "symbol",
+          "width": 160,
+          "height": 28
+        },
+        {
+          "nodeId": "3135:15991",
+          "name": "type=destructive, state=enabled",
+          "metadataTag": "symbol",
+          "width": 160,
+          "height": 28
+        },
+        {
+          "nodeId": "3135:16001",
+          "name": "type=destructive, state=hovered",
+          "metadataTag": "symbol",
+          "width": 160,
+          "height": 28
+        },
+        {
+          "nodeId": "3135:16011",
+          "name": "type=destructive, state=pressed",
+          "metadataTag": "symbol",
+          "width": 160,
+          "height": 28
+        },
+        {
+          "nodeId": "3135:16021",
+          "name": "type=destructive, state=disabled",
+          "metadataTag": "symbol",
+          "width": 160,
+          "height": 28
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4064:27716",
+      "name": "title",
+      "metadataTag": "text",
+      "width": 516,
+      "height": 67,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "3621:24737",
+      "name": "action-bar/icon-action",
+      "metadataTag": "frame",
+      "width": 336,
+      "height": 112,
+      "children": [
+        {
+          "nodeId": "3621:24720",
+          "name": "state=enabled",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "3621:24721",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "3621:24725",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "3621:24733",
+          "name": "state=disabled",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "ActionBar icon action",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3621:24690",
+      "name": "action-bar/action",
+      "metadataTag": "frame",
+      "width": 552,
+      "height": 164,
+      "children": [
+        {
+          "nodeId": "3621:24657",
+          "name": "state=enabled, size=32",
+          "metadataTag": "symbol",
+          "width": 88,
+          "height": 32
+        },
+        {
+          "nodeId": "3621:24646",
+          "name": "state=enabled, size=28",
+          "metadataTag": "symbol",
+          "width": 67,
+          "height": 28
+        },
+        {
+          "nodeId": "3621:24658",
+          "name": "state=hovered, size=32",
+          "metadataTag": "symbol",
+          "width": 88,
+          "height": 32
+        },
+        {
+          "nodeId": "3621:24662",
+          "name": "state=pressed, size=32",
+          "metadataTag": "symbol",
+          "width": 88,
+          "height": 32
+        },
+        {
+          "nodeId": "3621:24670",
+          "name": "state=disabled, size=32",
+          "metadataTag": "symbol",
+          "width": 88,
+          "height": 32
+        },
+        {
+          "nodeId": "3621:24674",
+          "name": "state=hovered, size=28",
+          "metadataTag": "symbol",
+          "width": 67,
+          "height": 28
+        },
+        {
+          "nodeId": "3621:24678",
+          "name": "state=pressed, size=28",
+          "metadataTag": "symbol",
+          "width": 67,
+          "height": 28
+        },
+        {
+          "nodeId": "3621:24686",
+          "name": "state=disabled, size=28",
+          "metadataTag": "symbol",
+          "width": 67,
+          "height": 28
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "ActionBar label action",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3610:24772",
+      "name": "action-bar",
+      "metadataTag": "frame",
+      "width": 736,
+      "height": 192,
+      "children": [
+        {
+          "nodeId": "3610:24484",
+          "name": "size=48",
+          "metadataTag": "symbol",
+          "width": 656,
+          "height": 48
+        },
+        {
+          "nodeId": "3610:24500",
+          "name": "size=40",
+          "metadataTag": "symbol",
+          "width": 538,
+          "height": 40
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "ActionBar child48/40",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3128:25559",
+      "name": "file-item",
+      "metadataTag": "symbol",
+      "width": 512,
+      "height": 68,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2427:25252",
+      "name": "data-item",
+      "metadataTag": "frame",
+      "width": 432,
+      "height": 160,
+      "children": [
+        {
+          "nodeId": "2427:25253",
+          "name": "state=enabled",
+          "metadataTag": "symbol",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "nodeId": "2427:25258",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "nodeId": "2427:25263",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 120,
+          "height": 120
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3624:24877",
+      "name": "file-card",
+      "metadataTag": "frame",
+      "width": 2033,
+      "height": 896,
+      "children": [
+        {
+          "nodeId": "3624:24508",
+          "name": "type=spreadsheet, state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24509",
+          "name": "type=spreadsheet, state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24538",
+          "name": "type=spreadsheet, state=selected",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24604",
+          "name": "type=document, state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24605",
+          "name": "type=document, state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24636",
+          "name": "type=document, state=selected",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24696",
+          "name": "type=pdf, state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24697",
+          "name": "type=pdf, state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24720",
+          "name": "type=pdf, state=selected",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24776",
+          "name": "type=presentation, state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3626:25280",
+          "name": "type=code, state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3626:25426",
+          "name": "type=zip, state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24777",
+          "name": "type=presentation, state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3626:25296",
+          "name": "type=code, state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3626:25442",
+          "name": "type=zip, state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24804",
+          "name": "type=presentation, state=selected",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3626:25312",
+          "name": "type=code, state=selected",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3626:25458",
+          "name": "type=zip, state=selected",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24857",
+          "name": "type=image, state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24858",
+          "name": "type=image, state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "nodeId": "3624:24869",
+          "name": "type=image, state=selected",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "FileCard21종",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3475:22919",
+      "name": "thumbnail",
+      "metadataTag": "frame",
+      "width": 1756,
+      "height": 362,
+      "children": [
+        {
+          "nodeId": "3475:22916",
+          "name": "ratio=4:3",
+          "metadataTag": "symbol",
+          "width": 322,
+          "height": 241.5
+        },
+        {
+          "nodeId": "3475:22917",
+          "name": "ratio=1:1",
+          "metadataTag": "symbol",
+          "width": 322,
+          "height": 322
+        },
+        {
+          "nodeId": "3475:22918",
+          "name": "ratio=16:9",
+          "metadataTag": "symbol",
+          "width": 322,
+          "height": 181.125
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "Thumbnail3종",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3100:114430",
+      "name": "thumbnail-card",
+      "metadataTag": "frame",
+      "width": 1756,
+      "height": 383.5,
+      "children": [
+        {
+          "nodeId": "3100:114393",
+          "name": "state=default",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 343.5
+        },
+        {
+          "nodeId": "3100:114394",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 343.5
+        },
+        {
+          "nodeId": "3100:114403",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 343.5
+        },
+        {
+          "nodeId": "3100:114412",
+          "name": "state=selected",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 343.5
+        },
+        {
+          "nodeId": "3100:114421",
+          "name": "state=disabled",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 343.5
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3100:171",
+      "name": "schedule-card",
+      "metadataTag": "frame",
+      "width": 1756,
+      "height": 300,
+      "children": [
+        {
+          "nodeId": "3100:22",
+          "name": "state=default, status=active",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        },
+        {
+          "nodeId": "3100:23",
+          "name": "state=default, status=paused",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        },
+        {
+          "nodeId": "3100:47",
+          "name": "state=hovered, status=active",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        },
+        {
+          "nodeId": "3100:61",
+          "name": "state=pressed, status=active",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        },
+        {
+          "nodeId": "3100:75",
+          "name": "state=selected, status=active",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        },
+        {
+          "nodeId": "3100:89",
+          "name": "state=disabled, status=active",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        },
+        {
+          "nodeId": "3100:111",
+          "name": "state=hovered, status=paused",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        },
+        {
+          "nodeId": "3100:125",
+          "name": "state=pressed, status=paused",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        },
+        {
+          "nodeId": "3100:139",
+          "name": "state=selected, status=paused",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        },
+        {
+          "nodeId": "3100:153",
+          "name": "state=disabled, status=paused",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 118
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3095:143",
+      "name": "item-card",
+      "metadataTag": "frame",
+      "width": 2104,
+      "height": 186,
+      "children": [
+        {
+          "nodeId": "3095:20",
+          "name": "state=default",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 146
+        },
+        {
+          "nodeId": "3095:21",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 146
+        },
+        {
+          "nodeId": "3095:47",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 146
+        },
+        {
+          "nodeId": "3095:73",
+          "name": "state=selected",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 146
+        },
+        {
+          "nodeId": "3095:99",
+          "name": "state=disabled",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 146
+        },
+        {
+          "nodeId": "3074:91985",
+          "name": "state=accent",
+          "metadataTag": "symbol",
+          "width": 324,
+          "height": 146
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4064:27714",
+      "name": "title",
+      "metadataTag": "text",
+      "width": 210,
+      "height": 67,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "3686:20585",
+      "name": "indent-guide",
+      "metadataTag": "frame",
+      "width": 83.5999984741211,
+      "height": 54,
+      "children": [
+        {
+          "nodeId": "3686:20581",
+          "name": "state=default",
+          "metadataTag": "symbol",
+          "width": 16.799999237060547,
+          "height": 20
+        },
+        {
+          "nodeId": "3686:20583",
+          "name": "state=active",
+          "metadataTag": "symbol",
+          "width": 16.799999237060547,
+          "height": 20
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "IndentGuide default/active2종",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3684:20432",
+      "name": "code-line",
+      "metadataTag": "frame",
+      "width": 834,
+      "height": 278,
+      "children": [
+        {
+          "nodeId": "3689:20318",
+          "name": "indent=0, state=empty",
+          "metadataTag": "symbol",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "nodeId": "3684:20396",
+          "name": "indent=0, state=enabled",
+          "metadataTag": "symbol",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "nodeId": "3684:20402",
+          "name": "indent=1, state=enabled",
+          "metadataTag": "symbol",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "nodeId": "3684:20410",
+          "name": "indent=2, state=enabled",
+          "metadataTag": "symbol",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "nodeId": "3684:20420",
+          "name": "indent=3, state=enabled",
+          "metadataTag": "symbol",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "nodeId": "3686:20603",
+          "name": "indent=0, state=current",
+          "metadataTag": "symbol",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "nodeId": "3686:20615",
+          "name": "indent=1, state=current",
+          "metadataTag": "symbol",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "nodeId": "3686:20631",
+          "name": "indent=2, state=current",
+          "metadataTag": "symbol",
+          "width": 800,
+          "height": 20
+        },
+        {
+          "nodeId": "3686:20651",
+          "name": "indent=3, state=current",
+          "metadataTag": "symbol",
+          "width": 800,
+          "height": 20
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "CodeLine enabled/current/empty3상태·9부분 조합",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3713:24469",
+      "name": "file-tree-entry-guide",
+      "metadataTag": "frame",
+      "width": 1080,
+      "height": 296,
+      "children": [
+        {
+          "nodeId": "3713:24199",
+          "name": "Level=1, State=default",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24209",
+          "name": "Level=1, State=hover",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3711:54089",
+          "name": "Level=1, State=pressed",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24219",
+          "name": "Level=1, State=selected",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24229",
+          "name": "Level=2, State=default",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24241",
+          "name": "Level=2, State=hover",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3711:54096",
+          "name": "Level=2, State=pressed",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24253",
+          "name": "Level=2, State=selected",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24265",
+          "name": "Level=3, State=default",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24279",
+          "name": "Level=3, State=hover",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3711:54106",
+          "name": "Level=3, State=pressed",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24293",
+          "name": "Level=3, State=selected",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24307",
+          "name": "Level=4, State=default",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24323",
+          "name": "Level=4, State=hover",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3711:54118",
+          "name": "Level=4, State=pressed",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24339",
+          "name": "Level=4, State=selected",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24355",
+          "name": "Level=5, State=default",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24373",
+          "name": "Level=5, State=hover",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3711:54132",
+          "name": "Level=5, State=pressed",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24391",
+          "name": "Level=5, State=selected",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24409",
+          "name": "Level=6, State=default",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24429",
+          "name": "Level=6, State=hover",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3711:54148",
+          "name": "Level=6, State=pressed",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        },
+        {
+          "nodeId": "3713:24449",
+          "name": "Level=6, State=selected",
+          "metadataTag": "symbol",
+          "width": 240,
+          "height": 28
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "FileTreeEntryGuide",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4056:17947",
+      "name": "file-header",
+      "metadataTag": "frame",
+      "width": 950,
+      "height": 224,
+      "children": [
+        {
+          "nodeId": "4056:17730",
+          "name": "content=empty",
+          "metadataTag": "symbol",
+          "width": 910,
+          "height": 48
+        },
+        {
+          "nodeId": "4056:17773",
+          "name": "content=tabs",
+          "metadataTag": "symbol",
+          "width": 910,
+          "height": 48
+        },
+        {
+          "nodeId": "4056:17868",
+          "name": "content=tabs-overflow",
+          "metadataTag": "symbol",
+          "width": 480,
+          "height": 48
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "FileHeader",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4056:17720",
+      "name": "file-tab",
+      "metadataTag": "frame",
+      "width": 200,
+      "height": 64,
+      "children": [
+        {
+          "nodeId": "4056:17709",
+          "name": "state=default",
+          "metadataTag": "symbol",
+          "width": 70,
+          "height": 24
+        },
+        {
+          "nodeId": "4056:17716",
+          "name": "state=active",
+          "metadataTag": "symbol",
+          "width": 70,
+          "height": 24
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "FileTab",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4052:97458",
+      "name": "row-title",
+      "metadataTag": "text",
+      "width": 185,
+      "height": 51,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "3015:24221",
+      "name": "output-viewer",
+      "metadataTag": "symbol",
+      "width": 540,
+      "height": 977,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4064:27712",
+      "name": "title",
+      "metadataTag": "text",
+      "width": 210,
+      "height": 67,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "2987:22151",
+      "name": "session/context-item",
+      "metadataTag": "frame",
+      "width": 314,
+      "height": 208,
+      "children": [
+        {
+          "nodeId": "2987:22133",
+          "name": "state=default",
+          "metadataTag": "symbol",
+          "width": 282,
+          "height": 32
+        },
+        {
+          "nodeId": "2975:67202",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 282,
+          "height": 32
+        },
+        {
+          "nodeId": "2987:22142",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 282,
+          "height": 32
+        },
+        {
+          "nodeId": "2975:67672",
+          "name": "state=selected",
+          "metadataTag": "symbol",
+          "width": 282,
+          "height": 32
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2987:22132",
+      "name": "session/progress-step",
+      "metadataTag": "frame",
+      "width": 318,
+      "height": 160,
+      "children": [
+        {
+          "nodeId": "2987:22103",
+          "name": "status=done",
+          "metadataTag": "symbol",
+          "width": 286,
+          "height": 32
+        },
+        {
+          "nodeId": "2987:22114",
+          "name": "status=active",
+          "metadataTag": "symbol",
+          "width": 286,
+          "height": 32
+        },
+        {
+          "nodeId": "2987:22122",
+          "name": "status=pending",
+          "metadataTag": "symbol",
+          "width": 286,
+          "height": 32
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2995:22304",
+      "name": "session/history-item",
+      "metadataTag": "frame",
+      "width": 310,
+      "height": 208,
+      "children": [
+        {
+          "nodeId": "2995:22298",
+          "name": "state=default",
+          "metadataTag": "symbol",
+          "width": 278,
+          "height": 32
+        },
+        {
+          "nodeId": "2975:68531",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 278,
+          "height": 32
+        },
+        {
+          "nodeId": "2975:68534",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 278,
+          "height": 32
+        },
+        {
+          "nodeId": "2995:22301",
+          "name": "state=selected",
+          "metadataTag": "symbol",
+          "width": 278,
+          "height": 32
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2986:22139",
+      "name": "session/section-header",
+      "metadataTag": "frame",
+      "width": 326,
+      "height": 96,
+      "children": [
+        {
+          "nodeId": "2986:22115",
+          "name": "collapsed=false",
+          "metadataTag": "symbol",
+          "width": 294,
+          "height": 24
+        },
+        {
+          "nodeId": "2986:22127",
+          "name": "collapsed=true",
+          "metadataTag": "symbol",
+          "width": 294,
+          "height": 24
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2986:22114",
+      "name": "session/item",
+      "metadataTag": "frame",
+      "width": 326,
+      "height": 224,
+      "children": [
+        {
+          "nodeId": "2986:22092",
+          "name": "state=default",
+          "metadataTag": "symbol",
+          "width": 294,
+          "height": 36
+        },
+        {
+          "nodeId": "2975:67191",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 294,
+          "height": 36
+        },
+        {
+          "nodeId": "2986:22103",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 294,
+          "height": 36
+        },
+        {
+          "nodeId": "2975:67661",
+          "name": "state=selected",
+          "metadataTag": "symbol",
+          "width": 294,
+          "height": 36
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2975:69460",
+      "name": "session-panel",
+      "metadataTag": "frame",
+      "width": 718,
+      "height": 974,
+      "children": [
+        {
+          "nodeId": "2975:69459",
+          "name": "state=filled",
+          "metadataTag": "symbol",
+          "width": 320,
+          "height": 934
+        },
+        {
+          "nodeId": "2975:69458",
+          "name": "state=empty",
+          "metadataTag": "symbol",
+          "width": 320,
+          "height": 154
+        },
+        {
+          "nodeId": "4178:41895",
+          "name": "state=no-runtime",
+          "metadataTag": "symbol",
+          "width": 320,
+          "height": 78
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "SessionPanel no-runtime variant만 현재 상세 대조",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4064:27710",
+      "name": "title",
+      "metadataTag": "text",
+      "width": 207,
+      "height": 67,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "2320:28612",
+      "name": "message/example",
+      "metadataTag": "frame",
+      "width": 339.20001220703125,
+      "height": 196,
+      "children": [
+        {
+          "nodeId": "2320:28611",
+          "name": "state=enabled",
+          "metadataTag": "symbol",
+          "width": 121,
+          "height": 44
+        },
+        {
+          "nodeId": "2320:28610",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 121,
+          "height": 44
+        },
+        {
+          "nodeId": "2320:28609",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 121,
+          "height": 44
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2972:20901",
+      "name": "message/user",
+      "metadataTag": "frame",
+      "width": 394,
+      "height": 245,
+      "children": [
+        {
+          "nodeId": "2972:20900",
+          "name": "kind=agent",
+          "metadataTag": "symbol",
+          "width": 346,
+          "height": 44
+        },
+        {
+          "nodeId": "2972:20899",
+          "name": "kind=chat",
+          "metadataTag": "symbol",
+          "width": 211,
+          "height": 44
+        },
+        {
+          "nodeId": "3103:25277",
+          "name": "kind=schedule",
+          "metadataTag": "symbol",
+          "width": 211,
+          "height": 68
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3016:102212",
+      "name": "progress-alert",
+      "metadataTag": "symbol",
+      "width": 640,
+      "height": 46,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2967:34438",
+      "name": "chat-header",
+      "metadataTag": "symbol",
+      "width": 640,
+      "height": 48,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2611:69436",
+      "name": "chat-composer",
+      "metadataTag": "frame",
+      "width": 808,
+      "height": 472,
+      "children": [
+        {
+          "nodeId": "2611:69435",
+          "name": "state=focused",
+          "metadataTag": "symbol",
+          "width": 768,
+          "height": 58
+        },
+        {
+          "nodeId": "2611:69434",
+          "name": "state=enabled",
+          "metadataTag": "symbol",
+          "width": 768,
+          "height": 58
+        },
+        {
+          "nodeId": "2611:69432",
+          "name": "state=typing",
+          "metadataTag": "symbol",
+          "width": 768,
+          "height": 58
+        },
+        {
+          "nodeId": "2611:69433",
+          "name": "state=agent-selected",
+          "metadataTag": "symbol",
+          "width": 768,
+          "height": 58
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4064:27708",
+      "name": "title",
+      "metadataTag": "text",
+      "width": 97,
+      "height": 67,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "3214:59265",
+      "name": "progress-alert",
+      "metadataTag": "text",
+      "width": 94,
+      "height": 20,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "2427:25423",
+      "name": "BreadcrumbSeparator",
+      "metadataTag": "frame",
+      "width": 63,
+      "height": 140,
+      "children": [
+        {
+          "nodeId": "2427:25424",
+          "name": ".type=slash",
+          "metadataTag": "symbol",
+          "width": 22,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25426",
+          "name": ".type=dash",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25428",
+          "name": ".type=arrow",
+          "metadataTag": "symbol",
+          "width": 21.557498931884766,
+          "height": 24
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2427:25430",
+      "name": "Breadcrumb",
+      "metadataTag": "frame",
+      "width": 460,
+      "height": 108,
+      "children": [
+        {
+          "nodeId": "2427:25431",
+          "name": "separator=slash",
+          "metadataTag": "symbol",
+          "width": 315,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25438",
+          "name": "separator=arrow",
+          "metadataTag": "symbol",
+          "width": 313.22998046875,
+          "height": 24
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2611:62099",
+      "name": "global-header",
+      "metadataTag": "symbol",
+      "width": 774,
+      "height": 43,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4004:26884",
+      "name": "runtime-select-item",
+      "metadataTag": "frame",
+      "width": 276,
+      "height": 200,
+      "children": [
+        {
+          "nodeId": "4004:26861",
+          "name": "state=default",
+          "metadataTag": "symbol",
+          "width": 236,
+          "height": 40
+        },
+        {
+          "nodeId": "4004:26872",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 236,
+          "height": 40
+        },
+        {
+          "nodeId": "4004:26883",
+          "name": "state=selected",
+          "metadataTag": "symbol",
+          "width": 236,
+          "height": 40
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "RuntimeSelectItem3상태",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4004:27014",
+      "name": "runtime-select",
+      "metadataTag": "frame",
+      "width": 278,
+      "height": 345,
+      "children": [
+        {
+          "nodeId": "4004:26942",
+          "name": "open=false",
+          "metadataTag": "symbol",
+          "width": 238,
+          "height": 40
+        },
+        {
+          "nodeId": "4004:27013",
+          "name": "open=true",
+          "metadataTag": "symbol",
+          "width": 238,
+          "height": 40
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "RuntimeSelect open2상태",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4004:27232",
+      "name": "snb-runtime",
+      "metadataTag": "frame",
+      "width": 656,
+      "height": 1073,
+      "children": [
+        {
+          "nodeId": "4004:27119",
+          "name": "state=unselected",
+          "metadataTag": "symbol",
+          "width": 288,
+          "height": 1033
+        },
+        {
+          "nodeId": "4004:27231",
+          "name": "state=selected",
+          "metadataTag": "symbol",
+          "width": 288,
+          "height": 1033
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "SNBRuntime child2상태",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2611:62055",
+      "name": "nav-rail",
+      "metadataTag": "symbol",
+      "width": 68,
+      "height": 1037,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2611:62007",
+      "name": "icon",
+      "metadataTag": "frame",
+      "width": 213,
+      "height": 68,
+      "children": [
+        {
+          "nodeId": "2611:62006",
+          "name": "icon=home",
+          "metadataTag": "symbol",
+          "width": 28,
+          "height": 28
+        },
+        {
+          "nodeId": "2611:62005",
+          "name": "icon=book",
+          "metadataTag": "symbol",
+          "width": 28,
+          "height": 28
+        },
+        {
+          "nodeId": "2611:62004",
+          "name": "icon=clock",
+          "metadataTag": "symbol",
+          "width": 28,
+          "height": 28
+        },
+        {
+          "nodeId": "2611:71783",
+          "name": "icon=search",
+          "metadataTag": "symbol",
+          "width": 28,
+          "height": 28
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2611:62032",
+      "name": "nav-item",
+      "metadataTag": "frame",
+      "width": 308,
+      "height": 92,
+      "children": [
+        {
+          "nodeId": "2611:62031",
+          "name": "state=selected",
+          "metadataTag": "symbol",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "nodeId": "2611:62030",
+          "name": "state=enabled",
+          "metadataTag": "symbol",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "nodeId": "2611:62029",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "nodeId": "2611:62028",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 52,
+          "height": 52
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2611:62413",
+      "name": "section-header",
+      "metadataTag": "frame",
+      "width": 296,
+      "height": 88,
+      "children": [
+        {
+          "nodeId": "2611:62412",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 20
+        },
+        {
+          "nodeId": "2611:62411",
+          "name": "state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 20
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2611:62441",
+      "name": "menu-item",
+      "metadataTag": "frame",
+      "width": 572,
+      "height": 228,
+      "children": [
+        {
+          "nodeId": "2611:62439",
+          "name": "depth=2depth, state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 32
+        },
+        {
+          "nodeId": "2611:64587",
+          "name": "depth=2depth, state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 32
+        },
+        {
+          "nodeId": "2611:64609",
+          "name": "depth=2depth, state=pressed",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 32
+        },
+        {
+          "nodeId": "2611:64621",
+          "name": "depth=2depth, state=selected",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 32
+        },
+        {
+          "nodeId": "2611:62440",
+          "name": "depth=1depth, state=enabled",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 32
+        },
+        {
+          "nodeId": "2611:64577",
+          "name": "depth=1depth, state=hovered",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 32
+        },
+        {
+          "nodeId": "2611:64599",
+          "name": "depth=1depth, state=pressed",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 32
+        },
+        {
+          "nodeId": "2611:64632",
+          "name": "depth=1depth, state=selected",
+          "metadataTag": "symbol",
+          "width": 256,
+          "height": 32
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2611:63754",
+      "name": "snb-agent",
+      "metadataTag": "symbol",
+      "width": 288,
+      "height": 1033,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3074:101399",
+      "name": "title",
+      "metadataTag": "text",
+      "width": 68,
+      "height": 41,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "4064:27706",
+      "name": "title",
+      "metadataTag": "text",
+      "width": 242,
+      "height": 67,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "3149:19150",
+      "name": "calendar/date",
+      "metadataTag": "frame",
+      "width": 226.2857208251953,
+      "height": 64,
+      "children": [
+        {
+          "nodeId": "3149:19128",
+          "name": "type=default",
+          "metadataTag": "symbol",
+          "width": 36.57143020629883,
+          "height": 32
+        },
+        {
+          "nodeId": "3149:19137",
+          "name": "type=today",
+          "metadataTag": "symbol",
+          "width": 36.57143020629883,
+          "height": 32
+        },
+        {
+          "nodeId": "3149:19144",
+          "name": "type=selected",
+          "metadataTag": "symbol",
+          "width": 36.57143020629883,
+          "height": 32
+        },
+        {
+          "nodeId": "3149:19149",
+          "name": "type=null",
+          "metadataTag": "symbol",
+          "width": 36.57143020629883,
+          "height": 32
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3149:117371",
+      "name": "calendar",
+      "metadataTag": "symbol",
+      "width": 288,
+      "height": 362,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3074:98892",
+      "name": "Checkbox-icon",
+      "metadataTag": "frame",
+      "width": 237,
+      "height": 128,
+      "children": [
+        {
+          "nodeId": "3074:98893",
+          "name": "type=indeterminate, size=medium, state=disabled",
+          "metadataTag": "symbol",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "nodeId": "3074:98896",
+          "name": "type=indeterminate, size=medium, state=enabled",
+          "metadataTag": "symbol",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "nodeId": "3074:98899",
+          "name": "type=checked, size=medium, state=disabled",
+          "metadataTag": "symbol",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "nodeId": "3074:98902",
+          "name": "type=checked, size=medium, state=enabled",
+          "metadataTag": "symbol",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "nodeId": "3074:98905",
+          "name": "type=unchecked, size=medium, state=disabled",
+          "metadataTag": "symbol",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "nodeId": "3074:98907",
+          "name": "type=unchecked, size=medium, state=enabled",
+          "metadataTag": "symbol",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "nodeId": "3074:98909",
+          "name": "type=indeterminate, size=small, state=disabled",
+          "metadataTag": "symbol",
+          "width": 12,
+          "height": 12
+        },
+        {
+          "nodeId": "3074:98912",
+          "name": "type=indeterminate, size=small, state=enabled",
+          "metadataTag": "symbol",
+          "width": 12,
+          "height": 12
+        },
+        {
+          "nodeId": "3074:98915",
+          "name": "type=checked, size=small, state=disabled",
+          "metadataTag": "symbol",
+          "width": 12,
+          "height": 12
+        },
+        {
+          "nodeId": "3074:98918",
+          "name": "type=checked, size=small, state=enabled",
+          "metadataTag": "symbol",
+          "width": 12,
+          "height": 12
+        },
+        {
+          "nodeId": "3074:98921",
+          "name": "type=unchecked, size=small, state=disabled",
+          "metadataTag": "symbol",
+          "width": 12,
+          "height": 12
+        },
+        {
+          "nodeId": "3074:98923",
+          "name": "type=unchecked, size=small, state=enabled",
+          "metadataTag": "symbol",
+          "width": 12,
+          "height": 12
+        },
+        {
+          "nodeId": "3183:18",
+          "name": "type=indeterminate, size=large, state=disabled",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "nodeId": "3183:21",
+          "name": "type=indeterminate, size=large, state=enabled",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "nodeId": "3183:24",
+          "name": "type=checked, size=large, state=disabled",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "nodeId": "3183:27",
+          "name": "type=checked, size=large, state=enabled",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "nodeId": "3183:30",
+          "name": "type=unchecked, size=large, state=disabled",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "nodeId": "3183:32",
+          "name": "type=unchecked, size=large, state=enabled",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3099:25232",
+      "name": "filter-chip-group",
+      "metadataTag": "frame",
+      "width": 394,
+      "height": 248,
+      "children": [
+        {
+          "nodeId": "3099:25138",
+          "name": "layout=hug",
+          "metadataTag": "symbol",
+          "width": 334,
+          "height": 32
+        },
+        {
+          "nodeId": "3099:25169",
+          "name": "layout=wrap",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 72
+        },
+        {
+          "nodeId": "3099:25200",
+          "name": "layout=scroll",
+          "metadataTag": "symbol",
+          "width": 280,
+          "height": 32
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate",
+      "observedScope": "metadata 외곽 hug334×32·wrap280×72·scroll280×32; 과거 hug344와 차이, 현재 내부 instance 미수집"
+    },
+    {
+      "nodeId": "3092:25329",
+      "name": "filter-chip",
+      "metadataTag": "frame",
+      "width": 398,
+      "height": 340,
+      "children": [
+        {
+          "nodeId": "3092:24999",
+          "name": "size=sm, selected=false, state=enabled",
+          "metadataTag": "symbol",
+          "width": 45,
+          "height": 28
+        },
+        {
+          "nodeId": "3092:25010",
+          "name": "size=sm, selected=false, state=hovered",
+          "metadataTag": "symbol",
+          "width": 45,
+          "height": 28
+        },
+        {
+          "nodeId": "3092:25021",
+          "name": "size=sm, selected=false, state=pressed",
+          "metadataTag": "symbol",
+          "width": 45,
+          "height": 28
+        },
+        {
+          "nodeId": "3092:25043",
+          "name": "size=sm, selected=false, state=disabled",
+          "metadataTag": "symbol",
+          "width": 45,
+          "height": 28
+        },
+        {
+          "nodeId": "3092:25054",
+          "name": "size=sm, selected=true, state=enabled",
+          "metadataTag": "symbol",
+          "width": 45,
+          "height": 28
+        },
+        {
+          "nodeId": "3092:25065",
+          "name": "size=sm, selected=true, state=hovered",
+          "metadataTag": "symbol",
+          "width": 45,
+          "height": 28
+        },
+        {
+          "nodeId": "3092:25076",
+          "name": "size=sm, selected=true, state=pressed",
+          "metadataTag": "symbol",
+          "width": 45,
+          "height": 28
+        },
+        {
+          "nodeId": "3092:25098",
+          "name": "size=sm, selected=true, state=disabled",
+          "metadataTag": "symbol",
+          "width": 45,
+          "height": 28
+        },
+        {
+          "nodeId": "3092:25109",
+          "name": "size=md, selected=false, state=enabled",
+          "metadataTag": "symbol",
+          "width": 49,
+          "height": 32
+        },
+        {
+          "nodeId": "3092:25120",
+          "name": "size=md, selected=false, state=hovered",
+          "metadataTag": "symbol",
+          "width": 49,
+          "height": 32
+        },
+        {
+          "nodeId": "3092:25131",
+          "name": "size=md, selected=false, state=pressed",
+          "metadataTag": "symbol",
+          "width": 49,
+          "height": 32
+        },
+        {
+          "nodeId": "3092:25153",
+          "name": "size=md, selected=false, state=disabled",
+          "metadataTag": "symbol",
+          "width": 49,
+          "height": 32
+        },
+        {
+          "nodeId": "3092:25164",
+          "name": "size=md, selected=true, state=enabled",
+          "metadataTag": "symbol",
+          "width": 49,
+          "height": 32
+        },
+        {
+          "nodeId": "3092:25175",
+          "name": "size=md, selected=true, state=hovered",
+          "metadataTag": "symbol",
+          "width": 49,
+          "height": 32
+        },
+        {
+          "nodeId": "3092:25186",
+          "name": "size=md, selected=true, state=pressed",
+          "metadataTag": "symbol",
+          "width": 49,
+          "height": 32
+        },
+        {
+          "nodeId": "3092:25208",
+          "name": "size=md, selected=true, state=disabled",
+          "metadataTag": "symbol",
+          "width": 49,
+          "height": 32
+        },
+        {
+          "nodeId": "3092:25219",
+          "name": "size=lg, selected=false, state=enabled",
+          "metadataTag": "symbol",
+          "width": 53,
+          "height": 36
+        },
+        {
+          "nodeId": "3092:25230",
+          "name": "size=lg, selected=false, state=hovered",
+          "metadataTag": "symbol",
+          "width": 53,
+          "height": 36
+        },
+        {
+          "nodeId": "3092:25241",
+          "name": "size=lg, selected=false, state=pressed",
+          "metadataTag": "symbol",
+          "width": 53,
+          "height": 36
+        },
+        {
+          "nodeId": "3092:25263",
+          "name": "size=lg, selected=false, state=disabled",
+          "metadataTag": "symbol",
+          "width": 53,
+          "height": 36
+        },
+        {
+          "nodeId": "3092:25274",
+          "name": "size=lg, selected=true, state=enabled",
+          "metadataTag": "symbol",
+          "width": 53,
+          "height": 36
+        },
+        {
+          "nodeId": "3092:25285",
+          "name": "size=lg, selected=true, state=hovered",
+          "metadataTag": "symbol",
+          "width": 53,
+          "height": 36
+        },
+        {
+          "nodeId": "3092:25296",
+          "name": "size=lg, selected=true, state=pressed",
+          "metadataTag": "symbol",
+          "width": 53,
+          "height": 36
+        },
+        {
+          "nodeId": "3092:25318",
+          "name": "size=lg, selected=true, state=disabled",
+          "metadataTag": "symbol",
+          "width": 53,
+          "height": 36
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "FilterChip24종·현재 외곽 치수",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2427:25194",
+      "name": "chip",
+      "metadataTag": "frame",
+      "width": 417,
+      "height": 68,
+      "children": [
+        {
+          "nodeId": "2427:25195",
+          "name": "state=enabled",
+          "metadataTag": "symbol",
+          "width": 50,
+          "height": 28
+        },
+        {
+          "nodeId": "2427:25197",
+          "name": "state=selected",
+          "metadataTag": "symbol",
+          "width": 50,
+          "height": 28
+        },
+        {
+          "nodeId": "2427:25199",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 50,
+          "height": 28
+        },
+        {
+          "nodeId": "2427:25201",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 50,
+          "height": 28
+        },
+        {
+          "nodeId": "2427:25203",
+          "name": "state=disalbed",
+          "metadataTag": "symbol",
+          "width": 50,
+          "height": 28
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2304:19748",
+      "name": "search",
+      "metadataTag": "frame",
+      "width": 1104,
+      "height": 902,
+      "children": [
+        {
+          "nodeId": "2304:19749",
+          "name": "size=48, state=enabled, filtered=false",
+          "metadataTag": "symbol",
+          "width": 1064,
+          "height": 48
+        },
+        {
+          "nodeId": "2310:46258",
+          "name": "size=48, state=disabled, filtered=false",
+          "metadataTag": "symbol",
+          "width": 1064,
+          "height": 48
+        },
+        {
+          "nodeId": "2304:19755",
+          "name": "size=48, state=focused, filtered=false",
+          "metadataTag": "symbol",
+          "width": 1064,
+          "height": 48
+        },
+        {
+          "nodeId": "2311:46379",
+          "name": "size=48, state=typing, filtered=false",
+          "metadataTag": "symbol",
+          "width": 1064,
+          "height": 48
+        },
+        {
+          "nodeId": "3142:116443",
+          "name": "size=32, state=enabled, filtered=false",
+          "metadataTag": "symbol",
+          "width": 506,
+          "height": 32
+        },
+        {
+          "nodeId": "3142:116450",
+          "name": "size=32, state=disabled, filtered=false",
+          "metadataTag": "symbol",
+          "width": 506,
+          "height": 32
+        },
+        {
+          "nodeId": "3142:116457",
+          "name": "size=32, state=focused, filtered=false",
+          "metadataTag": "symbol",
+          "width": 506,
+          "height": 32
+        },
+        {
+          "nodeId": "3142:116466",
+          "name": "size=32, state=typing, filtered=false",
+          "metadataTag": "symbol",
+          "width": 506,
+          "height": 32
+        },
+        {
+          "nodeId": "3158:24374",
+          "name": "size=48, state=enabled, filtered=true",
+          "metadataTag": "symbol",
+          "width": 1064,
+          "height": 48
+        },
+        {
+          "nodeId": "3158:24384",
+          "name": "size=48, state=focused, filtered=true",
+          "metadataTag": "symbol",
+          "width": 1064,
+          "height": 48
+        },
+        {
+          "nodeId": "3158:24418",
+          "name": "size=32, state=enabled, filtered=true",
+          "metadataTag": "symbol",
+          "width": 506,
+          "height": 32
+        },
+        {
+          "nodeId": "3158:24428",
+          "name": "size=32, state=focused, filtered=true",
+          "metadataTag": "symbol",
+          "width": 506,
+          "height": 32
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4064:27704",
+      "name": "title",
+      "metadataTag": "text",
+      "width": 210,
+      "height": 67,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "4035:27058",
+      "name": "segment-icon/chat",
+      "metadataTag": "symbol",
+      "width": 20,
+      "height": 20,
+      "children": [],
+      "review": "context-and-metadata",
+      "role": "component-candidate",
+      "observedScope": "segment-button/icon context에서20px slot·18px glyph 확인"
+    },
+    {
+      "nodeId": "4028:27039",
+      "name": "segmented-control/icon",
+      "metadataTag": "symbol",
+      "width": 80,
+      "height": 32,
+      "children": [],
+      "review": "context-and-metadata",
+      "observedScope": "아이콘 segment 그룹",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4028:27038",
+      "name": "segment-button/icon",
+      "metadataTag": "frame",
+      "width": 128,
+      "height": 64,
+      "children": [
+        {
+          "nodeId": "4028:27032",
+          "name": "selected=true",
+          "metadataTag": "symbol",
+          "width": 40,
+          "height": 32
+        },
+        {
+          "nodeId": "4028:27035",
+          "name": "selected=false",
+          "metadataTag": "symbol",
+          "width": 40,
+          "height": 32
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "아이콘 segment 버튼2상태",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3592:22853",
+      "name": "segmented-control",
+      "metadataTag": "symbol",
+      "width": 130,
+      "height": 28,
+      "children": [],
+      "review": "context-and-metadata",
+      "observedScope": "라벨 segment 그룹",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3592:22852",
+      "name": "segment-button",
+      "metadataTag": "frame",
+      "width": 131,
+      "height": 60,
+      "children": [
+        {
+          "nodeId": "3592:22848",
+          "name": "selected=true",
+          "metadataTag": "symbol",
+          "width": 42,
+          "height": 28
+        },
+        {
+          "nodeId": "3592:22850",
+          "name": "selected=false",
+          "metadataTag": "symbol",
+          "width": 41,
+          "height": 28
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "라벨 segment 버튼2상태",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3145:17067",
+      "name": "switch",
+      "metadataTag": "frame",
+      "width": 349,
+      "height": 124,
+      "children": [
+        {
+          "nodeId": "3145:17059",
+          "name": "size=22, checked=true, state=enabled",
+          "metadataTag": "symbol",
+          "width": 40,
+          "height": 22
+        },
+        {
+          "nodeId": "3145:17060",
+          "name": "size=22, checked=true, state=disabled",
+          "metadataTag": "symbol",
+          "width": 40,
+          "height": 22
+        },
+        {
+          "nodeId": "3145:17061",
+          "name": "size=22, checked=false, state=disabled",
+          "metadataTag": "symbol",
+          "width": 40,
+          "height": 22
+        },
+        {
+          "nodeId": "3145:17062",
+          "name": "size=22, checked=false, state=enabled",
+          "metadataTag": "symbol",
+          "width": 40,
+          "height": 22
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2427:25177",
+      "name": "text-button",
+      "metadataTag": "frame",
+      "width": 304,
+      "height": 64,
+      "children": [
+        {
+          "nodeId": "2427:25178",
+          "name": "state=enabled",
+          "metadataTag": "symbol",
+          "width": 48,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25182",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 48,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25186",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 48,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25190",
+          "name": "state=disabled",
+          "metadataTag": "symbol",
+          "width": 48,
+          "height": 24
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3104:27",
+      "name": "icon-button/attach",
+      "metadataTag": "frame",
+      "width": 264,
+      "height": 72,
+      "children": [
+        {
+          "nodeId": "3104:20",
+          "name": "state=default",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "3104:21",
+          "name": "state=hovered",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "3104:22",
+          "name": "state=pressed",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "3104:23",
+          "name": "state=disabled",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "3074:92873",
+          "name": "state=state5",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "2427:25105",
+      "name": "icon-button",
+      "metadataTag": "frame",
+      "width": 641,
+      "height": 160,
+      "children": [
+        {
+          "nodeId": "2427:25106",
+          "name": "type=ghost, state=default, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25108",
+          "name": "type=ghost, state=default, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25110",
+          "name": "type=ghost, state=hovered, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25112",
+          "name": "type=ghost, state=hovered, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25114",
+          "name": "type=ghost, state=pressed, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25116",
+          "name": "type=ghost, state=pressed, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25118",
+          "name": "type=ghost, state=disabled, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25120",
+          "name": "type=ghost, state=disabled, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25122",
+          "name": "type=outlined, state=default, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25124",
+          "name": "type=outlined, state=default, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25126",
+          "name": "type=outlined, state=hovered, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25128",
+          "name": "type=outlined, state=hovered, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25130",
+          "name": "type=outlined, state=pressed, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25132",
+          "name": "type=outlined, state=pressed, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25134",
+          "name": "type=outlined, state=disabled, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25136",
+          "name": "type=outlined, state=disabled, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25138",
+          "name": "type=primary, state=default, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25140",
+          "name": "type=primary, state=default, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25142",
+          "name": "type=primary, state=hovered, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25144",
+          "name": "type=primary, state=hovered, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25146",
+          "name": "type=primary, state=pressed, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25148",
+          "name": "type=primary, state=pressed, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2427:25150",
+          "name": "type=primary, state=disabled, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "2427:25152",
+          "name": "type=primary, state=disabled, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "2909:49139",
+          "name": "type=ghost, state=default, size=20",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "nodeId": "2909:49138",
+          "name": "type=ghost, state=hovered, size=20",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "nodeId": "2909:49137",
+          "name": "type=ghost, state=pressed, size=20",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "nodeId": "2909:49136",
+          "name": "type=ghost, state=disabled, size=20",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        },
+        {
+          "nodeId": "3142:24418",
+          "name": "type=ghost, state=active, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "3142:24420",
+          "name": "type=ghost, state=active, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "3142:24422",
+          "name": "type=outlined, state=active, size=32",
+          "metadataTag": "symbol",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "nodeId": "3142:24424",
+          "name": "type=outlined, state=active, size=24",
+          "metadataTag": "symbol",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "nodeId": "3142:24426",
+          "name": "type=ghost, state=active, size=20",
+          "metadataTag": "symbol",
+          "width": 20,
+          "height": 20
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "IconButton33종·active 토큰 재대조",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3025:25029",
+      "name": "button",
+      "metadataTag": "frame",
+      "width": 860,
+      "height": 782,
+      "children": [
+        {
+          "nodeId": "3025:24940",
+          "name": "type=primary, size=40, state=enabled",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3025:24951",
+          "name": "type=primary, size=40, state=hovered",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3025:24962",
+          "name": "type=primary, size=40, state=pressed",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3025:24973",
+          "name": "type=secondary, size=40, state=enabled",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3025:24984",
+          "name": "type=secondary, size=40, state=hovered",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3025:24995",
+          "name": "type=secondary, size=40, state=pressed",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3025:25006",
+          "name": "type=tertiary, size=40, state=enabled",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3025:25017",
+          "name": "type=tertiary, size=40, state=hovered",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3025:25028",
+          "name": "type=tertiary, size=40, state=pressed",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3073:366",
+          "name": "type=primary, size=32, state=enabled",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3073:370",
+          "name": "type=primary, size=32, state=hovered",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3073:374",
+          "name": "type=primary, size=32, state=pressed",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3073:378",
+          "name": "type=secondary, size=32, state=enabled",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3073:382",
+          "name": "type=secondary, size=32, state=hovered",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3073:386",
+          "name": "type=secondary, size=32, state=pressed",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3073:390",
+          "name": "type=tertiary, size=32, state=enabled",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3073:394",
+          "name": "type=tertiary, size=32, state=hovered",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3073:398",
+          "name": "type=tertiary, size=32, state=pressed",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3109:60",
+          "name": "type=primary, size=28, state=enabled",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3109:74",
+          "name": "type=primary, size=28, state=hovered",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3109:88",
+          "name": "type=primary, size=28, state=pressed",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3109:102",
+          "name": "type=secondary, size=28, state=enabled",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3109:116",
+          "name": "type=secondary, size=28, state=hovered",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3109:130",
+          "name": "type=secondary, size=28, state=pressed",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3109:144",
+          "name": "type=tertiary, size=28, state=enabled",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3109:158",
+          "name": "type=tertiary, size=28, state=hovered",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3109:172",
+          "name": "type=tertiary, size=28, state=pressed",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3074:97439",
+          "name": "type=primary, size=40, state=disabled",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3114:114500",
+          "name": "type=secondary, size=40, state=disabled",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3114:114504",
+          "name": "type=tertiary, size=40, state=disabled",
+          "metadataTag": "symbol",
+          "width": 116,
+          "height": 40
+        },
+        {
+          "nodeId": "3114:114508",
+          "name": "type=primary, size=32, state=disabled",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3114:114512",
+          "name": "type=secondary, size=32, state=disabled",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3114:114516",
+          "name": "type=tertiary, size=32, state=disabled",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3114:114520",
+          "name": "type=primary, size=28, state=disabled",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3114:114528",
+          "name": "type=secondary, size=28, state=disabled",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3114:114536",
+          "name": "type=tertiary, size=28, state=disabled",
+          "metadataTag": "symbol",
+          "width": 185,
+          "height": 28
+        },
+        {
+          "nodeId": "3116:14",
+          "name": "type=ghost, size=28, state=enabled",
+          "metadataTag": "symbol",
+          "width": 181,
+          "height": 28
+        },
+        {
+          "nodeId": "3116:29",
+          "name": "type=ghost, size=28, state=hovered",
+          "metadataTag": "symbol",
+          "width": 181,
+          "height": 28
+        },
+        {
+          "nodeId": "3116:44",
+          "name": "type=ghost, size=28, state=pressed",
+          "metadataTag": "symbol",
+          "width": 181,
+          "height": 28
+        },
+        {
+          "nodeId": "3116:59",
+          "name": "type=ghost, size=28, state=disabled",
+          "metadataTag": "symbol",
+          "width": 181,
+          "height": 28
+        },
+        {
+          "nodeId": "3130:25694",
+          "name": "type=ghost, size=24, state=enabled",
+          "metadataTag": "symbol",
+          "width": 176,
+          "height": 24
+        },
+        {
+          "nodeId": "3130:25707",
+          "name": "type=ghost, size=24, state=hovered",
+          "metadataTag": "symbol",
+          "width": 176,
+          "height": 24
+        },
+        {
+          "nodeId": "3130:25720",
+          "name": "type=ghost, size=24, state=pressed",
+          "metadataTag": "symbol",
+          "width": 176,
+          "height": 24
+        },
+        {
+          "nodeId": "3130:25733",
+          "name": "type=ghost, size=24, state=disabled",
+          "metadataTag": "symbol",
+          "width": 176,
+          "height": 24
+        },
+        {
+          "nodeId": "3587:22784",
+          "name": "type=primary, size=24, state=enabled",
+          "metadataTag": "symbol",
+          "width": 181,
+          "height": 24
+        },
+        {
+          "nodeId": "3587:22792",
+          "name": "type=primary, size=24, state=hovered",
+          "metadataTag": "symbol",
+          "width": 181,
+          "height": 24
+        },
+        {
+          "nodeId": "3587:22800",
+          "name": "type=primary, size=24, state=pressed",
+          "metadataTag": "symbol",
+          "width": 181,
+          "height": 24
+        },
+        {
+          "nodeId": "3587:22808",
+          "name": "type=primary, size=24, state=disabled",
+          "metadataTag": "symbol",
+          "width": 181,
+          "height": 24
+        },
+        {
+          "nodeId": "3593:282",
+          "name": "type=ghost, size=32, state=enabled",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3593:286",
+          "name": "type=ghost, size=32, state=hovered",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3593:290",
+          "name": "type=ghost, size=32, state=pressed",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        },
+        {
+          "nodeId": "3593:294",
+          "name": "type=ghost, size=32, state=disabled",
+          "metadataTag": "symbol",
+          "width": 103,
+          "height": 32
+        }
+      ],
+      "review": "context-and-metadata",
+      "observedScope": "Button52종 및8종 추가",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "4064:27702",
+      "name": "title",
+      "metadataTag": "text",
+      "width": 258,
+      "height": 67,
+      "children": [],
+      "review": "metadata-inventory",
+      "role": "board-label"
+    },
+    {
+      "nodeId": "4064:27699",
+      "name": "foundation",
+      "metadataTag": "frame",
+      "width": 1522,
+      "height": 1129,
+      "children": [
+        {
+          "nodeId": "3679:88871",
+          "name": "scroll-bar",
+          "metadataTag": "frame",
+          "width": 296,
+          "height": 206,
+          "review": "context-and-metadata",
+          "observedScope": "Scrollbar 가로/세로"
+        },
+        {
+          "nodeId": "3630:75445",
+          "name": "divider",
+          "metadataTag": "frame",
+          "width": 208,
+          "height": 94,
+          "review": "context-and-metadata",
+          "observedScope": "Divider 가로/세로"
+        },
+        {
+          "nodeId": "3801:98448",
+          "name": "Spinner",
+          "metadataTag": "frame",
+          "width": 264,
+          "height": 88,
+          "review": "context-and-metadata",
+          "observedScope": "Spinner5종 exact SVG"
+        },
+        {
+          "nodeId": "3128:25538",
+          "name": "file-icon",
+          "metadataTag": "frame",
+          "width": 376,
+          "height": 76
+        },
+        {
+          "nodeId": "3016:102468",
+          "name": "agent-types",
+          "metadataTag": "frame",
+          "width": 108,
+          "height": 148
+        },
+        {
+          "nodeId": "2611:74302",
+          "name": "image 14533",
+          "metadataTag": "symbol",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "nodeId": "3074:101401",
+          "name": "icon-archive",
+          "metadataTag": "frame",
+          "width": 806,
+          "height": 1125
+        },
+        {
+          "nodeId": "4064:27700",
+          "name": "title",
+          "metadataTag": "text",
+          "width": 207,
+          "height": 67
+        }
+      ],
+      "review": "metadata-inventory",
+      "role": "board-container"
+    },
+    {
+      "nodeId": "3746:99265",
+      "name": "file-tree",
+      "metadataTag": "symbol",
+      "width": 400,
+      "height": 991,
+      "children": [],
+      "review": "context-and-metadata",
+      "observedScope": "FileTree",
+      "role": "component-candidate"
+    },
+    {
+      "nodeId": "3746:96091",
+      "name": "file-viewer",
+      "metadataTag": "symbol",
+      "width": 407,
+      "height": 1022,
+      "children": [],
+      "review": "context-and-metadata",
+      "observedScope": "FileViewer",
+      "role": "component-candidate"
+    }
+  ],
+  "limitations": [
+    "metadata-inventory는 이름·크기·variant 목록 대조 범위이며 paint·숨김 binding까지 동일하다는 선언이 아닙니다.",
+    "Figma 일일 조회 한도에 도달해 미확보 아이콘 source는 icons-refresh-2026-11-05.json에서 구분합니다.",
+    "기존 historical snapshot을 보존하고 현재 관찰값은 별도 파일로 기록합니다."
+  ],
+  "publicContracts": {
+    "before": 59,
+    "added": 15,
+    "after": 74,
+    "commonUnchanged": 51
+  },
+  "scopeNote": "families는 metadata의 최상위 레이어 목록이며 전시 텍스트·컨테이너도 포함한다. 이 배열 길이를 공개 컴포넌트 수로 사용하지 않는다."
+}

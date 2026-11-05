@@ -16,7 +16,7 @@
 
 Overlay는 `0 0 1px 0 rgba(9,30,66,.31)`과 `0 8px 12px 0 rgba(9,30,66,.15)`입니다.
 둘을 root에 한 번만 적용하고 header/body별 그림자나 filter 그림자를 겹치지 않습니다.
-선·그림자 없는 배경 scrim은 이 두 frame 밖의 미측정 영역입니다. 실제 모달 엔진의 overlay 계약으로 연결합니다.
+이 두 frame 안에는 scrim이 없습니다.2026-11-05 독립 dim 원본3074:134173에서 확인한 표면은 검정50%이며 아래 추가 관찰대로 기존 모달 엔진의 overlay part에 연결합니다.
 
 ## 선과 layout의 차이
 
@@ -76,3 +76,9 @@ fade는 실제 gradient paint입니다. 생성 코드의 PNG처럼 런타임 이
 header의 X·뒤로가기는 공용 IconButton의 hover 검정5%·pressed10%와 background-color·border-color·color200ms ease를
 재사용합니다. recipe override는32px hit area·r4·glyph24 geometry만 소유합니다. 직접 background-only transition을 덮어쓰지 않습니다.
 이것은 현재 제품의 상태 채택이며 legacy 원본 identity·paint 기록을 대체하지 않습니다. 동작 줄이기에서는 전환을 해제합니다.
+
+## 2026-11-05 독립 dim과 Finder section heading
+
+보드의 dim3074:134173은418×241px 샘플 안의 전체면 검정50%(`color/bg/dim`)입니다. 실제 overlay는 Dialog 엔진이 viewport를 덮도록 배치하며 샘플 폭·높이를 고정하지 않습니다. opacity를 Dialog content에 적용하지 않고 기존 dismiss·focus trap·스크롤 잠금·모션을 유지합니다. native 변수 binding ID와 새 timing은 이 context에서 미수집입니다.
+
+Finder section-title3155:20479는 icon20px(선택적)·gap8·Pretendard60020/24px·#1C1C1C 제목입니다. Dialog 전체 제목24/32와 다른 내부 section heading이며 기존 heading part로 조합합니다. 예시 pin은 회전된 vector export이므로 내부조각 SVG를 일반20px 전체 아이콘으로 늘리지 않습니다. 실제 필요한 icon을 선택하고 장식 처리하며 section 제목의 heading level은 화면 계층에 맞춥니다. 별도 공개 id는 추가하지 않습니다.

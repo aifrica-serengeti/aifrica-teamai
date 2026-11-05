@@ -57,10 +57,10 @@ Card5종은 [전용 자산 기록](./references/card.assets.json)의22개 항목
 | Picker 전용 원본 | `assets/picker/*` | 모델 logo sample과 FRAME/재정의 glyph6개·표시/크기는 전용 manifest 참조 |
 | Menu optional glyph | `assets/menu/*-16.svg` | 기본 숨김 edit/check/chevron의 상태별 paint SVG8개 |
 
-일반 아이콘은 전체 컴포넌트를 `SVG_STRING`으로 export했습니다. 파일 아이콘도 내부 glyph만 떼지 않고
+최초 일반 아이콘206개는 전체 컴포넌트를 `SVG_STRING`으로 export했습니다. 추가 canonical2개는 manifest의 개별 exportMethod처럼 MCP 제공 exact SVG입니다. 파일 아이콘도 내부 glyph만 떼지 않고
 44px 타일 전체를 보존했습니다. 로고는 업로드 원본의 SHA-1과 Figma `ImagePaint.imageHash`가
 같음을 확인했습니다. PNG에 회색 캔버스 배경을 합성하거나 SVG로 다시 그리지 않았습니다.
-임시 다운로드 URL은 저장하지 않았고, 각 파일의 SHA-256과 영구 Figma 출처를 manifest에 기록했습니다.
+최초 manifest에는 임시 다운로드 URL을 저장하지 않았고, 각 파일의 SHA-256과 영구 Figma 출처를 기록했습니다. 추가 관찰 원장의 임시 URL은 감사 근거이며 제품 import 경로가 아닙니다. 실제 배포 파일은 manifest의 path로 찾습니다.
 Checkbox SVG는 get_design_context가 제공한 원본 파일을 그대로 다운로드했습니다. 시각 박스12/16/20px를 보존하며
 일반 check/minus 아이콘과 구분합니다. 전체 Box+Mark가 포함되므로 배경·border·Mark를 다시 겹치지 않습니다.
 native checkbox/검증된 primitive의 장식 indicator로 연결하고 SVG 자체에 입력 의미·별도 focus를 부여하지 않습니다.
@@ -69,11 +69,11 @@ unchecked의6종은 별도 SVG가 없으며 [Checkbox 규격](./components/Agent
 ## 이름과 크기 주의사항
 
 - Figma의 `icon/forder/*`는 제품용 이름 `folder`로 찾습니다. 원본 이름과 노드 ID도 함께 남겼습니다.
-- `upload/16`, `upload/20`은 각각 두 컴포넌트가 있지만 export 내용이 완전히 같았습니다.
-  파일은 하나씩 공유하고 `sources`에 두 노드를 모두 기록했습니다. 따라서 208개 컴포넌트가 206개 SVG가 됩니다.
-- 노드 `3216:79474`는 이름이 `icon/skill/16`이지만 실제 frame은 24×24입니다.
+- `upload/16`, `upload/20`은 최초 기록 당시 각각 두 컴포넌트가 있었고 export 내용이 완전히 같았습니다.
+  파일은 하나씩 공유하고 `sources`에 두 노드를 모두 기록했습니다. 최초208개 source를206개 SVG로 보관한 이유입니다. 현재 수치는 아래 갱신을 확인합니다.
+- 노드 `3216:79474`는 최초 이름이 `icon/skill/16`이었지만 실제 frame은24×24입니다.2026-11-05 metadata 이름도 `icon/skill/24`로 정정됐습니다.
   manifest와 파일은 `skill/24`로 등록했습니다. 이름만 보고 16px로 축소하지 마세요.
-- 72개 이름 모두에 16/20/24 세 크기가 있는 것은 아닙니다. 없는 조합을 임의 확대·축소하거나
+- 최초72개·현재 canonical74개 이름 모두에16/20/24 세 크기가 있는 것은 아닙니다. 없는 조합을 임의 확대·축소하거나
   같은 뜻의 Lucide 아이콘으로 조용히 교체하지 않고, 제품에서 필요한 추가 규격을 확인합니다.
 
 ## 제품으로 가져갈 때
@@ -146,3 +146,15 @@ linear/radial gradient·투명 mask로 작성했으며 PNG를 다시 임베드�
 [복원 안내](./components/AgentHubBrandMark/reconstruction.md)에 기록합니다. 원본 아이콘·PNG export 목록에 이 SVG를 원본으로 섞지 않습니다.
 브랜드 마크는 사용자 요청에 따라 원본 PNG를 정적으로만 표시합니다. 복원 SVG는 참고·비교 자료로 보존하며,
 회전·광택·재생 제어를 적용하는 현재 계약은 없습니다. 별도 요청 없이 모션을 다시 추가하지 않습니다.
+
+## 2026-11-05 보드 자산 추가
+
+[현재 exact 자산 목록](./references/components-refresh.assets.json)은 런타임·세그먼트·Spinner·파일/코드·ActionBar에서 반환된 SVG/PNG의 source asset·재사용 경로·native 치수·SHA256·byte·사용 slot을 기록합니다. 날짜별 파일은 `assets/refresh-20261105/`에 보관하고 동일 byte의 기존 자산은 경로를 재사용합니다. 임시 localhost 주소는 제품 경로로 배포하지 않습니다.
+
+일반 아이콘 canonical은 현재208개 SVG·210개 역사 source입니다. 최신 보드266개와 동일한 수가 아니며 [아이콘 확인 원장](./references/icons-refresh-2026-11-05.json)의 회수·미회수/과거 source를 구분합니다. 위208→206 설명은 최초 추출 시점의 기록입니다. 신규 아이콘의 exact 파일이 없으면 유사한 라이브러리 아이콘으로 대체하거나 구현 완료로 표시하지 않습니다.
+
+회전된 glyph 내부 조각은 전체20px 아이콘 파일로 간주하지 않습니다. inverse ActionBar glyph·FileCard 전용56px preview·Spinner 크기별 선·FileHeader fade 원본도 일반 Icon/Checkbox 크기로 일괄 정규화하지 않습니다.
+
+자산 목록의 `uses.capture`는 같은 문서의 `captureSources`에서 영구 Figma fileKey·조회 root·URL로 찾습니다. 로컬 임시 capture 파일이 없어도 출처를 추적할 수 있으며, 이 연결은 내부 glyph의 native binding 증거와 구분합니다. 회전 wrapper가 필요한 pin 내부 조각3개는 [아이콘 갱신 원장](./references/icons-refresh-2026-11-05.json)의 `observationAssetPath`에 별도 보관하고 기존 full-frame canonical 아이콘과 함께 검증합니다. 내부 조각을 제품 아이콘으로 대체하지 않습니다.
+
+런타임 모드의 [MCP 스크린샷 증거](./components/AgentHubSNBRuntime/styles.md)는 별도 PNG2개로 보존합니다.102개 재사용 export 목록과 구분하며, 해당 파일의 출처·해시·도구 축소 치수는 `references/runtime-controls-refresh.figma.json`의 screenshotEvidence에서 확인합니다. 실제 아이콘 파일이나 native glyph 치수로 사용하지 않습니다.

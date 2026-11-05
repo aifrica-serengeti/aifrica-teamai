@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-05",
+  "solution": "agent-hub",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "boardNodeId": "3074:101330"
+  },
+  "evidence": [
+    "get_design_context child variants",
+    "get_metadata",
+    "MCP screenshot",
+    "exact exported SVG"
+  ],
+  "nativePropertyDefinitions": null,
+  "nativeVariableBindings": null,
+  "prototypeTiming": null,
+  "implementation": {
+    "status": "unmapped",
+    "runtimeVerified": false
+  },
+  "observations": [
+    {
+      "componentId": "AgentHubRuntimeSelectItem",
+      "rootNodeId": "4004:26884",
+      "comparison": "현재 런타임을 고르는 40px 행입니다. 공용 Select의 단일 선택 의미를 유지하며 Agent Hub 전용 아이콘·체크·선택 표면을 연결합니다."
+    },
+    {
+      "componentId": "AgentHubRuntimeSelect",
+      "rootNodeId": "4004:27014",
+      "comparison": "실행 중인 런타임을 전환하는 선택기입니다. 공용 Select 엔진을 재사용하고 Agent Hub의 40px 트리거·분리된 목록 표면을 연결합니다."
+    },
+    {
+      "componentId": "AgentHubSNBRuntime",
+      "rootNodeId": "4004:27232",
+      "comparison": "런타임 작업공간용 SNB 조합입니다. 기존 Agent Hub SNB 항목과 선택기를 재사용하며 런타임 미선택/선택 상태를 구분합니다."
+    },
+    {
+      "componentId": "AgentHubSegmentedControl",
+      "rootNodeId": "3592:22853",
+      "comparison": "공용 SegmentedControl의 단일 선택·키보드 계약에 Agent Hub의 라벨형/아이콘형 시각을 추가합니다. 개별 segment는 이 계약의 compound part이며 별도 공개 컴포넌트 등록을 강제하지 않습니다."
+    },
+    {
+      "componentId": "AgentHubSpinner",
+      "rootNodeId": "3801:98448",
+      "comparison": "공용 Spinner의 로딩 의미와 상태 안내를 유지하면서 Agent Hub Figma의 크기별 정확한 SVG를 사용하는 확장입니다. Tiny 선 두께가 공용 baseline과 달라 별도로 기록합니다."
+    }
+  ],
+  "runtimeSelect": {
+    "trigger": [
+      238,
+      40
+    ],
+    "menuTop": 43,
+    "maxItemsFromDescription": 4,
+    "item": {
+      "height": 40,
+      "padding": 8,
+      "radius": 0,
+      "states": [
+        "default",
+        "hovered",
+        "selected"
+      ]
+    }
+  },
+  "segmented": {
+    "label": {
+      "groupSample": [
+        130,
+        28
+      ],
+      "itemHeight": 28,
+      "radius": 8,
+      "border": 1
+    },
+    "icon": {
+      "groupSample": [
+        80,
+        32
+      ],
+      "item": [
+        40,
+        32
+      ],
+      "outerBorder": 0,
+      "chatSlot": 20,
+      "chatGlyph": 18,
+      "groupRadius": 8,
+      "itemRadius": 6
+    }
+  },
+  "spinner": {
+    "sizes": [
+      16,
+      20,
+      24,
+      36,
+      48
+    ],
+    "strokeWidths": [
+      1.5,
+      2,
+      2,
+      3,
+      4
+    ],
+    "nativeSvgPerSize": true
+  },
+  "limitations": [
+    "Generated property names are not native Figma property IDs.",
+    "Static design does not prove runtime behavior or animation timing.",
+    "SNBRuntime parent returned a Code Connect invitation; both child variants were captured instead."
+  ],
+  "snbRuntime": {
+    "unselectedNodeId": "4004:27119",
+    "selectedNodeId": "4004:27231",
+    "newChatVisibleInBoth": true,
+    "chatListVisibleOnlyWhenSelected": true,
+    "newChatHeight": 32,
+    "newChatPaddingXOverride": 8,
+    "layout": {
+      "evidence": "Generated child contexts for4004:27119 and4004:27231; native stroke layout unavailable",
+      "panelSample": [
+        288,
+        1033
+      ],
+      "panelPaddingX": 16,
+      "panelPaddingY": 24,
+      "panelGap": 16,
+      "header": {
+        "gap": 16,
+        "titleGroup": {
+          "paddingX": 8,
+          "gap": 8
+        },
+        "dividerWrapper": {
+          "paddingX": 8,
+          "dividerPaddingY": 8,
+          "lineThickness": 1,
+          "lineColor": "#DDDDDD",
+          "height": 17,
+          "commonContract": "Divider"
+        }
+      },
+      "selectWrapper": {
+        "generatedSampleWidth": 255,
+        "paddingX": 8,
+        "childWidth": "fill available content width; standalone238px sample is not fixed here"
+      },
+      "commonInBothStates": true,
+      "chatSection": {
+        "visibleOnlyWhenRuntimeSelected": true,
+        "nodeId": "4004:27149",
+        "gap": 4,
+        "header": {
+          "nodeId": "4004:27150",
+          "height": 20,
+          "paddingX": 8,
+          "titleFontSize": 12,
+          "titleLineHeight": 16,
+          "titleFontWeight": 400,
+          "titleColor": "#656B74",
+          "toggleSize": 20,
+          "glyphSize": 16,
+          "visibleActions": [
+            "filter",
+            "plus"
+          ],
+          "omittedAction": "direct",
+          "actionSize": 20,
+          "actionPadding": 2,
+          "actionRadius": 4,
+          "actionGlyphSize": 16,
+          "actionColor": "#656B74",
+          "filterAssetPath": "assets/snb/section-filter-16.svg",
+          "plusAssetPath": "assets/snb/section-plus-16.svg"
+        },
+        "rows": {
+          "nodeIds": [
+            "4004:27153",
+            "4004:27154",
+            "4004:27155",
+            "4004:27156",
+            "4004:27157",
+            "4004:27158",
+            "4004:27159",
+            "4004:27160",
+            "4004:27161"
+          ],
+          "sampleCount": 9,
+          "leadingGlyphVisible": false,
+          "height": 32,
+          "paddingX": 8,
+          "paddingY": 6,
+          "radius": 6,
+          "fontSize": 14,
+          "lineHeight": 20,
+          "fontWeight": 400,
+          "textColor": "#1C1C1C",
+          "fixedRuntimeCount": false
+        }
+      },
+      "bottomFade": {
+        "unselectedNodeId": "4004:27101",
+        "selectedNodeId": "4004:27163",
+        "commonInBothStates": true,
+        "height": 53,
+        "bottom": 0,
+        "left": -6,
+        "right": -10,
+        "generatedStop": "from-[114.15%], white alpha0 to white",
+        "nativeGradientTransformCollected": false,
+        "topFadeInCapturedSource": false,
+        "productAdapter": "Existing SNB edge fade adoption; do not claim current native transform from generated positive stop."
+      }
+    },
+    "modeSelection": {
+      "independentOfRuntimeValue": true,
+      "selectedSegment": 2,
+      "firstSegmentSelected": false,
+      "selectedNodeId": "4023:59888",
+      "unselectedNodeId": "4023:60009",
+      "evidence": "Both child contexts have transparent segment-1 and white/bordered segment-2; standalone default selects segment-1.",
+      "nativeGlyphSwapBindingCollected": false,
+      "glyphEvidence": {
+        "screenshot": {
+          "rootNodeId": "4004:27119",
+          "left": "chat",
+          "right": "folder/code",
+          "rightSelected": true
+        },
+        "generatedContext": {
+          "left": "segment-icon/chat",
+          "right": "segment-icon/chat",
+          "bothSourceAsset": "a496fa9a6d687388490f93d67d9354056dd1618e.svg",
+          "bothGeneratedGlyphSize": 18
+        },
+        "consistent": false,
+        "rightNativeSize": null,
+        "rightNativeSourceNodeId": null,
+        "rightNativeBinding": null,
+        "resolution": "Keep screenshot/code discrepancy explicit; do not infer equivalence with the20px RuntimeSelect leading asset. Additional source verification needed."
+      }
+    },
+    "screenshotEvidence": [
+      {
+        "nodeId": "4004:27119",
+        "path": "assets/refresh-20261105/snb-runtime-unselected-reference.png",
+        "sha256": "43e9dec07190f4a1fcd5738f2ad4b8af40544755bb49aa45239dd1799b275696",
+        "bytes": 11887,
+        "width": 286,
+        "height": 1024
+      },
+      {
+        "nodeId": "4004:27231",
+        "path": "assets/refresh-20261105/snb-runtime-selected-reference.png",
+        "sha256": "bfcb98ccf6c41c25feb42fed6fa15ed183bef9a22b0269b8b0cd59ecf65cfe6f",
+        "bytes": 17156,
+        "width": 286,
+        "height": 1024
+      }
+    ],
+    "screenshotScope": "Cached MCP response screenshots, tool-resized286x1024; Figma metadata remains288x1033. Review evidence only, not reusable runtime icon exports or native glyph geometry."
+  }
+}

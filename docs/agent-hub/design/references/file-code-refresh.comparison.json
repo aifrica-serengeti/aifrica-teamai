@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "verifiedAt": "2026-11-05",
+  "runtimeVerified": false,
+  "contractStatus": "solution-contract",
+  "commonReferences": [
+    "docs/frontend/design/components/Tree",
+    "docs/frontend/design/components/Tab",
+    "docs/frontend/design/components/Scrollbar",
+    "docs/frontend/design/component-workflow.md"
+  ],
+  "scope": "Agent Hub file/code family from board3074:101330. No common source, product code or existing OutputViewer contract changes.",
+  "decisions": [
+    {
+      "id": "AgentHubIndentGuide",
+      "classification": "new-agent-hub-primitive",
+      "reason": "Code indentation guide16.8px; generic Divider separator meaning andgeometry differ."
+    },
+    {
+      "id": "AgentHubCodeLine",
+      "classification": "new-agent-hub-component",
+      "reason": "Code gutter/current content fill/indent line have no same semantic generic component; this is not an editable engine."
+    },
+    {
+      "id": "AgentHubFileTab",
+      "classification": "agent-hub-extension-of-common-Tab",
+      "preserve": [
+        "tablist/tab/tabpanel semantics",
+        "controlled selection",
+        "keyboard engine",
+        "close separate native button"
+      ],
+      "differences": [
+        "24px height vs44px",
+        "radius4/black10% active fill vs underline",
+        "label HUG vs minWidth120",
+        "Close adapter still requires consumer implementation"
+      ]
+    },
+    {
+      "id": "AgentHubFileTreeEntry",
+      "classification": "agent-hub-extension-of-common-Tree",
+      "preserve": [
+        "selection/expansion ownership",
+        "row vs chevron activation boundary",
+        "treeitem level/selected/expanded semantics"
+      ],
+      "differences": [
+        "28px row/24px row background",
+        "20px guide slots/x12 straight ancestor lines vs24px indentation/curvedconnectors",
+        "no common left2px selectedbar or5px leaf marker"
+      ],
+      "implementationLimit": "Common reference row tabIndex=-1; roving manager is consumer responsibility when needed."
+    },
+    {
+      "id": "AgentHubFileTree",
+      "classification": "agent-hub-composition-of-common-Tree",
+      "preserve": [
+        "commonTree meaning and API owner",
+        "single keyboard focus manager",
+        "actual viewport metrics"
+      ],
+      "differences": [
+        "Search32/AgentHubFileTreeEntry28",
+        "blue-gray surface/p8/gap8",
+        "sample400x991 not fixed productAPI"
+      ]
+    },
+    {
+      "id": "AgentHubFileHeader",
+      "classification": "new-agent-hub-composition",
+      "preserve": [
+        "FileTab commonTab engine",
+        "AHIconButton native activation/disabled/focus"
+      ],
+      "differences": [
+        "48px fileheader",
+        "empty/tabs/tabs-overflow",
+        "independent optionalpause/tree/more/expand/close"
+      ],
+      "notReplacementFor": "AgentHubOutputViewer34px header or commonPageHeader"
+    },
+    {
+      "id": "AgentHubFileViewer",
+      "classification": "new-agent-hub-code-content",
+      "preserve": [
+        "actual code text/clipboardsource",
+        "AHIconButton semantics",
+        "nativeviewport scroll owner"
+      ],
+      "differences": [
+        "42px plain path",
+        "code12/20 instanceoverride",
+        "copy/maximize actions"
+      ],
+      "relationToExistingOutputViewer": "Possible product body renderer composition; sourceFigma does not prove nesting in existing empty SLOT."
+    }
+  ],
+  "productRequirementsSeparateFromFigma": [
+    "controlled API names in implementation docs",
+    "keyboard focus manager and overflow reveal",
+    "real native scroll viewport/metrics",
+    "clipboard success/failure feedback",
+    "request cancel/stale result policy",
+    "optional menu item data"
+  ],
+  "unmappedComponents": [
+    "AgentHubCodeLine",
+    "AgentHubIndentGuide",
+    "AgentHubFileTab",
+    "AgentHubFileHeader",
+    "AgentHubFileTreeEntry",
+    "AgentHubFileTree",
+    "AgentHubFileViewer"
+  ]
+}

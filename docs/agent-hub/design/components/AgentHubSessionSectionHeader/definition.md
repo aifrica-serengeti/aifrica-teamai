@@ -22,6 +22,7 @@ collapsed도 제품의 Boolean에 명시적으로 매핑하며 문자열 이름�
 | filled 출력 | true | true / 5 | true |
 | filled 컨텍스트 | true | false / 5 | true |
 | empty 출력·컨텍스트 | false | false / 0 | true |
+| no-runtime 환경(2026-11-05 추가 context) | false | false / 0 | false |
 
 부모의 실제 Header는 모두 펼침 원본 `2986:22115`를 재사용합니다. 독립 collapsed=true 원본은 `2986:22127`입니다.
 원본 설명만으로 출력의 action을 숨기거나 empty 섹션에 toggle을 추가하지 않습니다.
