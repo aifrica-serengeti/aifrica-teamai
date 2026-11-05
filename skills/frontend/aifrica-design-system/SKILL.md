@@ -47,6 +47,13 @@ foundation scale과 semantic 역할, component role을 구분한다. color는 �
 같은 의미의 token을 다른 이름으로 반복하거나 컴포넌트에서 raw 값을 반복하지 않는다.
 solution이 컴포넌트 계약을 바꾸면 version/compatibility/migration을 명시하고 공통 문서를 조용히 덮어쓰지 않는다.
 
+토큰 변경표를 반영할 때는 선택 솔루션 foundation의 변경 목록·원본 관찰 기록을 먼저 읽고, 신규 semantic 추가와
+Primitive 값 교체를 구분한다. 변경표에 적힌 alias 이름과 도구가 확인한 native alias·mode·ID의 증거를 나누며,
+resolved 값만 있으면 전체 graph·dark 값·제품 채택을 추정하지 않는다. 문맥 변수 전체를 신규 토큰으로 세지 않는다.
+같은 값이어도 상태·선택 여부·컴포넌트 역할이 다른 token을 합치지 않고 alpha를 합성된 불투명 색으로 치환하지 않는다.
+영향받는 component의 현재 사용 안내와 token 참조는 갱신하되 과거 실측 snapshot은 보존한다.
+제품의 실제 token owner에 연결한 범위만 로컬 채택 설정에 기록하고, 제품 코드 반영과 가이드 배포를 구분한다.
+
 ## 공개 계약과 검증
 
 component의 정의·행동·접근성·의존성·검증 문서와 registry를 design 가이드에 맞게 동기화한다.

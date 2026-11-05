@@ -1,0 +1,435 @@
+<frame id="3478:22777" name="token-changelog" x="-6482" y="14006" width="2450" height="3115">
+  <frame id="3478:22778" name="Header" x="64" y="64" width="923" height="110">
+    <text id="3478:22779" name="추가된 토큰 정리(따로 개발팀에게 공유드릴 예정)" x="0" y="0" width="923" height="72" />
+    <text id="3478:22780" name="Figma 코멘트 기준 · #2 Semantic 컬렉션에 추가된 컬러 토큰과 적용처" x="0" y="80" width="563" height="30" />
+  </frame>
+  <frame id="3478:22781" name="Table" x="64" y="206" width="2322" height="2845">
+    <frame id="3478:22782" name="Row/Header" x="1" y="1" width="2320" height="57">
+      <frame id="3478:22783" name="Cell/날짜" x="0" y="0" width="200" height="56">
+        <text id="3478:22784" name="날짜" x="24" y="16" width="28" height="24" />
+      </frame>
+      <frame id="3478:22785" name="Cell/추가된 토큰" x="200" y="0" width="560" height="56">
+        <text id="3478:22786" name="추가된 토큰" x="24" y="16" width="73" height="24" />
+      </frame>
+      <frame id="3478:22787" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="56">
+        <text id="3478:22788" name="비고 (적용된 이유와 시안)" x="24" y="16" width="162" height="24" />
+      </frame>
+      <frame id="3478:22789" name="Cell/링크" x="1800" y="0" width="520" height="56">
+        <text id="3478:22790" name="링크" x="24" y="16" width="28" height="24" />
+      </frame>
+    </frame>
+    <frame id="3478:22791" name="Row" x="1" y="58" width="2320" height="181">
+      <frame id="3478:22792" name="Cell/날짜" x="0" y="0" width="200" height="180">
+        <text id="3478:22793" name="2026.10.22" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3478:22794" name="Cell/추가된 토큰" x="200" y="0" width="560" height="180">
+        <frame id="3478:22795" name="Token" x="24" y="24" width="328" height="27">
+          <rounded-rectangle id="3478:22796" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3478:22797" name="color/button/opacity-active" x="36" y="0" width="292" height="27" />
+        </frame>
+        <text id="3478:22798" name="→ alpha/100" x="24" y="59" width="99" height="23" />
+      </frame>
+      <frame id="3478:22799" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="180">
+        <text id="3478:22800" name="Icon button의 active 상태 배경 컬러가 필요해 버튼용 토큰으로 추가. icon-button state=active 전 variant(ghost·outlined / 20·24·32)에 적용 완료." x="24" y="24" width="992" height="52" />
+        <frame id="3478:22801" name="시안" x="24" y="92" width="148" height="64">
+          <instance id="3478:22802" name="icon-button" x="16" y="16" width="32" height="32" />
+          <instance id="3478:22806" name="icon-button" x="64" y="16" width="32" height="32" />
+          <instance id="3478:22810" name="icon-button" x="112" y="22" width="20" height="20" />
+        </frame>
+      </frame>
+      <frame id="3478:22814" name="Cell/링크" x="1800" y="0" width="520" height="180">
+        <text id="3478:22815" name="icon-button · state=active ↗" x="24" y="24" width="472" height="24" />
+        <text id="3478:22816" name="icon-button 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3478:22817" name="Row" x="1" y="239" width="2320" height="159">
+      <frame id="3478:22818" name="Cell/날짜" x="0" y="0" width="200" height="158">
+        <text id="3478:22819" name="2026.10.23" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3478:22820" name="Cell/추가된 토큰" x="200" y="0" width="560" height="158">
+        <frame id="3478:22821" name="Token" x="24" y="24" width="349" height="27">
+          <rounded-rectangle id="3478:22822" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3478:22823" name="color/action/default-disabled" x="36" y="0" width="313" height="27" />
+        </frame>
+        <text id="3478:22824" name="→ Monochrome/white" x="24" y="59" width="162" height="23" />
+      </frame>
+      <frame id="3478:22825" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="158">
+        <text id="3478:22826" name="Filter chip 미선택(selected=false) disabled 상태 배경에 적용. sm·md·lg 사이즈 공통." x="24" y="24" width="992" height="26" />
+        <frame id="3478:22827" name="시안" x="24" y="66" width="211" height="68">
+          <instance id="3478:22828" name="filter-chip" x="16" y="20" width="45" height="28" />
+          <instance id="3478:22833" name="filter-chip" x="77" y="18" width="49" height="32" />
+          <instance id="3478:22838" name="filter-chip" x="142" y="16" width="53" height="36" />
+        </frame>
+      </frame>
+      <frame id="3478:22843" name="Cell/링크" x="1800" y="0" width="520" height="158">
+        <text id="3478:22844" name="filter-chip · selected=false, disabled ↗" x="24" y="24" width="472" height="24" />
+        <text id="3478:22845" name="filter-chip 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3478:22846" name="Row" x="1" y="398" width="2320" height="159">
+      <frame id="3478:22847" name="Cell/날짜" x="0" y="0" width="200" height="158">
+        <text id="3478:22848" name="2026.10.23" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3478:22849" name="Cell/추가된 토큰" x="200" y="0" width="560" height="158">
+        <frame id="3478:22850" name="Token" x="24" y="24" width="436" height="27">
+          <rounded-rectangle id="3478:22851" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3478:22852" name="color/action/default-selected-hovered" x="36" y="0" width="400" height="27" />
+        </frame>
+        <text id="3478:22853" name="→ blue/100" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3478:22854" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="158">
+        <text id="3478:22855" name="Filter chip 선택(selected=true) 상태의 hover 배경에 적용. sm·md·lg 사이즈 공통." x="24" y="24" width="992" height="26" />
+        <frame id="3478:22856" name="시안" x="24" y="66" width="211" height="68">
+          <instance id="3478:22857" name="filter-chip" x="16" y="20" width="45" height="28" />
+          <instance id="3478:22862" name="filter-chip" x="77" y="18" width="49" height="32" />
+          <instance id="3478:22867" name="filter-chip" x="142" y="16" width="53" height="36" />
+        </frame>
+      </frame>
+      <frame id="3478:22872" name="Cell/링크" x="1800" y="0" width="520" height="158">
+        <text id="3478:22873" name="filter-chip · selected=true, hovered ↗" x="24" y="24" width="472" height="24" />
+        <text id="3478:22874" name="filter-chip 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3478:22875" name="Row" x="1" y="557" width="2320" height="159">
+      <frame id="3478:22876" name="Cell/날짜" x="0" y="0" width="200" height="158">
+        <text id="3478:22877" name="2026.10.23" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3478:22878" name="Cell/추가된 토큰" x="200" y="0" width="560" height="158">
+        <frame id="3478:22879" name="Token" x="24" y="24" width="436" height="27">
+          <rounded-rectangle id="3478:22880" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3478:22881" name="color/action/default-selected-pressed" x="36" y="0" width="400" height="27" />
+        </frame>
+        <text id="3478:22882" name="→ blue/200" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3478:22883" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="158">
+        <text id="3478:22884" name="Filter chip 선택(selected=true) 상태의 pressed 배경에 적용. sm·md·lg 사이즈 공통." x="24" y="24" width="992" height="26" />
+        <frame id="3478:22885" name="시안" x="24" y="66" width="211" height="68">
+          <instance id="3478:22886" name="filter-chip" x="16" y="20" width="45" height="28" />
+          <instance id="3478:22891" name="filter-chip" x="77" y="18" width="49" height="32" />
+          <instance id="3478:22896" name="filter-chip" x="142" y="16" width="53" height="36" />
+        </frame>
+      </frame>
+      <frame id="3478:22901" name="Cell/링크" x="1800" y="0" width="520" height="158">
+        <text id="3478:22902" name="filter-chip · selected=true, pressed ↗" x="24" y="24" width="472" height="24" />
+        <text id="3478:22903" name="filter-chip 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3478:22904" name="Row" x="1" y="716" width="2320" height="147">
+      <frame id="3478:22905" name="Cell/날짜" x="0" y="0" width="200" height="146">
+        <text id="3478:22906" name="2026.10.23" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3478:22907" name="Cell/추가된 토큰" x="200" y="0" width="560" height="146">
+        <frame id="3478:22908" name="Token" x="24" y="24" width="317" height="27">
+          <rounded-rectangle id="3478:22909" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3478:22910" name="color/element/gray-subtler" x="36" y="0" width="281" height="27" />
+        </frame>
+        <text id="3478:22911" name="→ gray/300" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3478:22912" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="146">
+        <text id="3478:22913" name="Badge 요소 컬러로 적용. SCH-03 화면과 UI Guideline의 Badge에 반영." x="24" y="24" width="992" height="26" />
+        <frame id="3478:22914" name="시안" x="24" y="66" width="96" height="56">
+          <frame id="3460:43231" name="Badge" x="16" y="16" width="24" height="24">
+            <text id="3460:43232" name="Control Label" x="4" y="7.5" width="16" height="9" />
+          </frame>
+          <frame id="3460:43233" name="Badge" x="56" y="16" width="24" height="24">
+            <text id="3460:43234" name="Control Label" x="4" y="7.5" width="16" height="9" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3478:22919" name="Cell/링크" x="1800" y="0" width="520" height="146">
+        <text id="3478:22920" name="SCH-03 · Badge ↗" x="24" y="24" width="472" height="24" />
+        <text id="3478:22921" name="UI Guideline · Badge ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:366" name="Row" x="1" y="863" width="2320" height="169">
+      <frame id="3732:367" name="Cell/날짜" x="0" y="0" width="200" height="168">
+        <text id="3732:368" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:369" name="Cell/추가된 토큰" x="200" y="0" width="560" height="168">
+        <frame id="3732:370" name="Token" x="24" y="24" width="198" height="27">
+          <rounded-rectangle id="3732:371" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:372" name="color/code/text" x="36" y="0" width="162" height="27" />
+        </frame>
+        <text id="3732:373" name="→ gray/900" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3732:374" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="168">
+        <text id="3732:375" name="코드 뷰의 기본 글자색(변수명·연산자·구두점). 범용 color/text/default 대신 코드 뷰 전용으로 분리. code-line 전 variant의 content/code와 CodeBlock 인스턴스에 적용." x="24" y="24" width="992" height="52" />
+        <frame id="3732:376" name="시안" x="24" y="92" width="400.5" height="52">
+          <instance id="3732:384" name="code-line" x="16" y="16" width="368.5" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:381" name="Cell/링크" x="1800" y="0" width="520" height="168">
+        <text id="3732:382" name="code-line · content/code ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:383" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:392" name="Row" x="1" y="1032" width="2320" height="143">
+      <frame id="3732:393" name="Cell/날짜" x="0" y="0" width="200" height="142">
+        <text id="3732:394" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:395" name="Cell/추가된 토큰" x="200" y="0" width="560" height="142">
+        <frame id="3732:396" name="Token" x="24" y="24" width="274" height="27">
+          <rounded-rectangle id="3732:397" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:398" name="color/code/line-number" x="36" y="0" width="238" height="27" />
+        </frame>
+        <text id="3732:399" name="→ gray/700" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3732:400" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="142">
+        <text id="3732:401" name="코드 뷰 거터의 줄 번호 기본 글자색. code-line state=enabled의 gutter/number에 적용." x="24" y="24" width="992" height="26" />
+        <frame id="3732:402" name="시안" x="24" y="66" width="400.5" height="52">
+          <instance id="3732:410" name="code-line" x="16" y="16" width="368.5" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:407" name="Cell/링크" x="1800" y="0" width="520" height="142">
+        <text id="3732:408" name="code-line · gutter/number ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:409" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:418" name="Row" x="1" y="1175" width="2320" height="143">
+      <frame id="3732:419" name="Cell/날짜" x="0" y="0" width="200" height="142">
+        <text id="3732:420" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:421" name="Cell/추가된 토큰" x="200" y="0" width="560" height="142">
+        <frame id="3732:422" name="Token" x="24" y="24" width="360" height="27">
+          <rounded-rectangle id="3732:423" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:424" name="color/code/line-number-current" x="36" y="0" width="324" height="27" />
+        </frame>
+        <text id="3732:425" name="→ gray/900" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3732:426" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="142">
+        <text id="3732:427" name="현재 줄(state=current)과 빈 상태(state=empty)의 줄 번호 글자색. gutter/number에 적용." x="24" y="24" width="992" height="26" />
+        <frame id="3732:428" name="시안" x="24" y="66" width="832" height="52">
+          <instance id="3732:436" name="code-line" x="16" y="16" width="800" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:433" name="Cell/링크" x="1800" y="0" width="520" height="142">
+        <text id="3732:434" name="code-line · state=current ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:435" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:445" name="Row" x="1" y="1318" width="2320" height="143">
+      <frame id="3732:446" name="Cell/날짜" x="0" y="0" width="200" height="142">
+        <text id="3732:447" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:448" name="Cell/추가된 토큰" x="200" y="0" width="560" height="142">
+        <frame id="3732:449" name="Token" x="24" y="24" width="274" height="27">
+          <rounded-rectangle id="3732:450" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:451" name="color/code/placeholder" x="36" y="0" width="238" height="27" />
+        </frame>
+        <text id="3732:452" name="→ gray/700" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3732:453" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="142">
+        <text id="3732:454" name="빈 코드 뷰(state=empty)의 안내 문구 글자색. content/placeholder에 적용." x="24" y="24" width="992" height="26" />
+        <frame id="3732:455" name="시안" x="24" y="66" width="832" height="52">
+          <instance id="3732:463" name="code-line" x="16" y="16" width="800" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:460" name="Cell/링크" x="1800" y="0" width="520" height="142">
+        <text id="3732:461" name="code-line · state=empty ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:462" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:470" name="Row" x="1" y="1461" width="2320" height="143">
+      <frame id="3732:471" name="Cell/날짜" x="0" y="0" width="200" height="142">
+        <text id="3732:472" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:473" name="Cell/추가된 토큰" x="200" y="0" width="560" height="142">
+        <frame id="3732:474" name="Token" x="24" y="24" width="231" height="27">
+          <rounded-rectangle id="3732:475" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:476" name="color/code/keyword" x="36" y="0" width="195" height="27" />
+        </frame>
+        <text id="3732:477" name="→ code/red" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3732:478" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="142">
+        <text id="3732:479" name="구문 강조: 예약어(let·const·function·return). 신규 Primitive code/red(#cf222e)를 추가해 연결. CodeBlock 코드 줄의 글자 구간에 적용." x="24" y="24" width="992" height="26" />
+        <frame id="3732:480" name="시안" x="24" y="66" width="400.5" height="52">
+          <instance id="3732:488" name="code-line" x="16" y="16" width="368.5" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:485" name="Cell/링크" x="1800" y="0" width="520" height="142">
+        <text id="3732:486" name="CodeBlock · 구문 강조 ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:487" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:494" name="Row" x="1" y="1604" width="2320" height="169">
+      <frame id="3732:495" name="Cell/날짜" x="0" y="0" width="200" height="168">
+        <text id="3732:496" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:497" name="Cell/추가된 토큰" x="200" y="0" width="560" height="168">
+        <frame id="3732:498" name="Token" x="24" y="24" width="242" height="27">
+          <rounded-rectangle id="3732:499" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:500" name="color/code/function" x="36" y="0" width="206" height="27" />
+        </frame>
+        <text id="3732:501" name="→ code/purple" x="24" y="59" width="117" height="23" />
+      </frame>
+      <frame id="3732:502" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="168">
+        <text id="3732:503" name="구문 강조: 함수·메서드 이름(addImport·push·slice). 신규 Primitive code/purple(#8250df)를 추가해 연결. CodeBlock 코드 줄의 글자 구간에 적용." x="24" y="24" width="992" height="52" />
+        <frame id="3732:504" name="시안" x="24" y="92" width="400.5" height="52">
+          <instance id="3732:512" name="code-line" x="16" y="16" width="368.5" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:509" name="Cell/링크" x="1800" y="0" width="520" height="168">
+        <text id="3732:510" name="CodeBlock · 구문 강조 ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:511" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:518" name="Row" x="1" y="1773" width="2320" height="143">
+      <frame id="3732:519" name="Cell/날짜" x="0" y="0" width="200" height="142">
+        <text id="3732:520" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:521" name="Cell/추가된 토큰" x="200" y="0" width="560" height="142">
+        <frame id="3732:522" name="Token" x="24" y="24" width="242" height="27">
+          <rounded-rectangle id="3732:523" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:524" name="color/code/constant" x="36" y="0" width="206" height="27" />
+        </frame>
+        <text id="3732:525" name="→ code/blue" x="24" y="59" width="99" height="23" />
+      </frame>
+      <frame id="3732:526" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="142">
+        <text id="3732:527" name="구문 강조: 숫자와 상수 값(0·1·undefined). 신규 Primitive code/blue(#0550ae)를 추가해 연결. CodeBlock 코드 줄의 글자 구간에 적용." x="24" y="24" width="992" height="26" />
+        <frame id="3732:528" name="시안" x="24" y="66" width="400.5" height="52">
+          <instance id="3732:536" name="code-line" x="16" y="16" width="368.5" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:533" name="Cell/링크" x="1800" y="0" width="520" height="142">
+        <text id="3732:534" name="CodeBlock · 구문 강조 ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:535" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:544" name="Row" x="1" y="1916" width="2320" height="143">
+      <frame id="3732:545" name="Cell/날짜" x="0" y="0" width="200" height="142">
+        <text id="3732:546" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:547" name="Cell/추가된 토큰" x="200" y="0" width="560" height="142">
+        <frame id="3732:548" name="Token" x="24" y="24" width="220" height="27">
+          <rounded-rectangle id="3732:549" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:550" name="color/code/string" x="36" y="0" width="184" height="27" />
+        </frame>
+        <text id="3732:551" name="→ code/navy" x="24" y="59" width="99" height="23" />
+      </frame>
+      <frame id="3732:552" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="142">
+        <text id="3732:553" name="구문 강조: 문자열 리터럴(따옴표로 감싼 값). 신규 Primitive code/navy(#0a3069)를 추가해 연결. CodeBlock 코드 줄의 글자 구간에 적용." x="24" y="24" width="992" height="26" />
+        <frame id="3732:554" name="시안" x="24" y="66" width="400.5" height="52">
+          <instance id="3732:562" name="code-line" x="16" y="16" width="368.5" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:559" name="Cell/링크" x="1800" y="0" width="520" height="142">
+        <text id="3732:560" name="CodeBlock · 구문 강조 ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:561" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:572" name="Row" x="1" y="2059" width="2320" height="143">
+      <frame id="3732:573" name="Cell/날짜" x="0" y="0" width="200" height="142">
+        <text id="3732:574" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:575" name="Cell/추가된 토큰" x="200" y="0" width="560" height="142">
+        <frame id="3732:576" name="Token" x="24" y="24" width="220" height="27">
+          <rounded-rectangle id="3732:577" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:578" name="color/code/cursor" x="36" y="0" width="184" height="27" />
+        </frame>
+        <text id="3732:579" name="→ gray/900" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3732:580" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="142">
+        <text id="3732:581" name="빈 상태(state=empty)의 입력 커서(캐럿) 채움색. content/cursor에 적용." x="24" y="24" width="992" height="26" />
+        <frame id="3732:582" name="시안" x="24" y="66" width="832" height="52">
+          <instance id="3732:590" name="code-line" x="16" y="16" width="800" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:587" name="Cell/링크" x="1800" y="0" width="520" height="142">
+        <text id="3732:588" name="code-line · state=empty ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:589" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:597" name="Row" x="1" y="2202" width="2320" height="143">
+      <frame id="3732:598" name="Cell/날짜" x="0" y="0" width="200" height="142">
+        <text id="3732:599" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:600" name="Cell/추가된 토큰" x="200" y="0" width="560" height="142">
+        <frame id="3732:601" name="Token" x="24" y="24" width="339" height="27">
+          <rounded-rectangle id="3732:602" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:603" name="color/code/line-fill-current" x="36" y="0" width="303" height="27" />
+        </frame>
+        <text id="3732:604" name="→ alpha/50" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3732:605" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="142">
+        <text id="3732:606" name="현재 줄 전체를 강조하는 배경색(검정 5%). state=current·empty의 content 배경에 적용." x="24" y="24" width="992" height="26" />
+        <frame id="3732:607" name="시안" x="24" y="66" width="832" height="52">
+          <instance id="3732:615" name="code-line" x="16" y="16" width="800" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:612" name="Cell/링크" x="1800" y="0" width="520" height="142">
+        <text id="3732:613" name="code-line · state=current ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:614" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3732:623" name="Row" x="1" y="2345" width="2320" height="143">
+      <frame id="3732:624" name="Cell/날짜" x="0" y="0" width="200" height="142">
+        <text id="3732:625" name="2026.10.29" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3732:626" name="Cell/추가된 토큰" x="200" y="0" width="560" height="142">
+        <frame id="3732:627" name="Token" x="24" y="24" width="209" height="27">
+          <rounded-rectangle id="3732:628" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3732:629" name="color/code/guide" x="36" y="0" width="173" height="27" />
+        </frame>
+        <text id="3732:630" name="→ gray/200" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3732:631" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="142">
+        <text id="3732:632" name="코드 뷰의 들여쓰기 가이드 세로선 색. guide 컴포넌트의 line에 적용되어 code-line 전 들여쓰기에 반영." x="24" y="24" width="992" height="26" />
+        <frame id="3732:633" name="시안" x="24" y="66" width="400.5" height="52">
+          <instance id="3732:641" name="code-line" x="16" y="16" width="368.5" height="20" />
+        </frame>
+      </frame>
+      <frame id="3732:638" name="Cell/링크" x="1800" y="0" width="520" height="142">
+        <text id="3732:639" name="indent-guide · line ↗" x="24" y="24" width="472" height="24" />
+        <text id="3732:640" name="code-line 컴포넌트 세트 ↗" x="24" y="56" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3790:95513" name="Row" x="1" y="2488" width="2320" height="183">
+      <frame id="3790:95514" name="Cell/날짜" x="0" y="0" width="200" height="182">
+        <text id="3790:95515" name="2026.10.30" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3790:95516" name="Cell/추가된 토큰" x="200" y="0" width="560" height="182">
+        <frame id="3790:95517" name="Token" x="24" y="24" width="263" height="27">
+          <rounded-rectangle id="3790:95518" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3790:95519" name="color/element/neutral" x="36" y="0" width="227" height="27" />
+        </frame>
+        <text id="3790:95520" name="→ gray/500" x="24" y="59" width="90" height="23" />
+      </frame>
+      <frame id="3790:95521" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="182">
+        <text id="3790:95522" name="리소스 미터 바의 정상 상태 채움 색. 경고·위험이 아닌 기본 상태를 중립 회색으로 표시. 세션 패널 리소스 섹션 시안(d-color-on-warning)의 CPU 바에 적용." x="24" y="24" width="992" height="52" />
+        <frame id="3790:95523" name="시안" x="24" y="92" width="232" height="66">
+          <frame id="3790:95537" name="resource-meter" x="16" y="16" width="200" height="34">
+            <frame id="3790:95538" name="head" x="0" y="0" width="200" height="20">
+              <text id="3790:95539" name="label" x="0" y="0" width="126" height="20" />
+              <text id="3790:95540" name="value" x="134" y="2" width="66" height="16" />
+            </frame>
+            <frame id="3790:95541" name="bar" x="0" y="26" width="200" height="8" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3790:95525" name="Cell/링크" x="1800" y="0" width="520" height="182">
+        <text id="3790:95526" name="resource-variation · d-color-on-warning  ↗" x="24" y="24" width="472" height="24" />
+      </frame>
+    </frame>
+    <frame id="3790:95543" name="Row" x="1" y="2671" width="2320" height="173">
+      <frame id="3790:95544" name="Cell/날짜" x="0" y="0" width="200" height="172">
+        <text id="3790:95545" name="2026.10.30" x="24" y="24" width="92" height="27" />
+      </frame>
+      <frame id="3790:95546" name="Cell/추가된 토큰" x="200" y="0" width="560" height="172">
+        <frame id="3790:95547" name="Token" x="24" y="24" width="144" height="27">
+          <rounded-rectangle id="3790:95548" name="swatch" x="0" y="1.5" width="24" height="24" />
+          <text id="3790:95549" name="yellow/600" x="36" y="0" width="108" height="27" />
+        </frame>
+        <text id="3790:95550" name="#D79C04 → #F2A900 (Primitive 값 변경)" x="24" y="59" width="321" height="23" />
+      </frame>
+      <frame id="3790:95551" name="Cell/비고 (적용된 이유와 시안)" x="760" y="0" width="1040" height="172">
+        <text id="3790:95552" name="Primitive yellow/600 값 변경(#D79C04 → #F2A900). 새 단계(yellow/550)를 추가하지 않고 색차가 더 가까운 600을 대체. 연결된 시맨틱: color/text/yellow-bold." x="24" y="24" width="992" height="52" />
+        <frame id="3790:95553" name="시안" x="24" y="92" width="72" height="56">
+          <rounded-rectangle id="3790:95567" name="swatch" x="16" y="16" width="40" height="24" />
+        </frame>
+      </frame>
+      <frame id="3790:95555" name="Cell/링크" x="1800" y="0" width="520" height="172">
+        <text id="3790:95556" name="—" x="24" y="24" width="472" height="24" />
+      </frame>
+    </frame>
+  </frame>
+</frame>

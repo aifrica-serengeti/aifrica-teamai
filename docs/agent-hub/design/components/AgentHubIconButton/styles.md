@@ -2,6 +2,7 @@
 
 [실측 기록](../../references/icon-button.figma.json)의 Light mode 기준입니다.
 제품의 IconButton 전용 token/variant adapter에 연결하고 공용 IconButton이나 전역 accent를 바꾸지 않습니다.
+active 배경은 아래의2026-11-05 토큰 변경 확인을 우선하며, 나머지 geometry·상태색은 기존 실측을 유지합니다.
 
 ## 크기와 radius
 
@@ -23,12 +24,18 @@
 | hovered | 검정 5% | #1C1C1C | 1px 검정 10% |
 | pressed | 검정 10% | #1C1C1C | 1px 검정 10% |
 | disabled | 투명 | #AAAAAA | 1px 검정 10% |
-| active | #EBF3FF | #1C1C1C | 1px 검정 10% |
+| active | 검정 10% (`color/button/opacity-active`) | #1C1C1C | 1px 검정 10% |
 
 ghost에는 모든 상태에서 실제 외곽선이 없습니다. outlined 선은 inside 정렬이며 disabled·active에도 유지됩니다.
-hover/pressed/border의 검정 alpha는 각각 `rgba(0,0,0,0.05/0.10/0.10)`입니다.
+hover/pressed/active/border의 검정 alpha는 각각 `rgba(0,0,0,0.05/0.10/0.10/0.10)`입니다.
 부모 배경과 합성한 회색을 고정 hex로 저장하지 않습니다. 공용 라이트 기본·hover·pressed·disabled 값과
 같고, active 표현은 Agent Hub에서 추가로 확인한 값입니다.
+
+2026-11-05에 확인한 [토큰 변경표](../../references/tokens.figma.json)의 `3478:22791`은
+`color/button/opacity-active` → `alpha/100`을 명시하며 [resolved 값](../../references/tokens.variables.figma.json)은
+`#0000001A`입니다. 이전 실측의 `color/action/default-selected`·`#EBF3FF`를 active 배경에 계속 연결하지 않습니다.
+이는 지원하는 ghost/outlined 조합의 배경 변경이며, 변경표의20/24/32 표기만으로20px outlined나 primary active를 추가하지 않습니다.
+기존 [실측 JSON](../../references/icon-button.figma.json)과 변수 기록은2026-10-20의 근거로 보존합니다.
 
 ## Primary
 
@@ -47,9 +54,11 @@ Button 스타일을 일괄 복사하거나 opacity 하나로 disabled를 만들�
 
 - radius: `radius/control-md` = 6, `radius/control-sm` = 4.
 - ghost/outlined hover·pressed·border: `color/button/opacity-hovered`, `opacity-pressed`, `opacity-border`.
-- active 배경: `color/action/default-selected` = #EBF3FF.
+- active 배경: `color/button/opacity-active` → `alpha/100`, 검정10% (`#0000001A`).
 - primary 배경: `color/button/primary-fill`과 `-hovered`, `-pressed`, `-disabled`.
 - glyph의 색상 바인딩·원본 component ID·alias는 [변수 기록](../../references/icon-buttons.variables.figma.json)과 variant별 실측을 확인합니다.
+
+신규 token의 확인 범위와 제품 연결은 [토큰 foundation](../../foundations/Tokens.md)을 따릅니다.
 
 그림자는 없습니다. dark/focus/loading 시각 variant는 이 노드에서 확인되지 않았습니다.
 공용의 focus 표시 의무를 유지하고, 미제공 색상은 제품에서 근거를 확인해 연결합니다.

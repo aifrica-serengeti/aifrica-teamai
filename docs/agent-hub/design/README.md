@@ -3,7 +3,7 @@
 `frontend-common` 묶음과 `agent-hub` 프로젝트를 함께 선택한 UI 작업에서 사용하는 확장입니다.
 `inheritCommon: false`이면 이 catalog와 공용 절차를 자동 적용하지 않고 제품 자체 지침을 따릅니다.
 
-Agent Hub 원본에서 확인한56종과 공용 폼 adapter3종, Elevation foundation의 공용 대비 차이를 정리했습니다.
+Agent Hub 원본에서 확인한56종과 공용 폼 adapter3종, Elevation과 추가 토큰 foundation의 공용 대비 차이를 정리했습니다.
 기존 제품에 호환되는 컴포넌트가 있으면 그 구현에 연결하면 됩니다. 별도 래퍼 생성을 강제하지 않습니다.
 
 | 추가 계약 | 공용과 다른 점 | 제공 자료 |
@@ -110,6 +110,9 @@ Figma 원본 이름은 chat-header이며 차트 renderer·차트 toolbar나 전�
 세로형·dark·모션은 이 시안의 확인 범위에 포함되지 않습니다.
 
 ## Foundation 확장
+
+[추가 토큰](./foundations/Tokens.md)은2026-11-05에 확인한 시맨틱17개·Primitive 변경1개와 상태별 적용 범위를 기록합니다.
+버튼 active alpha·FilterChip·Badge·코드 뷰·리소스 미터·yellow600을 현재 안내에 연결하며 과거 스냅샷과 구분합니다.
 
 [Elevation](./foundations/Elevation.md)은6레벨의 그림자·Sunken 표면과 공용 대비 차이를 설명합니다.
 Raised/Mid/Overlay/Overflow는 navy 두 겹 그림자이며, 기존 Calendar·Switch thumb와의 일치도 확인했습니다.

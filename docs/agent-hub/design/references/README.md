@@ -5,6 +5,9 @@
 
 | 파일 | 내용 |
 | --- | --- |
+| [tokens.figma.json](./tokens.figma.json) | 2026-11-05 확인한 토큰 변경18건: 시맨틱 추가17개·yellow600 Primitive 변경1개,행·적용 이유·관찰 값 |
+| [tokens.variables.figma.json](./tokens.variables.figma.json) | 변경표 노드의 resolved 문맥 변수 응답. ID·native alias·mode 목록은 미제공 |
+| [tokens.metadata.figma.xml](./tokens.metadata.figma.xml) | 변경표18행과 포함된 시안의 원문 레이어 metadata |
 | [agent-type-chip.figma.json](./agent-type-chip.figma.json) | agent-types 4종, 라벨·HUG/고정 폭·색상·radius·글꼴 |
 | [button.figma.json](./button.figma.json) | Button 44종, type/size/state별 실제 치수·fill·border·글꼴·아이콘·keycap |
 | [variables.figma.json](./variables.figma.json) | 위 값에 연결된 66개 변수의 이름·ID·alias·mode 값 |
@@ -181,6 +184,7 @@ disabled의 본문5종은 #AAAAAA입니다. 전체 opacity를 낮춰 header·div
 [Picker 패널](../components/AgentHubPicker/README.md), [Menu Item](../components/AgentHubMenuItem/README.md),
 [Menu 패널](../components/AgentHubMenu/README.md)에 있습니다.
 Foundation의 차이와 token 연결 기준은 [Elevation](../foundations/Elevation.md)을 확인합니다.
+추가 토큰과 현재 적용 범위는 [Tokens](../foundations/Tokens.md)를 함께 읽습니다. 후속 변경이 있어도 이전 날짜의 실측 JSON은 보존합니다.
 실제 source/export는 제품에서 확인한 뒤 매핑합니다.
 
 

@@ -17,6 +17,11 @@
 2026-10-20에 Figma [icon-button](https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=2427-25105)을 확인했습니다.
 32px 원형 첨부 버튼은 [AgentHubAttachIconButton](../AgentHubAttachIconButton/README.md)에서 관리합니다.
 
+2026-11-05에 확인한 [토큰 변경표](../../references/tokens.figma.json)의 `3478:22791`은
+ghost/outlined의 active 배경을 `color/button/opacity-active` → `alpha/100`으로 연결합니다.
+현재 연결에는 [토큰 foundation](../../foundations/Tokens.md)을 적용하고, 이전33종 실측의
+`#EBF3FF` active는 과거 근거로 보존합니다. primary나 미확인 size/variant 조합을 추가하는 변경은 아닙니다.
+
 ## 2026-10-26 예약 페이지 점검 보강
 
 Dialog의 legacy glyph24를 보존하는 제품 조합은 optional `iconSize`를 사용할 수 있습니다.

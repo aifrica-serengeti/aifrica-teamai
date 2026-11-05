@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "solution": "agent-hub",
+  "status": "figma-changelog-reference",
+  "capturedAt": "2026-11-05",
+  "source": {
+    "fileKey": "cUKHT2PdHjAKRXZlzulnO5",
+    "nodeId": "3478:22777",
+    "url": "https://www.figma.com/design/cUKHT2PdHjAKRXZlzulnO5/?node-id=3478-22777"
+  },
+  "capture": {
+    "methods": [
+      "get_metadata",
+      "get_variable_defs",
+      "get_screenshot"
+    ],
+    "appearance": "밝은 배경의 변경표와 포함된 시안",
+    "nativeVariableGraphAvailable": false,
+    "variableIds": null,
+    "modeIds": null,
+    "runtimeVerified": false
+  },
+  "changes": [
+    {
+      "name": "color/button/opacity-active",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-22",
+      "rowNodeId": "3478:22791",
+      "resolvedHex": "#0000001a",
+      "reportedPrimitiveAlias": "alpha/100",
+      "usage": "Icon button의 active 상태 배경 컬러가 필요해 버튼용 토큰으로 추가. icon-button state=active 전 variant(ghost·outlined / 20·24·32)에 적용 완료.",
+      "sampleNodeIds": [
+        "3478:22802",
+        "3478:22806",
+        "3478:22810"
+      ],
+      "linkLabels": [
+        "icon-button · state=active ↗",
+        "icon-button 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ alpha/100"
+    },
+    {
+      "name": "color/action/default-disabled",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-23",
+      "rowNodeId": "3478:22817",
+      "resolvedHex": "#ffffff",
+      "reportedPrimitiveAlias": "Monochrome/white",
+      "usage": "Filter chip 미선택(selected=false) disabled 상태 배경에 적용. sm·md·lg 사이즈 공통.",
+      "sampleNodeIds": [
+        "3478:22828",
+        "3478:22833",
+        "3478:22838"
+      ],
+      "linkLabels": [
+        "filter-chip · selected=false, disabled ↗",
+        "filter-chip 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ Monochrome/white"
+    },
+    {
+      "name": "color/action/default-selected-hovered",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-23",
+      "rowNodeId": "3478:22846",
+      "resolvedHex": "#cce0ff",
+      "reportedPrimitiveAlias": "blue/100",
+      "usage": "Filter chip 선택(selected=true) 상태의 hover 배경에 적용. sm·md·lg 사이즈 공통.",
+      "sampleNodeIds": [
+        "3478:22857",
+        "3478:22862",
+        "3478:22867"
+      ],
+      "linkLabels": [
+        "filter-chip · selected=true, hovered ↗",
+        "filter-chip 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ blue/100"
+    },
+    {
+      "name": "color/action/default-selected-pressed",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-23",
+      "rowNodeId": "3478:22875",
+      "resolvedHex": "#99c2ff",
+      "reportedPrimitiveAlias": "blue/200",
+      "usage": "Filter chip 선택(selected=true) 상태의 pressed 배경에 적용. sm·md·lg 사이즈 공통.",
+      "sampleNodeIds": [
+        "3478:22886",
+        "3478:22891",
+        "3478:22896"
+      ],
+      "linkLabels": [
+        "filter-chip · selected=true, pressed ↗",
+        "filter-chip 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ blue/200"
+    },
+    {
+      "name": "color/element/gray-subtler",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-23",
+      "rowNodeId": "3478:22904",
+      "resolvedHex": "#dddddd",
+      "reportedPrimitiveAlias": "gray/300",
+      "usage": "Badge 요소 컬러로 적용. SCH-03 화면과 UI Guideline의 Badge에 반영.",
+      "sampleNodeIds": [],
+      "linkLabels": [
+        "SCH-03 · Badge ↗",
+        "UI Guideline · Badge ↗"
+      ],
+      "sourceAnnotation": "→ gray/300"
+    },
+    {
+      "name": "color/code/text",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:366",
+      "resolvedHex": "#1c1c1c",
+      "reportedPrimitiveAlias": "gray/900",
+      "usage": "코드 뷰의 기본 글자색(변수명·연산자·구두점). 범용 color/text/default 대신 코드 뷰 전용으로 분리. code-line 전 variant의 content/code와 CodeBlock 인스턴스에 적용.",
+      "sampleNodeIds": [
+        "3732:384"
+      ],
+      "linkLabels": [
+        "code-line · content/code ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ gray/900"
+    },
+    {
+      "name": "color/code/line-number",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:392",
+      "resolvedHex": "#555555",
+      "reportedPrimitiveAlias": "gray/700",
+      "usage": "코드 뷰 거터의 줄 번호 기본 글자색. code-line state=enabled의 gutter/number에 적용.",
+      "sampleNodeIds": [
+        "3732:410"
+      ],
+      "linkLabels": [
+        "code-line · gutter/number ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ gray/700"
+    },
+    {
+      "name": "color/code/line-number-current",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:418",
+      "resolvedHex": "#1c1c1c",
+      "reportedPrimitiveAlias": "gray/900",
+      "usage": "현재 줄(state=current)과 빈 상태(state=empty)의 줄 번호 글자색. gutter/number에 적용.",
+      "sampleNodeIds": [
+        "3732:436"
+      ],
+      "linkLabels": [
+        "code-line · state=current ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ gray/900"
+    },
+    {
+      "name": "color/code/placeholder",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:445",
+      "resolvedHex": "#555555",
+      "reportedPrimitiveAlias": "gray/700",
+      "usage": "빈 코드 뷰(state=empty)의 안내 문구 글자색. content/placeholder에 적용.",
+      "sampleNodeIds": [
+        "3732:463"
+      ],
+      "linkLabels": [
+        "code-line · state=empty ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ gray/700"
+    },
+    {
+      "name": "color/code/keyword",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:470",
+      "resolvedHex": "#cf222e",
+      "reportedPrimitiveAlias": "code/red",
+      "usage": "구문 강조: 예약어(let·const·function·return). 신규 Primitive code/red(#cf222e)를 추가해 연결. CodeBlock 코드 줄의 글자 구간에 적용.",
+      "sampleNodeIds": [
+        "3732:488"
+      ],
+      "linkLabels": [
+        "CodeBlock · 구문 강조 ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ code/red"
+    },
+    {
+      "name": "color/code/function",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:494",
+      "resolvedHex": "#8250df",
+      "reportedPrimitiveAlias": "code/purple",
+      "usage": "구문 강조: 함수·메서드 이름(addImport·push·slice). 신규 Primitive code/purple(#8250df)를 추가해 연결. CodeBlock 코드 줄의 글자 구간에 적용.",
+      "sampleNodeIds": [
+        "3732:512"
+      ],
+      "linkLabels": [
+        "CodeBlock · 구문 강조 ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ code/purple"
+    },
+    {
+      "name": "color/code/constant",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:518",
+      "resolvedHex": "#0550ae",
+      "reportedPrimitiveAlias": "code/blue",
+      "usage": "구문 강조: 숫자와 상수 값(0·1·undefined). 신규 Primitive code/blue(#0550ae)를 추가해 연결. CodeBlock 코드 줄의 글자 구간에 적용.",
+      "sampleNodeIds": [
+        "3732:536"
+      ],
+      "linkLabels": [
+        "CodeBlock · 구문 강조 ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ code/blue"
+    },
+    {
+      "name": "color/code/string",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:544",
+      "resolvedHex": "#0a3069",
+      "reportedPrimitiveAlias": "code/navy",
+      "usage": "구문 강조: 문자열 리터럴(따옴표로 감싼 값). 신규 Primitive code/navy(#0a3069)를 추가해 연결. CodeBlock 코드 줄의 글자 구간에 적용.",
+      "sampleNodeIds": [
+        "3732:562"
+      ],
+      "linkLabels": [
+        "CodeBlock · 구문 강조 ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ code/navy"
+    },
+    {
+      "name": "color/code/cursor",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:572",
+      "resolvedHex": "#1c1c1c",
+      "reportedPrimitiveAlias": "gray/900",
+      "usage": "빈 상태(state=empty)의 입력 커서(캐럿) 채움색. content/cursor에 적용.",
+      "sampleNodeIds": [
+        "3732:590"
+      ],
+      "linkLabels": [
+        "code-line · state=empty ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ gray/900"
+    },
+    {
+      "name": "color/code/line-fill-current",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:597",
+      "resolvedHex": "#0000000d",
+      "reportedPrimitiveAlias": "alpha/50",
+      "usage": "현재 줄 전체를 강조하는 배경색(검정 5%). state=current·empty의 content 배경에 적용.",
+      "sampleNodeIds": [
+        "3732:615"
+      ],
+      "linkLabels": [
+        "code-line · state=current ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ alpha/50"
+    },
+    {
+      "name": "color/code/guide",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-29",
+      "rowNodeId": "3732:623",
+      "resolvedHex": "#eeeeee",
+      "reportedPrimitiveAlias": "gray/200",
+      "usage": "코드 뷰의 들여쓰기 가이드 세로선 색. guide 컴포넌트의 line에 적용되어 code-line 전 들여쓰기에 반영.",
+      "sampleNodeIds": [
+        "3732:641"
+      ],
+      "linkLabels": [
+        "indent-guide · line ↗",
+        "code-line 컴포넌트 세트 ↗"
+      ],
+      "sourceAnnotation": "→ gray/200"
+    },
+    {
+      "name": "color/element/neutral",
+      "kind": "semantic-addition",
+      "changedAt": "2026-10-30",
+      "rowNodeId": "3790:95513",
+      "resolvedHex": "#8f8f8f",
+      "reportedPrimitiveAlias": "gray/500",
+      "usage": "리소스 미터 바의 정상 상태 채움 색. 경고·위험이 아닌 기본 상태를 중립 회색으로 표시. 세션 패널 리소스 섹션 시안(d-color-on-warning)의 CPU 바에 적용.",
+      "sampleNodeIds": [],
+      "linkLabels": [
+        "resource-variation · d-color-on-warning  ↗"
+      ],
+      "sourceAnnotation": "→ gray/500"
+    },
+    {
+      "name": "yellow/600",
+      "kind": "primitive-update",
+      "changedAt": "2026-10-30",
+      "rowNodeId": "3790:95543",
+      "resolvedHex": "#f2a900",
+      "reportedPrimitiveAlias": null,
+      "usage": "Primitive yellow/600 값 변경(#D79C04 → #F2A900). 새 단계(yellow/550)를 추가하지 않고 색차가 더 가까운 600을 대체. 연결된 시맨틱: color/text/yellow-bold.",
+      "sampleNodeIds": [],
+      "linkLabels": [
+        "—"
+      ],
+      "sourceAnnotation": "#D79C04 → #F2A900 (Primitive 값 변경)",
+      "previousHex": "#d79c04",
+      "reportedDependentSemanticTokens": [
+        "color/text/yellow-bold"
+      ]
+    }
+  ],
+  "limitations": [
+    "이 변경표에 나온 18개 항목만 기록하며 전체 토큰 컬렉션을 뜻하지 않습니다.",
+    "reportedPrimitiveAlias는 변경표 설명에 적힌 이름이며 native alias ID·전체 mode graph는 수집하지 못했습니다.",
+    "코드 구문 강조용 Primitive code/red·purple·blue·navy의 신규 추가는 해당 usage 원문에 기록된 내용입니다.",
+    "yellow/600의 연결 시맨틱 color/text/yellow-bold는 변경표의 설명이며 이 노드의 resolved variable 응답에는 포함되지 않습니다.",
+    "기존 날짜의 컴포넌트 실측 스냅샷과 제품 구현 채택은 별도로 검증합니다."
+  ]
+}

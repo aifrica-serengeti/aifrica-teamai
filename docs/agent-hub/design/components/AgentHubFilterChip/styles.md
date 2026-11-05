@@ -38,6 +38,21 @@ root는 가로HUG·세로FIXED·중앙 정렬이며 maxWidth는 미설정입니�
 선택 라벨은 #1C1C1C입니다. disabled의 공용 일괄 #EEEEEE 배경도 이 원본과 다릅니다.
 공용 palette나 다른 Agent Hub 컴포넌트의 상태색을 전역 변경하지 않고 component semantic token에 연결합니다.
 
+### 2026-11-05 확인: 상태별 토큰 연결
+
+[토큰 변경표](../../references/tokens.figma.json)의 `3478:22817`·`3478:22846`·`3478:22875`는
+다음 alias를 추가합니다. resolved 색은 위의 기존 Light 실측과 같으며 sm·md·lg에 공통으로 적용합니다.
+
+| selected / state | semantic token | 변경표의 primitive alias | resolved 색 |
+| --- | --- | --- | --- |
+| false / disabled | `color/action/default-disabled` | `Monochrome/white` | #FFFFFF |
+| true / hovered | `color/action/default-selected-hovered` | `blue/100` | #CCE0FF |
+| true / pressed | `color/action/default-selected-pressed` | `blue/200` | #99C2FF |
+
+`color/action/default-disabled`의 적용 대상은 미선택 disabled입니다. 선택된 disabled의 기존 `#F4F4F4` 배경까지
+흰색으로 바꾸지 않습니다. [resolved 기록](../../references/tokens.variables.figma.json)과
+[토큰 foundation](../../foundations/Tokens.md)에서 확인 범위를 읽고, 과거24종 실측·변수 JSON은 원본 근거로 보존합니다.
+
 root의 `strokesIncludedInLayout: true`를 보존합니다. ‘전체’ 샘플의 미선택/disabled 폭은47/51/55px,
 선택 enabled/hovered/pressed 폭은45/49/53px입니다. 실제 선 유무 때문에 내용 기반 폭이2px 달라집니다.
 selected의 `strokeWeight: 1`만 보고 투명/실제 border를 추가하면 이 관계가 달라집니다.

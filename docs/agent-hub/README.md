@@ -11,6 +11,8 @@
 
 Agent Hub의 [디자인 컴포넌트·자산 확장](./design/README.md)은 Figma에서 확인했고,
 전용 계약과 원본 자산을 추가했다. 전체 테마·페이지·실제 구현 경로·업무 정책은 아직 미확인이다.
+[추가 토큰](./design/foundations/Tokens.md)에서 버튼·선택·Badge·코드·리소스와 Primitive 변경을 확인한다.
+현재 값과 상태별 적용 범위는 후속 변경표를 따르고,이전 컴포넌트 실측과 제품 채택 증거를 구분한다.
 제품 이름만으로 화면·도메인·라우팅 구조를 추정하지 않는다.
 경로 탐색은 [Breadcrumb](./design/components/AgentHubBreadcrumb/README.md)과
 [전용 구분자](./design/components/AgentHubBreadcrumbSeparator/README.md)에서 공용 대비 글꼴·색상·간격을 확인한다.

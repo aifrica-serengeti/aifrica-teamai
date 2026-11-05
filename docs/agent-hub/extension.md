@@ -110,6 +110,8 @@ Frontend 작업일 때 `DOCS_ROOT/frontend/design/contract-levels.md`와
 4. 공통과 Agent Hub 추가 registry id에 맞춰 `components`를 매핑한다. source와 export를 확인했을 때만
    `status: implemented`로 기록한다. 빈 map 또는 `unmapped`는 제품에 구현이 없다는 뜻이 아니다.
 5. `tokens`의 brand/color/typography/border/spacing/radius/elevation/motion에 확인한 의미 token을 넣는다.
+   [추가 토큰](./design/foundations/Tokens.md)의 시맨틱17개·Primitive 변경1개를 상태·선택 여부와 대조하고,
+   변경표의 alias 설명과 native graph 확인 범위를 구분한다. 과거 snapshot은 보존하며 제품 구현을 확인한 항목만 채택한다.
    palette 이름과 brand primary를 구분하고 light/dark 및 hover/focus/error/disabled 상태를 함께 검증한다.
 6. `pagePatterns.list/create/detail`에 확인한 maxWidth, pageSize·options, layout, sections,
    navigationPolicy를 추가한다. 공통 page 상태·접근성 계약을 그대로 적용한다.
